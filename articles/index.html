@@ -36,5 +36,6 @@ fetch('../data/site.json',{cache:'no-store'}).then(function(r){return r.json()})
   el.innerHTML=A.map(function(a){return '<a class="card notecard" href="'+a.slug+'/">'+(a.image?'<img class="thumb" src="'+a.image+'" alt="">':'<div class="thumb"></div>')+'<div class="t"><span class="chip" style="align-self:flex-start">'+a.category+'</span><span class="title">'+a.title+'</span><span class="muted num" style="font-size:11px">'+a.date+'</span></div></a>'}).join('');
 });
 </script>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "abf23c1820ac43539efd93c2112996da"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>

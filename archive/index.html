@@ -37,5 +37,6 @@ fetch('../data/site.json',{cache:'no-store'}).then(function(r){return r.json()})
   document.getElementById('list').innerHTML=d.archive.map(function(r){return '<div class="row" id="'+r.date+'"><span class="num d">'+r.label+'</span><span class="num v">'+y(r.total)+'</span>'+p(r.diff_pct)+'<span class="m">'+(r.memo||'')+'</span></div>'}).join('');
 });
 </script>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "abf23c1820ac43539efd93c2112996da"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
