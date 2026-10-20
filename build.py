@@ -23,6 +23,7 @@ for code, m in META.items():
     t = t.replace('<meta property="og:url" content="https://yuki-capital.com/">', f'<meta property="og:url" content="https://yuki-capital.com/{code}/">')
     # relative paths one level up
     t = re.sub(r'(href|src)="(assets|images|data|articles|archive|about)/', r'\1="../\2/', t)
+    t = t.replace('href="favicon.ico"', 'href="../favicon.ico"')
     # language switch
     t = t.replace('<a href="./" data-setlang="ja" class="on">日本語</a><a href="en/" data-setlang="en">EN</a><a href="zh/" data-setlang="zh">中文</a>',
                   '<a href="../" data-setlang="ja"%s>日本語</a><a href="../en/" data-setlang="en"%s>EN</a><a href="../zh/" data-setlang="zh"%s>中文</a>' % (
