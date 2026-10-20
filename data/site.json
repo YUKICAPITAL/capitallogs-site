@@ -94,7 +94,9 @@
       "status_en": "Not yet",
       "title_zh": "SpaceX 加仓500股",
       "rule_zh": "收盘价跌破100美元时",
-      "status_zh": "未达"
+      "status_zh": "未达",
+      "now_en": "$146.03",
+      "now_zh": "146.03 美元"
     },
     {
       "title": "IonQ を 1,250株 買い直す",
@@ -106,7 +108,9 @@
       "status_en": "Not filled",
       "title_zh": "买回 IonQ 1,250股",
       "rule_zh": "28.5美元限价",
-      "status_zh": "未成交"
+      "status_zh": "未成交",
+      "now_en": "$31.28",
+      "now_zh": "31.28 美元"
     },
     {
       "title": "三井住友FG を買い増し",
