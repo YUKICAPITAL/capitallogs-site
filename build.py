@@ -4,6 +4,10 @@
 import re, os, pathlib
 ROOT = pathlib.Path(__file__).parent
 src = (ROOT / 'index.html').read_text(encoding='utf-8')
+import time
+ver = time.strftime('%Y%m%d%H%M')
+src = re.sub(r'\?v=(VER|\d+)', '?v=' + ver, src)
+(ROOT / 'index.html').write_text(src, encoding='utf-8')
 META = {
     'en': dict(lang='en', title='YUKI CAPITAL｜Capital Logs',
                desc='A Tokyo business owner publishes his total financial assets and every buy/no-buy decision, daily, as they are. X, note and the articles on this site, all from here.',
