@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T08:30:00+09:00",
+  "updated": "2026-10-20T12:30:00+09:00",
   "profile": {
     "name": "YUKI CAPITAL",
     "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -16,47 +16,43 @@
     "note": "https://note.com/capitallogs"
   },
   "capital": {
-    "date": "2026-10-19",
-    "label": "10.19（月）",
-    "total": 389388548,
-    "diff": -4337529,
-    "diff_pct": -1.1,
-    "unreal": 57897093,
-    "unreal_pct": 18.41,
-    "cash": 17041762,
-    "cash_pct": 4.38,
+    "date": "2026-10-20",
+    "label": "10.20（火）",
+    "total": 387889706,
+    "diff": -1498842,
+    "diff_pct": -0.38,
+    "unreal": 56428539,
+    "unreal_pct": 17.95,
+    "cash": 17011474,
+    "cash_pct": 4.39,
     "trade": "なし",
     "alloc": [
       {
         "name": "国内株",
-        "pct": 46.7,
+        "pct": 47.25,
         "name_en": "JP stocks",
         "name_zh": "日本股票"
       },
       {
         "name": "投信",
-        "pct": 26.64,
+        "pct": 26.7,
         "name_en": "Funds",
         "name_zh": "基金"
       },
       {
         "name": "外国株",
-        "pct": 22.28,
+        "pct": 21.66,
         "name_en": "Foreign stocks",
         "name_zh": "海外股票"
       },
       {
         "name": "現金",
-        "pct": 4.38,
+        "pct": 4.39,
         "name_en": "Cash",
         "name_zh": "现金"
       }
     ],
     "series": [
-      {
-        "date": "2026-10-09",
-        "total": 404394943
-      },
       {
         "date": "2026-10-13",
         "total": 404364727
@@ -76,10 +72,14 @@
       {
         "date": "2026-10-19",
         "total": 389388548
+      },
+      {
+        "date": "2026-10-20",
+        "total": 387889706
       }
     ],
-    "label_en": "Oct 19 (Mon)",
-    "label_zh": "10.19（周一）",
+    "label_en": "Oct 20 (Tue)",
+    "label_zh": "10.20（周二）",
     "trade_en": "None",
     "trade_zh": "无"
   },
@@ -101,7 +101,7 @@
     {
       "title": "IonQ を 1,250株 買い直す",
       "rule": "28.5ドルの指値",
-      "now": "31.28 ドル",
+      "now": "30.78 ドル",
       "status": "未約定",
       "title_en": "Buy back 1,250 IonQ",
       "rule_en": "limit order at $28.5",
@@ -109,20 +109,22 @@
       "title_zh": "买回 IonQ 1,250股",
       "rule_zh": "28.5美元限价",
       "status_zh": "未成交",
-      "now_en": "$31.28",
-      "now_zh": "31.28 美元"
+      "now_en": "$30.78",
+      "now_zh": "30.78 美元"
     },
     {
       "title": "三井住友FG を買い増し",
       "rule": "3,000円が目安",
-      "now": "—",
+      "now": "3,225 円",
       "status": "未達",
       "title_en": "Add SMFG (8316)",
       "rule_en": "around ¥3,000 as the guide",
       "status_en": "Not yet",
       "title_zh": "加仓三井住友FG",
       "rule_zh": "以3,000日元为目标",
-      "status_zh": "未达"
+      "status_zh": "未达",
+      "now_en": "¥3,225",
+      "now_zh": "3,225 日元"
     },
     {
       "title": "SpaceX の積み立て",
@@ -228,59 +230,59 @@
     }
   ],
   "posts": {
-    "date": "2026-10-19",
+    "date": "2026-10-20",
     "count": 26,
     "items": [
       {
-        "time": "09:40",
+        "time": "10.20",
         "kind": "判断枠",
-        "title": "ブラックマンデーの朝、キャッシュ比率4.38%の僕は買い増さない",
+        "title": "IonQに強気の声が増えた週、僕がまだ下がると見る理由",
         "url": "https://x.com/capitallogs",
         "impressions": null,
         "kind_en": "Call",
         "kind_zh": "判断",
-        "title_en": "Black Monday morning, and with a 4.38% cash ratio I am not buying more",
-        "title_zh": "黑色星期一的早上，现金比例4.38%的我不加仓",
+        "title_en": "A week of growing bullish voices on IonQ, and why I still expect it to fall",
+        "title_zh": "看涨IonQ的声音变多的一周，我为何仍认为会跌",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin"
       },
       {
-        "time": "09:52",
+        "time": "10.20",
         "kind": "日記",
-        "title": "学芸大学の鳥おき、いちばんはぼんじりと濃厚な締めのラーメン",
+        "title": "誰もいないジムのラウンジと、温かいほうじ茶",
         "url": "https://x.com/capitallogs",
-        "image": "https://raw.githubusercontent.com/YUKICAPITAL/x-images/main/images/2026-10-19_diary_012925.jpg",
         "impressions": null,
         "kind_en": "Diary",
         "kind_zh": "日记",
-        "title_en": "Torioki in Gakugei-daigaku, where the best was bonjiri and a rich ramen to finish",
-        "title_zh": "学艺大学的Torioki，最好吃的是鸡尾肉和浓郁的收尾拉面",
+        "title_en": "An empty gym lounge and a warm cup of hojicha",
+        "title_zh": "空无一人的健身房休息室与一杯温热的焙茶",
         "url_en": "https://x.com/YUKICAPITALen",
-        "url_zh": "https://x.com/YUKICAPITALchin"
+        "url_zh": "https://x.com/YUKICAPITALchin",
+        "image": "https://raw.githubusercontent.com/YUKICAPITAL/x-images/main/images/2026-10-20_diary_104320.jpg"
       },
       {
-        "time": "09:35",
+        "time": "10.20",
         "kind": "長文",
-        "title": "給料を1%上げて、メニューは上げなかった僕の飲食店",
+        "title": "X・note・サイト、1つの媒体に頼らない理由",
         "url": "https://x.com/capitallogs",
         "impressions": null,
         "kind_en": "Essay",
         "kind_zh": "长文",
-        "title_en": "I raised staff pay by 1% and left my restaurant's menu prices alone",
-        "title_zh": "工资上调1%，菜单价格不变的自家餐饮店",
+        "title_en": "X, note and a website: why I do not rely on one platform",
+        "title_zh": "X、note和网站：我为何不依赖单一平台",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin"
       },
       {
-        "time": "09:20",
+        "time": "10.20",
         "kind": "ニュース",
-        "title": "日経平均1,411円安の朝6時、最初に見たのは銀行株",
+        "title": "郵便貯金の上限1,300万円と、銀行4行を持ち続ける条件",
         "url": "https://x.com/capitallogs",
         "impressions": null,
         "kind_en": "News",
         "kind_zh": "新闻",
-        "title_en": "Nikkei down 1,411 at 6 in the morning, and the first thing I checked was my bank stocks",
-        "title_zh": "日经平均下跌1,411点的早上6点，最先看的是银行股",
+        "title_en": "Japan Post Bank's deposit cap and why I keep my four bank stocks",
+        "title_zh": "日本邮储存款上限与我继续持有4家银行股的条件",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin"
       }
@@ -288,33 +290,33 @@
   },
   "note": [
     {
+      "date": "2026-10-20",
+      "title": "全米の子どもにSpaceX株を1株ずつ。双子の父として、子どもに株を持たせる意味を考える",
+      "url": "https://note.com/capitallogs/n/n590dc2030e5d",
+      "image": "https://assets.st-note.com/production/uploads/images/326390783/rectangle_large_type_2_9fe056558906f978036590e8e6c35f38.png?fit=bounds&quality=85&width=640"
+    },
+    {
       "date": "2026-10-19",
       "title": "SpaceX、上場後2回目の決算の前に株主が見る数字",
       "url": "https://note.com/capitallogs/n/nfd12345feb3e",
       "image": "https://assets.st-note.com/production/uploads/images/325996391/rectangle_large_type_2_ecd77e3f1be63953126c2df3800c3f62.png?fit=bounds&quality=85&width=640"
-    },
-    {
-      "date": "2026-10-18",
-      "title": "ソフトバンクGの警備会社買収を、数字で分解する",
-      "url": "https://note.com/capitallogs/n/n95d9406a245a",
-      "image": "https://assets.st-note.com/production/uploads/images/325849268/rectangle_large_type_2_400704e3753dad319751813d3513b10f.png?fit=bounds&quality=85&width=640"
     }
   ],
   "diary": {
-    "date": "2026-10-18（日）",
-    "place": "学芸大学",
-    "title": "教会学校、平和の森公園、温泉、そして鳥おき",
-    "text": "いちばん動いた気持ちは、子どもたちとしっかり遊べたことと、妻とデートできたこと。",
-    "image": "https://raw.githubusercontent.com/YUKICAPITAL/x-images/main/images/2026-10-19_diary_012925.jpg",
+    "date": "2026-10-19（月）",
+    "place": "ジムのラウンジ",
+    "title": "誰もいないラウンジと、温かいほうじ茶",
+    "text": "眠れなかった翌日、午前で上がって、誰もいないラウンジでほうじ茶を飲みながら考えをまとめた。すごく落ち着いた。",
+    "image": "https://raw.githubusercontent.com/YUKICAPITAL/x-images/main/images/2026-10-20_diary_104320.jpg",
     "url": "https://x.com/capitallogs",
-    "date_en": "Sun, Oct 18, 2026",
-    "date_zh": "2026.10.18（周日）",
-    "place_en": "Gakugei-daigaku",
-    "place_zh": "学艺大学",
-    "title_en": "Sunday school, Heiwa-no-mori park, a hot spring, then Torioki",
-    "title_zh": "教会学校、平和之森公园、温泉，然后是Torioki",
-    "text_en": "What moved me most: playing properly with the kids, and a date with my wife.",
-    "text_zh": "最打动我的，是和孩子们好好玩了一场，还有和妻子的约会。",
+    "date_en": "Mon, Oct 19, 2026",
+    "date_zh": "2026.10.19（周一）",
+    "place_en": "Gym lounge",
+    "place_zh": "健身房休息室",
+    "title_en": "An empty lounge and a warm cup of hojicha",
+    "title_zh": "空无一人的休息室与一杯温热的焙茶",
+    "text_en": "The day after a sleepless night, I left at noon and gathered my thoughts over hojicha in an empty lounge. It was deeply calming.",
+    "text_zh": "失眠后的第二天，我中午就下班，在空无一人的休息室里喝着焙茶整理思路。内心非常平静。",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin"
   },
@@ -358,6 +360,17 @@
     ]
   },
   "archive": [
+    {
+      "date": "2026-10-20",
+      "label": "10.20（火）",
+      "total": 387889706,
+      "diff_pct": -0.38,
+      "memo": "売買なし ｜ 26本 ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "No trades ｜ 26 posts ｜ 1 note ｜ 1 article",
+      "memo_zh": "无交易 ｜ 26条 ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Oct 20 Tue",
+      "label_zh": "10.20 周二"
+    },
     {
       "date": "2026-10-19",
       "label": "10.19（月）",
@@ -412,17 +425,6 @@
       "memo_zh": "26条",
       "label_en": "Oct 14 Wed",
       "label_zh": "10.14 周三"
-    },
-    {
-      "date": "2026-10-13",
-      "label": "10.13（火）",
-      "total": 404364727,
-      "diff_pct": -0.01,
-      "memo": "IonQ 2,500株を売却 ｜ 26本",
-      "memo_en": "Sold 2,500 IonQ ｜ 26 posts",
-      "memo_zh": "卖出 IonQ 2,500股 ｜ 26条",
-      "label_en": "Oct 13 Tue",
-      "label_zh": "10.13 周二"
     }
   ],
   "articles": [
