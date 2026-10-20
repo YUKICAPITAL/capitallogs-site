@@ -3,6 +3,7 @@
   var T=window.I18N[LANG]||window.I18N.ja;
   var ROOT=document.documentElement.getAttribute('data-root')||'';
   var $=function(id){return document.getElementById(id)};
+  var AP=ROOT+(LANG==='ja'?'':LANG+'/')+'articles/';
   var esc=function(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})};
   var L=function(o,k){return (LANG!=='ja'&&o[k+'_'+LANG]!=null)?o[k+'_'+LANG]:o[k]};
   var fmt=function(n){return n==null?'—':n.toLocaleString(LANG==='ja'?'ja-JP':'en-US')};
@@ -58,7 +59,7 @@
     var cols=['#7FA6C9','#4F7CA3','#A8C0D6','#E6E8EB'];
     $('c-bar').innerHTML=c.alloc.map(function(a,i){return '<div style="width:'+a.pct+'%;background:'+cols[i%cols.length]+'"></div>'}).join('');
     $('c-legend').innerHTML=c.alloc.map(function(a){return '<span>'+esc(L(a,'name'))+' '+a.pct.toFixed(1)+'%</span>'}).join('');
-    if(d.articles&&d.articles.length){ var a0=d.articles[0]; $('c-newest').hidden=false; $('c-newest-title').textContent=L(a0,'title'); $('c-newest').href=ROOT+'articles/'+a0.slug+'/'; }
+    if(d.articles&&d.articles.length){ var a0=d.articles[0]; $('c-newest').hidden=false; $('c-newest-title').textContent=L(a0,'title'); $('c-newest').href=AP+a0.slug+'/'; }
 
     $('cond-list').innerHTML=d.conditions.map(function(x){return '<div class="row"><div class="t"><b>'+esc(L(x,'title'))+'</b><span>'+esc(L(x,'rule'))+'</span></div><div class="r">'+(x.now?'<span class="num v">'+esc(L(x,'now'))+'</span>':'')+'<span class="chip">'+esc(L(x,'status'))+'</span></div></div>'}).join('');
     $('hold-n').textContent=d.holdings.length+T.hold_n;
@@ -69,8 +70,8 @@
       $('art-grid').innerHTML='<a class="card feature" href="'+ROOT+'articles/"><div class="img"><span class="chip dark">'+esc(T.art_soon)+'</span></div><div class="body"><span class="chip" style="align-self:flex-start">'+esc(T.art_h)+'</span><span class="title">'+esc(T.art_soon_title)+'</span><p>'+esc(T.art_soon_text)+'</p></div></a>';
     } else {
       var a0=A[0];
-      var feat='<a class="card feature" href="'+ROOT+'articles/'+esc(a0.slug)+'/"><div class="img" style="'+(a0.image?'background-image:url('+esc(a0.image)+')':'')+'"><span class="chip dark">'+esc(T.art_latest)+'</span></div><div class="body"><span class="chip" style="align-self:flex-start">'+esc(L(a0,'category'))+'</span><span class="title">'+esc(L(a0,'title'))+'</span><p>'+esc(L(a0,'lead')||'')+'</p><span class="muted num" style="font-size:11px">'+esc(a0.date)+'</span><span class="btn-dark" style="margin-top:4px">'+esc(T.art_read)+'</span></div></a>';
-      var rest=A.slice(1,4).map(function(a){return '<a class="card mini" href="'+ROOT+'articles/'+esc(a.slug)+'/"><div class="img" style="'+(a.image?'background-image:url('+esc(a.image)+')':'')+'"></div><div class="body"><span class="chip" style="align-self:flex-start">'+esc(L(a,'category'))+'</span><span class="title">'+esc(L(a,'title'))+'</span><span class="muted num" style="font-size:11px">'+esc(a.date)+'</span></div></a>'}).join('');
+      var feat='<a class="card feature" href="'+AP+esc(a0.slug)+'/"><div class="img" style="'+(a0.image?'background-image:url('+esc(ROOT+a0.image)+')':'')+'"><span class="chip dark">'+esc(T.art_latest)+'</span></div><div class="body"><span class="chip" style="align-self:flex-start">'+esc(L(a0,'category'))+'</span><span class="title">'+esc(L(a0,'title'))+'</span><p>'+esc(L(a0,'lead')||'')+'</p><span class="muted num" style="font-size:11px">'+esc(a0.date)+'</span><span class="btn-dark" style="margin-top:4px">'+esc(T.art_read)+'</span></div></a>';
+      var rest=A.slice(1,4).map(function(a){return '<a class="card mini" href="'+AP+esc(a.slug)+'/"><div class="img" style="'+(a.image?'background-image:url('+esc(ROOT+a.image)+')':'')+'"></div><div class="body"><span class="chip" style="align-self:flex-start">'+esc(L(a,'category'))+'</span><span class="title">'+esc(L(a,'title'))+'</span><span class="muted num" style="font-size:11px">'+esc(a.date)+'</span></div></a>'}).join('');
       $('art-grid').innerHTML=feat+'<div class="minis">'+rest+'</div>';
     }
     $('cats').innerHTML=T.cats.map(function(x,i){return '<span class="chip '+(i?'ghost':'dark')+'">'+esc(x)+'</span>'}).join('');

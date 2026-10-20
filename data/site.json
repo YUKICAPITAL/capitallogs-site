@@ -425,5 +425,20 @@
       "label_zh": "10.13 周二"
     }
   ],
-  "articles": []
+  "articles": [
+    {
+      "slug": "quantum-four-approaches",
+      "date": "2026-10-20",
+      "image": "images/articles/quantum-four-approaches/hero.jpg",
+      "category": "テクノロジー",
+      "category_en": "Technology",
+      "category_zh": "科技",
+      "title": "量子コンピュータの4社を、方式と数字で比べる",
+      "title_en": "Four quantum computing companies, compared by approach and by the numbers",
+      "title_zh": "用方式和数字比较4家量子计算公司",
+      "lead": "IonQ・Quantinuum・Rigetti・D-Wave。同じ「量子」でも、作り方も稼ぎ方も違う。 誤りの少なさ、売上、手元の資金を並べると、4社の現在地が見えてくる。 僕は量子株を持ち、IonQは売って指値で待っている。その判断の材料を、ここに置いておく。",
+      "lead_en": "IonQ, Quantinuum, Rigetti and D-Wave. All four say \"quantum,\" yet they build and earn in different ways. Lining up error rates, revenue and cash shows where each company stands today. I hold quantum stocks, and I sold IonQ and am waiting with a limit order. This is the material behind that decision.",
+      "lead_zh": "IonQ、Quantinuum、Rigetti和D-Wave。同样叫量子，制造方式和赚钱方式各不相同。 把错误率、营收和手头资金排在一起，就能看到4家公司现在所处的位置。 我持有量子股，IonQ已经卖出，正挂着限价单等待。这里放的是那个判断背后的材料。"
+    }
+  ]
 }

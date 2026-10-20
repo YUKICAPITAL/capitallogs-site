@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-Hans" data-lang="zh" data-r="../../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>文章｜YUKI CAPITAL</title>
+<link rel="icon" href="../../favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="../../images/apple-touch-icon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+<header class="site-header"><div class="wrap">
+<a href="../" class="brand"><img class="avatar" src="../../images/icon.png" alt=""><span>YUKI CAPITAL</span></a>
+<nav class="nav" aria-label="主なページ"><a href="./" class="primary">文章</a><a href="../#capital">今日资本</a><a href="../../archive/">每日记录</a><a href="../#diary">日记</a><a href="../../about/">关于</a></nav>
+<div class="hdr-actions"><a class="x" href="https://x.com/capitallogs" aria-label="X"><svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 3h3l-7.3 8.3L21.8 21h-6.6l-4.6-6-5.3 6H2.3l7.8-8.9L2 3h6.7l4.2 5.5L17.5 3zm-1.1 16.2h1.8L7.7 4.7H5.8l10.6 14.5z"/></svg></a><a class="note" href="https://note.com/capitallogs">note</a></div>
+</div></header>
+<main class="wrap">
+
+<section class="sec"><div class="head"><h2 class="h2">文章 <span class="sub">只在本站发布</span></h2></div>
+<div id="list" class="grid"></div></section>
+
+<footer class="site-footer" style="padding-bottom:48px"><span>© 2026 YUKI CAPITAL</span><span><a href="../">返回首页</a></span></footer>
+</main>
+<nav class="bottom-nav" aria-label="下部メニュー">
+<a href="../"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>首页</a>
+<a href="./"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h14v16H5zM8 8h8M8 12h8M8 16h5"/></svg>文章</a>
+<a href="../../archive/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 19h16M6 16V9M10 16V5M14 16v-4M18 16V7"/></svg>记录</a>
+<a href="https://x.com/capitallogs"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 3h3l-7.3 8.3L21.8 21h-6.6l-4.6-6-5.3 6H2.3l7.8-8.9L2 3h6.7l4.2 5.5L17.5 3zm-1.1 16.2h1.8L7.7 4.7H5.8l10.6 14.5z"/></svg>X ↗</a>
+<a href="https://note.com/capitallogs"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 3h9l4 4v14H6zM15 3v4h4M9 12h6M9 16h6"/></svg>note ↗</a>
+</nav>
+<script>
+fetch('../../data/site.json',{cache:'no-store'}).then(function(r){return r.json()}).then(function(d){
+  var LG=document.documentElement.getAttribute('data-lang')||'ja', R=document.documentElement.getAttribute('data-r')||'../', L=function(o,k){return (LG!=='ja'&&o[k+'_'+LG])?o[k+'_'+LG]:o[k]};
+  var A=d.articles||[], el=document.getElementById('list');
+  if(!A.length){ el.innerHTML='<div class="card"><p style="margin:0;font-size:14px;line-height:1.9">第一篇文章正在准备。</p></div>'; return; }
+  el.innerHTML=A.map(function(a){return '<a class="card notecard" href="'+a.slug+'/">'+(a.image?'<img class="thumb" src="'+R+a.image+'" alt="">':'<div class="thumb"></div>')+'<div class="t"><span class="chip" style="align-self:flex-start">'+L(a,'category')+'</span><span class="title">'+L(a,'title')+'</span><span class="muted num" style="font-size:11px">'+a.date+'</span></div></a>'}).join('');
+});
+</script>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "abf23c1820ac43539efd93c2112996da"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>
