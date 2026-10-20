@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="zh-Hans" data-lang="zh" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YUKI CAPITAL｜资本记录</title>
+<meta name="description" content="在东京经营实业的投资者，每天原原本本公开总金融资产与买或不买的判断。X、note 与本站文章，从这里出发。">
+<meta property="og:title" content="YUKI CAPITAL｜资本记录">
+<meta property="og:description" content="总金融资产与每一次判断，每天公开。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yuki-capital.com/zh/">
+<link rel="icon" href="../images/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="alternate" hreflang="ja" href="https://yuki-capital.com/">
+<link rel="alternate" hreflang="en" href="https://yuki-capital.com/en/">
+<link rel="alternate" hreflang="zh" href="https://yuki-capital.com/zh/">
+</head>
+<body>
+
+<header class="site-header">
+<div class="wrap">
+<a href="#top" class="brand"><img class="avatar" src="../images/icon.png" alt=""><span>YUKI CAPITAL</span></a>
+<nav class="nav" aria-label="主なページ">
+<a href="#articles" class="primary" data-i18n="nav_articles">記事</a><a href="#capital" data-i18n="nav_capital">今日の資本</a><a href="#archive" data-i18n="nav_archive">毎日の記録</a><a href="#diary" data-i18n="nav_diary">日記</a><a href="#about" data-i18n="nav_about">について</a>
+</nav>
+<div class="hdr-actions">
+<div class="langs-sw" aria-label="Language"><a href="../" data-setlang="ja">日本語</a><a href="../en/" data-setlang="en">EN</a><a href="../zh/" data-setlang="zh" class="on">中文</a></div>
+<a class="x" data-link="x_main" href="https://x.com/capitallogs" aria-label="X">
+<svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 3h3l-7.3 8.3L21.8 21h-6.6l-4.6-6-5.3 6H2.3l7.8-8.9L2 3h6.7l4.2 5.5L17.5 3zm-1.1 16.2h1.8L7.7 4.7H5.8l10.6 14.5z"/></svg>
+</a>
+<a class="note" data-link="note" href="https://note.com/capitallogs">note</a>
+</div>
+</div>
+</header>
+
+<main class="wrap" id="top">
+
+<section class="profile">
+<div class="who">
+<img class="avatar" src="../images/icon.png" alt="">
+<div><div class="name" id="p-name">YUKI CAPITAL</div><div class="tag" id="p-tag"></div></div>
+</div>
+<div class="follow">
+<a class="btn-dark" data-link="x_main" href="https://x.com/capitallogs"><span data-i18n="follow_x">X をフォロー</span> <span class="num cnt" id="f-x"></span></a>
+<a class="btn-light" data-link="note" href="https://note.com/capitallogs"><span data-i18n="follow_note">note をフォロー</span> <span class="num cnt" id="f-note"></span></a>
+</div>
+</section>
+
+<div class="capital-row" id="capital">
+<section class="capital" aria-label="今日の資本">
+<div class="head"><span class="eyebrow"><span data-i18n="cap_eyebrow">総金融資産 ｜ </span><span id="c-label"></span></span><span class="chip num" id="c-diff"></span></div>
+<div class="num total" id="c-total"></div>
+<div class="chartbox">
+<span class="eyebrow" data-i18n="cap_trend">直近の推移</span>
+<svg class="chart" id="c-chart" viewBox="0 0 100 40" preserveAspectRatio="none" role="img" aria-label="総金融資産の推移"></svg>
+<div class="axis num" id="c-axis"></div>
+</div>
+<div><div class="bar" id="c-bar"></div><div class="legend" id="c-legend" style="margin-top:6px"></div></div>
+<div class="tiles">
+<div class="tile"><span data-i18n="cap_unreal">含み損益</span><span class="num v" id="c-unreal"></span></div>
+<div class="tile"><span data-i18n="cap_cash">現金</span><span class="num v" id="c-cash"></span></div>
+<div class="tile"><span data-i18n="cap_trade">今日の売買</span><span class="v" id="c-trade"></span></div>
+</div>
+<a href="#archive" class="archive-link" data-i18n="cap_archive">毎日の記録をさかのぼる →</a>
+<a href="#articles" class="newest" id="c-newest" hidden><span class="l"><span data-i18n="cap_newest">新着記事</span><span id="c-newest-title"></span></span><span>→</span></a>
+</section>
+
+<section class="card cond" aria-label="決めてある条件" style="padding:8px 20px">
+<div class="head" style="padding:10px 0 4px"><h2 class="h2" style="font-size:15px"><span data-i18n="cond_h">決めてある条件</span> <span class="sub" data-i18n="cond_sub">と現在地</span></h2><span class="sub" data-i18n="cond_note">条件で動く</span></div>
+<div id="cond-list"></div>
+</section>
+
+<section class="card hold" aria-label="保有" style="padding:8px 20px">
+<div class="head" style="padding:10px 0 4px"><h2 class="h2" style="font-size:15px" data-i18n="hold_h">保有</h2><span class="sub" id="hold-n"></span></div>
+<div id="hold-list"></div>
+</section>
+</div>
+
+<section class="sec" id="articles">
+<div class="head"><h2 class="h2"><span data-i18n="art_h">記事</span> <span class="sub" data-i18n="art_sub">このサイトだけの読み物</span></h2><a href="../articles/" class="more" data-i18n="art_more">一覧 →</a></div>
+<div class="art-grid" id="art-grid"></div>
+<div class="cats" id="cats"></div>
+</section>
+
+<section class="sec" id="posts">
+<div class="head"><h2 class="h2"><span data-i18n="posts_h">今日の X</span> <span class="sub" id="posts-sub"></span></h2><a data-link="x_main" href="https://x.com/capitallogs" class="more" data-i18n="posts_all">X で全部 ↗</a></div>
+<div class="main-grid">
+<div>
+<div class="stories" id="stories"></div>
+<div class="card posts-list" id="posts-list" style="padding:6px 20px"></div>
+<div class="posts-actions">
+<a data-link="x_main" href="https://x.com/capitallogs" class="btn-dark"><svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 3h3l-7.3 8.3L21.8 21h-6.6l-4.6-6-5.3 6H2.3l7.8-8.9L2 3h6.7l4.2 5.5L17.5 3zm-1.1 16.2h1.8L7.7 4.7H5.8l10.6 14.5z"/></svg> <span id="posts-cta">今日の投稿を X で読む ↗</span></a>
+<div class="langs"><a data-link="x_ja" href="https://x.com/capitallogs" class="btn-light" data-i18n="lang_ja">日本語 ↗</a><a data-link="x_en" href="https://x.com/YUKICAPITALen" class="btn-light" data-i18n="lang_en">English ↗</a><a data-link="x_zh" href="https://x.com/YUKICAPITALchin" class="btn-light" data-i18n="lang_zh">中文 ↗</a></div>
+</div>
+</div>
+<div>
+<section class="sec" id="note" style="padding-top:0">
+<div class="head"><h2 class="h2">note <span class="sub" data-i18n="note_sub">数字で分解する記事</span></h2><a data-link="note" href="https://note.com/capitallogs" class="more" data-i18n="note_more">note へ ↗</a></div>
+<div id="note-list" class="grid"></div>
+</section>
+<section class="sec" id="diary">
+<div class="head"><h2 class="h2"><span data-i18n="diary_h">日記</span> <span class="sub" data-i18n="diary_sub">写真と1日</span></h2><a data-link="x_main" href="https://x.com/capitallogs" class="more" data-i18n="diary_more">もっと見る ↗</a></div>
+<a class="card diary" id="diary-card" href="https://x.com/capitallogs"></a>
+</section>
+</div>
+</div>
+</section>
+
+<div class="main-grid" style="margin-top:24px">
+<section class="sec arch" id="archive" style="padding-top:0">
+<div class="head"><h2 class="h2"><span data-i18n="arch_h">毎日の記録</span> <span class="sub" data-i18n="arch_sub">日付でさかのぼる</span></h2><a href="../archive/" class="more" data-i18n="arch_more">すべて →</a></div>
+<div class="card" id="arch-list" style="padding:4px 18px"></div>
+</section>
+<section class="sec media" style="padding-top:0">
+<div class="head"><h2 class="h2"><span data-i18n="media_h">メディアの数字</span> <span class="sub" data-i18n="media_sub">毎朝 自動更新</span></h2><span class="num muted" style="font-size:11px" id="media-upd"></span></div>
+<div class="card">
+<div class="head"><span class="eyebrow" data-i18n="media_imp">今月のインプレッション</span><span class="num ph" style="font-size:22px;font-weight:600" id="imp-total"></span></div>
+<div class="bars" id="imp-bars" style="margin-top:10px"></div>
+<div class="muted" style="font-size:11px;margin-top:6px" id="imp-note"></div>
+</div>
+<div class="card" id="fol-list" style="padding:4px 18px"></div>
+</section>
+</div>
+
+<section class="sec about" id="about">
+<div class="card">
+<h2 class="h2" data-i18n="about_h">このサイトについて</h2>
+<p style="margin-top:8px" data-i18n="about_p">X には毎日の数字と判断を、note には1つのテーマを数字で分解した記事を、このサイトにはここでしか読めない記事と、各メディアの数字をまとめて置いている。</p>
+</div>
+<footer class="site-footer">
+<span>© 2026 YUKI CAPITAL</span>
+<span><a href="../about/" data-i18n="foot_profile">プロフィールと実業</a>　<a href="../about/#privacy" data-i18n="foot_privacy">プライバシー</a>　<a href="../about/#contact" data-i18n="foot_contact">お問い合わせ</a></span>
+</footer>
+</section>
+
+</main>
+
+<nav class="bottom-nav" aria-label="下部メニュー">
+<a href="#top" class="active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg><span data-i18n="bn_home">ホーム</span></a>
+<a href="#articles"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h14v16H5zM8 8h8M8 12h8M8 16h5"/></svg><span data-i18n="bn_articles">記事</span></a>
+<a href="#archive"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 19h16M6 16V9M10 16V5M14 16v-4M18 16V7"/></svg><span data-i18n="bn_archive">記録</span></a>
+<a data-link="x_main" href="https://x.com/capitallogs"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 3h3l-7.3 8.3L21.8 21h-6.6l-4.6-6-5.3 6H2.3l7.8-8.9L2 3h6.7l4.2 5.5L17.5 3zm-1.1 16.2h1.8L7.7 4.7H5.8l10.6 14.5z"/></svg>X ↗</a>
+<a data-link="note" href="https://note.com/capitallogs"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 3h9l4 4v14H6zM15 3v4h4M9 12h6M9 16h6"/></svg>note ↗</a>
+</nav>
+
+<script src="../assets/i18n.js"></script>
+<script src="../assets/app.js"></script>
+</body>
+</html>

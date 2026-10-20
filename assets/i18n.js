@@ -1,0 +1,53 @@
+window.I18N = {
+  ja: {
+    nav_articles:'記事', nav_capital:'今日の資本', nav_archive:'毎日の記録', nav_diary:'日記', nav_about:'について',
+    follow_x:'X をフォロー', follow_note:'note をフォロー',
+    cap_eyebrow:'総金融資産 ｜ ', cap_diff:'前日比 ', cap_trend:'直近の推移', cap_unreal:'含み損益', cap_cash:'現金', cap_trade:'今日の売買', cap_archive:'毎日の記録をさかのぼる →', cap_newest:'新着記事',
+    cond_h:'決めてある条件', cond_sub:'と現在地', cond_note:'条件で動く', hold_h:'保有', hold_n:'銘柄',
+    art_h:'記事', art_sub:'このサイトだけの読み物', art_more:'一覧 →', art_read:'記事を読む', art_latest:'最新', art_soon:'準備中', art_soon_title:'最初の記事を準備している', art_soon_text:'インタビュー・実業・資本の設計。ここでしか読めない記事を、これから置いていく。',
+    cats:['すべて','インタビュー','実業','資本の設計','対談','家族'],
+    posts_h:'今日の X', posts_sub:'本 ｜ ', posts_all:'X で全部 ↗', posts_cta:'今日の{n}本を X で読む ↗', posts_read:'X で読む ↗', posts_imp:'[インプ]', lang_en:'English ↗', lang_zh:'中文 ↗', lang_ja:'日本語 ↗',
+    note_h:'note', note_sub:'数字で分解する記事', note_more:'note へ ↗', note_read:'note で続きを読む ↗', note_lang:'',
+    diary_h:'日記', diary_sub:'写真と1日', diary_more:'もっと見る ↗',
+    arch_h:'毎日の記録', arch_sub:'日付でさかのぼる', arch_more:'すべて →', arch_closed:'休場',
+    media_h:'メディアの数字', media_sub:'毎朝 自動更新', media_upd:'最終更新 ', media_upd_na:'最終更新 [連携後]', media_imp:'今月のインプレッション', media_imp_note:'日別。X・note のデータ連携後に実数を表示（形は見本）', media_imp_daily:'日別', media_follow:'フォロー',
+    about_h:'このサイトについて', about_p:'X には毎日の数字と判断を、note には1つのテーマを数字で分解した記事を、このサイトにはここでしか読めない記事と、各メディアの数字をまとめて置いている。',
+    foot_profile:'プロフィールと実業', foot_privacy:'プライバシー', foot_contact:'お問い合わせ',
+    bn_home:'ホーム', bn_articles:'記事', bn_archive:'記録',
+    yen:'円', man:true
+  },
+  en: {
+    nav_articles:'Articles', nav_capital:"Today's capital", nav_archive:'Daily log', nav_diary:'Diary', nav_about:'About',
+    follow_x:'Follow on X', follow_note:'Follow on note',
+    cap_eyebrow:'Total financial assets ｜ ', cap_diff:'Day ', cap_trend:'Recent trend', cap_unreal:'Unrealized P/L', cap_cash:'Cash', cap_trade:"Today's trades", cap_archive:'Browse the daily log →', cap_newest:'Latest article',
+    cond_h:'Rules set in advance', cond_sub:'and where we are', cond_note:'Act on rules, not forecasts', hold_h:'Holdings', hold_n:' positions',
+    art_h:'Articles', art_sub:'only on this site', art_more:'All →', art_read:'Read the article', art_latest:'Latest', art_soon:'Coming soon', art_soon_title:'The first article is in the works', art_soon_text:'Interviews, my businesses, how the capital is designed. Articles you can read only here.',
+    cats:['All','Interview','Business','Capital design','Dialogue','Family'],
+    posts_h:'Today on X', posts_sub:' posts ｜ ', posts_all:'All on X ↗', posts_cta:"Read today's {n} posts on X ↗", posts_read:'Read on X ↗', posts_imp:'[impressions]', lang_en:'English ↗', lang_zh:'中文 ↗', lang_ja:'日本語 ↗',
+    note_h:'note', note_sub:'long-form, in numbers (Japanese)', note_more:'Go to note ↗', note_read:'Continue on note ↗', note_lang:'JA',
+    diary_h:'Diary', diary_sub:'a day in photos', diary_more:'More ↗',
+    arch_h:'Daily log', arch_sub:'by date', arch_more:'All →', arch_closed:'Closed',
+    media_h:'Media numbers', media_sub:'updated every morning', media_upd:'Updated ', media_upd_na:'Updated [after sync]', media_imp:'Impressions this month', media_imp_note:'Daily. Real figures appear once X and note data are connected (shape is a sample).', media_imp_daily:'Daily', media_follow:'Follow',
+    about_h:'About this site', about_p:'X carries the daily numbers and decisions, note carries long-form pieces that break one topic down in numbers, and this site carries the articles you can read only here plus the numbers of every channel.',
+    foot_profile:'Profile and businesses', foot_privacy:'Privacy', foot_contact:'Contact',
+    bn_home:'Home', bn_articles:'Articles', bn_archive:'Log',
+    yen:' JPY', man:false
+  },
+  zh: {
+    nav_articles:'文章', nav_capital:'今日资本', nav_archive:'每日记录', nav_diary:'日记', nav_about:'关于',
+    follow_x:'关注 X', follow_note:'关注 note',
+    cap_eyebrow:'总金融资产 ｜ ', cap_diff:'较前日 ', cap_trend:'近期走势', cap_unreal:'浮动盈亏', cap_cash:'现金', cap_trade:'今日交易', cap_archive:'查看每日记录 →', cap_newest:'最新文章',
+    cond_h:'事先定下的条件', cond_sub:'与现状', cond_note:'按条件行动，不预测行情', hold_h:'持仓', hold_n:' 只',
+    art_h:'文章', art_sub:'只在本站发布', art_more:'全部 →', art_read:'阅读文章', art_latest:'最新', art_soon:'筹备中', art_soon_title:'第一篇文章正在准备', art_soon_text:'访谈、实业、资本的设计。只能在这里读到的文章，陆续放上来。',
+    cats:['全部','访谈','实业','资本的设计','对谈','家庭'],
+    posts_h:'今日的 X', posts_sub:' 条 ｜ ', posts_all:'去 X 看全部 ↗', posts_cta:'在 X 阅读今日的 {n} 条 ↗', posts_read:'在 X 阅读 ↗', posts_imp:'[曝光]', lang_en:'English ↗', lang_zh:'中文 ↗', lang_ja:'日本語 ↗',
+    note_h:'note', note_sub:'用数字拆解的长文（日文）', note_more:'前往 note ↗', note_read:'在 note 继续阅读 ↗', note_lang:'日文',
+    diary_h:'日记', diary_sub:'照片与一天', diary_more:'更多 ↗',
+    arch_h:'每日记录', arch_sub:'按日期回看', arch_more:'全部 →', arch_closed:'休市',
+    media_h:'各媒体的数字', media_sub:'每天早上自动更新', media_upd:'更新于 ', media_upd_na:'更新于 [接入后]', media_imp:'本月曝光数', media_imp_note:'按日。接入 X 与 note 的数据后显示实际数字（形状为示例）。', media_imp_daily:'按日', media_follow:'关注',
+    about_h:'关于本站', about_p:'X 上是每天的数字与判断，note 上是用数字拆解一个主题的长文，本站放的是只能在这里读到的文章，以及各媒体的数字。',
+    foot_profile:'个人简介与实业', foot_privacy:'隐私', foot_contact:'联系',
+    bn_home:'首页', bn_articles:'文章', bn_archive:'记录',
+    yen:' 日元', man:false
+  }
+};

@@ -3,7 +3,11 @@
   "profile": {
     "name": "YUKI CAPITAL",
     "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
-    "icon": "images/icon.png"
+    "icon": "images/icon-ja.png",
+    "icon_en": "images/icon-en.png",
+    "icon_zh": "images/icon-zh.png",
+    "tagline_en": "Owner of restaurants, real estate and a shared office in Tokyo. Total financial assets and every buy/no-buy decision, published daily as they are.",
+    "tagline_zh": "在东京经营餐饮店、不动产和共享办公。总金融资产与每一次买或不买的判断，每天原原本本公开。"
   },
   "links": {
     "x_ja": "https://x.com/capitallogs",
@@ -25,19 +29,27 @@
     "alloc": [
       {
         "name": "国内株",
-        "pct": 46.7
+        "pct": 46.7,
+        "name_en": "JP stocks",
+        "name_zh": "日本股票"
       },
       {
         "name": "投信",
-        "pct": 26.64
+        "pct": 26.64,
+        "name_en": "Funds",
+        "name_zh": "基金"
       },
       {
         "name": "外国株",
-        "pct": 22.28
+        "pct": 22.28,
+        "name_en": "Foreign stocks",
+        "name_zh": "海外股票"
       },
       {
         "name": "現金",
-        "pct": 4.38
+        "pct": 4.38,
+        "name_en": "Cash",
+        "name_zh": "现金"
       }
     ],
     "series": [
@@ -65,78 +77,150 @@
         "date": "2026-10-19",
         "total": 389388548
       }
-    ]
+    ],
+    "label_en": "Oct 19 (Mon)",
+    "label_zh": "10.19（周一）",
+    "trade_en": "None",
+    "trade_zh": "无"
   },
   "conditions": [
     {
       "title": "SpaceX を +500株",
       "rule": "終値が 100ドルを割ったら",
       "now": "146.03 ドル",
-      "status": "未達"
+      "status": "未達",
+      "title_en": "Add 500 SpaceX",
+      "rule_en": "if the close falls below $100",
+      "status_en": "Not yet",
+      "title_zh": "SpaceX 加仓500股",
+      "rule_zh": "收盘价跌破100美元时",
+      "status_zh": "未达"
     },
     {
       "title": "IonQ を 1,250株 買い直す",
       "rule": "28.5ドルの指値",
       "now": "31.28 ドル",
-      "status": "未約定"
+      "status": "未約定",
+      "title_en": "Buy back 1,250 IonQ",
+      "rule_en": "limit order at $28.5",
+      "status_en": "Not filled",
+      "title_zh": "买回 IonQ 1,250股",
+      "rule_zh": "28.5美元限价",
+      "status_zh": "未成交"
     },
     {
       "title": "三井住友FG を買い増し",
       "rule": "3,000円が目安",
       "now": "—",
-      "status": "未達"
+      "status": "未達",
+      "title_en": "Add SMFG (8316)",
+      "rule_en": "around ¥3,000 as the guide",
+      "status_en": "Not yet",
+      "title_zh": "加仓三井住友FG",
+      "rule_zh": "以3,000日元为目标",
+      "status_zh": "未达"
     },
     {
       "title": "SpaceX の積み立て",
       "rule": "外壁補修の見積もりが出るまで",
       "now": "",
-      "status": "10月は休止"
+      "status": "10月は休止",
+      "title_en": "Monthly SpaceX purchases",
+      "rule_en": "until the exterior-wall repair estimate is in",
+      "status_en": "Paused in Oct",
+      "title_zh": "SpaceX 定投",
+      "rule_zh": "等外墙维修报价出来",
+      "status_zh": "10月暂停"
     }
   ],
   "holdings": [
     {
       "name": "三菱UFJ 8306",
-      "qty": "7,500"
+      "qty": "7,500",
+      "name_en": "MUFG 8306",
+      "name_zh": "三菱UFJ 8306",
+      "qty_en": "7,500",
+      "qty_zh": "7,500"
     },
     {
       "name": "りそな 8308",
-      "qty": "13,500"
+      "qty": "13,500",
+      "name_en": "Resona 8308",
+      "name_zh": "理索纳 8308",
+      "qty_en": "13,500",
+      "qty_zh": "13,500"
     },
     {
       "name": "三井住友トラスト 8309",
-      "qty": "26,000"
+      "qty": "26,000",
+      "name_en": "SuMi Trust 8309",
+      "name_zh": "三井住友信托 8309",
+      "qty_en": "26,000",
+      "qty_zh": "26,000"
     },
     {
       "name": "三井住友FG 8316",
-      "qty": "26,000"
+      "qty": "26,000",
+      "name_en": "SMFG 8316",
+      "name_zh": "三井住友FG 8316",
+      "qty_en": "26,000",
+      "qty_zh": "26,000"
     },
     {
       "name": "NPS-CARS（投信）",
-      "qty": "10,000口"
+      "qty": "10,000口",
+      "name_en": "NPS-CARS (fund)",
+      "name_zh": "NPS-CARS（基金）",
+      "qty_en": "10,000 units",
+      "qty_zh": "10,000份"
     },
     {
       "name": "SpaceX",
-      "qty": "1,250"
+      "qty": "1,250",
+      "name_en": "SpaceX",
+      "name_zh": "SpaceX",
+      "qty_en": "1,250",
+      "qty_zh": "1,250"
     },
     {
       "name": "テスラ",
-      "qty": "400"
+      "qty": "400",
+      "name_en": "Tesla",
+      "name_zh": "特斯拉",
+      "qty_en": "400",
+      "qty_zh": "400"
     },
     {
       "name": "GOOGL",
-      "qty": "350"
+      "qty": "350",
+      "name_en": "GOOGL",
+      "name_zh": "GOOGL",
+      "qty_en": "350",
+      "qty_zh": "350"
     },
     {
       "name": "PLTR",
-      "qty": "350"
+      "qty": "350",
+      "name_en": "PLTR",
+      "name_zh": "PLTR",
+      "qty_en": "350",
+      "qty_zh": "350"
     },
     {
       "name": "QBTS",
-      "qty": "1,000"
+      "qty": "1,000",
+      "name_en": "QBTS",
+      "name_zh": "QBTS",
+      "qty_en": "1,000",
+      "qty_zh": "1,000"
     },
     {
       "name": "RGTI",
-      "qty": "1,000"
+      "qty": "1,000",
+      "name_en": "RGTI",
+      "name_zh": "RGTI",
+      "qty_en": "1,000",
+      "qty_zh": "1,000"
     }
   ],
   "posts": {
@@ -148,7 +232,13 @@
         "kind": "判断枠",
         "title": "ブラックマンデーの朝、キャッシュ比率4.38%の僕は買い増さない",
         "url": "https://x.com/capitallogs",
-        "impressions": null
+        "impressions": null,
+        "kind_en": "Call",
+        "kind_zh": "判断",
+        "title_en": "Black Monday morning, and with a 4.38% cash ratio I am not buying more",
+        "title_zh": "黑色星期一的早上，现金比例4.38%的我不加仓",
+        "url_en": "https://x.com/YUKICAPITALen",
+        "url_zh": "https://x.com/YUKICAPITALchin"
       },
       {
         "time": "09:52",
@@ -156,21 +246,39 @@
         "title": "学芸大学の鳥おき、いちばんはぼんじりと濃厚な締めのラーメン",
         "url": "https://x.com/capitallogs",
         "image": "https://raw.githubusercontent.com/YUKICAPITAL/x-images/main/images/2026-10-19_diary_012925.jpg",
-        "impressions": null
+        "impressions": null,
+        "kind_en": "Diary",
+        "kind_zh": "日记",
+        "title_en": "Torioki in Gakugei-daigaku, where the best was bonjiri and a rich ramen to finish",
+        "title_zh": "学艺大学的Torioki，最好吃的是鸡尾肉和浓郁的收尾拉面",
+        "url_en": "https://x.com/YUKICAPITALen",
+        "url_zh": "https://x.com/YUKICAPITALchin"
       },
       {
         "time": "09:35",
         "kind": "長文",
         "title": "給料を1%上げて、メニューは上げなかった僕の飲食店",
         "url": "https://x.com/capitallogs",
-        "impressions": null
+        "impressions": null,
+        "kind_en": "Essay",
+        "kind_zh": "长文",
+        "title_en": "I raised staff pay by 1% and left my restaurant's menu prices alone",
+        "title_zh": "工资上调1%，菜单价格不变的自家餐饮店",
+        "url_en": "https://x.com/YUKICAPITALen",
+        "url_zh": "https://x.com/YUKICAPITALchin"
       },
       {
         "time": "09:20",
         "kind": "ニュース",
         "title": "日経平均1,411円安の朝6時、最初に見たのは銀行株",
         "url": "https://x.com/capitallogs",
-        "impressions": null
+        "impressions": null,
+        "kind_en": "News",
+        "kind_zh": "新闻",
+        "title_en": "Nikkei down 1,411 at 6 in the morning, and the first thing I checked was my bank stocks",
+        "title_zh": "日经平均下跌1,411点的早上6点，最先看的是银行股",
+        "url_en": "https://x.com/YUKICAPITALen",
+        "url_zh": "https://x.com/YUKICAPITALchin"
       }
     ]
   },
@@ -194,7 +302,17 @@
     "title": "教会学校、平和の森公園、温泉、そして鳥おき",
     "text": "いちばん動いた気持ちは、子どもたちとしっかり遊べたことと、妻とデートできたこと。",
     "image": "https://raw.githubusercontent.com/YUKICAPITAL/x-images/main/images/2026-10-19_diary_012925.jpg",
-    "url": "https://x.com/capitallogs"
+    "url": "https://x.com/capitallogs",
+    "date_en": "Sun, Oct 18, 2026",
+    "date_zh": "2026.10.18（周日）",
+    "place_en": "Gakugei-daigaku",
+    "place_zh": "学艺大学",
+    "title_en": "Sunday school, Heiwa-no-mori park, a hot spring, then Torioki",
+    "title_zh": "教会学校、平和之森公园、温泉，然后是Torioki",
+    "text_en": "What moved me most: playing properly with the kids, and a date with my wife.",
+    "text_zh": "最打动我的，是和孩子们好好玩了一场，还有和妻子的约会。",
+    "url_en": "https://x.com/YUKICAPITALen",
+    "url_zh": "https://x.com/YUKICAPITALchin"
   },
   "media": {
     "updated": null,
@@ -205,25 +323,33 @@
         "name": "X 日本語",
         "handle": "@capitallogs",
         "url": "https://x.com/capitallogs",
-        "count": null
+        "count": 155,
+        "name_en": "X Japanese",
+        "name_zh": "X 日文"
       },
       {
         "name": "X English",
         "handle": "@YUKICAPITALen",
         "url": "https://x.com/YUKICAPITALen",
-        "count": null
+        "count": 83,
+        "name_en": "X English",
+        "name_zh": "X 英文"
       },
       {
         "name": "X 中文",
         "handle": "@YUKICAPITALchin",
         "url": "https://x.com/YUKICAPITALchin",
-        "count": null
+        "count": 54,
+        "name_en": "X Chinese",
+        "name_zh": "X 中文"
       },
       {
         "name": "note",
         "handle": "capitallogs",
         "url": "https://note.com/capitallogs",
-        "count": null
+        "count": null,
+        "name_en": "note",
+        "name_zh": "note"
       }
     ]
   },
@@ -233,42 +359,66 @@
       "label": "10.19（月）",
       "total": 389388548,
       "diff_pct": -1.1,
-      "memo": "売買なし ｜ 26本 ｜ note 1本"
+      "memo": "売買なし ｜ 26本 ｜ note 1本",
+      "memo_en": "No trades ｜ 26 posts ｜ 1 note",
+      "memo_zh": "无交易 ｜ 26条 ｜ note 1篇",
+      "label_en": "Oct 19 Mon",
+      "label_zh": "10.19 周一"
     },
     {
       "date": "2026-10-18",
       "label": "10.18（日）",
       "total": null,
       "diff_pct": null,
-      "memo": "休場 ｜ 12本 ｜ note 1本（ソフトバンクG）"
+      "memo": "休場 ｜ 12本 ｜ note 1本（ソフトバンクG）",
+      "memo_en": "Closed ｜ 12 posts ｜ 1 note (SoftBank G)",
+      "memo_zh": "休市 ｜ 12条 ｜ note 1篇（软银G）",
+      "label_en": "Oct 18 Sun",
+      "label_zh": "10.18 周日"
     },
     {
       "date": "2026-10-16",
       "label": "10.16（金）",
       "total": 393726077,
       "diff_pct": -0.09,
-      "memo": "売買なし ｜ 26本"
+      "memo": "売買なし ｜ 26本",
+      "memo_en": "No trades ｜ 26 posts",
+      "memo_zh": "无交易 ｜ 26条",
+      "label_en": "Oct 16 Fri",
+      "label_zh": "10.16 周五"
     },
     {
       "date": "2026-10-15",
       "label": "10.15（木）",
       "total": 394085125,
       "diff_pct": -2.14,
-      "memo": "26本"
+      "memo": "26本",
+      "memo_en": "26 posts",
+      "memo_zh": "26条",
+      "label_en": "Oct 15 Thu",
+      "label_zh": "10.15 周四"
     },
     {
       "date": "2026-10-14",
       "label": "10.14（水）",
       "total": 402683469,
       "diff_pct": -0.42,
-      "memo": "26本"
+      "memo": "26本",
+      "memo_en": "26 posts",
+      "memo_zh": "26条",
+      "label_en": "Oct 14 Wed",
+      "label_zh": "10.14 周三"
     },
     {
       "date": "2026-10-13",
       "label": "10.13（火）",
       "total": 404364727,
       "diff_pct": -0.01,
-      "memo": "IonQ 2,500株を売却 ｜ 26本"
+      "memo": "IonQ 2,500株を売却 ｜ 26本",
+      "memo_en": "Sold 2,500 IonQ ｜ 26 posts",
+      "memo_zh": "卖出 IonQ 2,500股 ｜ 26条",
+      "label_en": "Oct 13 Tue",
+      "label_zh": "10.13 周二"
     }
   ],
   "articles": []

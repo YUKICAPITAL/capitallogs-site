@@ -198,3 +198,9 @@ img{max-width:100%;display:block}
 .posts-list .row .meta{font-size:11px;color:var(--muted)}
 .posts-list .row .title{font-size:15px;font-weight:500}
 .posts-list .row .r{display:flex;align-items:center;gap:14px;flex-shrink:0}
+
+/* language switch */
+.langs-sw{display:flex;align-items:center;gap:2px;background:var(--accent-soft);border-radius:999px;padding:3px;margin-right:4px}
+.langs-sw a{font-size:11px;font-weight:700;padding:6px 9px;border-radius:999px;color:var(--muted);min-height:0}
+.langs-sw a.on{background:var(--card);color:var(--ink)}
+@media (max-width:719px){.hdr-actions .note{display:none}}
