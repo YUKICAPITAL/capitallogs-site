@@ -1,0 +1,101 @@
+{
+  "updated": "2026-10-20T08:30:00+09:00",
+  "profile": {
+    "name": "YUKI CAPITAL",
+    "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
+    "icon": "images/icon.png"
+  },
+  "links": {
+    "x_ja": "https://x.com/capitallogs",
+    "x_en": "https://x.com/YUKICAPITALen",
+    "x_zh": "https://x.com/YUKICAPITALchin",
+    "note": "https://note.com/capitallogs"
+  },
+  "capital": {
+    "date": "2026-10-19",
+    "label": "10.19（月）",
+    "total": 389388548,
+    "diff": -4337529,
+    "diff_pct": -1.10,
+    "unreal": 57897093,
+    "unreal_pct": 18.41,
+    "cash": 17041762,
+    "cash_pct": 4.38,
+    "trade": "なし",
+    "alloc": [
+      {"name": "国内株", "pct": 46.70},
+      {"name": "投信", "pct": 26.64},
+      {"name": "外国株", "pct": 22.28},
+      {"name": "現金", "pct": 4.38}
+    ],
+    "series": [
+      {"date": "2026-10-09", "total": 404394943},
+      {"date": "2026-10-13", "total": 404364727},
+      {"date": "2026-10-14", "total": 402683469},
+      {"date": "2026-10-15", "total": 394085125},
+      {"date": "2026-10-16", "total": 393726077},
+      {"date": "2026-10-19", "total": 389388548}
+    ]
+  },
+  "conditions": [
+    {"title": "SpaceX を +500株", "rule": "終値が 100ドルを割ったら", "now": "146.03 ドル", "status": "未達"},
+    {"title": "IonQ を 1,250株 買い直す", "rule": "28.5ドルの指値", "now": "31.28 ドル", "status": "未約定"},
+    {"title": "三井住友FG を買い増し", "rule": "3,000円が目安", "now": "—", "status": "未達"},
+    {"title": "SpaceX の積み立て", "rule": "外壁補修の見積もりが出るまで", "now": "", "status": "10月は休止"}
+  ],
+  "holdings": [
+    {"name": "三菱UFJ 8306", "qty": "7,500"},
+    {"name": "りそな 8308", "qty": "13,500"},
+    {"name": "三井住友トラスト 8309", "qty": "26,000"},
+    {"name": "三井住友FG 8316", "qty": "26,000"},
+    {"name": "NPS-CARS（投信）", "qty": "10,000口"},
+    {"name": "SpaceX", "qty": "1,250"},
+    {"name": "テスラ", "qty": "400"},
+    {"name": "GOOGL", "qty": "350"},
+    {"name": "PLTR", "qty": "350"},
+    {"name": "QBTS", "qty": "1,000"},
+    {"name": "RGTI", "qty": "1,000"}
+  ],
+  "posts": {
+    "date": "2026-10-19",
+    "count": 26,
+    "items": [
+      {"time": "09:40", "kind": "判断枠", "title": "ブラックマンデーの朝、キャッシュ比率4.38%の僕は買い増さない", "url": "https://x.com/capitallogs", "impressions": null},
+      {"time": "09:52", "kind": "日記", "title": "学芸大学の鳥おき、いちばんはぼんじりと濃厚な締めのラーメン", "url": "https://x.com/capitallogs", "image": "https://raw.githubusercontent.com/YUKICAPITAL/x-images/main/images/2026-10-19_diary_012925.jpg", "impressions": null},
+      {"time": "09:35", "kind": "長文", "title": "給料を1%上げて、メニューは上げなかった僕の飲食店", "url": "https://x.com/capitallogs", "impressions": null},
+      {"time": "09:20", "kind": "ニュース", "title": "日経平均1,411円安の朝6時、最初に見たのは銀行株", "url": "https://x.com/capitallogs", "impressions": null}
+    ]
+  },
+  "note": [
+    {"date": "2026-10-19", "title": "SpaceX、上場後2回目の決算の前に株主が見る数字", "url": "https://note.com/capitallogs/n/nfd12345feb3e"},
+    {"date": "2026-10-18", "title": "ソフトバンクGの警備会社買収を、数字で分解する", "url": "https://note.com/capitallogs/n/n95d9406a245a"}
+  ],
+  "diary": {
+    "date": "2026-10-18（日）",
+    "place": "学芸大学",
+    "title": "教会学校、平和の森公園、温泉、そして鳥おき",
+    "text": "いちばん動いた気持ちは、子どもたちとしっかり遊べたことと、妻とデートできたこと。",
+    "image": "https://raw.githubusercontent.com/YUKICAPITAL/x-images/main/images/2026-10-19_diary_012925.jpg",
+    "url": "https://x.com/capitallogs"
+  },
+  "media": {
+    "updated": null,
+    "impressions_month": null,
+    "impressions_daily": [],
+    "followers": [
+      {"name": "X 日本語", "handle": "@capitallogs", "url": "https://x.com/capitallogs", "count": null},
+      {"name": "X English", "handle": "@YUKICAPITALen", "url": "https://x.com/YUKICAPITALen", "count": null},
+      {"name": "X 中文", "handle": "@YUKICAPITALchin", "url": "https://x.com/YUKICAPITALchin", "count": null},
+      {"name": "note", "handle": "capitallogs", "url": "https://note.com/capitallogs", "count": null}
+    ]
+  },
+  "archive": [
+    {"date": "2026-10-19", "label": "10.19（月）", "total": 389388548, "diff_pct": -1.10, "memo": "売買なし ｜ 26本 ｜ note 1本"},
+    {"date": "2026-10-18", "label": "10.18（日）", "total": null, "diff_pct": null, "memo": "休場 ｜ 12本 ｜ note 1本（ソフトバンクG）"},
+    {"date": "2026-10-16", "label": "10.16（金）", "total": 393726077, "diff_pct": -0.09, "memo": "売買なし ｜ 26本"},
+    {"date": "2026-10-15", "label": "10.15（木）", "total": 394085125, "diff_pct": -2.14, "memo": "26本"},
+    {"date": "2026-10-14", "label": "10.14（水）", "total": 402683469, "diff_pct": -0.42, "memo": "26本"},
+    {"date": "2026-10-13", "label": "10.13（火）", "total": 404364727, "diff_pct": -0.01, "memo": "IonQ 2,500株を売却 ｜ 26本"}
+  ],
+  "articles": []
+}
