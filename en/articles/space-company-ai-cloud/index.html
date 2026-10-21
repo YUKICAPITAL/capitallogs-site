@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A space company becomes an AI cloud: renting computing power to its rivals｜YUKI CAPITAL</title>
+<meta name="description" content="A rocket company has started earning by renting out AI computing power. Its tenants are also its rivals in AI. Here in Tokyo, I line up the numbers from primary sources: the shortage of compute, the economics of renting GPUs, and the idea of computing in space. I hold SpaceX shares. This is where I check how that company actually makes its money.">
+<meta property="og:title" content="A space company becomes an AI cloud: renting computing power to its rivals">
+<meta property="og:description" content="A rocket company has started earning by renting out AI computing power. Its tenants are also its rivals in AI. Here in Tokyo, I line up the numbers from primary sources: the shortage of compute, the economics of renting GPUs, and the idea of computing in space. I hold SpaceX shares. This is where I check how that company actually makes its money.">
+<meta property="og:image" content="https://yuki-capital.com/images/articles/space-company-ai-cloud/hero.jpg">
+<meta property="og:type" content="article">
+<link rel="icon" href="../../../favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="../../../images/apple-touch-icon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../../../assets/style.css">
+<style>
+.art{max-width:760px;margin:0 auto;padding:24px 0 48px}
+.art .meta{display:flex;gap:10px;align-items:center;font-size:12px;color:var(--muted)}
+.art h1{font-size:26px;line-height:1.45;margin:12px 0 16px}
+.art .lead{font-size:15px;line-height:1.9;color:var(--ink2);border-left:3px solid var(--accent);padding-left:14px;margin:0 0 20px}
+.art .lead p{margin:0}
+.art .card{padding:24px}
+.art h2{font-size:19px;margin:32px 0 12px;padding-top:4px}
+.art h2:first-child{margin-top:0}
+.art p{font-size:15.5px;line-height:2;margin:0 0 14px}
+.art figure{margin:20px 0;}
+.art figure img{width:100%;border-radius:12px;background:#fff}
+.art figcaption{font-size:12px;color:var(--muted);margin-top:6px;line-height:1.6}
+.art .hero img{border-radius:18px;aspect-ratio:16/9;object-fit:cover;width:100%}
+.art .tbl{overflow-x:auto;margin:12px 0 16px}
+.art table{border-collapse:collapse;font-size:13px;min-width:640px;width:100%}
+.art th,.art td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+.art th{background:var(--accent-soft);font-weight:700}
+.art ol.src{font-size:12.5px;line-height:1.8;padding-left:18px;word-break:break-all}
+.art ol.src a{color:var(--accent)}
+.art .cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.langsw{display:flex;gap:8px;font-size:12px}.langsw a{padding:4px 10px;border-radius:999px;background:var(--card)}.langsw a.on{background:var(--dark);color:#fff}
+@media(max-width:600px){.art h1{font-size:21px}.art .card{padding:18px}}
+</style>
+</head>
+<body>
+<header class="site-header"><div class="wrap">
+<a href="../../../en/" class="brand"><img class="avatar" src="../../../images/icon.png" alt=""><span>YUKI CAPITAL</span></a>
+<nav class="nav"><a href="../../../en/articles/" class="primary">Articles</a><a href="../../../en/#capital">Today&#x27;s capital</a><a href="../../../en/archive/">Daily log</a><a href="../../../en/#diary">Diary</a><a href="../../../en/about/">About</a></nav>
+<div class="hdr-actions"><a class="x" href="https://x.com/capitallogs" aria-label="X"><svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 3h3l-7.3 8.3L21.8 21h-6.6l-4.6-6-5.3 6H2.3l7.8-8.9L2 3h6.7l4.2 5.5L17.5 3zm-1.1 16.2h1.8L7.7 4.7H5.8l10.6 14.5z"/></svg></a><a class="note" href="https://note.com/capitallogs">note</a></div>
+</div></header>
+<main class="wrap"><article class="art">
+<div class="meta"><span class="chip">Technology</span><span class="num">Oct 21, 2026</span><span class="langsw" style="margin-left:auto"><a href="../../../articles/space-company-ai-cloud/" data-setlang="ja">日本語</a><a href="../../../en/articles/space-company-ai-cloud/" data-setlang="en" class="on">EN</a><a href="../../../zh/articles/space-company-ai-cloud/" data-setlang="zh">中文</a></span></div>
+<h1>A space company becomes an AI cloud: renting computing power to its rivals</h1>
+<div class="lead"><p>A rocket company has started earning by renting out AI computing power. Its tenants are also its rivals in AI.</p><p>Here in Tokyo, I line up the numbers from primary sources: the shortage of compute, the economics of renting GPUs, and the idea of computing in space.</p><p>I hold SpaceX shares. This is where I check how that company actually makes its money.</p></div>
+<figure class="hero"><img src="../../../images/articles/space-company-ai-cloud/hero.jpg" alt="An aisle of server racks in a data center"><figcaption>An aisle of server racks in a data center</figcaption></figure>
+<div class="card">
+<h2>Why is computing power in short supply?</h2>
+<p>Training and running AI takes huge numbers of GPUs and a great deal of electricity. The big cloud companies are spending unprecedented sums to secure them. Alphabet raised its 2026 capital spending plan to as much as $205 billion. Amazon expects about $220 billion, and Microsoft about $175 billion.</p>
+<p>It is still not enough. Amazon CEO Andy Jassy said the company cannot meet all of its 2026 demand, and that 2027 will look the same. Alphabet said it will get by on capacity rented from others until its own facilities come online.</p>
+<p>Power is another wall. The International Energy Agency (IEA) expects data-center electricity demand to reach about 945TWh in 2030, roughly double today&#x27;s level. For facilities optimized for AI alone, demand is set to more than quadruple.</p>
+<p>Compute takes time to build, and many people want to use it. That is why a business of renting it out, by those who own it, can work.</p>
+<figure><img src="../../../images/articles/space-company-ai-cloud/chart-capex-en.png" alt="Fig. 1  2026 capital spending plans of three big clouds. Built from company results and reports" loading="lazy"><figcaption>Fig. 1  2026 capital spending plans of three big clouds. Built from company results and reports</figcaption></figure>
+<h2>The economics of renting out GPUs</h2>
+<p>Clouds whose core business is renting GPUs are called &quot;neoclouds.&quot; CoreWeave, the leading example, posted revenue of $2.575 billion in April-June 2026, up 112% from a year earlier.</p>
+<p>Adjusted EBITDA was $1.51 billion, a 59% margin. Yet the net result was a $626 million loss. Interest expense was $640 million and capital spending $6.422 billion; depreciation and interest eat into the profit.</p>
+<p>CoreWeave&#x27;s model rests on multi-year committed contracts. They are &quot;take-or-pay,&quot; paid whether used or not, with a weighted average term of about five years. It borrows against those contracts to buy GPUs. In 2025, Microsoft alone accounted for about 67% of revenue.</p>
+<p>In short, renting GPUs generates a lot of cash on the way in. Meanwhile, the weight of equipment bought with borrowed money presses down on the bottom line.</p>
+<div class="tbl"><table><thead><tr><th>Item</th><th>CoreWeave (Apr-Jun 2026)</th><th>SpaceX AI segment (Jul-Sep 2026)</th></tr></thead><tbody><tr><td>Revenue</td><td>$2.575 billion</td><td>$7.560 billion</td></tr><tr><td>Adjusted EBITDA</td><td>$1.510 billion (59%)</td><td>$4.953 billion (about 66%)</td></tr><tr><td>Capital spending</td><td>$6.422 billion</td><td>$16.444 billion</td></tr><tr><td>Compute capacity</td><td>1.5GW active, about 3.7GW contracted</td><td>1.7GW (plan: 2.5-3GW by year-end)</td></tr><tr><td>Contract form</td><td>Committed contracts of about 5 years</td><td>Near-spot pricing, cancellable on 90 days&#x27; notice</td></tr><tr><td>Source of funds</td><td>Borrowing secured by contracts</td><td>Cash and securities of $89.855 billion</td></tr></tbody></table></div>
+<h2>How SpaceX rents differently</h2>
+<p>SpaceX&#x27;s AI segment posted revenue of $7.56 billion in July-September. Adjusted EBITDA was $4.953 billion, a margin as high as CoreWeave&#x27;s.</p>
+<p>There are two large tenants. Anthropic pays $1.25 billion a month through May 2029. Google pays $920 million a month from October 2026 through June 2029. Together, compute revenue from the two runs at about $26 billion a year.</p>
+<p>The difference from CoreWeave is the form of the contract. On its earnings call, SpaceX said the capacity is rented not on long fixed terms but at &quot;near spot&quot; prices. With each renewal, the price per watt of power has gone up, it said. The Anthropic and Google contracts can also be cancelled on 90 days&#x27; notice.</p>
+<p>Internal use and external rental run &quot;roughly 50/50,&quot; and can shift as far as 60/40. The company says newly built compute pays back its investment in under a year at current prices.</p>
+<p>The source of funds differs too. At the end of September, SpaceX held $89.855 billion in cash and securities. Where CoreWeave borrows, buys and repays through long contracts, SpaceX builds with its own money and rents at market prices.</p>
+<figure><img src="../../../images/articles/space-company-ai-cloud/chart-compute-en.png" alt="Fig. 2  SpaceX compute capacity, actual and planned. Built from the results release and earnings call" loading="lazy"><figcaption>Fig. 2  SpaceX compute capacity, actual and planned. Built from the results release and earnings call</figcaption></figure>
+<h2>Charging the competition</h2>
+<p>SpaceX has its own AI, Grok. Anthropic and Google are both companies that build AI models. In other words, SpaceX rents computing power to its rivals in AI and collects their fees.</p>
+<p>The tenants have their own reasons. In Anthropic&#x27;s draft IPO filing reported by the WSJ, committed cloud contracts total about $450 billion. That includes $111 billion with Google Cloud, $110 billion with AWS and $31 billion with Microsoft. Including those under negotiation, the total reaches as much as $750 billion.</p>
+<p>TechCrunch reported that the big clouds have begun to see Anthropic as a competitor and are struggling to supply capacity. The companies that hold compute are starting to shape how the AI race plays out.</p>
+<p>Whoever wins the race between models, the side renting out compute collects fees. That is how the structure is set up.</p>
+<h2>The next stage: computing in space</h2>
+<p>If power and cooling on the ground run short, one idea is to put computers in orbit. In November 2025, Google unveiled &quot;Project Suncatcher.&quot; In the right orbit, solar panels can be up to eight times as productive as on the ground. The design flies 81 satellites in formation within a 1km radius, linked by optical communication.</p>
+<p>Google estimates that if launch costs fall below $200 per kg by the mid-2030s, the cost of power would be roughly on par with the ground. The price of launch is the key.</p>
+<p>In January 2026, SpaceX filed with the FCC for up to one million &quot;orbital data center&quot; satellites. They would sit at altitudes of 500-2,000km and draw more than 99% of their power from the sun. Anthropic has also expressed interest in developing multi-gigawatt orbital compute with SpaceX.</p>
+<p>On this quarter&#x27;s earnings call, however, orbital data centers were not mentioned. Today&#x27;s revenue comes from compute on the ground.</p>
+<figure><img src="../../../images/articles/space-company-ai-cloud/earth.jpg" alt="Earth seen from space. For computing in orbit, the price of launch is the key" loading="lazy"><figcaption>Earth seen from space. For computing in orbit, the price of launch is the key</figcaption></figure>
+<h2>The weak points in the numbers</h2>
+<p>This business has weak points too. Capital spending for January-September was $48.069 billion, far above operating cash flow of $13.097 billion. A Forbes contributor pointed out that the AI segment&#x27;s EBITDA leaves out depreciation, and compared the situation to the telecom bubble of the late 1990s.</p>
+<p>Renting at near-spot prices is strong while prices are rising. If compute becomes plentiful, though, prices fall. Contracts cancellable on 90 days&#x27; notice also carry the risk that tenants leave once they have capacity of their own.</p>
+<p>The company laid out a plan to expand compute to 13GW or more by the end of 2027. Whether demand keeps pace with that will decide this business.</p>
+<h2>How I see it</h2>
+<p>I hold 1,250 shares of SpaceX. When I bought them, I thought of it as a rocket company. Lining up today&#x27;s numbers, the face of a company that rents out compute has grown large.</p>
+<p>In the end, I think SpaceX may win, because it is collecting fees from its rivals. Whichever company wins the race between AI models, as long as it rents compute, SpaceX gets paid.</p>
+<p>As someone who runs a shared office business, I find this shape easy to understand. Whoever you rent to, it is business for the side that rents. What matters, I think, is whether profit stays with your own business.</p>
+<p>The weak points are the weight of capital spending and the swings of spot prices. I do not try to call the share price. With each set of results, I will check whether compute capacity is growing as planned and whether rental prices are holding.</p>
+<h2>Sources</h2>
+<ol class="src"><li>SpaceX Q3 2026 results release <a href="https://s21.q4cdn.com/184289198/files/content_files/SpaceX-Reports-Third-Quarter-2026-Results.pdf" rel="noopener">https://s21.q4cdn.com/184289198/files/content_files/SpaceX-Reports-Third-Quarter-2026-Results.pdf</a></li><li>SpaceX earnings call transcript (Benzinga) <a href="https://www.benzinga.com/news/26/10/62484605/spacex-q3-2026-earnings-call-transcript" rel="noopener">https://www.benzinga.com/news/26/10/62484605/spacex-q3-2026-earnings-call-transcript</a></li><li>CoreWeave Q2 2026 results <a href="https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Second-Quarter-2026-Results/default.aspx" rel="noopener">https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Second-Quarter-2026-Results/default.aspx</a></li><li>CoreWeave FY2025 annual report (10-K) <a href="https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm</a></li><li>IEA, &quot;Energy and AI&quot; <a href="https://www.iea.org/news/ai-is-set-to-drive-surging-electricity-demand-from-data-centres-while-offering-the-potential-to-transform-how-the-energy-sector-works" rel="noopener">https://www.iea.org/news/ai-is-set-to-drive-surging-electricity-demand-from-data-centres-while-offering-the-potential-to-transform-how-the-energy-sector-works</a></li><li>Google Research, &quot;Project Suncatcher&quot; <a href="https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/" rel="noopener">https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/</a></li><li>Anthropic, &quot;Higher limits with SpaceX&quot; <a href="https://www.anthropic.com/news/higher-limits-spacex" rel="noopener">https://www.anthropic.com/news/higher-limits-spacex</a></li><li>Google-SpaceX compute deal (Reuters via TimesLIVE) <a href="https://www.timeslive.co.za/news/business/2026-06-06-spacex-lands-google-ai-compute-deal-after-anthropic-pact-ahead-of-ipo/" rel="noopener">https://www.timeslive.co.za/news/business/2026-06-06-spacex-lands-google-ai-compute-deal-after-anthropic-pact-ahead-of-ipo/</a></li><li>SpaceX orbital data center filing (DCD) <a href="https://www.datacenterdynamics.com/en/news/spacex-files-for-million-satellite-orbital-ai-data-center-megaconstellation/" rel="noopener">https://www.datacenterdynamics.com/en/news/spacex-files-for-million-satellite-orbital-ai-data-center-megaconstellation/</a></li><li>Anthropic draft IPO filing (WSJ report via Investing.com) <a href="https://au.investing.com/news/stock-market-news/anthropic-revenue-hits-163-billion-as-preliminary-s1-outlines-ipo-risks--wsj-4702261" rel="noopener">https://au.investing.com/news/stock-market-news/anthropic-revenue-hits-163-billion-as-preliminary-s1-outlines-ipo-risks--wsj-4702261</a></li><li>Alphabet capital spending (The Next Web) <a href="https://thenextweb.com/news/alphabet-q2-2026-capex-205bn-cloud-82" rel="noopener">https://thenextweb.com/news/alphabet-q2-2026-capex-205bn-cloud-82</a></li><li>AWS demand and capacity (Let&#x27;s Data Science) <a href="https://letsdatascience.com/news/aws-revenue-growth-outruns-available-ai-capacity-b0361d90" rel="noopener">https://letsdatascience.com/news/aws-revenue-growth-outruns-available-ai-capacity-b0361d90</a></li><li>Hyperscaler capital spending (TMT Finance) <a href="https://www.tmtfinance.com/intel/2026-hyperscaler-capex-tops-us700bn-analysis" rel="noopener">https://www.tmtfinance.com/intel/2026-hyperscaler-capex-tops-us700bn-analysis</a></li><li>Anthropic and the cloud companies (TechCrunch) <a href="https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/" rel="noopener">https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/</a></li><li>Forbes (Oct 20, 2026) <a href="https://www.forbes.com/sites/jimosman/2026/10/20/spacex-earnings-crushed-estimates-but-a-35-billion-risk-remains/" rel="noopener">https://www.forbes.com/sites/jimosman/2026/10/20/spacex-earnings-crushed-estimates-but-a-35-billion-risk-remains/</a></li></ol>
+<p class="muted" style="font-size:12px">Photos: İsmail Enes Ayhan / NASA (Unsplash). Charts by YUKI CAPITAL</p>
+<p>I record my daily numbers and decisions on X.</p>
+<div class="cta"><a class="btn-dark" href="https://x.com/capitallogs">See the daily numbers on X</a><a class="btn-light" href="https://note.com/capitallogs" style="border:1px solid var(--line)">I also write on note</a></div>
+</div>
+</article>
+<footer class="site-footer" style="padding-bottom:48px"><span>© 2026 YUKI CAPITAL</span><span><a href="../../../en/">Back to top</a></span></footer>
+</main>
+<script>document.querySelectorAll('[data-setlang]').forEach(function(a){a.addEventListener('click',function(){try{localStorage.setItem('lang',a.getAttribute('data-setlang'))}catch(e){}})});</script>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "abf23c1820ac43539efd93c2112996da"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>

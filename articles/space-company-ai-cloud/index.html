@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>宇宙企業がAIクラウドになる。計算資源を競合に貸すという商売｜YUKI CAPITAL</title>
+<meta name="description" content="ロケットの会社が、AIの計算資源を貸して稼ぎ始めた。借り手は、AIで競い合う相手でもある。 足りない計算資源、GPUを貸す商売の損益、宇宙で計算する構想を、一次資料の数字で並べる。 僕はSpaceXの株を持っている。その会社がどこで稼いでいるのかを、ここで確かめておく。">
+<meta property="og:title" content="宇宙企業がAIクラウドになる。計算資源を競合に貸すという商売">
+<meta property="og:description" content="ロケットの会社が、AIの計算資源を貸して稼ぎ始めた。借り手は、AIで競い合う相手でもある。 足りない計算資源、GPUを貸す商売の損益、宇宙で計算する構想を、一次資料の数字で並べる。 僕はSpaceXの株を持っている。その会社がどこで稼いでいるのかを、ここで確かめておく。">
+<meta property="og:image" content="https://yuki-capital.com/images/articles/space-company-ai-cloud/hero.jpg">
+<meta property="og:type" content="article">
+<link rel="icon" href="../../favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="../../images/apple-touch-icon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<style>
+.art{max-width:760px;margin:0 auto;padding:24px 0 48px}
+.art .meta{display:flex;gap:10px;align-items:center;font-size:12px;color:var(--muted)}
+.art h1{font-size:26px;line-height:1.45;margin:12px 0 16px}
+.art .lead{font-size:15px;line-height:1.9;color:var(--ink2);border-left:3px solid var(--accent);padding-left:14px;margin:0 0 20px}
+.art .lead p{margin:0}
+.art .card{padding:24px}
+.art h2{font-size:19px;margin:32px 0 12px;padding-top:4px}
+.art h2:first-child{margin-top:0}
+.art p{font-size:15.5px;line-height:2;margin:0 0 14px}
+.art figure{margin:20px 0;}
+.art figure img{width:100%;border-radius:12px;background:#fff}
+.art figcaption{font-size:12px;color:var(--muted);margin-top:6px;line-height:1.6}
+.art .hero img{border-radius:18px;aspect-ratio:16/9;object-fit:cover;width:100%}
+.art .tbl{overflow-x:auto;margin:12px 0 16px}
+.art table{border-collapse:collapse;font-size:13px;min-width:640px;width:100%}
+.art th,.art td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+.art th{background:var(--accent-soft);font-weight:700}
+.art ol.src{font-size:12.5px;line-height:1.8;padding-left:18px;word-break:break-all}
+.art ol.src a{color:var(--accent)}
+.art .cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.langsw{display:flex;gap:8px;font-size:12px}.langsw a{padding:4px 10px;border-radius:999px;background:var(--card)}.langsw a.on{background:var(--dark);color:#fff}
+@media(max-width:600px){.art h1{font-size:21px}.art .card{padding:18px}}
+</style>
+</head>
+<body>
+<header class="site-header"><div class="wrap">
+<a href="../../" class="brand"><img class="avatar" src="../../images/icon.png" alt=""><span>YUKI CAPITAL</span></a>
+<nav class="nav"><a href="../../articles/" class="primary">記事</a><a href="../../#capital">今日の資本</a><a href="../../archive/">毎日の記録</a><a href="../../#diary">日記</a><a href="../../about/">について</a></nav>
+<div class="hdr-actions"><a class="x" href="https://x.com/capitallogs" aria-label="X"><svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 3h3l-7.3 8.3L21.8 21h-6.6l-4.6-6-5.3 6H2.3l7.8-8.9L2 3h6.7l4.2 5.5L17.5 3zm-1.1 16.2h1.8L7.7 4.7H5.8l10.6 14.5z"/></svg></a><a class="note" href="https://note.com/capitallogs">note</a></div>
+</div></header>
+<main class="wrap"><article class="art">
+<div class="meta"><span class="chip">テクノロジー</span><span class="num">2026年10月21日</span><span class="langsw" style="margin-left:auto"><a href="../../articles/space-company-ai-cloud/" data-setlang="ja" class="on">日本語</a><a href="../../en/articles/space-company-ai-cloud/" data-setlang="en">EN</a><a href="../../zh/articles/space-company-ai-cloud/" data-setlang="zh">中文</a></span></div>
+<h1>宇宙企業がAIクラウドになる。計算資源を競合に貸すという商売</h1>
+<div class="lead"><p>ロケットの会社が、AIの計算資源を貸して稼ぎ始めた。借り手は、AIで競い合う相手でもある。</p><p>足りない計算資源、GPUを貸す商売の損益、宇宙で計算する構想を、一次資料の数字で並べる。</p><p>僕はSpaceXの株を持っている。その会社がどこで稼いでいるのかを、ここで確かめておく。</p></div>
+<figure class="hero"><img src="../../images/articles/space-company-ai-cloud/hero.jpg" alt="サーバーが並ぶデータセンターの通路"><figcaption>サーバーが並ぶデータセンターの通路</figcaption></figure>
+<div class="card">
+<h2>計算資源は、なぜ足りないのか</h2>
+<p>AIの学習と推論には、大量のGPUと電力が要る。大手クラウドは、その確保に過去にない額を投じている。Alphabetは2026年の設備投資の計画を最大2,050億ドルに引き上げた。Amazonは約2,200億ドル、Microsoftは約1,750億ドルを見込む。</p>
+<p>それでも足りていない。AmazonのジャシーCEOは、2026年の需要をすべては満たせず、2027年も同じ状況になると述べた。Alphabetは、自社の施設が動き出すまで他社から借りた容量でしのぐと説明している。</p>
+<p>電力も壁になる。国際エネルギー機関（IEA）は、データセンターの電力需要が2030年に約945TWhとなり、今の約2倍になると見込む。AI向けに最適化した施設に限れば、需要は4倍を超えるという。</p>
+<p>計算資源は、作るのに時間がかかり、使いたい人が多い。だから、持っている会社が貸す商売が成り立つ。</p>
+<figure><img src="../../images/articles/space-company-ai-cloud/chart-capex-ja.png" alt="図1　大手クラウド3社の2026年の設備投資の計画。各社の決算と報道から作成" loading="lazy"><figcaption>図1　大手クラウド3社の2026年の設備投資の計画。各社の決算と報道から作成</figcaption></figure>
+<h2>GPUを貸すという商売の損益</h2>
+<p>GPUを貸すことを本業にするクラウドは「ネオクラウド」と呼ばれる。代表例のCoreWeaveは、2026年4〜6月期に売上25.75億ドルを上げた。前年より112%多い。</p>
+<p>調整後EBITDAは15.10億ドルで、利益率は59%に達する。ところが純損益は6.26億ドルの赤字だった。支払利息が6.40億ドル、設備投資が64.22億ドルあり、減価償却と利息が利益を食っている。</p>
+<p>CoreWeaveの稼ぎ方は、複数年のコミット契約が柱になっている。使わなくても支払う「テイク・オア・ペイ」で、加重平均の期間は約5年だ。その契約を担保に借りて、GPUを買う。2025年の売上の約67%は、Microsoft1社が占めた。</p>
+<p>つまり、GPUを貸す商売は、現金の出入りの上では大きく稼ぐ。一方で、借りて買った設備の重さが、最終的な利益を圧迫する。</p>
+<div class="tbl"><table><thead><tr><th>項目</th><th>CoreWeave（2026年4〜6月期）</th><th>SpaceX AI部門（2026年7〜9月期）</th></tr></thead><tbody><tr><td>売上</td><td>25.75億ドル</td><td>75.60億ドル</td></tr><tr><td>調整後EBITDA</td><td>15.10億ドル（59%）</td><td>49.53億ドル（約66%）</td></tr><tr><td>設備投資</td><td>64.22億ドル</td><td>164.44億ドル</td></tr><tr><td>計算能力</td><td>稼働1.5GW、契約済み約3.7GW</td><td>1.7GW（年末2.5〜3GWの計画）</td></tr><tr><td>契約の形</td><td>約5年のコミット契約</td><td>ほぼスポット相場、90日前通知で解約可</td></tr><tr><td>資金の出どころ</td><td>契約を担保にした借入</td><td>手元の現金と有価証券898.55億ドル</td></tr></tbody></table></div>
+<h2>SpaceXの貸し方は、何が違うのか</h2>
+<p>SpaceXのAI部門は、7〜9月期に売上75.60億ドルを上げた。調整後EBITDAは49.53億ドルで、利益率はCoreWeaveと同じく高い水準にある。</p>
+<p>大きな借り手は2社だ。Anthropicは、2029年5月まで月額12.5億ドルを支払う。Googleは、2026年10月から2029年6月まで月額9.2億ドルを支払う。2社を合わせると、計算資源の売上は年約260億ドルの規模になる。</p>
+<p>CoreWeaveと違うのは、契約の形だ。SpaceXは決算説明会で、貸し出しは長期固定ではなく「ほぼスポット相場」だと説明した。更新のたびに、電力1Wあたりの単価が上がっているという。AnthropicとGoogleの契約も、90日前の通知で解約できる。</p>
+<p>自社で使う分と外に貸す分は「おおむね50対50」で、60対40まで動かせる。新しく作った計算基盤は、今の価格なら1年かからずに投資を回収できると会社は述べている。</p>
+<p>資金の出どころも違う。SpaceXは9月末で、現金と有価証券を898.55億ドル持つ。借りて買って長期契約で返すCoreWeaveに対し、SpaceXは手元の資金で作り、相場で貸している。</p>
+<figure><img src="../../images/articles/space-company-ai-cloud/chart-compute-ja.png" alt="図2　SpaceXの計算能力の実績と計画。決算リリースと決算説明会から作成" loading="lazy"><figcaption>図2　SpaceXの計算能力の実績と計画。決算リリースと決算説明会から作成</figcaption></figure>
+<h2>競合から料金を取るという構図</h2>
+<p>SpaceXには、Grokという自社のAIがある。AnthropicもGoogleも、AIのモデルを作る側の会社だ。つまりSpaceXは、AIで競い合う相手に計算資源を貸して、料金を受け取っている。</p>
+<p>借り手の側にも事情がある。WSJが報じたAnthropicの上場申請の草案では、確定済みのクラウド契約が約4,500億ドルある。内訳はGoogle Cloudが1,110億ドル、AWSが1,100億ドル、Microsoftが310億ドルだ。交渉中のものを含めると、最大7,500億ドルになるという。</p>
+<p>大手クラウドは、Anthropicを競合とみなし始め、容量を出すのにも苦労しているとTechCrunchは報じた。計算資源を握る会社が、AIの競争の行方を左右し始めている。</p>
+<p>モデルの競争で誰が勝っても、計算資源を貸す側には料金が入る構図になっている。</p>
+<h2>宇宙で計算するという次の段階</h2>
+<p>地上の電力と冷却が足りないなら、宇宙に計算機を上げるという構想がある。Googleは2025年11月、「Project Suncatcher」を公表した。適切な軌道なら、太陽光パネルの発電効率は地上の最大8倍になる。81機の衛星を半径1kmの範囲で編隊飛行させ、光通信でつなぐ設計だ。</p>
+<p>Googleの試算では、2030年代半ばに打ち上げ費用が1kgあたり200ドルを下回れば、電力のコストが地上とほぼ同じになる。鍵を握るのは、打ち上げの値段だ。</p>
+<p>SpaceXは2026年1月、最大100万機の「軌道データセンター」衛星をFCCに申請した。高度500〜2,000kmに置き、電力の99%以上を太陽光でまかなう。Anthropicも、SpaceXと数GW規模の軌道上の計算を開発することに関心を示している。</p>
+<p>ただし、今回の決算説明会では、軌道上のデータセンターには触れていない。今の売上は、地上の計算基盤から生まれている。</p>
+<figure><img src="../../images/articles/space-company-ai-cloud/earth.jpg" alt="宇宙から見た地球。宇宙で計算する構想は、打ち上げの値段が鍵になる" loading="lazy"><figcaption>宇宙から見た地球。宇宙で計算する構想は、打ち上げの値段が鍵になる</figcaption></figure>
+<h2>数字が示す弱点</h2>
+<p>この商売にも弱点がある。1〜9月の設備投資は480.69億ドルで、営業キャッシュフローの130.97億ドルを大きく上回る。Forbesの寄稿者は、AI部門のEBITDAに減価償却が入っていない点を指摘し、1990年代末の通信バブルに似ているとも書いた。</p>
+<p>スポット相場で貸す形は、値上がりの局面では強い。しかし計算資源が余れば、単価は下がる。90日前の通知で解約できる契約は、借り手が自前の容量を持った時点で離れていく可能性も含む。</p>
+<p>会社は、計算能力を2027年末に13GW以上へ増やす計画を示した。需要がその速さについてくるかが、この事業の分かれ目になる。</p>
+<h2>僕はこう見ている</h2>
+<p>僕はSpaceXを1,250株持っている。買ったときは、ロケットの会社だと思っていた。今の数字を並べると、計算資源を貸す会社の顔が大きくなっている。</p>
+<p>結局、SpaceXが勝つのではないかと僕は見ている。競合から料金を取っているからだ。AIのモデルの競争でどこが勝っても、計算資源の借り手である限り、SpaceXには料金が入る。</p>
+<p>シェアオフィスを経営する立場から見ても、この形は分かりやすい。誰に貸しても、貸す側の商売になる。大事なのは、自分の事業に利益が残るかどうかだと思う。</p>
+<p>弱点は、設備投資の重さと、スポット相場の振れにある。僕は株価を当てにいかない。計算能力が計画どおり増えているか、貸し出しの単価が保たれているかを、決算ごとに確かめていく。</p>
+<h2>出典</h2>
+<ol class="src"><li>SpaceX 2026年7〜9月期決算リリース <a href="https://s21.q4cdn.com/184289198/files/content_files/SpaceX-Reports-Third-Quarter-2026-Results.pdf" rel="noopener">https://s21.q4cdn.com/184289198/files/content_files/SpaceX-Reports-Third-Quarter-2026-Results.pdf</a></li><li>SpaceX 決算説明会の文字起こし（Benzinga） <a href="https://www.benzinga.com/news/26/10/62484605/spacex-q3-2026-earnings-call-transcript" rel="noopener">https://www.benzinga.com/news/26/10/62484605/spacex-q3-2026-earnings-call-transcript</a></li><li>CoreWeave 2026年第2四半期決算 <a href="https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Second-Quarter-2026-Results/default.aspx" rel="noopener">https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Second-Quarter-2026-Results/default.aspx</a></li><li>CoreWeave 2025年度 年次報告書（10-K） <a href="https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm</a></li><li>IEA「Energy and AI」 <a href="https://www.iea.org/news/ai-is-set-to-drive-surging-electricity-demand-from-data-centres-while-offering-the-potential-to-transform-how-the-energy-sector-works" rel="noopener">https://www.iea.org/news/ai-is-set-to-drive-surging-electricity-demand-from-data-centres-while-offering-the-potential-to-transform-how-the-energy-sector-works</a></li><li>Google Research「Project Suncatcher」 <a href="https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/" rel="noopener">https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/</a></li><li>Anthropic「Higher limits with SpaceX」 <a href="https://www.anthropic.com/news/higher-limits-spacex" rel="noopener">https://www.anthropic.com/news/higher-limits-spacex</a></li><li>Google・SpaceXの計算資源契約（Reuters配信） <a href="https://www.timeslive.co.za/news/business/2026-06-06-spacex-lands-google-ai-compute-deal-after-anthropic-pact-ahead-of-ipo/" rel="noopener">https://www.timeslive.co.za/news/business/2026-06-06-spacex-lands-google-ai-compute-deal-after-anthropic-pact-ahead-of-ipo/</a></li><li>SpaceXの軌道データセンター申請（DCD） <a href="https://www.datacenterdynamics.com/en/news/spacex-files-for-million-satellite-orbital-ai-data-center-megaconstellation/" rel="noopener">https://www.datacenterdynamics.com/en/news/spacex-files-for-million-satellite-orbital-ai-data-center-megaconstellation/</a></li><li>Anthropic 上場申請の草案（WSJ報道・Investing.com） <a href="https://au.investing.com/news/stock-market-news/anthropic-revenue-hits-163-billion-as-preliminary-s1-outlines-ipo-risks--wsj-4702261" rel="noopener">https://au.investing.com/news/stock-market-news/anthropic-revenue-hits-163-billion-as-preliminary-s1-outlines-ipo-risks--wsj-4702261</a></li><li>Alphabetの設備投資（The Next Web） <a href="https://thenextweb.com/news/alphabet-q2-2026-capex-205bn-cloud-82" rel="noopener">https://thenextweb.com/news/alphabet-q2-2026-capex-205bn-cloud-82</a></li><li>AWSの需要と容量（Let&#x27;s Data Science） <a href="https://letsdatascience.com/news/aws-revenue-growth-outruns-available-ai-capacity-b0361d90" rel="noopener">https://letsdatascience.com/news/aws-revenue-growth-outruns-available-ai-capacity-b0361d90</a></li><li>大手クラウドの設備投資（TMT Finance） <a href="https://www.tmtfinance.com/intel/2026-hyperscaler-capex-tops-us700bn-analysis" rel="noopener">https://www.tmtfinance.com/intel/2026-hyperscaler-capex-tops-us700bn-analysis</a></li><li>Anthropicとクラウド各社（TechCrunch） <a href="https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/" rel="noopener">https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/</a></li><li>Forbes（2026年10月20日） <a href="https://www.forbes.com/sites/jimosman/2026/10/20/spacex-earnings-crushed-estimates-but-a-35-billion-risk-remains/" rel="noopener">https://www.forbes.com/sites/jimosman/2026/10/20/spacex-earnings-crushed-estimates-but-a-35-billion-risk-remains/</a></li></ol>
+<p class="muted" style="font-size:12px">写真：İsmail Enes Ayhan／NASA（Unsplash）。図はYUKI CAPITALが作成</p>
+<p>日々の数字と判断は、Xで記録している。</p>
+<div class="cta"><a class="btn-dark" href="https://x.com/capitallogs">Xで毎日の数字を見る</a><a class="btn-light" href="https://note.com/capitallogs" style="border:1px solid var(--line)">noteでも書いている</a></div>
+</div>
+</article>
+<footer class="site-footer" style="padding-bottom:48px"><span>© 2026 YUKI CAPITAL</span><span><a href="../../">トップへ</a></span></footer>
+</main>
+<script>document.querySelectorAll('[data-setlang]').forEach(function(a){a.addEventListener('click',function(){try{localStorage.setItem('lang',a.getAttribute('data-setlang'))}catch(e){}})});</script>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "abf23c1820ac43539efd93c2112996da"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>

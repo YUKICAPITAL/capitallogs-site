@@ -429,6 +429,20 @@
   ],
   "articles": [
     {
+      "slug": "space-company-ai-cloud",
+      "date": "2026-10-21",
+      "image": "images/articles/space-company-ai-cloud/hero.jpg",
+      "category": "テクノロジー",
+      "category_en": "Technology",
+      "category_zh": "科技",
+      "title": "宇宙企業がAIクラウドになる。計算資源を競合に貸すという商売",
+      "title_en": "A space company becomes an AI cloud: renting computing power to its rivals",
+      "title_zh": "航天企业变成AI云：把计算资源租给竞争对手的生意",
+      "lead": "ロケットの会社が、AIの計算資源を貸して稼ぎ始めた。借り手は、AIで競い合う相手でもある。 足りない計算資源、GPUを貸す商売の損益、宇宙で計算する構想を、一次資料の数字で並べる。 僕はSpaceXの株を持っている。その会社がどこで稼いでいるのかを、ここで確かめておく。",
+      "lead_en": "A rocket company has started earning by renting out AI computing power. Its tenants are also its rivals in AI. Here in Tokyo, I line up the numbers from primary sources: the shortage of compute, the economics of renting GPUs, and the idea of computing in space. I hold SpaceX shares. This is where I check how that company actually makes its money.",
+      "lead_zh": "一家火箭公司，开始靠出租AI计算资源赚钱。而租用者，同时也是它在AI上的竞争对手。 身在东京的我，用一手资料的数字，把计算资源的短缺、出租GPU的损益、在太空中计算的构想排列出来。 我持有SpaceX的股票。在这里，我想确认这家公司到底在哪里赚钱。"
+    },
+    {
       "slug": "quantum-four-approaches",
       "date": "2026-10-20",
       "image": "images/articles/quantum-four-approaches/hero.jpg",
