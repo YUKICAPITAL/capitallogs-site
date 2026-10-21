@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T12:30:00+09:00",
+  "updated": "2026-10-21T12:30:00+09:00",
   "profile": {
     "name": "YUKI CAPITAL",
     "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -16,47 +16,43 @@
     "note": "https://note.com/capitallogs"
   },
   "capital": {
-    "date": "2026-10-20",
-    "label": "10.20（火）",
-    "total": 387889706,
-    "diff": -1498842,
-    "diff_pct": -0.38,
-    "unreal": 56428539,
-    "unreal_pct": 17.95,
-    "cash": 17011474,
-    "cash_pct": 4.39,
+    "date": "2026-10-21",
+    "label": "10.21（水）",
+    "total": 388187316,
+    "diff": 297610,
+    "diff_pct": 0.08,
+    "unreal": 56662010,
+    "unreal_pct": 18.02,
+    "cash": 17075613,
+    "cash_pct": 4.4,
     "trade": "なし",
     "alloc": [
       {
         "name": "国内株",
-        "pct": 47.25,
+        "pct": 46.58,
         "name_en": "JP stocks",
         "name_zh": "日本股票"
       },
       {
         "name": "投信",
-        "pct": 26.7,
+        "pct": 26.79,
         "name_en": "Funds",
         "name_zh": "基金"
       },
       {
         "name": "外国株",
-        "pct": 21.66,
+        "pct": 22.22,
         "name_en": "Foreign stocks",
         "name_zh": "海外股票"
       },
       {
         "name": "現金",
-        "pct": 4.39,
+        "pct": 4.4,
         "name_en": "Cash",
         "name_zh": "现金"
       }
     ],
     "series": [
-      {
-        "date": "2026-10-13",
-        "total": 404364727
-      },
       {
         "date": "2026-10-14",
         "total": 402683469
@@ -76,10 +72,14 @@
       {
         "date": "2026-10-20",
         "total": 387889706
+      },
+      {
+        "date": "2026-10-21",
+        "total": 388187316
       }
     ],
-    "label_en": "Oct 20 (Tue)",
-    "label_zh": "10.20（周二）",
+    "label_en": "Oct 21 (Wed)",
+    "label_zh": "10.21（周三）",
     "trade_en": "None",
     "trade_zh": "无"
   },
@@ -87,7 +87,7 @@
     {
       "title": "SpaceX を +500株",
       "rule": "終値が 100ドルを割ったら",
-      "now": "146.03 ドル",
+      "now": "147.96 ドル",
       "status": "未達",
       "title_en": "Add 500 SpaceX",
       "rule_en": "if the close falls below $100",
@@ -95,8 +95,8 @@
       "title_zh": "SpaceX 加仓500股",
       "rule_zh": "收盘价跌破100美元时",
       "status_zh": "未达",
-      "now_en": "$146.03",
-      "now_zh": "146.03 美元"
+      "now_en": "$147.96",
+      "now_zh": "147.96 美元"
     },
     {
       "title": "IonQ を 1,250株 買い直す",
@@ -115,7 +115,7 @@
     {
       "title": "三井住友FG を買い増し",
       "rule": "3,000円が目安",
-      "now": "3,225 円",
+      "now": "3,180 円",
       "status": "未達",
       "title_en": "Add SMFG (8316)",
       "rule_en": "around ¥3,000 as the guide",
@@ -123,8 +123,8 @@
       "title_zh": "加仓三井住友FG",
       "rule_zh": "以3,000日元为目标",
       "status_zh": "未达",
-      "now_en": "¥3,225",
-      "now_zh": "3,225 日元"
+      "now_en": "¥3,180",
+      "now_zh": "3,180 日元"
     },
     {
       "title": "SpaceX の積み立て",
@@ -230,98 +230,98 @@
     }
   ],
   "posts": {
-    "date": "2026-10-20",
+    "date": "2026-10-21",
     "count": 26,
     "items": [
       {
-        "time": "10.20",
-        "kind": "判断枠",
-        "title": "IonQに強気の声が増えた週、僕がまだ下がると見る理由",
-        "url": "https://x.com/capitallogs",
-        "impressions": null,
-        "kind_en": "Call",
-        "kind_zh": "判断",
-        "title_en": "A week of growing bullish voices on IonQ, and why I still expect it to fall",
-        "title_zh": "看涨IonQ的声音变多的一周，我为何仍认为会跌",
-        "url_en": "https://x.com/YUKICAPITALen",
-        "url_zh": "https://x.com/YUKICAPITALchin"
-      },
-      {
-        "time": "10.20",
-        "kind": "日記",
-        "title": "誰もいないジムのラウンジと、温かいほうじ茶",
-        "url": "https://x.com/capitallogs",
-        "impressions": null,
-        "kind_en": "Diary",
-        "kind_zh": "日记",
-        "title_en": "An empty gym lounge and a warm cup of hojicha",
-        "title_zh": "空无一人的健身房休息室与一杯温热的焙茶",
-        "url_en": "https://x.com/YUKICAPITALen",
-        "url_zh": "https://x.com/YUKICAPITALchin",
-        "image": "https://raw.githubusercontent.com/YUKICAPITAL/x-images/main/images/2026-10-20_diary_104320.jpg"
-      },
-      {
-        "time": "10.20",
+        "time": "10.21",
         "kind": "長文",
-        "title": "X・note・サイト、1つの媒体に頼らない理由",
+        "title": "食事中にペットボトル2本の水、控えた日から食後が軽くなった",
         "url": "https://x.com/capitallogs",
         "impressions": null,
         "kind_en": "Essay",
         "kind_zh": "长文",
-        "title_en": "X, note and a website: why I do not rely on one platform",
-        "title_zh": "X、note和网站：我为何不依赖单一平台",
+        "title_en": "Two bottles of water during meals: after I cut back, my stomach felt lighter after eating",
+        "title_zh": "用餐时喝两瓶水，从控制喝水那天起饭后轻松了",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin"
       },
       {
-        "time": "10.20",
+        "time": "10.21",
+        "kind": "判断枠",
+        "title": "SpaceXの稼ぎ頭は、競合のAI企業に計算資源を貸す事業",
+        "url": "https://x.com/capitallogs",
+        "impressions": null,
+        "kind_en": "Call",
+        "kind_zh": "判断",
+        "title_en": "SpaceX's top earner is renting computing power to rival AI companies",
+        "title_zh": "SpaceX的赚钱主力，是向竞争对手AI企业出租计算资源的业务",
+        "url_en": "https://x.com/YUKICAPITALen",
+        "url_zh": "https://x.com/YUKICAPITALchin"
+      },
+      {
+        "time": "10.21",
         "kind": "ニュース",
-        "title": "郵便貯金の上限1,300万円と、銀行4行を持ち続ける条件",
+        "title": "SpaceXの売上が161%増、ロケットの会社として買った1,250株",
         "url": "https://x.com/capitallogs",
         "impressions": null,
         "kind_en": "News",
         "kind_zh": "新闻",
-        "title_en": "Japan Post Bank's deposit cap and why I keep my four bank stocks",
-        "title_zh": "日本邮储存款上限与我继续持有4家银行股的条件",
+        "title_en": "SpaceX revenue up 161%, and the 1,250 shares I bought as a rocket company",
+        "title_zh": "SpaceX营收增长161%，我当初把它当作火箭公司买下了1,250股",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin"
+      },
+      {
+        "time": "10.21",
+        "kind": "日記",
+        "title": "1,500mを泳いで、管理栄養士さんのグリルポークサラダ",
+        "url": "https://x.com/capitallogs",
+        "impressions": null,
+        "kind_en": "Diary",
+        "kind_zh": "日记",
+        "title_en": "Swimming 1,500m, then the dietitian's grilled pork salad",
+        "title_zh": "游了1,500米，然后是营养师做的烤猪肉沙拉",
+        "url_en": "https://x.com/YUKICAPITALen",
+        "url_zh": "https://x.com/YUKICAPITALchin",
+        "image": "https://raw.githubusercontent.com/YUKICAPITAL/x-images/main/images/2026-10-21_diary_013632.jpg"
       }
     ]
   },
   "note": [
     {
+      "date": "2026-10-21",
+      "title": "SpaceXの7〜9月期決算を事業別に読む。稼ぐ部門、まだ稼がない部門、その理由",
+      "url": "https://note.com/capitallogs/n/n0dd99cbeb604",
+      "image": null
+    },
+    {
       "date": "2026-10-20",
       "title": "全米の子どもにSpaceX株を1株ずつ。双子の父として、子どもに株を持たせる意味を考える",
       "url": "https://note.com/capitallogs/n/n590dc2030e5d",
       "image": "https://assets.st-note.com/production/uploads/images/326390783/rectangle_large_type_2_9fe056558906f978036590e8e6c35f38.png?fit=bounds&quality=85&width=640"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "SpaceX、上場後2回目の決算の前に株主が見る数字",
-      "url": "https://note.com/capitallogs/n/nfd12345feb3e",
-      "image": "https://assets.st-note.com/production/uploads/images/325996391/rectangle_large_type_2_ecd77e3f1be63953126c2df3800c3f62.png?fit=bounds&quality=85&width=640"
     }
   ],
   "diary": {
-    "date": "2026-10-19（月）",
-    "place": "ジムのラウンジ",
-    "title": "誰もいないラウンジと、温かいほうじ茶",
-    "text": "眠れなかった翌日、午前で上がって、誰もいないラウンジでほうじ茶を飲みながら考えをまとめた。すごく落ち着いた。",
-    "image": "https://raw.githubusercontent.com/YUKICAPITAL/x-images/main/images/2026-10-20_diary_104320.jpg",
+    "date": "2026-10-20（火）",
+    "place": "ジム",
+    "title": "1,500mを泳いで、管理栄養士さんのグリルポークサラダ",
+    "text": "昼にジムで1,500mを泳ぎ、管理栄養士さんのグリルポークサラダを食べた。思ったより豪華で量があり、すごく満足した。その夜は睡眠薬なしで眠れた。",
+    "image": "https://raw.githubusercontent.com/YUKICAPITAL/x-images/main/images/2026-10-21_diary_013632.jpg",
     "url": "https://x.com/capitallogs",
-    "date_en": "Mon, Oct 19, 2026",
-    "date_zh": "2026.10.19（周一）",
-    "place_en": "Gym lounge",
-    "place_zh": "健身房休息室",
-    "title_en": "An empty lounge and a warm cup of hojicha",
-    "title_zh": "空无一人的休息室与一杯温热的焙茶",
-    "text_en": "The day after a sleepless night, I left at noon and gathered my thoughts over hojicha in an empty lounge. It was deeply calming.",
-    "text_zh": "失眠后的第二天，我中午就下班，在空无一人的休息室里喝着焙茶整理思路。内心非常平静。",
+    "date_en": "Tue, Oct 20, 2026",
+    "date_zh": "2026.10.20（周二）",
+    "place_en": "Gym",
+    "place_zh": "健身房",
+    "title_en": "Swimming 1,500m, then the dietitian's grilled pork salad",
+    "title_zh": "游了1,500米，然后是营养师做的烤猪肉沙拉",
+    "text_en": "At noon I swam 1,500m at the gym and ate a grilled pork salad made by a dietitian. It was more lavish and filling than I expected. That night I fell asleep without sleeping pills.",
+    "text_zh": "中午在健身房游了1,500米，吃了营养师做的烤猪肉沙拉。比想象中丰盛，分量也足，非常满足。那天晚上没用安眠药就睡着了。",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin"
   },
   "media": {
-    "updated": null,
+    "updated": "2026-10-21 12:20",
     "impressions_month": null,
     "impressions_daily": [],
     "followers": [
@@ -329,7 +329,7 @@
         "name": "X 日本語",
         "handle": "@capitallogs",
         "url": "https://x.com/capitallogs",
-        "count": 155,
+        "count": 156,
         "name_en": "X Japanese",
         "name_zh": "X 日文"
       },
@@ -337,7 +337,7 @@
         "name": "X English",
         "handle": "@YUKICAPITALen",
         "url": "https://x.com/YUKICAPITALen",
-        "count": 83,
+        "count": 87,
         "name_en": "X English",
         "name_zh": "X 英文"
       },
@@ -345,7 +345,7 @@
         "name": "X 中文",
         "handle": "@YUKICAPITALchin",
         "url": "https://x.com/YUKICAPITALchin",
-        "count": 54,
+        "count": 56,
         "name_en": "X Chinese",
         "name_zh": "X 中文"
       },
@@ -357,9 +357,65 @@
         "name_en": "note",
         "name_zh": "note"
       }
-    ]
+    ],
+    "impressions": {
+      "rows": [
+        {
+          "name": "X 日本語",
+          "name_en": "X Japanese",
+          "name_zh": "X 日文",
+          "d7": 37000,
+          "d28": 121000
+        },
+        {
+          "name": "X English",
+          "name_en": "X English",
+          "name_zh": "X 英文",
+          "d7": 7800,
+          "d28": 22000
+        },
+        {
+          "name": "X 中文",
+          "name_en": "X Chinese",
+          "name_zh": "X 中文",
+          "d7": 8900,
+          "d28": 32300
+        },
+        {
+          "name": "note",
+          "name_en": "note",
+          "name_zh": "note",
+          "d7": 236,
+          "d28": 521
+        },
+        {
+          "name": "サイト",
+          "name_en": "Site",
+          "name_zh": "网站",
+          "d7": 68,
+          "d28": 68
+        }
+      ],
+      "total_d7": 54004,
+      "total_d28": 175889
+    },
+    "site": {
+      "visits_24h": 20,
+      "pv_24h": 68
+    }
   },
   "archive": [
+    {
+      "date": "2026-10-21",
+      "label": "10.21（水）",
+      "total": 388187316,
+      "diff_pct": 0.08,
+      "memo": "売買なし ｜ 26本 ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "No trades ｜ 26 posts ｜ 1 note ｜ 1 article",
+      "memo_zh": "无交易 ｜ 26条 ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Oct 21 Wed",
+      "label_zh": "10.21 周三"
+    },
     {
       "date": "2026-10-20",
       "label": "10.20（火）",

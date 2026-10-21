@@ -100,11 +100,13 @@
 
     var M=d.media;
     $('media-upd').textContent=M.updated?T.media_upd+M.updated:T.media_upd_na;
-    $('imp-total').textContent=M.impressions_month==null?'[—]':fmt(M.impressions_month);
-    var bars=M.impressions_daily&&M.impressions_daily.length?M.impressions_daily:[30,55,40,70,50,62,45,80];
-    var bmx=Math.max.apply(null,bars)||1;
-    $('imp-bars').innerHTML=bars.map(function(v,i){return '<div class="'+(i===bars.length-1?'last':'')+'" style="height:'+(v/bmx*100)+'%"></div>'}).join('');
-    $('imp-note').textContent=M.impressions_daily&&M.impressions_daily.length?T.media_imp_daily:T.media_imp_note;
+    var S=M.site||{};
+    $('site-visits').textContent=S.visits_24h==null?'[—]':fmt(S.visits_24h);
+    $('site-pv').textContent=S.pv_24h==null?'':T.media_pv+fmt(S.pv_24h);
+    var I=M.impressions||{rows:[]};
+    var mx=Math.max.apply(null,I.rows.map(function(r){return r.d28||0}).concat([1]));
+    $('imp-list').innerHTML=I.rows.map(function(r){return '<div class="row" style="flex-wrap:wrap;gap:4px 12px"><span style="font-size:14px;font-weight:500">'+esc(L(r,'name'))+'</span><span class="num" style="font-size:14px">'+nullv(r.d7)+' <span class="muted">／</span> <b>'+nullv(r.d28)+'</b></span><div style="flex-basis:100%;height:4px;background:var(--line);border-radius:2px"><div style="height:4px;border-radius:2px;background:var(--accent,#1f4e79);width:'+((r.d28||0)/mx*100)+'%"></div></div></div>'}).join('')+'<div class="row"><span style="font-size:14px;font-weight:700">'+esc(T.media_total)+'</span><span class="num" style="font-size:16px;font-weight:700">'+nullv(I.total_d7)+' <span class="muted">／</span> '+nullv(I.total_d28)+'</span></div>';
+    $('imp-note').textContent=T.media_imp_note;
     $('fol-list').innerHTML=M.followers.map(function(f){return '<a class="row" href="'+esc(f.url)+'"><span style="font-size:14px;font-weight:500">'+esc(L(f,'name'))+' <span class="muted" style="font-size:12px">'+esc(f.handle)+'</span></span><span class="r">'+nullv(f.count)+'<span class="chip">'+esc(T.media_follow)+'</span></span></a>'}).join('');
   }
 })();
