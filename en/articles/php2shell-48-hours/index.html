@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>48 hours of PHP2Shell: how flaws in the language behind 70% of the web were found and closed｜YUKI CAPITAL</title>
+<meta name="description" content="On the night of October 21, 2026, two flaws that could let attackers take over servers without logging in were disclosed in PHP, the language that runs much of the web. Here in Tokyo, I lay out the timeline from the advance notice to the fixed releases and the wave of service shutdowns in Japan, using primary sources from the developers and public agencies. I also check how the flaws work, what role AI played and what could happen next, setting it all against how my own company defends itself.">
+<meta property="og:title" content="48 hours of PHP2Shell: how flaws in the language behind 70% of the web were found and closed">
+<meta property="og:description" content="On the night of October 21, 2026, two flaws that could let attackers take over servers without logging in were disclosed in PHP, the language that runs much of the web. Here in Tokyo, I lay out the timeline from the advance notice to the fixed releases and the wave of service shutdowns in Japan, using primary sources from the developers and public agencies. I also check how the flaws work, what role AI played and what could happen next, setting it all against how my own company defends itself.">
+<meta property="og:image" content="https://yuki-capital.com/images/articles/php2shell-48-hours/hero.jpg">
+<meta property="og:type" content="article">
+<link rel="icon" href="../../../favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="../../../images/apple-touch-icon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../../../assets/style.css">
+<style>
+.art{max-width:760px;margin:0 auto;padding:24px 0 48px}
+.art .meta{display:flex;gap:10px;align-items:center;font-size:12px;color:var(--muted)}
+.art h1{font-size:26px;line-height:1.45;margin:12px 0 16px}
+.art .lead{font-size:15px;line-height:1.9;color:var(--ink2);border-left:3px solid var(--accent);padding-left:14px;margin:0 0 20px}
+.art .lead p{margin:0}
+.art .card{padding:24px}
+.art h2{font-size:19px;margin:32px 0 12px;padding-top:4px}
+.art h2:first-child{margin-top:0}
+.art p{font-size:15.5px;line-height:2;margin:0 0 14px}
+.art figure{margin:20px 0;}
+.art figure img{width:100%;border-radius:12px;background:#fff}
+.art figcaption{font-size:12px;color:var(--muted);margin-top:6px;line-height:1.6}
+.art .hero img{border-radius:18px;aspect-ratio:16/9;object-fit:cover;width:100%}
+.art .tbl{overflow-x:auto;margin:12px 0 16px}
+.art table{border-collapse:collapse;font-size:13px;min-width:640px;width:100%}
+.art th,.art td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+.art th{background:var(--accent-soft);font-weight:700}
+.art ol.src{font-size:12.5px;line-height:1.8;padding-left:18px;word-break:break-all}
+.art ol.src a{color:var(--accent)}
+.art .cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.langsw{display:flex;gap:8px;font-size:12px}.langsw a{padding:4px 10px;border-radius:999px;background:var(--card)}.langsw a.on{background:var(--dark);color:#fff}
+@media(max-width:600px){.art h1{font-size:21px}.art .card{padding:18px}}
+</style>
+</head>
+<body>
+<header class="site-header"><div class="wrap">
+<a href="../../../en/" class="brand"><img class="avatar" src="../../../images/icon.png" alt=""><span>YUKI CAPITAL</span></a>
+<nav class="nav"><a href="../../../en/articles/" class="primary">Articles</a><a href="../../../en/#capital">Today&#x27;s capital</a><a href="../../../en/archive/">Daily log</a><a href="../../../en/#diary">Diary</a><a href="../../../en/about/">About</a></nav>
+<div class="hdr-actions"><a class="x" href="https://x.com/capitallogs" aria-label="X"><svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 3h3l-7.3 8.3L21.8 21h-6.6l-4.6-6-5.3 6H2.3l7.8-8.9L2 3h6.7l4.2 5.5L17.5 3zm-1.1 16.2h1.8L7.7 4.7H5.8l10.6 14.5z"/></svg></a><a class="note" href="https://note.com/capitallogs">note</a></div>
+</div></header>
+<main class="wrap"><article class="art">
+<div class="meta"><span class="chip">Technology</span><span class="num">Oct 22, 2026</span><span class="langsw" style="margin-left:auto"><a href="../../../articles/php2shell-48-hours/" data-setlang="ja">日本語</a><a href="../../../en/articles/php2shell-48-hours/" data-setlang="en" class="on">EN</a><a href="../../../zh/articles/php2shell-48-hours/" data-setlang="zh">中文</a></span></div>
+<h1>48 hours of PHP2Shell: how flaws in the language behind 70% of the web were found and closed</h1>
+<div class="lead"><p>On the night of October 21, 2026, two flaws that could let attackers take over servers without logging in were disclosed in PHP, the language that runs much of the web.</p><p>Here in Tokyo, I lay out the timeline from the advance notice to the fixed releases and the wave of service shutdowns in Japan, using primary sources from the developers and public agencies.</p><p>I also check how the flaws work, what role AI played and what could happen next, setting it all against how my own company defends itself.</p></div>
+<figure class="hero"><img src="../../../images/articles/php2shell-48-hours/hero.jpg" alt="Server racks lined up in a data center"><figcaption>Server racks lined up in a data center</figcaption></figure>
+<div class="card">
+<h2>What happened between the advance notice and the fix</h2>
+<p>It started with information leaking ahead of the planned disclosure. Around 15:20 UTC on October 20, a post announcing the two flaws appeared on a tech forum and was later deleted. The PHP security team announced the release on its mailing list at 19:33 UTC the same day (04:33 on the 21st, Japan time).</p>
+<p>The notice said there were two flaws rated 9.2 under the common CVSS v4.0 scoring system, and that fixed versions would ship at 14:00 UTC on the 21st (23:00 Japan time). It added that the release might come earlier if details leaked or exploitation was confirmed.</p>
+<p>In Japan, things sped up from midday on the 21st. IPA, the national IT agency, asked organizations to prepare and take stock of where they use PHP, and at 15:50 a service for opening online shops went into emergency shutdown. That night, Prime Minister Sanae Takaichi posted on X with &quot;an urgent request to act tonight,&quot; adding that temporarily taking sites offline was also an effective measure if they could not be fixed.</p>
+<p>The fixed versions 8.5.12, 8.4.27, 8.3.36 and 8.2.35 were released between about 22:30 and 23:00 Japan time. The exact time differs slightly from outlet to outlet. By the morning of the 22nd, most of the services that had stopped were heading back online.</p>
+<div class="tbl"><table><thead><tr><th>Time (Japan)</th><th>Event</th><th>Source</th></tr></thead><tbody><tr><td>10/21 04:33</td><td>PHP security team announces the release</td><td>php.announce/509</td></tr><tr><td>10/21 afternoon</td><td>IPA asks organizations to prepare and take stock</td><td>IPA</td></tr><tr><td>10/21 15:50</td><td>An online shop-building service goes into emergency shutdown</td><td>Company notice</td></tr><tr><td>10/21 ~21:55</td><td>The prime minister urges action and temporary shutdowns on X</td><td>Impress Watch</td></tr><tr><td>10/21 22:30–23:00</td><td>Fixed versions 8.5.12 / 8.4.27 / 8.3.36 / 8.2.35 released</td><td>php.net, CERT-EU</td></tr><tr><td>10/22 08:00</td><td>Stopped services begin to come back</td><td>Company notices</td></tr></tbody></table></div>
+<h2>What stopped in Japan</h2>
+<p>According to a tally by the security blog piyolog, at least 54 organizations took action, counting only those with public notices. Twenty stopped their whole service, seven stopped some features and 27 took down their own websites. The list runs from an online shop-building service, a messaging app for nursery schools and popular games to the health ministry&#x27;s nursing-care information system, a university and railway companies.</p>
+<p>Among banks, Shizuoka Bank stopped its online banking as a precaution, and it was reported that no damage had been confirmed as of 23:00 on the 21st. Most of the companies that stopped said they had not confirmed any attack or leak. They did not shut down because damage occurred; they closed the door until they could apply the fix and check.</p>
+<figure><img src="../../../images/articles/php2shell-48-hours/code.jpg" alt="Web code on a laptop screen" loading="lazy"><figcaption>Web code on a laptop screen</figcaption></figure>
+<h2>Inside the flaws: running out of memory, and state left behind</h2>
+<p>The first, CVE-2026-109618, lies in what happens when memory runs out. When PHP passes its memory limit, it cuts the request short, but some internal data is left half-initialized. The cleanup that follows treats this broken data as valid. By abusing the parsing of file-upload forms, an attacker can trigger the memory shortage from outside.</p>
+<p>The second, CVE-2026-109619, is a problem where the state of a previous request survives after its memory has been freed. When the same worker process handles the next request, it uses state that was never cleaned up. The upload-progress feature, which is on by default, is one of the paths to it.</p>
+<p>In both cases, an attacker can run code on the server over the network without logging in. The most dangerous setup is Apache&#x27;s mod_php, where an attack has been shown to succeed with a single request before any application code runs. The developers say there is no complete mitigation and that updating is the only safe option.</p>
+<h2>Why the impact reaches &quot;70% of the web&quot;</h2>
+<p>According to W3Techs, 69.3% of sites whose server-side language is known run on PHP. WordPress alone accounts for 39.6% of all sites, and Drupal and Joomla sit on the same language. Researchers demonstrated takeovers before login on all three.</p>
+<p>However, &quot;70%&quot; is a usage figure, not a count of vulnerable sites. The deeper problem is how many old versions are still in use. Among PHP sites, 27.0% run the 7.x line and 7.7% run 5.x, both past end of life. The official fixed releases this time cover only 8.2 and later, and 8.1 and earlier received only minimal source patches. Support for 8.2 itself ends on December 31, 2026.</p>
+<figure><img src="../../../images/articles/php2shell-48-hours/chart-share-en.png" alt="Figure 1. Version mix of websites running PHP. Based on W3Techs (as of Oct 21, 2026)" loading="lazy"><figcaption>Figure 1. Version mix of websites running PHP. Based on W3Techs (as of Oct 21, 2026)</figcaption></figure>
+<h2>What did AI do?</h2>
+<p>According to OpenAI, the research firm Calif found the first flaw using GPT-5.6 Sol. Work began on July 30, the flaw was found on August 1 and it was reported to the developers on August 11. Wiz found the flaws independently on August 19 and says it used tools including Gemini 4 Argon.</p>
+<p>What matters is that AI did not find them alone. Calif&#x27;s account says the hypothesis came from humans, building on a bug another researcher found in 2004. AI took on the job of reading through the memory-management code and pinning down the concrete bug. The original out-of-memory flaw had been known since 2020, but no one had shown it could lead to a takeover.</p>
+<p>About two and a half months passed between discovery and release. During that time, the developers, the finders and cloud providers coordinated the fix. The faster we get at finding flaws, the more the speed of this coordination becomes the core of defense.</p>
+<h2>Has exploitation been confirmed?</h2>
+<p>The answer depends on the source. IPA said on the 21st that it had not confirmed any attacks, and Huntress said it had not seen any in its own environment. On the other hand, watchTowr updated its page to say it had observed exploitation on its own decoy servers. The U.S. list of known exploited vulnerabilities (KEV) did not include it at the time of checking.</p>
+<p>What is certain is that code claimed to exploit the flaws began circulating before the fixed versions were released. In hindsight, the companies that acted on the assumption that attacks would begin the moment the fix came out made a reasonable call.</p>
+<h2>What could happen next</h2>
+<p>First, more discoveries of the same kind will follow. The number of published vulnerabilities rose from 39,962 in 2024 to 48,185 in 2025, and about 59,000 are forecast for 2026. The more AI rereads old code, the more flaws that have slept for years will come to light.</p>
+<p>Second, the grace period before fixes must be applied will shrink. In the U.S., a directive has reportedly required federal agencies to fix the most dangerous vulnerabilities within three days. Operations need to be rebuilt on the assumption that the gap between disclosure and exploitation can be a matter of hours.</p>
+<p>Third, the cost of staying on old versions will rise. Versions past end of life will not get official fixes even when the next flaw is found. The longer updates are put off, the more a company is forced to choose between shutting down and rebuilding. The smaller the company, the more worthwhile it is to ask its contractors which version its website and booking systems run on.</p>
+<figure><img src="../../../images/articles/php2shell-48-hours/chart-cve-en.png" alt="Figure 2. Published vulnerabilities (CVEs). 2026 is the median forecast by FIRST" loading="lazy"><figcaption>Figure 2. Published vulnerabilities (CVEs). 2026 is the median forecast by FIRST</figcaption></figure>
+<h2>How I see it</h2>
+<p>I run a shared office, and our members&#x27; information is managed with an outside service. I chose not to hold it in-house because I think the more information a company holds, the higher its risk. Even so, on the morning of the 22nd, I contacted the company that runs our system and asked, &quot;Are we all right with this?&quot;</p>
+<p>This incident made me feel that IT needs the same approach to upkeep as a building. Walls and equipment are replaced with money set aside before they break. Software, too, should have the cost of replacing it ready before its support runs out.</p>
+<p>AI gives the same speed to defenders and attackers alike. In an age when flaws are found faster, I think the difference will come from how fast they are fixed and how fast the decision to shut down is made. I want to watch that speed when choosing companies to work with and companies to invest in.</p>
+<h2>Sources</h2>
+<ol class="src"><li>PHP &quot;Critical remote code execution vulnerabilities, update now&quot; <a href="https://www.php.net/archive/2026.php" rel="noopener">https://www.php.net/archive/2026.php</a></li><li>PHP security release notice (php.announce/509) <a href="http://news-web.php.net/php.announce/509" rel="noopener">http://news-web.php.net/php.announce/509</a></li><li>PHP supported versions <a href="https://www.php.net/supported-versions.php" rel="noopener">https://www.php.net/supported-versions.php</a></li><li>GitHub GHSA-w8hw-w9fx-j79w (CVE-2026-109618) <a href="https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w" rel="noopener">https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w</a></li><li>GitHub GHSA-6wmf-4rv5-p3rp (CVE-2026-109619) <a href="https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp" rel="noopener">https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp</a></li><li>IPA notice on the PHP security release <a href="https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261021.html" rel="noopener">https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261021.html</a></li><li>CERT-EU Security Advisory 2026-018 <a href="https://cert.europa.eu/publications/security-advisories/2026-018/" rel="noopener">https://cert.europa.eu/publications/security-advisories/2026-018/</a></li><li>OpenAI &quot;Coordinated disclosure of critical vulnerabilities&quot; <a href="https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/" rel="noopener">https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/</a></li><li>Calif &quot;PHP2Shell&quot; <a href="https://calif.io/php2shell/" rel="noopener">https://calif.io/php2shell/</a></li><li>Wiz &quot;PHP2Shell&quot; <a href="https://www.wiz.io/blog/php2shell-php-rce" rel="noopener">https://www.wiz.io/blog/php2shell-php-rce</a></li><li>watchTowr &quot;CVE-2026-109618 FAQ&quot; <a href="https://watchtowr.com/intelligence/php-cve-2026-109618-faq/" rel="noopener">https://watchtowr.com/intelligence/php-cve-2026-109618-faq/</a></li><li>Huntress <a href="https://www.huntress.com/blog/php2shell-leaked-critical-php-vulnerabilities" rel="noopener">https://www.huntress.com/blog/php2shell-leaked-critical-php-vulnerabilities</a></li><li>W3Techs (PHP usage) <a href="https://w3techs.com/technologies/details/pl-php" rel="noopener">https://w3techs.com/technologies/details/pl-php</a></li><li>W3Techs (CMS market share) <a href="https://w3techs.com/technologies/overview/content_management" rel="noopener">https://w3techs.com/technologies/overview/content_management</a></li><li>Jerry Gamblin &quot;2025 CVE Data Review&quot; <a href="https://jerrygamblin.com/2026/01/01/2025-cve-data-review/" rel="noopener">https://jerrygamblin.com/2026/01/01/2025-cve-data-review/</a></li><li>Computer Weekly (FIRST&#x27;s 2026 forecast) <a href="https://www.computerweekly.com/news/366638949/CVE-volumes-may-plausibly-reach-100000-this-year" rel="noopener">https://www.computerweekly.com/news/366638949/CVE-volumes-may-plausibly-reach-100000-this-year</a></li><li>Cloud Security Alliance (summary of BOD 26-04) <a href="https://labs.cloudsecurityalliance.org/research/csa-research-note-bod-2604-ai-accelerated-patch-mandate-ente/" rel="noopener">https://labs.cloudsecurityalliance.org/research/csa-research-note-bod-2604-ai-accelerated-patch-mandate-ente/</a></li><li>piyolog (tally of shutdowns in Japan) <a href="https://piyolog.hatenadiary.jp/entry/2026/10/21/174516" rel="noopener">https://piyolog.hatenadiary.jp/entry/2026/10/21/174516</a></li><li>Impress Watch <a href="https://www.watch.impress.co.jp/docs/news/2150159.html" rel="noopener">https://www.watch.impress.co.jp/docs/news/2150159.html</a></li></ol>
+<p class="muted" style="font-size:12px">Photos: Taylor Vick / Ilya Pavlov (Unsplash). Charts by YUKI CAPITAL</p>
+<p>I record my daily numbers and decisions on X.</p>
+<div class="cta"><a class="btn-dark" href="https://x.com/capitallogs">See the daily numbers on X</a><a class="btn-light" href="https://note.com/capitallogs" style="border:1px solid var(--line)">I also write on note</a></div>
+</div>
+</article>
+<footer class="site-footer" style="padding-bottom:48px"><span>© 2026 YUKI CAPITAL</span><span><a href="../../../en/">Back to top</a></span></footer>
+</main>
+<script>document.querySelectorAll('[data-setlang]').forEach(function(a){a.addEventListener('click',function(){try{localStorage.setItem('lang',a.getAttribute('data-setlang'))}catch(e){}})});</script>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "abf23c1820ac43539efd93c2112996da"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>

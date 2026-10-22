@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PHP2Shellの48時間。ウェブの7割を支える言語の欠陥は、どう見つかり、どう塞がれたのか｜YUKI CAPITAL</title>
+<meta name="description" content="2026年10月21日の夜、ウェブサイトを動かす言語PHPに、認証なしで乗っ取りにつながる欠陥が2件あると公表された。 予告から修正版の公開、国内サービスの一斉停止までを、開発元と公的機関の一次資料で時系列に並べる。 欠陥の仕組み、AIが果たした役割、そしてこれから起きうることを、僕は自分の会社の守りと重ねて確かめておく。">
+<meta property="og:title" content="PHP2Shellの48時間。ウェブの7割を支える言語の欠陥は、どう見つかり、どう塞がれたのか">
+<meta property="og:description" content="2026年10月21日の夜、ウェブサイトを動かす言語PHPに、認証なしで乗っ取りにつながる欠陥が2件あると公表された。 予告から修正版の公開、国内サービスの一斉停止までを、開発元と公的機関の一次資料で時系列に並べる。 欠陥の仕組み、AIが果たした役割、そしてこれから起きうることを、僕は自分の会社の守りと重ねて確かめておく。">
+<meta property="og:image" content="https://yuki-capital.com/images/articles/php2shell-48-hours/hero.jpg">
+<meta property="og:type" content="article">
+<link rel="icon" href="../../favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="../../images/apple-touch-icon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<style>
+.art{max-width:760px;margin:0 auto;padding:24px 0 48px}
+.art .meta{display:flex;gap:10px;align-items:center;font-size:12px;color:var(--muted)}
+.art h1{font-size:26px;line-height:1.45;margin:12px 0 16px}
+.art .lead{font-size:15px;line-height:1.9;color:var(--ink2);border-left:3px solid var(--accent);padding-left:14px;margin:0 0 20px}
+.art .lead p{margin:0}
+.art .card{padding:24px}
+.art h2{font-size:19px;margin:32px 0 12px;padding-top:4px}
+.art h2:first-child{margin-top:0}
+.art p{font-size:15.5px;line-height:2;margin:0 0 14px}
+.art figure{margin:20px 0;}
+.art figure img{width:100%;border-radius:12px;background:#fff}
+.art figcaption{font-size:12px;color:var(--muted);margin-top:6px;line-height:1.6}
+.art .hero img{border-radius:18px;aspect-ratio:16/9;object-fit:cover;width:100%}
+.art .tbl{overflow-x:auto;margin:12px 0 16px}
+.art table{border-collapse:collapse;font-size:13px;min-width:640px;width:100%}
+.art th,.art td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+.art th{background:var(--accent-soft);font-weight:700}
+.art ol.src{font-size:12.5px;line-height:1.8;padding-left:18px;word-break:break-all}
+.art ol.src a{color:var(--accent)}
+.art .cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.langsw{display:flex;gap:8px;font-size:12px}.langsw a{padding:4px 10px;border-radius:999px;background:var(--card)}.langsw a.on{background:var(--dark);color:#fff}
+@media(max-width:600px){.art h1{font-size:21px}.art .card{padding:18px}}
+</style>
+</head>
+<body>
+<header class="site-header"><div class="wrap">
+<a href="../../" class="brand"><img class="avatar" src="../../images/icon.png" alt=""><span>YUKI CAPITAL</span></a>
+<nav class="nav"><a href="../../articles/" class="primary">記事</a><a href="../../#capital">今日の資本</a><a href="../../archive/">毎日の記録</a><a href="../../#diary">日記</a><a href="../../about/">について</a></nav>
+<div class="hdr-actions"><a class="x" href="https://x.com/capitallogs" aria-label="X"><svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 3h3l-7.3 8.3L21.8 21h-6.6l-4.6-6-5.3 6H2.3l7.8-8.9L2 3h6.7l4.2 5.5L17.5 3zm-1.1 16.2h1.8L7.7 4.7H5.8l10.6 14.5z"/></svg></a><a class="note" href="https://note.com/capitallogs">note</a></div>
+</div></header>
+<main class="wrap"><article class="art">
+<div class="meta"><span class="chip">テクノロジー</span><span class="num">2026年10月22日</span><span class="langsw" style="margin-left:auto"><a href="../../articles/php2shell-48-hours/" data-setlang="ja" class="on">日本語</a><a href="../../en/articles/php2shell-48-hours/" data-setlang="en">EN</a><a href="../../zh/articles/php2shell-48-hours/" data-setlang="zh">中文</a></span></div>
+<h1>PHP2Shellの48時間。ウェブの7割を支える言語の欠陥は、どう見つかり、どう塞がれたのか</h1>
+<div class="lead"><p>2026年10月21日の夜、ウェブサイトを動かす言語PHPに、認証なしで乗っ取りにつながる欠陥が2件あると公表された。</p><p>予告から修正版の公開、国内サービスの一斉停止までを、開発元と公的機関の一次資料で時系列に並べる。</p><p>欠陥の仕組み、AIが果たした役割、そしてこれから起きうることを、僕は自分の会社の守りと重ねて確かめておく。</p></div>
+<figure class="hero"><img src="../../images/articles/php2shell-48-hours/hero.jpg" alt="データセンターに並ぶサーバーのラック"><figcaption>データセンターに並ぶサーバーのラック</figcaption></figure>
+<div class="card">
+<h2>予告から修正版まで、何が起きたのか</h2>
+<p>発端は、公表の予定より早く情報が漏れたことだった。10月20日の15時20分（世界標準時）ごろ、技術系の掲示板に2件の公開を予告する投稿が出て、のちに削除された。開発元のPHPセキュリティチームは、同じ日の19時33分（日本時間21日4時33分）に、メーリングリストでリリースを予告した。</p>
+<p>予告の中身は、共通の評価基準CVSS v4.0で9.2点の欠陥が2件あること、修正版を21日14時（日本時間23時）に出すことだった。詳細が漏れたり悪用が確認されたりすれば前倒しする、とも書かれていた。</p>
+<p>日本では21日の昼から動きが加速した。IPAは棚卸しを呼びかける「事前準備のお願い」を出し、15時50分にはネットショップの開設サービスが緊急停止に入った。夜には首相がXで「今夜に対応して頂きたい大至急のお願い」と投稿し、直せない場合はサイトの一時停止も有効だと伝えた。</p>
+<p>修正版の8.5.12、8.4.27、8.3.36、8.2.35は、日本時間の22時30分から23時ごろに公開された。報じる媒体によって時刻は少しずれている。翌22日の朝には、停止したサービスの多くが再開に向かった。</p>
+<div class="tbl"><table><thead><tr><th>日時（日本時間）</th><th>出来事</th><th>出典</th></tr></thead><tbody><tr><td>10/21 04:33</td><td>PHPセキュリティチームがリリースを予告</td><td>php.announce/509</td></tr><tr><td>10/21 午後</td><td>IPAが事前準備と棚卸しを呼びかけ</td><td>IPA</td></tr><tr><td>10/21 15:50</td><td>ネットショップ開設サービスが緊急停止</td><td>事業者の告知</td></tr><tr><td>10/21 21:55ごろ</td><td>首相がXで対応とサイトの一時停止を呼びかけ</td><td>Impress Watch</td></tr><tr><td>10/21 22:30〜23:00</td><td>修正版8.5.12／8.4.27／8.3.36／8.2.35を公開</td><td>php.net、CERT-EU</td></tr><tr><td>10/22 08:00</td><td>停止したサービスの再開が始まる</td><td>事業者の告知</td></tr></tbody></table></div>
+<h2>国内で止まったもの</h2>
+<p>piyologの集計では、告知で確認できただけで54の組織が対応した。サービス全体を止めたのが20、一部の機能を止めたのが7、自社や団体のサイトを止めたのが27だった。ネットショップの開設サービス、保育園向けの連絡アプリ、人気のゲーム、厚生労働省の介護サービス情報公表システム、大学、鉄道会社まで並ぶ。</p>
+<p>銀行では、静岡銀行がネットバンキングを予防的に止め、21日23時の時点で被害は確認されていないと伝えられた。止めた事業者の多くは、攻撃や漏えいは確認されていないと説明している。被害が出たから止めたのではなく、修正版を当てて確かめるまで扉を閉めた形だった。</p>
+<figure><img src="../../images/articles/php2shell-48-hours/code.jpg" alt="ノートパソコンの画面に並ぶウェブのコード" loading="lazy"><figcaption>ノートパソコンの画面に並ぶウェブのコード</figcaption></figure>
+<h2>欠陥の中身：メモリ不足と、消え残る状態</h2>
+<p>1件目のCVE-2026-109618は、メモリが足りなくなったときの処理にある。PHPは上限を超えるとリクエストを途中で打ち切るが、そのとき内部のデータが初期化の途中で残る。後片付けの処理が、この壊れたデータを正しいものとして扱ってしまう。ファイルを送るフォームの解析を使えば、外からわざとメモリ不足を起こせる。</p>
+<p>2件目のCVE-2026-109619は、前のリクエストの状態が、メモリを解放した後も残る問題だ。同じ作業プロセスが次のリクエストを処理するとき、片付けられていない状態を使ってしまう。初期設定で有効なアップロードの進捗機能が、その経路の1つになる。</p>
+<p>どちらも、攻撃者は認証なしで、ネット越しにサーバー上でコードを動かせる。最も危ないのはApacheのmod_phpで、アプリのコードが動く前に、1回のリクエストで攻撃が成り立つことが実証されている。開発元は「完全な緩和策はなく、更新が唯一の安全な選択」としている。</p>
+<h2>なぜ影響が「ウェブの7割」になるのか</h2>
+<p>W3Techsの集計では、サーバー側の言語が分かるサイトの69.3%がPHPで動いている。WordPressだけで全サイトの39.6%を占め、DrupalやJoomlaも同じ言語の上にある。研究者は、この3つでログイン前の乗っ取りを実証した。</p>
+<p>ただし「7割」は利用率の数字で、脆弱なサイトの実数ではない。問題は古い版の多さにある。PHPのサイトのうち、サポートが終わった7系が27.0%、5系が7.7%を占める。今回の公式の修正版は8.2以降だけで、8.1以前には最小限のソースパッチしか出ていない。8.2のサポートも2026年12月31日に終わる。</p>
+<figure><img src="../../images/articles/php2shell-48-hours/chart-share-ja.png" alt="図1　PHPで動くサイトのバージョン内訳。W3Techs（2026年10月21日時点）から作成" loading="lazy"><figcaption>図1　PHPで動くサイトのバージョン内訳。W3Techs（2026年10月21日時点）から作成</figcaption></figure>
+<h2>AIは何をしたのか</h2>
+<p>OpenAIの公表によると、研究企業のCalifがGPT-5.6 Solを使って最初の欠陥を見つけた。作業の開始は7月30日、発見は8月1日、開発元への報告は8月11日だった。Wizも8月19日に別々に見つけ、Gemini 4 Argonなどを使ったと書いている。</p>
+<p>大事なのは、AIだけで見つけたわけではない点だ。Califの記録では、仮説を立てたのは人間で、2004年に別の研究者が見つけた不具合を手がかりにしている。AIは、メモリ管理のコードを読み込み、具体的な不具合を探し当てる役を担った。元になったメモリ不足の欠陥は2020年に知られていたが、乗っ取りまで届くとは示されていなかった。</p>
+<p>発見から公開までは約2か月半あった。その間、開発元と発見者、クラウド事業者が修正を調整していた。見つける力が上がるほど、この調整の速さが守りの要になる。</p>
+<h2>悪用は確認されたのか</h2>
+<p>答えは、出典によって分かれている。IPAは21日の時点で攻撃を確認していないとし、Huntressも自社の環境では見ていないとした。一方でwatchTowrは、自社のおとりサーバーで悪用を観測したと更新している。米国の悪用確認リスト（KEV）には、調べた時点で載っていない。</p>
+<p>確かなのは、修正版の公開前から、悪用できると主張するコードが出回り始めていたことだ。公開と同時に攻撃が始まる前提で動いた事業者の判断は、結果として合理的だったと言える。</p>
+<h2>これから起きうること</h2>
+<p>1つ目は、同じ型の発見が続くことだ。公表された脆弱性の数は、2024年の39,962件から2025年には48,185件に増え、2026年は約5万9千件と予測されている。AIが古いコードを読み直すほど、何年も眠っていた欠陥が表に出る。</p>
+<p>2つ目は、修正までの猶予が縮むことだ。米国では、最も危ない脆弱性を3日以内に直すよう連邦機関に求める指令が出たと報じられている。公表から悪用までが数時間になる前提で、運用を組み直す必要がある。</p>
+<p>3つ目は、古い版を使い続ける費用が上がることだ。サポートの切れた版は、次の欠陥が見つかっても公式の修正が届かない。更新を先送りした分だけ、止めるか作り直すかの選択を迫られる。小さな会社ほど、自社のサイトや予約の仕組みがどの版で動いているかを、委託先に確かめておく価値がある。</p>
+<figure><img src="../../images/articles/php2shell-48-hours/chart-cve-ja.png" alt="図2　公表された脆弱性（CVE）の件数。2026年はFIRSTの予測の中央値" loading="lazy"><figcaption>図2　公表された脆弱性（CVE）の件数。2026年はFIRSTの予測の中央値</figcaption></figure>
+<h2>僕はこう見ている</h2>
+<p>僕はシェアオフィスを経営していて、会員の情報は外部のサービスで管理している。自社では持たない形にしているのは、情報を持つほどリスクが上がると考えているからだ。それでも22日の朝、運用を任せている会社に「うちは問題ないですか」と連絡した。</p>
+<p>今回の件で、ITにも建物と同じ修繕の考え方が要ると感じた。外壁や設備は、壊れる前に積み立てて替える。ソフトウェアも、サポートが切れる前に替える費用を先に用意しておく。</p>
+<p>AIは、守る側にも攻める側にも同じ速さを与える。僕は、見つかる速さが上がる時代に、直す速さと止める判断の速さで差がつくと見ている。会社を選ぶときも、投資先を選ぶときも、その速さを見ていきたい。</p>
+<h2>出典</h2>
+<ol class="src"><li>PHP公式「Critical remote code execution vulnerabilities, update now」 <a href="https://www.php.net/archive/2026.php" rel="noopener">https://www.php.net/archive/2026.php</a></li><li>PHP セキュリティ予告（php.announce/509） <a href="http://news-web.php.net/php.announce/509" rel="noopener">http://news-web.php.net/php.announce/509</a></li><li>PHP サポート中のバージョン <a href="https://www.php.net/supported-versions.php" rel="noopener">https://www.php.net/supported-versions.php</a></li><li>GitHub GHSA-w8hw-w9fx-j79w（CVE-2026-109618） <a href="https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w" rel="noopener">https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w</a></li><li>GitHub GHSA-6wmf-4rv5-p3rp（CVE-2026-109619） <a href="https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp" rel="noopener">https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp</a></li><li>IPA「PHPのセキュリティリリース公開予定について」 <a href="https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261021.html" rel="noopener">https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261021.html</a></li><li>CERT-EU Security Advisory 2026-018 <a href="https://cert.europa.eu/publications/security-advisories/2026-018/" rel="noopener">https://cert.europa.eu/publications/security-advisories/2026-018/</a></li><li>OpenAI「Coordinated disclosure of critical vulnerabilities」 <a href="https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/" rel="noopener">https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/</a></li><li>Calif「PHP2Shell」 <a href="https://calif.io/php2shell/" rel="noopener">https://calif.io/php2shell/</a></li><li>Wiz「PHP2Shell」 <a href="https://www.wiz.io/blog/php2shell-php-rce" rel="noopener">https://www.wiz.io/blog/php2shell-php-rce</a></li><li>watchTowr「CVE-2026-109618 FAQ」 <a href="https://watchtowr.com/intelligence/php-cve-2026-109618-faq/" rel="noopener">https://watchtowr.com/intelligence/php-cve-2026-109618-faq/</a></li><li>Huntress <a href="https://www.huntress.com/blog/php2shell-leaked-critical-php-vulnerabilities" rel="noopener">https://www.huntress.com/blog/php2shell-leaked-critical-php-vulnerabilities</a></li><li>W3Techs（PHPの利用率） <a href="https://w3techs.com/technologies/details/pl-php" rel="noopener">https://w3techs.com/technologies/details/pl-php</a></li><li>W3Techs（CMSのシェア） <a href="https://w3techs.com/technologies/overview/content_management" rel="noopener">https://w3techs.com/technologies/overview/content_management</a></li><li>Jerry Gamblin「2025 CVE Data Review」 <a href="https://jerrygamblin.com/2026/01/01/2025-cve-data-review/" rel="noopener">https://jerrygamblin.com/2026/01/01/2025-cve-data-review/</a></li><li>Computer Weekly（FIRSTの2026年予測） <a href="https://www.computerweekly.com/news/366638949/CVE-volumes-may-plausibly-reach-100000-this-year" rel="noopener">https://www.computerweekly.com/news/366638949/CVE-volumes-may-plausibly-reach-100000-this-year</a></li><li>Cloud Security Alliance（BOD 26-04の要約） <a href="https://labs.cloudsecurityalliance.org/research/csa-research-note-bod-2604-ai-accelerated-patch-mandate-ente/" rel="noopener">https://labs.cloudsecurityalliance.org/research/csa-research-note-bod-2604-ai-accelerated-patch-mandate-ente/</a></li><li>piyolog（国内の停止の集計） <a href="https://piyolog.hatenadiary.jp/entry/2026/10/21/174516" rel="noopener">https://piyolog.hatenadiary.jp/entry/2026/10/21/174516</a></li><li>Impress Watch <a href="https://www.watch.impress.co.jp/docs/news/2150159.html" rel="noopener">https://www.watch.impress.co.jp/docs/news/2150159.html</a></li></ol>
+<p class="muted" style="font-size:12px">写真：Taylor Vick／Ilya Pavlov（Unsplash）。図はYUKI CAPITALが作成</p>
+<p>日々の数字と判断は、Xで記録している。</p>
+<div class="cta"><a class="btn-dark" href="https://x.com/capitallogs">Xで毎日の数字を見る</a><a class="btn-light" href="https://note.com/capitallogs" style="border:1px solid var(--line)">noteでも書いている</a></div>
+</div>
+</article>
+<footer class="site-footer" style="padding-bottom:48px"><span>© 2026 YUKI CAPITAL</span><span><a href="../../">トップへ</a></span></footer>
+</main>
+<script>document.querySelectorAll('[data-setlang]').forEach(function(a){a.addEventListener('click',function(){try{localStorage.setItem('lang',a.getAttribute('data-setlang'))}catch(e){}})});</script>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "abf23c1820ac43539efd93c2112996da"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>

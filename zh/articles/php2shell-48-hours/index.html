@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PHP2Shell的48小时：支撑七成网站的语言缺陷，是如何被发现、又如何被堵上的｜YUKI CAPITAL</title>
+<meta name="description" content="2026年10月21日夜，驱动大量网站的编程语言PHP被公开存在两个缺陷，攻击者无需登录即可能接管服务器。 身在东京的我，用开发方和公共机构的一手资料，按时间顺序整理从预告、修正版发布到日本国内服务集体停摆的经过。 缺陷的原理、AI扮演的角色，以及今后可能发生的事，我也对照自己公司的防守来确认一遍。">
+<meta property="og:title" content="PHP2Shell的48小时：支撑七成网站的语言缺陷，是如何被发现、又如何被堵上的">
+<meta property="og:description" content="2026年10月21日夜，驱动大量网站的编程语言PHP被公开存在两个缺陷，攻击者无需登录即可能接管服务器。 身在东京的我，用开发方和公共机构的一手资料，按时间顺序整理从预告、修正版发布到日本国内服务集体停摆的经过。 缺陷的原理、AI扮演的角色，以及今后可能发生的事，我也对照自己公司的防守来确认一遍。">
+<meta property="og:image" content="https://yuki-capital.com/images/articles/php2shell-48-hours/hero.jpg">
+<meta property="og:type" content="article">
+<link rel="icon" href="../../../favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="../../../images/apple-touch-icon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../../../assets/style.css">
+<style>
+.art{max-width:760px;margin:0 auto;padding:24px 0 48px}
+.art .meta{display:flex;gap:10px;align-items:center;font-size:12px;color:var(--muted)}
+.art h1{font-size:26px;line-height:1.45;margin:12px 0 16px}
+.art .lead{font-size:15px;line-height:1.9;color:var(--ink2);border-left:3px solid var(--accent);padding-left:14px;margin:0 0 20px}
+.art .lead p{margin:0}
+.art .card{padding:24px}
+.art h2{font-size:19px;margin:32px 0 12px;padding-top:4px}
+.art h2:first-child{margin-top:0}
+.art p{font-size:15.5px;line-height:2;margin:0 0 14px}
+.art figure{margin:20px 0;}
+.art figure img{width:100%;border-radius:12px;background:#fff}
+.art figcaption{font-size:12px;color:var(--muted);margin-top:6px;line-height:1.6}
+.art .hero img{border-radius:18px;aspect-ratio:16/9;object-fit:cover;width:100%}
+.art .tbl{overflow-x:auto;margin:12px 0 16px}
+.art table{border-collapse:collapse;font-size:13px;min-width:640px;width:100%}
+.art th,.art td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+.art th{background:var(--accent-soft);font-weight:700}
+.art ol.src{font-size:12.5px;line-height:1.8;padding-left:18px;word-break:break-all}
+.art ol.src a{color:var(--accent)}
+.art .cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.langsw{display:flex;gap:8px;font-size:12px}.langsw a{padding:4px 10px;border-radius:999px;background:var(--card)}.langsw a.on{background:var(--dark);color:#fff}
+@media(max-width:600px){.art h1{font-size:21px}.art .card{padding:18px}}
+</style>
+</head>
+<body>
+<header class="site-header"><div class="wrap">
+<a href="../../../zh/" class="brand"><img class="avatar" src="../../../images/icon.png" alt=""><span>YUKI CAPITAL</span></a>
+<nav class="nav"><a href="../../../zh/articles/" class="primary">文章</a><a href="../../../zh/#capital">今日资本</a><a href="../../../zh/archive/">每日记录</a><a href="../../../zh/#diary">日记</a><a href="../../../zh/about/">关于</a></nav>
+<div class="hdr-actions"><a class="x" href="https://x.com/capitallogs" aria-label="X"><svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 3h3l-7.3 8.3L21.8 21h-6.6l-4.6-6-5.3 6H2.3l7.8-8.9L2 3h6.7l4.2 5.5L17.5 3zm-1.1 16.2h1.8L7.7 4.7H5.8l10.6 14.5z"/></svg></a><a class="note" href="https://note.com/capitallogs">note</a></div>
+</div></header>
+<main class="wrap"><article class="art">
+<div class="meta"><span class="chip">科技</span><span class="num">2026年10月22日</span><span class="langsw" style="margin-left:auto"><a href="../../../articles/php2shell-48-hours/" data-setlang="ja">日本語</a><a href="../../../en/articles/php2shell-48-hours/" data-setlang="en">EN</a><a href="../../../zh/articles/php2shell-48-hours/" data-setlang="zh" class="on">中文</a></span></div>
+<h1>PHP2Shell的48小时：支撑七成网站的语言缺陷，是如何被发现、又如何被堵上的</h1>
+<div class="lead"><p>2026年10月21日夜，驱动大量网站的编程语言PHP被公开存在两个缺陷，攻击者无需登录即可能接管服务器。</p><p>身在东京的我，用开发方和公共机构的一手资料，按时间顺序整理从预告、修正版发布到日本国内服务集体停摆的经过。</p><p>缺陷的原理、AI扮演的角色，以及今后可能发生的事，我也对照自己公司的防守来确认一遍。</p></div>
+<figure class="hero"><img src="../../../images/articles/php2shell-48-hours/hero.jpg" alt="数据中心里成排的服务器机柜"><figcaption>数据中心里成排的服务器机柜</figcaption></figure>
+<div class="card">
+<h2>从预告到修正版，发生了什么</h2>
+<p>起因是信息比预定的公开时间提前泄露。10月20日15时20分（协调世界时）左右，一个技术论坛上出现了预告这两个缺陷的帖子，随后被删除。PHP安全团队在同一天19时33分（日本时间21日4时33分）通过邮件列表预告了发布。</p>
+<p>预告的内容是：按通用评分标准CVSS v4.0，有两个9.2分的缺陷；修正版将于21日14时（日本时间23时）发布。预告还写道，如果细节泄露或确认被利用，可能会提前发布。</p>
+<p>在日本，21日中午起动作明显加快。日本信息处理推进机构（IPA）发布“事前准备的请求”，呼吁盘点PHP的使用情况；15时50分，一家网店开设服务进入紧急停止。当晚，高市早苗首相在X上发文，称这是“希望今晚就处理的紧急请求”，并表示无法修复时，暂时停止网站也是有效的对策。</p>
+<p>修正版8.5.12、8.4.27、8.3.36、8.2.35于日本时间22时30分到23时左右发布。各家媒体报道的时间略有出入。到22日早上，停下的服务大多开始恢复。</p>
+<div class="tbl"><table><thead><tr><th>时间（日本）</th><th>事件</th><th>出处</th></tr></thead><tbody><tr><td>10/21 04:33</td><td>PHP安全团队预告发布</td><td>php.announce/509</td></tr><tr><td>10/21 下午</td><td>IPA呼吁事前准备和盘点</td><td>IPA</td></tr><tr><td>10/21 15:50</td><td>网店开设服务紧急停止</td><td>企业公告</td></tr><tr><td>10/21 约21:55</td><td>首相在X上呼吁应对和暂时停站</td><td>Impress Watch</td></tr><tr><td>10/21 22:30〜23:00</td><td>发布修正版8.5.12／8.4.27／8.3.36／8.2.35</td><td>php.net、CERT-EU</td></tr><tr><td>10/22 08:00</td><td>停下的服务开始恢复</td><td>企业公告</td></tr></tbody></table></div>
+<h2>日本国内停下了什么</h2>
+<p>据安全博客piyolog统计，仅在公告中能确认的就有54个组织采取了行动。其中停止全部服务的20个，停止部分功能的7个，停掉自家或团体网站的27个。名单从网店开设服务、托儿所用的联络App、热门游戏，到厚生劳动省的护理服务信息公开系统、大学和铁路公司。</p>
+<p>银行方面，静冈银行预防性地停止了网上银行，据报道截至21日23时尚未确认损失。停下服务的企业大多表示，未确认遭到攻击或信息泄露。它们不是因为出了损失才停，而是在打上修正版并确认之前，先把门关上。</p>
+<figure><img src="../../../images/articles/php2shell-48-hours/code.jpg" alt="笔记本电脑屏幕上的网页代码" loading="lazy"><figcaption>笔记本电脑屏幕上的网页代码</figcaption></figure>
+<h2>缺陷的内容：内存不足，以及残留的状态</h2>
+<p>第一个缺陷CVE-2026-109618，出在内存耗尽时的处理上。PHP超过内存上限后会中断请求，但内部数据会停留在初始化到一半的状态。随后的清理处理，会把这些损坏的数据当作正常数据来使用。利用上传文件表单的解析，攻击者可以从外部故意制造内存不足。</p>
+<p>第二个缺陷CVE-2026-109619，是上一个请求的状态在内存释放后仍然残留的问题。同一个工作进程处理下一个请求时，会使用没有被清理的状态。默认开启的上传进度功能，就是其中一条路径。</p>
+<p>两个缺陷都能让攻击者无需登录，通过网络在服务器上运行代码。最危险的是Apache的mod_php，已经证实在应用代码运行之前，一次请求就能完成攻击。开发方表示，没有完整的缓解办法，更新是唯一安全的选择。</p>
+<h2>为什么影响会达到“七成网站”</h2>
+<p>据W3Techs统计，在可识别服务器端语言的网站中，69.3%使用PHP。仅WordPress就占全部网站的39.6%，Drupal和Joomla也建立在同一种语言之上。研究人员在这三者上都证实了登录前的接管。</p>
+<p>不过，“七成”是使用率，并不是存在漏洞的网站的实际数量。真正的问题在于旧版本之多。在PHP网站中，已停止支持的7系占27.0%，5系占7.7%。这次官方的修正版只覆盖8.2及以后的版本，8.1及以前只提供了最低限度的源码补丁。8.2的支持也将在2026年12月31日结束。</p>
+<figure><img src="../../../images/articles/php2shell-48-hours/chart-share-zh.png" alt="图1　使用PHP的网站的版本构成。根据W3Techs（截至2026年10月21日）制作" loading="lazy"><figcaption>图1　使用PHP的网站的版本构成。根据W3Techs（截至2026年10月21日）制作</figcaption></figure>
+<h2>AI做了什么</h2>
+<p>据OpenAI公布，研究公司Calif使用GPT-5.6 Sol发现了第一个缺陷。工作始于7月30日，8月1日发现，8月11日向开发方报告。Wiz也在8月19日独立发现，并写道使用了Gemini 4 Argon等工具。</p>
+<p>重要的是，这并不是AI单独发现的。按照Calif的记录，提出假设的是人，线索是另一位研究人员在2004年发现的缺陷。AI承担的是通读内存管理代码、找出具体缺陷的工作。最初的内存不足缺陷在2020年就已为人所知，但当时没有人证明它能一直通向接管。</p>
+<p>从发现到公开，大约经过了两个半月。在此期间，开发方、发现者和云服务商一直在协调修正。发现的能力越强，这种协调的速度就越是防守的关键。</p>
+<h2>是否确认被利用</h2>
+<p>答案因出处而异。IPA在21日表示尚未确认攻击，Huntress也表示在自家环境中没有看到。另一方面，watchTowr更新页面称，在自家的诱饵服务器上观测到了利用。截至查询时，美国的已知被利用漏洞清单（KEV）中没有收录。</p>
+<p>可以确定的是，在修正版发布之前，声称可以利用这些缺陷的代码就已经开始流传。以“修正版一发布攻击就会开始”为前提行动的企业，事后看来判断是合理的。</p>
+<h2>今后可能发生的事</h2>
+<p>第一，同类发现会接连出现。公开的漏洞数量从2024年的39,962个增加到2025年的48,185个，2026年预计约5万9千个。AI越是重读旧代码，沉睡多年的缺陷就越会浮出水面。</p>
+<p>第二，打补丁的宽限期会缩短。据报道，美国已发布指令，要求联邦机构在3天内修复最危险的漏洞。需要以“从公开到被利用可能只有几个小时”为前提，重新安排运维。</p>
+<p>第三，继续使用旧版本的成本会上升。已停止支持的版本，即使发现下一个缺陷，也收不到官方修正。更新拖得越久，越会被迫在停站和重建之间做选择。越是小公司，越值得向委托方确认自家网站和预约系统运行在哪个版本上。</p>
+<figure><img src="../../../images/articles/php2shell-48-hours/chart-cve-zh.png" alt="图2　公开的漏洞（CVE）数量。2026年为FIRST预测的中位数" loading="lazy"><figcaption>图2　公开的漏洞（CVE）数量。2026年为FIRST预测的中位数</figcaption></figure>
+<h2>我是这样看的</h2>
+<p>我经营一家共享办公室，会员信息用外部服务管理。之所以不在自家持有，是因为我认为持有的信息越多，风险越高。即便如此，22日早上我还是联系了负责运维的公司，问了一句“我们这边没问题吧”。</p>
+<p>这次的事让我觉得，IT也需要和建筑一样的修缮思路。外墙和设备，是在坏之前就积攒资金来更换。软件也一样，应该在支持结束之前，先准备好更换的费用。</p>
+<p>AI给防守方和攻击方的是同样的速度。在缺陷被发现得越来越快的时代，我认为差距将来自修复的速度和决定停站的速度。选择合作的公司、选择投资对象时，我都想看这个速度。</p>
+<h2>来源</h2>
+<ol class="src"><li>PHP官方“Critical remote code execution vulnerabilities, update now” <a href="https://www.php.net/archive/2026.php" rel="noopener">https://www.php.net/archive/2026.php</a></li><li>PHP安全发布预告（php.announce/509） <a href="http://news-web.php.net/php.announce/509" rel="noopener">http://news-web.php.net/php.announce/509</a></li><li>PHP支持中的版本 <a href="https://www.php.net/supported-versions.php" rel="noopener">https://www.php.net/supported-versions.php</a></li><li>GitHub GHSA-w8hw-w9fx-j79w（CVE-2026-109618） <a href="https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w" rel="noopener">https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w</a></li><li>GitHub GHSA-6wmf-4rv5-p3rp（CVE-2026-109619） <a href="https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp" rel="noopener">https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp</a></li><li>IPA关于PHP安全发布的公告 <a href="https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261021.html" rel="noopener">https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261021.html</a></li><li>CERT-EU Security Advisory 2026-018 <a href="https://cert.europa.eu/publications/security-advisories/2026-018/" rel="noopener">https://cert.europa.eu/publications/security-advisories/2026-018/</a></li><li>OpenAI“Coordinated disclosure of critical vulnerabilities” <a href="https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/" rel="noopener">https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/</a></li><li>Calif“PHP2Shell” <a href="https://calif.io/php2shell/" rel="noopener">https://calif.io/php2shell/</a></li><li>Wiz“PHP2Shell” <a href="https://www.wiz.io/blog/php2shell-php-rce" rel="noopener">https://www.wiz.io/blog/php2shell-php-rce</a></li><li>watchTowr“CVE-2026-109618 FAQ” <a href="https://watchtowr.com/intelligence/php-cve-2026-109618-faq/" rel="noopener">https://watchtowr.com/intelligence/php-cve-2026-109618-faq/</a></li><li>Huntress <a href="https://www.huntress.com/blog/php2shell-leaked-critical-php-vulnerabilities" rel="noopener">https://www.huntress.com/blog/php2shell-leaked-critical-php-vulnerabilities</a></li><li>W3Techs（PHP使用率） <a href="https://w3techs.com/technologies/details/pl-php" rel="noopener">https://w3techs.com/technologies/details/pl-php</a></li><li>W3Techs（CMS份额） <a href="https://w3techs.com/technologies/overview/content_management" rel="noopener">https://w3techs.com/technologies/overview/content_management</a></li><li>Jerry Gamblin“2025 CVE Data Review” <a href="https://jerrygamblin.com/2026/01/01/2025-cve-data-review/" rel="noopener">https://jerrygamblin.com/2026/01/01/2025-cve-data-review/</a></li><li>Computer Weekly（FIRST的2026年预测） <a href="https://www.computerweekly.com/news/366638949/CVE-volumes-may-plausibly-reach-100000-this-year" rel="noopener">https://www.computerweekly.com/news/366638949/CVE-volumes-may-plausibly-reach-100000-this-year</a></li><li>Cloud Security Alliance（BOD 26-04摘要） <a href="https://labs.cloudsecurityalliance.org/research/csa-research-note-bod-2604-ai-accelerated-patch-mandate-ente/" rel="noopener">https://labs.cloudsecurityalliance.org/research/csa-research-note-bod-2604-ai-accelerated-patch-mandate-ente/</a></li><li>piyolog（日本国内停站统计） <a href="https://piyolog.hatenadiary.jp/entry/2026/10/21/174516" rel="noopener">https://piyolog.hatenadiary.jp/entry/2026/10/21/174516</a></li><li>Impress Watch <a href="https://www.watch.impress.co.jp/docs/news/2150159.html" rel="noopener">https://www.watch.impress.co.jp/docs/news/2150159.html</a></li></ol>
+<p class="muted" style="font-size:12px">照片：Taylor Vick／Ilya Pavlov（Unsplash）。图表由YUKI CAPITAL制作</p>
+<p>每天的数字与判断，记录在X上。</p>
+<div class="cta"><a class="btn-dark" href="https://x.com/capitallogs">在X上看每天的数字</a><a class="btn-light" href="https://note.com/capitallogs" style="border:1px solid var(--line)">我也在note上写作</a></div>
+</div>
+</article>
+<footer class="site-footer" style="padding-bottom:48px"><span>© 2026 YUKI CAPITAL</span><span><a href="../../../zh/">返回首页</a></span></footer>
+</main>
+<script>document.querySelectorAll('[data-setlang]').forEach(function(a){a.addEventListener('click',function(){try{localStorage.setItem('lang',a.getAttribute('data-setlang'))}catch(e){}})});</script>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "abf23c1820ac43539efd93c2112996da"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>

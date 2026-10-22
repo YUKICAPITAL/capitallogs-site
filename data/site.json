@@ -485,6 +485,20 @@
   ],
   "articles": [
     {
+      "slug": "php2shell-48-hours",
+      "date": "2026-10-22",
+      "image": "images/articles/php2shell-48-hours/hero.jpg",
+      "category": "テクノロジー",
+      "category_en": "Technology",
+      "category_zh": "科技",
+      "title": "PHP2Shellの48時間。ウェブの7割を支える言語の欠陥は、どう見つかり、どう塞がれたのか",
+      "title_en": "48 hours of PHP2Shell: how flaws in the language behind 70% of the web were found and closed",
+      "title_zh": "PHP2Shell的48小时：支撑七成网站的语言缺陷，是如何被发现、又如何被堵上的",
+      "lead": "2026年10月21日の夜、ウェブサイトを動かす言語PHPに、認証なしで乗っ取りにつながる欠陥が2件あると公表された。 予告から修正版の公開、国内サービスの一斉停止までを、開発元と公的機関の一次資料で時系列に並べる。 欠陥の仕組み、AIが果たした役割、そしてこれから起きうることを、僕は自分の会社の守りと重ねて確かめておく。",
+      "lead_en": "On the night of October 21, 2026, two flaws that could let attackers take over servers without logging in were disclosed in PHP, the language that runs much of the web. Here in Tokyo, I lay out the timeline from the advance notice to the fixed releases and the wave of service shutdowns in Japan, using primary sources from the developers and public agencies. I also check how the flaws work, what role AI played and what could happen next, setting it all against how my own company defends itself.",
+      "lead_zh": "2026年10月21日夜，驱动大量网站的编程语言PHP被公开存在两个缺陷，攻击者无需登录即可能接管服务器。 身在东京的我，用开发方和公共机构的一手资料，按时间顺序整理从预告、修正版发布到日本国内服务集体停摆的经过。 缺陷的原理、AI扮演的角色，以及今后可能发生的事，我也对照自己公司的防守来确认一遍。"
+    },
+    {
       "slug": "space-company-ai-cloud",
       "date": "2026-10-21",
       "image": "images/articles/space-company-ai-cloud/hero.jpg",
