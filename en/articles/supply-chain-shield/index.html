@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>No shield is stronger than a shield: what the Microsoft cloud case and the Onamae.com breach teach about defense and its limits｜YUKI CAPITAL</title>
+<meta name="description" content="On October 21 and 22, 2026, two intrusions of completely different scale and target were disclosed in the same week. One targeted companies that use Microsoft&#x27;s cloud through a contractor&#x27;s app; the other was unauthorized access to Onamae.com&#x27;s virtual servers in Japan. From Tokyo, I check with primary sources how the attackers got in, how to respond, how large companies defend themselves, and whether this can realistically be prevented.">
+<meta property="og:title" content="No shield is stronger than a shield: what the Microsoft cloud case and the Onamae.com breach teach about defense and its limits">
+<meta property="og:description" content="On October 21 and 22, 2026, two intrusions of completely different scale and target were disclosed in the same week. One targeted companies that use Microsoft&#x27;s cloud through a contractor&#x27;s app; the other was unauthorized access to Onamae.com&#x27;s virtual servers in Japan. From Tokyo, I check with primary sources how the attackers got in, how to respond, how large companies defend themselves, and whether this can realistically be prevented.">
+<meta property="og:image" content="https://yuki-capital.com/images/articles/supply-chain-shield/hero.jpg">
+<meta property="og:type" content="article">
+<link rel="icon" href="../../../favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="../../../images/apple-touch-icon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../../../assets/style.css">
+<style>
+.art{max-width:760px;margin:0 auto;padding:24px 0 48px}
+.art .meta{display:flex;gap:10px;align-items:center;font-size:12px;color:var(--muted)}
+.art h1{font-size:26px;line-height:1.45;margin:12px 0 16px}
+.art .lead{font-size:15px;line-height:1.9;color:var(--ink2);border-left:3px solid var(--accent);padding-left:14px;margin:0 0 20px}
+.art .lead p{margin:0}
+.art .card{padding:24px}
+.art h2{font-size:19px;margin:32px 0 12px;padding-top:4px}
+.art h2:first-child{margin-top:0}
+.art p{font-size:15.5px;line-height:2;margin:0 0 14px}
+.art figure{margin:20px 0;}
+.art figure img{width:100%;border-radius:12px;background:#fff}
+.art figcaption{font-size:12px;color:var(--muted);margin-top:6px;line-height:1.6}
+.art .hero img{border-radius:18px;aspect-ratio:16/9;object-fit:cover;width:100%}
+.art .tbl{overflow-x:auto;margin:12px 0 16px}
+.art table{border-collapse:collapse;font-size:13px;min-width:640px;width:100%}
+.art th,.art td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+.art th{background:var(--accent-soft);font-weight:700}
+.art ol.src{font-size:12.5px;line-height:1.8;padding-left:18px;word-break:break-all}
+.art ol.src a{color:var(--accent)}
+.art .cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.langsw{display:flex;gap:8px;font-size:12px}.langsw a{padding:4px 10px;border-radius:999px;background:var(--card)}.langsw a.on{background:var(--dark);color:#fff}
+@media(max-width:600px){.art h1{font-size:21px}.art .card{padding:18px}}
+</style>
+</head>
+<body>
+<header class="site-header"><div class="wrap">
+<a href="../../../en/" class="brand"><img class="avatar" src="../../../images/icon.png" alt=""><span>YUKI CAPITAL</span></a>
+<nav class="nav"><a href="../../../en/articles/" class="primary">Articles</a><a href="../../../en/#capital">Today&#x27;s capital</a><a href="../../../en/archive/">Daily log</a><a href="../../../en/#diary">Diary</a><a href="../../../en/about/">About</a></nav>
+<div class="hdr-actions"><a class="x" href="https://x.com/capitallogs" aria-label="X"><svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 3h3l-7.3 8.3L21.8 21h-6.6l-4.6-6-5.3 6H2.3l7.8-8.9L2 3h6.7l4.2 5.5L17.5 3zm-1.1 16.2h1.8L7.7 4.7H5.8l10.6 14.5z"/></svg></a><a class="note" href="https://note.com/capitallogs">note</a></div>
+</div></header>
+<main class="wrap"><article class="art">
+<div class="meta"><span class="chip">Technology</span><span class="num">Oct 23, 2026</span><span class="langsw" style="margin-left:auto"><a href="../../../articles/supply-chain-shield/" data-setlang="ja">日本語</a><a href="../../../en/articles/supply-chain-shield/" data-setlang="en" class="on">EN</a><a href="../../../zh/articles/supply-chain-shield/" data-setlang="zh">中文</a></span></div>
+<h1>No shield is stronger than a shield: what the Microsoft cloud case and the Onamae.com breach teach about defense and its limits</h1>
+<div class="lead"><p>On October 21 and 22, 2026, two intrusions of completely different scale and target were disclosed in the same week.</p><p>One targeted companies that use Microsoft&#x27;s cloud through a contractor&#x27;s app; the other was unauthorized access to Onamae.com&#x27;s virtual servers in Japan.</p><p>From Tokyo, I check with primary sources how the attackers got in, how to respond, how large companies defend themselves, and whether this can realistically be prevented.</p></div>
+<figure class="hero"><img src="../../../images/articles/supply-chain-shield/hero.jpg" alt="A padlock resting on a keyboard"><figcaption>A padlock resting on a keyboard</figcaption></figure>
+<div class="card">
+<h2>What happened in the two cases</h2>
+<p>On October 21, Microsoft disclosed the activity of Storm-0940, a group said to work with the Chinese government. More than 2,250 tenants (the unit of an organization that contracts the cloud) faced 2,900 sign-in attempts per minute. Failed attempts exceeded 151,000. Microsoft states clearly that its own systems were not compromised.</p>
+<p>The way in was a contractor&#x27;s cloud backup app. ConnectWise Cloud Backup (formerly SkyKick), an app shared by many companies, was taken over, and the attackers used the permissions granted to that app to get into customer environments. In some cases, it took less than three hours from targeting to gaining administrator privileges. The attack used ARTEX, a multi-agent AI tool published for penetration testing.</p>
+<p>The Onamae.com case occurred in a virtual private server (VPS) service used for things like automated FX trading. GMO began investigating on October 19 after a user inquiry, confirmed a malicious program on the 20th, and stopped all plans from 4 a.m. on the 21st. In its second report on the 22nd, it said it had received reports of unauthorized operations in trading accounts and that login information saved on the servers may have been stolen. The number of servers that may be affected is 26,739, and the route of intrusion has not yet been disclosed. Under the terms of service, compensation applies only to a complete outage of 24 hours or more, capped at one month of the monthly fee.</p>
+<div class="tbl"><table><thead><tr><th>Item</th><th>Microsoft cloud case</th><th>Onamae.com case</th></tr></thead><tbody><tr><td>Disclosure</td><td>October 21, 2026 (company security blog)</td><td>First report Oct 21, second report Oct 22</td></tr><tr><td>What was targeted</td><td>Permissions of a contractor&#x27;s shared app</td><td>Virtual servers and the login information saved on them</td></tr><tr><td>Scale</td><td>2,250+ tenants, 2,900 attempts per minute</td><td>26,739 servers possibly affected</td></tr><tr><td>Core systems breached</td><td>No (stated by the company)</td><td>Under investigation (route not disclosed)</td></tr><tr><td>AI involvement</td><td>Misuse of the pentest AI tool ARTEX</td><td>Not disclosed</td></tr></tbody></table></div>
+<h2>How they got in: the common thread is &quot;keys handed over&quot;</h2>
+<p>The two cases differ in scale and target, but what was targeted has something in common. The attackers did not break down the front door. They used keys that had already been handed over.</p>
+<p>In the Microsoft case, password spraying, which tries passwords across many accounts, took place from October 10 to 14 but did not succeed. The breakthrough was the permissions customers had granted to an app for their work. In the Onamae.com case, the login information for brokerages and FX firms that users had saved on servers for automated trading may have become the entrance to their accounts.</p>
+<p>In technical terms, this is called a supply chain compromise. However well a company defends itself, if an outside company it connects to, or an outside system it entrusts data to, is broken, the attackers come in from there. Verizon&#x27;s 2026 study (DBIR) found that 31% of breaches began with exploitation of vulnerabilities and that a third party was involved in 48% of breaches. In IPA&#x27;s &quot;10 Major Security Threats 2026&quot; in Japan, the second threat for organizations is attacks targeting the supply chain and contractors.</p>
+<figure><img src="../../../images/articles/supply-chain-shield/chart-path-en.png" alt="Figure 1. The way in. Based on Microsoft&#x27;s security blog and GMO&#x27;s second report" loading="lazy"><figcaption>Figure 1. The way in. Based on Microsoft&#x27;s security blog and GMO&#x27;s second report</figcaption></figure>
+<h2>AI changed the speed of the attacking side</h2>
+<p>What stands out this time is that AI was used in the attack. ARTEX was originally published as a tool for defenders to find weaknesses in their own systems. It was repurposed for attack and kept making attempts against many tenants at once.</p>
+<p>In November 2025, Anthropic also disclosed a case in which its own AI was used for espionage by a group suspected of state involvement. Most of the work was reportedly carried out autonomously by the AI. Once attack steps become automated, attempts repeat at a speed people cannot keep up with.</p>
+<p>Meanwhile, the defenders&#x27; time has not become shorter. In Mandiant&#x27;s 2026 report (M-Trends), Mandiant being part of Google, the median time from intrusion to discovery was 14 days. In those two weeks before anyone notices, attackers widen their privileges and take data out. IBM&#x27;s study puts the average cost of a data breach at $4.44 million in 2025 and $4.99 million in 2026.</p>
+<figure><img src="../../../images/articles/supply-chain-shield/chart-stats-en.png" alt="Figure 2. Breaches in numbers. Based on Verizon DBIR 2026 and Microsoft Digital Defense Report 2025" loading="lazy"><figcaption>Figure 2. Breaches in numbers. Based on Verizon DBIR 2026 and Microsoft Digital Defense Report 2025</figcaption></figure>
+<figure><img src="../../../images/articles/supply-chain-shield/cables.jpg" alt="Blue network cables connected to servers" loading="lazy"><figcaption>Blue network cables connected to servers</figcaption></figure>
+<h2>How large companies defend themselves</h2>
+<p>Defense at large companies is not a matter of adding one more piece of software. The way of thinking itself has changed.</p>
+<p>The first point is designing on the assumption of intrusion. Zero trust, set out by the US NIST in SP 800-207, does not decide trust by whether a connection is inside or outside the company, and checks every access each time. The Cybersecurity Framework 2.0 of 2024 adds &quot;Govern&quot; to the five functions of Identify, Protect, Detect, Respond and Recover, and asks that defense be treated as a management responsibility.</p>
+<p>The second is multi-factor authentication. In 2019, Microsoft stated that multi-factor authentication can block 99.9% of attacks on accounts. Its 2025 report says more than 97% of identity attacks target passwords, and that phishing-resistant multi-factor authentication, such as physical security keys, can block more than 99%. This time too, password spraying did not succeed.</p>
+<p>The third is keeping the permissions given to outside companies small and reviewing them regularly. If a business app is left with near-administrator permissions, the moment that app is taken over, the company&#x27;s whole key ring is handed over at once.</p>
+<h2>How users and small companies can respond</h2>
+<p>Small companies cannot spend what large companies spend. Even so, many effective measures depend more on effort than on money.</p>
+<p>The response Onamae.com&#x27;s second report asked for was to change passwords from a device other than the affected server, log off all logged-in devices, check the login history, turn on two-step verification, change reused passwords, and watch out for phishing that exploits the incident. All of these can be done today. IPA also lists not reusing passwords and using multi-factor authentication as basic measures for individuals.</p>
+<p>Another important point is to entrust less. Do not keep brokerage login information on servers or in the cloud. When registering as a member, do not fill in items the service works without. Review, once a year, the permissions given to the apps you use for work. What you enter stays with the provider, and if the provider is broken, it leaks regardless of your own defenses.</p>
+<h2>Can it realistically be prevented?</h2>
+<p>To put the conclusion first, I believe it cannot be completely prevented. As the saying goes, offense is the best defense: the attacker needs to find one hole, while the defender must close every hole. As AI automates attack attempts, that gap widens further.</p>
+<p>However, the size of the damage can be changed. In the Microsoft case too, password spraying did not succeed. Basic defenses worked, at least at the front door. Design on the assumption of intrusion, hand over fewer keys, and have a way to notice early. It is possible to design so that an attack you cannot prevent does not become a fatal wound.</p>
+<h2>How I see it</h2>
+<p>No shield is stronger than a shield. So I do not think about defense in terms of how much software I have. What I think about is where to keep information and whom to give keys to.</p>
+<p>My shared office member information is not kept in my company&#x27;s own systems. It is managed in a service from a software company. I have turned on two-step verification for all of my bank and brokerage accounts, and my Nomura Securities account accepts orders by voice over the phone and nowhere else. If trading from the internet is impossible, no one can place orders even if they get in.</p>
+<p>I had seen GMO as a company with strong defenses. Even so, it was broken through. That is exactly why companies need to keep spending on cybersecurity, and users need to keep the information they hand over to the minimum. From an investor&#x27;s point of view, perhaps the companies that hold both the shield and the spear themselves are the ones that are strong at moments like this.</p>
+<h2>Sources</h2>
+<ol class="src"><li>Microsoft Security Blog, &quot;Storm-0940 uses ARTEX agentic AI in ConnectWise supply chain compromise&quot; <a href="https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/" rel="noopener">https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/</a></li><li>GMO Internet Group, alert (second report) <a href="https://group.gmo/info/alert/20261022/" rel="noopener">https://group.gmo/info/alert/20261022/</a></li><li>Onamae.com notice (first report) <a href="https://www.onamae.com/news/article/11584" rel="noopener">https://www.onamae.com/news/article/11584</a></li><li>Onamae.com notice (second report) <a href="https://www.onamae.com/news/article/11593" rel="noopener">https://www.onamae.com/news/article/11593</a></li><li>IPA, &quot;10 Major Security Threats 2026&quot; <a href="https://www.ipa.go.jp/security/10threats/10threats2026.html" rel="noopener">https://www.ipa.go.jp/security/10threats/10threats2026.html</a></li><li>Verizon, &quot;Data Breach Investigations Report&quot; <a href="https://www.verizon.com/business/resources/reports/dbir/" rel="noopener">https://www.verizon.com/business/resources/reports/dbir/</a></li><li>Mandiant, &quot;M-Trends&quot; <a href="https://cloud.google.com/security/resources/m-trends" rel="noopener">https://cloud.google.com/security/resources/m-trends</a></li><li>IBM, &quot;Cost of a Data Breach Report&quot; <a href="https://www.ibm.com/reports/data-breach" rel="noopener">https://www.ibm.com/reports/data-breach</a></li><li>Anthropic, &quot;Disrupting the first reported AI-orchestrated cyber espionage campaign&quot; <a href="https://www.anthropic.com/news/disrupting-AI-espionage" rel="noopener">https://www.anthropic.com/news/disrupting-AI-espionage</a></li><li>NIST SP 800-207, &quot;Zero Trust Architecture&quot; <a href="https://csrc.nist.gov/pubs/sp/800/207/final" rel="noopener">https://csrc.nist.gov/pubs/sp/800/207/final</a></li><li>NIST, &quot;Cybersecurity Framework 2.0&quot; <a href="https://www.nist.gov/cyberframework" rel="noopener">https://www.nist.gov/cyberframework</a></li><li>Microsoft, &quot;One simple action you can take to prevent 99.9 percent of attacks on your accounts&quot; <a href="https://www.microsoft.com/en-us/security/blog/2019/08/20/one-simple-action-you-can-take-to-prevent-99-9-percent-of-account-attacks/" rel="noopener">https://www.microsoft.com/en-us/security/blog/2019/08/20/one-simple-action-you-can-take-to-prevent-99-9-percent-of-account-attacks/</a></li><li>Onamae.com rental server terms of service <a href="https://www.onamae.com/agreement/a_ag/server.html" rel="noopener">https://www.onamae.com/agreement/a_ag/server.html</a></li><li>IPA, &quot;Secure account management&quot; <a href="https://www.ipa.go.jp/security/anshin/measures/account_security.html" rel="noopener">https://www.ipa.go.jp/security/anshin/measures/account_security.html</a></li><li>CISA, &quot;Implementing Phishing-Resistant MFA&quot; <a href="https://www.cisa.gov/sites/default/files/publications/fact-sheet-implementing-phishing-resistant-mfa-508c.pdf" rel="noopener">https://www.cisa.gov/sites/default/files/publications/fact-sheet-implementing-phishing-resistant-mfa-508c.pdf</a></li></ol>
+<p class="muted" style="font-size:12px">Photos: FlyD / Scott Rodgerson (Unsplash). Charts by YUKI CAPITAL</p>
+<p>I record my daily numbers and decisions on X.</p>
+<div class="cta"><a class="btn-dark" href="https://x.com/capitallogs">See the daily numbers on X</a><a class="btn-light" href="https://note.com/capitallogs" style="border:1px solid var(--line)">I also write on note</a></div>
+</div>
+</article>
+<footer class="site-footer" style="padding-bottom:48px"><span>© 2026 YUKI CAPITAL</span><span><a href="../../../en/">Back to top</a></span></footer>
+</main>
+<script>document.querySelectorAll('[data-setlang]').forEach(function(a){a.addEventListener('click',function(){try{localStorage.setItem('lang',a.getAttribute('data-setlang'))}catch(e){}})});</script>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "abf23c1820ac43539efd93c2112996da"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>

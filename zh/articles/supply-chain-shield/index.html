@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>没有比盾更强的盾：从微软云案件和Onamae.com事件看防守的技术与极限｜YUKI CAPITAL</title>
+<meta name="description" content="2026年10月21日和22日，规模和对象完全不同的两起入侵在同一周被公开。 一起是使用微软云的公司经由外包方的应用遭到攻击，另一起是日本Onamae.com的虚拟服务器遭到非法入侵。 身在东京的我，用一手资料依次确认：攻击者如何进入、该如何应对、大企业如何防守，以及这类攻击实际上能否防住。">
+<meta property="og:title" content="没有比盾更强的盾：从微软云案件和Onamae.com事件看防守的技术与极限">
+<meta property="og:description" content="2026年10月21日和22日，规模和对象完全不同的两起入侵在同一周被公开。 一起是使用微软云的公司经由外包方的应用遭到攻击，另一起是日本Onamae.com的虚拟服务器遭到非法入侵。 身在东京的我，用一手资料依次确认：攻击者如何进入、该如何应对、大企业如何防守，以及这类攻击实际上能否防住。">
+<meta property="og:image" content="https://yuki-capital.com/images/articles/supply-chain-shield/hero.jpg">
+<meta property="og:type" content="article">
+<link rel="icon" href="../../../favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="../../../images/apple-touch-icon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../../../assets/style.css">
+<style>
+.art{max-width:760px;margin:0 auto;padding:24px 0 48px}
+.art .meta{display:flex;gap:10px;align-items:center;font-size:12px;color:var(--muted)}
+.art h1{font-size:26px;line-height:1.45;margin:12px 0 16px}
+.art .lead{font-size:15px;line-height:1.9;color:var(--ink2);border-left:3px solid var(--accent);padding-left:14px;margin:0 0 20px}
+.art .lead p{margin:0}
+.art .card{padding:24px}
+.art h2{font-size:19px;margin:32px 0 12px;padding-top:4px}
+.art h2:first-child{margin-top:0}
+.art p{font-size:15.5px;line-height:2;margin:0 0 14px}
+.art figure{margin:20px 0;}
+.art figure img{width:100%;border-radius:12px;background:#fff}
+.art figcaption{font-size:12px;color:var(--muted);margin-top:6px;line-height:1.6}
+.art .hero img{border-radius:18px;aspect-ratio:16/9;object-fit:cover;width:100%}
+.art .tbl{overflow-x:auto;margin:12px 0 16px}
+.art table{border-collapse:collapse;font-size:13px;min-width:640px;width:100%}
+.art th,.art td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+.art th{background:var(--accent-soft);font-weight:700}
+.art ol.src{font-size:12.5px;line-height:1.8;padding-left:18px;word-break:break-all}
+.art ol.src a{color:var(--accent)}
+.art .cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.langsw{display:flex;gap:8px;font-size:12px}.langsw a{padding:4px 10px;border-radius:999px;background:var(--card)}.langsw a.on{background:var(--dark);color:#fff}
+@media(max-width:600px){.art h1{font-size:21px}.art .card{padding:18px}}
+</style>
+</head>
+<body>
+<header class="site-header"><div class="wrap">
+<a href="../../../zh/" class="brand"><img class="avatar" src="../../../images/icon.png" alt=""><span>YUKI CAPITAL</span></a>
+<nav class="nav"><a href="../../../zh/articles/" class="primary">文章</a><a href="../../../zh/#capital">今日资本</a><a href="../../../zh/archive/">每日记录</a><a href="../../../zh/#diary">日记</a><a href="../../../zh/about/">关于</a></nav>
+<div class="hdr-actions"><a class="x" href="https://x.com/capitallogs" aria-label="X"><svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 3h3l-7.3 8.3L21.8 21h-6.6l-4.6-6-5.3 6H2.3l7.8-8.9L2 3h6.7l4.2 5.5L17.5 3zm-1.1 16.2h1.8L7.7 4.7H5.8l10.6 14.5z"/></svg></a><a class="note" href="https://note.com/capitallogs">note</a></div>
+</div></header>
+<main class="wrap"><article class="art">
+<div class="meta"><span class="chip">科技</span><span class="num">2026年10月23日</span><span class="langsw" style="margin-left:auto"><a href="../../../articles/supply-chain-shield/" data-setlang="ja">日本語</a><a href="../../../en/articles/supply-chain-shield/" data-setlang="en">EN</a><a href="../../../zh/articles/supply-chain-shield/" data-setlang="zh" class="on">中文</a></span></div>
+<h1>没有比盾更强的盾：从微软云案件和Onamae.com事件看防守的技术与极限</h1>
+<div class="lead"><p>2026年10月21日和22日，规模和对象完全不同的两起入侵在同一周被公开。</p><p>一起是使用微软云的公司经由外包方的应用遭到攻击，另一起是日本Onamae.com的虚拟服务器遭到非法入侵。</p><p>身在东京的我，用一手资料依次确认：攻击者如何进入、该如何应对、大企业如何防守，以及这类攻击实际上能否防住。</p></div>
+<figure class="hero"><img src="../../../images/articles/supply-chain-shield/hero.jpg" alt="放在键盘上的挂锁"><figcaption>放在键盘上的挂锁</figcaption></figure>
+<div class="card">
+<h2>两起事件发生了什么</h2>
+<p>微软在10月21日公开了据称与中国政府合作的组织Storm-0940的活动。超过2,250个租户（签约云服务的组织单位）遭到每分钟2,900次的登录尝试。失败次数超过15万1,000次。微软明确表示，自身的系统没有被攻破。</p>
+<p>入口是外包方的云备份应用。被很多公司共同使用的ConnectWise Cloud Backup（原SkyKick）遭到劫持，攻击者利用授予该应用的权限进入了客户的环境。据说有的案例从锁定目标到取得管理员权限不到3个小时。攻击使用了为渗透测试而公开的多智能体AI工具ARTEX。</p>
+<p>Onamae.com的事件发生在用于外汇自动交易等用途的虚拟专用服务器（VPS）服务上。GMO在10月19日接到用户咨询后开始调查，20日确认了恶意程序，21日凌晨4点起停止了所有套餐。在22日的第二次通报中，GMO表示收到了交易账户出现非法操作的报告，保存在服务器上的登录信息可能已被窃取。可能受影响的服务器有26,739台，入侵途径尚未公布。根据使用条款，赔偿仅限于连续24小时以上完全无法使用的情况，上限为一个月的月费。</p>
+<div class="tbl"><table><thead><tr><th>项目</th><th>微软云案件</th><th>Onamae.com事件</th></tr></thead><tbody><tr><td>公开</td><td>2026年10月21日（公司安全博客）</td><td>10月21日第一次通报，22日第二次通报</td></tr><tr><td>被盯上的地方</td><td>外包方共用应用的权限</td><td>虚拟服务器及保存在其中的登录信息</td></tr><tr><td>规模</td><td>超过2,250个租户，每分钟2,900次尝试</td><td>可能受影响26,739台</td></tr><tr><td>本体是否被攻破</td><td>否（公司明确表示）</td><td>调查中（途径未公布）</td></tr><tr><td>AI的参与</td><td>滥用渗透测试AI工具ARTEX</td><td>未公布</td></tr></tbody></table></div>
+<h2>如何进入：共同点是“交出去的钥匙”</h2>
+<p>两起事件的规模和对象不同，但被盯上的地方有共同点。攻击者没有砸开正门，而是用了早已交出去的钥匙。</p>
+<p>在微软的案件中，对大量账户逐一尝试密码的攻击（密码喷洒）在10月10日到14日之间进行，但没有成功。突破口是客户为了业务而授权给应用的权限。在Onamae.com的事件中，用户为了自动交易而保存在服务器上的证券公司和外汇公司的登录信息，可能成为了进入账户的入口。</p>
+<p>用专业术语来说，这叫供应链入侵。无论自己的公司守得多严，只要连接的外部公司、托管数据的外部系统被攻破，攻击者就会从那里进来。Verizon的2026年调查（DBIR）显示，31%的入侵始于漏洞被利用，48%的入侵有第三方参与。日本IPA的“信息安全十大威胁2026”中，组织篇的第二位也是针对供应链和外包方的攻击。</p>
+<figure><img src="../../../images/articles/supply-chain-shield/chart-path-zh.png" alt="图1　入侵途径。根据微软官方博客和GMO第二次通报制作" loading="lazy"><figcaption>图1　入侵途径。根据微软官方博客和GMO第二次通报制作</figcaption></figure>
+<h2>AI改变了进攻一方的速度</h2>
+<p>这次引人注目的是攻击中使用了AI。ARTEX原本是为防守方查找自身弱点而公开的工具，却被转用于攻击，同时对大量租户持续发起尝试。</p>
+<p>Anthropic也在2025年11月公开了一个案例：自家的AI被疑有国家背景的组织用于间谍活动，据说大部分工作由AI自主完成。攻击步骤一旦自动化，尝试就会以人力追不上的速度反复进行。</p>
+<p>另一方面，防守方的时间并没有缩短。谷歌旗下Mandiant的2026年报告（M-Trends）显示，从入侵到被发现的天数中位数为14天。在被察觉前的这两周里，攻击者会扩大权限、带走信息。IBM的调查显示，每起数据泄露的平均成本在2025年为444万美元，2026年为499万美元。</p>
+<figure><img src="../../../images/articles/supply-chain-shield/chart-stats-zh.png" alt="图2　用数字看入侵。根据Verizon DBIR 2026、Microsoft Digital Defense Report 2025制作" loading="lazy"><figcaption>图2　用数字看入侵。根据Verizon DBIR 2026、Microsoft Digital Defense Report 2025制作</figcaption></figure>
+<figure><img src="../../../images/articles/supply-chain-shield/cables.jpg" alt="连接服务器的蓝色网线" loading="lazy"><figcaption>连接服务器的蓝色网线</figcaption></figure>
+<h2>大企业如何防守</h2>
+<p>大企业的防守，不是再加一个软件的问题。思路本身已经变了。</p>
+<p>第一是以“会被入侵”为前提来设计。美国NIST在SP 800-207中提出的零信任，不以公司内外来决定信任，每次访问都要确认。2024年的网络安全框架2.0在识别、保护、检测、响应、恢复这5项之外加入了“治理”，要求把防守作为经营责任来对待。</p>
+<p>第二是多因素认证。微软在2019年表示，多因素认证可以挡住99.9%的账户攻击。该公司2025年的报告指出，超过97%的身份攻击针对密码，而抗钓鱼的多因素认证（如物理安全密钥）可以挡住99%以上。这次密码喷洒也没有成功。</p>
+<p>第三是缩小交给外部公司的权限，并定期复查。如果业务应用一直持有接近管理员的权限，那么该应用被劫持的瞬间，公司的整串钥匙就会一起被交出去。</p>
+<h2>用户和小公司如何应对</h2>
+<p>小公司用不了大企业那样的预算。即便如此，很多有效的对策更取决于功夫而不是金钱。</p>
+<p>Onamae.com第二次通报要求的应对是：从问题服务器以外的终端修改密码、注销所有已登录的终端、确认登录记录、开启两步验证、更换重复使用的密码、警惕借事件之机的钓鱼。这些今天都能做。IPA也把不重复使用密码、使用多因素认证列为个人的基本对策。</p>
+<p>另一个重要的点是少托管。不要把证券账户的登录信息放在服务器或云上。注册会员时，不填没有也能使用的项目。每年梳理一次交给业务应用的权限。输入的信息会留在托管方，托管方一旦被攻破，就会与自己的防守无关地外泄。</p>
+<h2>实际上能防住吗</h2>
+<p>先说结论，我认为无法完全防住。正如进攻是最好的防守，进攻方只要找到一个漏洞，防守方却必须堵住所有漏洞。AI让攻击尝试自动化后，这个差距会进一步拉大。</p>
+<p>不过，损失的大小是可以改变的。微软的案件中，密码喷洒也没有成功，基本的防守至少在正门起了作用。以会被入侵为前提来设计，少交出钥匙，具备尽早察觉的机制。把防不住的攻击设计成不致命的伤，是做得到的。</p>
+<h2>我是这样看的</h2>
+<p>没有比盾更强的盾。所以我不以软件的数量来考虑防守。我考虑的是信息放在哪里、把钥匙交给谁。</p>
+<p>共享办公的会员信息没有放在自己公司的系统里，而是用软件公司的服务来管理。银行和证券账户我都开了两步验证，野村证券的账户设置成只接受电话口头下单。如果无法从网上交易，即使有人进来也下不了单。</p>
+<p>我原本认为GMO是防守很强的公司。即便如此还是被攻破了。正因为如此，公司需要持续在网络安全上投入，用户需要把交出去的信息保持在最少。从投资的角度看，自己同时握有盾和矛的公司，在这样的局面下或许更强。</p>
+<h2>来源</h2>
+<ol class="src"><li>微软安全博客“Storm-0940 uses ARTEX agentic AI in ConnectWise supply chain compromise” <a href="https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/" rel="noopener">https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/</a></li><li>GMO互联网集团 警示（第二次通报） <a href="https://group.gmo/info/alert/20261022/" rel="noopener">https://group.gmo/info/alert/20261022/</a></li><li>Onamae.com 公告（第一次通报） <a href="https://www.onamae.com/news/article/11584" rel="noopener">https://www.onamae.com/news/article/11584</a></li><li>Onamae.com 公告（第二次通报） <a href="https://www.onamae.com/news/article/11593" rel="noopener">https://www.onamae.com/news/article/11593</a></li><li>IPA“信息安全十大威胁2026” <a href="https://www.ipa.go.jp/security/10threats/10threats2026.html" rel="noopener">https://www.ipa.go.jp/security/10threats/10threats2026.html</a></li><li>Verizon“Data Breach Investigations Report” <a href="https://www.verizon.com/business/resources/reports/dbir/" rel="noopener">https://www.verizon.com/business/resources/reports/dbir/</a></li><li>Mandiant“M-Trends” <a href="https://cloud.google.com/security/resources/m-trends" rel="noopener">https://cloud.google.com/security/resources/m-trends</a></li><li>IBM“Cost of a Data Breach Report” <a href="https://www.ibm.com/reports/data-breach" rel="noopener">https://www.ibm.com/reports/data-breach</a></li><li>Anthropic“Disrupting the first reported AI-orchestrated cyber espionage campaign” <a href="https://www.anthropic.com/news/disrupting-AI-espionage" rel="noopener">https://www.anthropic.com/news/disrupting-AI-espionage</a></li><li>NIST SP 800-207“Zero Trust Architecture” <a href="https://csrc.nist.gov/pubs/sp/800/207/final" rel="noopener">https://csrc.nist.gov/pubs/sp/800/207/final</a></li><li>NIST“Cybersecurity Framework 2.0” <a href="https://www.nist.gov/cyberframework" rel="noopener">https://www.nist.gov/cyberframework</a></li><li>微软“One simple action you can take to prevent 99.9 percent of attacks on your accounts” <a href="https://www.microsoft.com/en-us/security/blog/2019/08/20/one-simple-action-you-can-take-to-prevent-99-9-percent-of-account-attacks/" rel="noopener">https://www.microsoft.com/en-us/security/blog/2019/08/20/one-simple-action-you-can-take-to-prevent-99-9-percent-of-account-attacks/</a></li><li>Onamae.com 租用服务器使用条款 <a href="https://www.onamae.com/agreement/a_ag/server.html" rel="noopener">https://www.onamae.com/agreement/a_ag/server.html</a></li><li>IPA“账户的安全管理” <a href="https://www.ipa.go.jp/security/anshin/measures/account_security.html" rel="noopener">https://www.ipa.go.jp/security/anshin/measures/account_security.html</a></li><li>CISA“Implementing Phishing-Resistant MFA” <a href="https://www.cisa.gov/sites/default/files/publications/fact-sheet-implementing-phishing-resistant-mfa-508c.pdf" rel="noopener">https://www.cisa.gov/sites/default/files/publications/fact-sheet-implementing-phishing-resistant-mfa-508c.pdf</a></li></ol>
+<p class="muted" style="font-size:12px">照片：FlyD／Scott Rodgerson（Unsplash）。图表由YUKI CAPITAL制作</p>
+<p>每天的数字与判断，记录在X上。</p>
+<div class="cta"><a class="btn-dark" href="https://x.com/capitallogs">在X上看每天的数字</a><a class="btn-light" href="https://note.com/capitallogs" style="border:1px solid var(--line)">我也在note上写作</a></div>
+</div>
+</article>
+<footer class="site-footer" style="padding-bottom:48px"><span>© 2026 YUKI CAPITAL</span><span><a href="../../../zh/">返回首页</a></span></footer>
+</main>
+<script>document.querySelectorAll('[data-setlang]').forEach(function(a){a.addEventListener('click',function(){try{localStorage.setItem('lang',a.getAttribute('data-setlang'))}catch(e){}})});</script>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "abf23c1820ac43539efd93c2112996da"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>

@@ -501,6 +501,20 @@
   ],
   "articles": [
     {
+      "slug": "supply-chain-shield",
+      "date": "2026-10-23",
+      "image": "images/articles/supply-chain-shield/hero.jpg",
+      "category": "テクノロジー",
+      "category_en": "Technology",
+      "category_zh": "科技",
+      "title": "盾より強い盾はない。マイクロソフトのクラウドとお名前.comの事件から見る、守りの技術と限界",
+      "title_en": "No shield is stronger than a shield: what the Microsoft cloud case and the Onamae.com breach teach about defense and its limits",
+      "title_zh": "没有比盾更强的盾：从微软云案件和Onamae.com事件看防守的技术与极限",
+      "lead": "2026年10月21日と22日、規模も相手もまったく違う2つの侵入が、同じ週に公表された。 1つはマイクロソフトのクラウドを使う会社が委託先のアプリ経由で狙われた件、もう1つはお名前.comの仮想サーバーが不正アクセスを受けた件だ。 どう入られ、どう対処し、大企業はどう防いでいるのか。そして事実上防げるのかを、一次資料で順に確かめる。",
+      "lead_en": "On October 21 and 22, 2026, two intrusions of completely different scale and target were disclosed in the same week. One targeted companies that use Microsoft's cloud through a contractor's app; the other was unauthorized access to Onamae.com's virtual servers in Japan. From Tokyo, I check with primary sources how the attackers got in, how to respond, how large companies defend themselves, and whether this can realistically be prevented.",
+      "lead_zh": "2026年10月21日和22日，规模和对象完全不同的两起入侵在同一周被公开。 一起是使用微软云的公司经由外包方的应用遭到攻击，另一起是日本Onamae.com的虚拟服务器遭到非法入侵。 身在东京的我，用一手资料依次确认：攻击者如何进入、该如何应对、大企业如何防守，以及这类攻击实际上能否防住。"
+    },
+    {
       "slug": "php2shell-48-hours",
       "date": "2026-10-22",
       "image": "images/articles/php2shell-48-hours/hero.jpg",
