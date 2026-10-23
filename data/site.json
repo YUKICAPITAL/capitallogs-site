@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T12:30:00+09:00",
+  "updated": "2026-10-23T13:00:00+09:00",
   "profile": {
     "name": "YUKI CAPITAL",
     "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -16,38 +16,38 @@
     "note": "https://note.com/capitallogs"
   },
   "capital": {
-    "date": "2026-10-22",
-    "label": "10.22（木）",
-    "total": 389435397,
-    "diff": 1248081,
-    "diff_pct": 0.32,
-    "unreal": 57932362,
-    "unreal_pct": 18.42,
-    "cash": 17053342,
-    "cash_pct": 4.38,
-    "trade": "なし",
+    "date": "2026-10-23",
+    "label": "10.23（金）",
+    "total": 381836136,
+    "diff": -7599261,
+    "diff_pct": -1.95,
+    "unreal": 50344681,
+    "unreal_pct": 16.01,
+    "cash": 17041762,
+    "cash_pct": 4.46,
+    "trade": "IonQ 指値28.5ドルを取消し、成行で買い注文（約定未確認）",
     "alloc": [
       {
         "name": "国内株",
-        "pct": 46.83,
+        "pct": 44.93,
         "name_en": "JP stocks",
         "name_zh": "日本股票"
       },
       {
         "name": "投信",
-        "pct": 26.67,
+        "pct": 27.17,
         "name_en": "Funds",
         "name_zh": "基金"
       },
       {
         "name": "外国株",
-        "pct": 22.12,
+        "pct": 23.43,
         "name_en": "Foreign stocks",
         "name_zh": "海外股票"
       },
       {
         "name": "現金",
-        "pct": 4.38,
+        "pct": 4.46,
         "name_en": "Cash",
         "name_zh": "现金"
       }
@@ -76,18 +76,22 @@
       {
         "date": "2026-10-22",
         "total": 389435397
+      },
+      {
+        "date": "2026-10-23",
+        "total": 381836136
       }
     ],
-    "label_en": "Oct 22 (Thu)",
-    "label_zh": "10.22（周四）",
-    "trade_en": "None",
-    "trade_zh": "无"
+    "label_en": "Oct 23 (Fri)",
+    "label_zh": "10.23（周五）",
+    "trade_en": "IonQ: cancelled the $28.50 limit and placed a market buy (fill unconfirmed)",
+    "trade_zh": "IonQ：撤销28.5美元限价，改下市价买单（成交未确认）"
   },
   "conditions": [
     {
       "title": "SpaceX を +500株",
       "rule": "終値が 100ドルを割ったら",
-      "now": "147.96 ドル",
+      "now": "144.75 ドル",
       "status": "未達",
       "title_en": "Add 500 SpaceX",
       "rule_en": "if the close falls below $100",
@@ -95,27 +99,27 @@
       "title_zh": "SpaceX 加仓500股",
       "rule_zh": "收盘价跌破100美元时",
       "status_zh": "未达",
-      "now_en": "$147.96",
-      "now_zh": "147.96 美元"
+      "now_en": "$144.75",
+      "now_zh": "144.75 美元"
     },
     {
-      "title": "IonQ を 1,250株 買い直す",
-      "rule": "28.5ドルの指値",
-      "now": "32.32 ドル",
-      "status": "未約定",
-      "title_en": "Buy back 1,250 IonQ",
-      "rule_en": "limit order at $28.5",
-      "status_en": "Not filled",
-      "title_zh": "买回 IonQ 1,250股",
-      "rule_zh": "28.5美元限价",
-      "status_zh": "未成交",
-      "now_en": "$32.32",
-      "now_zh": "32.32 美元"
+      "title": "IonQ を買い直す",
+      "rule": "28.5ドルの指値を取消し、成行で注文",
+      "now": "30.92 ドル",
+      "status": "約定未確認",
+      "title_en": "Buy back IonQ",
+      "rule_en": "cancelled the $28.50 limit, market order placed",
+      "status_en": "Fill unconfirmed",
+      "title_zh": "买回 IonQ",
+      "rule_zh": "撤销28.5美元限价，改为市价单",
+      "status_zh": "成交未确认",
+      "now_en": "$30.92",
+      "now_zh": "30.92 美元"
     },
     {
       "title": "三井住友FG を買い増し",
       "rule": "3,000円が目安",
-      "now": "3,216 円",
+      "now": "3,029 円",
       "status": "未達",
       "title_en": "Add SMFG (8316)",
       "rule_en": "around ¥3,000 as the guide",
@@ -123,8 +127,8 @@
       "title_zh": "加仓三井住友FG",
       "rule_zh": "以3,000日元为目标",
       "status_zh": "未达",
-      "now_en": "¥3,216",
-      "now_zh": "3,216 日元"
+      "now_en": "¥3,029",
+      "now_zh": "3,029 日元"
     },
     {
       "title": "SpaceX の積み立て",
@@ -230,58 +234,58 @@
     }
   ],
   "posts": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "count": 26,
     "items": [
       {
-        "time": "10.22",
-        "kind": "長文",
-        "title": "創業40年、紙の台帳の店がネット予約を始めた",
-        "url": "https://x.com/capitallogs",
-        "impressions": null,
-        "kind_en": "Essay",
-        "kind_zh": "长文",
-        "title_en": "A 40-year-old restaurant that kept a paper ledger has started online booking",
-        "title_zh": "创业40年、用纸质台账的店开始网上预约",
-        "url_en": "https://x.com/YUKICAPITALen",
-        "url_zh": "https://x.com/YUKICAPITALchin"
-      },
-      {
-        "time": "10.22",
+        "time": "10.23",
         "kind": "判断枠",
-        "title": "大きなお金は大手と電話で、ネットは少額だけ",
+        "title": "国内株が1,080万円減った日、銀行4行を動かさない",
         "url": "https://x.com/capitallogs",
         "impressions": null,
         "kind_en": "Call",
         "kind_zh": "判断",
-        "title_en": "Large sums with major firms and the phone, online for small amounts",
-        "title_zh": "大额资金放大型机构和电话，网络只用于小额",
+        "title_en": "The day my Japanese stocks fell by $68,000, and I am not moving the four banks",
+        "title_zh": "日本股票减少约46万元人民币的一天，4家银行股不动",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin"
       },
       {
-        "time": "10.22",
-        "kind": "ニュース",
-        "title": "オプティマス量産開始、日本で買えるのは2028年",
-        "url": "https://x.com/capitallogs",
-        "impressions": null,
-        "kind_en": "News",
-        "kind_zh": "新闻",
-        "title_en": "Optimus production begins, and I expect to buy one in Japan in 2028",
-        "title_zh": "Optimus开始量产，在日本能买到要到2028年",
-        "url_en": "https://x.com/YUKICAPITALen",
-        "url_zh": "https://x.com/YUKICAPITALchin"
-      },
-      {
-        "time": "10.22",
+        "time": "10.23",
         "kind": "日記",
-        "title": "1,500mを40分、泳いだあとの休憩で撮った",
+        "title": "ジムのラウンジで、サラダをしっかり取る",
         "url": "https://x.com/capitallogs",
         "impressions": null,
         "kind_en": "Diary",
         "kind_zh": "日记",
-        "title_en": "1,500m in 40 minutes, a photo taken during my break after swimming",
-        "title_zh": "1,500米游了40分钟，游完休息时拍的",
+        "title_en": "At the gym lounge, making sure to have a salad",
+        "title_zh": "在健身房休息区，好好吃一份沙拉",
+        "url_en": "https://x.com/YUKICAPITALen",
+        "url_zh": "https://x.com/YUKICAPITALchin"
+      },
+      {
+        "time": "10.23",
+        "kind": "長文",
+        "title": "会員情報は必要最小限、守りはソフトより置き場所",
+        "url": "https://x.com/capitallogs",
+        "impressions": null,
+        "kind_en": "Essay",
+        "kind_zh": "长文",
+        "title_en": "Keep member information to the minimum: my defense is about where data sits, more than software",
+        "title_zh": "会员信息保持最少，防守比起软件更在于存放的地方",
+        "url_en": "https://x.com/YUKICAPITALen",
+        "url_zh": "https://x.com/YUKICAPITALchin"
+      },
+      {
+        "time": "10.23",
+        "kind": "ニュース",
+        "title": "日経1,713円安、ハッキングの不安で売られたと見る",
+        "url": "https://x.com/capitallogs",
+        "impressions": null,
+        "kind_en": "News",
+        "kind_zh": "新闻",
+        "title_en": "Nikkei down 1,713 points, and I think hacking fears were part of the selling",
+        "title_zh": "日经下跌1,713点，我认为黑客的不安也是被卖的原因",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin"
       }
@@ -308,20 +312,20 @@
     }
   ],
   "diary": {
-    "date": "2026-10-21（水）",
+    "date": "2026-10-22（木）",
     "place": "ジム",
-    "title": "1,500mを40分、泳いだあとの休憩で撮った",
-    "text": "プールで1,500mを40分ほどで泳いだ。休憩中に、黒い大理石の壁と青いタイルのプールを撮った。忙しい日の真ん中に、この静かな時間を置けたのがよかった。",
-    "image": "https://raw.githubusercontent.com/YUKICAPITAL/x-images/main/images/2026-10-22_diary_021351.jpg",
+    "title": "ジムのラウンジで、サラダをしっかり取る",
+    "text": "筋トレのあと、ジムのラウンジでサラダを頼んだ。ブロッコリーとゆで卵、グリルした肉が入っていて、すごく美味しかった。サラダもしっかり取るようにしようと思った。",
+    "image": "https://raw.githubusercontent.com/YUKICAPITAL/x-images/main/images/2026-10-23_diary_013317.jpg",
     "url": "https://x.com/capitallogs",
-    "date_en": "Wed, Oct 21, 2026",
-    "date_zh": "2026.10.21（周三）",
+    "date_en": "Thu, Oct 22, 2026",
+    "date_zh": "2026.10.22（周四）",
     "place_en": "Gym",
     "place_zh": "健身房",
-    "title_en": "1,500m in 40 minutes, a photo taken during my break after swimming",
-    "title_zh": "1,500米游了40分钟，游完休息时拍的",
-    "text_en": "I swam 1,500m in the pool in about 40 minutes. During a break I photographed the black marble wall and the blue-tiled pool. I was glad I could place this quiet time in the middle of a busy day.",
-    "text_zh": "在泳池里用40分钟左右游了1,500米。休息时拍下了黑色大理石的墙壁和蓝色瓷砖的泳池。在忙碌一天的中间，能放进这段安静的时间，很好。",
+    "title_en": "At the gym lounge, making sure to have a salad",
+    "title_zh": "在健身房休息区，好好吃一份沙拉",
+    "text_en": "After strength training, I ordered a salad at the gym lounge. It had broccoli, boiled eggs and grilled meat, and it was really good. I thought I should make sure to have salad too.",
+    "text_zh": "力量训练后，我在健身房休息区点了一份沙拉。里面有西兰花、水煮蛋和烤肉，非常好吃。我想以后也要好好吃沙拉。",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin"
   },
@@ -410,6 +414,17 @@
     }
   },
   "archive": [
+    {
+      "date": "2026-10-23",
+      "label": "10.23（金）",
+      "total": 381836136,
+      "diff_pct": -1.95,
+      "memo": "IonQ 成行で注文 ｜ 26本 ｜ 記事 1本",
+      "memo_en": "IonQ market order ｜ 26 posts ｜ 1 article",
+      "memo_zh": "IonQ 市价单 ｜ 26条 ｜ 文章 1篇",
+      "label_en": "Oct 23 Fri",
+      "label_zh": "10.23 周五"
+    },
     {
       "date": "2026-10-22",
       "label": "10.22（木）",
