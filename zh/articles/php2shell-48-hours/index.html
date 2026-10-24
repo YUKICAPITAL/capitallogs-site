@@ -7,7 +7,11 @@
 <meta name="description" content="2026年10月21日夜，驱动大量网站的编程语言PHP被公开存在两个缺陷，攻击者无需登录即可能接管服务器。 身在东京的我，用开发方和公共机构的一手资料，按时间顺序整理从预告、修正版发布到日本国内服务集体停摆的经过。 缺陷的原理、AI扮演的角色，以及今后可能发生的事，我也对照自己公司的防守来确认一遍。">
 <meta property="og:title" content="PHP2Shell的48小时：支撑七成网站的语言缺陷，是如何被发现、又如何被堵上的">
 <meta property="og:description" content="2026年10月21日夜，驱动大量网站的编程语言PHP被公开存在两个缺陷，攻击者无需登录即可能接管服务器。 身在东京的我，用开发方和公共机构的一手资料，按时间顺序整理从预告、修正版发布到日本国内服务集体停摆的经过。 缺陷的原理、AI扮演的角色，以及今后可能发生的事，我也对照自己公司的防守来确认一遍。">
-<meta property="og:image" content="https://yuki-capital.com/images/articles/php2shell-48-hours/hero.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/YUKICAPITAL/capitallogs-site/main/images/articles/php2shell-48-hours/hero.jpg">
+<meta property="og:url" content="http://yuki-capital.com/zh/articles/php2shell-48-hours/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@capitallogs">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/YUKICAPITAL/capitallogs-site/main/images/articles/php2shell-48-hours/hero.jpg">
 <meta property="og:type" content="article">
 <link rel="icon" href="../../../favicon.ico" sizes="any">
 <link rel="apple-touch-icon" href="../../../images/apple-touch-icon.png">
@@ -45,7 +49,7 @@
 <div class="hdr-actions"><a class="x" href="https://x.com/capitallogs" aria-label="X"><svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 3h3l-7.3 8.3L21.8 21h-6.6l-4.6-6-5.3 6H2.3l7.8-8.9L2 3h6.7l4.2 5.5L17.5 3zm-1.1 16.2h1.8L7.7 4.7H5.8l10.6 14.5z"/></svg></a><a class="note" href="https://note.com/capitallogs">note</a></div>
 </div></header>
 <main class="wrap"><article class="art">
-<div class="meta"><span class="chip">科技</span><span class="num">2026年10月22日</span><span class="langsw" style="margin-left:auto"><a href="../../../articles/php2shell-48-hours/" data-setlang="ja">日本語</a><a href="../../../en/articles/php2shell-48-hours/" data-setlang="en">EN</a><a href="../../../zh/articles/php2shell-48-hours/" data-setlang="zh" class="on">中文</a></span></div>
+<div class="meta"><span class="chip">网络安全</span><span class="chip">科技</span><span class="chip">AI</span><span class="num">2026年10月22日</span><span class="langsw" style="margin-left:auto"><a href="../../../articles/php2shell-48-hours/" data-setlang="ja">日本語</a><a href="../../../en/articles/php2shell-48-hours/" data-setlang="en">EN</a><a href="../../../zh/articles/php2shell-48-hours/" data-setlang="zh" class="on">中文</a></span></div>
 <h1>PHP2Shell的48小时：支撑七成网站的语言缺陷，是如何被发现、又如何被堵上的</h1>
 <div class="lead"><p>2026年10月21日夜，驱动大量网站的编程语言PHP被公开存在两个缺陷，攻击者无需登录即可能接管服务器。</p><p>身在东京的我，用开发方和公共机构的一手资料，按时间顺序整理从预告、修正版发布到日本国内服务集体停摆的经过。</p><p>缺陷的原理、AI扮演的角色，以及今后可能发生的事，我也对照自己公司的防守来确认一遍。</p></div>
 <figure class="hero"><img src="../../../images/articles/php2shell-48-hours/hero.jpg" alt="数据中心里成排的服务器机柜"><figcaption>数据中心里成排的服务器机柜</figcaption></figure>

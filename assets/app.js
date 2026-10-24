@@ -32,6 +32,7 @@
   document.querySelectorAll('[data-i18n]').forEach(function(el){var k=el.getAttribute('data-i18n'); if(T[k]!=null) el.textContent=T[k];});
 
   fetch(ROOT+'data/site.json',{cache:'no-store'}).then(function(r){return r.json()}).then(render).catch(function(e){console.error(e)});
+  setInterval(function(){fetch(ROOT+'data/site.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json()}).then(render).catch(function(){})},300000);
 
   function render(d){
     var xkey=LANG==='en'?'x_en':LANG==='zh'?'x_zh':'x_ja';
@@ -65,16 +66,16 @@
     $('hold-n').textContent=d.holdings.length+T.hold_n;
     $('hold-list').innerHTML=d.holdings.map(function(h){return '<div class="row"><span>'+esc(L(h,'name'))+'</span>'+mono(L(h,'qty'))+'</div>'}).join('');
 
-    var A=d.articles||[];
+    var A=d.articles||[]; var TG=d.tags||{}; var chips=function(a,n){return '<span class="chips">'+(a.tags||[]).slice(0,n||3).map(function(k){return '<span class="chip">'+esc(TG[k]?L(TG[k],'name'):k)+'</span>'}).join('')+'</span>'};
     if(!A.length){
       $('art-grid').innerHTML='<a class="card feature" href="'+ROOT+'articles/"><div class="img"><span class="chip dark">'+esc(T.art_soon)+'</span></div><div class="body"><span class="chip" style="align-self:flex-start">'+esc(T.art_h)+'</span><span class="title">'+esc(T.art_soon_title)+'</span><p>'+esc(T.art_soon_text)+'</p></div></a>';
     } else {
       var a0=A[0];
-      var feat='<a class="card feature" href="'+AP+esc(a0.slug)+'/"><div class="img" style="'+(a0.image?'background-image:url('+esc(ROOT+a0.image)+')':'')+'"><span class="chip dark">'+esc(T.art_latest)+'</span></div><div class="body"><span class="chip" style="align-self:flex-start">'+esc(L(a0,'category'))+'</span><span class="title">'+esc(L(a0,'title'))+'</span><p>'+esc(L(a0,'lead')||'')+'</p><span class="muted num" style="font-size:11px">'+esc(a0.date)+'</span><span class="btn-dark" style="margin-top:4px">'+esc(T.art_read)+'</span></div></a>';
-      var rest=A.slice(1,4).map(function(a){return '<a class="card mini" href="'+AP+esc(a.slug)+'/"><div class="img" style="'+(a.image?'background-image:url('+esc(ROOT+a.image)+')':'')+'"></div><div class="body"><span class="chip" style="align-self:flex-start">'+esc(L(a,'category'))+'</span><span class="title">'+esc(L(a,'title'))+'</span><span class="muted num" style="font-size:11px">'+esc(a.date)+'</span></div></a>'}).join('');
+      var feat='<a class="card feature" href="'+AP+esc(a0.slug)+'/"><div class="img" style="'+(a0.image?'background-image:url('+esc(ROOT+a0.image)+')':'')+'"><span class="chip dark">'+esc(T.art_latest)+'</span></div><div class="body">'+chips(a0,4)+'<span class="title">'+esc(L(a0,'title'))+'</span><p>'+esc(L(a0,'lead')||'')+'</p><span class="muted num" style="font-size:11px">'+esc(a0.date)+'</span><span class="btn-dark" style="margin-top:4px">'+esc(T.art_read)+'</span></div></a>';
+      var rest=A.slice(1,4).map(function(a){return '<a class="card mini" href="'+AP+esc(a.slug)+'/"><div class="img" style="'+(a.image?'background-image:url('+esc(ROOT+a.image)+')':'')+'"></div><div class="body">'+chips(a,2)+'<span class="title">'+esc(L(a,'title'))+'</span><span class="muted num" style="font-size:11px">'+esc(a.date)+'</span></div></a>'}).join('');
       $('art-grid').innerHTML=feat+'<div class="minis">'+rest+'</div>';
     }
-    $('cats').innerHTML=T.cats.map(function(x,i){return '<span class="chip '+(i?'ghost':'dark')+'">'+esc(x)+'</span>'}).join('');
+    var used={}; A.forEach(function(a){(a.tags||[]).forEach(function(k){used[k]=(used[k]||0)+1})}); $('cats').innerHTML='<a class="chip dark" href="'+AP+'">'+esc(T.cats[0])+'</a>'+Object.keys(TG).filter(function(k){return used[k]}).map(function(k){return '<a class="chip ghost" href="'+AP+'?tag='+k+'">'+esc(L(TG[k],'name'))+' '+used[k]+'</a>'}).join('');
 
     var P=d.posts;
     $('posts-sub').textContent=P.count+T.posts_sub+P.date.slice(5).replace('-','.');
@@ -107,6 +108,27 @@
     var mx=Math.max.apply(null,I.rows.map(function(r){return r.d28||0}).concat([1]));
     $('imp-list').innerHTML=I.rows.map(function(r){return '<div class="row" style="flex-wrap:wrap;gap:4px 12px"><span style="font-size:14px;font-weight:500">'+esc(L(r,'name'))+'</span><span class="num" style="font-size:14px">'+nullv(r.d7)+' <span class="muted">／</span> <b>'+nullv(r.d28)+'</b></span><div style="flex-basis:100%;height:4px;background:var(--line);border-radius:2px"><div style="height:4px;border-radius:2px;background:var(--accent,#1f4e79);width:'+((r.d28||0)/mx*100)+'%"></div></div></div>'}).join('')+'<div class="row"><span style="font-size:14px;font-weight:700">'+esc(T.media_total)+'</span><span class="num" style="font-size:16px;font-weight:700">'+nullv(I.total_d7)+' <span class="muted">／</span> '+nullv(I.total_d28)+'</span></div>';
     $('imp-note').textContent=T.media_imp_note;
+
+    // daily trend + today
+    (function(){
+      var D=M.daily; if(!D||!D.dates){ $('trend-card').hidden=true; return; }
+      var C=[['x_ja','X 日本語','X Japanese','X 日文','#1f4e79'],['x_en','X English','X English','X 英文','#4f7fae'],['x_zh','X 中文','X Chinese','X 中文','#8fb3d6'],['note','note','note','note','#2f6f5e']];
+      var nm=function(c){return LANG==='en'?c[2]:LANG==='zh'?c[3]:c[1]};
+      var n=D.dates.length, tot=[], mx=1;
+      for(var i=0;i<n;i++){var t=0;C.forEach(function(c){t+=(D[c[0]]&&D[c[0]][i])||0});tot.push(t);if(t>mx)mx=t;}
+      var W=640,H=180,pb=22,bw=W/n, sum=tot.reduce(function(a,b){return a+b},0);
+      var svg='<svg viewBox="0 0 '+W+' '+(H+pb)+'" width="100%" role="img" aria-label="'+esc(T.media_trend)+'">';
+      [0.5,1].forEach(function(f){var y=H-H*f; svg+='<line x1="0" x2="'+W+'" y1="'+y+'" y2="'+y+'" stroke="currentColor" stroke-opacity=".08"/><text x="2" y="'+(y+11)+'" font-size="10" fill="currentColor" fill-opacity=".45">'+fmt(Math.round(mx*f))+'</text>'});
+      for(var i=0;i<n;i++){var y=H; var last=i===n-1;
+        C.forEach(function(c){var v=(D[c[0]]&&D[c[0]][i])||0; var h=v/mx*H; y-=h; svg+='<rect x="'+(i*bw+1.5)+'" y="'+y+'" width="'+(bw-3)+'" height="'+h+'" fill="'+c[4]+'"'+(last?' fill-opacity=".55"':'')+'><title>'+esc(D.dates[i]+' '+nm(c)+' '+fmt(v))+'</title></rect>'});
+        if(i%7===n%7||last) svg+='<text x="'+(i*bw+bw/2)+'" y="'+(H+15)+'" font-size="10" text-anchor="middle" fill="currentColor" fill-opacity=".55">'+D.dates[i].slice(5).replace('-','/')+'</text>';
+      }
+      svg+='</svg>'; $('trend-chart').innerHTML=svg;
+      $('trend-legend').innerHTML=C.map(function(c){return '<span><i style="background:'+c[4]+'"></i>'+esc(nm(c))+'</span>'}).join('');
+      $('trend-sum').textContent=T.media_sum28+fmt(sum);
+      var td=M.today; if(td){ var cells=[[T.media_today+' X',(td.x_ja||0)+(td.x_en||0)+(td.x_zh||0)],['X 日本語',td.x_ja],['note',td.note],[LANG==='ja'?'サイト訪問（24時間）':LANG==='zh'?'网站访问（24小时）':'Site visits (24h)',td.site_visits_24h]];
+        $('today-row').innerHTML=cells.map(function(c){return '<div class="t"><span>'+esc(c[0])+'</span><b class="num">'+fmt(c[1])+'</b></div>'}).join(''); }
+    })();
     $('fol-list').innerHTML=M.followers.map(function(f){return '<a class="row" href="'+esc(f.url)+'"><span style="font-size:14px;font-weight:500">'+esc(L(f,'name'))+' <span class="muted" style="font-size:12px">'+esc(f.handle)+'</span></span><span class="r">'+nullv(f.count)+'<span class="chip">'+esc(T.media_follow)+'</span></span></a>'}).join('');
   }
 })();

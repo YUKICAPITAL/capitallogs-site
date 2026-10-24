@@ -18,7 +18,7 @@
 <main class="wrap">
 
 <section class="sec"><div class="head"><h2 class="h2">Articles <span class="sub">only on this site</span></h2></div>
-<div id="list" class="grid"></div></section>
+<div id="tagbar" class="tagbar"></div><div id="list" class="grid"></div></section>
 
 <footer class="site-footer" style="padding-bottom:48px"><span>© 2026 YUKI CAPITAL</span><span><a href="../">Back to top</a></span></footer>
 </main>
@@ -34,7 +34,12 @@ fetch('../../data/site.json',{cache:'no-store'}).then(function(r){return r.json(
   var LG=document.documentElement.getAttribute('data-lang')||'ja', R=document.documentElement.getAttribute('data-r')||'../', L=function(o,k){return (LG!=='ja'&&o[k+'_'+LG])?o[k+'_'+LG]:o[k]};
   var A=d.articles||[], el=document.getElementById('list');
   if(!A.length){ el.innerHTML='<div class="card"><p style="margin:0;font-size:14px;line-height:1.9">The first article is in the works.</p></div>'; return; }
-  el.innerHTML=A.map(function(a){return '<a class="card notecard" href="'+a.slug+'/">'+(a.image?'<img class="thumb" src="'+R+a.image+'" alt="">':'<div class="thumb"></div>')+'<div class="t"><span class="chip" style="align-self:flex-start">'+L(a,'category')+'</span><span class="title">'+L(a,'title')+'</span><span class="muted num" style="font-size:11px">'+a.date+'</span></div></a>'}).join('');
+  var TG=d.tags||{}, cur=(location.search.match(/[?&]tag=([\w-]+)/)||[])[1]||'';
+  var tn=function(k){return TG[k]?L(TG[k],'name'):k};
+  var used={}; A.forEach(function(a){(a.tags||[]).forEach(function(k){used[k]=(used[k]||0)+1})});
+  document.getElementById('tagbar').innerHTML='<a href="./" class="chip '+(cur?'ghost':'dark')+'">All '+A.length+'</a>'+Object.keys(TG).filter(function(k){return used[k]}).map(function(k){return '<a href="?tag='+k+'" class="chip '+(cur===k?'dark':'ghost')+'">'+tn(k)+' '+used[k]+'</a>'}).join('');
+  var B=cur?A.filter(function(a){return (a.tags||[]).indexOf(cur)>=0}):A;
+  el.innerHTML=B.map(function(a){return '<a class="card notecard" href="'+a.slug+'/">'+(a.image?'<img class="thumb" src="'+R+a.image+'" alt="">':'<div class="thumb"></div>')+'<div class="t"><span class="chips">'+(a.tags||[]).map(function(k){return '<span class="chip">'+tn(k)+'</span>'}).join('')+'</span><span class="title">'+L(a,'title')+'</span><span class="muted num" style="font-size:11px">'+a.date+'</span></div></a>'}).join('');
 });
 </script>
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "abf23c1820ac43539efd93c2112996da"}'></script><!-- End Cloudflare Web Analytics -->

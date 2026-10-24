@@ -342,7 +342,7 @@
     "url_zh": "https://x.com/YUKICAPITALchin"
   },
   "media": {
-    "updated": "2026-10-22 12:40",
+    "updated": "2026-10-25 00:52",
     "impressions_month": null,
     "impressions_daily": [],
     "followers": [
@@ -350,7 +350,7 @@
         "name": "X 日本語",
         "handle": "@capitallogs",
         "url": "https://x.com/capitallogs",
-        "count": 155,
+        "count": 154,
         "name_en": "X Japanese",
         "name_zh": "X 日文"
       },
@@ -358,7 +358,7 @@
         "name": "X English",
         "handle": "@YUKICAPITALen",
         "url": "https://x.com/YUKICAPITALen",
-        "count": 86,
+        "count": 88,
         "name_en": "X English",
         "name_zh": "X 英文"
       },
@@ -366,7 +366,7 @@
         "name": "X 中文",
         "handle": "@YUKICAPITALchin",
         "url": "https://x.com/YUKICAPITALchin",
-        "count": 56,
+        "count": 57,
         "name_en": "X Chinese",
         "name_zh": "X 中文"
       },
@@ -385,45 +385,216 @@
           "name": "X 日本語",
           "name_en": "X Japanese",
           "name_zh": "X 日文",
-          "d7": 37800,
-          "d28": 124600
+          "d7": 46052,
+          "d28": 132229
         },
         {
           "name": "X English",
           "name_en": "X English",
           "name_zh": "X 英文",
-          "d7": 7800,
-          "d28": 22300
+          "d7": 9497,
+          "d28": 24755
         },
         {
           "name": "X 中文",
           "name_en": "X Chinese",
           "name_zh": "X 中文",
-          "d7": 9000,
-          "d28": 32500
+          "d7": 10701,
+          "d28": 34418
         },
         {
           "name": "note",
           "name_en": "note",
           "name_zh": "note",
-          "d7": 272,
-          "d28": 560
+          "d7": 194,
+          "d28": 596
         },
         {
           "name": "サイト",
           "name_en": "Site",
           "name_zh": "网站",
-          "d7": 108,
-          "d28": 108
+          "d7": 205,
+          "d28": 205
         }
       ],
-      "total_d7": 54980,
-      "total_d28": 180068
+      "total_d7": 66649,
+      "total_d28": 192203
     },
     "site": {
-      "visits_24h": 13,
-      "pv_24h": 40
-    }
+      "visits_24h": 6,
+      "pv_24h": 12,
+      "visits_7d": 71
+    },
+    "daily": {
+      "dates": [
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24"
+      ],
+      "x_ja": [
+        2390,
+        5422,
+        8571,
+        1735,
+        969,
+        598,
+        496,
+        413,
+        5799,
+        4216,
+        4872,
+        5908,
+        5174,
+        2309,
+        3013,
+        3360,
+        5843,
+        7588,
+        7561,
+        5958,
+        3982,
+        4636,
+        6215,
+        5951,
+        6352,
+        11660,
+        8200,
+        3038
+      ],
+      "x_en": [
+        464,
+        1064,
+        1369,
+        307,
+        170,
+        137,
+        85,
+        72,
+        784,
+        948,
+        786,
+        943,
+        838,
+        533,
+        666,
+        701,
+        1154,
+        1209,
+        1149,
+        1115,
+        764,
+        1874,
+        1438,
+        1008,
+        1248,
+        1601,
+        1355,
+        973
+      ],
+      "x_zh": [
+        1031,
+        1491,
+        1579,
+        653,
+        572,
+        590,
+        455,
+        299,
+        1209,
+        1267,
+        1196,
+        1467,
+        1244,
+        1256,
+        1248,
+        1211,
+        1393,
+        1660,
+        1411,
+        1496,
+        989,
+        1080,
+        1807,
+        1706,
+        1447,
+        1774,
+        1600,
+        1287
+      ],
+      "note": [
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7,
+        50,
+        48,
+        15,
+        22,
+        2,
+        11,
+        47,
+        43,
+        40,
+        3,
+        23,
+        91,
+        30,
+        47,
+        42,
+        39,
+        28,
+        8,
+        0
+      ]
+    },
+    "today": {
+      "date": "2026-10-24",
+      "x_ja": 3038,
+      "x_en": 973,
+      "x_zh": 1287,
+      "note": 0,
+      "site_visits_24h": 6,
+      "site_pv_24h": 12,
+      "at": "2026-10-25 00:52"
+    },
+    "intraday": [
+      {
+        "at": "2026-10-25 00:52",
+        "x": 5298,
+        "site_pv_24h": 12,
+        "site_visits_24h": 6
+      }
+    ]
   },
   "archive": [
     {
@@ -542,71 +713,154 @@
       "slug": "cyber-crash-scenarios",
       "date": "2026-10-24",
       "image": "images/articles/cyber-crash-scenarios/hero.jpg",
-      "category": "テクノロジー",
-      "category_en": "Technology",
-      "category_zh": "科技",
+      "category": "サイバーセキュリティ",
+      "category_en": "Cybersecurity",
+      "category_zh": "网络安全",
       "title": "サイバー攻撃は世界同時株安の引き金になりうるか",
       "title_en": "Could a cyberattack trigger a simultaneous global stock crash?",
       "title_zh": "网络攻击会成为全球股市同时下跌的导火索吗",
       "lead": "2026年10月23日、僕が持つ銀行株4銘柄がそろって下がった。同じ週、GMOのサーバー26,739件に影響のおそれがある不正アクセスが公表されていた。 金融危機の多くは、貸し出しの焦げ付きや金利の急変から始まってきた。しかし、データの漏えいや改ざんが起点になる下げ方は、まだ本格的には起きていない。 この記事では、国際機関や保険市場の一次資料をもとに、サイバー攻撃が世界同時の株安につながる道筋を4つに分け、起きやすさの順に並べる。",
       "lead_en": "On October 23, 2026, the four bank stocks I hold in Japan all fell together. The same week, unauthorized access that may have affected 26,739 of GMO's servers had been disclosed. Most financial crises have started with bad loans or sudden moves in interest rates. But a fall that begins with leaked or altered data has not yet happened in full. In this article I use primary sources from international bodies and the insurance market to split the paths from a cyberattack to a global sell-off into four, and rank them by how likely they are.",
-      "lead_zh": "2026年10月23日，我在日本持有的4只银行股一起下跌了。同一周，GMO公布了一起可能影响26,739台服务器的非法入侵。 多数金融危机，都是从贷款坏账或利率骤变开始的。但是，以数据泄露或篡改为起点的下跌，还没有真正发生过。 本文依据国际机构和保险市场的一手资料，把网络攻击引发全球股市同时下跌的路径分成4条，并按发生的可能性排序。"
+      "lead_zh": "2026年10月23日，我在日本持有的4只银行股一起下跌了。同一周，GMO公布了一起可能影响26,739台服务器的非法入侵。 多数金融危机，都是从贷款坏账或利率骤变开始的。但是，以数据泄露或篡改为起点的下跌，还没有真正发生过。 本文依据国际机构和保险市场的一手资料，把网络攻击引发全球股市同时下跌的路径分成4条，并按发生的可能性排序。",
+      "tags": [
+        "cyber",
+        "economy",
+        "finance",
+        "markets"
+      ]
     },
     {
       "slug": "supply-chain-shield",
       "date": "2026-10-23",
       "image": "images/articles/supply-chain-shield/hero.jpg",
-      "category": "テクノロジー",
-      "category_en": "Technology",
-      "category_zh": "科技",
+      "category": "サイバーセキュリティ",
+      "category_en": "Cybersecurity",
+      "category_zh": "网络安全",
       "title": "矛より強い盾はない。マイクロソフトのクラウドとお名前.comの事件から見る、守りの技術と限界",
       "title_en": "No shield is stronger than the spear: what the Microsoft cloud case and the Onamae.com breach teach about defense and its limits",
       "title_zh": "没有比矛更强的盾：从微软云案件和Onamae.com事件看防守的技术与极限",
       "lead": "2026年10月21日と22日、規模も相手もまったく違う2つの侵入が、同じ週に公表された。 1つはマイクロソフトのクラウドを使う会社が委託先のアプリ経由で狙われた件、もう1つはお名前.comの仮想サーバーが不正アクセスを受けた件だ。 どう入られ、どう対処し、大企業はどう防いでいるのか。そして事実上防げるのかを、一次資料で順に確かめる。",
       "lead_en": "On October 21 and 22, 2026, two intrusions of completely different scale and target were disclosed in the same week. One targeted companies that use Microsoft's cloud through a contractor's app; the other was unauthorized access to Onamae.com's virtual servers in Japan. From Tokyo, I check with primary sources how the attackers got in, how to respond, how large companies defend themselves, and whether this can realistically be prevented.",
-      "lead_zh": "2026年10月21日和22日，规模和对象完全不同的两起入侵在同一周被公开。 一起是使用微软云的公司经由外包方的应用遭到攻击，另一起是日本Onamae.com的虚拟服务器遭到非法入侵。 身在东京的我，用一手资料依次确认：攻击者如何进入、该如何应对、大企业如何防守，以及这类攻击实际上能否防住。"
+      "lead_zh": "2026年10月21日和22日，规模和对象完全不同的两起入侵在同一周被公开。 一起是使用微软云的公司经由外包方的应用遭到攻击，另一起是日本Onamae.com的虚拟服务器遭到非法入侵。 身在东京的我，用一手资料依次确认：攻击者如何进入、该如何应对、大企业如何防守，以及这类攻击实际上能否防住。",
+      "tags": [
+        "cyber",
+        "tech",
+        "ai"
+      ]
     },
     {
       "slug": "php2shell-48-hours",
       "date": "2026-10-22",
       "image": "images/articles/php2shell-48-hours/hero.jpg",
-      "category": "テクノロジー",
-      "category_en": "Technology",
-      "category_zh": "科技",
+      "category": "サイバーセキュリティ",
+      "category_en": "Cybersecurity",
+      "category_zh": "网络安全",
       "title": "PHP2Shellの48時間。ウェブの7割を支える言語の欠陥は、どう見つかり、どう塞がれたのか",
       "title_en": "48 hours of PHP2Shell: how flaws in the language behind 70% of the web were found and closed",
       "title_zh": "PHP2Shell的48小时：支撑七成网站的语言缺陷，是如何被发现、又如何被堵上的",
       "lead": "2026年10月21日の夜、ウェブサイトを動かす言語PHPに、認証なしで乗っ取りにつながる欠陥が2件あると公表された。 予告から修正版の公開、国内サービスの一斉停止までを、開発元と公的機関の一次資料で時系列に並べる。 欠陥の仕組み、AIが果たした役割、そしてこれから起きうることを、僕は自分の会社の守りと重ねて確かめておく。",
       "lead_en": "On the night of October 21, 2026, two flaws that could let attackers take over servers without logging in were disclosed in PHP, the language that runs much of the web. Here in Tokyo, I lay out the timeline from the advance notice to the fixed releases and the wave of service shutdowns in Japan, using primary sources from the developers and public agencies. I also check how the flaws work, what role AI played and what could happen next, setting it all against how my own company defends itself.",
-      "lead_zh": "2026年10月21日夜，驱动大量网站的编程语言PHP被公开存在两个缺陷，攻击者无需登录即可能接管服务器。 身在东京的我，用开发方和公共机构的一手资料，按时间顺序整理从预告、修正版发布到日本国内服务集体停摆的经过。 缺陷的原理、AI扮演的角色，以及今后可能发生的事，我也对照自己公司的防守来确认一遍。"
+      "lead_zh": "2026年10月21日夜，驱动大量网站的编程语言PHP被公开存在两个缺陷，攻击者无需登录即可能接管服务器。 身在东京的我，用开发方和公共机构的一手资料，按时间顺序整理从预告、修正版发布到日本国内服务集体停摆的经过。 缺陷的原理、AI扮演的角色，以及今后可能发生的事，我也对照自己公司的防守来确认一遍。",
+      "tags": [
+        "cyber",
+        "tech",
+        "ai"
+      ]
     },
     {
       "slug": "space-company-ai-cloud",
       "date": "2026-10-21",
       "image": "images/articles/space-company-ai-cloud/hero.jpg",
-      "category": "テクノロジー",
-      "category_en": "Technology",
-      "category_zh": "科技",
+      "category": "宇宙",
+      "category_en": "Space",
+      "category_zh": "航天",
       "title": "宇宙企業がAIクラウドになる。計算資源を競合に貸すという商売",
       "title_en": "A space company becomes an AI cloud: renting computing power to its rivals",
       "title_zh": "航天企业变成AI云：把计算资源租给竞争对手的生意",
       "lead": "ロケットの会社が、AIの計算資源を貸して稼ぎ始めた。借り手は、AIで競い合う相手でもある。 足りない計算資源、GPUを貸す商売の損益、宇宙で計算する構想を、一次資料の数字で並べる。 僕はSpaceXの株を持っている。その会社がどこで稼いでいるのかを、ここで確かめておく。",
       "lead_en": "A rocket company has started earning by renting out AI computing power. Its tenants are also its rivals in AI. Here in Tokyo, I line up the numbers from primary sources: the shortage of compute, the economics of renting GPUs, and the idea of computing in space. I hold SpaceX shares. This is where I check how that company actually makes its money.",
-      "lead_zh": "一家火箭公司，开始靠出租AI计算资源赚钱。而租用者，同时也是它在AI上的竞争对手。 身在东京的我，用一手资料的数字，把计算资源的短缺、出租GPU的损益、在太空中计算的构想排列出来。 我持有SpaceX的股票。在这里，我想确认这家公司到底在哪里赚钱。"
+      "lead_zh": "一家火箭公司，开始靠出租AI计算资源赚钱。而租用者，同时也是它在AI上的竞争对手。 身在东京的我，用一手资料的数字，把计算资源的短缺、出租GPU的损益、在太空中计算的构想排列出来。 我持有SpaceX的股票。在这里，我想确认这家公司到底在哪里赚钱。",
+      "tags": [
+        "space",
+        "ai",
+        "company"
+      ]
     },
     {
       "slug": "quantum-four-approaches",
       "date": "2026-10-20",
       "image": "images/articles/quantum-four-approaches/hero.jpg",
-      "category": "テクノロジー",
-      "category_en": "Technology",
-      "category_zh": "科技",
+      "category": "量子",
+      "category_en": "Quantum",
+      "category_zh": "量子",
       "title": "量子コンピュータの4社を、方式と数字で比べる",
       "title_en": "Four quantum computing companies, compared by approach and by the numbers",
       "title_zh": "用方式和数字比较4家量子计算公司",
       "lead": "IonQ・Quantinuum・Rigetti・D-Wave。同じ「量子」でも、作り方も稼ぎ方も違う。 誤りの少なさ、売上、手元の資金を並べると、4社の現在地が見えてくる。 僕は量子株を持ち、IonQは売って指値で待っている。その判断の材料を、ここに置いておく。",
       "lead_en": "IonQ, Quantinuum, Rigetti and D-Wave. All four say \"quantum,\" yet they build and earn in different ways. Lining up error rates, revenue and cash shows where each company stands today. I hold quantum stocks, and I sold IonQ and am waiting with a limit order. This is the material behind that decision.",
-      "lead_zh": "IonQ、Quantinuum、Rigetti和D-Wave。同样叫量子，制造方式和赚钱方式各不相同。 把错误率、营收和手头资金排在一起，就能看到4家公司现在所处的位置。 我持有量子股，IonQ已经卖出，正挂着限价单等待。这里放的是那个判断背后的材料。"
+      "lead_zh": "IonQ、Quantinuum、Rigetti和D-Wave。同样叫量子，制造方式和赚钱方式各不相同。 把错误率、营收和手头资金排在一起，就能看到4家公司现在所处的位置。 我持有量子股，IonQ已经卖出，正挂着限价单等待。这里放的是那个判断背后的材料。",
+      "tags": [
+        "quantum",
+        "tech",
+        "company"
+      ]
     }
-  ]
+  ],
+  "tags": {
+    "tech": {
+      "name": "テクノロジー",
+      "name_en": "Technology",
+      "name_zh": "科技"
+    },
+    "economy": {
+      "name": "経済",
+      "name_en": "Economy",
+      "name_zh": "经济"
+    },
+    "cyber": {
+      "name": "サイバーセキュリティ",
+      "name_en": "Cybersecurity",
+      "name_zh": "网络安全"
+    },
+    "finance": {
+      "name": "金融・銀行",
+      "name_en": "Finance & banks",
+      "name_zh": "金融·银行"
+    },
+    "markets": {
+      "name": "相場・株",
+      "name_en": "Markets",
+      "name_zh": "市场·股票"
+    },
+    "ai": {
+      "name": "AI",
+      "name_en": "AI",
+      "name_zh": "AI"
+    },
+    "space": {
+      "name": "宇宙",
+      "name_en": "Space",
+      "name_zh": "航天"
+    },
+    "quantum": {
+      "name": "量子",
+      "name_en": "Quantum",
+      "name_zh": "量子"
+    },
+    "company": {
+      "name": "企業分析",
+      "name_en": "Company analysis",
+      "name_zh": "企业分析"
+    },
+    "business": {
+      "name": "実業",
+      "name_en": "Business",
+      "name_zh": "实业"
+    },
+    "family": {
+      "name": "家族",
+      "name_en": "Family",
+      "name_zh": "家庭"
+    }
+  }
 }
