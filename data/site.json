@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T13:00:00+09:00",
+  "updated": "2026-10-24T23:50:00+09:00",
   "profile": {
     "name": "YUKI CAPITAL",
     "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -25,7 +25,7 @@
     "unreal_pct": 16.01,
     "cash": 17041762,
     "cash_pct": 4.46,
-    "trade": "IonQ 指値28.5ドルを取消し、成行で買い注文（約定未確認）",
+    "trade": "IonQ 2,500株を買い戻し（31.8ドル・電話で約定を確認、CSVへの反映は来週）",
     "alloc": [
       {
         "name": "国内株",
@@ -84,8 +84,14 @@
     ],
     "label_en": "Oct 23 (Fri)",
     "label_zh": "10.23（周五）",
-    "trade_en": "IonQ: cancelled the $28.50 limit and placed a market buy (fill unconfirmed)",
-    "trade_zh": "IonQ：撤销28.5美元限价，改下市价买单（成交未确认）"
+    "trade_en": "IonQ: bought back 2,500 shares at $31.80 (fill confirmed by phone; not yet in the CSV)",
+    "trade_zh": "IonQ：以31.8美元买回2,500股（电话确认成交，下周反映到CSV）",
+    "week": {
+      "from": "2026-10-16",
+      "to": "2026-10-23",
+      "diff": -11889941,
+      "diff_pct": -3.02
+    }
   },
   "conditions": [
     {
@@ -103,18 +109,18 @@
       "now_zh": "144.75 美元"
     },
     {
-      "title": "IonQ を買い直す",
-      "rule": "28.5ドルの指値を取消し、成行で注文",
-      "now": "30.92 ドル",
-      "status": "約定未確認",
-      "title_en": "Buy back IonQ",
-      "rule_en": "cancelled the $28.50 limit, market order placed",
-      "status_en": "Fill unconfirmed",
-      "title_zh": "买回 IonQ",
-      "rule_zh": "撤销28.5美元限价，改为市价单",
-      "status_zh": "成交未确认",
-      "now_en": "$30.92",
-      "now_zh": "30.92 美元"
+      "title": "IonQ を +500株",
+      "rule": "25ドルを割ったら",
+      "now": "31.8 ドル（買い戻し約定）",
+      "status": "未達",
+      "title_en": "Add 500 IonQ",
+      "rule_en": "if it falls below $25",
+      "status_en": "Not yet",
+      "title_zh": "IonQ 加仓500股",
+      "rule_zh": "跌破25美元时",
+      "status_zh": "未达",
+      "now_en": "$31.80 (buyback filled)",
+      "now_zh": "31.8 美元（买回已成交）"
     },
     {
       "title": "三井住友FG を買い増し",
@@ -234,64 +240,70 @@
     }
   ],
   "posts": {
-    "date": "2026-10-23",
-    "count": 26,
+    "date": "2026-10-24",
+    "count": 12,
     "items": [
       {
-        "time": "10.23",
-        "kind": "判断枠",
-        "title": "国内株が1,080万円減った日、銀行4行を動かさない",
+        "time": "10.24",
+        "kind": "シリーズ",
+        "title": "サーバー26,739件の不正アクセスと、GMO株を持たない理由",
         "url": "https://x.com/capitallogs",
         "impressions": null,
-        "kind_en": "Call",
-        "kind_zh": "判断",
-        "title_en": "The day my Japanese stocks fell by $68,000, and I am not moving the four banks",
-        "title_zh": "日本股票减少约46万元人民币的一天，4家银行股不动",
+        "kind_en": "Series",
+        "kind_zh": "连载",
+        "title_en": "26,739 servers hit by unauthorized access, and why I will not hold GMO shares",
+        "title_zh": "26,739台服务器遭非法入侵，以及我不持有GMO股票的理由",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin"
       },
       {
-        "time": "10.23",
+        "time": "10.24",
         "kind": "日記",
-        "title": "ジムのラウンジで、サラダをしっかり取る",
+        "title": "2時間のオイルマッサージと六本木のしゃぶしゃぶ",
         "url": "https://x.com/capitallogs",
         "impressions": null,
         "kind_en": "Diary",
         "kind_zh": "日记",
-        "title_en": "At the gym lounge, making sure to have a salad",
-        "title_zh": "在健身房休息区，好好吃一份沙拉",
+        "title_en": "A two-hour oil massage, and shabu-shabu in Roppongi",
+        "title_zh": "2小时的精油按摩和六本木的涮涮锅",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin"
       },
       {
-        "time": "10.23",
+        "time": "10.24",
         "kind": "長文",
-        "title": "会員情報は必要最小限、守りはソフトより置き場所",
+        "title": "1,100万円減った週に見た、銀行株の「新しい下げ方」",
         "url": "https://x.com/capitallogs",
         "impressions": null,
         "kind_en": "Essay",
         "kind_zh": "长文",
-        "title_en": "Keep member information to the minimum: my defense is about where data sits, more than software",
-        "title_zh": "会员信息保持最少，防守比起软件更在于存放的地方",
+        "title_en": "A week down $69,576, and the \"new way of falling\" in bank stocks",
+        "title_zh": "减少约467,921元人民币（约69,576美元）的一周，我看到的银行股“新的下跌方式”",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin"
       },
       {
-        "time": "10.23",
-        "kind": "ニュース",
-        "title": "日経1,713円安、ハッキングの不安で売られたと見る",
+        "time": "10.24",
+        "kind": "資本枠",
+        "title": "今週の資本｜10月24日(土)",
         "url": "https://x.com/capitallogs",
         "impressions": null,
-        "kind_en": "News",
-        "kind_zh": "新闻",
-        "title_en": "Nikkei down 1,713 points, and I think hacking fears were part of the selling",
-        "title_zh": "日经下跌1,713点，我认为黑客的不安也是被卖的原因",
+        "kind_en": "Capital",
+        "kind_zh": "资本",
+        "title_en": "This week's capital｜Oct 24, 2026 (Sat)",
+        "title_zh": "本周的资本｜2026年10月24日（周六）",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin"
       }
     ]
   },
   "note": [
+    {
+      "date": "2026-10-24",
+      "title": "GMOは漏えいにどう向き合ってきたか――2017年と2026年、2つの発表を読み比べる",
+      "url": "https://note.com/capitallogs/n/n996bdd381297",
+      "image": "https://assets.st-note.com/production/uploads/images/328098172/rectangle_large_type_2_63a19071d1afc8037c4572d5da19780d.png?fit=bounds&quality=85&width=640"
+    },
     {
       "date": "2026-10-23",
       "title": "お名前.comのサーバー不正アクセスで、会員情報の預け方を考え直した",
@@ -312,20 +324,20 @@
     }
   ],
   "diary": {
-    "date": "2026-10-22（木）",
-    "place": "ジム",
-    "title": "ジムのラウンジで、サラダをしっかり取る",
-    "text": "筋トレのあと、ジムのラウンジでサラダを頼んだ。ブロッコリーとゆで卵、グリルした肉が入っていて、すごく美味しかった。サラダもしっかり取るようにしようと思った。",
-    "image": "https://raw.githubusercontent.com/YUKICAPITAL/x-images/main/images/2026-10-23_diary_013317.jpg",
+    "date": "2026-10-23（金）",
+    "place": "六本木",
+    "title": "2時間のオイルマッサージと六本木のしゃぶしゃぶ",
+    "text": "夕方、六本木でいつものオイルマッサージを2時間受けた。そのあと妻と子どもたち、両親と六本木のしゃぶしゃぶ屋で食事をした。写真は今朝、プールで1,500m泳いだあとのラウンジ。",
+    "image": "https://raw.githubusercontent.com/YUKICAPITAL/x-images/main/images/2026-10-24_diary_145943.jpg",
     "url": "https://x.com/capitallogs",
-    "date_en": "Thu, Oct 22, 2026",
-    "date_zh": "2026.10.22（周四）",
-    "place_en": "Gym",
-    "place_zh": "健身房",
-    "title_en": "At the gym lounge, making sure to have a salad",
-    "title_zh": "在健身房休息区，好好吃一份沙拉",
-    "text_en": "After strength training, I ordered a salad at the gym lounge. It had broccoli, boiled eggs and grilled meat, and it was really good. I thought I should make sure to have salad too.",
-    "text_zh": "力量训练后，我在健身房休息区点了一份沙拉。里面有西兰花、水煮蛋和烤肉，非常好吃。我想以后也要好好吃沙拉。",
+    "date_en": "Fri, Oct 23, 2026",
+    "date_zh": "2026.10.23（周五）",
+    "place_en": "Roppongi",
+    "place_zh": "六本木",
+    "title_en": "A two-hour oil massage, and shabu-shabu in Roppongi",
+    "title_zh": "2小时的精油按摩和六本木的涮涮锅",
+    "text_en": "In the evening I had my usual two-hour oil massage in Roppongi. Then I had dinner at a shabu-shabu restaurant in Roppongi with my wife, the children and my parents. The photo is from the lounge this morning, after swimming 1,500m.",
+    "text_zh": "傍晚，我在六本木做了常去的2小时精油按摩。之后和妻子、孩子们以及父母，在六本木的涮涮锅店吃了饭。照片是今天早上游完1,500米后在休息室拍的。",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin"
   },
@@ -414,6 +426,17 @@
     }
   },
   "archive": [
+    {
+      "date": "2026-10-24",
+      "label": "10.24（土）",
+      "total": null,
+      "diff_pct": null,
+      "memo": "休場 ｜ 12本 ｜ IonQ 2,500株を31.8ドルで買い戻し ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "Closed ｜ 12 posts ｜ Bought back 2,500 IonQ at $31.80 ｜ 1 note ｜ 1 article",
+      "memo_zh": "休市 ｜ 12条 ｜ 以31.8美元买回IonQ 2,500股 ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Oct 24 Sat",
+      "label_zh": "10.24 周六"
+    },
     {
       "date": "2026-10-23",
       "label": "10.23（金）",
@@ -515,6 +538,20 @@
     }
   ],
   "articles": [
+    {
+      "slug": "cyber-crash-scenarios",
+      "date": "2026-10-24",
+      "image": "images/articles/cyber-crash-scenarios/hero.jpg",
+      "category": "テクノロジー",
+      "category_en": "Technology",
+      "category_zh": "科技",
+      "title": "サイバー攻撃は世界同時株安の引き金になりうるか",
+      "title_en": "Could a cyberattack trigger a simultaneous global stock crash?",
+      "title_zh": "网络攻击会成为全球股市同时下跌的导火索吗",
+      "lead": "2026年10月23日、僕が持つ銀行株4銘柄がそろって下がった。同じ週、GMOのサーバー26,739件に影響のおそれがある不正アクセスが公表されていた。 金融危機の多くは、貸し出しの焦げ付きや金利の急変から始まってきた。しかし、データの漏えいや改ざんが起点になる下げ方は、まだ本格的には起きていない。 この記事では、国際機関や保険市場の一次資料をもとに、サイバー攻撃が世界同時の株安につながる道筋を4つに分け、起きやすさの順に並べる。",
+      "lead_en": "On October 23, 2026, the four bank stocks I hold in Japan all fell together. The same week, unauthorized access that may have affected 26,739 of GMO's servers had been disclosed. Most financial crises have started with bad loans or sudden moves in interest rates. But a fall that begins with leaked or altered data has not yet happened in full. In this article I use primary sources from international bodies and the insurance market to split the paths from a cyberattack to a global sell-off into four, and rank them by how likely they are.",
+      "lead_zh": "2026年10月23日，我在日本持有的4只银行股一起下跌了。同一周，GMO公布了一起可能影响26,739台服务器的非法入侵。 多数金融危机，都是从贷款坏账或利率骤变开始的。但是，以数据泄露或篡改为起点的下跌，还没有真正发生过。 本文依据国际机构和保险市场的一手资料，把网络攻击引发全球股市同时下跌的路径分成4条，并按发生的可能性排序。"
+    },
     {
       "slug": "supply-chain-shield",
       "date": "2026-10-23",
