@@ -342,7 +342,7 @@
     "url_zh": "https://x.com/YUKICAPITALchin"
   },
   "media": {
-    "updated": "2026-10-25 00:45",
+    "updated": "2026-10-25 01:53",
     "impressions_month": null,
     "impressions_daily": [],
     "followers": [
@@ -385,44 +385,44 @@
           "name": "X 日本語",
           "name_en": "X Japanese",
           "name_zh": "X 日文",
-          "d7": 46052,
-          "d28": 132229
+          "d7": 47416,
+          "d28": 133593
         },
         {
           "name": "X English",
           "name_en": "X English",
           "name_zh": "X 英文",
-          "d7": 9497,
-          "d28": 24755
+          "d7": 9680,
+          "d28": 24938
         },
         {
           "name": "X 中文",
           "name_en": "X Chinese",
           "name_zh": "X 中文",
-          "d7": 10701,
-          "d28": 34418
+          "d7": 11053,
+          "d28": 34770
         },
         {
           "name": "note",
           "name_en": "note",
           "name_zh": "note",
           "d7": 194,
-          "d28": 596
+          "d28": 612
         },
         {
           "name": "サイト",
           "name_en": "Site",
           "name_zh": "网站",
-          "d7": 205,
-          "d28": 205
+          "d7": 208,
+          "d28": 208
         }
       ],
-      "total_d7": 66649,
-      "total_d28": 192203
+      "total_d7": 68551,
+      "total_d28": 194121
     },
     "site": {
-      "visits_24h": 6,
-      "pv_24h": 12,
+      "visits_24h": 9,
+      "pv_24h": 15,
       "visits_7d": null
     },
     "daily": {
@@ -484,7 +484,7 @@
         6352,
         11660,
         8200,
-        3038
+        4402
       ],
       "x_en": [
         464,
@@ -514,7 +514,7 @@
         1248,
         1601,
         1355,
-        973
+        1156
       ],
       "x_zh": [
         1031,
@@ -544,7 +544,7 @@
         1447,
         1774,
         1600,
-        1287
+        1639
       ],
       "note": [
         null,
@@ -579,13 +579,13 @@
     },
     "today": {
       "date": "2026-10-24",
-      "x_ja": 3038,
-      "x_en": 973,
-      "x_zh": 1287,
+      "x_ja": 4402,
+      "x_en": 1156,
+      "x_zh": 1639,
       "note": 0,
-      "site_visits_24h": 6,
-      "site_pv_24h": 12,
-      "at": "2026-10-25 00:45"
+      "site_visits_24h": 9,
+      "site_pv_24h": 15,
+      "at": "2026-10-25 01:53"
     },
     "intraday": [
       {
@@ -599,6 +599,12 @@
         "x": 5298,
         "site_pv_24h": 12,
         "site_visits_24h": 6
+      },
+      {
+        "at": "2026-10-25 01:53",
+        "x": 7197,
+        "site_pv_24h": 15,
+        "site_visits_24h": 9
       }
     ]
   },
