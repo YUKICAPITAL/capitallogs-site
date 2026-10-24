@@ -342,7 +342,7 @@
     "url_zh": "https://x.com/YUKICAPITALchin"
   },
   "media": {
-    "updated": "2026-10-25 00:52",
+    "updated": "2026-10-25 00:45",
     "impressions_month": null,
     "impressions_daily": [],
     "followers": [
@@ -423,7 +423,7 @@
     "site": {
       "visits_24h": 6,
       "pv_24h": 12,
-      "visits_7d": 71
+      "visits_7d": null
     },
     "daily": {
       "dates": [
@@ -585,11 +585,17 @@
       "note": 0,
       "site_visits_24h": 6,
       "site_pv_24h": 12,
-      "at": "2026-10-25 00:52"
+      "at": "2026-10-25 00:45"
     },
     "intraday": [
       {
         "at": "2026-10-25 00:52",
+        "x": 5298,
+        "site_pv_24h": 12,
+        "site_visits_24h": 6
+      },
+      {
+        "at": "2026-10-25 00:45",
         "x": 5298,
         "site_pv_24h": 12,
         "site_visits_24h": 6
