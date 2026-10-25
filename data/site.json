@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T22:00:00+09:00",
+ "updated": "2026-10-25T22:10:00+09:00",
  "profile": {
   "name": "YUKI CAPITAL",
   "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -298,6 +298,12 @@
   ]
  },
  "note": [
+  {
+   "date": "2026-10-25",
+   "title": "サイバー攻撃は、来週の日経平均を下げるのか――GMOの事件と、過去4つの事例から考える",
+   "url": "https://note.com/capitallogs/n/ne9d7abb768d5",
+   "image": "https://assets.st-note.com/production/uploads/images/328452216/rectangle_large_type_2_e1d3140c804c5a9036876938cbca5881.png?fit=bounds&quality=85&width=640"
+  },
   {
    "date": "2026-10-24",
    "title": "GMOは漏えいにどう向き合ってきたか――2017年と2026年、2つの発表を読み比べる",
