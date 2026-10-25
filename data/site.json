@@ -348,7 +348,7 @@
     "url_zh": "https://x.com/YUKICAPITALchin"
   },
   "media": {
-    "updated": "2026-10-26 07:53",
+    "updated": "2026-10-26 08:53",
     "impressions_month": null,
     "impressions_daily": [],
     "followers": [
@@ -391,22 +391,22 @@
           "name": "X 日本語",
           "name_en": "X Japanese",
           "name_zh": "X 日文",
-          "d7": 49414,
-          "d28": 137837
+          "d7": 49577,
+          "d28": 138000
         },
         {
           "name": "X English",
           "name_en": "X English",
           "name_zh": "X 英文",
-          "d7": 8781,
-          "d28": 25449
+          "d7": 8800,
+          "d28": 25468
         },
         {
           "name": "X 中文",
           "name_en": "X Chinese",
           "name_zh": "X 中文",
-          "d7": 12183,
-          "d28": 35949
+          "d7": 12209,
+          "d28": 35975
         },
         {
           "name": "note",
@@ -423,12 +423,12 @@
           "d28": 226
         }
       ],
-      "total_d7": 70830,
-      "total_d28": 200119
+      "total_d7": 71038,
+      "total_d28": 200327
     },
     "site": {
-      "visits_24h": 8,
-      "pv_24h": 18,
+      "visits_24h": 6,
+      "pv_24h": 15,
       "visits_7d": null
     },
     "daily": {
@@ -490,7 +490,7 @@
         11660,
         8200,
         6090,
-        4946
+        5109
       ],
       "x_en": [
         1064,
@@ -520,7 +520,7 @@
         1601,
         1355,
         1423,
-        708
+        727
       ],
       "x_zh": [
         1491,
@@ -550,7 +550,7 @@
         1774,
         1600,
         2199,
-        1650
+        1676
       ],
       "note": [
         0,
@@ -585,13 +585,13 @@
     },
     "today": {
       "date": "2026-10-25",
-      "x_ja": 4946,
-      "x_en": 708,
-      "x_zh": 1650,
+      "x_ja": 5109,
+      "x_en": 727,
+      "x_zh": 1676,
       "note": 59,
-      "site_visits_24h": 8,
-      "site_pv_24h": 18,
-      "at": "2026-10-26 07:53"
+      "site_visits_24h": 6,
+      "site_pv_24h": 15,
+      "at": "2026-10-26 08:53"
     },
     "intraday": [
       {
@@ -641,6 +641,12 @@
         "x": 7304,
         "site_pv_24h": 18,
         "site_visits_24h": 8
+      },
+      {
+        "at": "2026-10-26 08:53",
+        "x": 7512,
+        "site_pv_24h": 15,
+        "site_visits_24h": 6
       }
     ]
   },
