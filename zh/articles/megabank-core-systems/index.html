@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>日本三大银行与里索那的核心系统，真的又旧又危险吗｜YUKI CAPITAL</title>
+<meta name="description" content="2026年10月，GMO服务器遭非法入侵的消息公开的那一周，我持有的四只日本银行股一起下跌。在X上，我反复看到银行系统很脆弱的说法。 然而，用数字来说明这四家银行的核心系统究竟由什么构成、发生过哪些故障、在防御上花了多少钱的文章，并不多。 本文依据各行的公开资料以及金融厅、经产省的文件，逐一确认三菱UFJ、三井住友、瑞穗、里索那的核心系统，最后给出我自己对于是否危险的判断。">
+<meta property="og:title" content="日本三大银行与里索那的核心系统，真的又旧又危险吗">
+<meta property="og:description" content="2026年10月，GMO服务器遭非法入侵的消息公开的那一周，我持有的四只日本银行股一起下跌。在X上，我反复看到银行系统很脆弱的说法。 然而，用数字来说明这四家银行的核心系统究竟由什么构成、发生过哪些故障、在防御上花了多少钱的文章，并不多。 本文依据各行的公开资料以及金融厅、经产省的文件，逐一确认三菱UFJ、三井住友、瑞穗、里索那的核心系统，最后给出我自己对于是否危险的判断。">
+<meta property="og:image" content="https://raw.githubusercontent.com/YUKICAPITAL/capitallogs-site/main/images/articles/megabank-core-systems/hero.jpg">
+<meta property="og:url" content="http://yuki-capital.com/zh/articles/megabank-core-systems/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@capitallogs">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/YUKICAPITAL/capitallogs-site/main/images/articles/megabank-core-systems/hero.jpg">
+<meta property="og:type" content="article">
+<link rel="icon" href="../../../favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="../../../images/apple-touch-icon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../../../assets/style.css">
+<style>
+.art{max-width:760px;margin:0 auto;padding:24px 0 48px}
+.art .meta{display:flex;gap:10px;align-items:center;font-size:12px;color:var(--muted)}
+.art h1{font-size:26px;line-height:1.45;margin:12px 0 16px}
+.art .lead{font-size:15px;line-height:1.9;color:var(--ink2);border-left:3px solid var(--accent);padding-left:14px;margin:0 0 20px}
+.art .lead p{margin:0}
+.art .card{padding:24px}
+.art h2{font-size:19px;margin:32px 0 12px;padding-top:4px}
+.art h2:first-child{margin-top:0}
+.art p{font-size:15.5px;line-height:2;margin:0 0 14px}
+.art figure{margin:20px 0;}
+.art figure img{width:100%;border-radius:12px;background:#fff}
+.art figcaption{font-size:12px;color:var(--muted);margin-top:6px;line-height:1.6}
+.art .hero img{border-radius:18px;aspect-ratio:16/9;object-fit:cover;width:100%}
+.art .tbl{overflow-x:auto;margin:12px 0 16px}
+.art table{border-collapse:collapse;font-size:13px;min-width:640px;width:100%}
+.art th,.art td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+.art th{background:var(--accent-soft);font-weight:700}
+.art ol.src{font-size:12.5px;line-height:1.8;padding-left:18px;word-break:break-all}
+.art ol.src a{color:var(--accent)}
+.art .cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.langsw{display:flex;gap:8px;font-size:12px}.langsw a{padding:4px 10px;border-radius:999px;background:var(--card)}.langsw a.on{background:var(--dark);color:#fff}
+@media(max-width:600px){.art h1{font-size:21px}.art .card{padding:18px}}
+</style>
+</head>
+<body>
+<header class="site-header"><div class="wrap">
+<a href="../../../zh/" class="brand"><img class="avatar" src="../../../images/icon.png" alt=""><span>YUKI CAPITAL</span></a>
+<nav class="nav"><a href="../../../zh/articles/" class="primary">文章</a><a href="../../../zh/#capital">今日资本</a><a href="../../../zh/archive/">每日记录</a><a href="../../../zh/#diary">日记</a><a href="../../../zh/about/">关于</a></nav>
+<div class="hdr-actions"><a class="x" href="https://x.com/capitallogs" aria-label="X"><svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 3h3l-7.3 8.3L21.8 21h-6.6l-4.6-6-5.3 6H2.3l7.8-8.9L2 3h6.7l4.2 5.5L17.5 3zm-1.1 16.2h1.8L7.7 4.7H5.8l10.6 14.5z"/></svg></a><a class="note" href="https://note.com/capitallogs">note</a></div>
+</div></header>
+<main class="wrap"><article class="art">
+<div class="meta"><span class="chip">金融·银行</span><span class="chip">网络安全</span><span class="chip">技术</span><span class="chip">企业</span><span class="num">2026年10月25日</span><span class="langsw" style="margin-left:auto"><a href="../../../articles/megabank-core-systems/" data-setlang="ja">日本語</a><a href="../../../en/articles/megabank-core-systems/" data-setlang="en">EN</a><a href="../../../zh/articles/megabank-core-systems/" data-setlang="zh" class="on">中文</a></span></div>
+<h1>日本三大银行与里索那的核心系统，真的又旧又危险吗</h1>
+<div class="lead"><p>2026年10月，GMO服务器遭非法入侵的消息公开的那一周，我持有的四只日本银行股一起下跌。在X上，我反复看到银行系统很脆弱的说法。</p><p>然而，用数字来说明这四家银行的核心系统究竟由什么构成、发生过哪些故障、在防御上花了多少钱的文章，并不多。</p><p>本文依据各行的公开资料以及金融厅、经产省的文件，逐一确认三菱UFJ、三井住友、瑞穗、里索那的核心系统，最后给出我自己对于是否危险的判断。</p></div>
+<figure class="hero"><img src="../../../images/articles/megabank-core-systems/hero.jpg" alt="银行金库的大门"><figcaption>银行金库的大门</figcaption></figure>
+<div class="card">
+<h2>什么是核心系统。四家银行的中心仍然是大型主机</h2>
+<p>核心系统（账务系统）是银行的中心，记录存款余额、转账和贷款。它一旦停止，ATM和转账都会停止。</p>
+<p>先说结论：四家银行核心系统的中心至今仍是大型主机（专用的大型计算机）。不过，网上银行和API等周边部分放在开放系统（普通服务器）上，正朝着两者结合的方向推进。还没有任何一家大型银行把全部系统搬到云上。</p>
+<p>至于是否在使用老旧的COBOL语言，四家银行的公开资料中都没有写。</p>
+<h2>三井住友银行：1万亿日元的IT投资与2026年的迁移</h2>
+<p>三井住友银行的下一代核心系统，由NEC的新一代大型主机和开放系统平台组合而成。开放系统一侧放着实时复制全部账本的数据库，再通过API向外连接。</p>
+<p>建设由日本总研承担，规模为总投资约500亿日元（约21.3亿元人民币，约3.16亿美元）、约2万人月。原本目标是2025财年完成迁移，计划后来改为2026财年内。为了迁移，2026年1月11日和12日暂停了ATM和网上银行，下一次暂停已公布为7月19日和20日。迁移是否已经完成，尚未公布。</p>
+<p>在防御方面，三井住友金融集团在新的中期经营计划中，把3年的IT投资定为约1万亿日元（约425.4亿元人民币，约63.3亿美元），比上一期的8,000亿日元增加25%，据称是日本银行中的首次。专业人员超过850名，与欧美和亚洲的SOC联动，设有全天候监控体制。还成立了把高性能AI视为威胁的专门团队。</p>
+<h2>三菱UFJ银行：IBM大型主机，以及与GMO的合资公司</h2>
+<p>三菱UFJ银行的核心系统，在2008年合并时并入了原东京三菱银行的IBM系统。合并首日，Seven银行的ATM约有2万笔交易无法完成。</p>
+<p>2024年10月，它与日本IBM合作，宣布向地方银行提供核心系统的共同平台，方式是在三菱UFJ银行的数据中心放置IBM大型主机。一位董事表示，对可靠性要求高的业务，是以大型主机为前提来考虑的。</p>
+<p>另一方面，新设的数字银行的基础设施采用了Google Cloud。该银行于2026年9月取得银行牌照，计划在2027年1月至3月开始服务。</p>
+<p>其CSIRT名为MUFG-CERT。2025财年，基础设施强化和系统相关费用增加了约600亿日元（约25.5亿元人民币，约3.8亿美元），其中网络安全约150亿日元（约6.4亿元人民币，约9,488万美元），生成式AI约100亿日元（约4.3亿元人民币，约6,325万美元）。2025年12月，它宣布与GMO互联网集团的子公司成立合资公司MUFG GMO Security，出资比例为三菱UFJ银行50.1%、GMO Cybersecurity by Ierae 40.0%、GMO互联网集团9.9%。有一家银行，正与这次事件的当事方在防御上合作。</p>
+<h2>瑞穗银行：MINORI与2021年的8次故障</h2>
+<p>瑞穗银行的核心系统叫MINORI。2018年6月开始迁移，2019年7月完成。它把原三家银行的核心系统合而为一，把大型主机从19台减到5台，由多家供应商共同建设。总投资额未公布。</p>
+<p>故障的历史在四家中最沉重。2002年4月成立之初，约250万笔转账延迟；2011年3月地震刚过，汇兑处理延迟，ATM也停了。两次都收到了业务改善命令。</p>
+<p>2021年2月28日，全国八成ATM停止，吞了银行卡和存折。此后故障持续，全年发生8次。11月26日金融厅发出业务改善命令，同一天财务省也依据外汇法发出了纠正命令。</p>
+<p>从2023年起的3年里，计划投入约6,000亿日元（约255.2亿元人民币，约38亿美元）的IT投资，其中约七成用于防止故障再发和系统更新。MINORI开发至今已近10年，把多个系统迁移到云上的计划已经公布。</p>
+<h2>里索那银行：IBM大型主机，以及把成本降低46%的十年</h2>
+<p>里索那银行的核心系统一直以日本IBM的大型主机为中心运行。切换在2000年、2003年、2008年和2015年进行，2015年的切换实现了全天候运行。运维分散委托给NTT Data和日本IBM等多家公司。</p>
+<p>它的特点在于降成本的方式。集团的系统成本从2003财年的931亿日元降到2014财年的500亿日元，减少了约46%。它在建设API平台向开放系统转移，并计划把信息系统的大型主机从9台减到7台。2026年3月发布了新的中期经营计划，但IT投资额和安全投资额无法从公开资料中确认。</p>
+<h2>跨越四家银行的故障与攻击</h2>
+<p>也有不限于一家银行的故障。2023年10月10日和11日的全银网故障，影响了三菱UFJ银行、里索那银行等11家银行。两天内，255万笔跨行转账和251万笔行内转账受到影响，87万笔跨行转账未能处理。原因是中继计算机更新时手续费计算程序的缺陷。</p>
+<p>在攻击方面，2024年年末DDoS攻击接连发生。三菱UFJ银行的网上银行从12月26日起不稳定，28日早上恢复。里索那四家银行从12月29日晚到30日凌晨无法使用个人网上银行，2025年1月7日又出现同样的故障。瑞穗银行的Mizuho Direct也从12月31日早上起不稳定。三井住友银行的受损情况未能确认。</p>
+<div class="tbl"><table><thead><tr><th>年月</th><th>银行</th><th>发生了什么</th></tr></thead><tbody><tr><td>2002年4月</td><td>瑞穗</td><td>约250万笔转账延迟。业务改善命令</td></tr><tr><td>2008年5月</td><td>三菱东京UFJ</td><td>合并首日约2万笔交易无法完成</td></tr><tr><td>2011年3月</td><td>瑞穗</td><td>地震后的故障。业务改善命令</td></tr><tr><td>2019年7月</td><td>瑞穗</td><td>完成向MINORI的迁移</td></tr><tr><td>2021年2至11月</td><td>瑞穗</td><td>故障8次。11月26日业务改善命令</td></tr><tr><td>2023年10月</td><td>全银网</td><td>11家银行受影响。87万笔跨行转账未处理</td></tr><tr><td>2024年12月</td><td>三菱UFJ、里索那、瑞穗</td><td>DDoS攻击下网上银行不稳定</td></tr><tr><td>2026年1月</td><td>三井住友</td><td>为迁移新核心系统而暂停。MUFG GMO Security成立</td></tr><tr><td>2026年10月</td><td>GMO旗下</td><td>infoQ约89万条记录，Onamae.com有26,739台服务器可能受影响</td></tr></tbody></table></div>
+<figure><img src="../../../images/articles/megabank-core-systems/chart-timeline-zh.png" alt="图1　围绕四家银行核心系统的主要故障与攻击（2002-2026）。据各行公开资料与报道制作" loading="lazy"><figcaption>图1　围绕四家银行核心系统的主要故障与攻击（2002-2026）。据各行公开资料与报道制作</figcaption></figure>
+<h2>在防御上花了多少钱</h2>
+<p>把公布的投资额排在一起，三井住友FG的3年1万亿日元和瑞穗FG的3年约6,000亿日元最为突出。三菱UFJ仅2025财年一年就在网络安全上追加了约150亿日元。里索那的数字不在投资额，而在成本一侧：十年削减46%。</p>
+<figure><img src="../../../images/articles/megabank-core-systems/chart-invest-zh.png" alt="图2　已公布投资额的比较（亿日元）。据各行IR资料制作" loading="lazy"><figcaption>图2　已公布投资额的比较（亿日元）。据各行IR资料制作</figcaption></figure>
+<figure><img src="../../../images/articles/megabank-core-systems/boxes.jpg" alt="银行保管箱上的编号" loading="lazy"><figcaption>银行保管箱上的编号</figcaption></figure>
+<p>金融厅于2024年10月4日制定了《金融领域网络安全指引》，并于同日施行。它要求由经营层主导、覆盖整个集团、重实质轻形式。2025年10月又修订了监督指针，要求在2026年6月底前强制采用抗钓鱼的多因素认证。跨行业演习Delta Wall也每年举行。</p>
+<p>另一方面，经产省的DX报告指出，2025年以后每年可能产生最多12万亿日元的经济损失，并预计运行21年以上的核心系统的比例在2025年将升至六成。银行的核心系统也在其中。</p>
+<h2>我是这样看的</h2>
+<p>如果问旧不旧，那是旧的。四家银行的中心都是大型主机，除了瑞穗，其他几家都是在更新和使用2000年代之前建成的平台。但我认为，旧和危险是两回事。</p>
+<p>看故障的历史，危险的不是旧，而是接缝。瑞穗的2021年发生在三家系统合并之后不久的运行中，2023年的全银网发生在更新作业的缺陷上，三菱UFJ的2008年发生在合并首日。事故发生在系统改变的时候。三井住友正在推进2026年的迁移，从这个意义上说，现在正是该盯着看的时期。</p>
+<p>面对攻击，四家银行至少公布了投资的规模和体制。在我查到的范围内，没有找到把GMO事件和银行股下跌直接联系起来的报道。10月23日的银行股下跌，报道用长期利率的下降来解释。</p>
+<p>所以这周我也一股四家银行的股票都没有卖。钱越大，越放在停摆时也扛得住的大型机构，这个想法没有变。我看的是三井住友的迁移能否顺利完成，以及故障发生时各行能以多快的速度公布什么。危不危险，我想用接缝和公布的速度来判断，而不是用旧不旧。</p>
+<p>汇率：1 USD = 158.10 JPY / 1 USD = 6.7253 CNY（截至 2026年10月25日，人民币为10月15日中间价）</p>
+<h2>出处</h2>
+<ol class="src"><li>三井住友银行《关于下一代核心系统》（2020年11月11日） <a href="https://www.smbc.co.jp/news/pdf/j20201111_01.pdf" rel="noopener">https://www.smbc.co.jp/news/pdf/j20201111_01.pdf</a></li><li>IT Leaders《日本总研以约500亿日元、2万人月建设三井住友银行下一代核心系统》（2022年11月9日） <a href="https://it.impress.co.jp/articles/-/24019" rel="noopener">https://it.impress.co.jp/articles/-/24019</a></li><li>三井住友银行《因系统迁移暂停服务》（2025年7月29日） <a href="https://www2.smbc.co.jp/news/pdf/j20250729_01.pdf" rel="noopener">https://www2.smbc.co.jp/news/pdf/j20250729_01.pdf</a></li><li>三井住友银行《2026年暂停日程》（2026年1月19日） <a href="https://www.smbc.co.jp/news/pdf/j20260119_03.pdf" rel="noopener">https://www.smbc.co.jp/news/pdf/j20260119_03.pdf</a></li><li>SMBC GROUP REPORT 2026（IT投资与网络安全体制） <a href="https://www.smfg.co.jp/gr2026/pdf/2607_ird_24.pdf" rel="noopener">https://www.smfg.co.jp/gr2026/pdf/2607_ird_24.pdf</a></li><li>Newswitch《三菱UFJ银行与日本IBM面向地方银行的核心系统共同平台》（2024年10月3日） <a href="https://newswitch.jp/p/43139" rel="noopener">https://newswitch.jp/p/43139</a></li><li>Google Cloud《MUFG新数字银行基础设施采用Google Cloud》（2025年5月27日） <a href="https://cloud.google.com/blog/ja/products/gcp/mufg-adopts-google-cloud-for-new-digital-bank-infrastructure?hl=ja" rel="noopener">https://cloud.google.com/blog/ja/products/gcp/mufg-adopts-google-cloud-for-new-digital-bank-infrastructure?hl=ja</a></li><li>三菱UFJ金融集团《2025财年业绩投资者说明会》（2026年5月19日） <a href="https://www.mufg.jp/dam/ir/presentation/2025/pdf/speech2603_ja.pdf" rel="noopener">https://www.mufg.jp/dam/ir/presentation/2025/pdf/speech2603_ja.pdf</a></li><li>三菱UFJ银行《关于设立MUFG GMO Security》（2025年12月2日） <a href="https://www.bk.mufg.jp/news/news2025/pdf/news1202.pdf" rel="noopener">https://www.bk.mufg.jp/news/news2025/pdf/news1202.pdf</a></li><li>富士通《瑞穗金融集团的现代化》（2024年11月8日） <a href="https://global.fujitsu/ja-JP/insight/tl-mizuho-fg-modernization-20241108" rel="noopener">https://global.fujitsu/ja-JP/insight/tl-mizuho-fg-modernization-20241108</a></li><li>Business+IT《瑞穗银行第二次业务改善命令》（2021年11月26日） <a href="https://www.sbbit.jp/article/refers/75545" rel="noopener">https://www.sbbit.jp/article/refers/75545</a></li><li>Business+IT《瑞穗FG三年约6,000亿日元IT投资》（2023年5月15日） <a href="https://www.sbbit.jp/article/refers/114098" rel="noopener">https://www.sbbit.jp/article/refers/114098</a></li><li>里索那控股 IR资料（2022年2月17日） <a href="https://www.resona-gr.co.jp/holdings/investors/ir/presentation/pdf/20220217_2.pdf" rel="noopener">https://www.resona-gr.co.jp/holdings/investors/ir/presentation/pdf/20220217_2.pdf</a></li><li>里索那控股 IR资料（2015年4月23日） <a href="https://www.resona-gr.co.jp/holdings/investors/ir/presentation/pdf/20150423.pdf" rel="noopener">https://www.resona-gr.co.jp/holdings/investors/ir/presentation/pdf/20150423.pdf</a></li><li>Business Insider Japan《全银网故障的影响》（2023年10月12日） <a href="https://www.businessinsider.jp/article/276648/" rel="noopener">https://www.businessinsider.jp/article/276648/</a></li><li>Mynavi News《年末年初对金融机构的DDoS攻击》（2025年1月10日） <a href="https://news.mynavi.jp/techplus/article/20250110-3104063/" rel="noopener">https://news.mynavi.jp/techplus/article/20250110-3104063/</a></li><li>金融厅《金融领域网络安全指引》（2024年10月4日） <a href="https://www.fsa.go.jp/news/r6/sonota/20241004/20241004.html" rel="noopener">https://www.fsa.go.jp/news/r6/sonota/20241004/20241004.html</a></li><li>金融厅《与行业团体意见交换的主要论点》（2026年1月） <a href="https://www.fsa.go.jp/common/ronten/202601/05.pdf" rel="noopener">https://www.fsa.go.jp/common/ronten/202601/05.pdf</a></li><li>经济产业省《DX报告》（2018年9月7日） <a href="https://www.meti.go.jp/policy/it_policy/dx/20180907_01.pdf" rel="noopener">https://www.meti.go.jp/policy/it_policy/dx/20180907_01.pdf</a></li></ol>
+<p class="muted" style="font-size:12px">照片：Jason Dent／Tim Evans（Unsplash）。图表由YUKI CAPITAL制作</p>
+<p>每天的数字和判断，我都记录在X上。</p>
+<div class="cta"><a class="btn-dark" href="https://x.com/YUKICAPITALchin">在X上看每天的数字</a><a class="btn-light" href="https://note.com/capitallogs" style="border:1px solid var(--line)">我也在note上写</a></div>
+</div>
+</article>
+<footer class="site-footer" style="padding-bottom:48px"><span>© 2026 YUKI CAPITAL</span><span><a href="../../../zh/">返回首页</a></span></footer>
+</main>
+<script>document.querySelectorAll('[data-setlang]').forEach(function(a){a.addEventListener('click',function(){try{localStorage.setItem('lang',a.getAttribute('data-setlang'))}catch(e){}})});</script>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "abf23c1820ac43539efd93c2112996da"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>
