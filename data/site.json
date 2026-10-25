@@ -1,1035 +1,1041 @@
 {
- "updated": "2026-10-25T22:10:00+09:00",
- "profile": {
-  "name": "YUKI CAPITAL",
-  "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
-  "icon": "images/icon-ja.png",
-  "icon_en": "images/icon-en.png",
-  "icon_zh": "images/icon-zh.png",
-  "tagline_en": "Owner of restaurants, real estate and a shared office in Tokyo. Total financial assets and every buy/no-buy decision, published daily as they are.",
-  "tagline_zh": "在东京经营餐饮店、不动产和共享办公。总金融资产与每一次买或不买的判断，每天原原本本公开。"
- },
- "links": {
-  "x_ja": "https://x.com/capitallogs",
-  "x_en": "https://x.com/YUKICAPITALen",
-  "x_zh": "https://x.com/YUKICAPITALchin",
-  "note": "https://note.com/capitallogs"
- },
- "capital": {
-  "date": "2026-10-23",
-  "label": "10.23（金）",
-  "total": 381836136,
-  "diff": -7599261,
-  "diff_pct": -1.95,
-  "unreal": 50344681,
-  "unreal_pct": 16.01,
-  "cash": 17041762,
-  "cash_pct": 4.46,
-  "trade": "IonQ 2,500株を買い戻し（31.8ドル・電話で約定を確認、CSVへの反映は来週）",
-  "alloc": [
-   {
-    "name": "国内株",
-    "pct": 44.93,
-    "name_en": "JP stocks",
-    "name_zh": "日本股票"
-   },
-   {
-    "name": "投信",
-    "pct": 27.17,
-    "name_en": "Funds",
-    "name_zh": "基金"
-   },
-   {
-    "name": "外国株",
-    "pct": 23.43,
-    "name_en": "Foreign stocks",
-    "name_zh": "海外股票"
-   },
-   {
-    "name": "現金",
-    "pct": 4.46,
-    "name_en": "Cash",
-    "name_zh": "现金"
-   }
-  ],
-  "series": [
-   {
-    "date": "2026-10-15",
-    "total": 394085125
-   },
-   {
-    "date": "2026-10-16",
-    "total": 393726077
-   },
-   {
-    "date": "2026-10-19",
-    "total": 389388548
-   },
-   {
-    "date": "2026-10-20",
-    "total": 387889706
-   },
-   {
-    "date": "2026-10-21",
-    "total": 388187316
-   },
-   {
-    "date": "2026-10-22",
-    "total": 389435397
-   },
-   {
+  "updated": "2026-10-25T22:10:00+09:00",
+  "profile": {
+    "name": "YUKI CAPITAL",
+    "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
+    "icon": "images/icon-ja.png",
+    "icon_en": "images/icon-en.png",
+    "icon_zh": "images/icon-zh.png",
+    "tagline_en": "Owner of restaurants, real estate and a shared office in Tokyo. Total financial assets and every buy/no-buy decision, published daily as they are.",
+    "tagline_zh": "在东京经营餐饮店、不动产和共享办公。总金融资产与每一次买或不买的判断，每天原原本本公开。"
+  },
+  "links": {
+    "x_ja": "https://x.com/capitallogs",
+    "x_en": "https://x.com/YUKICAPITALen",
+    "x_zh": "https://x.com/YUKICAPITALchin",
+    "note": "https://note.com/capitallogs"
+  },
+  "capital": {
     "date": "2026-10-23",
-    "total": 381836136
-   }
+    "label": "10.23（金）",
+    "total": 381836136,
+    "diff": -7599261,
+    "diff_pct": -1.95,
+    "unreal": 50344681,
+    "unreal_pct": 16.01,
+    "cash": 17041762,
+    "cash_pct": 4.46,
+    "trade": "IonQ 2,500株を買い戻し（31.8ドル・電話で約定を確認、CSVへの反映は来週）",
+    "alloc": [
+      {
+        "name": "国内株",
+        "pct": 44.93,
+        "name_en": "JP stocks",
+        "name_zh": "日本股票"
+      },
+      {
+        "name": "投信",
+        "pct": 27.17,
+        "name_en": "Funds",
+        "name_zh": "基金"
+      },
+      {
+        "name": "外国株",
+        "pct": 23.43,
+        "name_en": "Foreign stocks",
+        "name_zh": "海外股票"
+      },
+      {
+        "name": "現金",
+        "pct": 4.46,
+        "name_en": "Cash",
+        "name_zh": "现金"
+      }
+    ],
+    "series": [
+      {
+        "date": "2026-10-15",
+        "total": 394085125
+      },
+      {
+        "date": "2026-10-16",
+        "total": 393726077
+      },
+      {
+        "date": "2026-10-19",
+        "total": 389388548
+      },
+      {
+        "date": "2026-10-20",
+        "total": 387889706
+      },
+      {
+        "date": "2026-10-21",
+        "total": 388187316
+      },
+      {
+        "date": "2026-10-22",
+        "total": 389435397
+      },
+      {
+        "date": "2026-10-23",
+        "total": 381836136
+      }
+    ],
+    "label_en": "Oct 23 (Fri)",
+    "label_zh": "10.23（周五）",
+    "trade_en": "IonQ: bought back 2,500 shares at $31.80 (fill confirmed by phone; not yet in the CSV)",
+    "trade_zh": "IonQ：以31.8美元买回2,500股（电话确认成交，下周反映到CSV）",
+    "week": {
+      "from": "2026-10-16",
+      "to": "2026-10-23",
+      "diff": -11889941,
+      "diff_pct": -3.02
+    }
+  },
+  "conditions": [
+    {
+      "title": "SpaceX を +500株",
+      "rule": "終値が 100ドルを割ったら",
+      "now": "144.75 ドル",
+      "status": "未達",
+      "title_en": "Add 500 SpaceX",
+      "rule_en": "if the close falls below $100",
+      "status_en": "Not yet",
+      "title_zh": "SpaceX 加仓500股",
+      "rule_zh": "收盘价跌破100美元时",
+      "status_zh": "未达",
+      "now_en": "$144.75",
+      "now_zh": "144.75 美元"
+    },
+    {
+      "title": "IonQ を +500株",
+      "rule": "25ドルを割ったら",
+      "now": "31.8 ドル（買い戻し約定）",
+      "status": "未達",
+      "title_en": "Add 500 IonQ",
+      "rule_en": "if it falls below $25",
+      "status_en": "Not yet",
+      "title_zh": "IonQ 加仓500股",
+      "rule_zh": "跌破25美元时",
+      "status_zh": "未达",
+      "now_en": "$31.80 (buyback filled)",
+      "now_zh": "31.8 美元（买回已成交）"
+    },
+    {
+      "title": "三井住友FG を買い増し",
+      "rule": "3,000円が目安",
+      "now": "3,029 円",
+      "status": "未達",
+      "title_en": "Add SMFG (8316)",
+      "rule_en": "around ¥3,000 as the guide",
+      "status_en": "Not yet",
+      "title_zh": "加仓三井住友FG",
+      "rule_zh": "以3,000日元为目标",
+      "status_zh": "未达",
+      "now_en": "¥3,029",
+      "now_zh": "3,029 日元"
+    },
+    {
+      "title": "SpaceX の積み立て",
+      "rule": "外壁補修の見積もりが出るまで",
+      "now": "",
+      "status": "10月は休止",
+      "title_en": "Monthly SpaceX purchases",
+      "rule_en": "until the exterior-wall repair estimate is in",
+      "status_en": "Paused in Oct",
+      "title_zh": "SpaceX 定投",
+      "rule_zh": "等外墙维修报价出来",
+      "status_zh": "10月暂停"
+    }
   ],
-  "label_en": "Oct 23 (Fri)",
-  "label_zh": "10.23（周五）",
-  "trade_en": "IonQ: bought back 2,500 shares at $31.80 (fill confirmed by phone; not yet in the CSV)",
-  "trade_zh": "IonQ：以31.8美元买回2,500股（电话确认成交，下周反映到CSV）",
-  "week": {
-   "from": "2026-10-16",
-   "to": "2026-10-23",
-   "diff": -11889941,
-   "diff_pct": -3.02
-  }
- },
- "conditions": [
-  {
-   "title": "SpaceX を +500株",
-   "rule": "終値が 100ドルを割ったら",
-   "now": "144.75 ドル",
-   "status": "未達",
-   "title_en": "Add 500 SpaceX",
-   "rule_en": "if the close falls below $100",
-   "status_en": "Not yet",
-   "title_zh": "SpaceX 加仓500股",
-   "rule_zh": "收盘价跌破100美元时",
-   "status_zh": "未达",
-   "now_en": "$144.75",
-   "now_zh": "144.75 美元"
+  "holdings": [
+    {
+      "name": "三菱UFJ 8306",
+      "qty": "7,500",
+      "name_en": "MUFG 8306",
+      "name_zh": "三菱UFJ 8306",
+      "qty_en": "7,500",
+      "qty_zh": "7,500"
+    },
+    {
+      "name": "りそな 8308",
+      "qty": "13,500",
+      "name_en": "Resona 8308",
+      "name_zh": "理索纳 8308",
+      "qty_en": "13,500",
+      "qty_zh": "13,500"
+    },
+    {
+      "name": "三井住友トラスト 8309",
+      "qty": "26,000",
+      "name_en": "SuMi Trust 8309",
+      "name_zh": "三井住友信托 8309",
+      "qty_en": "26,000",
+      "qty_zh": "26,000"
+    },
+    {
+      "name": "三井住友FG 8316",
+      "qty": "26,000",
+      "name_en": "SMFG 8316",
+      "name_zh": "三井住友FG 8316",
+      "qty_en": "26,000",
+      "qty_zh": "26,000"
+    },
+    {
+      "name": "NPS-CARS（投信）",
+      "qty": "10,000口",
+      "name_en": "NPS-CARS (fund)",
+      "name_zh": "NPS-CARS（基金）",
+      "qty_en": "10,000 units",
+      "qty_zh": "10,000份"
+    },
+    {
+      "name": "SpaceX",
+      "qty": "1,250",
+      "name_en": "SpaceX",
+      "name_zh": "SpaceX",
+      "qty_en": "1,250",
+      "qty_zh": "1,250"
+    },
+    {
+      "name": "テスラ",
+      "qty": "400",
+      "name_en": "Tesla",
+      "name_zh": "特斯拉",
+      "qty_en": "400",
+      "qty_zh": "400"
+    },
+    {
+      "name": "GOOGL",
+      "qty": "350",
+      "name_en": "GOOGL",
+      "name_zh": "GOOGL",
+      "qty_en": "350",
+      "qty_zh": "350"
+    },
+    {
+      "name": "PLTR",
+      "qty": "350",
+      "name_en": "PLTR",
+      "name_zh": "PLTR",
+      "qty_en": "350",
+      "qty_zh": "350"
+    },
+    {
+      "name": "QBTS",
+      "qty": "1,000",
+      "name_en": "QBTS",
+      "name_zh": "QBTS",
+      "qty_en": "1,000",
+      "qty_zh": "1,000"
+    },
+    {
+      "name": "RGTI",
+      "qty": "1,000",
+      "name_en": "RGTI",
+      "name_zh": "RGTI",
+      "qty_en": "1,000",
+      "qty_zh": "1,000"
+    }
+  ],
+  "posts": {
+    "date": "2026-10-25",
+    "count": 12,
+    "items": [
+      {
+        "time": "10.25",
+        "kind": "シリーズ",
+        "title": "同じバルバッコアでも、品川の店が抜けている理由",
+        "url": "https://x.com/capitallogs",
+        "impressions": null,
+        "kind_en": "Series",
+        "kind_zh": "连载",
+        "title_en": "Same Barbacoa, so why is the Shinagawa branch a cut above",
+        "title_zh": "同样是Barbacoa，品川店为什么高出一截",
+        "url_en": "https://x.com/YUKICAPITALen",
+        "url_zh": "https://x.com/YUKICAPITALchin"
+      },
+      {
+        "time": "10.25",
+        "kind": "日記",
+        "title": "土曜の1,500m、プールは平日に戻す",
+        "url": "https://x.com/capitallogs",
+        "impressions": null,
+        "kind_en": "Diary",
+        "kind_zh": "日记",
+        "title_en": "1,500 m on Saturday, and moving the pool back to weekdays",
+        "title_zh": "周六的1,500米，把游泳挪回工作日",
+        "url_en": "https://x.com/YUKICAPITALen",
+        "url_zh": "https://x.com/YUKICAPITALchin"
+      },
+      {
+        "time": "10.25",
+        "kind": "長文",
+        "title": "母校の幼稚園へ、片道40分の下見",
+        "url": "https://x.com/capitallogs",
+        "impressions": null,
+        "kind_en": "Essay",
+        "kind_zh": "长文",
+        "title_en": "A 40-minute trial run to my old school's kindergarten",
+        "title_zh": "去母校幼儿园的40分钟预演",
+        "url_en": "https://x.com/YUKICAPITALen",
+        "url_zh": "https://x.com/YUKICAPITALchin"
+      },
+      {
+        "time": "10.25",
+        "kind": "資本枠",
+        "title": "ポートフォリオ現状整理と来週の構え｜10月25日(日)",
+        "url": "https://x.com/capitallogs",
+        "impressions": null,
+        "kind_en": "Capital",
+        "kind_zh": "资本",
+        "title_en": "Portfolio check and the week ahead | Sun, Oct 25",
+        "title_zh": "投资组合现状与下周的姿态｜10月25日（周日）",
+        "url_en": "https://x.com/YUKICAPITALen",
+        "url_zh": "https://x.com/YUKICAPITALchin"
+      }
+    ]
   },
-  {
-   "title": "IonQ を +500株",
-   "rule": "25ドルを割ったら",
-   "now": "31.8 ドル（買い戻し約定）",
-   "status": "未達",
-   "title_en": "Add 500 IonQ",
-   "rule_en": "if it falls below $25",
-   "status_en": "Not yet",
-   "title_zh": "IonQ 加仓500股",
-   "rule_zh": "跌破25美元时",
-   "status_zh": "未达",
-   "now_en": "$31.80 (buyback filled)",
-   "now_zh": "31.8 美元（买回已成交）"
-  },
-  {
-   "title": "三井住友FG を買い増し",
-   "rule": "3,000円が目安",
-   "now": "3,029 円",
-   "status": "未達",
-   "title_en": "Add SMFG (8316)",
-   "rule_en": "around ¥3,000 as the guide",
-   "status_en": "Not yet",
-   "title_zh": "加仓三井住友FG",
-   "rule_zh": "以3,000日元为目标",
-   "status_zh": "未达",
-   "now_en": "¥3,029",
-   "now_zh": "3,029 日元"
-  },
-  {
-   "title": "SpaceX の積み立て",
-   "rule": "外壁補修の見積もりが出るまで",
-   "now": "",
-   "status": "10月は休止",
-   "title_en": "Monthly SpaceX purchases",
-   "rule_en": "until the exterior-wall repair estimate is in",
-   "status_en": "Paused in Oct",
-   "title_zh": "SpaceX 定投",
-   "rule_zh": "等外墙维修报价出来",
-   "status_zh": "10月暂停"
-  }
- ],
- "holdings": [
-  {
-   "name": "三菱UFJ 8306",
-   "qty": "7,500",
-   "name_en": "MUFG 8306",
-   "name_zh": "三菱UFJ 8306",
-   "qty_en": "7,500",
-   "qty_zh": "7,500"
-  },
-  {
-   "name": "りそな 8308",
-   "qty": "13,500",
-   "name_en": "Resona 8308",
-   "name_zh": "理索纳 8308",
-   "qty_en": "13,500",
-   "qty_zh": "13,500"
-  },
-  {
-   "name": "三井住友トラスト 8309",
-   "qty": "26,000",
-   "name_en": "SuMi Trust 8309",
-   "name_zh": "三井住友信托 8309",
-   "qty_en": "26,000",
-   "qty_zh": "26,000"
-  },
-  {
-   "name": "三井住友FG 8316",
-   "qty": "26,000",
-   "name_en": "SMFG 8316",
-   "name_zh": "三井住友FG 8316",
-   "qty_en": "26,000",
-   "qty_zh": "26,000"
-  },
-  {
-   "name": "NPS-CARS（投信）",
-   "qty": "10,000口",
-   "name_en": "NPS-CARS (fund)",
-   "name_zh": "NPS-CARS（基金）",
-   "qty_en": "10,000 units",
-   "qty_zh": "10,000份"
-  },
-  {
-   "name": "SpaceX",
-   "qty": "1,250",
-   "name_en": "SpaceX",
-   "name_zh": "SpaceX",
-   "qty_en": "1,250",
-   "qty_zh": "1,250"
-  },
-  {
-   "name": "テスラ",
-   "qty": "400",
-   "name_en": "Tesla",
-   "name_zh": "特斯拉",
-   "qty_en": "400",
-   "qty_zh": "400"
-  },
-  {
-   "name": "GOOGL",
-   "qty": "350",
-   "name_en": "GOOGL",
-   "name_zh": "GOOGL",
-   "qty_en": "350",
-   "qty_zh": "350"
-  },
-  {
-   "name": "PLTR",
-   "qty": "350",
-   "name_en": "PLTR",
-   "name_zh": "PLTR",
-   "qty_en": "350",
-   "qty_zh": "350"
-  },
-  {
-   "name": "QBTS",
-   "qty": "1,000",
-   "name_en": "QBTS",
-   "name_zh": "QBTS",
-   "qty_en": "1,000",
-   "qty_zh": "1,000"
-  },
-  {
-   "name": "RGTI",
-   "qty": "1,000",
-   "name_en": "RGTI",
-   "name_zh": "RGTI",
-   "qty_en": "1,000",
-   "qty_zh": "1,000"
-  }
- ],
- "posts": {
-  "date": "2026-10-25",
-  "count": 12,
-  "items": [
-   {
-    "time": "10.25",
-    "kind": "シリーズ",
-    "title": "同じバルバッコアでも、品川の店が抜けている理由",
-    "url": "https://x.com/capitallogs",
-    "impressions": null,
-    "kind_en": "Series",
-    "kind_zh": "连载",
-    "title_en": "Same Barbacoa, so why is the Shinagawa branch a cut above",
-    "title_zh": "同样是Barbacoa，品川店为什么高出一截",
-    "url_en": "https://x.com/YUKICAPITALen",
-    "url_zh": "https://x.com/YUKICAPITALchin"
-   },
-   {
-    "time": "10.25",
-    "kind": "日記",
+  "note": [
+    {
+      "date": "2026-10-25",
+      "title": "サイバー攻撃は、来週の日経平均を下げるのか――GMOの事件と、過去4つの事例から考える",
+      "url": "https://note.com/capitallogs/n/ne9d7abb768d5",
+      "image": "https://assets.st-note.com/production/uploads/images/328452216/rectangle_large_type_2_e1d3140c804c5a9036876938cbca5881.png?fit=bounds&quality=85&width=640"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "GMOは漏えいにどう向き合ってきたか――2017年と2026年、2つの発表を読み比べる",
+      "url": "https://note.com/capitallogs/n/n996bdd381297",
+      "image": "https://assets.st-note.com/production/uploads/images/328098172/rectangle_large_type_2_63a19071d1afc8037c4572d5da19780d.png?fit=bounds&quality=85&width=640"
+    },
+    {
+      "date": "2026-10-23",
+      "title": "お名前.comのサーバー不正アクセスで、会員情報の預け方を考え直した",
+      "url": "https://note.com/capitallogs/n/nfe66627bcae1",
+      "image": "https://assets.st-note.com/production/uploads/images/327480830/rectangle_large_type_2_3980927e26ac0628085f0b6d52186b9c.png?fit=bounds&quality=85&width=640"
+    },
+    {
+      "date": "2026-10-22",
+      "title": "PHPの脆弱性で何が止まったのか。AIの時代に、家庭と小さな会社が今日確かめること",
+      "url": "https://note.com/capitallogs/n/n4289c5c62ea5",
+      "image": "https://assets.st-note.com/production/uploads/images/327102048/rectangle_large_type_2_7eaf3f6dde650fc5d8b12ff4773a3b61.png?fit=bounds&quality=85&width=640"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "SpaceXの7〜9月期決算を事業別に読む。稼ぐ部門、まだ稼がない部門、その理由",
+      "url": "https://note.com/capitallogs/n/n0dd99cbeb604",
+      "image": "https://assets.st-note.com/production/uploads/images/326735531/rectangle_large_type_2_3b98778ba1078ee0fd583568afcf9690.png?fit=bounds&quality=85&width=640"
+    }
+  ],
+  "diary": {
+    "date": "2026-10-25（日）",
+    "place": "目黒・学芸大学",
     "title": "土曜の1,500m、プールは平日に戻す",
+    "text": "土曜はプールで1,500m泳いだあと、家族で幼稚園の下見へ。写真は雨の母校の建物とテラス。夜は品川でシュラスコを食べた。",
+    "image": "https://raw.githubusercontent.com/YUKICAPITAL/x-images/main/images/2026-10-25_diary_123546.jpg",
     "url": "https://x.com/capitallogs",
-    "impressions": null,
-    "kind_en": "Diary",
-    "kind_zh": "日记",
+    "date_en": "Sun, Oct 25, 2026",
+    "date_zh": "2026.10.25（周日）",
+    "place_en": "Meguro / Gakugei-Daigaku",
+    "place_zh": "目黑·学艺大学",
     "title_en": "1,500 m on Saturday, and moving the pool back to weekdays",
     "title_zh": "周六的1,500米，把游泳挪回工作日",
+    "text_en": "On Saturday I swam 1,500 m, then the family scouted the kindergarten. The photos show the rainy buildings and terrace of my old school. Dinner was churrasco in Shinagawa.",
+    "text_zh": "周六在泳池游了1,500米，然后全家去幼儿园预演。照片是雨中母校的楼和露台。晚上在品川吃了巴西烤肉。",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin"
-   },
-   {
-    "time": "10.25",
-    "kind": "長文",
-    "title": "母校の幼稚園へ、片道40分の下見",
-    "url": "https://x.com/capitallogs",
-    "impressions": null,
-    "kind_en": "Essay",
-    "kind_zh": "长文",
-    "title_en": "A 40-minute trial run to my old school's kindergarten",
-    "title_zh": "去母校幼儿园的40分钟预演",
-    "url_en": "https://x.com/YUKICAPITALen",
-    "url_zh": "https://x.com/YUKICAPITALchin"
-   },
-   {
-    "time": "10.25",
-    "kind": "資本枠",
-    "title": "ポートフォリオ現状整理と来週の構え｜10月25日(日)",
-    "url": "https://x.com/capitallogs",
-    "impressions": null,
-    "kind_en": "Capital",
-    "kind_zh": "资本",
-    "title_en": "Portfolio check and the week ahead | Sun, Oct 25",
-    "title_zh": "投资组合现状与下周的姿态｜10月25日（周日）",
-    "url_en": "https://x.com/YUKICAPITALen",
-    "url_zh": "https://x.com/YUKICAPITALchin"
-   }
-  ]
- },
- "note": [
-  {
-   "date": "2026-10-25",
-   "title": "サイバー攻撃は、来週の日経平均を下げるのか――GMOの事件と、過去4つの事例から考える",
-   "url": "https://note.com/capitallogs/n/ne9d7abb768d5",
-   "image": "https://assets.st-note.com/production/uploads/images/328452216/rectangle_large_type_2_e1d3140c804c5a9036876938cbca5881.png?fit=bounds&quality=85&width=640"
   },
-  {
-   "date": "2026-10-24",
-   "title": "GMOは漏えいにどう向き合ってきたか――2017年と2026年、2つの発表を読み比べる",
-   "url": "https://note.com/capitallogs/n/n996bdd381297",
-   "image": "https://assets.st-note.com/production/uploads/images/328098172/rectangle_large_type_2_63a19071d1afc8037c4572d5da19780d.png?fit=bounds&quality=85&width=640"
+  "media": {
+    "updated": "2026-10-25 22:53",
+    "impressions_month": null,
+    "impressions_daily": [],
+    "followers": [
+      {
+        "name": "X 日本語",
+        "handle": "@capitallogs",
+        "url": "https://x.com/capitallogs",
+        "count": 155,
+        "name_en": "X Japanese",
+        "name_zh": "X 日文"
+      },
+      {
+        "name": "X English",
+        "handle": "@YUKICAPITALen",
+        "url": "https://x.com/YUKICAPITALen",
+        "count": 90,
+        "name_en": "X English",
+        "name_zh": "X 英文"
+      },
+      {
+        "name": "X 中文",
+        "handle": "@YUKICAPITALchin",
+        "url": "https://x.com/YUKICAPITALchin",
+        "count": 58,
+        "name_en": "X Chinese",
+        "name_zh": "X 中文"
+      },
+      {
+        "name": "note",
+        "handle": "capitallogs",
+        "url": "https://note.com/capitallogs",
+        "count": null,
+        "name_en": "note",
+        "name_zh": "note"
+      }
+    ],
+    "impressions": {
+      "rows": [
+        {
+          "name": "X 日本語",
+          "name_en": "X Japanese",
+          "name_zh": "X 日文",
+          "d7": 47591,
+          "d28": 136014
+        },
+        {
+          "name": "X English",
+          "name_en": "X English",
+          "name_zh": "X 英文",
+          "d7": 8435,
+          "d28": 25103
+        },
+        {
+          "name": "X 中文",
+          "name_en": "X Chinese",
+          "name_zh": "X 中文",
+          "d7": 11462,
+          "d28": 35228
+        },
+        {
+          "name": "note",
+          "name_en": "note",
+          "name_zh": "note",
+          "d7": 212,
+          "d28": 644
+        },
+        {
+          "name": "サイト",
+          "name_en": "Site",
+          "name_zh": "网站",
+          "d7": 224,
+          "d28": 224
+        }
+      ],
+      "total_d7": 67924,
+      "total_d28": 197213
+    },
+    "site": {
+      "visits_24h": 14,
+      "pv_24h": 26,
+      "visits_7d": null
+    },
+    "daily": {
+      "dates": [
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24",
+        "2026-10-25"
+      ],
+      "x_ja": [
+        5422,
+        8571,
+        1735,
+        969,
+        598,
+        496,
+        413,
+        5799,
+        4216,
+        4872,
+        5908,
+        5174,
+        2309,
+        3013,
+        3360,
+        5843,
+        7588,
+        7561,
+        5958,
+        3982,
+        4636,
+        6215,
+        5951,
+        6352,
+        11660,
+        8200,
+        6090,
+        3123
+      ],
+      "x_en": [
+        1064,
+        1369,
+        307,
+        170,
+        137,
+        85,
+        72,
+        784,
+        948,
+        786,
+        943,
+        838,
+        533,
+        666,
+        701,
+        1154,
+        1209,
+        1149,
+        1115,
+        764,
+        1874,
+        1438,
+        1008,
+        1248,
+        1601,
+        1355,
+        1423,
+        362
+      ],
+      "x_zh": [
+        1491,
+        1579,
+        653,
+        572,
+        590,
+        455,
+        299,
+        1209,
+        1267,
+        1196,
+        1467,
+        1244,
+        1256,
+        1248,
+        1211,
+        1393,
+        1660,
+        1411,
+        1496,
+        989,
+        1080,
+        1807,
+        1706,
+        1447,
+        1774,
+        1600,
+        2199,
+        929
+      ],
+      "note": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7,
+        50,
+        48,
+        15,
+        22,
+        2,
+        11,
+        47,
+        43,
+        40,
+        3,
+        23,
+        91,
+        30,
+        47,
+        42,
+        39,
+        28,
+        8,
+        3,
+        45
+      ]
+    },
+    "today": {
+      "date": "2026-10-25",
+      "x_ja": 3123,
+      "x_en": 362,
+      "x_zh": 929,
+      "note": 45,
+      "site_visits_24h": 14,
+      "site_pv_24h": 26,
+      "at": "2026-10-25 22:53"
+    },
+    "intraday": [
+      {
+        "at": "2026-10-25 00:52",
+        "x": 5298,
+        "site_pv_24h": 12,
+        "site_visits_24h": 6
+      },
+      {
+        "at": "2026-10-25 00:45",
+        "x": 5298,
+        "site_pv_24h": 12,
+        "site_visits_24h": 6
+      },
+      {
+        "at": "2026-10-25 01:53",
+        "x": 7197,
+        "site_pv_24h": 15,
+        "site_visits_24h": 9
+      },
+      {
+        "at": "2026-10-25 02:53",
+        "x": 7892,
+        "site_pv_24h": 15,
+        "site_visits_24h": 9
+      },
+      {
+        "at": "2026-10-25 03:53",
+        "x": 8258,
+        "site_pv_24h": 15,
+        "site_visits_24h": 9
+      },
+      {
+        "at": "2026-10-25 04:53",
+        "x": 8569,
+        "site_pv_24h": 14,
+        "site_visits_24h": 9
+      },
+      {
+        "at": "2026-10-25 05:53",
+        "x": 8754,
+        "site_pv_24h": 14,
+        "site_visits_24h": 9
+      },
+      {
+        "at": "2026-10-25 06:53",
+        "x": 8942,
+        "site_pv_24h": 13,
+        "site_visits_24h": 9
+      },
+      {
+        "at": "2026-10-25 07:52",
+        "x": 9205,
+        "site_pv_24h": 12,
+        "site_visits_24h": 8
+      },
+      {
+        "at": "2026-10-25 08:53",
+        "x": 9663,
+        "site_pv_24h": 15,
+        "site_visits_24h": 10
+      },
+      {
+        "at": "2026-10-25 09:51",
+        "x": 230,
+        "site_pv_24h": 19,
+        "site_visits_24h": 10
+      },
+      {
+        "at": "2026-10-25 10:52",
+        "x": 482,
+        "site_pv_24h": 18,
+        "site_visits_24h": 9
+      },
+      {
+        "at": "2026-10-25 11:53",
+        "x": 787,
+        "site_pv_24h": 18,
+        "site_visits_24h": 9
+      },
+      {
+        "at": "2026-10-25 12:52",
+        "x": 1023,
+        "site_pv_24h": 18,
+        "site_visits_24h": 9
+      },
+      {
+        "at": "2026-10-25 13:53",
+        "x": 1228,
+        "site_pv_24h": 18,
+        "site_visits_24h": 9
+      },
+      {
+        "at": "2026-10-25 14:54",
+        "x": 1428,
+        "site_pv_24h": 18,
+        "site_visits_24h": 9
+      },
+      {
+        "at": "2026-10-25 15:56",
+        "x": 1623,
+        "site_pv_24h": 18,
+        "site_visits_24h": 9
+      },
+      {
+        "at": "2026-10-25 16:54",
+        "x": 1802,
+        "site_pv_24h": 18,
+        "site_visits_24h": 9
+      },
+      {
+        "at": "2026-10-25 17:52",
+        "x": 1939,
+        "site_pv_24h": 19,
+        "site_visits_24h": 10
+      },
+      {
+        "at": "2026-10-25 18:53",
+        "x": 2113,
+        "site_pv_24h": 19,
+        "site_visits_24h": 10
+      },
+      {
+        "at": "2026-10-25 19:53",
+        "x": 2278,
+        "site_pv_24h": 22,
+        "site_visits_24h": 11
+      },
+      {
+        "at": "2026-10-25 20:52",
+        "x": 2460,
+        "site_pv_24h": 22,
+        "site_visits_24h": 11
+      },
+      {
+        "at": "2026-10-25 21:53",
+        "x": 2953,
+        "site_pv_24h": 23,
+        "site_visits_24h": 12
+      },
+      {
+        "at": "2026-10-25 22:53",
+        "x": 4414,
+        "site_pv_24h": 26,
+        "site_visits_24h": 14
+      }
+    ]
   },
-  {
-   "date": "2026-10-23",
-   "title": "お名前.comのサーバー不正アクセスで、会員情報の預け方を考え直した",
-   "url": "https://note.com/capitallogs/n/nfe66627bcae1",
-   "image": "https://assets.st-note.com/production/uploads/images/327480830/rectangle_large_type_2_3980927e26ac0628085f0b6d52186b9c.png?fit=bounds&quality=85&width=640"
-  },
-  {
-   "date": "2026-10-22",
-   "title": "PHPの脆弱性で何が止まったのか。AIの時代に、家庭と小さな会社が今日確かめること",
-   "url": "https://note.com/capitallogs/n/n4289c5c62ea5",
-   "image": "https://assets.st-note.com/production/uploads/images/327102048/rectangle_large_type_2_7eaf3f6dde650fc5d8b12ff4773a3b61.png?fit=bounds&quality=85&width=640"
-  },
-  {
-   "date": "2026-10-21",
-   "title": "SpaceXの7〜9月期決算を事業別に読む。稼ぐ部門、まだ稼がない部門、その理由",
-   "url": "https://note.com/capitallogs/n/n0dd99cbeb604",
-   "image": "https://assets.st-note.com/production/uploads/images/326735531/rectangle_large_type_2_3b98778ba1078ee0fd583568afcf9690.png?fit=bounds&quality=85&width=640"
-  }
- ],
- "diary": {
-  "date": "2026-10-25（日）",
-  "place": "目黒・学芸大学",
-  "title": "土曜の1,500m、プールは平日に戻す",
-  "text": "土曜はプールで1,500m泳いだあと、家族で幼稚園の下見へ。写真は雨の母校の建物とテラス。夜は品川でシュラスコを食べた。",
-  "image": "https://raw.githubusercontent.com/YUKICAPITAL/x-images/main/images/2026-10-25_diary_123546.jpg",
-  "url": "https://x.com/capitallogs",
-  "date_en": "Sun, Oct 25, 2026",
-  "date_zh": "2026.10.25（周日）",
-  "place_en": "Meguro / Gakugei-Daigaku",
-  "place_zh": "目黑·学艺大学",
-  "title_en": "1,500 m on Saturday, and moving the pool back to weekdays",
-  "title_zh": "周六的1,500米，把游泳挪回工作日",
-  "text_en": "On Saturday I swam 1,500 m, then the family scouted the kindergarten. The photos show the rainy buildings and terrace of my old school. Dinner was churrasco in Shinagawa.",
-  "text_zh": "周六在泳池游了1,500米，然后全家去幼儿园预演。照片是雨中母校的楼和露台。晚上在品川吃了巴西烤肉。",
-  "url_en": "https://x.com/YUKICAPITALen",
-  "url_zh": "https://x.com/YUKICAPITALchin"
- },
- "media": {
-  "updated": "2026-10-25 21:53",
-  "impressions_month": null,
-  "impressions_daily": [],
-  "followers": [
-   {
-    "name": "X 日本語",
-    "handle": "@capitallogs",
-    "url": "https://x.com/capitallogs",
-    "count": 155,
-    "name_en": "X Japanese",
-    "name_zh": "X 日文"
-   },
-   {
-    "name": "X English",
-    "handle": "@YUKICAPITALen",
-    "url": "https://x.com/YUKICAPITALen",
-    "count": 90,
-    "name_en": "X English",
-    "name_zh": "X 英文"
-   },
-   {
-    "name": "X 中文",
-    "handle": "@YUKICAPITALchin",
-    "url": "https://x.com/YUKICAPITALchin",
-    "count": 58,
-    "name_en": "X Chinese",
-    "name_zh": "X 中文"
-   },
-   {
-    "name": "note",
-    "handle": "capitallogs",
-    "url": "https://note.com/capitallogs",
-    "count": null,
-    "name_en": "note",
-    "name_zh": "note"
-   }
-  ],
-  "impressions": {
-   "rows": [
+  "archive": [
     {
-     "name": "X 日本語",
-     "name_en": "X Japanese",
-     "name_zh": "X 日文",
-     "d7": 46555,
-     "d28": 134978
+      "date": "2026-10-25",
+      "label": "10.25（日）",
+      "total": null,
+      "diff_pct": null,
+      "memo": "休場 ｜ 12本 ｜ 売買なし ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "Closed ｜ 12 posts ｜ No trades ｜ 1 note ｜ 1 article",
+      "memo_zh": "休市 ｜ 12条 ｜ 无交易 ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Oct 25 Sun",
+      "label_zh": "10.25 周日"
     },
     {
-     "name": "X English",
-     "name_en": "X English",
-     "name_zh": "X 英文",
-     "d7": 8307,
-     "d28": 24975
+      "date": "2026-10-24",
+      "label": "10.24（土）",
+      "total": null,
+      "diff_pct": null,
+      "memo": "休場 ｜ 12本 ｜ IonQ 2,500株を31.8ドルで買い戻し ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "Closed ｜ 12 posts ｜ Bought back 2,500 IonQ at $31.80 ｜ 1 note ｜ 1 article",
+      "memo_zh": "休市 ｜ 12条 ｜ 以31.8美元买回IonQ 2,500股 ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Oct 24 Sat",
+      "label_zh": "10.24 周六"
     },
     {
-     "name": "X 中文",
-     "name_en": "X Chinese",
-     "name_zh": "X 中文",
-     "d7": 11165,
-     "d28": 34931
+      "date": "2026-10-23",
+      "label": "10.23（金）",
+      "total": 381836136,
+      "diff_pct": -1.95,
+      "memo": "IonQ 成行で注文 ｜ 26本 ｜ 記事 1本",
+      "memo_en": "IonQ market order ｜ 26 posts ｜ 1 article",
+      "memo_zh": "IonQ 市价单 ｜ 26条 ｜ 文章 1篇",
+      "label_en": "Oct 23 Fri",
+      "label_zh": "10.23 周五"
     },
     {
-     "name": "note",
-     "name_en": "note",
-     "name_zh": "note",
-     "d7": 212,
-     "d28": 644
+      "date": "2026-10-22",
+      "label": "10.22（木）",
+      "total": 389435397,
+      "diff_pct": 0.32,
+      "memo": "売買なし ｜ 26本 ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "No trades ｜ 26 posts ｜ 1 note ｜ 1 article",
+      "memo_zh": "无交易 ｜ 26条 ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Oct 22 Thu",
+      "label_zh": "10.22 周四"
     },
     {
-     "name": "サイト",
-     "name_en": "Site",
-     "name_zh": "网站",
-     "d7": 221,
-     "d28": 221
+      "date": "2026-10-21",
+      "label": "10.21（水）",
+      "total": 388187316,
+      "diff_pct": 0.08,
+      "memo": "売買なし ｜ 26本 ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "No trades ｜ 26 posts ｜ 1 note ｜ 1 article",
+      "memo_zh": "无交易 ｜ 26条 ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Oct 21 Wed",
+      "label_zh": "10.21 周三"
+    },
+    {
+      "date": "2026-10-20",
+      "label": "10.20（火）",
+      "total": 387889706,
+      "diff_pct": -0.38,
+      "memo": "売買なし ｜ 26本 ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "No trades ｜ 26 posts ｜ 1 note ｜ 1 article",
+      "memo_zh": "无交易 ｜ 26条 ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Oct 20 Tue",
+      "label_zh": "10.20 周二"
+    },
+    {
+      "date": "2026-10-19",
+      "label": "10.19（月）",
+      "total": 389388548,
+      "diff_pct": -1.1,
+      "memo": "売買なし ｜ 26本 ｜ note 1本",
+      "memo_en": "No trades ｜ 26 posts ｜ 1 note",
+      "memo_zh": "无交易 ｜ 26条 ｜ note 1篇",
+      "label_en": "Oct 19 Mon",
+      "label_zh": "10.19 周一"
+    },
+    {
+      "date": "2026-10-18",
+      "label": "10.18（日）",
+      "total": null,
+      "diff_pct": null,
+      "memo": "休場 ｜ 12本 ｜ note 1本（ソフトバンクG）",
+      "memo_en": "Closed ｜ 12 posts ｜ 1 note (SoftBank G)",
+      "memo_zh": "休市 ｜ 12条 ｜ note 1篇（软银G）",
+      "label_en": "Oct 18 Sun",
+      "label_zh": "10.18 周日"
+    },
+    {
+      "date": "2026-10-16",
+      "label": "10.16（金）",
+      "total": 393726077,
+      "diff_pct": -0.09,
+      "memo": "売買なし ｜ 26本",
+      "memo_en": "No trades ｜ 26 posts",
+      "memo_zh": "无交易 ｜ 26条",
+      "label_en": "Oct 16 Fri",
+      "label_zh": "10.16 周五"
+    },
+    {
+      "date": "2026-10-15",
+      "label": "10.15（木）",
+      "total": 394085125,
+      "diff_pct": -2.14,
+      "memo": "26本",
+      "memo_en": "26 posts",
+      "memo_zh": "26条",
+      "label_en": "Oct 15 Thu",
+      "label_zh": "10.15 周四"
+    },
+    {
+      "date": "2026-10-14",
+      "label": "10.14（水）",
+      "total": 402683469,
+      "diff_pct": -0.42,
+      "memo": "26本",
+      "memo_en": "26 posts",
+      "memo_zh": "26条",
+      "label_en": "Oct 14 Wed",
+      "label_zh": "10.14 周三"
     }
-   ],
-   "total_d7": 66460,
-   "total_d28": 195749
-  },
-  "site": {
-   "visits_24h": 12,
-   "pv_24h": 23,
-   "visits_7d": null
-  },
-  "daily": {
-   "dates": [
-    "2026-09-28",
-    "2026-09-29",
-    "2026-09-30",
-    "2026-10-01",
-    "2026-10-02",
-    "2026-10-03",
-    "2026-10-04",
-    "2026-10-05",
-    "2026-10-06",
-    "2026-10-07",
-    "2026-10-08",
-    "2026-10-09",
-    "2026-10-10",
-    "2026-10-11",
-    "2026-10-12",
-    "2026-10-13",
-    "2026-10-14",
-    "2026-10-15",
-    "2026-10-16",
-    "2026-10-17",
-    "2026-10-18",
-    "2026-10-19",
-    "2026-10-20",
-    "2026-10-21",
-    "2026-10-22",
-    "2026-10-23",
-    "2026-10-24",
-    "2026-10-25"
-   ],
-   "x_ja": [
-    5422,
-    8571,
-    1735,
-    969,
-    598,
-    496,
-    413,
-    5799,
-    4216,
-    4872,
-    5908,
-    5174,
-    2309,
-    3013,
-    3360,
-    5843,
-    7588,
-    7561,
-    5958,
-    3982,
-    4636,
-    6215,
-    5951,
-    6352,
-    11660,
-    8200,
-    6090,
-    2087
-   ],
-   "x_en": [
-    1064,
-    1369,
-    307,
-    170,
-    137,
-    85,
-    72,
-    784,
-    948,
-    786,
-    943,
-    838,
-    533,
-    666,
-    701,
-    1154,
-    1209,
-    1149,
-    1115,
-    764,
-    1874,
-    1438,
-    1008,
-    1248,
-    1601,
-    1355,
-    1423,
-    234
-   ],
-   "x_zh": [
-    1491,
-    1579,
-    653,
-    572,
-    590,
-    455,
-    299,
-    1209,
-    1267,
-    1196,
-    1467,
-    1244,
-    1256,
-    1248,
-    1211,
-    1393,
-    1660,
-    1411,
-    1496,
-    989,
-    1080,
-    1807,
-    1706,
-    1447,
-    1774,
-    1600,
-    2199,
-    632
-   ],
-   "note": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    7,
-    50,
-    48,
-    15,
-    22,
-    2,
-    11,
-    47,
-    43,
-    40,
-    3,
-    23,
-    91,
-    30,
-    47,
-    42,
-    39,
-    28,
-    8,
-    3,
-    45
-   ]
-  },
-  "today": {
-   "date": "2026-10-25",
-   "x_ja": 2087,
-   "x_en": 234,
-   "x_zh": 632,
-   "note": 45,
-   "site_visits_24h": 12,
-   "site_pv_24h": 23,
-   "at": "2026-10-25 21:53"
-  },
-  "intraday": [
-   {
-    "at": "2026-10-25 00:52",
-    "x": 5298,
-    "site_pv_24h": 12,
-    "site_visits_24h": 6
-   },
-   {
-    "at": "2026-10-25 00:45",
-    "x": 5298,
-    "site_pv_24h": 12,
-    "site_visits_24h": 6
-   },
-   {
-    "at": "2026-10-25 01:53",
-    "x": 7197,
-    "site_pv_24h": 15,
-    "site_visits_24h": 9
-   },
-   {
-    "at": "2026-10-25 02:53",
-    "x": 7892,
-    "site_pv_24h": 15,
-    "site_visits_24h": 9
-   },
-   {
-    "at": "2026-10-25 03:53",
-    "x": 8258,
-    "site_pv_24h": 15,
-    "site_visits_24h": 9
-   },
-   {
-    "at": "2026-10-25 04:53",
-    "x": 8569,
-    "site_pv_24h": 14,
-    "site_visits_24h": 9
-   },
-   {
-    "at": "2026-10-25 05:53",
-    "x": 8754,
-    "site_pv_24h": 14,
-    "site_visits_24h": 9
-   },
-   {
-    "at": "2026-10-25 06:53",
-    "x": 8942,
-    "site_pv_24h": 13,
-    "site_visits_24h": 9
-   },
-   {
-    "at": "2026-10-25 07:52",
-    "x": 9205,
-    "site_pv_24h": 12,
-    "site_visits_24h": 8
-   },
-   {
-    "at": "2026-10-25 08:53",
-    "x": 9663,
-    "site_pv_24h": 15,
-    "site_visits_24h": 10
-   },
-   {
-    "at": "2026-10-25 09:51",
-    "x": 230,
-    "site_pv_24h": 19,
-    "site_visits_24h": 10
-   },
-   {
-    "at": "2026-10-25 10:52",
-    "x": 482,
-    "site_pv_24h": 18,
-    "site_visits_24h": 9
-   },
-   {
-    "at": "2026-10-25 11:53",
-    "x": 787,
-    "site_pv_24h": 18,
-    "site_visits_24h": 9
-   },
-   {
-    "at": "2026-10-25 12:52",
-    "x": 1023,
-    "site_pv_24h": 18,
-    "site_visits_24h": 9
-   },
-   {
-    "at": "2026-10-25 13:53",
-    "x": 1228,
-    "site_pv_24h": 18,
-    "site_visits_24h": 9
-   },
-   {
-    "at": "2026-10-25 14:54",
-    "x": 1428,
-    "site_pv_24h": 18,
-    "site_visits_24h": 9
-   },
-   {
-    "at": "2026-10-25 15:56",
-    "x": 1623,
-    "site_pv_24h": 18,
-    "site_visits_24h": 9
-   },
-   {
-    "at": "2026-10-25 16:54",
-    "x": 1802,
-    "site_pv_24h": 18,
-    "site_visits_24h": 9
-   },
-   {
-    "at": "2026-10-25 17:52",
-    "x": 1939,
-    "site_pv_24h": 19,
-    "site_visits_24h": 10
-   },
-   {
-    "at": "2026-10-25 18:53",
-    "x": 2113,
-    "site_pv_24h": 19,
-    "site_visits_24h": 10
-   },
-   {
-    "at": "2026-10-25 19:53",
-    "x": 2278,
-    "site_pv_24h": 22,
-    "site_visits_24h": 11
-   },
-   {
-    "at": "2026-10-25 20:52",
-    "x": 2460,
-    "site_pv_24h": 22,
-    "site_visits_24h": 11
-   },
-   {
-    "at": "2026-10-25 21:53",
-    "x": 2953,
-    "site_pv_24h": 23,
-    "site_visits_24h": 12
-   }
-  ]
- },
- "archive": [
-  {
-   "date": "2026-10-25",
-   "label": "10.25（日）",
-   "total": null,
-   "diff_pct": null,
-   "memo": "休場 ｜ 12本 ｜ 売買なし ｜ note 1本 ｜ 記事 1本",
-   "memo_en": "Closed ｜ 12 posts ｜ No trades ｜ 1 note ｜ 1 article",
-   "memo_zh": "休市 ｜ 12条 ｜ 无交易 ｜ note 1篇 ｜ 文章 1篇",
-   "label_en": "Oct 25 Sun",
-   "label_zh": "10.25 周日"
-  },
-  {
-   "date": "2026-10-24",
-   "label": "10.24（土）",
-   "total": null,
-   "diff_pct": null,
-   "memo": "休場 ｜ 12本 ｜ IonQ 2,500株を31.8ドルで買い戻し ｜ note 1本 ｜ 記事 1本",
-   "memo_en": "Closed ｜ 12 posts ｜ Bought back 2,500 IonQ at $31.80 ｜ 1 note ｜ 1 article",
-   "memo_zh": "休市 ｜ 12条 ｜ 以31.8美元买回IonQ 2,500股 ｜ note 1篇 ｜ 文章 1篇",
-   "label_en": "Oct 24 Sat",
-   "label_zh": "10.24 周六"
-  },
-  {
-   "date": "2026-10-23",
-   "label": "10.23（金）",
-   "total": 381836136,
-   "diff_pct": -1.95,
-   "memo": "IonQ 成行で注文 ｜ 26本 ｜ 記事 1本",
-   "memo_en": "IonQ market order ｜ 26 posts ｜ 1 article",
-   "memo_zh": "IonQ 市价单 ｜ 26条 ｜ 文章 1篇",
-   "label_en": "Oct 23 Fri",
-   "label_zh": "10.23 周五"
-  },
-  {
-   "date": "2026-10-22",
-   "label": "10.22（木）",
-   "total": 389435397,
-   "diff_pct": 0.32,
-   "memo": "売買なし ｜ 26本 ｜ note 1本 ｜ 記事 1本",
-   "memo_en": "No trades ｜ 26 posts ｜ 1 note ｜ 1 article",
-   "memo_zh": "无交易 ｜ 26条 ｜ note 1篇 ｜ 文章 1篇",
-   "label_en": "Oct 22 Thu",
-   "label_zh": "10.22 周四"
-  },
-  {
-   "date": "2026-10-21",
-   "label": "10.21（水）",
-   "total": 388187316,
-   "diff_pct": 0.08,
-   "memo": "売買なし ｜ 26本 ｜ note 1本 ｜ 記事 1本",
-   "memo_en": "No trades ｜ 26 posts ｜ 1 note ｜ 1 article",
-   "memo_zh": "无交易 ｜ 26条 ｜ note 1篇 ｜ 文章 1篇",
-   "label_en": "Oct 21 Wed",
-   "label_zh": "10.21 周三"
-  },
-  {
-   "date": "2026-10-20",
-   "label": "10.20（火）",
-   "total": 387889706,
-   "diff_pct": -0.38,
-   "memo": "売買なし ｜ 26本 ｜ note 1本 ｜ 記事 1本",
-   "memo_en": "No trades ｜ 26 posts ｜ 1 note ｜ 1 article",
-   "memo_zh": "无交易 ｜ 26条 ｜ note 1篇 ｜ 文章 1篇",
-   "label_en": "Oct 20 Tue",
-   "label_zh": "10.20 周二"
-  },
-  {
-   "date": "2026-10-19",
-   "label": "10.19（月）",
-   "total": 389388548,
-   "diff_pct": -1.1,
-   "memo": "売買なし ｜ 26本 ｜ note 1本",
-   "memo_en": "No trades ｜ 26 posts ｜ 1 note",
-   "memo_zh": "无交易 ｜ 26条 ｜ note 1篇",
-   "label_en": "Oct 19 Mon",
-   "label_zh": "10.19 周一"
-  },
-  {
-   "date": "2026-10-18",
-   "label": "10.18（日）",
-   "total": null,
-   "diff_pct": null,
-   "memo": "休場 ｜ 12本 ｜ note 1本（ソフトバンクG）",
-   "memo_en": "Closed ｜ 12 posts ｜ 1 note (SoftBank G)",
-   "memo_zh": "休市 ｜ 12条 ｜ note 1篇（软银G）",
-   "label_en": "Oct 18 Sun",
-   "label_zh": "10.18 周日"
-  },
-  {
-   "date": "2026-10-16",
-   "label": "10.16（金）",
-   "total": 393726077,
-   "diff_pct": -0.09,
-   "memo": "売買なし ｜ 26本",
-   "memo_en": "No trades ｜ 26 posts",
-   "memo_zh": "无交易 ｜ 26条",
-   "label_en": "Oct 16 Fri",
-   "label_zh": "10.16 周五"
-  },
-  {
-   "date": "2026-10-15",
-   "label": "10.15（木）",
-   "total": 394085125,
-   "diff_pct": -2.14,
-   "memo": "26本",
-   "memo_en": "26 posts",
-   "memo_zh": "26条",
-   "label_en": "Oct 15 Thu",
-   "label_zh": "10.15 周四"
-  },
-  {
-   "date": "2026-10-14",
-   "label": "10.14（水）",
-   "total": 402683469,
-   "diff_pct": -0.42,
-   "memo": "26本",
-   "memo_en": "26 posts",
-   "memo_zh": "26条",
-   "label_en": "Oct 14 Wed",
-   "label_zh": "10.14 周三"
+  ],
+  "articles": [
+    {
+      "slug": "megabank-core-systems",
+      "date": "2026-10-25",
+      "image": "images/articles/megabank-core-systems/hero.jpg",
+      "category": "金融・銀行",
+      "category_en": "Finance & banks",
+      "category_zh": "金融·银行",
+      "title": "メガバンク3行とりそなの勘定系システムは、本当に古くて危ないのか",
+      "title_en": "Are the core banking systems of Japan's three megabanks and Resona really old and dangerous?",
+      "title_zh": "日本三大银行与里索那的核心系统，真的又旧又危险吗",
+      "lead": "2026年10月、GMOのサーバーへの不正アクセスが明らかになった週、僕が持つ銀行株4行はそろって下げた。銀行のシステムは脆弱だ、とXでは何度も目にした。 しかし、実際に4行の勘定系が何でできていて、どんな障害を起こし、守りにいくら使っているのかを、数字で並べた記事は少ない。 この記事では、各行の公表資料と金融庁・経産省の資料をもとに、三菱UFJ・三井住友・みずほ・りそなの勘定系を1行ずつ確かめ、最後に「危ないのかどうか」を僕なりに判定する。",
+      "lead_en": "In October 2026, the week unauthorized access to GMO's servers came to light, the four Japanese bank stocks I hold all fell together. On X I kept seeing the claim that bank systems are fragile. Yet few articles lay out in numbers what the four banks' core systems are actually made of, what outages they have had, and how much they spend on defense. Here I go through the core systems of MUFG, SMBC, Mizuho and Resona one by one, using each bank's disclosures and documents from the FSA and METI, and at the end give my own verdict on whether they are dangerous.",
+      "lead_zh": "2026年10月，GMO服务器遭非法入侵的消息公开的那一周，我持有的四只日本银行股一起下跌。在X上，我反复看到银行系统很脆弱的说法。 然而，用数字来说明这四家银行的核心系统究竟由什么构成、发生过哪些故障、在防御上花了多少钱的文章，并不多。 本文依据各行的公开资料以及金融厅、经产省的文件，逐一确认三菱UFJ、三井住友、瑞穗、里索那的核心系统，最后给出我自己对于是否危险的判断。",
+      "tags": [
+        "finance",
+        "cyber",
+        "tech",
+        "company"
+      ]
+    },
+    {
+      "slug": "cyber-crash-scenarios",
+      "date": "2026-10-24",
+      "image": "images/articles/cyber-crash-scenarios/hero.jpg",
+      "category": "サイバーセキュリティ",
+      "category_en": "Cybersecurity",
+      "category_zh": "网络安全",
+      "title": "サイバー攻撃は世界同時株安の引き金になりうるか",
+      "title_en": "Could a cyberattack trigger a simultaneous global stock crash?",
+      "title_zh": "网络攻击会成为全球股市同时下跌的导火索吗",
+      "lead": "2026年10月23日、僕が持つ銀行株4銘柄がそろって下がった。同じ週、GMOのサーバー26,739件に影響のおそれがある不正アクセスが公表されていた。 金融危機の多くは、貸し出しの焦げ付きや金利の急変から始まってきた。しかし、データの漏えいや改ざんが起点になる下げ方は、まだ本格的には起きていない。 この記事では、国際機関や保険市場の一次資料をもとに、サイバー攻撃が世界同時の株安につながる道筋を4つに分け、起きやすさの順に並べる。",
+      "lead_en": "On October 23, 2026, the four bank stocks I hold in Japan all fell together. The same week, unauthorized access that may have affected 26,739 of GMO's servers had been disclosed. Most financial crises have started with bad loans or sudden moves in interest rates. But a fall that begins with leaked or altered data has not yet happened in full. In this article I use primary sources from international bodies and the insurance market to split the paths from a cyberattack to a global sell-off into four, and rank them by how likely they are.",
+      "lead_zh": "2026年10月23日，我在日本持有的4只银行股一起下跌了。同一周，GMO公布了一起可能影响26,739台服务器的非法入侵。 多数金融危机，都是从贷款坏账或利率骤变开始的。但是，以数据泄露或篡改为起点的下跌，还没有真正发生过。 本文依据国际机构和保险市场的一手资料，把网络攻击引发全球股市同时下跌的路径分成4条，并按发生的可能性排序。",
+      "tags": [
+        "cyber",
+        "economy",
+        "finance",
+        "markets"
+      ]
+    },
+    {
+      "slug": "supply-chain-shield",
+      "date": "2026-10-23",
+      "image": "images/articles/supply-chain-shield/hero.jpg",
+      "category": "サイバーセキュリティ",
+      "category_en": "Cybersecurity",
+      "category_zh": "网络安全",
+      "title": "矛より強い盾はない。マイクロソフトのクラウドとお名前.comの事件から見る、守りの技術と限界",
+      "title_en": "No shield is stronger than the spear: what the Microsoft cloud case and the Onamae.com breach teach about defense and its limits",
+      "title_zh": "没有比矛更强的盾：从微软云案件和Onamae.com事件看防守的技术与极限",
+      "lead": "2026年10月21日と22日、規模も相手もまったく違う2つの侵入が、同じ週に公表された。 1つはマイクロソフトのクラウドを使う会社が委託先のアプリ経由で狙われた件、もう1つはお名前.comの仮想サーバーが不正アクセスを受けた件だ。 どう入られ、どう対処し、大企業はどう防いでいるのか。そして事実上防げるのかを、一次資料で順に確かめる。",
+      "lead_en": "On October 21 and 22, 2026, two intrusions of completely different scale and target were disclosed in the same week. One targeted companies that use Microsoft's cloud through a contractor's app; the other was unauthorized access to Onamae.com's virtual servers in Japan. From Tokyo, I check with primary sources how the attackers got in, how to respond, how large companies defend themselves, and whether this can realistically be prevented.",
+      "lead_zh": "2026年10月21日和22日，规模和对象完全不同的两起入侵在同一周被公开。 一起是使用微软云的公司经由外包方的应用遭到攻击，另一起是日本Onamae.com的虚拟服务器遭到非法入侵。 身在东京的我，用一手资料依次确认：攻击者如何进入、该如何应对、大企业如何防守，以及这类攻击实际上能否防住。",
+      "tags": [
+        "cyber",
+        "tech",
+        "ai"
+      ]
+    },
+    {
+      "slug": "php2shell-48-hours",
+      "date": "2026-10-22",
+      "image": "images/articles/php2shell-48-hours/hero.jpg",
+      "category": "サイバーセキュリティ",
+      "category_en": "Cybersecurity",
+      "category_zh": "网络安全",
+      "title": "PHP2Shellの48時間。ウェブの7割を支える言語の欠陥は、どう見つかり、どう塞がれたのか",
+      "title_en": "48 hours of PHP2Shell: how flaws in the language behind 70% of the web were found and closed",
+      "title_zh": "PHP2Shell的48小时：支撑七成网站的语言缺陷，是如何被发现、又如何被堵上的",
+      "lead": "2026年10月21日の夜、ウェブサイトを動かす言語PHPに、認証なしで乗っ取りにつながる欠陥が2件あると公表された。 予告から修正版の公開、国内サービスの一斉停止までを、開発元と公的機関の一次資料で時系列に並べる。 欠陥の仕組み、AIが果たした役割、そしてこれから起きうることを、僕は自分の会社の守りと重ねて確かめておく。",
+      "lead_en": "On the night of October 21, 2026, two flaws that could let attackers take over servers without logging in were disclosed in PHP, the language that runs much of the web. Here in Tokyo, I lay out the timeline from the advance notice to the fixed releases and the wave of service shutdowns in Japan, using primary sources from the developers and public agencies. I also check how the flaws work, what role AI played and what could happen next, setting it all against how my own company defends itself.",
+      "lead_zh": "2026年10月21日夜，驱动大量网站的编程语言PHP被公开存在两个缺陷，攻击者无需登录即可能接管服务器。 身在东京的我，用开发方和公共机构的一手资料，按时间顺序整理从预告、修正版发布到日本国内服务集体停摆的经过。 缺陷的原理、AI扮演的角色，以及今后可能发生的事，我也对照自己公司的防守来确认一遍。",
+      "tags": [
+        "cyber",
+        "tech",
+        "ai"
+      ]
+    },
+    {
+      "slug": "space-company-ai-cloud",
+      "date": "2026-10-21",
+      "image": "images/articles/space-company-ai-cloud/hero.jpg",
+      "category": "宇宙",
+      "category_en": "Space",
+      "category_zh": "航天",
+      "title": "宇宙企業がAIクラウドになる。計算資源を競合に貸すという商売",
+      "title_en": "A space company becomes an AI cloud: renting computing power to its rivals",
+      "title_zh": "航天企业变成AI云：把计算资源租给竞争对手的生意",
+      "lead": "ロケットの会社が、AIの計算資源を貸して稼ぎ始めた。借り手は、AIで競い合う相手でもある。 足りない計算資源、GPUを貸す商売の損益、宇宙で計算する構想を、一次資料の数字で並べる。 僕はSpaceXの株を持っている。その会社がどこで稼いでいるのかを、ここで確かめておく。",
+      "lead_en": "A rocket company has started earning by renting out AI computing power. Its tenants are also its rivals in AI. Here in Tokyo, I line up the numbers from primary sources: the shortage of compute, the economics of renting GPUs, and the idea of computing in space. I hold SpaceX shares. This is where I check how that company actually makes its money.",
+      "lead_zh": "一家火箭公司，开始靠出租AI计算资源赚钱。而租用者，同时也是它在AI上的竞争对手。 身在东京的我，用一手资料的数字，把计算资源的短缺、出租GPU的损益、在太空中计算的构想排列出来。 我持有SpaceX的股票。在这里，我想确认这家公司到底在哪里赚钱。",
+      "tags": [
+        "space",
+        "ai",
+        "company"
+      ]
+    },
+    {
+      "slug": "quantum-four-approaches",
+      "date": "2026-10-20",
+      "image": "images/articles/quantum-four-approaches/hero.jpg",
+      "category": "量子",
+      "category_en": "Quantum",
+      "category_zh": "量子",
+      "title": "量子コンピュータの4社を、方式と数字で比べる",
+      "title_en": "Four quantum computing companies, compared by approach and by the numbers",
+      "title_zh": "用方式和数字比较4家量子计算公司",
+      "lead": "IonQ・Quantinuum・Rigetti・D-Wave。同じ「量子」でも、作り方も稼ぎ方も違う。 誤りの少なさ、売上、手元の資金を並べると、4社の現在地が見えてくる。 僕は量子株を持ち、IonQは売って指値で待っている。その判断の材料を、ここに置いておく。",
+      "lead_en": "IonQ, Quantinuum, Rigetti and D-Wave. All four say \"quantum,\" yet they build and earn in different ways. Lining up error rates, revenue and cash shows where each company stands today. I hold quantum stocks, and I sold IonQ and am waiting with a limit order. This is the material behind that decision.",
+      "lead_zh": "IonQ、Quantinuum、Rigetti和D-Wave。同样叫量子，制造方式和赚钱方式各不相同。 把错误率、营收和手头资金排在一起，就能看到4家公司现在所处的位置。 我持有量子股，IonQ已经卖出，正挂着限价单等待。这里放的是那个判断背后的材料。",
+      "tags": [
+        "quantum",
+        "tech",
+        "company"
+      ]
+    }
+  ],
+  "tags": {
+    "tech": {
+      "name": "テクノロジー",
+      "name_en": "Technology",
+      "name_zh": "科技"
+    },
+    "economy": {
+      "name": "経済",
+      "name_en": "Economy",
+      "name_zh": "经济"
+    },
+    "cyber": {
+      "name": "サイバーセキュリティ",
+      "name_en": "Cybersecurity",
+      "name_zh": "网络安全"
+    },
+    "finance": {
+      "name": "金融・銀行",
+      "name_en": "Finance & banks",
+      "name_zh": "金融·银行"
+    },
+    "markets": {
+      "name": "相場・株",
+      "name_en": "Markets",
+      "name_zh": "市场·股票"
+    },
+    "ai": {
+      "name": "AI",
+      "name_en": "AI",
+      "name_zh": "AI"
+    },
+    "space": {
+      "name": "宇宙",
+      "name_en": "Space",
+      "name_zh": "航天"
+    },
+    "quantum": {
+      "name": "量子",
+      "name_en": "Quantum",
+      "name_zh": "量子"
+    },
+    "company": {
+      "name": "企業分析",
+      "name_en": "Company analysis",
+      "name_zh": "企业分析"
+    },
+    "business": {
+      "name": "実業",
+      "name_en": "Business",
+      "name_zh": "实业"
+    },
+    "family": {
+      "name": "家族",
+      "name_en": "Family",
+      "name_zh": "家庭"
+    }
   }
- ],
- "articles": [
-  {
-   "slug": "megabank-core-systems",
-   "date": "2026-10-25",
-   "image": "images/articles/megabank-core-systems/hero.jpg",
-   "category": "金融・銀行",
-   "category_en": "Finance & banks",
-   "category_zh": "金融·银行",
-   "title": "メガバンク3行とりそなの勘定系システムは、本当に古くて危ないのか",
-   "title_en": "Are the core banking systems of Japan's three megabanks and Resona really old and dangerous?",
-   "title_zh": "日本三大银行与里索那的核心系统，真的又旧又危险吗",
-   "lead": "2026年10月、GMOのサーバーへの不正アクセスが明らかになった週、僕が持つ銀行株4行はそろって下げた。銀行のシステムは脆弱だ、とXでは何度も目にした。 しかし、実際に4行の勘定系が何でできていて、どんな障害を起こし、守りにいくら使っているのかを、数字で並べた記事は少ない。 この記事では、各行の公表資料と金融庁・経産省の資料をもとに、三菱UFJ・三井住友・みずほ・りそなの勘定系を1行ずつ確かめ、最後に「危ないのかどうか」を僕なりに判定する。",
-   "lead_en": "In October 2026, the week unauthorized access to GMO's servers came to light, the four Japanese bank stocks I hold all fell together. On X I kept seeing the claim that bank systems are fragile. Yet few articles lay out in numbers what the four banks' core systems are actually made of, what outages they have had, and how much they spend on defense. Here I go through the core systems of MUFG, SMBC, Mizuho and Resona one by one, using each bank's disclosures and documents from the FSA and METI, and at the end give my own verdict on whether they are dangerous.",
-   "lead_zh": "2026年10月，GMO服务器遭非法入侵的消息公开的那一周，我持有的四只日本银行股一起下跌。在X上，我反复看到银行系统很脆弱的说法。 然而，用数字来说明这四家银行的核心系统究竟由什么构成、发生过哪些故障、在防御上花了多少钱的文章，并不多。 本文依据各行的公开资料以及金融厅、经产省的文件，逐一确认三菱UFJ、三井住友、瑞穗、里索那的核心系统，最后给出我自己对于是否危险的判断。",
-   "tags": [
-    "finance",
-    "cyber",
-    "tech",
-    "company"
-   ]
-  },
-  {
-   "slug": "cyber-crash-scenarios",
-   "date": "2026-10-24",
-   "image": "images/articles/cyber-crash-scenarios/hero.jpg",
-   "category": "サイバーセキュリティ",
-   "category_en": "Cybersecurity",
-   "category_zh": "网络安全",
-   "title": "サイバー攻撃は世界同時株安の引き金になりうるか",
-   "title_en": "Could a cyberattack trigger a simultaneous global stock crash?",
-   "title_zh": "网络攻击会成为全球股市同时下跌的导火索吗",
-   "lead": "2026年10月23日、僕が持つ銀行株4銘柄がそろって下がった。同じ週、GMOのサーバー26,739件に影響のおそれがある不正アクセスが公表されていた。 金融危機の多くは、貸し出しの焦げ付きや金利の急変から始まってきた。しかし、データの漏えいや改ざんが起点になる下げ方は、まだ本格的には起きていない。 この記事では、国際機関や保険市場の一次資料をもとに、サイバー攻撃が世界同時の株安につながる道筋を4つに分け、起きやすさの順に並べる。",
-   "lead_en": "On October 23, 2026, the four bank stocks I hold in Japan all fell together. The same week, unauthorized access that may have affected 26,739 of GMO's servers had been disclosed. Most financial crises have started with bad loans or sudden moves in interest rates. But a fall that begins with leaked or altered data has not yet happened in full. In this article I use primary sources from international bodies and the insurance market to split the paths from a cyberattack to a global sell-off into four, and rank them by how likely they are.",
-   "lead_zh": "2026年10月23日，我在日本持有的4只银行股一起下跌了。同一周，GMO公布了一起可能影响26,739台服务器的非法入侵。 多数金融危机，都是从贷款坏账或利率骤变开始的。但是，以数据泄露或篡改为起点的下跌，还没有真正发生过。 本文依据国际机构和保险市场的一手资料，把网络攻击引发全球股市同时下跌的路径分成4条，并按发生的可能性排序。",
-   "tags": [
-    "cyber",
-    "economy",
-    "finance",
-    "markets"
-   ]
-  },
-  {
-   "slug": "supply-chain-shield",
-   "date": "2026-10-23",
-   "image": "images/articles/supply-chain-shield/hero.jpg",
-   "category": "サイバーセキュリティ",
-   "category_en": "Cybersecurity",
-   "category_zh": "网络安全",
-   "title": "矛より強い盾はない。マイクロソフトのクラウドとお名前.comの事件から見る、守りの技術と限界",
-   "title_en": "No shield is stronger than the spear: what the Microsoft cloud case and the Onamae.com breach teach about defense and its limits",
-   "title_zh": "没有比矛更强的盾：从微软云案件和Onamae.com事件看防守的技术与极限",
-   "lead": "2026年10月21日と22日、規模も相手もまったく違う2つの侵入が、同じ週に公表された。 1つはマイクロソフトのクラウドを使う会社が委託先のアプリ経由で狙われた件、もう1つはお名前.comの仮想サーバーが不正アクセスを受けた件だ。 どう入られ、どう対処し、大企業はどう防いでいるのか。そして事実上防げるのかを、一次資料で順に確かめる。",
-   "lead_en": "On October 21 and 22, 2026, two intrusions of completely different scale and target were disclosed in the same week. One targeted companies that use Microsoft's cloud through a contractor's app; the other was unauthorized access to Onamae.com's virtual servers in Japan. From Tokyo, I check with primary sources how the attackers got in, how to respond, how large companies defend themselves, and whether this can realistically be prevented.",
-   "lead_zh": "2026年10月21日和22日，规模和对象完全不同的两起入侵在同一周被公开。 一起是使用微软云的公司经由外包方的应用遭到攻击，另一起是日本Onamae.com的虚拟服务器遭到非法入侵。 身在东京的我，用一手资料依次确认：攻击者如何进入、该如何应对、大企业如何防守，以及这类攻击实际上能否防住。",
-   "tags": [
-    "cyber",
-    "tech",
-    "ai"
-   ]
-  },
-  {
-   "slug": "php2shell-48-hours",
-   "date": "2026-10-22",
-   "image": "images/articles/php2shell-48-hours/hero.jpg",
-   "category": "サイバーセキュリティ",
-   "category_en": "Cybersecurity",
-   "category_zh": "网络安全",
-   "title": "PHP2Shellの48時間。ウェブの7割を支える言語の欠陥は、どう見つかり、どう塞がれたのか",
-   "title_en": "48 hours of PHP2Shell: how flaws in the language behind 70% of the web were found and closed",
-   "title_zh": "PHP2Shell的48小时：支撑七成网站的语言缺陷，是如何被发现、又如何被堵上的",
-   "lead": "2026年10月21日の夜、ウェブサイトを動かす言語PHPに、認証なしで乗っ取りにつながる欠陥が2件あると公表された。 予告から修正版の公開、国内サービスの一斉停止までを、開発元と公的機関の一次資料で時系列に並べる。 欠陥の仕組み、AIが果たした役割、そしてこれから起きうることを、僕は自分の会社の守りと重ねて確かめておく。",
-   "lead_en": "On the night of October 21, 2026, two flaws that could let attackers take over servers without logging in were disclosed in PHP, the language that runs much of the web. Here in Tokyo, I lay out the timeline from the advance notice to the fixed releases and the wave of service shutdowns in Japan, using primary sources from the developers and public agencies. I also check how the flaws work, what role AI played and what could happen next, setting it all against how my own company defends itself.",
-   "lead_zh": "2026年10月21日夜，驱动大量网站的编程语言PHP被公开存在两个缺陷，攻击者无需登录即可能接管服务器。 身在东京的我，用开发方和公共机构的一手资料，按时间顺序整理从预告、修正版发布到日本国内服务集体停摆的经过。 缺陷的原理、AI扮演的角色，以及今后可能发生的事，我也对照自己公司的防守来确认一遍。",
-   "tags": [
-    "cyber",
-    "tech",
-    "ai"
-   ]
-  },
-  {
-   "slug": "space-company-ai-cloud",
-   "date": "2026-10-21",
-   "image": "images/articles/space-company-ai-cloud/hero.jpg",
-   "category": "宇宙",
-   "category_en": "Space",
-   "category_zh": "航天",
-   "title": "宇宙企業がAIクラウドになる。計算資源を競合に貸すという商売",
-   "title_en": "A space company becomes an AI cloud: renting computing power to its rivals",
-   "title_zh": "航天企业变成AI云：把计算资源租给竞争对手的生意",
-   "lead": "ロケットの会社が、AIの計算資源を貸して稼ぎ始めた。借り手は、AIで競い合う相手でもある。 足りない計算資源、GPUを貸す商売の損益、宇宙で計算する構想を、一次資料の数字で並べる。 僕はSpaceXの株を持っている。その会社がどこで稼いでいるのかを、ここで確かめておく。",
-   "lead_en": "A rocket company has started earning by renting out AI computing power. Its tenants are also its rivals in AI. Here in Tokyo, I line up the numbers from primary sources: the shortage of compute, the economics of renting GPUs, and the idea of computing in space. I hold SpaceX shares. This is where I check how that company actually makes its money.",
-   "lead_zh": "一家火箭公司，开始靠出租AI计算资源赚钱。而租用者，同时也是它在AI上的竞争对手。 身在东京的我，用一手资料的数字，把计算资源的短缺、出租GPU的损益、在太空中计算的构想排列出来。 我持有SpaceX的股票。在这里，我想确认这家公司到底在哪里赚钱。",
-   "tags": [
-    "space",
-    "ai",
-    "company"
-   ]
-  },
-  {
-   "slug": "quantum-four-approaches",
-   "date": "2026-10-20",
-   "image": "images/articles/quantum-four-approaches/hero.jpg",
-   "category": "量子",
-   "category_en": "Quantum",
-   "category_zh": "量子",
-   "title": "量子コンピュータの4社を、方式と数字で比べる",
-   "title_en": "Four quantum computing companies, compared by approach and by the numbers",
-   "title_zh": "用方式和数字比较4家量子计算公司",
-   "lead": "IonQ・Quantinuum・Rigetti・D-Wave。同じ「量子」でも、作り方も稼ぎ方も違う。 誤りの少なさ、売上、手元の資金を並べると、4社の現在地が見えてくる。 僕は量子株を持ち、IonQは売って指値で待っている。その判断の材料を、ここに置いておく。",
-   "lead_en": "IonQ, Quantinuum, Rigetti and D-Wave. All four say \"quantum,\" yet they build and earn in different ways. Lining up error rates, revenue and cash shows where each company stands today. I hold quantum stocks, and I sold IonQ and am waiting with a limit order. This is the material behind that decision.",
-   "lead_zh": "IonQ、Quantinuum、Rigetti和D-Wave。同样叫量子，制造方式和赚钱方式各不相同。 把错误率、营收和手头资金排在一起，就能看到4家公司现在所处的位置。 我持有量子股，IonQ已经卖出，正挂着限价单等待。这里放的是那个判断背后的材料。",
-   "tags": [
-    "quantum",
-    "tech",
-    "company"
-   ]
-  }
- ],
- "tags": {
-  "tech": {
-   "name": "テクノロジー",
-   "name_en": "Technology",
-   "name_zh": "科技"
-  },
-  "economy": {
-   "name": "経済",
-   "name_en": "Economy",
-   "name_zh": "经济"
-  },
-  "cyber": {
-   "name": "サイバーセキュリティ",
-   "name_en": "Cybersecurity",
-   "name_zh": "网络安全"
-  },
-  "finance": {
-   "name": "金融・銀行",
-   "name_en": "Finance & banks",
-   "name_zh": "金融·银行"
-  },
-  "markets": {
-   "name": "相場・株",
-   "name_en": "Markets",
-   "name_zh": "市场·股票"
-  },
-  "ai": {
-   "name": "AI",
-   "name_en": "AI",
-   "name_zh": "AI"
-  },
-  "space": {
-   "name": "宇宙",
-   "name_en": "Space",
-   "name_zh": "航天"
-  },
-  "quantum": {
-   "name": "量子",
-   "name_en": "Quantum",
-   "name_zh": "量子"
-  },
-  "company": {
-   "name": "企業分析",
-   "name_en": "Company analysis",
-   "name_zh": "企业分析"
-  },
-  "business": {
-   "name": "実業",
-   "name_en": "Business",
-   "name_zh": "实业"
-  },
-  "family": {
-   "name": "家族",
-   "name_en": "Family",
-   "name_zh": "家庭"
-  }
- }
 }
