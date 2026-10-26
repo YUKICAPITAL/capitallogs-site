@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T22:10:00+09:00",
+  "updated": "2026-10-26T13:30:00+09:00",
   "profile": {
     "name": "YUKI CAPITAL",
     "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -16,38 +16,38 @@
     "note": "https://note.com/capitallogs"
   },
   "capital": {
-    "date": "2026-10-23",
-    "label": "10.23（金）",
-    "total": 381836136,
-    "diff": -7599261,
-    "diff_pct": -1.95,
-    "unreal": 50344681,
-    "unreal_pct": 16.01,
-    "cash": 17041762,
-    "cash_pct": 4.46,
-    "trade": "IonQ 2,500株を買い戻し（31.8ドル・電話で約定を確認、CSVへの反映は来週）",
+    "date": "2026-10-26",
+    "label": "10.26（月）",
+    "total": 380324088,
+    "diff": -1512048,
+    "diff_pct": -0.4,
+    "unreal": 48935898,
+    "unreal_pct": 14.98,
+    "cash": 4763497,
+    "cash_pct": 1.25,
+    "trade": "売買なし（IonQ 2,500株は10/23に30.89ドルで約定・10/27受渡）",
     "alloc": [
       {
         "name": "国内株",
-        "pct": 44.93,
+        "pct": 46.49,
         "name_en": "JP stocks",
         "name_zh": "日本股票"
       },
       {
         "name": "投信",
-        "pct": 27.17,
+        "pct": 26.99,
         "name_en": "Funds",
         "name_zh": "基金"
       },
       {
         "name": "外国株",
-        "pct": 23.43,
+        "pct": 25.27,
         "name_en": "Foreign stocks",
         "name_zh": "海外股票"
       },
       {
         "name": "現金",
-        "pct": 4.46,
+        "pct": 1.25,
         "name_en": "Cash",
         "name_zh": "现金"
       }
@@ -80,17 +80,21 @@
       {
         "date": "2026-10-23",
         "total": 381836136
+      },
+      {
+        "date": "2026-10-26",
+        "total": 380324088
       }
     ],
-    "label_en": "Oct 23 (Fri)",
-    "label_zh": "10.23（周五）",
-    "trade_en": "IonQ: bought back 2,500 shares at $31.80 (fill confirmed by phone; not yet in the CSV)",
-    "trade_zh": "IonQ：以31.8美元买回2,500股（电话确认成交，下周反映到CSV）",
+    "label_en": "Oct 26 (Mon)",
+    "label_zh": "10.26（周一）",
+    "trade_en": "No trades (IonQ: 2,500 shares filled Oct 23 at $30.89, settling Oct 27)",
+    "trade_zh": "无交易（IonQ 2,500股于10/23以30.89美元成交，10/27交割）",
     "week": {
-      "from": "2026-10-16",
-      "to": "2026-10-23",
-      "diff": -11889941,
-      "diff_pct": -3.02
+      "from": "2026-10-19",
+      "to": "2026-10-26",
+      "diff": -9064460,
+      "diff_pct": -2.33
     }
   },
   "conditions": [
@@ -111,7 +115,7 @@
     {
       "title": "IonQ を +500株",
       "rule": "25ドルを割ったら",
-      "now": "31.8 ドル（買い戻し約定）",
+      "now": "30.89 ドル（10/23 約定）",
       "status": "未達",
       "title_en": "Add 500 IonQ",
       "rule_en": "if it falls below $25",
@@ -119,13 +123,13 @@
       "title_zh": "IonQ 加仓500股",
       "rule_zh": "跌破25美元时",
       "status_zh": "未达",
-      "now_en": "$31.80 (buyback filled)",
-      "now_zh": "31.8 美元（买回已成交）"
+      "now_en": "$30.89 (filled Oct 23)",
+      "now_zh": "30.89 美元（10/23成交）"
     },
     {
       "title": "三井住友FG を買い増し",
       "rule": "3,000円が目安",
-      "now": "3,029 円",
+      "now": "3,121 円",
       "status": "未達",
       "title_en": "Add SMFG (8316)",
       "rule_en": "around ¥3,000 as the guide",
@@ -133,20 +137,20 @@
       "title_zh": "加仓三井住友FG",
       "rule_zh": "以3,000日元为目标",
       "status_zh": "未达",
-      "now_en": "¥3,029",
-      "now_zh": "3,029 日元"
+      "now_en": "¥3,121",
+      "now_zh": "3,121 日元"
     },
     {
       "title": "SpaceX の積み立て",
       "rule": "外壁補修の見積もりが出るまで",
       "now": "",
-      "status": "10月は休止",
+      "status": "10月は休止・11月も再開しない見込み",
       "title_en": "Monthly SpaceX purchases",
       "rule_en": "until the exterior-wall repair estimate is in",
-      "status_en": "Paused in Oct",
+      "status_en": "Paused in Oct; likely not resuming in Nov",
       "title_zh": "SpaceX 定投",
       "rule_zh": "等外墙维修报价出来",
-      "status_zh": "10月暂停"
+      "status_zh": "10月暂停，11月预计也不恢复"
     }
   ],
   "holdings": [
@@ -189,6 +193,14 @@
       "name_zh": "NPS-CARS（基金）",
       "qty_en": "10,000 units",
       "qty_zh": "10,000份"
+    },
+    {
+      "name": "IonQ",
+      "qty": "2,500",
+      "name_en": "IonQ",
+      "name_zh": "IonQ",
+      "qty_en": "2,500",
+      "qty_zh": "2,500"
     },
     {
       "name": "SpaceX",
@@ -240,64 +252,70 @@
     }
   ],
   "posts": {
-    "date": "2026-10-25",
-    "count": 12,
+    "date": "2026-10-26",
+    "count": 26,
     "items": [
       {
-        "time": "10.25",
-        "kind": "シリーズ",
-        "title": "同じバルバッコアでも、品川の店が抜けている理由",
+        "time": "10.26",
+        "kind": "判断",
+        "title": "AIのチキンレース、僕はフロント企業にしか投資しない",
         "url": "https://x.com/capitallogs",
         "impressions": null,
-        "kind_en": "Series",
-        "kind_zh": "连载",
-        "title_en": "Same Barbacoa, so why is the Shinagawa branch a cut above",
-        "title_zh": "同样是Barbacoa，品川店为什么高出一截",
+        "kind_en": "Judgment",
+        "kind_zh": "判断",
+        "title_en": "The AI chicken race, and I invest in AI front-runners alone",
+        "title_zh": "AI的胆小鬼博弈，我只投资AI领跑企业",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin"
       },
       {
-        "time": "10.25",
+        "time": "10.26",
         "kind": "日記",
-        "title": "土曜の1,500m、プールは平日に戻す",
+        "title": "6時間45分だった1か月と、8時間眠れた夜",
         "url": "https://x.com/capitallogs",
         "impressions": null,
         "kind_en": "Diary",
         "kind_zh": "日记",
-        "title_en": "1,500 m on Saturday, and moving the pool back to weekdays",
-        "title_zh": "周六的1,500米，把游泳挪回工作日",
+        "title_en": "A month averaging 6 hours 45 minutes, and a night of 8 hours",
+        "title_zh": "平均6小时45分的一个月，和睡了8小时的夜晚",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin"
       },
       {
-        "time": "10.25",
+        "time": "10.26",
         "kind": "長文",
-        "title": "母校の幼稚園へ、片道40分の下見",
+        "title": "銀座のビルが1,200億円から800億円、25年固定の賃料",
         "url": "https://x.com/capitallogs",
         "impressions": null,
-        "kind_en": "Essay",
+        "kind_en": "Long read",
         "kind_zh": "长文",
-        "title_en": "A 40-minute trial run to my old school's kindergarten",
-        "title_zh": "去母校幼儿园的40分钟预演",
+        "title_en": "A Ginza building marked down by a third, and a 25-year fixed rent",
+        "title_zh": "银座大楼降价三成，25年固定的租金",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin"
       },
       {
-        "time": "10.25",
-        "kind": "資本枠",
-        "title": "ポートフォリオ現状整理と来週の構え｜10月25日(日)",
+        "time": "10.26",
+        "kind": "ニュース",
+        "title": "SpaceXの400億ドル債務、積み立ては再開しない",
         "url": "https://x.com/capitallogs",
         "impressions": null,
-        "kind_en": "Capital",
-        "kind_zh": "资本",
-        "title_en": "Portfolio check and the week ahead | Sun, Oct 25",
-        "title_zh": "投资组合现状与下周的姿态｜10月25日（周日）",
+        "kind_en": "News",
+        "kind_zh": "新闻",
+        "title_en": "SpaceX's $40 billion in debt, and I will not restart my monthly buying",
+        "title_zh": "SpaceX的400亿美元借款，我不恢复每月的买入",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin"
       }
     ]
   },
   "note": [
+    {
+      "date": "2026-10-26",
+      "title": "銀座のビルが3割安。25年固定の賃料と、金利が戻った世界の不動産の値段",
+      "url": "https://note.com/capitallogs/n/n563933f51b14",
+      "image": "https://assets.st-note.com/production/uploads/images/328609651/rectangle_large_type_2_1c169df77aec1c8c07596d02c43fc1db.png?fit=bounds&quality=85&width=640"
+    },
     {
       "date": "2026-10-25",
       "title": "サイバー攻撃は、来週の日経平均を下げるのか――GMOの事件と、過去4つの事例から考える",
@@ -330,20 +348,20 @@
     }
   ],
   "diary": {
-    "date": "2026-10-25（日）",
+    "date": "2026-10-26（月）",
     "place": "目黒・学芸大学",
-    "title": "土曜の1,500m、プールは平日に戻す",
-    "text": "土曜はプールで1,500m泳いだあと、家族で幼稚園の下見へ。写真は雨の母校の建物とテラス。夜は品川でシュラスコを食べた。",
-    "image": "https://raw.githubusercontent.com/YUKICAPITAL/x-images/main/images/2026-10-25_diary_123546.jpg",
+    "title": "6時間45分だった1か月と、8時間眠れた夜",
+    "text": "妻とマッサージに行き、ラーメンを食べて帰った。昨夜は8時間眠れた。写真は8月18日〜9月17日の睡眠アプリで、平均6時間45分。",
+    "image": "https://raw.githubusercontent.com/YUKICAPITAL/x-images/main/images/2026-10-26_diary_011944.jpg",
     "url": "https://x.com/capitallogs",
-    "date_en": "Sun, Oct 25, 2026",
-    "date_zh": "2026.10.25（周日）",
+    "date_en": "Mon, Oct 26, 2026",
+    "date_zh": "2026.10.26（周一）",
     "place_en": "Meguro / Gakugei-Daigaku",
     "place_zh": "目黑·学艺大学",
-    "title_en": "1,500 m on Saturday, and moving the pool back to weekdays",
-    "title_zh": "周六的1,500米，把游泳挪回工作日",
-    "text_en": "On Saturday I swam 1,500 m, then the family scouted the kindergarten. The photos show the rainy buildings and terrace of my old school. Dinner was churrasco in Shinagawa.",
-    "text_zh": "周六在泳池游了1,500米，然后全家去幼儿园预演。照片是雨中母校的楼和露台。晚上在品川吃了巴西烤肉。",
+    "title_en": "A month averaging 6 hours 45 minutes, and a night of 8 hours",
+    "title_zh": "平均6小时45分的一个月，和睡了8小时的夜晚",
+    "text_en": "I went for a massage with my wife and had ramen on the way home. Last night I slept 8 hours. The photo is my sleep app for Aug 18 to Sep 17, averaging 6 hours 45 minutes.",
+    "text_zh": "和妻子去做了按摩，回家路上吃了拉面。昨晚睡了8小时。照片是8月18日至9月17日的睡眠应用，平均6小时45分。",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin"
   },
@@ -652,6 +670,17 @@
   },
   "archive": [
     {
+      "date": "2026-10-26",
+      "label": "10.26（月）",
+      "total": 380324088,
+      "diff_pct": -0.4,
+      "memo": "26本×3言語 ｜ 売買なし ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "26 posts x 3 languages ｜ No trades ｜ 1 note ｜ 1 article",
+      "memo_zh": "26条×3种语言 ｜ 无交易 ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Oct 26 Mon",
+      "label_zh": "10.26 周一"
+    },
+    {
       "date": "2026-10-25",
       "label": "10.25（日）",
       "total": null,
@@ -774,6 +803,26 @@
     }
   ],
   "articles": [
+    {
+      "slug": "spacex-debt-vs-coreweave",
+      "date": "2026-10-26",
+      "image": "images/articles/spacex-debt-vs-coreweave/hero.jpg",
+      "category": "宇宙",
+      "category_en": "Space",
+      "category_zh": "航天",
+      "title": "SpaceXの400億ドルの借金は何%で借りられたのか。CoreWeaveの15%と並べる",
+      "title_en": "At what rate did SpaceX borrow $40 billion? Set against CoreWeave at 15%",
+      "title_zh": "SpaceX的400亿美元借款是以多少利率借到的？与CoreWeave的15%对照",
+      "lead": "10月25日、マスク氏はSpaceXがGPUを買うための400億ドルの借入を終えたとXに書いた。同じ10月、AIクラウドのCoreWeaveの社債は、利回りが一時15%に達した。 どちらもAIの計算力に向けた借金である。しかし、貸し手がつける値段はまったく違う。 この記事では、SpaceXの決算資料と米国の金利統計をもとに、SpaceXがどの水準で借りたのかを推定し、CoreWeaveと並べて「高いのか、安いのか」を確かめる。",
+      "lead_en": "On October 25, Musk wrote on X that SpaceX had closed $40 billion in borrowing to buy GPUs. In the same October, the bonds of the AI cloud company CoreWeave briefly yielded 15%. Both are debts aimed at AI computing power. Yet the price lenders put on them is completely different. In this article, from Japan, I use SpaceX's results and US interest-rate statistics to estimate the level at which SpaceX borrowed, set it beside CoreWeave, and check whether it is \"high or low.\"",
+      "lead_zh": "10月25日，马斯克在X上写道，SpaceX已完成用于购买GPU的400亿美元借款。同在10月，AI云公司CoreWeave的公司债收益率一度达到15%。 两者都是投向AI算力的借款。然而，放贷方给出的价格完全不同。 本文我在日本，依据SpaceX的财报资料和美国的利率统计，估计SpaceX的借款利率水平，并与CoreWeave对照，确认它是高还是低。",
+      "tags": [
+        "space",
+        "finance",
+        "ai",
+        "company"
+      ]
+    },
     {
       "slug": "megabank-core-systems",
       "date": "2026-10-25",
