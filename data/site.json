@@ -366,7 +366,7 @@
     "url_zh": "https://x.com/YUKICAPITALchin"
   },
   "media": {
-    "updated": "2026-10-26 20:54",
+    "updated": "2026-10-27 08:52",
     "impressions_month": null,
     "impressions_daily": [],
     "followers": [
@@ -390,7 +390,7 @@
         "name": "X 中文",
         "handle": "@YUKICAPITALchin",
         "url": "https://x.com/YUKICAPITALchin",
-        "count": 58,
+        "count": 59,
         "name_en": "X Chinese",
         "name_zh": "X 中文"
       },
@@ -409,44 +409,44 @@
           "name": "X 日本語",
           "name_en": "X Japanese",
           "name_zh": "X 日文",
-          "d7": 50308,
-          "d28": 139524
+          "d7": 51618,
+          "d28": 140834
         },
         {
           "name": "X English",
           "name_en": "X English",
           "name_zh": "X 英文",
-          "d7": 8657,
-          "d28": 25699
+          "d7": 8907,
+          "d28": 25949
         },
         {
           "name": "X 中文",
           "name_en": "X Chinese",
           "name_zh": "X 中文",
-          "d7": 11862,
-          "d28": 35944
+          "d7": 12401,
+          "d28": 36483
         },
         {
           "name": "note",
           "name_en": "note",
           "name_zh": "note",
-          "d7": 214,
-          "d28": 693
+          "d7": 215,
+          "d28": 694
         },
         {
           "name": "サイト",
           "name_en": "Site",
           "name_zh": "网站",
-          "d7": 229,
-          "d28": 229
+          "d7": 232,
+          "d28": 232
         }
       ],
-      "total_d7": 71270,
-      "total_d28": 202089
+      "total_d7": 73373,
+      "total_d28": 204192
     },
     "site": {
-      "visits_24h": 5,
-      "pv_24h": 9,
+      "visits_24h": 1,
+      "pv_24h": 6,
       "visits_7d": null
     },
     "daily": {
@@ -508,7 +508,7 @@
         8200,
         6090,
         5147,
-        6908
+        8218
       ],
       "x_en": [
         1369,
@@ -538,7 +538,7 @@
         1355,
         1423,
         733,
-        1289
+        1539
       ],
       "x_zh": [
         1579,
@@ -568,7 +568,7 @@
         1600,
         2199,
         1687,
-        1449
+        1988
       ],
       "note": [
         0,
@@ -598,79 +598,25 @@
         8,
         3,
         59,
-        35
+        36
       ]
     },
     "today": {
       "date": "2026-10-26",
-      "x_ja": 6908,
-      "x_en": 1289,
-      "x_zh": 1449,
-      "note": 35,
-      "site_visits_24h": 5,
-      "site_pv_24h": 9,
-      "at": "2026-10-26 20:54"
+      "x_ja": 8218,
+      "x_en": 1539,
+      "x_zh": 1988,
+      "note": 36,
+      "site_visits_24h": 1,
+      "site_pv_24h": 6,
+      "at": "2026-10-27 08:52"
     },
     "intraday": [
       {
-        "at": "2026-10-26 00:53",
-        "x": 5822,
-        "site_pv_24h": 17,
-        "site_visits_24h": 7
-      },
-      {
-        "at": "2026-10-26 01:53",
-        "x": 6207,
-        "site_pv_24h": 17,
-        "site_visits_24h": 7
-      },
-      {
-        "at": "2026-10-26 02:51",
-        "x": 6456,
-        "site_pv_24h": 17,
-        "site_visits_24h": 7
-      },
-      {
-        "at": "2026-10-26 03:51",
-        "x": 6623,
-        "site_pv_24h": 17,
-        "site_visits_24h": 7
-      },
-      {
-        "at": "2026-10-26 04:52",
-        "x": 6778,
-        "site_pv_24h": 17,
-        "site_visits_24h": 7
-      },
-      {
-        "at": "2026-10-26 05:52",
-        "x": 6897,
-        "site_pv_24h": 17,
-        "site_visits_24h": 7
-      },
-      {
-        "at": "2026-10-26 06:52",
-        "x": 7057,
-        "site_pv_24h": 17,
-        "site_visits_24h": 7
-      },
-      {
-        "at": "2026-10-26 07:53",
-        "x": 7304,
-        "site_pv_24h": 18,
-        "site_visits_24h": 8
-      },
-      {
-        "at": "2026-10-26 08:53",
-        "x": 7512,
-        "site_pv_24h": 15,
-        "site_visits_24h": 6
-      },
-      {
-        "at": "2026-10-26 20:54",
-        "x": 9646,
-        "site_pv_24h": 9,
-        "site_visits_24h": 5
+        "at": "2026-10-27 08:52",
+        "x": 11745,
+        "site_pv_24h": 6,
+        "site_visits_24h": 1
       }
     ]
   },
