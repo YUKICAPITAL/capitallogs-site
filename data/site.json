@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T13:30:00+09:00",
+  "updated": "2026-10-27T16:55:00+09:00",
   "profile": {
     "name": "YUKI CAPITAL",
     "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -16,38 +16,38 @@
     "note": "https://note.com/capitallogs"
   },
   "capital": {
-    "date": "2026-10-26",
-    "label": "10.26（月）",
-    "total": 380324088,
-    "diff": -1512048,
-    "diff_pct": -0.4,
-    "unreal": 48935898,
-    "unreal_pct": 14.98,
-    "cash": 4763497,
-    "cash_pct": 1.25,
-    "trade": "売買なし（IonQ 2,500株は10/23に30.89ドルで約定・10/27受渡）",
+    "date": "2026-10-27",
+    "label": "10.27（火）",
+    "total": 385958279,
+    "diff": 5634191,
+    "diff_pct": 1.48,
+    "unreal": 54624606,
+    "unreal_pct": 16.63,
+    "cash": 2951857,
+    "cash_pct": 0.76,
+    "trade": "RigettiとD-Waveを各500株（10/26約定・計1,500株ずつに）",
     "alloc": [
       {
         "name": "国内株",
-        "pct": 46.49,
+        "pct": 46.82,
         "name_en": "JP stocks",
         "name_zh": "日本股票"
       },
       {
         "name": "投信",
-        "pct": 26.99,
+        "pct": 26.71,
         "name_en": "Funds",
         "name_zh": "基金"
       },
       {
         "name": "外国株",
-        "pct": 25.27,
+        "pct": 25.69,
         "name_en": "Foreign stocks",
         "name_zh": "海外股票"
       },
       {
         "name": "現金",
-        "pct": 1.25,
+        "pct": 0.76,
         "name_en": "Cash",
         "name_zh": "现金"
       }
@@ -84,24 +84,28 @@
       {
         "date": "2026-10-26",
         "total": 380324088
+      },
+      {
+        "date": "2026-10-27",
+        "total": 385958279
       }
     ],
-    "label_en": "Oct 26 (Mon)",
-    "label_zh": "10.26（周一）",
-    "trade_en": "No trades (IonQ: 2,500 shares filled Oct 23 at $30.89, settling Oct 27)",
-    "trade_zh": "无交易（IonQ 2,500股于10/23以30.89美元成交，10/27交割）",
+    "label_en": "Oct 27 (Tue)",
+    "label_zh": "10.27（周二）",
+    "trade_en": "Bought 500 each of Rigetti and D-Wave (filled Oct 26; now 1,500 shares each)",
+    "trade_zh": "Rigetti与D-Wave各买入500股（10/26成交，各增至1,500股）",
     "week": {
-      "from": "2026-10-19",
-      "to": "2026-10-26",
-      "diff": -9064460,
-      "diff_pct": -2.33
+      "from": "2026-10-20",
+      "to": "2026-10-27",
+      "diff": -1931427,
+      "diff_pct": -0.5
     }
   },
   "conditions": [
     {
       "title": "SpaceX を +500株",
       "rule": "終値が 100ドルを割ったら",
-      "now": "144.75 ドル",
+      "now": "146.90 ドル",
       "status": "未達",
       "title_en": "Add 500 SpaceX",
       "rule_en": "if the close falls below $100",
@@ -109,13 +113,13 @@
       "title_zh": "SpaceX 加仓500股",
       "rule_zh": "收盘价跌破100美元时",
       "status_zh": "未达",
-      "now_en": "$144.75",
-      "now_zh": "144.75 美元"
+      "now_en": "$146.90",
+      "now_zh": "146.90 美元"
     },
     {
       "title": "IonQ を +500株",
       "rule": "25ドルを割ったら",
-      "now": "30.89 ドル（10/23 約定）",
+      "now": "30.76 ドル",
       "status": "未達",
       "title_en": "Add 500 IonQ",
       "rule_en": "if it falls below $25",
@@ -123,13 +127,13 @@
       "title_zh": "IonQ 加仓500股",
       "rule_zh": "跌破25美元时",
       "status_zh": "未达",
-      "now_en": "$30.89 (filled Oct 23)",
-      "now_zh": "30.89 美元（10/23成交）"
+      "now_en": "$30.76",
+      "now_zh": "30.76 美元"
     },
     {
       "title": "三井住友FG を買い増し",
       "rule": "3,000円が目安",
-      "now": "3,121 円",
+      "now": "3,187 円",
       "status": "未達",
       "title_en": "Add SMFG (8316)",
       "rule_en": "around ¥3,000 as the guide",
@@ -137,8 +141,8 @@
       "title_zh": "加仓三井住友FG",
       "rule_zh": "以3,000日元为目标",
       "status_zh": "未达",
-      "now_en": "¥3,121",
-      "now_zh": "3,121 日元"
+      "now_en": "¥3,187",
+      "now_zh": "3,187 日元"
     },
     {
       "title": "SpaceX の積み立て",
@@ -236,80 +240,86 @@
     },
     {
       "name": "QBTS",
-      "qty": "1,000",
+      "qty": "1,500",
       "name_en": "QBTS",
       "name_zh": "QBTS",
-      "qty_en": "1,000",
-      "qty_zh": "1,000"
+      "qty_en": "1,500",
+      "qty_zh": "1,500"
     },
     {
       "name": "RGTI",
-      "qty": "1,000",
+      "qty": "1,500",
       "name_en": "RGTI",
       "name_zh": "RGTI",
-      "qty_en": "1,000",
-      "qty_zh": "1,000"
+      "qty_en": "1,500",
+      "qty_zh": "1,500"
     }
   ],
   "posts": {
-    "date": "2026-10-26",
+    "date": "2026-10-27",
     "count": 26,
     "items": [
       {
-        "time": "10.26",
+        "time": "10.27",
         "kind": "判断",
-        "title": "AIのチキンレース、僕はフロント企業にしか投資しない",
+        "title": "赤字807億ドルのAnthropicに2兆ドル、僕はそれでも安いと見る",
         "url": "https://x.com/capitallogs",
         "impressions": null,
         "kind_en": "Judgment",
         "kind_zh": "判断",
-        "title_en": "The AI chicken race, and I invest in AI front-runners alone",
-        "title_zh": "AI的胆小鬼博弈，我只投资AI领跑企业",
+        "title_en": "Anthropic, with an $80.7 billion loss, at $2 trillion, and I still see it as cheap",
+        "title_zh": "亏损807亿美元的Anthropic估值2万亿美元，我仍认为便宜",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin"
       },
       {
-        "time": "10.26",
+        "time": "10.27",
         "kind": "日記",
-        "title": "6時間45分だった1か月と、8時間眠れた夜",
+        "title": "仕事とジムと1,500m、それから祖母の88歳の夜",
         "url": "https://x.com/capitallogs",
         "impressions": null,
         "kind_en": "Diary",
         "kind_zh": "日记",
-        "title_en": "A month averaging 6 hours 45 minutes, and a night of 8 hours",
-        "title_zh": "平均6小时45分的一个月，和睡了8小时的夜晚",
+        "title_en": "Work, the gym and 1,500m, then my grandmother's 88th birthday night",
+        "title_zh": "工作、健身房和1,500m，然后是祖母88岁的夜晚",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin"
       },
       {
-        "time": "10.26",
+        "time": "10.27",
         "kind": "長文",
-        "title": "銀座のビルが1,200億円から800億円、25年固定の賃料",
+        "title": "7階建てのホテルを建てた祖父と、米寿の祖母の涙",
         "url": "https://x.com/capitallogs",
         "impressions": null,
         "kind_en": "Long read",
         "kind_zh": "长文",
-        "title_en": "A Ginza building marked down by a third, and a 25-year fixed rent",
-        "title_zh": "银座大楼降价三成，25年固定的租金",
+        "title_en": "My grandfather who built a 7-story hotel, and my grandmother's tears at 88",
+        "title_zh": "建了7层酒店的祖父，与米寿祖母的眼泪",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin"
       },
       {
-        "time": "10.26",
+        "time": "10.27",
         "kind": "ニュース",
-        "title": "SpaceXの400億ドル債務、積み立ては再開しない",
+        "title": "Anthropic「ANT」で11月中旬上場へ、買い方は変えない",
         "url": "https://x.com/capitallogs",
         "impressions": null,
         "kind_en": "News",
         "kind_zh": "新闻",
-        "title_en": "SpaceX's $40 billion in debt, and I will not restart my monthly buying",
-        "title_zh": "SpaceX的400亿美元借款，我不恢复每月的买入",
+        "title_en": "Anthropic aims to list as \"ANT\" in mid-November, and my way of buying stays the same",
+        "title_zh": "Anthropic以“ANT”瞄准11月中旬上市，我的买法不变",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin"
       }
     ]
   },
   "note": [
+    {
+      "date": "2026-10-27",
+      "title": "上場前のAnthropicの目論見書を、個人投資家として読む順番",
+      "url": "https://note.com/capitallogs/n/n947934226120",
+      "image": "https://assets.st-note.com/production/uploads/images/329094071/rectangle_large_type_2_bcb158fec102b77e5b117b929d0bbd82.png?fit=bounds&quality=85&width=640"
+    },
     {
       "date": "2026-10-26",
       "title": "銀座のビルが3割安。25年固定の賃料と、金利が戻った世界の不動産の値段",
@@ -348,20 +358,20 @@
     }
   ],
   "diary": {
-    "date": "2026-10-26（月）",
-    "place": "目黒・学芸大学",
-    "title": "6時間45分だった1か月と、8時間眠れた夜",
-    "text": "妻とマッサージに行き、ラーメンを食べて帰った。昨夜は8時間眠れた。写真は8月18日〜9月17日の睡眠アプリで、平均6時間45分。",
-    "image": "https://raw.githubusercontent.com/YUKICAPITAL/x-images/main/images/2026-10-26_diary_011944.jpg",
+    "date": "2026-10-27（火）",
+    "place": "六本木",
+    "title": "仕事とジムと1,500m、それから祖母の88歳の夜",
+    "text": "朝に仕事をして、ジムで内もものトレーニングと1,500m。夜は北海道から来た祖母の88歳の誕生日会を家族9人で。写真はその夜のステーキ。",
+    "image": "https://raw.githubusercontent.com/YUKICAPITAL/x-images/main/images/2026-10-27_diary_071537.jpg",
     "url": "https://x.com/capitallogs",
-    "date_en": "Mon, Oct 26, 2026",
-    "date_zh": "2026.10.26（周一）",
-    "place_en": "Meguro / Gakugei-Daigaku",
-    "place_zh": "目黑·学艺大学",
-    "title_en": "A month averaging 6 hours 45 minutes, and a night of 8 hours",
-    "title_zh": "平均6小时45分的一个月，和睡了8小时的夜晚",
-    "text_en": "I went for a massage with my wife and had ramen on the way home. Last night I slept 8 hours. The photo is my sleep app for Aug 18 to Sep 17, averaging 6 hours 45 minutes.",
-    "text_zh": "和妻子去做了按摩，回家路上吃了拉面。昨晚睡了8小时。照片是8月18日至9月17日的睡眠应用，平均6小时45分。",
+    "date_en": "Tue, Oct 27, 2026",
+    "date_zh": "2026.10.27（周二）",
+    "place_en": "Roppongi",
+    "place_zh": "六本木",
+    "title_en": "Work, the gym and 1,500m, then my grandmother's 88th birthday night",
+    "title_zh": "工作、健身房和1,500m，然后是祖母88岁的夜晚",
+    "text_en": "Work in the morning, then inner-thigh training and 1,500m at the gym. In the evening, 9 of us in the family celebrated my grandmother's 88th birthday; she came from Hokkaido. The photo is that night's steak.",
+    "text_zh": "上午工作，下午在健身房练大腿内侧并游了1,500m。晚上一家9人为从北海道来的祖母庆祝88岁生日。照片是那晚的牛排。",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin"
   },
@@ -622,6 +632,17 @@
   },
   "archive": [
     {
+      "date": "2026-10-27",
+      "label": "10.27（火）",
+      "total": 385958279,
+      "diff_pct": 1.48,
+      "memo": "26本×3言語 ｜ Rigetti・D-Wave 各500株 ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "26 posts x 3 languages ｜ Bought 500 each of Rigetti and D-Wave ｜ 1 note ｜ 1 article",
+      "memo_zh": "26条×3种语言 ｜ Rigetti、D-Wave各500股 ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Oct 27 Tue",
+      "label_zh": "10.27 周二"
+    },
+    {
       "date": "2026-10-26",
       "label": "10.26（月）",
       "total": 380324088,
@@ -755,6 +776,26 @@
     }
   ],
   "articles": [
+    {
+      "slug": "anthropic-openai-ipo-valuation",
+      "date": "2026-10-27",
+      "image": "images/articles/anthropic-openai-ipo-valuation/hero.jpg",
+      "category": "AI",
+      "category_en": "AI",
+      "category_zh": "AI",
+      "title": "AnthropicとOpenAIの上場は成功するか――企業価値とソフトバンクグループへの影響を数字で検証する",
+      "title_en": "Will the Anthropic and OpenAI IPOs succeed? Testing valuation and the impact on SoftBank Group with numbers",
+      "title_zh": "Anthropic与OpenAI的上市能否成功——用数字检验企业价值及对软银集团的影响",
+      "lead": "2026年10月26日、AnthropicがSEC（米証券取引委員会）にS-1（上場届出書）を公開提出し、ナスダックでの上場手続きが具体的に動き始めた。 本稿の問いは「評価額1.5兆〜2.0兆ドルは、どれだけの売上成長を前提にしているか。そしてOpenAIの評価額が上下したとき、ソフトバンクグループの純資産価値はどれだけ動くか」である。 上場の「成功」を初値ではなく、数年後の株価が上場時の評価を正当化できるかという意味で定義し、一次資料と学術データから確かめる。",
+      "lead_en": "On October 26, 2026, Anthropic publicly filed its S-1 registration statement with the U.S. Securities and Exchange Commission, setting its Nasdaq listing process in motion. The question here is: \"How much revenue growth does a $1.5–2.0 trillion valuation assume, and how much does SoftBank Group's net asset value move when OpenAI's valuation rises or falls?\" I define IPO \"success\" not by the first-day pop but by whether the share price a few years later justifies the listing valuation, and check it against primary filings and academic data.",
+      "lead_zh": "2026年10月26日，Anthropic向美国证券交易委员会（SEC）公开提交了S-1上市注册文件，在纳斯达克上市的程序正式启动。 本文的问题是：“1.5万亿至2.0万亿美元的估值以多大的收入增长为前提？OpenAI估值涨跌时，软银集团的净资产价值会变动多少？” 本文不以首日涨幅，而以数年后的股价能否支撑上市时的估值来定义上市“成功”，并用一手资料和学术数据加以检验。",
+      "tags": [
+        "ai",
+        "markets",
+        "company",
+        "finance"
+      ]
+    },
     {
       "slug": "spacex-debt-vs-coreweave",
       "date": "2026-10-26",
