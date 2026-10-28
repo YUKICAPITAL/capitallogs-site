@@ -386,7 +386,7 @@
     "url_zh": "https://x.com/YUKICAPITALchin"
   },
   "media": {
-    "updated": "2026-10-28 08:52",
+    "updated": "2026-10-28 20:55",
     "impressions_month": null,
     "impressions_daily": [],
     "followers": [
@@ -394,7 +394,7 @@
         "name": "X 日本語",
         "handle": "@capitallogs",
         "url": "https://x.com/capitallogs",
-        "count": 159,
+        "count": 160,
         "name_en": "X Japanese",
         "name_zh": "X 日文"
       },
@@ -402,7 +402,7 @@
         "name": "X English",
         "handle": "@YUKICAPITALen",
         "url": "https://x.com/YUKICAPITALen",
-        "count": 90,
+        "count": 91,
         "name_en": "X English",
         "name_zh": "X 英文"
       },
@@ -429,49 +429,48 @@
           "name": "X 日本語",
           "name_en": "X Japanese",
           "name_zh": "X 日文",
-          "d7": 56123,
-          "d28": 142719
+          "d7": 57599,
+          "d28": 148812
         },
         {
           "name": "X English",
           "name_en": "X English",
           "name_zh": "X 英文",
-          "d7": 9627,
-          "d28": 26308
+          "d7": 10107,
+          "d28": 27729
         },
         {
           "name": "X 中文",
           "name_en": "X Chinese",
           "name_zh": "X 中文",
-          "d7": 13010,
-          "d28": 37219
+          "d7": 13449,
+          "d28": 38452
         },
         {
           "name": "note",
           "name_en": "note",
           "name_zh": "note",
-          "d7": 175,
-          "d28": 696
+          "d7": 239,
+          "d28": 799
         },
         {
           "name": "サイト",
           "name_en": "Site",
           "name_zh": "网站",
-          "d7": 130,
-          "d28": 210
+          "d7": 128,
+          "d28": 250
         }
       ],
-      "total_d7": 79065,
-      "total_d28": 207152
+      "total_d7": 81522,
+      "total_d28": 216042
     },
     "site": {
-      "visits_24h": 5,
-      "pv_24h": 11,
+      "visits_24h": 14,
+      "pv_24h": 31,
       "visits_7d": null
     },
     "daily": {
       "dates": [
-        "2026-09-30",
         "2026-10-01",
         "2026-10-02",
         "2026-10-03",
@@ -498,10 +497,10 @@
         "2026-10-24",
         "2026-10-25",
         "2026-10-26",
-        "2026-10-27"
+        "2026-10-27",
+        "2026-10-28"
       ],
       "x_ja": [
-        1735,
         969,
         598,
         496,
@@ -528,10 +527,10 @@
         6090,
         5147,
         8230,
-        10444
+        10468,
+        7804
       ],
       "x_en": [
-        307,
         170,
         137,
         85,
@@ -558,10 +557,10 @@
         1423,
         733,
         1541,
-        1726
+        1727,
+        1727
       ],
       "x_zh": [
-        653,
         572,
         590,
         455,
@@ -588,10 +587,10 @@
         2199,
         1687,
         1994,
-        2309
+        2312,
+        1883
       ],
       "note": [
-        0,
         0,
         0,
         0,
@@ -618,18 +617,19 @@
         3,
         59,
         36,
-        2
+        2,
+        103
       ]
     },
     "today": {
-      "date": "2026-10-27",
-      "x_ja": 10444,
-      "x_en": 1726,
-      "x_zh": 2309,
-      "note": 2,
-      "site_visits_24h": 5,
-      "site_pv_24h": 11,
-      "at": "2026-10-28 08:52"
+      "date": "2026-10-28",
+      "x_ja": 7804,
+      "x_en": 1727,
+      "x_zh": 1883,
+      "note": 103,
+      "site_visits_24h": 14,
+      "site_pv_24h": 31,
+      "at": "2026-10-28 20:55"
     },
     "intraday": [
       {
@@ -637,6 +637,12 @@
         "x": 14479,
         "site_pv_24h": 11,
         "site_visits_24h": 5
+      },
+      {
+        "at": "2026-10-28 20:55",
+        "x": 11414,
+        "site_pv_24h": 31,
+        "site_visits_24h": 14
       }
     ]
   },
