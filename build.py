@@ -4,6 +4,7 @@
 import re, os, pathlib
 ROOT = pathlib.Path(__file__).parent
 src = (ROOT / 'index.html').read_text(encoding='utf-8')
+assert not any(m in src for m in ('<<<<<<<','>>>>>>>')), 'index.html に衝突の印が残っている'
 import time
 ver = time.strftime('%Y%m%d%H%M')
 src = re.sub(r'\?v=(VER|\d+)', '?v=' + ver, src)
