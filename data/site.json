@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T16:55:00+09:00",
+  "updated": "2026-10-28T14:10:00+09:00",
   "profile": {
     "name": "YUKI CAPITAL",
     "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -16,32 +16,32 @@
     "note": "https://note.com/capitallogs"
   },
   "capital": {
-    "date": "2026-10-27",
-    "label": "10.27（火）",
-    "total": 385958279,
-    "diff": 5634191,
-    "diff_pct": 1.48,
-    "unreal": 54624606,
-    "unreal_pct": 16.63,
+    "date": "2026-10-28",
+    "label": "10.28（水）",
+    "total": 386052690,
+    "diff": 94411,
+    "diff_pct": 0.02,
+    "unreal": 54646642,
+    "unreal_pct": 16.64,
     "cash": 2951857,
     "cash_pct": 0.76,
-    "trade": "RigettiとD-Waveを各500株（10/26約定・計1,500株ずつに）",
+    "trade": "売買なし",
     "alloc": [
       {
         "name": "国内株",
-        "pct": 46.82,
+        "pct": 46.66,
         "name_en": "JP stocks",
         "name_zh": "日本股票"
       },
       {
         "name": "投信",
-        "pct": 26.71,
+        "pct": 26.77,
         "name_en": "Funds",
         "name_zh": "基金"
       },
       {
         "name": "外国株",
-        "pct": 25.69,
+        "pct": 25.8,
         "name_en": "Foreign stocks",
         "name_zh": "海外股票"
       },
@@ -88,17 +88,21 @@
       {
         "date": "2026-10-27",
         "total": 385958279
+      },
+      {
+        "date": "2026-10-28",
+        "total": 386052690
       }
     ],
-    "label_en": "Oct 27 (Tue)",
-    "label_zh": "10.27（周二）",
-    "trade_en": "Bought 500 each of Rigetti and D-Wave (filled Oct 26; now 1,500 shares each)",
-    "trade_zh": "Rigetti与D-Wave各买入500股（10/26成交，各增至1,500股）",
+    "label_en": "Oct 28 (Wed)",
+    "label_zh": "10.28（周三）",
+    "trade_en": "No trades",
+    "trade_zh": "无交易",
     "week": {
-      "from": "2026-10-20",
-      "to": "2026-10-27",
-      "diff": -1931427,
-      "diff_pct": -0.5
+      "from": "2026-10-21",
+      "to": "2026-10-28",
+      "diff": -2134626,
+      "diff_pct": -0.55
     }
   },
   "conditions": [
@@ -133,7 +137,7 @@
     {
       "title": "三井住友FG を買い増し",
       "rule": "3,000円が目安",
-      "now": "3,187 円",
+      "now": "3,164 円",
       "status": "未達",
       "title_en": "Add SMFG (8316)",
       "rule_en": "around ¥3,000 as the guide",
@@ -141,8 +145,8 @@
       "title_zh": "加仓三井住友FG",
       "rule_zh": "以3,000日元为目标",
       "status_zh": "未达",
-      "now_en": "¥3,187",
-      "now_zh": "3,187 日元"
+      "now_en": "¥3,164",
+      "now_zh": "3,164 日元"
     },
     {
       "title": "SpaceX の積み立て",
@@ -256,64 +260,70 @@
     }
   ],
   "posts": {
-    "date": "2026-10-27",
+    "date": "2026-10-28",
     "count": 26,
     "items": [
       {
-        "time": "10.27",
-        "kind": "判断",
-        "title": "赤字807億ドルのAnthropicに2兆ドル、僕はそれでも安いと見る",
         "url": "https://x.com/capitallogs",
+        "url_en": "https://x.com/YUKICAPITALen",
+        "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
+        "time": "10.28",
+        "kind": "判断",
         "kind_en": "Judgment",
         "kind_zh": "判断",
-        "title_en": "Anthropic, with an $80.7 billion loss, at $2 trillion, and I still see it as cheap",
-        "title_zh": "亏损807亿美元的Anthropic估值2万亿美元，我仍认为便宜",
-        "url_en": "https://x.com/YUKICAPITALen",
-        "url_zh": "https://x.com/YUKICAPITALchin"
+        "title": "サイバー株が買われる週に、僕はAIを作る会社だけを持つ",
+        "title_en": "In a week when cyber stocks are bought, I hold only companies that build AI",
+        "title_zh": "网络安全股被追捧的一周，我只持有开发AI的公司"
       },
       {
-        "time": "10.27",
-        "kind": "日記",
-        "title": "仕事とジムと1,500m、それから祖母の88歳の夜",
         "url": "https://x.com/capitallogs",
+        "url_en": "https://x.com/YUKICAPITALen",
+        "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
+        "time": "10.28",
+        "kind": "日記",
         "kind_en": "Diary",
         "kind_zh": "日记",
-        "title_en": "Work, the gym and 1,500m, then my grandmother's 88th birthday night",
-        "title_zh": "工作、健身房和1,500m，然后是祖母88岁的夜晚",
-        "url_en": "https://x.com/YUKICAPITALen",
-        "url_zh": "https://x.com/YUKICAPITALchin"
+        "title": "37度1分の日、祖母の食事会に行けなかった夜",
+        "title_en": "At 37.1°C, the night I could not join my grandmother's dinner",
+        "title_zh": "体温37.1度的那天，没能去祖母聚餐的夜晚"
       },
       {
-        "time": "10.27",
-        "kind": "長文",
-        "title": "7階建てのホテルを建てた祖父と、米寿の祖母の涙",
         "url": "https://x.com/capitallogs",
+        "url_en": "https://x.com/YUKICAPITALen",
+        "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
+        "time": "10.28",
+        "kind": "長文",
         "kind_en": "Long read",
         "kind_zh": "长文",
-        "title_en": "My grandfather who built a 7-story hotel, and my grandmother's tears at 88",
-        "title_zh": "建了7层酒店的祖父，与米寿祖母的眼泪",
-        "url_en": "https://x.com/YUKICAPITALen",
-        "url_zh": "https://x.com/YUKICAPITALchin"
+        "title": "子どもが株主の法人を、先月、父と相談して立ち上げた",
+        "title_en": "Last month, after talking with my father, I set up a company owned by my children",
+        "title_zh": "上个月，我和父亲商量后成立了一家由孩子持股的法人"
       },
       {
-        "time": "10.27",
-        "kind": "ニュース",
-        "title": "Anthropic「ANT」で11月中旬上場へ、買い方は変えない",
         "url": "https://x.com/capitallogs",
+        "url_en": "https://x.com/YUKICAPITALen",
+        "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
+        "time": "10.28",
+        "kind": "ニュース",
         "kind_en": "News",
         "kind_zh": "新闻",
-        "title_en": "Anthropic aims to list as \"ANT\" in mid-November, and my way of buying stays the same",
-        "title_zh": "Anthropic以“ANT”瞄准11月中旬上市，我的买法不变",
-        "url_en": "https://x.com/YUKICAPITALen",
-        "url_zh": "https://x.com/YUKICAPITALchin"
+        "title": "アルファベット決算は今夜、僕が見るのは明日の朝",
+        "title_en": "Alphabet reports tonight; I will look tomorrow morning",
+        "title_zh": "Alphabet财报今夜公布，我明早再看"
       }
     ]
   },
   "note": [
+    {
+      "date": "2026-10-28",
+      "title": "イベントが1週間に4つ重なる週、口座で「しないこと」を先に決めておく",
+      "url": "https://note.com/capitallogs/n/n31b31576746a",
+      "image": "https://assets.st-note.com/production/uploads/images/329415300/rectangle_large_type_2_4250f674e811f1cf4e47c5072ceab780.png?fit=bounds&quality=85&width=640"
+    },
     {
       "date": "2026-10-27",
       "title": "上場前のAnthropicの目論見書を、個人投資家として読む順番",
@@ -358,20 +368,20 @@
     }
   ],
   "diary": {
-    "date": "2026-10-27（火）",
-    "place": "六本木",
-    "title": "仕事とジムと1,500m、それから祖母の88歳の夜",
-    "text": "朝に仕事をして、ジムで内もものトレーニングと1,500m。夜は北海道から来た祖母の88歳の誕生日会を家族9人で。写真はその夜のステーキ。",
-    "image": "https://raw.githubusercontent.com/YUKICAPITAL/x-images/main/images/2026-10-27_diary_071537.jpg",
+    "date": "2026-10-28（水）",
+    "place": "自宅",
+    "title": "37度1分の日、祖母の食事会に行けなかった夜",
+    "text": "喉の痛みと37度1分の熱で会社を休んだ。夕方に税理士との打ち合わせを1件だけ。夜の家族の食事会は休み、届いた写真でみんなの笑顔を見た。",
+    "image": "",
     "url": "https://x.com/capitallogs",
-    "date_en": "Tue, Oct 27, 2026",
-    "date_zh": "2026.10.27（周二）",
-    "place_en": "Roppongi",
-    "place_zh": "六本木",
-    "title_en": "Work, the gym and 1,500m, then my grandmother's 88th birthday night",
-    "title_zh": "工作、健身房和1,500m，然后是祖母88岁的夜晚",
-    "text_en": "Work in the morning, then inner-thigh training and 1,500m at the gym. In the evening, 9 of us in the family celebrated my grandmother's 88th birthday; she came from Hokkaido. The photo is that night's steak.",
-    "text_zh": "上午工作，下午在健身房练大腿内侧并游了1,500m。晚上一家9人为从北海道来的祖母庆祝88岁生日。照片是那晚的牛排。",
+    "date_en": "Wed, Oct 28, 2026",
+    "date_zh": "2026.10.28（周三）",
+    "place_en": "Home",
+    "place_zh": "家中",
+    "title_en": "At 37.1°C, the night I could not join my grandmother's dinner",
+    "title_zh": "体温37.1度的那天，没能去祖母聚餐的夜晚",
+    "text_en": "A sore throat and a 37.1°C fever kept me home from work. One meeting with a tax accountant in the evening. I skipped the family dinner and saw everyone smiling in the photos they sent.",
+    "text_zh": "因为喉咙痛和37.1度的低烧，我向公司请了假。傍晚只开了一个与税务师的会。晚上的家庭聚餐没有去，从发来的照片里看到了大家的笑容。",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin"
   },
@@ -632,6 +642,17 @@
   },
   "archive": [
     {
+      "date": "2026-10-28",
+      "label": "10.28（水）",
+      "total": 386052690,
+      "diff_pct": 0.02,
+      "memo": "26本×3言語 ｜ 売買なし ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "26 posts x 3 languages ｜ No trades ｜ 1 note ｜ 1 article",
+      "memo_zh": "26条×3种语言 ｜ 无交易 ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Oct 28 Wed",
+      "label_zh": "10.28 周三"
+    },
+    {
       "date": "2026-10-27",
       "label": "10.27（火）",
       "total": 385958279,
@@ -776,6 +797,25 @@
     }
   ],
   "articles": [
+    {
+      "slug": "waymo-tesla-autonomy",
+      "date": "2026-10-28",
+      "image": "images/articles/waymo-tesla-autonomy/hero.jpg",
+      "category": "テクノロジー",
+      "category_en": "Technology",
+      "category_zh": "科技",
+      "title": "Waymoとテスラ、自動運転の覇権を分けるのは安全の実績か量産の台数か",
+      "title_en": "Waymo and Tesla: will safety records or production volume decide autonomous-driving dominance?",
+      "title_zh": "Waymo与特斯拉：决定自动驾驶主导权的是安全记录还是量产规模？",
+      "lead": "Waymoとテスラ、自動運転の覇権を分けるのは「無人で走った距離」か「つくれる台数」か。本稿はこの問いを、公表値で確かめられる範囲に限って検討する。 両社は同じ「ロボタクシー」を目指しながら、センサーの選び方も、地図への依存度も、車両をどう調達するかも大きく異なる。 一次資料の数字と、前提を明示した簡単な試算、その感度分析を通じて、どちらの道筋がどの条件で有利になるのかを整理したい。",
+      "lead_en": "Waymo and Tesla: will dominance in autonomous driving be decided by \"miles driven without a driver\" or by \"how many vehicles can be built\"? This article examines that question only as far as published figures allow. Both companies are pursuing the same goal, the robotaxi, yet they differ sharply in sensor choice, reliance on maps, and how they source vehicles. Using figures from primary sources, a simple estimate with explicit premises, and a sensitivity analysis, it sets out which path is favored under which conditions.",
+      "lead_zh": "Waymo与特斯拉，决定自动驾驶主导权的究竟是“无人驾驶的里程”，还是“能够制造的车辆数量”？本文仅在公开数据可以核实的范围内讨论这一问题。 两家公司追求的都是“自动驾驶出租车”，但在传感器选择、对地图的依赖程度以及车辆来源方面差异显著。 本文通过一手资料中的数据、前提明确的简单估算及其敏感性分析，梳理哪条路径在何种条件下更具优势。",
+      "tags": [
+        "tech",
+        "ai",
+        "company"
+      ]
+    },
     {
       "slug": "anthropic-openai-ipo-valuation",
       "date": "2026-10-27",

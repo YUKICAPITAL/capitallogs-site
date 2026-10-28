@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Waymo与特斯拉：决定自动驾驶主导权的是安全记录还是量产规模？｜YUKI CAPITAL</title>
+<meta name="description" content="Waymo与特斯拉，决定自动驾驶主导权的究竟是“无人驾驶的里程”，还是“能够制造的车辆数量”？本文仅在公开数据可以核实的范围内讨论这一问题。 两家公司追求的都是“自动驾驶出租车”，但在传感器选择、对地图的依赖程度以及车辆来源方面差异显著。 本文通过一手资料中的数据、前提明确的简单估算及其敏感性分析，梳理哪条路径在何种条件下更具优势。">
+<meta property="og:title" content="Waymo与特斯拉：决定自动驾驶主导权的是安全记录还是量产规模？">
+<meta property="og:description" content="Waymo与特斯拉，决定自动驾驶主导权的究竟是“无人驾驶的里程”，还是“能够制造的车辆数量”？本文仅在公开数据可以核实的范围内讨论这一问题。 两家公司追求的都是“自动驾驶出租车”，但在传感器选择、对地图的依赖程度以及车辆来源方面差异显著。 本文通过一手资料中的数据、前提明确的简单估算及其敏感性分析，梳理哪条路径在何种条件下更具优势。">
+<meta property="og:image" content="https://raw.githubusercontent.com/YUKICAPITAL/capitallogs-site/main/images/articles/waymo-tesla-autonomy/hero.jpg">
+<meta property="og:url" content="http://yuki-capital.com/zh/articles/waymo-tesla-autonomy/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@capitallogs">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/YUKICAPITAL/capitallogs-site/main/images/articles/waymo-tesla-autonomy/hero.jpg">
+<meta property="og:type" content="article">
+<link rel="icon" href="../../../favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="../../../images/apple-touch-icon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../../../assets/style.css">
+<style>
+.art{max-width:760px;margin:0 auto;padding:24px 0 48px}
+.art .meta{display:flex;gap:10px;align-items:center;font-size:12px;color:var(--muted)}
+.art h1{font-size:26px;line-height:1.45;margin:12px 0 16px}
+.art .lead{font-size:15px;line-height:1.9;color:var(--ink2);border-left:3px solid var(--accent);padding-left:14px;margin:0 0 20px}
+.art .lead p{margin:0}
+.art .card{padding:24px}
+.art h2{font-size:19px;margin:32px 0 12px;padding-top:4px}
+.art h2:first-child{margin-top:0}
+.art p{font-size:15.5px;line-height:2;margin:0 0 14px}
+.art figure{margin:20px 0;}
+.art figure img{width:100%;border-radius:12px;background:#fff}
+.art figcaption{font-size:12px;color:var(--muted);margin-top:6px;line-height:1.6}
+.art .hero img{border-radius:18px;aspect-ratio:16/9;object-fit:cover;width:100%}
+.art .tbl{overflow-x:auto;margin:12px 0 16px}
+.art table{border-collapse:collapse;font-size:13px;min-width:640px;width:100%}
+.art th,.art td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+.art th{background:var(--accent-soft);font-weight:700}
+.art ol.src{font-size:12.5px;line-height:1.8;padding-left:18px;word-break:break-all}
+.art ol.src a{color:var(--accent)}
+.art .cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.langsw{display:flex;gap:8px;font-size:12px}.langsw a{padding:4px 10px;border-radius:999px;background:var(--card)}.langsw a.on{background:var(--dark);color:#fff}
+@media(max-width:600px){.art h1{font-size:21px}.art .card{padding:18px}}
+</style>
+</head>
+<body>
+<header class="site-header"><div class="wrap">
+<a href="../../../zh/" class="brand"><img class="avatar" src="../../../images/icon.png" alt=""><span>YUKI CAPITAL</span></a>
+<nav class="nav"><a href="../../../zh/articles/" class="primary">文章</a><a href="../../../zh/#capital">今日资本</a><a href="../../../zh/archive/">每日记录</a><a href="../../../zh/#diary">日记</a><a href="../../../zh/about/">关于</a></nav>
+<div class="hdr-actions"><a class="x" href="https://x.com/capitallogs" aria-label="X"><svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 3h3l-7.3 8.3L21.8 21h-6.6l-4.6-6-5.3 6H2.3l7.8-8.9L2 3h6.7l4.2 5.5L17.5 3zm-1.1 16.2h1.8L7.7 4.7H5.8l10.6 14.5z"/></svg></a><a class="note" href="https://note.com/capitallogs">note</a></div>
+</div></header>
+<main class="wrap"><article class="art">
+<div class="meta"><span class="chip">科技</span><span class="chip">AI</span><span class="chip">企业分析</span><span class="num">2026年10月28日</span><span class="langsw" style="margin-left:auto"><a href="../../../articles/waymo-tesla-autonomy/" data-setlang="ja">日本語</a><a href="../../../en/articles/waymo-tesla-autonomy/" data-setlang="en">EN</a><a href="../../../zh/articles/waymo-tesla-autonomy/" data-setlang="zh" class="on">中文</a></span></div>
+<h1>Waymo与特斯拉：决定自动驾驶主导权的是安全记录还是量产规模？</h1>
+<div class="lead"><p>Waymo与特斯拉，决定自动驾驶主导权的究竟是“无人驾驶的里程”，还是“能够制造的车辆数量”？本文仅在公开数据可以核实的范围内讨论这一问题。</p><p>两家公司追求的都是“自动驾驶出租车”，但在传感器选择、对地图的依赖程度以及车辆来源方面差异显著。</p><p>本文通过一手资料中的数据、前提明确的简单估算及其敏感性分析，梳理哪条路径在何种条件下更具优势。</p></div>
+<figure class="hero"><img src="../../../images/articles/waymo-tesla-autonomy/hero.jpg" alt="行驶在旧金山坡道上的汽车"><figcaption>行驶在旧金山坡道上的汽车</figcaption></figure>
+<div class="card">
+<h2>问题与背景</h2>
+<p>自动驾驶的等级通常依据国际通行的SAE J3016定义来讨论[1]。SAE 4级是指在规定的运行条件范围内，系统承担全部驾驶任务，且不要求人类响应接管请求的阶段。与之相对，2级辅助加减速与转向，但需要人类始终监控[1]。特斯拉的“FSD（Supervised）”正如其名称所示，是以监控为前提的2级驾驶辅助。</p>
+<p>Waymo的方案是叠加多种传感器。激光雷达（LiDAR）是一种向周围发射激光、根据反射返回的时间以三维方式测量与物体距离的传感器。第六代Waymo Driver配备13个摄像头、4个激光雷达和6个毫米波雷达，并称成本较上一代大幅下降[2]。此外，Waymo一直采用高精地图（HD地图），即以厘米级精度记录车道和标志位置的地图，并按运营区域逐一制作。</p>
+<p>特斯拉的方案以摄像头图像为主要输入，通过端到端学习构建驾驶行为。端到端是指不再用各自独立的规则组合感知、决策与控制，而是让单一神经网络学习从输入到驾驶操作的全过程。其优势被认为在于传感器成本低，且可以直接使用自有工厂大量生产的车辆。</p>
+<p>从公开的规模数据看，Alphabet于2026年4月表示，Waymo每周的完全自动驾驶乘车次数已超过50万次[3]。Waymo于2026年9月在美国第15个城市开通服务，并于10月宣布50亿美元（约335.86亿元人民币）的定期贷款[4]。特斯拉在2026年第二季度资料中列出了在美国7个都市圈运营的自动驾驶出租车，其中旧金山湾区配有安全驾驶员[5]。第三季度资料显示，Cybercab已开始生产，得克萨斯工厂的年产能超过12.5万辆[6]。</p>
+<h2>数据与方法</h2>
+<p>所用数据及处理方式如下。Waymo的无人驾驶里程采用其安全数据公开页面中截至2026年6月底的“仅乘客（无驾驶员）”累计2.713亿英里[7]。特斯拉的无人驾驶里程采用第三季度资料中“自动驾驶出租车无监督累计里程接近200万英里”的表述[6]。里程之比为271.3÷2.0，约为136倍。</p>
+<p>安全性方面，参考了Waymo的公开数据与同行评审论文。Waymo页面显示，与人类驾驶相比，重伤及以上事故减少95%，安全气囊弹出事故与致伤事故各减少82%[7]。一篇于2025年被学术期刊接收的论文报告，在5670万英里时，路口车辆之间的致伤事故减少96%[8]。关于特斯拉，本次未能核实将其自动驾驶出租车事故率与人类驾驶进行比较的公开数据。</p>
+<p>估算考察的是：以与Waymo贷款额相同的50亿美元预算，各公司能够部署多少辆车。两家公司均未公布单车成本，因此以下为笔者的假设。基准情形中，含传感器的Waymo车辆设为每辆15万美元，Cybercab设为每辆3.5万美元。公式如下：</p>
+<p>部署车辆数＝预算÷单车成本</p>
+<p>每英里车辆折旧＝单车成本÷全生命周期里程</p>
+<p>年乘车次数＝部署车辆数×单车每周乘车次数×52</p>
+<p>单车每周乘车次数以每周50万次[3]除以报道中约4000辆的车队规模[13]，约为125次。由于车队规模无法在一手资料中核实，该数值仅供参考。</p>
+<h2>结果</h2>
+<p>基准情形下，50亿美元可使Waymo部署约33,333辆车，特斯拉约142,857辆，差距约4.3倍。若全生命周期里程为30万英里，每英里车辆折旧Waymo为0.50美元，特斯拉约为0.12美元。若单车每周运营125次，年乘车次数Waymo约为2.1667亿次，特斯拉约为9.2857亿次。</p>
+<figure><img src="../../../images/articles/waymo-tesla-autonomy/chart-metrics-zh.png" alt="图1　Waymo与特斯拉的主要指标。出处见表格。图表由YUKI CAPITAL制作" loading="lazy"><figcaption>图1　Waymo与特斯拉的主要指标。出处见表格。图表由YUKI CAPITAL制作</figcaption></figure>
+<div class="tbl"><table><thead><tr><th>指标</th><th>Waymo</th><th>特斯拉</th><th>资料来源</th></tr></thead><tbody><tr><td>无人驾驶累计里程</td><td>2.713亿英里（2026年6月底）</td><td>约200万英里（2026年9月底）</td><td>[7][6]</td></tr><tr><td>美国服务城市数</td><td>15个城市</td><td>7个都市圈（其中1个配有安全驾驶员）</td><td>[4][5]</td></tr><tr><td>每周乘车次数</td><td>超过50万次（2026年4月）</td><td>未公布</td><td>[3]</td></tr><tr><td>车辆供给</td><td>车队约4000辆（报道）</td><td>Cybercab年产能超过12.5万辆</td><td>[13][6]</td></tr><tr><td>50亿美元可部署车辆（基准情形）</td><td>约33,333辆</td><td>约142,857辆</td><td>笔者估算</td></tr></tbody></table></div>
+<p>由此可见，两项指标指向相反方向。在实绩积累上，Waymo领先两个数量级以上；在量产与单车成本上，特斯拉的结构更为有利。</p>
+<h2>敏感性分析</h2>
+<p>将前提沿三个方向调整，检验结论的变动幅度。</p>
+<p>第一是单车成本差距。差距较小情形（Waymo 10万美元，特斯拉5万美元）下车辆数差距为2.0倍，基准情形为4.3倍，差距较大情形（Waymo 20万美元，特斯拉3万美元）为6.7倍。</p>
+<p>第二是全生命周期里程。20万英里时，Waymo为0.75美元，特斯拉为0.175美元；40万英里时，Waymo为0.375美元，特斯拉为0.0875美元。无论里程如何，单车成本之比都原样保留。</p>
+<p>第三是运营强度。将单车每周乘车次数设为75次、125次和175次，50亿美元车辆带来的年乘车次数，Waymo分别为1.3亿次、2.1667亿次和3.0333亿次，特斯拉分别为5.5714亿次、9.2857亿次和13亿次。</p>
+<div class="tbl"><table><thead><tr><th>调整的前提</th><th>低情形</th><th>基准情形</th><th>高情形</th></tr></thead><tbody><tr><td>单车成本组合（W/T）</td><td>10万/5万美元：2.0倍</td><td>15万/3.5万美元：4.3倍</td><td>20万/3万美元：6.7倍</td></tr><tr><td>全生命周期里程</td><td>20万英里：W 0.75/T 0.175美元</td><td>30万英里：W 0.50/T 0.117美元</td><td>40万英里：W 0.375/T 0.0875美元</td></tr><tr><td>每周运营（年乘车次数）</td><td>75次：W 1.30亿/T 5.57亿次</td><td>125次：W 2.17亿/T 9.29亿次</td><td>175次：W 3.03亿/T 13.0亿次</td></tr></tbody></table></div>
+<figure><img src="../../../images/articles/waymo-tesla-autonomy/chart-sensitivity-zh.png" alt="图2　敏感性分析：50亿美元可部署的车辆数与每英里车辆折旧。笔者估算" loading="lazy"><figcaption>图2　敏感性分析：50亿美元可部署的车辆数与每英里车辆折旧。笔者估算</figcaption></figure>
+<p>在所有组合中，同等预算下特斯拉可部署的车辆数都在两倍以上。但这仅限于特斯拉车辆在无人监控的情况下实现同等运营强度的情形。</p>
+<figure><img src="../../../images/articles/waymo-tesla-autonomy/photo2.jpg" alt="夜晚高速公路上的车流光迹" loading="lazy"><figcaption>夜晚高速公路上的车流光迹</figcaption></figure>
+<h2>讨论</h2>
+<p>相反的观点同样有力。安全记录无法用车辆数量替代。Waymo拥有超过2亿英里的无人驾驶里程和经过同行评审的比较研究[7][8]。特斯拉的无人驾驶里程约为200万英里，要与人类驾驶进行统计比较，距离仍然偏短。即便车辆众多，若得不到监管机构和乘客的信任，也难以转化为实际运营。此外，Waymo也在通过新车型降低单车成本[2]，成本差距可能随时间缩小。</p>
+<p>数据本身也有局限。美国国家公路交通安全管理局（NHTSA）的事故报告制度（Standing General Order）要求报告在自动驾驶系统或2级系统使用期间发生的特定事故，但明确指出事故数量未按行驶里程进行调整，在企业之间比较时需谨慎[9]。在加利福尼亚州公用事业委员会（CPUC）的季度报告中，2026年列出的持有无人驾驶商业运营许可的企业仅有Waymo[10]。该州还设有脱离（disengagement）报告制度，即自动驾驶模式被解除、由人接管驾驶的事件[11]，但这些数据针对测试车辆，并不直接反映业务成败。特斯拉自身也说明，其安全报告中使用的人类平均值包含估算[12]。</p>
+<p>估算的不确定性很大。单车成本、全生命周期里程、远程监控的人工成本、保险以及充电和清洁费用均未公布。车队规模也是报道数据。</p>
+<p>能够改变结论的证据是清楚的。如果特斯拉在没有安全驾驶员和监控的情况下，在多个城市积累数千万英里规模的无人驾驶里程，并公布按里程调整后的事故率，其量产优势将使其更接近主导地位。反之，如果Waymo将单车成本降至可以公开的水平，并稳定展示每周约100万次的乘车规模，其实绩上的领先或许能够弥补规模差距。</p>
+<h2>结论</h2>
+<p>按目前的公开数据，Waymo在无人驾驶实绩、城市数量和许可方面处于领先。另一方面，在同等预算可部署的车辆数上，即便调整前提，特斯拉仍以2至6.7倍的幅度领先。决定主导权的，似乎是两种速度的竞争：特斯拉能否把量产优势转化为无人运营的安全记录，以及Waymo能否在保持实绩的同时降低单车成本。</p>
+<h2>我的看法</h2>
+<p>我认为取得主导地位的会是特斯拉。理由是它能够自己大量制造车辆。电动汽车已近在眼前。剩下的是放松监管以及与既得利益的斗争，我认为这是最大、也是最艰难的部分。</p>
+<p>我还没有乘坐过自动驾驶出租车，也没有体验过FSD，希望能尽快试一试。</p>
+<p>我持有两家公司的股票：Alphabet 350股，特斯拉400股。在此基础上，我希望特斯拉获胜。</p>
+<h2>资料来源</h2>
+<ol class="src"><li>SAE International（经由ANSI Blog），“SAE Levels of Driving Automation: J3016-2021”，2021年。 <a href="https://blog.ansi.org/sae-levels-driving-automation-j-3016-2021/" rel="noopener">https://blog.ansi.org/sae-levels-driving-automation-j-3016-2021/</a></li><li>Waymo，“Meet the 6th-generation Waymo Driver”，2024年8月19日。 <a href="https://waymo.com/blog/2024/08/meet-the-6th-generation-waymo-driver/" rel="noopener">https://waymo.com/blog/2024/08/meet-the-6th-generation-waymo-driver/</a></li><li>Alphabet，“Alphabet Announces First Quarter 2026 Results”，2026年4月29日。 <a href="https://s206.q4cdn.com/479360582/files/doc_financials/2026/q1/2026q1-alphabet-earnings-release.pdf" rel="noopener">https://s206.q4cdn.com/479360582/files/doc_financials/2026/q1/2026q1-alphabet-earnings-release.pdf</a></li><li>Waymo，“Waymo closes $5 billion debt financing”，2026年10月8日。 <a href="https://waymo.com/blog/2026/10/waymo-closes-5-billion-debt-financing/" rel="noopener">https://waymo.com/blog/2026/10/waymo-closes-5-billion-debt-financing/</a></li><li>Tesla, Inc.，“Q2 2026 Update”（Form 8-K Exhibit 99.1），2026年7月22日。 <a href="https://www.sec.gov/Archives/edgar/data/0001318605/000162828026049213/exhibit991.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/0001318605/000162828026049213/exhibit991.htm</a></li><li>Tesla, Inc.，“Q3 2026 Update”（Form 8-K Exhibit 99.1），2026年10月21日。 <a href="https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm" rel="noopener">https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm</a></li><li>Waymo，“Waymo Safety Impact”（截至2026年6月的数据，2026年10月28日访问）。 <a href="https://waymo.com/safety/impact/" rel="noopener">https://waymo.com/safety/impact/</a></li><li>Kusano, K. D., Scanlon, J. M., Chen, Y.-H., McMurry, T. L., Gode, T., Victor, T.，“Comparison of Waymo Rider-Only Crash Rates by Crash Type to Human Benchmarks at 56.7 Million Miles”，Traffic Injury Prevention（2025年接收），arXiv:2505.01515，2025年5月2日。 <a href="https://arxiv.org/abs/2505.01515" rel="noopener">https://arxiv.org/abs/2505.01515</a></li><li>美国国家公路交通安全管理局（NHTSA），“Standing General Order on Crash Reporting”（截至2026年9月15日的数据，2026年10月28日访问）。 <a href="https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting" rel="noopener">https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting</a></li><li>加利福尼亚州公用事业委员会（CPUC），“AV Program Quarterly Reporting”，2026年8月18日更新。 <a href="https://www.cpuc.ca.gov/regulatory-services/licensing/transportation-licensing-and-analysis-branch/autonomous-vehicle-programs/quarterly-reporting" rel="noopener">https://www.cpuc.ca.gov/regulatory-services/licensing/transportation-licensing-and-analysis-branch/autonomous-vehicle-programs/quarterly-reporting</a></li><li>加利福尼亚州机动车管理局（DMV），“Disengagement Reports”，2026年10月28日访问。 <a href="https://www.dmv.ca.gov/portal/vehicle-industry-services/autonomous-vehicles/disengagement-reports/" rel="noopener">https://www.dmv.ca.gov/portal/vehicle-industry-services/autonomous-vehicles/disengagement-reports/</a></li><li>Tesla, Inc.，“Vehicle Safety Report”，2026年10月28日访问。 <a href="https://www.tesla.com/VehicleSafetyReport" rel="noopener">https://www.tesla.com/VehicleSafetyReport</a></li><li>TechCrunch，“Waymo is scaling fast. Here&#x27;s what the fleet data shows”，2026年9月24日（新闻报道，补充资料）。 <a href="https://techcrunch.com/2026/09/24/waymo-is-scaling-fast-heres-what-the-fleet-data-shows/" rel="noopener">https://techcrunch.com/2026/09/24/waymo-is-scaling-fast-heres-what-the-fleet-data-shows/</a></li></ol>
+<p class="muted" style="font-size:12px">照片：Heber Davis、Jan Valečka（Unsplash）。图表由YUKI CAPITAL制作</p>
+<p>每天的数字和判断，我都记录在X上。</p>
+<div class="cta"><a class="btn-dark" href="https://x.com/YUKICAPITALchin">在X上看每天的数字</a><a class="btn-light" href="https://note.com/capitallogs" style="border:1px solid var(--line)">我也在note上写</a></div>
+</div>
+
+</article>
+<footer class="site-footer" style="padding-bottom:48px"><span>© 2026 YUKI CAPITAL</span><span><a href="../../../zh/">返回首页</a></span></footer>
+</main>
+<script>document.querySelectorAll('[data-setlang]').forEach(function(a){a.addEventListener('click',function(){try{localStorage.setItem('lang',a.getAttribute('data-setlang'))}catch(e){}})});</script>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "abf23c1820ac43539efd93c2112996da"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>
