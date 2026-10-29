@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T14:10:00+09:00",
+  "updated": "2026-10-29T15:40:00+09:00",
   "profile": {
     "name": "YUKI CAPITAL",
     "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -16,32 +16,32 @@
     "note": "https://note.com/capitallogs"
   },
   "capital": {
-    "date": "2026-10-28",
-    "label": "10.28（水）",
-    "total": 386052690,
-    "diff": 94411,
-    "diff_pct": 0.02,
-    "unreal": 54646642,
-    "unreal_pct": 16.64,
+    "date": "2026-10-29",
+    "label": "10.29（木）",
+    "total": 390692913,
+    "diff": 4640223,
+    "diff_pct": 1.2,
+    "unreal": 59286865,
+    "unreal_pct": 18.05,
     "cash": 2951857,
     "cash_pct": 0.76,
     "trade": "売買なし",
     "alloc": [
       {
         "name": "国内株",
-        "pct": 46.66,
+        "pct": 46.47,
         "name_en": "JP stocks",
         "name_zh": "日本股票"
       },
       {
         "name": "投信",
-        "pct": 26.77,
+        "pct": 26.49,
         "name_en": "Funds",
         "name_zh": "基金"
       },
       {
         "name": "外国株",
-        "pct": 25.8,
+        "pct": 26.29,
         "name_en": "Foreign stocks",
         "name_zh": "海外股票"
       },
@@ -92,24 +92,28 @@
       {
         "date": "2026-10-28",
         "total": 386052690
+      },
+      {
+        "date": "2026-10-29",
+        "total": 390692913
       }
     ],
-    "label_en": "Oct 28 (Wed)",
-    "label_zh": "10.28（周三）",
+    "label_en": "Oct 29 (Thu)",
+    "label_zh": "10.29（周四）",
     "trade_en": "No trades",
     "trade_zh": "无交易",
     "week": {
-      "from": "2026-10-21",
-      "to": "2026-10-28",
-      "diff": -2134626,
-      "diff_pct": -0.55
+      "from": "2026-10-22",
+      "to": "2026-10-29",
+      "diff": 1257516,
+      "diff_pct": 0.32
     }
   },
   "conditions": [
     {
       "title": "SpaceX を +500株",
       "rule": "終値が 100ドルを割ったら",
-      "now": "146.90 ドル",
+      "now": "148.58 ドル",
       "status": "未達",
       "title_en": "Add 500 SpaceX",
       "rule_en": "if the close falls below $100",
@@ -117,13 +121,13 @@
       "title_zh": "SpaceX 加仓500股",
       "rule_zh": "收盘价跌破100美元时",
       "status_zh": "未达",
-      "now_en": "$146.90",
-      "now_zh": "146.90 美元"
+      "now_en": "$148.58",
+      "now_zh": "148.58 美元"
     },
     {
       "title": "IonQ を +500株",
       "rule": "25ドルを割ったら",
-      "now": "30.76 ドル",
+      "now": "32.95 ドル",
       "status": "未達",
       "title_en": "Add 500 IonQ",
       "rule_en": "if it falls below $25",
@@ -131,13 +135,13 @@
       "title_zh": "IonQ 加仓500股",
       "rule_zh": "跌破25美元时",
       "status_zh": "未达",
-      "now_en": "$30.76",
-      "now_zh": "30.76 美元"
+      "now_en": "$32.95",
+      "now_zh": "32.95 美元"
     },
     {
       "title": "三井住友FG を買い増し",
       "rule": "3,000円が目安",
-      "now": "3,164 円",
+      "now": "3,188 円",
       "status": "未達",
       "title_en": "Add SMFG (8316)",
       "rule_en": "around ¥3,000 as the guide",
@@ -145,8 +149,8 @@
       "title_zh": "加仓三井住友FG",
       "rule_zh": "以3,000日元为目标",
       "status_zh": "未达",
-      "now_en": "¥3,164",
-      "now_zh": "3,164 日元"
+      "now_en": "¥3,188",
+      "now_zh": "3,188 日元"
     },
     {
       "title": "SpaceX の積み立て",
@@ -260,7 +264,7 @@
     }
   ],
   "posts": {
-    "date": "2026-10-28",
+    "date": "2026-10-29",
     "count": 26,
     "items": [
       {
@@ -268,56 +272,62 @@
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "10.28",
+        "time": "10.29",
         "kind": "判断",
         "kind_en": "Judgment",
         "kind_zh": "判断",
-        "title": "サイバー株が買われる週に、僕はAIを作る会社だけを持つ",
-        "title_en": "In a week when cyber stocks are bought, I hold only companies that build AI",
-        "title_zh": "网络安全股被追捧的一周，我只持有开发AI的公司"
+        "title": "QBTSとRGTIの含み損、量子は10年20年30年",
+        "title_en": "Unrealized losses on QBTS and RGTI, and quantum over 10, 20, 30 years",
+        "title_zh": "QBTS和RGTI的浮亏，量子要看10年、20年、30年"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "10.28",
+        "time": "10.29",
         "kind": "日記",
         "kind_en": "Diary",
         "kind_zh": "日记",
-        "title": "37度1分の日、祖母の食事会に行けなかった夜",
-        "title_en": "At 37.1°C, the night I could not join my grandmother's dinner",
-        "title_zh": "体温37.1度的那天，没能去祖母聚餐的夜晚"
+        "title": "精神科と耳鼻科の後、炭酸泉に40分",
+        "title_en": "After the psychiatrist and the ENT, 40 minutes in a carbonated spring",
+        "title_zh": "看完精神科和耳鼻喉科，在碳酸泉里泡了40分钟"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "10.28",
+        "time": "10.29",
         "kind": "長文",
         "kind_en": "Long read",
         "kind_zh": "长文",
-        "title": "子どもが株主の法人を、先月、父と相談して立ち上げた",
-        "title_en": "Last month, after talking with my father, I set up a company owned by my children",
-        "title_zh": "上个月，我和父亲商量后成立了一家由孩子持股的法人"
+        "title": "パニックの症状はほぼ無い、1年かかった通院",
+        "title_en": "Panic symptoms nearly gone, after a year of treatment",
+        "title_zh": "惊恐症状几乎消失，花了一年的就诊"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "10.28",
+        "time": "10.29",
         "kind": "ニュース",
         "kind_en": "News",
         "kind_zh": "新闻",
-        "title": "アルファベット決算は今夜、僕が見るのは明日の朝",
-        "title_en": "Alphabet reports tonight; I will look tomorrow morning",
-        "title_zh": "Alphabet财报今夜公布，我明早再看"
+        "title": "アルファベット10%安、見ているのは20年先",
+        "title_en": "Alphabet down 10%, and I am looking 20 years ahead",
+        "title_zh": "Alphabet下跌10%，我看的是20年后"
       }
     ]
   },
   "note": [
+    {
+      "date": "2026-10-29",
+      "title": "アルファベットのフリーキャッシュフローがマイナス91億ドル。350株を動かさなかった朝に、決算書で見た順番",
+      "url": "https://note.com/capitallogs/n/n1989125541bb",
+      "image": "https://assets.st-note.com/production/uploads/images/329772351/rectangle_large_type_2_a58b7b1e74feb11dae2cc9b038d04474.png?fit=bounds&quality=85&width=640"
+    },
     {
       "date": "2026-10-28",
       "title": "イベントが1週間に4つ重なる週、口座で「しないこと」を先に決めておく",
@@ -368,20 +378,20 @@
     }
   ],
   "diary": {
-    "date": "2026-10-28（水）",
-    "place": "自宅",
-    "title": "37度1分の日、祖母の食事会に行けなかった夜",
-    "text": "喉の痛みと37度1分の熱で会社を休んだ。夕方に税理士との打ち合わせを1件だけ。夜の家族の食事会は休み、届いた写真でみんなの笑顔を見た。",
+    "date": "2026-10-29（木）",
+    "place": "クリニックとジム",
+    "title": "精神科と耳鼻科の後、炭酸泉に40分",
+    "text": "朝から体調が悪く、精神科と耳鼻科を回った。ジムではトレーニングを休み、炭酸泉で40分体を温めた。夜は五反田の鶏で鶏鍋、睡眠薬なしで10時に眠れた。",
     "image": "",
     "url": "https://x.com/capitallogs",
-    "date_en": "Wed, Oct 28, 2026",
-    "date_zh": "2026.10.28（周三）",
-    "place_en": "Home",
-    "place_zh": "家中",
-    "title_en": "At 37.1°C, the night I could not join my grandmother's dinner",
-    "title_zh": "体温37.1度的那天，没能去祖母聚餐的夜晚",
-    "text_en": "A sore throat and a 37.1°C fever kept me home from work. One meeting with a tax accountant in the evening. I skipped the family dinner and saw everyone smiling in the photos they sent.",
-    "text_zh": "因为喉咙痛和37.1度的低烧，我向公司请了假。傍晚只开了一个与税务师的会。晚上的家庭聚餐没有去，从发来的照片里看到了大家的笑容。",
+    "date_en": "Thu, Oct 29, 2026",
+    "date_zh": "2026.10.29（周四）",
+    "place_en": "Clinics and the gym",
+    "place_zh": "诊所和健身房",
+    "title_en": "After the psychiatrist and the ENT, 40 minutes in a carbonated spring",
+    "title_zh": "看完精神科和耳鼻喉科，在碳酸泉里泡了40分钟",
+    "text_en": "I felt unwell from the morning and went to the psychiatrist and the ENT. At the gym I skipped training and warmed up for 40 minutes in a carbonated spring. Chicken hot pot with chicken from Gotanda at night, and I fell asleep at 10 without a sleeping pill.",
+    "text_zh": "从早上就身体不适，去了精神科和耳鼻喉科。在健身房暂停训练，在碳酸泉里暖了40分钟身体。晚上用五反田买的鸡肉做了鸡肉火锅，没吃安眠药10点就睡着了。",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin"
   },
@@ -642,6 +652,17 @@
   },
   "archive": [
     {
+      "date": "2026-10-29",
+      "label": "10.29（木）",
+      "total": 390692913,
+      "diff_pct": 1.2,
+      "memo": "26本×3言語 ｜ 売買なし ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "26 posts x 3 languages ｜ No trades ｜ 1 note ｜ 1 article",
+      "memo_zh": "26条×3种语言 ｜ 无交易 ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Oct 29 Thu",
+      "label_zh": "10.29 周四"
+    },
+    {
       "date": "2026-10-28",
       "label": "10.28（水）",
       "total": 386052690,
@@ -797,6 +818,25 @@
     }
   ],
   "articles": [
+    {
+      "slug": "cb-meeting-frequency",
+      "date": "2026-10-29",
+      "image": "images/articles/cb-meeting-frequency/hero.jpg",
+      "category": "経済",
+      "category_en": "Economy",
+      "category_zh": "经济",
+      "title": "中央銀行は年に何回、金利を決めるべきか――FOMCの「年6回」と、実際に金利が動いた回数",
+      "title_en": "How many times a year should a central bank set interest rates? The FOMC's \"six a year\" against how often rates actually moved",
+      "title_zh": "中央银行每年应该决定几次利率？——FOMC的“每年6次”与利率实际变动的次数",
+      "lead": "FRBのウォーシュ議長は2026年10月28日の会見で、金利を決める機会を2027年から減らす考えを示した。年8回の会合のうち1回を戦略の討議に充て、2028年には決定が年6回になるかもしれないという。 本稿の問いは一つである。過去11年に実際に金利が動いた回数と比べて、年6回の決定機会は足りるのか。 FRB・日銀・ECB・英国・豪州・カナダの公表資料と二つの研究を使い、会合の数を4〜12回に動かした感度分析で確かめる。",
+      "lead_en": "At a press conference on October 28, 2026, Fed Chair Warsh signaled that the FOMC will reduce its rate-setting opportunities from 2027. One of the eight meetings a year would go to strategy discussion, and in 2028 decisions may fall to six a year. This article asks a single question: compared with how often rates actually moved over the past 11 years, are six decision opportunities a year enough? Writing from Japan, I test it with published material from the Fed, the Bank of Japan, the ECB, the UK, Australia and Canada, two studies, and a sensitivity analysis that moves the number of meetings from 4 to 12.",
+      "lead_zh": "美联储主席沃什在2026年10月28日的记者会上表示，将从2027年起减少决定利率的机会。每年8次会议中的1次将用于战略讨论，2028年决策次数可能降到每年6次。 本文只提出一个问题：与过去11年利率实际变动的次数相比，每年6次的决策机会够不够？ 我在日本，利用美联储、日本银行、欧洲央行、英国、澳大利亚和加拿大的公开资料以及两项研究，并把会议次数在4到12次之间变动进行敏感性分析来检验。",
+      "tags": [
+        "economy",
+        "finance",
+        "markets"
+      ]
+    },
     {
       "slug": "waymo-tesla-autonomy",
       "date": "2026-10-28",
