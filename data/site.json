@@ -406,7 +406,7 @@
     "url_zh": "https://x.com/YUKICAPITALchin"
   },
   "media": {
-    "updated": "2026-10-30 12:49",
+    "updated": "2026-10-30 12:57",
     "impressions_month": null,
     "impressions_daily": [],
     "followers": [
@@ -477,16 +477,16 @@
           "name": "サイト",
           "name_en": "Site",
           "name_zh": "网站",
-          "d7": 119,
-          "d28": 250
+          "d7": 108,
+          "d28": 300
         }
       ],
-      "total_d7": 71969,
-      "total_d28": 229688
+      "total_d7": 71958,
+      "total_d28": 229738
     },
     "site": {
-      "visits_24h": 14,
-      "pv_24h": 30,
+      "visits_24h": 8,
+      "pv_24h": 22,
       "visits_7d": null
     },
     "daily": {
@@ -647,9 +647,9 @@
       "x_en": 547,
       "x_zh": 535,
       "note": 54,
-      "site_visits_24h": 14,
-      "site_pv_24h": 30,
-      "at": "2026-10-30 12:49"
+      "site_visits_24h": 8,
+      "site_pv_24h": 22,
+      "at": "2026-10-30 12:57"
     },
     "intraday": [
       {
@@ -657,6 +657,12 @@
         "x": 4049,
         "site_pv_24h": 30,
         "site_visits_24h": 14
+      },
+      {
+        "at": "2026-10-30 12:57",
+        "x": 4049,
+        "site_pv_24h": 22,
+        "site_visits_24h": 8
       }
     ]
   },
