@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI资本支出需要几年才能收回？——用字母表、亚马逊、微软7至9月的数据测算｜YUKI CAPITAL</title>
+<meta name="description" content="2026年10月28日至29日（美国时间），美国三家大公司公布了7至9月的业绩。三家公司这一季度的资本支出合计约1,680亿美元，约为一年前的2.1倍。 本文只提出一个问题：与一年前相比增加的资本支出，用与一年前相比增加的营业利润，需要几年才能收回？ 我在日本，利用三家公司的财报资料、会计政策的披露以及国际能源署（IEA）的报告，并通过变动利润归属和增长率的敏感性分析来检验。">
+<meta property="og:title" content="AI资本支出需要几年才能收回？——用字母表、亚马逊、微软7至9月的数据测算">
+<meta property="og:description" content="2026年10月28日至29日（美国时间），美国三家大公司公布了7至9月的业绩。三家公司这一季度的资本支出合计约1,680亿美元，约为一年前的2.1倍。 本文只提出一个问题：与一年前相比增加的资本支出，用与一年前相比增加的营业利润，需要几年才能收回？ 我在日本，利用三家公司的财报资料、会计政策的披露以及国际能源署（IEA）的报告，并通过变动利润归属和增长率的敏感性分析来检验。">
+<meta property="og:image" content="https://raw.githubusercontent.com/YUKICAPITAL/capitallogs-site/main/images/articles/ai-capex-payback/hero.jpg">
+<meta property="og:url" content="http://yuki-capital.com/zh/articles/ai-capex-payback/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@capitallogs">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/YUKICAPITAL/capitallogs-site/main/images/articles/ai-capex-payback/hero.jpg">
+<meta property="og:type" content="article">
+<link rel="icon" href="../../../favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="../../../images/apple-touch-icon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../../../assets/style.css">
+<style>
+.art{max-width:760px;margin:0 auto;padding:24px 0 48px}
+.art .meta{display:flex;gap:10px;align-items:center;font-size:12px;color:var(--muted)}
+.art h1{font-size:26px;line-height:1.45;margin:12px 0 16px}
+.art .lead{font-size:15px;line-height:1.9;color:var(--ink2);border-left:3px solid var(--accent);padding-left:14px;margin:0 0 20px}
+.art .lead p{margin:0}
+.art .card{padding:24px}
+.art h2{font-size:19px;margin:32px 0 12px;padding-top:4px}
+.art h2:first-child{margin-top:0}
+.art p{font-size:15.5px;line-height:2;margin:0 0 14px}
+.art figure{margin:20px 0;}
+.art figure img{width:100%;border-radius:12px;background:#fff}
+.art figcaption{font-size:12px;color:var(--muted);margin-top:6px;line-height:1.6}
+.art .hero img{border-radius:18px;aspect-ratio:16/9;object-fit:cover;width:100%}
+.art .tbl{overflow-x:auto;margin:12px 0 16px}
+.art table{border-collapse:collapse;font-size:13px;min-width:640px;width:100%}
+.art th,.art td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+.art th{background:var(--accent-soft);font-weight:700}
+.art ol.src{font-size:12.5px;line-height:1.8;padding-left:18px;word-break:break-all}
+.art ol.src a{color:var(--accent)}
+.art .cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.langsw{display:flex;gap:8px;font-size:12px}.langsw a{padding:4px 10px;border-radius:999px;background:var(--card)}.langsw a.on{background:var(--dark);color:#fff}
+@media(max-width:600px){.art h1{font-size:21px}.art .card{padding:18px}}
+</style>
+</head>
+<body>
+<header class="site-header"><div class="wrap">
+<a href="../../../zh/" class="brand"><img class="avatar" src="../../../images/icon.png" alt=""><span>YUKI CAPITAL</span></a>
+<nav class="nav"><a href="../../../zh/articles/" class="primary">文章</a><a href="../../../zh/#capital">今日资本</a><a href="../../../zh/archive/">每日记录</a><a href="../../../zh/#diary">日记</a><a href="../../../zh/about/">关于</a></nav>
+<div class="hdr-actions"><a class="x" href="https://x.com/capitallogs" aria-label="X"><svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 3h3l-7.3 8.3L21.8 21h-6.6l-4.6-6-5.3 6H2.3l7.8-8.9L2 3h6.7l4.2 5.5L17.5 3zm-1.1 16.2h1.8L7.7 4.7H5.8l10.6 14.5z"/></svg></a><a class="note" href="https://note.com/capitallogs">note</a></div>
+</div></header>
+<main class="wrap"><article class="art">
+<div class="meta"><span class="chip">AI</span><span class="chip">企业分析</span><span class="chip">市场·股票</span><span class="num">2026年10月30日</span><span class="langsw" style="margin-left:auto"><a href="../../../articles/ai-capex-payback/" data-setlang="ja">日本語</a><a href="../../../en/articles/ai-capex-payback/" data-setlang="en">EN</a><a href="../../../zh/articles/ai-capex-payback/" data-setlang="zh" class="on">中文</a></span></div>
+<h1>AI资本支出需要几年才能收回？——用字母表、亚马逊、微软7至9月的数据测算</h1>
+<div class="lead"><p>2026年10月28日至29日（美国时间），美国三家大公司公布了7至9月的业绩。三家公司这一季度的资本支出合计约1,680亿美元，约为一年前的2.1倍。</p><p>本文只提出一个问题：与一年前相比增加的资本支出，用与一年前相比增加的营业利润，需要几年才能收回？</p><p>我在日本，利用三家公司的财报资料、会计政策的披露以及国际能源署（IEA）的报告，并通过变动利润归属和增长率的敏感性分析来检验。</p></div>
+<figure class="hero"><img src="../../../images/articles/ai-capex-payback/hero.jpg" alt=""></figure>
+<div class="card">
+<h2>问题与背景</h2>
+<p>资本支出，是指为购买土地、建筑、服务器等多年使用的资产而发生的支出。会计上不会一次性计为费用，而是按使用年数（耐用年数）分摊，作为折旧计入每年的费用。回收期，是指用投资产生的利润收回投资金额所需的年数。</p>
+<p>字母表7至9月的资本支出为513.6亿美元，是上年同期239.5亿美元的两倍多。经营现金流减去资本支出后的自由现金流，本季度为−90.7亿美元[1]。亚马逊的资本支出为772.6亿美元，最近12个月的自由现金流为−423.6亿美元。该公司预计2026年资本支出约为2,200亿美元，并说明增加的主要原因是对AI的投资[2]。</p>
+<p>微软购置不动产和设备的支出为393.7亿美元，约为上年同期193.9亿美元的两倍。云平台Azure的营收增长了48%[3]。市场反应出现分化，字母表在财报公布次日的29日下跌12.64%，微软盘后上涨超过4%[7]。亚马逊盘后下跌超过5%[8]。</p>
+<p>思考回收年数时，耐用年数不可或缺。亚马逊从2025年1月起，把部分服务器和网络设备的耐用年数从6年缩短为5年。理由是以AI和机器学习为中心的技术进步很快[4]。用于AI计算的机器，是按5至6年更换的前提计入费用的。</p>
+<figure><img src="../../../images/articles/ai-capex-payback/photo2.jpg" alt="服务器通道。AI资本支出的大部分，流向这样的计算机，以及让它们运转的建筑和电力" loading="lazy"><figcaption>服务器通道。AI资本支出的大部分，流向这样的计算机，以及让它们运转的建筑和电力</figcaption></figure>
+<h2>数据与方法</h2>
+<p>使用的数字，是三家公司财报资料中7至9月和上年同期的两组数字[1][2][3]。资本支出使用各公司现金流量表中的“购置不动产和设备”。利润方面，字母表使用Google Cloud，亚马逊使用AWS的部门营业利润。</p>
+<p>微软从2027财年起重新划分部门，没有单独列出云业务的营业利润。因此使用全公司的营业利润。全公司的利润也包含云以外的增长，所以微软的回收年数会偏短。解读结果时，这一点作为前提保留。</p>
+<p>计算方法如下。</p>
+<p>年化的资本支出增量 ΔC＝（本季度资本支出−上年同期资本支出）×4</p>
+<p>年化的利润增量 ΔP＝（本季度营业利润−上年同期营业利润）×4×归属比例s</p>
+<p>回收年数，是假设第1年利润为ΔP、第2年为ΔP×（1＋g）这样增长时，利润合计达到ΔC所需的年数。不足一年的部分按比例计算。归属比例s，是增加的利润中由增加的资本支出带来的比例，g是增加的利润的年增长率。基准设为s＝100%、g＝0%，此时回收年数等于ΔC÷ΔP。不考虑税收。</p>
+<h2>结果</h2>
+<div class="tbl"><table><thead><tr><th>公司</th><th>资本支出（上年→本期）</th><th>部门营业利润（上年→本期）</th><th>ΔC（年化）</th><th>ΔP（年化）</th><th>回收年数（基准）</th></tr></thead><tbody><tr><td>字母表</td><td>239.5→513.6亿美元</td><td>35.9→111.2亿美元（Google Cloud）</td><td>1,096亿美元</td><td>301亿美元</td><td>3.6年</td></tr><tr><td>亚马逊</td><td>351.0→772.6亿美元</td><td>114.3→177.7亿美元（AWS）</td><td>1,687亿美元</td><td>254亿美元</td><td>6.7年</td></tr><tr><td>微软</td><td>193.9→393.7亿美元</td><td>379.6→459.2亿美元（全公司）</td><td>799亿美元</td><td>318亿美元</td><td>2.5年</td></tr></tbody></table></div>
+<p>在基准前提下，字母表3.6年、亚马逊6.6年、微软2.5年即可收回。只有亚马逊超过了服务器5至6年的耐用年数。这是因为它的资本支出增加最多，而AWS利润的增长没有跟上。</p>
+<figure><img src="../../../images/articles/ai-capex-payback/chart-gap-zh.png" alt="图1　年化的资本支出增量（ΔC）与营业利润增量（ΔP）。出处：各公司财报资料[1][2][3]。图由YUKI CAPITAL制作" loading="lazy"><figcaption>图1　年化的资本支出增量（ΔC）与营业利润增量（ΔP）。出处：各公司财报资料[1][2][3]。图由YUKI CAPITAL制作</figcaption></figure>
+<p>字母表的Google Cloud营业利润一年内增至约3.1倍。营收也从151.6亿美元增至307.1亿美元，增长超过一倍[1]。利润的增速接近资本支出的增速，体现为3.6年这一较短的回收期。</p>
+<h2>敏感性分析</h2>
+<p>基准前提把增加的利润全部视为增加的资本支出的成果，并假设利润不再增长。因此，把归属比例s变动为100%、75%、50%，把增长率g变动为0%、20%、40%。</p>
+<div class="tbl"><table><thead><tr><th>归属比例s</th><th>增长率g</th><th>字母表</th><th>亚马逊</th><th>微软</th></tr></thead><tbody><tr><td>100%</td><td>0%</td><td>3.6年</td><td>6.7年</td><td>2.5年</td></tr><tr><td>100%</td><td>20%</td><td>3.0年</td><td>4.6年</td><td>2.2年</td></tr><tr><td>100%</td><td>40%</td><td>2.6年</td><td>3.8年</td><td>2.1年</td></tr><tr><td>75%</td><td>0%</td><td>4.9年</td><td>8.9年</td><td>3.3年</td></tr><tr><td>75%</td><td>20%</td><td>3.7年</td><td>5.6年</td><td>2.8年</td></tr><tr><td>75%</td><td>40%</td><td>3.2年</td><td>4.5年</td><td>2.5年</td></tr><tr><td>50%</td><td>0%</td><td>7.3年</td><td>13.3年</td><td>5.0年</td></tr><tr><td>50%</td><td>20%</td><td>4.9年</td><td>7.1年</td><td>3.8年</td></tr><tr><td>50%</td><td>40%</td><td>4.0年</td><td>5.4年</td><td>3.2年</td></tr></tbody></table></div>
+<figure><img src="../../../images/articles/ai-capex-payback/chart-sens-zh.png" alt="图2　变动归属比例和增长率时的回收年数。灰色带为服务器的耐用年数（5至6年）。出处：各公司财报资料[1][2][3]、亚马逊年报[4]。图由YUKI CAPITAL制作" loading="lazy"><figcaption>图2　变动归属比例和增长率时的回收年数。灰色带为服务器的耐用年数（5至6年）。出处：各公司财报资料[1][2][3]、亚马逊年报[4]。图由YUKI CAPITAL制作</figcaption></figure>
+<p>微软在全部9种情形下都在5年以内。字母表超过6年的，仅有归属比例50%且利润不增长时的7.3年。亚马逊在归属比例50%且没有增长时需要13.3年。即使归属比例为75%，增长率20%时为5.6年，40%时为4.5年，这才降到5年以下。</p>
+<p>亚马逊能否收回，取决于AWS的利润今后能否以每年2至4成的速度持续增长。对字母表和微软来说，即使利润增长停止，只要增加的利润大部分是投资的成果，就能在耐用年数内收回。</p>
+<h2>讨论</h2>
+<p>相反的看法有两种。第一种认为，这一测算把回收期估得太长。资本支出中也包含土地、建筑这类使用15至25年的资产。据报道，微软从2027财年起把数据中心建筑的耐用年数从15年延长到25年[6]。刚建成的设施还没有产生利润，利润还在后面。据报道，字母表云业务的未交付订单在6月底为5,139亿美元[9]。</p>
+<p>第二种则认为，反而估得太短。增加的利润中，也包含与AI无关的需求增长。而且，本季度大额资本支出的折旧还没有充分计入费用。字母表的折旧从56.1亿美元增至83.7亿美元，增长49%，而资本支出增长了114%[1]。这一差距会对今后的营业利润形成下压。</p>
+<p>还有电力的约束。IEA认为，全球数据中心的耗电量到2030年将增至约945太瓦时，几乎翻倍[5]。即使买了服务器，没有让它运转的电力和场所，也不会产生利润。电力的安排一旦滞后，回收也会相应推迟。</p>
+<p>数据的局限也很大。部门营业利润并非AI单独的利润。微软用全公司的利润替代。把季度乘以4得到的年化数字，包含季节性波动。据报道，微软表示将把数据中心租赁从计入资本支出的融资租赁，转为不计入的经营租赁，因此公布的资本支出金额本身可能偏小[6]。</p>
+<p>检验的标准，是今后2至4个季度的数字。对亚马逊，看AWS营业利润同比增量除以资本支出同比增量的比率。本季度约为0.15，超过0.2的话，基准回收年数就会低于5年。对字母表，如果折旧的增速开始超过Google Cloud利润的增速，我会重新审视结论。</p>
+<h2>结论</h2>
+<p>用7至9月的数字测算，增加的资本支出的回收年数为字母表3.6年、亚马逊6.6年、微软2.5年。微软使用了全公司的利润，数字偏宽松。字母表和微软即使把前提定得更严，多数情形也在服务器的耐用年数之内。对亚马逊来说，AWS利润每年持续增长2成以上，是收回的条件。</p>
+<p>29日的股价与这个排序并不一致。回收年数较短的字母表下跌了12.64%。市场关注的，或许是自由现金流转为负值，而不是回收年数的长短。</p>
+<h2>我是这样看的</h2>
+<p>我持有字母表350股。12%下跌后的第二天早上，我没有卖出，也没有加仓。因为这周我已经决定看了财报也不加仓。账户里的现金只有0.76%，我认为现在是攒现金余力的时间。亚马逊我没有持有。我觉得它是好公司，但我把它看作使用AI的一方，而非制造AI的一方。</p>
+<p>半导体公司我也没有持有。我认为芯片已经过剩，让芯片运转的是电力。所以在外国股票中，我把SpaceX看作能连同电力和场所一起提供的一方，持有1,250股。如果正如IEA的展望那样电力不足，决定回收速度的，或许不是买了多少，而是能让多少运转起来。</p>
+<h2>出处</h2>
+<ol class="src"><li>Alphabet Inc.，“Alphabet Announces Third Quarter 2026 Results”，2026年10月28日 <a href="https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf" rel="noopener">https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf</a></li><li>Amazon.com, Inc.，“Amazon.com Announces Third Quarter Results”，2026年10月29日 <a href="https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q3/earnings-result/AMZN-Q3-2026-Earnings-Release.pdf" rel="noopener">https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q3/earnings-result/AMZN-Q3-2026-Earnings-Release.pdf</a></li><li>Microsoft Corporation，“FY27 Q1 Earnings Release”，2026年10月29日 <a href="https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast" rel="noopener">https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast</a></li><li>Amazon.com, Inc.，“Form 10-K（截至2024年12月31日的财年）”，2025年2月 <a href="https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/" rel="noopener">https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/</a></li><li>国际能源署（IEA），“Energy and AI”，2025年4月 <a href="https://www.iea.org/reports/energy-and-ai" rel="noopener">https://www.iea.org/reports/energy-and-ai</a></li><li>PYMNTS，“Microsoft Extends Data Center Lifespans to Soften AI Buildout Costs”，2026年7月（报道） <a href="https://www.pymnts.com/?p=4019068" rel="noopener">https://www.pymnts.com/?p=4019068</a></li><li>雅虎日本新闻，美股相关报道，2026年10月30日（报道） <a href="https://news.yahoo.co.jp/articles/e0440f2ac7956725edd40eee8a0dfa80a45af726" rel="noopener">https://news.yahoo.co.jp/articles/e0440f2ac7956725edd40eee8a0dfa80a45af726</a></li><li>OANDA证券，纽约股市摘要（29日），2026年10月30日（报道） <a href="https://www.oanda.jp/lab-education/market_news/mn_1041435_202610300813/" rel="noopener">https://www.oanda.jp/lab-education/market_news/mn_1041435_202610300813/</a></li><li>Tickzen，“Alphabet Q3 2026 earnings preview”，2026年10月24日（报道） <a href="https://tickzen.app/insights/alphabet-goog-q3-2026-earnings" rel="noopener">https://tickzen.app/insights/alphabet-goog-q3-2026-earnings</a></li></ol>
+<p class="muted" style="font-size:12px">照片：İsmail Enes Ayhan、Taylor Vick（Unsplash）。图表由YUKI CAPITAL制作</p>
+<p>每天的数字和判断，我都记录在X上。</p>
+<div class="cta"><a class="btn-dark" href="https://x.com/YUKICAPITALchin">在X上看每天的数字</a><a class="btn-light" href="https://note.com/capitallogs" style="border:1px solid var(--line)">我也在note上写</a></div>
+</div>
+
+</article>
+<footer class="site-footer" style="padding-bottom:48px"><span>© 2026 YUKI CAPITAL</span><span><a href="../../../zh/">返回首页</a></span></footer>
+</main>
+<script>document.querySelectorAll('[data-setlang]').forEach(function(a){a.addEventListener('click',function(){try{localStorage.setItem('lang',a.getAttribute('data-setlang'))}catch(e){}})});</script>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "abf23c1820ac43539efd93c2112996da"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>

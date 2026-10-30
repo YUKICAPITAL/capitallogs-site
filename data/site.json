@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T15:40:00+09:00",
+  "updated": "2026-10-30T11:28:00+09:00",
   "profile": {
     "name": "YUKI CAPITAL",
     "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -16,32 +16,32 @@
     "note": "https://note.com/capitallogs"
   },
   "capital": {
-    "date": "2026-10-29",
-    "label": "10.29（木）",
-    "total": 390692913,
-    "diff": 4640223,
-    "diff_pct": 1.2,
-    "unreal": 59286865,
-    "unreal_pct": 18.05,
+    "date": "2026-10-30",
+    "label": "10.30（金）",
+    "total": 390331017,
+    "diff": -361896,
+    "diff_pct": -0.09,
+    "unreal": 58924946,
+    "unreal_pct": 17.94,
     "cash": 2951857,
     "cash_pct": 0.76,
     "trade": "売買なし",
     "alloc": [
       {
         "name": "国内株",
-        "pct": 46.47,
+        "pct": 46.55,
         "name_en": "JP stocks",
         "name_zh": "日本股票"
       },
       {
         "name": "投信",
-        "pct": 26.49,
+        "pct": 26.68,
         "name_en": "Funds",
         "name_zh": "基金"
       },
       {
         "name": "外国株",
-        "pct": 26.29,
+        "pct": 26.01,
         "name_en": "Foreign stocks",
         "name_zh": "海外股票"
       },
@@ -96,24 +96,28 @@
       {
         "date": "2026-10-29",
         "total": 390692913
+      },
+      {
+        "date": "2026-10-30",
+        "total": 390331017
       }
     ],
-    "label_en": "Oct 29 (Thu)",
-    "label_zh": "10.29（周四）",
+    "label_en": "Oct 30 (Fri)",
+    "label_zh": "10.30（周五）",
     "trade_en": "No trades",
     "trade_zh": "无交易",
     "week": {
       "from": "2026-10-22",
-      "to": "2026-10-29",
-      "diff": 1257516,
-      "diff_pct": 0.32
+      "to": "2026-10-30",
+      "diff": 895620,
+      "diff_pct": 0.23
     }
   },
   "conditions": [
     {
       "title": "SpaceX を +500株",
       "rule": "終値が 100ドルを割ったら",
-      "now": "148.58 ドル",
+      "now": "145.23 ドル",
       "status": "未達",
       "title_en": "Add 500 SpaceX",
       "rule_en": "if the close falls below $100",
@@ -121,13 +125,13 @@
       "title_zh": "SpaceX 加仓500股",
       "rule_zh": "收盘价跌破100美元时",
       "status_zh": "未达",
-      "now_en": "$148.58",
-      "now_zh": "148.58 美元"
+      "now_en": "$145.23",
+      "now_zh": "145.23 美元"
     },
     {
       "title": "IonQ を +500株",
       "rule": "25ドルを割ったら",
-      "now": "32.95 ドル",
+      "now": "32.43 ドル",
       "status": "未達",
       "title_en": "Add 500 IonQ",
       "rule_en": "if it falls below $25",
@@ -135,13 +139,13 @@
       "title_zh": "IonQ 加仓500股",
       "rule_zh": "跌破25美元时",
       "status_zh": "未达",
-      "now_en": "$32.95",
-      "now_zh": "32.95 美元"
+      "now_en": "$32.43",
+      "now_zh": "32.43 美元"
     },
     {
       "title": "三井住友FG を買い増し",
       "rule": "3,000円が目安",
-      "now": "3,188 円",
+      "now": "3,200 円",
       "status": "未達",
       "title_en": "Add SMFG (8316)",
       "rule_en": "around ¥3,000 as the guide",
@@ -149,8 +153,8 @@
       "title_zh": "加仓三井住友FG",
       "rule_zh": "以3,000日元为目标",
       "status_zh": "未达",
-      "now_en": "¥3,188",
-      "now_zh": "3,188 日元"
+      "now_en": "¥3,200",
+      "now_zh": "3,200 日元"
     },
     {
       "title": "SpaceX の積み立て",
@@ -264,64 +268,70 @@
     }
   ],
   "posts": {
-    "date": "2026-10-29",
-    "count": 26,
+    "date": "2026-10-30",
+    "count": 25,
     "items": [
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "10.29",
+        "time": "10.30",
         "kind": "判断",
         "kind_en": "Judgment",
         "kind_zh": "判断",
-        "title": "QBTSとRGTIの含み損、量子は10年20年30年",
-        "title_en": "Unrealized losses on QBTS and RGTI, and quantum over 10, 20, 30 years",
-        "title_zh": "QBTS和RGTI的浮亏，量子要看10年、20年、30年"
+        "title": "AI決算で売られる日に、買わずに現金余力を貯める",
+        "title_en": "On a day AI earnings get sold, I build cash reserves and do not buy",
+        "title_zh": "AI财报遭抛售的日子，我不买，攒现金余力"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "10.29",
+        "time": "10.30",
         "kind": "日記",
         "kind_en": "Diary",
         "kind_zh": "日记",
-        "title": "精神科と耳鼻科の後、炭酸泉に40分",
-        "title_en": "After the psychiatrist and the ENT, 40 minutes in a carbonated spring",
-        "title_zh": "看完精神科和耳鼻喉科，在碳酸泉里泡了40分钟"
+        "title": "銀行、チャットボット、サウナ、家族のミートソース",
+        "title_en": "A bank, a chatbot, a sauna, and meat sauce with my family",
+        "title_zh": "银行、聊天机器人、桑拿、家人的肉酱"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "10.29",
+        "time": "10.30",
         "kind": "長文",
         "kind_en": "Long read",
         "kind_zh": "长文",
-        "title": "パニックの症状はほぼ無い、1年かかった通院",
-        "title_en": "Panic symptoms nearly gone, after a year of treatment",
-        "title_zh": "惊恐症状几乎消失，花了一年的就诊"
+        "title": "2時間で作った入居者チャットボット、40社のテナントへ",
+        "title_en": "A tenant chatbot built in two hours, going out to 40 companies",
+        "title_zh": "2小时做出的入驻者聊天机器人，发往40家租户"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "10.29",
+        "time": "10.30",
         "kind": "ニュース",
         "kind_en": "News",
         "kind_zh": "新闻",
-        "title": "アルファベット10%安、見ているのは20年先",
-        "title_en": "Alphabet down 10%, and I am looking 20 years ahead",
-        "title_zh": "Alphabet下跌10%，我看的是20年后"
+        "title": "アルファベット12%安、350株は動かさない",
+        "title_en": "Alphabet fell 12%, and I am leaving my 350 shares as they are",
+        "title_zh": "字母表下跌12%，我的350股不动"
       }
     ]
   },
   "note": [
+    {
+      "date": "2026-10-30",
+      "title": "アルファベット12%安の翌朝、マイクロソフトと決算書を並べて、350株を動かさなかった",
+      "url": "https://note.com/capitallogs/n/nf0e9e24991ee",
+      "image": "https://assets.st-note.com/production/uploads/images/330056119/rectangle_large_type_2_783233ff4f81ade0a9a5667482bcd3c0.png?fit=bounds&quality=85&width=640"
+    },
     {
       "date": "2026-10-29",
       "title": "アルファベットのフリーキャッシュフローがマイナス91億ドル。350株を動かさなかった朝に、決算書で見た順番",
@@ -378,20 +388,20 @@
     }
   ],
   "diary": {
-    "date": "2026-10-29（木）",
-    "place": "クリニックとジム",
-    "title": "精神科と耳鼻科の後、炭酸泉に40分",
-    "text": "朝から体調が悪く、精神科と耳鼻科を回った。ジムではトレーニングを休み、炭酸泉で40分体を温めた。夜は五反田の鶏で鶏鍋、睡眠薬なしで10時に眠れた。",
+    "date": "2026-10-30（金）",
+    "place": "銀行・シェアオフィス・五反田のサウナ",
+    "title": "銀行、チャットボット、サウナ、家族のミートソース",
+    "text": "銀行で新しい法人の口座開設を進め、シェアオフィスの入居者チャットボットをClaude Codeで2時間ほどで作った。夕方は五反田のサウナで水風呂に入らず2セット。夜は米寿の会の残りのステーキでミートソース、睡眠薬なしで眠れた。",
     "image": "",
     "url": "https://x.com/capitallogs",
-    "date_en": "Thu, Oct 29, 2026",
-    "date_zh": "2026.10.29（周四）",
-    "place_en": "Clinics and the gym",
-    "place_zh": "诊所和健身房",
-    "title_en": "After the psychiatrist and the ENT, 40 minutes in a carbonated spring",
-    "title_zh": "看完精神科和耳鼻喉科，在碳酸泉里泡了40分钟",
-    "text_en": "I felt unwell from the morning and went to the psychiatrist and the ENT. At the gym I skipped training and warmed up for 40 minutes in a carbonated spring. Chicken hot pot with chicken from Gotanda at night, and I fell asleep at 10 without a sleeping pill.",
-    "text_zh": "从早上就身体不适，去了精神科和耳鼻喉科。在健身房暂停训练，在碳酸泉里暖了40分钟身体。晚上用五反田买的鸡肉做了鸡肉火锅，没吃安眠药10点就睡着了。",
+    "date_en": "Fri, Oct 30, 2026",
+    "date_zh": "2026.10.30（周五）",
+    "place_en": "The bank, the shared office and a sauna in Gotanda",
+    "place_zh": "银行、共享办公室、五反田的桑拿",
+    "title_en": "A bank, a chatbot, a sauna, and meat sauce with my family",
+    "title_zh": "银行、聊天机器人、桑拿、家人的肉酱",
+    "text_en": "I moved forward with opening a bank account for a new company and built a tenant chatbot for my shared office with Claude Code in about two hours. In the evening, two rounds at a sauna in Gotanda without the cold plunge. At night, meat sauce from steak left over from my grandmother's beiju, and I slept without a sleeping pill.",
+    "text_zh": "在银行推进新法人的开户，用Claude Code花约2小时做了共享办公室的入驻者聊天机器人。傍晚在五反田的桑拿不进冷水池做了2轮。晚上用祖母米寿宴剩下的牛排做了肉酱，没吃安眠药就睡着了。",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin"
   },
@@ -652,6 +662,17 @@
   },
   "archive": [
     {
+      "date": "2026-10-30",
+      "label": "10.30（金）",
+      "total": 390331017,
+      "diff_pct": -0.09,
+      "memo": "25本×3言語 ｜ 売買なし ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "25 posts x 3 languages ｜ No trades ｜ 1 note ｜ 1 article",
+      "memo_zh": "25条×3种语言 ｜ 无交易 ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Oct 30 Fri",
+      "label_zh": "10.30 周五"
+    },
+    {
       "date": "2026-10-29",
       "label": "10.29（木）",
       "total": 390692913,
@@ -818,6 +839,25 @@
     }
   ],
   "articles": [
+    {
+      "slug": "ai-capex-payback",
+      "date": "2026-10-30",
+      "image": "images/articles/ai-capex-payback/hero.jpg",
+      "category": "AI",
+      "category_en": "AI",
+      "category_zh": "AI",
+      "title": "AIの設備投資は何年で回収できるのか――アルファベット・アマゾン・マイクロソフトの7〜9月期で試算する",
+      "title_en": "How many years will it take to recover AI capital spending? A payback estimate from Alphabet, Amazon and Microsoft in July–September",
+      "title_zh": "AI资本支出需要几年才能收回？——用字母表、亚马逊、微软7至9月的数据测算",
+      "lead": "2026年10月28〜29日（米国時間）、米国の大手3社が7〜9月期の決算を出した。3社がこの四半期に使った設備投資は合わせて約1,680億ドルで、1年前の約2.1倍になった。 本稿の問いは一つである。1年前より増えた設備投資は、1年前より増えた営業利益で、何年あれば回収できる計算になるのか。 3社の決算資料と会計方針の開示、国際エネルギー機関（IEA）の報告を使い、利益の帰属と伸び率を動かした感度分析で確かめる。",
+      "lead_en": "On October 28–29, 2026 (US time), three large US companies reported July–September results. Their combined capital spending for the quarter was about $168 billion, roughly 2.1 times the level a year earlier. This article asks a single question: how many years would the increase in operating profit need to recover the increase in capital spending over the past year? Writing from Japan, I test it with the three companies' earnings releases, an accounting-policy disclosure and a report from the International Energy Agency (IEA), using a sensitivity analysis that moves the profit attribution and growth rate.",
+      "lead_zh": "2026年10月28日至29日（美国时间），美国三家大公司公布了7至9月的业绩。三家公司这一季度的资本支出合计约1,680亿美元，约为一年前的2.1倍。 本文只提出一个问题：与一年前相比增加的资本支出，用与一年前相比增加的营业利润，需要几年才能收回？ 我在日本，利用三家公司的财报资料、会计政策的披露以及国际能源署（IEA）的报告，并通过变动利润归属和增长率的敏感性分析来检验。",
+      "tags": [
+        "ai",
+        "company",
+        "markets"
+      ]
+    },
     {
       "slug": "cb-meeting-frequency",
       "date": "2026-10-29",
