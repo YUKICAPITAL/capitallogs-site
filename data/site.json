@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T11:28:00+09:00",
+  "updated": "2026-10-31T21:40:00+09:00",
   "profile": {
     "name": "YUKI CAPITAL",
     "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -268,64 +268,70 @@
     }
   ],
   "posts": {
-    "date": "2026-10-30",
-    "count": 25,
+    "date": "2026-10-31",
+    "count": 12,
     "items": [
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "10.30",
-        "kind": "判断",
-        "kind_en": "Judgment",
-        "kind_zh": "判断",
-        "title": "AI決算で売られる日に、買わずに現金余力を貯める",
-        "title_en": "On a day AI earnings get sold, I build cash reserves and do not buy",
-        "title_zh": "AI财报遭抛售的日子，我不买，攒现金余力"
+        "time": "10.31",
+        "kind": "シリーズ",
+        "kind_en": "Series",
+        "kind_zh": "系列",
+        "title": "電気も水道もない小屋から哲学へ、スチュワート・バターフィールド",
+        "title_en": "From a cabin with no power or water to philosophy, Stewart Butterfield",
+        "title_zh": "从没有水电的小木屋到哲学，斯图尔特·巴特菲尔德"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "10.30",
+        "time": "10.31",
         "kind": "日記",
         "kind_en": "Diary",
         "kind_zh": "日记",
-        "title": "銀行、チャットボット、サウナ、家族のミートソース",
-        "title_en": "A bank, a chatbot, a sauna, and meat sauce with my family",
-        "title_zh": "银行、聊天机器人、桑拿、家人的肉酱"
+        "title": "ミートソースをキーマカレーに、7時間眠れた朝",
+        "title_en": "Turning meat sauce into keema curry, and a morning after seven hours of sleep",
+        "title_zh": "把肉酱改成肉末咖喱，睡足7小时的早晨"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "10.30",
+        "time": "10.31",
         "kind": "長文",
         "kind_en": "Long read",
         "kind_zh": "长文",
-        "title": "2時間で作った入居者チャットボット、40社のテナントへ",
-        "title_en": "A tenant chatbot built in two hours, going out to 40 companies",
-        "title_zh": "2小时做出的入驻者聊天机器人，发往40家租户"
+        "title": "93歳の祖母がしっかり食べた日、青物横丁からのバス",
+        "title_en": "The day my 93-year-old grandmother ate well, and the bus from Aomonoyokocho",
+        "title_zh": "93岁的祖母好好吃饭的那天，从青物横丁出发的公交"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "10.30",
-        "kind": "ニュース",
-        "kind_en": "News",
-        "kind_zh": "新闻",
-        "title": "アルファベット12%安、350株は動かさない",
-        "title_en": "Alphabet fell 12%, and I am leaving my 350 shares as they are",
-        "title_zh": "字母表下跌12%，我的350股不动"
+        "time": "10.31",
+        "kind": "資本",
+        "kind_en": "Capital",
+        "kind_zh": "资本",
+        "title": "週次の資本振り返り｜10月26日週",
+        "title_en": "Weekly capital review | week of Oct 26",
+        "title_zh": "每周资本回顾｜10月26日这一周"
       }
     ]
   },
   "note": [
+    {
+      "date": "2026-10-31",
+      "title": "創業者が強い会社は、後継ぎの仕組みで見る――ニデックの成長と不適切会計を、2代目の経営者として読む",
+      "url": "https://note.com/capitallogs/n/nf013b0f32a5f",
+      "image": "https://assets.st-note.com/production/uploads/images/330627560/rectangle_large_type_2_39a40ea248ca909dcc7bc48b630c7001.png?fit=bounds&quality=85&width=640"
+    },
     {
       "date": "2026-10-30",
       "title": "アルファベット12%安の翌朝、マイクロソフトと決算書を並べて、350株を動かさなかった",
@@ -388,25 +394,25 @@
     }
   ],
   "diary": {
-    "date": "2026-10-30（金）",
-    "place": "銀行・シェアオフィス・五反田のサウナ",
-    "title": "銀行、チャットボット、サウナ、家族のミートソース",
-    "text": "銀行で新しい法人の口座開設を進め、シェアオフィスの入居者チャットボットをClaude Codeで2時間ほどで作った。夕方は五反田のサウナで水風呂に入らず2セット。夜は米寿の会の残りのステーキでミートソース、睡眠薬なしで眠れた。",
+    "date": "2026-10-31（土）",
+    "place": "祖母の家・林試の森公園",
+    "title": "ミートソースをキーマカレーに、7時間眠れた朝",
+    "text": "7時間ほど眠れた朝に、両親と93歳の祖母の家へ。祖母がしっかり食べてくれたのが嬉しかった。帰りは駒沢公園が満車で林試の森へ回り、家族と犬で過ごした。夜はミートソースの残りをパスタに。",
     "image": "",
     "url": "https://x.com/capitallogs",
-    "date_en": "Fri, Oct 30, 2026",
-    "date_zh": "2026.10.30（周五）",
-    "place_en": "The bank, the shared office and a sauna in Gotanda",
-    "place_zh": "银行、共享办公室、五反田的桑拿",
-    "title_en": "A bank, a chatbot, a sauna, and meat sauce with my family",
-    "title_zh": "银行、聊天机器人、桑拿、家人的肉酱",
-    "text_en": "I moved forward with opening a bank account for a new company and built a tenant chatbot for my shared office with Claude Code in about two hours. In the evening, two rounds at a sauna in Gotanda without the cold plunge. At night, meat sauce from steak left over from my grandmother's beiju, and I slept without a sleeping pill.",
-    "text_zh": "在银行推进新法人的开户，用Claude Code花约2小时做了共享办公室的入驻者聊天机器人。傍晚在五反田的桑拿不进冷水池做了2轮。晚上用祖母米寿宴剩下的牛排做了肉酱，没吃安眠药就睡着了。",
+    "date_en": "Sat, Oct 31, 2026",
+    "date_zh": "2026.10.31（周六）",
+    "place_en": "My grandmother's home and Rinshi no Mori Park",
+    "place_zh": "祖母家、林试之森公园",
+    "title_en": "Turning meat sauce into keema curry, and a morning after seven hours of sleep",
+    "title_zh": "把肉酱改成肉末咖喱，睡足7小时的早晨",
+    "text_en": "After about seven hours of sleep, I visited my 93-year-old grandmother with my parents. I was glad she ate well. Komazawa Park's lots were full on the way back, so we spent time at Rinshi no Mori Park with the family and the dog. At night, the leftover meat sauce went into pasta.",
+    "text_zh": "睡了7个小时左右的早上，和父母去了93岁的祖母家。祖母好好吃了饭，我很高兴。回来时驹泽公园车位已满，我们改去林试之森，和家人、狗一起度过。晚上把剩下的肉酱拌进了意面。",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin"
   },
   "media": {
-    "updated": "2026-10-30 12:57",
+    "updated": "2026-10-31 21:28",
     "impressions_month": null,
     "impressions_daily": [],
     "followers": [
@@ -414,7 +420,7 @@
         "name": "X 日本語",
         "handle": "@capitallogs",
         "url": "https://x.com/capitallogs",
-        "count": 160,
+        "count": 159,
         "name_en": "X Japanese",
         "name_zh": "X 日文"
       },
@@ -430,7 +436,7 @@
         "name": "X 中文",
         "handle": "@YUKICAPITALchin",
         "url": "https://x.com/YUKICAPITALchin",
-        "count": 61,
+        "count": 60,
         "name_en": "X Chinese",
         "name_zh": "X 中文"
       },
@@ -449,49 +455,48 @@
           "name": "X 日本語",
           "name_en": "X Japanese",
           "name_zh": "X 日文",
-          "d7": 49078,
-          "d28": 158584
+          "d7": 46832,
+          "d28": 161932
         },
         {
           "name": "X English",
           "name_en": "X English",
           "name_zh": "X 英文",
-          "d7": 9370,
-          "d28": 29641
+          "d7": 8980,
+          "d28": 30589
         },
         {
           "name": "X 中文",
           "name_en": "X Chinese",
           "name_zh": "X 中文",
-          "d7": 12947,
-          "d28": 40162
+          "d7": 11995,
+          "d28": 40954
         },
         {
           "name": "note",
           "name_en": "note",
           "name_zh": "note",
-          "d7": 455,
-          "d28": 1051
+          "d7": 582,
+          "d28": 1181
         },
         {
           "name": "サイト",
           "name_en": "Site",
           "name_zh": "网站",
           "d7": 108,
-          "d28": 300
+          "d28": 310
         }
       ],
-      "total_d7": 71958,
-      "total_d28": 229738
+      "total_d7": 68497,
+      "total_d28": 234966
     },
     "site": {
-      "visits_24h": 8,
-      "pv_24h": 22,
+      "visits_24h": 2,
+      "pv_24h": 8,
       "visits_7d": null
     },
     "daily": {
       "dates": [
-        "2026-10-03",
         "2026-10-04",
         "2026-10-05",
         "2026-10-06",
@@ -518,10 +523,10 @@
         "2026-10-27",
         "2026-10-28",
         "2026-10-29",
-        "2026-10-30"
+        "2026-10-30",
+        "2026-10-31"
       ],
       "x_ja": [
-        496,
         413,
         5799,
         4216,
@@ -548,10 +553,10 @@
         10468,
         9155,
         7021,
-        2967
+        5806,
+        1005
       ],
       "x_en": [
-        85,
         72,
         784,
         948,
@@ -578,10 +583,10 @@
         1727,
         2050,
         1349,
-        547
+        1339,
+        241
       ],
       "x_zh": [
-        455,
         299,
         1209,
         1267,
@@ -608,10 +613,10 @@
         2312,
         2354,
         1866,
-        535
+        1401,
+        381
       ],
       "note": [
-        0,
         0,
         7,
         50,
@@ -638,35 +643,41 @@
         2,
         149,
         152,
-        54
+        132,
+        52
       ]
     },
     "today": {
-      "date": "2026-10-30",
-      "x_ja": 2967,
-      "x_en": 547,
-      "x_zh": 535,
-      "note": 54,
-      "site_visits_24h": 8,
-      "site_pv_24h": 22,
-      "at": "2026-10-30 12:57"
+      "date": "2026-10-31",
+      "x_ja": 1005,
+      "x_en": 241,
+      "x_zh": 381,
+      "note": 52,
+      "site_visits_24h": 2,
+      "site_pv_24h": 8,
+      "at": "2026-10-31 21:28"
     },
     "intraday": [
       {
-        "at": "2026-10-30 12:49",
-        "x": 4049,
-        "site_pv_24h": 30,
-        "site_visits_24h": 14
-      },
-      {
-        "at": "2026-10-30 12:57",
-        "x": 4049,
-        "site_pv_24h": 22,
-        "site_visits_24h": 8
+        "at": "2026-10-31 21:28",
+        "x": 1627,
+        "site_pv_24h": 8,
+        "site_visits_24h": 2
       }
     ]
   },
   "archive": [
+    {
+      "date": "2026-10-31",
+      "label": "10.31（土）",
+      "total": null,
+      "diff_pct": null,
+      "memo": "休場 ｜ 12本×3言語 ｜ 売買なし ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "Market closed ｜ 12 posts x 3 languages ｜ No trades ｜ 1 note ｜ 1 article",
+      "memo_zh": "休市 ｜ 12条×3种语言 ｜ 无交易 ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Oct 31 Sat",
+      "label_zh": "10.31 周六"
+    },
     {
       "date": "2026-10-30",
       "label": "10.30（金）",
@@ -845,6 +856,25 @@
     }
   ],
   "articles": [
+    {
+      "slug": "boj-hike-megabank-nii",
+      "date": "2026-10-31",
+      "image": "images/articles/boj-hike-megabank-nii/hero.jpg",
+      "category": "金融・銀行",
+      "category_en": "Finance & banks",
+      "category_zh": "金融·银行",
+      "title": "日銀の0.25%の利上げで、メガバンクの金利収入は何%増えるのか",
+      "title_en": "How much would one 0.25% Bank of Japan rate hike lift the megabanks' interest income?",
+      "title_zh": "日本央行加息0.25%，大型银行的利息收入会增加百分之几？",
+      "lead": "2026年10月30日、日本銀行は政策金利を1.25%程度に据え置いた。9人の政策委員のうち1人は1.5%への利上げを提案し、否決されている。 次の0.25%の利上げは、いつかは来る前提で市場が動いている。そこで本稿の問いを一つに絞る。 政策金利が0.25%上がると、三菱UFJ・三井住友・みずほの3メガバンクの資金利益は、それぞれ何%増えるのか。",
+      "lead_en": "On October 30, 2026, the Bank of Japan (BOJ) held its policy rate at around 1.25%. One of the 9 Policy Board members proposed a hike to 1.5%, and the proposal was voted down. Markets are moving on the assumption that the next 0.25% hike will come at some point. So I narrow this piece down to a single question. If the policy rate rises by 0.25%, by what percentage does net interest income grow at each of Japan's three megabanks: MUFG (Mitsubishi UFJ), SMFG (Sumitomo Mitsui) and Mizuho?",
+      "lead_zh": "2026年10月30日，日本银行（日本央行）将政策利率维持在1.25%左右。9名政策委员中有1人提议加息至1.5%，但被否决。 市场的走势以下一次0.25%的加息迟早会到来为前提。因此，本文把问题收窄为一个。 政策利率上调0.25%，三菱UFJ、三井住友、瑞穗这3家大型银行（日本三大银行集团）的资金利润，各自会增加百分之几？",
+      "tags": [
+        "finance",
+        "economy",
+        "markets"
+      ]
+    },
     {
       "slug": "ai-capex-payback",
       "date": "2026-10-30",
