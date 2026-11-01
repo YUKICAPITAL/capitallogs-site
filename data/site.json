@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T21:40:00+09:00",
+  "updated": "2026-11-01T22:30:00+09:00",
   "profile": {
     "name": "YUKI CAPITAL",
     "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -268,7 +268,7 @@
     }
   ],
   "posts": {
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "count": 12,
     "items": [
       {
@@ -276,56 +276,62 @@
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "10.31",
+        "time": "11.01",
         "kind": "シリーズ",
         "kind_en": "Series",
         "kind_zh": "系列",
-        "title": "電気も水道もない小屋から哲学へ、スチュワート・バターフィールド",
-        "title_en": "From a cabin with no power or water to philosophy, Stewart Butterfield",
-        "title_zh": "从没有水电的小木屋到哲学，斯图尔特·巴特菲尔德"
+        "title": "野村證券、ネットで売買できないようにした口座",
+        "title_en": "Nomura Securities, the account I locked against online trading",
+        "title_zh": "野村证券，一个不能在网上买卖的账户"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "10.31",
+        "time": "11.01",
         "kind": "日記",
         "kind_en": "Diary",
         "kind_zh": "日记",
-        "title": "ミートソースをキーマカレーに、7時間眠れた朝",
-        "title_en": "Turning meat sauce into keema curry, and a morning after seven hours of sleep",
-        "title_zh": "把肉酱改成肉末咖喱，睡足7小时的早晨"
+        "title": "考査の前日、教会と神社と公園の日曜",
+        "title_en": "The day before the test: church, a shrine and a park on Sunday",
+        "title_zh": "考查前一天，教会、神社和公园的周日"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "10.31",
+        "time": "11.01",
         "kind": "長文",
         "kind_en": "Long read",
         "kind_zh": "长文",
-        "title": "93歳の祖母がしっかり食べた日、青物横丁からのバス",
-        "title_en": "The day my 93-year-old grandmother ate well, and the bus from Aomonoyokocho",
-        "title_zh": "93岁的祖母好好吃饭的那天，从青物横丁出发的公交"
+        "title": "ミッドタウンのそば屋、主役はそばでないと",
+        "title_en": "A soba shop in Midtown, where soba needs to be the star",
+        "title_zh": "中城的荞麦面馆，主角应该是荞麦面"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "10.31",
+        "time": "11.01",
         "kind": "資本",
         "kind_en": "Capital",
         "kind_zh": "资本",
-        "title": "週次の資本振り返り｜10月26日週",
-        "title_en": "Weekly capital review | week of Oct 26",
-        "title_zh": "每周资本回顾｜10月26日这一周"
+        "title": "11月第1週の構え、売買の予定はゼロ",
+        "title_en": "Week one of November, with zero trades planned",
+        "title_zh": "11月第1周的布局，买卖计划为零"
       }
     ]
   },
   "note": [
+    {
+      "date": "2026-11-01",
+      "title": "10歳の犬に、今から避妊手術をするか――「生理は終わらない」と知った日曜に、数字を並べて考えたこと",
+      "url": "https://note.com/capitallogs/n/n1a44f66feeee",
+      "image": "https://assets.st-note.com/production/uploads/images/330627560/rectangle_large_type_2_39a40ea248ca909dcc7bc48b630c7001.png?fit=bounds&quality=85&width=640"
+    },
     {
       "date": "2026-10-31",
       "title": "創業者が強い会社は、後継ぎの仕組みで見る――ニデックの成長と不適切会計を、2代目の経営者として読む",
@@ -394,20 +400,20 @@
     }
   ],
   "diary": {
-    "date": "2026-10-31（土）",
-    "place": "祖母の家・林試の森公園",
-    "title": "ミートソースをキーマカレーに、7時間眠れた朝",
-    "text": "7時間ほど眠れた朝に、両親と93歳の祖母の家へ。祖母がしっかり食べてくれたのが嬉しかった。帰りは駒沢公園が満車で林試の森へ回り、家族と犬で過ごした。夜はミートソースの残りをパスタに。",
+    "date": "2026-11-01（日）",
+    "place": "教会・日枝神社・檜町公園・白金の実家",
+    "title": "考査の前日、教会と神社と公園の日曜",
+    "text": "朝は子どもたちと教会へ。家族4人で日枝神社にお参りし、檜町公園で遊んで、ミッドタウンでそばを食べた。午後は白金の実家で母の還暦の話をし、両親と犬で1時間歩いた。夜は奥さんとジムへ。明日は考査だ。",
     "image": "",
     "url": "https://x.com/capitallogs",
-    "date_en": "Sat, Oct 31, 2026",
-    "date_zh": "2026.10.31（周六）",
-    "place_en": "My grandmother's home and Rinshi no Mori Park",
-    "place_zh": "祖母家、林试之森公园",
-    "title_en": "Turning meat sauce into keema curry, and a morning after seven hours of sleep",
-    "title_zh": "把肉酱改成肉末咖喱，睡足7小时的早晨",
-    "text_en": "After about seven hours of sleep, I visited my 93-year-old grandmother with my parents. I was glad she ate well. Komazawa Park's lots were full on the way back, so we spent time at Rinshi no Mori Park with the family and the dog. At night, the leftover meat sauce went into pasta.",
-    "text_zh": "睡了7个小时左右的早上，和父母去了93岁的祖母家。祖母好好吃了饭，我很高兴。回来时驹泽公园车位已满，我们改去林试之森，和家人、狗一起度过。晚上把剩下的肉酱拌进了意面。",
+    "date_en": "Sun, Nov 1, 2026",
+    "date_zh": "2026.11.01（周日）",
+    "place_en": "Church, Hie Shrine, Hinokicho Park and my parents' home in Shirokane",
+    "place_zh": "教会、日枝神社、桧町公园、白金老家",
+    "title_en": "The day before the test: church, a shrine and a park on Sunday",
+    "title_zh": "考查前一天，教会、神社和公园的周日",
+    "text_en": "In the morning I took the kids to church. The four of us prayed at Hie Shrine, played at Hinokicho Park and had soba at Midtown. In the afternoon I talked with my mother about her 60th birthday at my parents' home in Shirokane and walked for an hour with my parents and the dog. In the evening I went to the gym with my wife. Tomorrow is the test.",
+    "text_zh": "早上带孩子们去了教会。一家4口去日枝神社参拜，在桧町公园玩，在中城吃了荞麦面。下午在白金老家聊了母亲六十大寿的事，和父母、狗一起散步了1小时。晚上和太太去了健身房。明天就是考查。",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin"
   },
@@ -668,6 +674,17 @@
   },
   "archive": [
     {
+      "date": "2026-11-01",
+      "label": "11.01（日）",
+      "total": null,
+      "diff_pct": null,
+      "memo": "休場 ｜ 12本×3言語 ｜ 売買なし ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "Market closed ｜ 12 posts x 3 languages ｜ No trades ｜ 1 note ｜ 1 article",
+      "memo_zh": "休市 ｜ 12条×3种语言 ｜ 无交易 ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Nov 1 Sun",
+      "label_zh": "11.01 周日"
+    },
+    {
       "date": "2026-10-31",
       "label": "10.31（土）",
       "total": null,
@@ -856,6 +873,25 @@
     }
   ],
   "articles": [
+    {
+      "slug": "anthropic-s1-breakeven",
+      "date": "2026-11-01",
+      "image": "images/articles/anthropic-s1-breakeven/hero.jpg",
+      "category": "AI",
+      "category_en": "AI",
+      "category_zh": "AI",
+      "tags": [
+        "ai",
+        "company",
+        "markets"
+      ],
+      "title": "AnthropicのS-1を読む――黒字はいつ見えるのか、いちばん重いコストは何か",
+      "lead": "2026年10月26日、Anthropicは米国証券取引委員会（SEC）に、上場の申請書類であるForm S-1を公開で提出した。上場先はNasdaq、銘柄の記号はANTを予定している。 2026年1〜6月の売上高は162.86億ドルで、前の年の同じ時期の約14倍になった。一方で、同じ半年の純損失は807.48億ドルにのぼる。 本稿の問いは2つに絞る。この会社の本業は、いつ黒字に届くと推定できるのか。そして、お金はどこに使われ、いちばん重いコストは何なのか。",
+      "title_en": "Reading Anthropic's S-1: when profit comes into view, and what the heaviest cost is",
+      "lead_en": "From Japan, I read the Form S-1, the registration document for a listing, that Anthropic publicly filed with the US Securities and Exchange Commission (SEC) on October 26, 2026. The planned listing venue is Nasdaq, under the ticker ANT. Revenue for January–June 2026 was $16.286 billion, about 14 times the same period a year earlier. Over the same half-year, however, the net loss reached $80.748 billion. I narrow this piece to two questions. When can the core business be estimated to reach profitability? And where does the money go, and what is the heaviest cost?",
+      "title_zh": "解读Anthropic的S-1——盈利何时可见，最重的成本是什么",
+      "lead_zh": "2026年10月26日，Anthropic向美国证券交易委员会（SEC）公开提交了上市申请文件S-1表格（Form S-1）。上市地点为纳斯达克，股票代码拟为ANT。 2026年1至6月的营业收入为162.86亿美元，约为上年同期的14倍。另一方面，同一半年的净亏损高达807.48亿美元。 本文将问题集中为两个。这家公司的主营业务，可以推定何时实现盈利？此外，资金用在了哪里，最重的成本是什么？"
+    },
     {
       "slug": "boj-hike-megabank-nii",
       "date": "2026-10-31",
