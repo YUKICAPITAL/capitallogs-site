@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T22:30:00+09:00",
+  "updated": "2026-11-02T19:30:00+09:00",
   "profile": {
     "name": "YUKI CAPITAL",
     "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -16,38 +16,38 @@
     "note": "https://note.com/capitallogs"
   },
   "capital": {
-    "date": "2026-10-30",
-    "label": "10.30（金）",
-    "total": 390331017,
-    "diff": -361896,
-    "diff_pct": -0.09,
-    "unreal": 58924946,
-    "unreal_pct": 17.94,
+    "date": "2026-11-02",
+    "label": "11.02（月）",
+    "total": 384089008,
+    "diff": -6242009,
+    "diff_pct": -1.6,
+    "unreal": 52682937,
+    "unreal_pct": 16.04,
     "cash": 2951857,
-    "cash_pct": 0.76,
+    "cash_pct": 0.77,
     "trade": "売買なし",
     "alloc": [
       {
         "name": "国内株",
-        "pct": 46.55,
+        "pct": 46.56,
         "name_en": "JP stocks",
         "name_zh": "日本股票"
       },
       {
         "name": "投信",
-        "pct": 26.68,
+        "pct": 27.03,
         "name_en": "Funds",
         "name_zh": "基金"
       },
       {
         "name": "外国株",
-        "pct": 26.01,
+        "pct": 25.64,
         "name_en": "Foreign stocks",
         "name_zh": "海外股票"
       },
       {
         "name": "現金",
-        "pct": 0.76,
+        "pct": 0.77,
         "name_en": "Cash",
         "name_zh": "现金"
       }
@@ -100,24 +100,28 @@
       {
         "date": "2026-10-30",
         "total": 390331017
+      },
+      {
+        "date": "2026-11-02",
+        "total": 384089008
       }
     ],
-    "label_en": "Oct 30 (Fri)",
-    "label_zh": "10.30（周五）",
+    "label_en": "Nov 2 (Mon)",
+    "label_zh": "11.02（周一）",
     "trade_en": "No trades",
     "trade_zh": "无交易",
     "week": {
-      "from": "2026-10-22",
-      "to": "2026-10-30",
-      "diff": 895620,
-      "diff_pct": 0.23
+      "from": "2026-10-26",
+      "to": "2026-11-02",
+      "diff": 3764920,
+      "diff_pct": 0.99
     }
   },
   "conditions": [
     {
       "title": "SpaceX を +500株",
       "rule": "終値が 100ドルを割ったら",
-      "now": "145.23 ドル",
+      "now": "143.89 ドル",
       "status": "未達",
       "title_en": "Add 500 SpaceX",
       "rule_en": "if the close falls below $100",
@@ -125,13 +129,13 @@
       "title_zh": "SpaceX 加仓500股",
       "rule_zh": "收盘价跌破100美元时",
       "status_zh": "未达",
-      "now_en": "$145.23",
-      "now_zh": "145.23 美元"
+      "now_en": "$143.89",
+      "now_zh": "143.89 美元"
     },
     {
       "title": "IonQ を +500株",
       "rule": "25ドルを割ったら",
-      "now": "32.43 ドル",
+      "now": "31.72 ドル",
       "status": "未達",
       "title_en": "Add 500 IonQ",
       "rule_en": "if it falls below $25",
@@ -139,13 +143,13 @@
       "title_zh": "IonQ 加仓500股",
       "rule_zh": "跌破25美元时",
       "status_zh": "未达",
-      "now_en": "$32.43",
-      "now_zh": "32.43 美元"
+      "now_en": "$31.72",
+      "now_zh": "31.72 美元"
     },
     {
       "title": "三井住友FG を買い増し",
       "rule": "3,000円が目安",
-      "now": "3,200 円",
+      "now": "3,144 円",
       "status": "未達",
       "title_en": "Add SMFG (8316)",
       "rule_en": "around ¥3,000 as the guide",
@@ -153,20 +157,20 @@
       "title_zh": "加仓三井住友FG",
       "rule_zh": "以3,000日元为目标",
       "status_zh": "未达",
-      "now_en": "¥3,200",
-      "now_zh": "3,200 日元"
+      "now_en": "¥3,144",
+      "now_zh": "3,144 日元"
     },
     {
       "title": "SpaceX の積み立て",
       "rule": "外壁補修の見積もりが出るまで",
       "now": "",
-      "status": "10月は休止・11月も再開しない見込み",
+      "status": "10月・11月とも休止",
       "title_en": "Monthly SpaceX purchases",
       "rule_en": "until the exterior-wall repair estimate is in",
-      "status_en": "Paused in Oct; likely not resuming in Nov",
+      "status_en": "Paused in October and November",
       "title_zh": "SpaceX 定投",
       "rule_zh": "等外墙维修报价出来",
-      "status_zh": "10月暂停，11月预计也不恢复"
+      "status_zh": "10月、11月均暂停"
     }
   ],
   "holdings": [
@@ -268,64 +272,70 @@
     }
   ],
   "posts": {
-    "date": "2026-11-01",
-    "count": 12,
+    "date": "2026-11-02",
+    "count": 26,
     "items": [
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.01",
-        "kind": "シリーズ",
-        "kind_en": "Series",
-        "kind_zh": "系列",
-        "title": "野村證券、ネットで売買できないようにした口座",
-        "title_en": "Nomura Securities, the account I locked against online trading",
-        "title_zh": "野村证券，一个不能在网上买卖的账户"
+        "time": "11.02",
+        "kind": "判断",
+        "kind_en": "Decision",
+        "kind_zh": "判断",
+        "title": "量子株が30ドル割れ、IonQは25ドルまで待つ",
+        "title_en": "Quantum stocks slip below $30, and I wait for IonQ at $25",
+        "title_zh": "量子股跌破30美元，IonQ我等到25美元"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.01",
+        "time": "11.02",
         "kind": "日記",
         "kind_en": "Diary",
         "kind_zh": "日记",
-        "title": "考査の前日、教会と神社と公園の日曜",
-        "title_en": "The day before the test: church, a shrine and a park on Sunday",
-        "title_zh": "考查前一天，教会、神社和公园的周日"
+        "title": "日曜は妻とジム、眠くなるまで気にしない夜",
+        "title_en": "Sunday at the gym with my wife, and a night of not worrying until sleep comes",
+        "title_zh": "周日和妻子去健身房，在困意来之前不去在意的夜晚"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.01",
+        "time": "11.02",
         "kind": "長文",
         "kind_en": "Long read",
         "kind_zh": "长文",
-        "title": "ミッドタウンのそば屋、主役はそばでないと",
-        "title_en": "A soba shop in Midtown, where soba needs to be the star",
-        "title_zh": "中城的荞麦面馆，主角应该是荞麦面"
+        "title": "1,500m泳いでも痩せにくい、とジムで言われた",
+        "title_en": "Swimming 1,500m and still not losing weight, a gym staffer told me why",
+        "title_zh": "游了1,500米还是瘦不下来，健身房的人告诉我原因"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.01",
-        "kind": "資本",
-        "kind_en": "Capital",
-        "kind_zh": "资本",
-        "title": "11月第1週の構え、売買の予定はゼロ",
-        "title_en": "Week one of November, with zero trades planned",
-        "title_zh": "11月第1周的布局，买卖计划为零"
+        "time": "11.02",
+        "kind": "ニュース",
+        "kind_en": "News",
+        "kind_zh": "新闻",
+        "title": "日経318円安、銀行株は1株も動かさない",
+        "title_en": "Nikkei opens 318 points lower, and I am not touching a single bank share",
+        "title_zh": "日经开盘跌318点，我一股银行股也不动"
       }
     ]
   },
   "note": [
+    {
+      "date": "2026-11-02",
+      "title": "睡眠薬が要らなくなった。グリシン酸マグネシウムと「眠れなくてもいい」に変えた、寝る前の2週間",
+      "url": "https://note.com/capitallogs/n/na1f10b39c1cf",
+      "image": "https://assets.st-note.com/production/uploads/images/331343863/rectangle_large_type_2_27531935c5816586cd5ba0f3227cae4d.png?fit=bounds&quality=85&width=640"
+    },
     {
       "date": "2026-11-01",
       "title": "10歳の犬に、今から避妊手術をするか――「生理は終わらない」と知った日曜に、数字を並べて考えたこと",
@@ -400,22 +410,22 @@
     }
   ],
   "diary": {
-    "date": "2026-11-01（日）",
-    "place": "教会・日枝神社・檜町公園・白金の実家",
-    "title": "考査の前日、教会と神社と公園の日曜",
-    "text": "朝は子どもたちと教会へ。家族4人で日枝神社にお参りし、檜町公園で遊んで、ミッドタウンでそばを食べた。午後は白金の実家で母の還暦の話をし、両親と犬で1時間歩いた。夜は奥さんとジムへ。明日は考査だ。",
+    "date": "2026-11-02（月）",
+    "place": "ジム・自宅",
+    "title": "日曜は妻とジム、眠くなるまで気にしない夜",
+    "text": "日曜は奥さんとジムで過ごし、プールにも入った。帰ってからは家でのんびり休んだ。夜は携帯で本や動画を探し、眠くなるまで寝つきを気にしないようにした。今週は双子の考査がある。",
     "image": "",
     "url": "https://x.com/capitallogs",
-    "date_en": "Sun, Nov 1, 2026",
-    "date_zh": "2026.11.01（周日）",
-    "place_en": "Church, Hie Shrine, Hinokicho Park and my parents' home in Shirokane",
-    "place_zh": "教会、日枝神社、桧町公园、白金老家",
-    "title_en": "The day before the test: church, a shrine and a park on Sunday",
-    "title_zh": "考查前一天，教会、神社和公园的周日",
-    "text_en": "In the morning I took the kids to church. The four of us prayed at Hie Shrine, played at Hinokicho Park and had soba at Midtown. In the afternoon I talked with my mother about her 60th birthday at my parents' home in Shirokane and walked for an hour with my parents and the dog. In the evening I went to the gym with my wife. Tomorrow is the test.",
-    "text_zh": "早上带孩子们去了教会。一家4口去日枝神社参拜，在桧町公园玩，在中城吃了荞麦面。下午在白金老家聊了母亲六十大寿的事，和父母、狗一起散步了1小时。晚上和太太去了健身房。明天就是考查。",
     "url_en": "https://x.com/YUKICAPITALen",
-    "url_zh": "https://x.com/YUKICAPITALchin"
+    "url_zh": "https://x.com/YUKICAPITALchin",
+    "date_en": "Mon, Nov 2, 2026",
+    "date_zh": "2026.11.02（周一）",
+    "place_en": "The gym and home",
+    "place_zh": "健身房、家",
+    "title_en": "Sunday at the gym with my wife, and a night of not worrying until sleep comes",
+    "title_zh": "周日和妻子去健身房，在困意来之前不去在意的夜晚",
+    "text_en": "On Sunday I spent time at the gym with my wife and went in the pool too. Back home, I rested at a leisurely pace. At night I looked for books and videos on my phone and tried not to worry about falling asleep until I felt sleepy. The twins have their exams this week.",
+    "text_zh": "周日和妻子在健身房度过，也下了泳池。回家后悠闲地休息。晚上用手机找书和视频，在困意来之前不去在意能不能睡着。这周双胞胎要考试。"
   },
   "media": {
     "updated": "2026-10-31 21:28",
@@ -674,6 +684,17 @@
   },
   "archive": [
     {
+      "date": "2026-11-02",
+      "label": "11.02（月）",
+      "total": 384089008,
+      "diff_pct": -1.6,
+      "memo": "26本×3言語 ｜ 売買なし ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "26 posts x 3 languages ｜ No trades ｜ 1 note ｜ 1 article",
+      "memo_zh": "26条×3种语言 ｜ 无交易 ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Nov 2 Mon",
+      "label_zh": "11.02 周一"
+    },
+    {
       "date": "2026-11-01",
       "label": "11.01（日）",
       "total": null,
@@ -873,6 +894,25 @@
     }
   ],
   "articles": [
+    {
+      "slug": "ai-power-supply-2030",
+      "date": "2026-11-02",
+      "image": "images/articles/ai-power-supply-2030/hero.jpg",
+      "category": "AI",
+      "category_en": "AI",
+      "category_zh": "AI",
+      "tags": [
+        "ai",
+        "tech",
+        "economy"
+      ],
+      "title": "AIの電力は2030年までにどこまで増え、どの電源で賄えるのか――再エネ・原子力・火力・核融合を数字で並べる",
+      "lead": "国際エネルギー機関（IEA）は、世界のデータセンターが2024年に使った電力を約415TWhと推計している。世界の電力消費の約1.5%にあたる[1]。 同じ推計の基本ケースでは、2030年にこれが約945TWhへと2倍あまりに増える。増える分は約530TWhで、AIの普及がその主な理由とされる[1]。 本稿の問いは1つに絞る。この約530TWhの増加分を、再生可能エネルギー・原子力・火力・核融合のそれぞれが、どれだけの設備で、いつまでに賄えるのか。結論は決めず、数字だけを並べる。",
+      "title_en": "How far will AI power demand rise by 2030, and which sources can supply it? Renewables, nuclear, fossil fuels and fusion, side by side in numbers",
+      "lead_en": "The International Energy Agency (IEA) estimates that the world's data centres used about 415 TWh of electricity in 2024, roughly 1.5% of global electricity consumption [1]. In the same study's base case, that figure more than doubles to about 945 TWh by 2030. The increase is about 530 TWh, and the spread of AI is cited as the main reason [1]. This piece asks one question. How much of that roughly 530 TWh increase could renewables, nuclear, fossil fuels and fusion each supply, with how much capacity, and by when? I do not reach a verdict here; I only line up the numbers.",
+      "title_zh": "到2030年AI用电会增加多少，靠哪种电源来满足——用数字并列可再生能源、核电、火电与核聚变",
+      "lead_zh": "国际能源署（IEA）估计，2024年全球数据中心用电约415TWh，约占全球用电量的1.5%[1]。 在同一估算的基准情景中，到2030年这一数字将增至约945TWh，增长一倍多。增量约为530TWh，AI的普及被视为主要原因[1]。 本文只提一个问题：这约530TWh的增量，可再生能源、核电、火电和核聚变各自需要多大的装机、在什么时间之前能够满足？本文不下结论，只并列数字。"
+    },
     {
       "slug": "anthropic-s1-breakeven",
       "date": "2026-11-01",
