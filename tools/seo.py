@@ -7,7 +7,7 @@
 https を強制したら BASE を https:// に変えるだけでよい。"""
 import json, re, html, pathlib, datetime
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-BASE = 'http://yuki-capital.com'
+BASE = 'https://yuki-capital.com'
 D = json.loads((ROOT / 'data/site.json').read_text(encoding='utf-8'))
 LANGS = [('ja', '', 'ja_JP'), ('en', 'en/', 'en_US'), ('zh', 'zh/', 'zh_CN')]
 HL = {'ja': 'ja', 'en': 'en', 'zh': 'zh-Hans'}
@@ -50,7 +50,7 @@ person = {"@context": "https://schema.org", "@graph": [
 for lg, p, _ in LANGS:
     fp = ROOT / p / 'index.html'
     s = fp.read_text(encoding='utf-8')
-    s = s.replace('https://yuki-capital.com', BASE)   # og:image など
+    s = s.replace('http://yuki-capital.com', BASE)   # og:image など（https へ統一）
     fp.write_text(s, encoding='utf-8')
     patch(fp, head_block(tops, lg, '<script type="application/ld+json">' + json.dumps(person, ensure_ascii=False) + '</script>'), ogurl=f'{BASE}/{p}')
 
