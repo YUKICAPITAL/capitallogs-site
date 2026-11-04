@@ -37,3 +37,6 @@ for code, m in META.items():
     out.parent.mkdir(exist_ok=True)
     out.write_text(t, encoding='utf-8')
     print('wrote', out)
+# SEO（canonical・hreflang・構造化データ・記事一覧の事前書き込み・sitemap.xml・robots.txt）
+import subprocess, sys
+subprocess.run([sys.executable, str(ROOT / 'tools' / 'seo.py')], check=True)
