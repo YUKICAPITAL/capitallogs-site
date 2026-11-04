@@ -90,7 +90,7 @@
       return '<a class="row" href="'+esc(L(p,'url'))+'"><div class="t">'+(p.image?'<img class="thumb" src="'+esc(p.image)+'" alt="">':'')+'<div><div class="meta num">'+esc(p.time)+' ｜ '+esc(L(p,'kind'))+'</div><div class="title">'+esc(L(p,'title'))+'</div></div></div><div class="r">'+imp+'<span class="chip dark">'+esc(T.posts_read)+'</span></div></a>';
     }).join('');
 
-    $('note-list').innerHTML=d.note.map(function(n){return '<a class="card notecard" href="'+esc(n.url)+'">'+(n.image?'<img class="thumb" src="'+esc(n.image)+'" alt="">':'<div class="thumb"></div>')+'<div class="t"><span class="muted num" style="font-size:11px">'+esc(n.date.replace(/-/g,'.'))+(T.note_lang?' ｜ '+esc(T.note_lang):'')+'</span><span class="title">'+esc(n.title)+'</span><span class="read">'+esc(T.note_read)+'</span></div></a>'}).join('');
+    $('note-list').innerHTML=d.note.slice(0,7).map(function(n){return '<a class="card notecard" href="'+esc(n.url)+'">'+(n.image?'<img class="thumb" src="'+esc(n.image)+'" alt="">':'<div class="thumb"></div>')+'<div class="t"><span class="muted num" style="font-size:11px">'+esc(n.date.replace(/-/g,'.'))+(T.note_lang?' ｜ '+esc(T.note_lang):'')+'</span><span class="title">'+esc(n.title)+'</span><span class="read">'+esc(T.note_read)+'</span></div></a>'}).join('');
 
     var D=d.diary; var dc=$('diary-card'); dc.href=L(D,'url')||d.links[xkey];
     dc.innerHTML=(D.image?'<img class="pic" src="'+esc(D.image)+'" alt="">':'')+'<div class="body"><div class="head"><span class="muted num" style="font-size:11px">'+esc(L(D,'date'))+'</span>'+(D.place?'<span class="chip">'+esc(L(D,'place'))+'</span>':'')+'</div><span class="title">'+esc(L(D,'title'))+'</span><p>'+esc(L(D,'text'))+'</p></div>';

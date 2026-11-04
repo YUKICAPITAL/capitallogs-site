@@ -190,7 +190,7 @@ img{max-width:100%;display:block}
   .mini .body{padding:0}
   .mini .title{font-size:16px}
   .stories{display:none}
-  .posts-list{display:block}
+  #posts .posts-list{display:block}
   .h2{font-size:19px}
 }
 .posts-list{display:none}
