@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T14:05:00+09:00",
+  "updated": "2026-11-05T11:10:00+09:00",
   "profile": {
     "name": "YUKI CAPITAL",
     "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -16,38 +16,38 @@
     "note": "https://note.com/capitallogs"
   },
   "capital": {
-    "date": "2026-11-04",
-    "label": "11.04（水）",
-    "total": 375416746,
-    "diff": -8672262,
-    "diff_pct": -2.26,
-    "unreal": 44010675,
-    "unreal_pct": 13.4,
-    "cash": 2951857,
-    "cash_pct": 0.79,
+    "date": "2026-11-05",
+    "label": "11.05（木）",
+    "total": 386355116,
+    "diff": 10938370,
+    "diff_pct": 2.91,
+    "unreal": 53357445,
+    "unreal_pct": 16.25,
+    "cash": 4543457,
+    "cash_pct": 1.18,
     "trade": "売買なし",
     "alloc": [
       {
         "name": "国内株",
-        "pct": 46.37,
+        "pct": 47.58,
         "name_en": "JP stocks",
         "name_zh": "日本股票"
       },
       {
         "name": "投信",
-        "pct": 27.69,
+        "pct": 26.52,
         "name_en": "Funds",
         "name_zh": "基金"
       },
       {
         "name": "外国株",
-        "pct": 25.15,
+        "pct": 24.72,
         "name_en": "Foreign stocks",
         "name_zh": "海外股票"
       },
       {
         "name": "現金",
-        "pct": 0.79,
+        "pct": 1.18,
         "name_en": "Cash",
         "name_zh": "现金"
       }
@@ -108,24 +108,28 @@
       {
         "date": "2026-11-04",
         "total": 375416746
+      },
+      {
+        "date": "2026-11-05",
+        "total": 386355116
       }
     ],
-    "label_en": "Nov 4 (Wed)",
-    "label_zh": "11.04（周三）",
+    "label_en": "Nov 5 (Thu)",
+    "label_zh": "11.05（周四）",
     "trade_en": "No trades",
     "trade_zh": "无交易",
     "week": {
-      "from": "2026-10-28",
-      "to": "2026-11-04",
-      "diff": -10635944,
-      "diff_pct": -2.76
+      "from": "2026-10-29",
+      "to": "2026-11-05",
+      "diff": -4337797,
+      "diff_pct": -1.11
     }
   },
   "conditions": [
     {
       "title": "SpaceX を +500株",
       "rule": "終値が 100ドルを割ったら",
-      "now": "134.72 ドル",
+      "now": "141.31 ドル",
       "status": "未達",
       "title_en": "Add 500 SpaceX",
       "rule_en": "if the close falls below $100",
@@ -133,13 +137,13 @@
       "title_zh": "SpaceX 加仓500股",
       "rule_zh": "收盘价跌破100美元时",
       "status_zh": "未达",
-      "now_en": "$134.72",
-      "now_zh": "134.72 美元"
+      "now_en": "$141.31",
+      "now_zh": "141.31 美元"
     },
     {
       "title": "IonQ を +500株",
       "rule": "25ドルを割ったら",
-      "now": "30.04 ドル",
+      "now": "29.99 ドル",
       "status": "未達",
       "title_en": "Add 500 IonQ",
       "rule_en": "if it falls below $25",
@@ -147,13 +151,13 @@
       "title_zh": "IonQ 加仓500股",
       "rule_zh": "跌破25美元时",
       "status_zh": "未达",
-      "now_en": "$30.04",
-      "now_zh": "30.04 美元"
+      "now_en": "$29.99",
+      "now_zh": "29.99 美元"
     },
     {
       "title": "三井住友FG を買い増し",
       "rule": "3,000円が目安",
-      "now": "3,048 円",
+      "now": "3,211 円",
       "status": "未達",
       "title_en": "Add SMFG (8316)",
       "rule_en": "around ¥3,000 as the guide",
@@ -161,8 +165,8 @@
       "title_zh": "加仓三井住友FG",
       "rule_zh": "以3,000日元为目标",
       "status_zh": "未达",
-      "now_en": "¥3,048",
-      "now_zh": "3,048 日元"
+      "now_en": "¥3,211",
+      "now_zh": "3,211 日元"
     },
     {
       "title": "SpaceX の積み立て",
@@ -276,7 +280,7 @@
     }
   ],
   "posts": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "count": 26,
     "items": [
       {
@@ -284,56 +288,62 @@
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.04",
+        "time": "11.05",
         "kind": "判断",
         "kind_en": "Decision",
         "kind_zh": "判断",
-        "title": "祝日明け3.6%安、銀行4行は1株も動かさない",
-        "title_en": "Down 3.6% after the holiday, and not one share of my four banks moves",
-        "title_zh": "假期后下跌3.6%，四家银行一股也不动"
+        "title": "マスク氏が選挙で負けた日も、SpaceXとテスラは持ち続ける",
+        "title_en": "Even on the day Musk lost the election, I keep holding SpaceX and Tesla",
+        "title_zh": "马斯克在选举中失利的那天，我也继续持有SpaceX和特斯拉"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.04",
+        "time": "11.05",
         "kind": "日記",
         "kind_en": "Diary",
         "kind_zh": "日记",
-        "title": "祝日は公園、面接のあとに二郎系の大盛り",
-        "title_en": "A holiday at the park, and Jiro-style ramen after the interview",
-        "title_zh": "假期去公园，面试之后的二郎系大碗"
+        "title": "面接の後のプール1,000m、長男がおかわりしたカルボナーラ",
+        "title_en": "A 1,000m swim after the interview, and the carbonara my oldest son asked for again",
+        "title_zh": "面试后游泳1,000米，长子又添了一碗的培根蛋酱意面"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.04",
+        "time": "11.05",
         "kind": "長文",
         "kind_en": "Long read",
         "kind_zh": "长文",
-        "title": "30分の予定が7〜8分、幼稚園受験の面接",
-        "title_en": "Scheduled for 30 minutes, done in 7 or 8: my twins' kindergarten interview",
-        "title_zh": "预定30分钟，7到8分钟就结束了，双胞胎的幼儿园面试"
+        "title": "10分の面接を終えた日、妻と子どもたちに伝えたありがとう",
+        "title_en": "After a 10-minute interview, I said thank you to my wife and children",
+        "title_zh": "结束10分钟面试的那天，我对妻子和孩子说了谢谢"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.04",
+        "time": "11.05",
         "kind": "ニュース",
         "kind_en": "News",
         "kind_zh": "新闻",
-        "title": "Anthropicが営業赤字、上場なら2〜5%",
-        "title_en": "Anthropic swings to an operating loss, and 2–5% if it lists",
-        "title_zh": "Anthropic转为营业亏损，上市的话配置2%至5%"
+        "title": "民主党が上下両院を奪還、僕の米国株は動かさない",
+        "title_en": "Democrats retake both houses; I am not moving my US stocks",
+        "title_zh": "民主党夺回参众两院，我的美股不动"
       }
     ]
   },
   "note": [
+    {
+      "date": "2026-11-05",
+      "title": "アメリカの選挙で負けたのは、テスラとSpaceXの本拠地だった。日本で会社を経営し、米国株を持つ僕が見た「お金持ちへの反感」",
+      "url": "https://note.com/capitallogs/n/nb62228bb23fa",
+      "image": "https://assets.st-note.com/production/uploads/images/332376175/rectangle_large_type_2_a8b547abd0938419bcd168c81f297c46.png?fit=bounds&quality=85&width=640"
+    },
     {
       "date": "2026-11-04",
       "title": "今年の売り買いを並べてみた。年初来の売買損益マイナス284万円の中身",
@@ -420,22 +430,22 @@
     }
   ],
   "diary": {
-    "date": "2026-11-04（水）",
-    "place": "林試の森公園・自宅",
-    "title": "祝日は公園、面接のあとに二郎系の大盛り",
-    "text": "祝日は林試の森で双子を遊ばせ、夜は妻と面接の練習をした。30分の予定の面接は7〜8分で終わり、帰ってから二郎系の大盛りを頼んで、ほとんど残した。",
-    "image": "https://raw.githubusercontent.com/YUKICAPITAL/x-images/main/images/2026-11-04_diary_042442.jpg",
+    "date": "2026-11-05（木）",
+    "place": "幼稚園・ジム・自宅",
+    "title": "面接の後のプール1,000m、長男がおかわりしたカルボナーラ",
+    "text": "朝は双子と幼稚園の面接へ。10分ほどで終わった。昼の二郎系は4分の1で残し、雨の中ジムで1,000mを泳いだ。夜は長男がカルボナーラをおかわりし、睡眠薬なしで7時間半眠れた。",
+    "image": "https://raw.githubusercontent.com/YUKICAPITAL/x-images/main/images/2026-11-05_diary_011706.jpg",
     "url": "https://x.com/capitallogs",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin",
-    "date_en": "Wed, Nov 4, 2026",
-    "date_zh": "2026.11.04（周三）",
-    "place_en": "Rinshi no Mori Park and home",
-    "place_zh": "林试之森公园、家",
-    "title_en": "A holiday at the park, and Jiro-style ramen after the interview",
-    "title_zh": "假期去公园，面试之后的二郎系大碗",
-    "text_en": "On the holiday I let the twins play at Rinshi no Mori Park, and at night I practiced for the interview with my wife. The interview, scheduled for 30 minutes, ended in 7 or 8, and after getting home I ordered a large bowl of Jiro-style ramen and left most of it.",
-    "text_zh": "假期我在林试之森公园让双胞胎玩耍，晚上和妻子练习面试。预定30分钟的面试7到8分钟就结束了，回家后我点了一大碗二郎系拉面，结果剩下了大半。"
+    "date_en": "Thu, Nov 5, 2026",
+    "date_zh": "2026.11.05（周四）",
+    "place_en": "Kindergarten, gym and home",
+    "place_zh": "幼儿园、健身房、家",
+    "title_en": "A 1,000m swim after the interview, and the carbonara my oldest son asked for again",
+    "title_zh": "面试后游泳1,000米，长子又添了一碗的培根蛋酱意面",
+    "text_en": "In the morning I took the twins to a kindergarten interview; it ended in about 10 minutes. I left three quarters of my Jiro-style ramen at lunch and swam 1,000m at the gym in the rain. At night my oldest son asked for more carbonara, and I slept seven and a half hours without sleeping pills.",
+    "text_zh": "早上带双胞胎去幼儿园面试，大约10分钟就结束了。中午的二郎系拉面只吃了四分之一，冒雨在健身房游了1,000米。晚上长子又添了一碗培根蛋酱意面，我没吃安眠药睡了7个半小时。"
   },
   "media": {
     "updated": "2026-11-04 14:03",
@@ -694,6 +704,17 @@
   },
   "archive": [
     {
+      "date": "2026-11-05",
+      "label": "11.05（木）",
+      "total": 386355116,
+      "diff_pct": 2.91,
+      "memo": "26本×3言語 ｜ 売買なし ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "26 posts x 3 languages ｜ No trades ｜ 1 note ｜ 1 article",
+      "memo_zh": "26条×3种语言 ｜ 无交易 ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Nov 5 Thu",
+      "label_zh": "11.05 周四"
+    },
+    {
       "date": "2026-11-04",
       "label": "11.04（水）",
       "total": 375416746,
@@ -915,6 +936,25 @@
     }
   ],
   "articles": [
+    {
+      "slug": "musk-474m-midterm-votes",
+      "date": "2026-11-05",
+      "image": "images/articles/musk-474m-midterm-votes/hero.jpg",
+      "category": "政治",
+      "category_en": "Politics",
+      "category_zh": "政治",
+      "tags": [
+        "politics",
+        "economy",
+        "markets"
+      ],
+      "title": "マスク氏の4.74億ドルは、票をどれだけ動かせたのか――献金・所得別の投票・過去の中間選挙から検証する",
+      "lead": "2026年11月3日の米中間選挙で、民主党は上院と下院の多数を取り返した[7]。この選挙で最も多くのお金を出した個人は、イーロン・マスク氏だったと報じられている。総額は約4億7,400万ドルで、テキサス州の上院選だけで約1億9,000万ドルに達したとみられる[6]。 連邦選挙委員会（FEC）への届け出では、共和党系の政治団体「上院リーダーシップ基金」への1億5,800万ドルの寄付が確認できる[1]。そのテキサスで、民主党のジェームズ・タラリコ氏が共和党のケン・パクストン氏を破った[11]。 本稿の問いは1つにする。マスク氏のお金は、票をどれだけ動かせたと推定できるのか。献金の額・所得別の投票・過去の中間選挙の3つの物差しで検証する。",
+      "title_en": "How many votes could Musk's $474 million move? Testing it against donations, voting by income and past midterms",
+      "lead_en": "In the US midterm elections of November 3, 2026, Democrats retook majorities in both the Senate and the House [7]. The individual who spent the most in this election was reportedly Elon Musk. The total was about $474 million, and the Texas Senate race alone is thought to have drawn about $190 million [6]. Filings with the Federal Election Commission (FEC) confirm $158 million in contributions to the Senate Leadership Fund, a Republican-aligned political group [1]. In that same Texas, Democrat James Talarico defeated Republican Ken Paxton [11]. This piece asks one question. How many votes can Musk's money be estimated to have moved? I test it with three yardsticks: the size of the donations, voting by income, and past midterm elections.",
+      "title_zh": "马斯克的4.74亿美元，能撬动多少选票——从捐款、按收入划分的投票和历次中期选举来检验",
+      "lead_zh": "在2026年11月3日的美国中期选举中，民主党夺回了参众两院的多数[7]。据报道，这次选举中花钱最多的个人是埃隆·马斯克。总额约4.74亿美元，仅得克萨斯州参议院选举一项就估计达到约1.9亿美元[6]。 根据向联邦选举委员会（FEC）提交的申报，可以确认他向共和党系政治团体“参议院领导力基金”捐款1.58亿美元[1]。就在得州，民主党的詹姆斯·塔拉里科击败了共和党的肯·帕克斯顿[11]。 本文只提一个问题：马斯克的钱，估计能撬动多少选票？我用三把尺子来检验：捐款的规模、按收入划分的投票，以及历次中期选举。"
+    },
     {
       "slug": "memory-price-floor",
       "date": "2026-11-04",
@@ -1260,6 +1300,11 @@
       "name": "家族",
       "name_en": "Family",
       "name_zh": "家庭"
+    },
+    "politics": {
+      "name": "政治",
+      "name_en": "Politics",
+      "name_zh": "政治"
     }
   }
 }
