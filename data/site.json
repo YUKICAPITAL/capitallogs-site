@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T11:10:00+09:00",
+  "updated": "2026-11-06T12:30:00+09:00",
   "profile": {
     "name": "YUKI CAPITAL",
     "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -16,38 +16,38 @@
     "note": "https://note.com/capitallogs"
   },
   "capital": {
-    "date": "2026-11-05",
-    "label": "11.05（木）",
-    "total": 386355116,
-    "diff": 10938370,
-    "diff_pct": 2.91,
-    "unreal": 53357445,
-    "unreal_pct": 16.25,
+    "date": "2026-11-06",
+    "label": "11.06（金）",
+    "total": 373296720,
+    "diff": -13058396,
+    "diff_pct": -3.38,
+    "unreal": 40299049,
+    "unreal_pct": 12.27,
     "cash": 4543457,
-    "cash_pct": 1.18,
+    "cash_pct": 1.22,
     "trade": "売買なし",
     "alloc": [
       {
         "name": "国内株",
-        "pct": 47.58,
+        "pct": 46.3,
         "name_en": "JP stocks",
         "name_zh": "日本股票"
       },
       {
         "name": "投信",
-        "pct": 26.52,
+        "pct": 27.38,
         "name_en": "Funds",
         "name_zh": "基金"
       },
       {
         "name": "外国株",
-        "pct": 24.72,
+        "pct": 25.09,
         "name_en": "Foreign stocks",
         "name_zh": "海外股票"
       },
       {
         "name": "現金",
-        "pct": 1.18,
+        "pct": 1.22,
         "name_en": "Cash",
         "name_zh": "现金"
       }
@@ -112,24 +112,28 @@
       {
         "date": "2026-11-05",
         "total": 386355116
+      },
+      {
+        "date": "2026-11-06",
+        "total": 373296720
       }
     ],
-    "label_en": "Nov 5 (Thu)",
-    "label_zh": "11.05（周四）",
+    "label_en": "Nov 6 (Fri)",
+    "label_zh": "11.06（周五）",
     "trade_en": "No trades",
     "trade_zh": "无交易",
     "week": {
-      "from": "2026-10-29",
-      "to": "2026-11-05",
-      "diff": -4337797,
-      "diff_pct": -1.11
+      "from": "2026-10-30",
+      "to": "2026-11-06",
+      "diff": -17034297,
+      "diff_pct": -4.36
     }
   },
   "conditions": [
     {
       "title": "SpaceX を +500株",
       "rule": "終値が 100ドルを割ったら",
-      "now": "141.31 ドル",
+      "now": "135.92 ドル",
       "status": "未達",
       "title_en": "Add 500 SpaceX",
       "rule_en": "if the close falls below $100",
@@ -137,13 +141,13 @@
       "title_zh": "SpaceX 加仓500股",
       "rule_zh": "收盘价跌破100美元时",
       "status_zh": "未达",
-      "now_en": "$141.31",
-      "now_zh": "141.31 美元"
+      "now_en": "$135.92",
+      "now_zh": "135.92 美元"
     },
     {
       "title": "IonQ を +500株",
       "rule": "25ドルを割ったら",
-      "now": "29.99 ドル",
+      "now": "29.54 ドル",
       "status": "未達",
       "title_en": "Add 500 IonQ",
       "rule_en": "if it falls below $25",
@@ -151,34 +155,36 @@
       "title_zh": "IonQ 加仓500股",
       "rule_zh": "跌破25美元时",
       "status_zh": "未达",
-      "now_en": "$29.99",
-      "now_zh": "29.99 美元"
+      "now_en": "$29.54",
+      "now_zh": "29.54 美元"
     },
     {
       "title": "三井住友FG を買い増し",
       "rule": "3,000円が目安",
-      "now": "3,211 円",
-      "status": "未達",
+      "now": "3,028 円",
+      "status": "到達・見送り",
       "title_en": "Add SMFG (8316)",
       "rule_en": "around ¥3,000 as the guide",
-      "status_en": "Not yet",
+      "status_en": "Reached, held off",
       "title_zh": "加仓三井住友FG",
       "rule_zh": "以3,000日元为目标",
-      "status_zh": "未达",
-      "now_en": "¥3,211",
-      "now_zh": "3,211 日元"
+      "status_zh": "已到达，暂不加仓",
+      "now_en": "¥3,028",
+      "now_zh": "3,028 日元"
     },
     {
       "title": "SpaceX の積み立て",
       "rule": "外壁補修の見積もりが出るまで",
-      "now": "",
+      "now": "135.92 ドル",
       "status": "10月・11月とも休止",
       "title_en": "Monthly SpaceX purchases",
       "rule_en": "until the exterior-wall repair estimate is in",
       "status_en": "Paused in October and November",
       "title_zh": "SpaceX 定投",
       "rule_zh": "等外墙维修报价出来",
-      "status_zh": "10月、11月均暂停"
+      "status_zh": "10月、11月均暂停",
+      "now_en": "$135.92",
+      "now_zh": "135.92 美元"
     }
   ],
   "holdings": [
@@ -280,64 +286,70 @@
     }
   ],
   "posts": {
-    "date": "2026-11-05",
-    "count": 26,
+    "date": "2026-11-06",
+    "count": 27,
     "items": [
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.05",
+        "time": "11.06",
         "kind": "判断",
         "kind_en": "Decision",
         "kind_zh": "判断",
-        "title": "マスク氏が選挙で負けた日も、SpaceXとテスラは持ち続ける",
-        "title_en": "Even on the day Musk lost the election, I keep holding SpaceX and Tesla",
-        "title_zh": "马斯克在选举中失利的那天，我也继续持有SpaceX和特斯拉"
+        "title": "共和党に近すぎた会社が売られた。SpaceXもテスラもGoogleも持ったまま",
+        "title_en": "Companies too close to the Republicans were sold, and I still hold SpaceX, Tesla and Google",
+        "title_zh": "与共和党走得太近的公司遭抛售，SpaceX、特斯拉、Google依然持有"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.05",
+        "time": "11.06",
         "kind": "日記",
         "kind_en": "Diary",
         "kind_zh": "日记",
-        "title": "面接の後のプール1,000m、長男がおかわりしたカルボナーラ",
-        "title_en": "A 1,000m swim after the interview, and the carbonara my oldest son asked for again",
-        "title_zh": "面试后游泳1,000米，长子又添了一碗的培根蛋酱意面"
+        "title": "卵かけご飯から鍼まで、プールと会社の11月5日",
+        "title_en": "From raw egg on rice to acupuncture, my November 5 between the pool and the office",
+        "title_zh": "从生鸡蛋拌饭到针灸，泳池与公司的11月5日"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.05",
+        "time": "11.06",
         "kind": "長文",
-        "kind_en": "Long read",
+        "kind_en": "Essay",
         "kind_zh": "长文",
-        "title": "10分の面接を終えた日、妻と子どもたちに伝えたありがとう",
-        "title_en": "After a 10-minute interview, I said thank you to my wife and children",
-        "title_zh": "结束10分钟面试的那天，我对妻子和孩子说了谢谢"
+        "title": "50m全力を5本ずつ2回、3本目で息が上がった",
+        "title_en": "Two sets of five all-out 50m swims, and out of breath by the third",
+        "title_zh": "50米全力游5趟做两轮，第3趟就喘不上气"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.05",
+        "time": "11.06",
         "kind": "ニュース",
         "kind_en": "News",
         "kind_zh": "新闻",
-        "title": "民主党が上下両院を奪還、僕の米国株は動かさない",
-        "title_en": "Democrats retake both houses; I am not moving my US stocks",
-        "title_zh": "民主党夺回参众两院，我的美股不动"
+        "title": "日経平均1,110円安、それでもTOPIXは1.16%高",
+        "title_en": "Nikkei falls 1,110 points, yet TOPIX ends 1.16% higher",
+        "title_zh": "日经平均下跌1,110点，TOPIX却上涨1.16%"
       }
     ]
   },
   "note": [
+    {
+      "date": "2026-11-06",
+      "title": "米国株が1日で3兆ドル消えた朝、口座を開いても何もしなかった理由",
+      "url": "https://note.com/capitallogs/n/n0b14eaecd931",
+      "image": "https://assets.st-note.com/production/uploads/images/332768642/rectangle_large_type_2_4be006c2c815722b29275b149703228a.png?fit=bounds&quality=85&width=640"
+    },
     {
       "date": "2026-11-05",
       "title": "アメリカの選挙で負けたのは、テスラとSpaceXの本拠地だった。日本で会社を経営し、米国株を持つ僕が見た「お金持ちへの反感」",
@@ -430,22 +442,22 @@
     }
   ],
   "diary": {
-    "date": "2026-11-05（木）",
-    "place": "幼稚園・ジム・自宅",
-    "title": "面接の後のプール1,000m、長男がおかわりしたカルボナーラ",
-    "text": "朝は双子と幼稚園の面接へ。10分ほどで終わった。昼の二郎系は4分の1で残し、雨の中ジムで1,000mを泳いだ。夜は長男がカルボナーラをおかわりし、睡眠薬なしで7時間半眠れた。",
-    "image": "https://raw.githubusercontent.com/YUKICAPITAL/x-images/main/images/2026-11-05_diary_011706.jpg",
+    "date": "2026-11-06（金）",
+    "place": "会社・ジム・鍼",
+    "title": "卵かけご飯から鍼まで、プールと会社の11月5日",
+    "text": "朝は卵かけご飯。会社ではシェアオフィスのチャットボットに時間を使い、昼はジムで奥さんと食事。50mの全力5本とゆっくり5本を2回泳ぎ、夕方は久しぶりの鍼で副鼻腔が通った。",
+    "image": null,
     "url": "https://x.com/capitallogs",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin",
-    "date_en": "Thu, Nov 5, 2026",
-    "date_zh": "2026.11.05（周四）",
-    "place_en": "Kindergarten, gym and home",
-    "place_zh": "幼儿园、健身房、家",
-    "title_en": "A 1,000m swim after the interview, and the carbonara my oldest son asked for again",
-    "title_zh": "面试后游泳1,000米，长子又添了一碗的培根蛋酱意面",
-    "text_en": "In the morning I took the twins to a kindergarten interview; it ended in about 10 minutes. I left three quarters of my Jiro-style ramen at lunch and swam 1,000m at the gym in the rain. At night my oldest son asked for more carbonara, and I slept seven and a half hours without sleeping pills.",
-    "text_zh": "早上带双胞胎去幼儿园面试，大约10分钟就结束了。中午的二郎系拉面只吃了四分之一，冒雨在健身房游了1,000米。晚上长子又添了一碗培根蛋酱意面，我没吃安眠药睡了7个半小时。"
+    "date_en": "Fri, Nov 6, 2026",
+    "date_zh": "2026.11.06（周五）",
+    "place_en": "Office, gym and acupuncture",
+    "place_zh": "公司、健身房、针灸",
+    "title_en": "From raw egg on rice to acupuncture, my November 5 between the pool and the office",
+    "title_zh": "从生鸡蛋拌饭到针灸，泳池与公司的11月5日",
+    "text_en": "Raw egg on rice in the morning. At the office I spent the most time on the shared office chatbot, then ate lunch with my wife at the gym. I swam two sets of five all-out 50m lengths with five easy ones, and in the evening my first acupuncture in weeks cleared my sinuses.",
+    "text_zh": "早上吃生鸡蛋拌饭。在公司把时间花在共享办公室的聊天机器人上，中午在健身房和妻子一起吃饭。全力游50米5趟、慢游5趟，做了两轮；傍晚久违地去针灸，鼻窦通了。"
   },
   "media": {
     "updated": "2026-11-04 14:03",
@@ -704,6 +716,17 @@
   },
   "archive": [
     {
+      "date": "2026-11-06",
+      "label": "11.06（金）",
+      "label_en": "Nov 6 Fri",
+      "label_zh": "11.06 周五",
+      "total": 373296720,
+      "diff_pct": -3.38,
+      "memo": "27本×3言語 ｜ 売買なし ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "27 posts x 3 languages ｜ No trades ｜ 1 note ｜ 1 article",
+      "memo_zh": "27条×3种语言 ｜ 无交易 ｜ note 1篇 ｜ 文章 1篇"
+    },
+    {
       "date": "2026-11-05",
       "label": "11.05（木）",
       "total": 386355116,
@@ -936,6 +959,25 @@
     }
   ],
   "articles": [
+    {
+      "slug": "china-merger-review",
+      "date": "2026-11-06",
+      "image": "images/articles/china-merger-review/hero.jpg",
+      "category": "経済",
+      "category_en": "Economy",
+      "category_zh": "经济",
+      "tags": [
+        "economy",
+        "company",
+        "tech"
+      ],
+      "title": "中国当局はなぜM&Aを止めるのか――ソフトバンクG・ABB案件を中国の審査記録の中に置く",
+      "lead": "2026年11月5日、スイスのABBは、ソフトバンクグループ（SBG）による同社ロボット事業の買収を中国当局が禁止したとSBGから通知を受けたと公表した[1]。 本稿の問いは、中国の独占禁止審査で海外企業が関わる買収が「不許可」や「条件付き承認」になった案件は、どの業種・どの時期に集中しているか、である。 2008年から2025年までに公表された制限的な決定71件を年別・業種別に並べ、今回の案件がその記録のどこに位置するのかを確かめる。",
+      "title_en": "Why Does China Stop Mergers? Placing the SoftBank-ABB Deal in China's Review Record",
+      "lead_en": "On 5 November 2026, ABB said it had been informed by SoftBank Group (SBG) that Chinese authorities had prohibited SBG's acquisition of ABB's robotics business [1]. The question here is: in China's antitrust review, in which sectors and in which periods are the \"prohibited\" and \"conditionally approved\" deals involving foreign companies concentrated? I line up the 71 restrictive decisions published from 2008 to 2025 by year and by sector, and then ask where this deal sits in that record.",
+      "title_zh": "中国当局为何叫停并购？——把软银集团收购ABB机器人业务一案放进中国的审查记录中",
+      "lead_zh": "2026年11月5日，瑞士ABB公司宣布，已接到软银集团（SBG）通知，中国当局禁止了SBG对ABB机器人业务的收购[1]。 本文要检验的问题是：在中国的反垄断审查中，涉及境外企业的收购被“禁止”或“附条件批准”的案件，集中在哪些行业、哪些时期？ 本文把2008年至2025年公布的71件限制性决定按年份和行业排列，再看此次案件在这一记录中处于什么位置。"
+    },
     {
       "slug": "musk-474m-midterm-votes",
       "date": "2026-11-05",
