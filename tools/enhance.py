@@ -136,4 +136,31 @@ def page(lg, kind):
 
 for lg in LANGS:
     for kind in ('capital', 'rules'): page(lg, kind)
+# ---------- 4. プロフィール（英語・中文。日本語は about/index.html を手で持つ） ----------
+AB = {
+ 'en': ('Profile', "YUKI CAPITAL runs restaurants (as owner), real estate and shared offices, and publishes total financial assets and every buy / don't-buy decision each day.",
+        [('Profile and businesses', ["YUKI CAPITAL. I run restaurants (as owner), real estate and shared offices, and publish my total financial assets and my decisions to buy or not to buy every day, as they are. I do not try to call the market. I design the allocation and wait quietly.",
+                                     "X carries the daily numbers and decisions (Japanese, English, Chinese). note carries first-hand accounts of my experiences and decisions. This site carries articles that test one question against primary sources, and the numbers from each channel."]),
+         ('Privacy', ["This site does not collect personal information from visitors. There are no input forms and no cookie tracking. Links to and resources from outside services (X, note, GitHub, Google Fonts) follow each service's terms."]),
+         ('Contact', ['By direct message on X (<a href="https://x.com/YUKICAPITALen">@YUKICAPITALen</a>). I do not give investment advice.'])]),
+ 'zh': ('简介', 'YUKI CAPITAL 经营餐厅（老板）、不动产和共享办公室，每天公开金融资产总额以及买与不买的判断。',
+        [('简介与实业', ['YUKI CAPITAL。我经营餐厅（老板）、不动产和共享办公室，每天原样公开金融资产总额，以及买与不买的判断。我不去猜行情，而是设计好配置，安静地等待。',
+                         'X 上每天发布数字和判断（日语、英语、中文），note 上写亲身经历与判断经过的实录，本站放置用一手资料检验一个问题的文章，以及各个平台的数字。']),
+         ('隐私', ['本站不收集访问者的个人信息。没有输入栏，也不使用 Cookie 跟踪。指向外部服务（X、note、GitHub、Google Fonts）的链接和加载，遵循各服务的条款。']),
+         ('联系方式', ['请通过 X（<a href="https://x.com/YUKICAPITALchin">@YUKICAPITALchin</a>）私信联系。本站不提供投资建议。'])]),
+}
+for lg, (title, desc, cards) in AB.items():
+    tpl = (ROOT / LANGS[lg] / 'articles' / ARTS[0]['slug'] / 'index.html').read_text(encoding='utf-8')
+    ids = ['', 'privacy', 'contact']
+    body = ''.join(f'<div class="card"{(" id=" + chr(34) + ids[i] + chr(34)) if ids[i] else ""} style="margin-bottom:12px"><h2>{esc(h)}</h2>' + ''.join(f'<p>{p}</p>' for p in ps) + '</div>' for i, (h, ps) in enumerate(cards))
+    art = f'<article class="art">\n<h1>{esc(title)}</h1>\n{body}\n</article>'
+    s2 = re.sub(r'<article class="art">.*?</article>', lambda m: art, tpl, count=1, flags=re.S)
+    s2 = re.sub(r'<!--seo-->.*?<!--/seo-->\n?', '', s2, flags=re.S)
+    s2 = re.sub(r'<title>.*?</title>', f'<title>{esc(title)}｜YUKI CAPITAL</title>', s2, count=1)
+    s2 = re.sub(r'<meta name="description" content="[^"]*">', f'<meta name="description" content="{esc(desc)}">', s2, count=1)
+    s2 = re.sub(r'<meta property="og:title" content="[^"]*">', f'<meta property="og:title" content="{esc(title)}">', s2, count=1)
+    s2 = re.sub(r'<meta property="og:description" content="[^"]*">', f'<meta property="og:description" content="{esc(desc)}">', s2, count=1)
+    s2 = s2.replace(f'articles/{ARTS[0]["slug"]}/', 'about/').replace('<meta property="og:type" content="article">', '<meta property="og:type" content="website">')
+    out = ROOT / LANGS[lg] / 'about' / 'index.html'; out.parent.mkdir(parents=True, exist_ok=True); out.write_text(s2, encoding='utf-8')
+
 print(f'enhance: 画像の寸法 {nimg}枚／関連する記事 {nrel}ページ／データのページ 6ページ')

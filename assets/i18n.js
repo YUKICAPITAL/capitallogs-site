@@ -1,6 +1,6 @@
 window.I18N = {
   ja: {
-    nav_articles:'記事', nav_capital:'今日の資本', nav_archive:'毎日の記録', nav_diary:'日記', nav_about:'について',
+    nav_articles:'記事', nav_capital:'今日の資本', nav_archive:'毎日の記録', nav_diary:'日記', nav_about:'プロフィール',
     follow_x:'X をフォロー', follow_note:'note をフォロー',
     cap_eyebrow:'総金融資産 ｜ ', cap_diff:'前日比 ', cap_trend:'直近の推移', cap_unreal:'含み損益', cap_cash:'現金', cap_trade:'今日の売買', cap_archive:'毎日の記録をさかのぼる →', cap_newest:'新着記事',
     cond_h:'決めてある条件', cond_sub:'と現在地', cond_note:'条件で動く', hold_h:'保有', hold_n:'銘柄',
@@ -17,7 +17,7 @@ window.I18N = {
     yen:'円', man:true
   },
   en: {
-    nav_articles:'Articles', nav_capital:"Today's capital", nav_archive:'Daily log', nav_diary:'Diary', nav_about:'About',
+    nav_articles:'Articles', nav_capital:"Today's capital", nav_archive:'Daily log', nav_diary:'Diary', nav_about:'Profile',
     follow_x:'Follow on X', follow_note:'Follow on note',
     cap_eyebrow:'Total financial assets ｜ ', cap_diff:'Day ', cap_trend:'Recent trend', cap_unreal:'Unrealized P/L', cap_cash:'Cash', cap_trade:"Today's trades", cap_archive:'Browse the daily log →', cap_newest:'Latest article',
     cond_h:'Rules set in advance', cond_sub:'and where we are', cond_note:'Act on rules, not forecasts', hold_h:'Holdings', hold_n:' positions',
@@ -34,7 +34,7 @@ window.I18N = {
     yen:' JPY', man:false
   },
   zh: {
-    nav_articles:'文章', nav_capital:'今日资本', nav_archive:'每日记录', nav_diary:'日记', nav_about:'关于',
+    nav_articles:'文章', nav_capital:'今日资本', nav_archive:'每日记录', nav_diary:'日记', nav_about:'简介',
     follow_x:'关注 X', follow_note:'关注 note',
     cap_eyebrow:'总金融资产 ｜ ', cap_diff:'较前日 ', cap_trend:'近期走势', cap_unreal:'浮动盈亏', cap_cash:'现金', cap_trade:'今日交易', cap_archive:'查看每日记录 →', cap_newest:'最新文章',
     cond_h:'事先定下的条件', cond_sub:'与现状', cond_note:'按条件行动，不预测行情', hold_h:'持仓', hold_n:' 只',

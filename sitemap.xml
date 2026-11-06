@@ -38,7 +38,23 @@
 </url>
 <url><loc>https://yuki-capital.com/archive/</loc><lastmod>2026-11-05</lastmod><priority>0.6</priority>
 </url>
-<url><loc>https://yuki-capital.com/about/</loc><lastmod>2026-10-20</lastmod><priority>0.4</priority>
+<url><loc>https://yuki-capital.com/about/</loc><lastmod>2026-11-05</lastmod><priority>0.4</priority>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yuki-capital.com/about/"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yuki-capital.com/en/about/"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yuki-capital.com/zh/about/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yuki-capital.com/about/"/>
+</url>
+<url><loc>https://yuki-capital.com/en/about/</loc><lastmod>2026-11-05</lastmod><priority>0.4</priority>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yuki-capital.com/about/"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yuki-capital.com/en/about/"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yuki-capital.com/zh/about/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yuki-capital.com/about/"/>
+</url>
+<url><loc>https://yuki-capital.com/zh/about/</loc><lastmod>2026-11-05</lastmod><priority>0.4</priority>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yuki-capital.com/about/"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yuki-capital.com/en/about/"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yuki-capital.com/zh/about/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yuki-capital.com/about/"/>
 </url>
 <url><loc>https://yuki-capital.com/articles/musk-474m-midterm-votes/</loc><lastmod>2026-11-05</lastmod><priority>0.8</priority>
   <xhtml:link rel="alternate" hreflang="ja" href="https://yuki-capital.com/articles/musk-474m-midterm-votes/"/>
