@@ -63,7 +63,7 @@
 <div class="meta"><span class="chip">金融・銀行</span><span class="chip">サイバーセキュリティ</span><span class="chip">テクノロジー</span><span class="chip">企業</span><span class="num">2026年10月25日</span><span class="langsw" style="margin-left:auto"><a href="../../articles/megabank-core-systems/" data-setlang="ja" class="on">日本語</a><a href="../../en/articles/megabank-core-systems/" data-setlang="en">EN</a><a href="../../zh/articles/megabank-core-systems/" data-setlang="zh">中文</a></span></div>
 <h1>メガバンク3行とりそなの勘定系システムは、本当に古くて危ないのか</h1>
 <div class="lead"><p>2026年10月、GMOのサーバーへの不正アクセスが明らかになった週、僕が持つ銀行株4行はそろって下げた。銀行のシステムは脆弱だ、とXでは何度も目にした。</p><p>しかし、実際に4行の勘定系が何でできていて、どんな障害を起こし、守りにいくら使っているのかを、数字で並べた記事は少ない。</p><p>この記事では、各行の公表資料と金融庁・経産省の資料をもとに、三菱UFJ・三井住友・みずほ・りそなの勘定系を1行ずつ確かめ、最後に「危ないのかどうか」を僕なりに判定する。</p></div>
-<figure class="hero"><img src="../../images/articles/megabank-core-systems/hero.jpg" alt="銀行の金庫の扉"><figcaption>銀行の金庫の扉</figcaption></figure>
+<figure class="hero"><img width="1600" height="900" src="../../images/articles/megabank-core-systems/hero.jpg" alt="銀行の金庫の扉"><figcaption>銀行の金庫の扉</figcaption></figure>
 <div class="card">
 <h2>勘定系とは何か。4行とも中心はまだメインフレーム</h2>
 <p>勘定系とは、預金の残高・振込・貸し出しを記録する、銀行の中心の仕組みである。ここが止まれば、ATMも振込も止まる。</p>
@@ -90,11 +90,11 @@
 <p>1行の中で閉じない障害も起きている。2023年10月10日と11日の全銀ネットの障害では、三菱UFJ銀行・りそな銀行など11行に影響が出た。2日間で他行宛ての振込255万件と自行宛ての251万件が影響を受け、他行宛ての87万件が未処理になった。原因は中継コンピューターの更新に伴う手数料計算プログラムの不具合だった。</p>
 <p>攻撃では、2024年の年末にDDoS攻撃が続いた。三菱UFJ銀行は12月26日からネットバンキングが不安定になり、28日朝に回復。りそな4行は12月29日夜から30日未明まで個人向けネットバンキングが使えず、2025年1月7日にも同様の障害が出た。みずほ銀行も12月31日朝からみずほダイレクトが不安定になった。三井住友銀行の被害は確認できなかった。</p>
 <div class="tbl"><table><thead><tr><th>年月</th><th>銀行</th><th>何が起きたか</th></tr></thead><tbody><tr><td>2002年4月</td><td>みずほ</td><td>口座振替が約250万件遅延。業務改善命令</td></tr><tr><td>2008年5月</td><td>三菱東京UFJ</td><td>統合初日に約2万件の取引ができず</td></tr><tr><td>2011年3月</td><td>みずほ</td><td>震災直後の障害。業務改善命令</td></tr><tr><td>2019年7月</td><td>みずほ</td><td>MINORIへの移行が完了</td></tr><tr><td>2021年2〜11月</td><td>みずほ</td><td>障害8回。11月26日に業務改善命令</td></tr><tr><td>2023年10月</td><td>全銀ネット</td><td>11行に影響。他行宛て87万件が未処理</td></tr><tr><td>2024年12月</td><td>三菱UFJ・りそな・みずほ</td><td>DDoS攻撃でネットバンキングが不安定</td></tr><tr><td>2026年1月</td><td>三井住友</td><td>新勘定系への移行で休止。MUFG GMOセキュリティ設立</td></tr><tr><td>2026年10月</td><td>GMO傘下</td><td>infoQから約89万件、お名前.comで26,739件に影響のおそれ</td></tr></tbody></table></div>
-<figure><img src="../../images/articles/megabank-core-systems/chart-timeline-ja.png" alt="図1　4行の勘定系をめぐる主な障害と攻撃（2002〜2026年）。各行の公表資料と報道から作成" loading="lazy"><figcaption>図1　4行の勘定系をめぐる主な障害と攻撃（2002〜2026年）。各行の公表資料と報道から作成</figcaption></figure>
+<figure><img width="1600" height="736" src="../../images/articles/megabank-core-systems/chart-timeline-ja.png" alt="図1　4行の勘定系をめぐる主な障害と攻撃（2002〜2026年）。各行の公表資料と報道から作成" loading="lazy"><figcaption>図1　4行の勘定系をめぐる主な障害と攻撃（2002〜2026年）。各行の公表資料と報道から作成</figcaption></figure>
 <h2>守りに、いくら使っているのか</h2>
 <p>公表されている投資額を並べると、三井住友FGの3年間1兆円、みずほFGの3年間約6,000億円が目立つ。三菱UFJは2025年度の1年でサイバーに約150億円を上積みした。りそなは投資額ではなく、10年で46%減らしたコストの側に数字がある。</p>
-<figure><img src="../../images/articles/megabank-core-systems/chart-invest-ja.png" alt="図2　公表されている投資額の比較（億円）。各行のIR資料から作成" loading="lazy"><figcaption>図2　公表されている投資額の比較（億円）。各行のIR資料から作成</figcaption></figure>
-<figure><img src="../../images/articles/megabank-core-systems/boxes.jpg" alt="銀行の貸金庫の番号" loading="lazy"><figcaption>銀行の貸金庫の番号</figcaption></figure>
+<figure><img width="1280" height="672" src="../../images/articles/megabank-core-systems/chart-invest-ja.png" alt="図2　公表されている投資額の比較（億円）。各行のIR資料から作成" loading="lazy"><figcaption>図2　公表されている投資額の比較（億円）。各行のIR資料から作成</figcaption></figure>
+<figure><img width="1600" height="1067" src="../../images/articles/megabank-core-systems/boxes.jpg" alt="銀行の貸金庫の番号" loading="lazy"><figcaption>銀行の貸金庫の番号</figcaption></figure>
 <p>金融庁は2024年10月4日に「金融分野におけるサイバーセキュリティに関するガイドライン」を策定し、同じ日から適用した。経営陣が主導し、グループ全体で、形式より実質を重視することを求めている。2025年10月には監督指針を改め、フィッシングに強い多要素認証を2026年6月末までに必須にするよう求めた。業界横断の演習Delta Wallも毎年行われている。</p>
 <p>一方で経産省のDXレポートは、2025年以降に最大で年12兆円の経済損失が出る可能性を示し、21年以上動いている基幹系システムの割合が2025年に6割へ増えると見込んでいた。銀行の勘定系もその中に入る。</p>
 <h2>僕はこう見ている</h2>
@@ -108,6 +108,7 @@
 <p>日々の数字と判断は、Xで記録している。</p>
 <div class="cta"><a class="btn-dark" href="https://x.com/capitallogs">Xで毎日の数字を見る</a><a class="btn-light" href="https://note.com/capitallogs" style="border:1px solid var(--line)">noteでも書いている</a></div>
 </div>
+<!--related--><section class="related"><h2>関連する記事</h2><ul><li><a href="../memory-price-floor/">メモリの利益率は、価格が何割下がるまで耐えられるか――マイクロン・SKハイニックス・キオクシアの決算から逆算する</a><span class="num">2026-11-04</span></li><li><a href="../waymo-tesla-autonomy/">Waymoとテスラ、自動運転の覇権を分けるのは安全の実績か量産の台数か</a><span class="num">2026-10-28</span></li><li><a href="../anthropic-openai-ipo-valuation/">AnthropicとOpenAIの上場は成功するか――企業価値とソフトバンクグループへの影響を数字で検証する</a><span class="num">2026-10-27</span></li></ul></section><!--/related-->
 </article>
 <footer class="site-footer" style="padding-bottom:48px"><span>© 2026 YUKI CAPITAL</span><span><a href="../../">トップへ</a></span></footer>
 </main>

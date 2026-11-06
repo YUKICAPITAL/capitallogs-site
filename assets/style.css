@@ -220,3 +220,23 @@ img{max-width:100%;display:block}
 .trend-legend{display:flex;flex-wrap:wrap;gap:12px;font-size:11px;color:var(--muted);margin-top:6px}
 .trend-legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:-1px}
 @media(max-width:420px){.today-row{grid-template-columns:repeat(2,1fr)}}
+/* 画像の寸法（CLS）・結論3行・関連する記事・データのページ */
+.art img[width][height]{height:auto}
+.art .tldr{background:var(--accent-soft);border-radius:12px;padding:14px 18px;margin:0 0 20px;font-size:14.5px;line-height:1.8}
+.art .tldr b{display:block;font-size:12px;letter-spacing:.06em;color:var(--muted);margin-bottom:4px}
+.art .tldr ol{margin:0;padding-left:20px}
+.art .related{margin-top:28px;border-top:1px solid var(--line);padding-top:16px}
+.art .related h2{font-size:16px;margin:0 0 10px}
+.art .related ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.art .related li{display:flex;justify-content:space-between;gap:12px;font-size:14px;line-height:1.6}
+.art .related li a{color:var(--ink)}
+.art .related .num{color:var(--muted);font-size:12px;flex-shrink:0}
+.art .chart{margin:12px 0 16px}.art .chart svg{width:100%;height:auto;display:block}
+.art .chart .gl{stroke:var(--line);stroke-width:1}.art .chart text{font-size:11px;fill:var(--muted)}
+.art .chart .ln{fill:none;stroke:var(--accent,#1f4e79);stroke-width:2.5}.art .chart .dot{fill:var(--accent,#1f4e79)}
+/* トップは数字を描き終えるまで本文を隠す（読み込み中のずれ＝CLS を出さない）。2.5秒で必ず表示 */
+html:not(.ready) #top{visibility:hidden;animation:yc-show 0s 2.5s forwards}
+@keyframes yc-show{to{visibility:visible}}
+.art.numbers table{min-width:0;font-size:13.5px}.art.numbers td:last-child,.art.numbers th:last-child{text-align:right}
+.art .chart text{font-size:13px}
+.art.numbers td{white-space:nowrap}.art.numbers td:first-child{white-space:normal}

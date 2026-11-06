@@ -31,7 +31,8 @@
   // static strings
   document.querySelectorAll('[data-i18n]').forEach(function(el){var k=el.getAttribute('data-i18n'); if(T[k]!=null) el.textContent=T[k];});
 
-  fetch(ROOT+'data/site.json',{cache:'no-store'}).then(function(r){return r.json()}).then(render).catch(function(e){console.error(e)});
+  var ready=function(){document.documentElement.classList.add('ready')};
+  fetch(ROOT+'data/site.json',{cache:'no-store'}).then(function(r){return r.json()}).then(render).then(ready).catch(function(e){console.error(e);ready()});
   setInterval(function(){fetch(ROOT+'data/site.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json()}).then(render).catch(function(){})},300000);
 
   function render(d){

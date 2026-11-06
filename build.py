@@ -39,4 +39,5 @@ for code, m in META.items():
     print('wrote', out)
 # SEO（canonical・hreflang・構造化データ・記事一覧の事前書き込み・sitemap.xml・robots.txt）
 import subprocess, sys
+subprocess.run([sys.executable, str(ROOT / 'tools' / 'enhance.py')], check=True)  # 画像の寸法・関連する記事・データのページ
 subprocess.run([sys.executable, str(ROOT / 'tools' / 'seo.py')], check=True)

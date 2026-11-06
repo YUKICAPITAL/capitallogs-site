@@ -63,7 +63,7 @@
 <div class="meta"><span class="chip">网络安全</span><span class="chip">科技</span><span class="chip">AI</span><span class="num">2026年10月22日</span><span class="langsw" style="margin-left:auto"><a href="../../../articles/php2shell-48-hours/" data-setlang="ja">日本語</a><a href="../../../en/articles/php2shell-48-hours/" data-setlang="en">EN</a><a href="../../../zh/articles/php2shell-48-hours/" data-setlang="zh" class="on">中文</a></span></div>
 <h1>PHP2Shell的48小时：支撑七成网站的语言缺陷，是如何被发现、又如何被堵上的</h1>
 <div class="lead"><p>2026年10月21日夜，驱动大量网站的编程语言PHP被公开存在两个缺陷，攻击者无需登录即可能接管服务器。</p><p>身在东京的我，用开发方和公共机构的一手资料，按时间顺序整理从预告、修正版发布到日本国内服务集体停摆的经过。</p><p>缺陷的原理、AI扮演的角色，以及今后可能发生的事，我也对照自己公司的防守来确认一遍。</p></div>
-<figure class="hero"><img src="../../../images/articles/php2shell-48-hours/hero.jpg" alt="数据中心里成排的服务器机柜"><figcaption>数据中心里成排的服务器机柜</figcaption></figure>
+<figure class="hero"><img width="1600" height="898" src="../../../images/articles/php2shell-48-hours/hero.jpg" alt="数据中心里成排的服务器机柜"><figcaption>数据中心里成排的服务器机柜</figcaption></figure>
 <div class="card">
 <h2>从预告到修正版，发生了什么</h2>
 <p>起因是信息比预定的公开时间提前泄露。10月20日15时20分（协调世界时）左右，一个技术论坛上出现了预告这两个缺陷的帖子，随后被删除。PHP安全团队在同一天19时33分（日本时间21日4时33分）通过邮件列表预告了发布。</p>
@@ -74,7 +74,7 @@
 <h2>日本国内停下了什么</h2>
 <p>据安全博客piyolog统计，仅在公告中能确认的就有54个组织采取了行动。其中停止全部服务的20个，停止部分功能的7个，停掉自家或团体网站的27个。名单从网店开设服务、托儿所用的联络App、热门游戏，到厚生劳动省的护理服务信息公开系统、大学和铁路公司。</p>
 <p>银行方面，静冈银行预防性地停止了网上银行，据报道截至21日23时尚未确认损失。停下服务的企业大多表示，未确认遭到攻击或信息泄露。它们不是因为出了损失才停，而是在打上修正版并确认之前，先把门关上。</p>
-<figure><img src="../../../images/articles/php2shell-48-hours/code.jpg" alt="笔记本电脑屏幕上的网页代码" loading="lazy"><figcaption>笔记本电脑屏幕上的网页代码</figcaption></figure>
+<figure><img width="1600" height="832" src="../../../images/articles/php2shell-48-hours/code.jpg" alt="笔记本电脑屏幕上的网页代码" loading="lazy"><figcaption>笔记本电脑屏幕上的网页代码</figcaption></figure>
 <h2>缺陷的内容：内存不足，以及残留的状态</h2>
 <p>第一个缺陷CVE-2026-109618，出在内存耗尽时的处理上。PHP超过内存上限后会中断请求，但内部数据会停留在初始化到一半的状态。随后的清理处理，会把这些损坏的数据当作正常数据来使用。利用上传文件表单的解析，攻击者可以从外部故意制造内存不足。</p>
 <p>第二个缺陷CVE-2026-109619，是上一个请求的状态在内存释放后仍然残留的问题。同一个工作进程处理下一个请求时，会使用没有被清理的状态。默认开启的上传进度功能，就是其中一条路径。</p>
@@ -82,7 +82,7 @@
 <h2>为什么影响会达到“七成网站”</h2>
 <p>据W3Techs统计，在可识别服务器端语言的网站中，69.3%使用PHP。仅WordPress就占全部网站的39.6%，Drupal和Joomla也建立在同一种语言之上。研究人员在这三者上都证实了登录前的接管。</p>
 <p>不过，“七成”是使用率，并不是存在漏洞的网站的实际数量。真正的问题在于旧版本之多。在PHP网站中，已停止支持的7系占27.0%，5系占7.7%。这次官方的修正版只覆盖8.2及以后的版本，8.1及以前只提供了最低限度的源码补丁。8.2的支持也将在2026年12月31日结束。</p>
-<figure><img src="../../../images/articles/php2shell-48-hours/chart-share-zh.png" alt="图1　使用PHP的网站的版本构成。根据W3Techs（截至2026年10月21日）制作" loading="lazy"><figcaption>图1　使用PHP的网站的版本构成。根据W3Techs（截至2026年10月21日）制作</figcaption></figure>
+<figure><img width="1200" height="630" src="../../../images/articles/php2shell-48-hours/chart-share-zh.png" alt="图1　使用PHP的网站的版本构成。根据W3Techs（截至2026年10月21日）制作" loading="lazy"><figcaption>图1　使用PHP的网站的版本构成。根据W3Techs（截至2026年10月21日）制作</figcaption></figure>
 <h2>AI做了什么</h2>
 <p>据OpenAI公布，研究公司Calif使用GPT-5.6 Sol发现了第一个缺陷。工作始于7月30日，8月1日发现，8月11日向开发方报告。Wiz也在8月19日独立发现，并写道使用了Gemini 4 Argon等工具。</p>
 <p>重要的是，这并不是AI单独发现的。按照Calif的记录，提出假设的是人，线索是另一位研究人员在2004年发现的缺陷。AI承担的是通读内存管理代码、找出具体缺陷的工作。最初的内存不足缺陷在2020年就已为人所知，但当时没有人证明它能一直通向接管。</p>
@@ -94,7 +94,7 @@
 <p>第一，同类发现会接连出现。公开的漏洞数量从2024年的39,962个增加到2025年的48,185个，2026年预计约5万9千个。AI越是重读旧代码，沉睡多年的缺陷就越会浮出水面。</p>
 <p>第二，打补丁的宽限期会缩短。据报道，美国已发布指令，要求联邦机构在3天内修复最危险的漏洞。需要以“从公开到被利用可能只有几个小时”为前提，重新安排运维。</p>
 <p>第三，继续使用旧版本的成本会上升。已停止支持的版本，即使发现下一个缺陷，也收不到官方修正。更新拖得越久，越会被迫在停站和重建之间做选择。越是小公司，越值得向委托方确认自家网站和预约系统运行在哪个版本上。</p>
-<figure><img src="../../../images/articles/php2shell-48-hours/chart-cve-zh.png" alt="图2　公开的漏洞（CVE）数量。2026年为FIRST预测的中位数" loading="lazy"><figcaption>图2　公开的漏洞（CVE）数量。2026年为FIRST预测的中位数</figcaption></figure>
+<figure><img width="1200" height="630" src="../../../images/articles/php2shell-48-hours/chart-cve-zh.png" alt="图2　公开的漏洞（CVE）数量。2026年为FIRST预测的中位数" loading="lazy"><figcaption>图2　公开的漏洞（CVE）数量。2026年为FIRST预测的中位数</figcaption></figure>
 <h2>我是这样看的</h2>
 <p>我经营一家共享办公室，会员信息用外部服务管理。之所以不在自家持有，是因为我认为持有的信息越多，风险越高。即便如此，22日早上我还是联系了负责运维的公司，问了一句“我们这边没问题吧”。</p>
 <p>这次的事让我觉得，IT也需要和建筑一样的修缮思路。外墙和设备，是在坏之前就积攒资金来更换。软件也一样，应该在支持结束之前，先准备好更换的费用。</p>
@@ -105,6 +105,7 @@
 <p>每天的数字与判断，记录在X上。</p>
 <div class="cta"><a class="btn-dark" href="https://x.com/capitallogs">在X上看每天的数字</a><a class="btn-light" href="https://note.com/capitallogs" style="border:1px solid var(--line)">我也在note上写作</a></div>
 </div>
+<!--related--><section class="related"><h2>相关文章</h2><ul><li><a href="../supply-chain-shield/">没有比矛更强的盾：从微软云案件和Onamae.com事件看防守的技术与极限</a><span class="num">2026-10-23</span></li><li><a href="../ai-power-supply-2030/">到2030年AI用电会增加多少，靠哪种电源来满足——用数字并列可再生能源、核电、火电与核聚变</a><span class="num">2026-11-02</span></li><li><a href="../waymo-tesla-autonomy/">Waymo与特斯拉：决定自动驾驶主导权的是安全记录还是量产规模？</a><span class="num">2026-10-28</span></li></ul></section><!--/related-->
 </article>
 <footer class="site-footer" style="padding-bottom:48px"><span>© 2026 YUKI CAPITAL</span><span><a href="../../../zh/">返回首页</a></span></footer>
 </main>

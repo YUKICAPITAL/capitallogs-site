@@ -63,7 +63,7 @@
 <div class="meta"><span class="chip">金融·银行</span><span class="chip">网络安全</span><span class="chip">技术</span><span class="chip">企业</span><span class="num">2026年10月25日</span><span class="langsw" style="margin-left:auto"><a href="../../../articles/megabank-core-systems/" data-setlang="ja">日本語</a><a href="../../../en/articles/megabank-core-systems/" data-setlang="en">EN</a><a href="../../../zh/articles/megabank-core-systems/" data-setlang="zh" class="on">中文</a></span></div>
 <h1>日本三大银行与里索那的核心系统，真的又旧又危险吗</h1>
 <div class="lead"><p>2026年10月，GMO服务器遭非法入侵的消息公开的那一周，我持有的四只日本银行股一起下跌。在X上，我反复看到银行系统很脆弱的说法。</p><p>然而，用数字来说明这四家银行的核心系统究竟由什么构成、发生过哪些故障、在防御上花了多少钱的文章，并不多。</p><p>本文依据各行的公开资料以及金融厅、经产省的文件，逐一确认三菱UFJ、三井住友、瑞穗、里索那的核心系统，最后给出我自己对于是否危险的判断。</p></div>
-<figure class="hero"><img src="../../../images/articles/megabank-core-systems/hero.jpg" alt="银行金库的大门"><figcaption>银行金库的大门</figcaption></figure>
+<figure class="hero"><img width="1600" height="900" src="../../../images/articles/megabank-core-systems/hero.jpg" alt="银行金库的大门"><figcaption>银行金库的大门</figcaption></figure>
 <div class="card">
 <h2>什么是核心系统。四家银行的中心仍然是大型主机</h2>
 <p>核心系统（账务系统）是银行的中心，记录存款余额、转账和贷款。它一旦停止，ATM和转账都会停止。</p>
@@ -90,11 +90,11 @@
 <p>也有不限于一家银行的故障。2023年10月10日和11日的全银网故障，影响了三菱UFJ银行、里索那银行等11家银行。两天内，255万笔跨行转账和251万笔行内转账受到影响，87万笔跨行转账未能处理。原因是中继计算机更新时手续费计算程序的缺陷。</p>
 <p>在攻击方面，2024年年末DDoS攻击接连发生。三菱UFJ银行的网上银行从12月26日起不稳定，28日早上恢复。里索那四家银行从12月29日晚到30日凌晨无法使用个人网上银行，2025年1月7日又出现同样的故障。瑞穗银行的Mizuho Direct也从12月31日早上起不稳定。三井住友银行的受损情况未能确认。</p>
 <div class="tbl"><table><thead><tr><th>年月</th><th>银行</th><th>发生了什么</th></tr></thead><tbody><tr><td>2002年4月</td><td>瑞穗</td><td>约250万笔转账延迟。业务改善命令</td></tr><tr><td>2008年5月</td><td>三菱东京UFJ</td><td>合并首日约2万笔交易无法完成</td></tr><tr><td>2011年3月</td><td>瑞穗</td><td>地震后的故障。业务改善命令</td></tr><tr><td>2019年7月</td><td>瑞穗</td><td>完成向MINORI的迁移</td></tr><tr><td>2021年2至11月</td><td>瑞穗</td><td>故障8次。11月26日业务改善命令</td></tr><tr><td>2023年10月</td><td>全银网</td><td>11家银行受影响。87万笔跨行转账未处理</td></tr><tr><td>2024年12月</td><td>三菱UFJ、里索那、瑞穗</td><td>DDoS攻击下网上银行不稳定</td></tr><tr><td>2026年1月</td><td>三井住友</td><td>为迁移新核心系统而暂停。MUFG GMO Security成立</td></tr><tr><td>2026年10月</td><td>GMO旗下</td><td>infoQ约89万条记录，Onamae.com有26,739台服务器可能受影响</td></tr></tbody></table></div>
-<figure><img src="../../../images/articles/megabank-core-systems/chart-timeline-zh.png" alt="图1　围绕四家银行核心系统的主要故障与攻击（2002-2026）。据各行公开资料与报道制作" loading="lazy"><figcaption>图1　围绕四家银行核心系统的主要故障与攻击（2002-2026）。据各行公开资料与报道制作</figcaption></figure>
+<figure><img width="1600" height="736" src="../../../images/articles/megabank-core-systems/chart-timeline-zh.png" alt="图1　围绕四家银行核心系统的主要故障与攻击（2002-2026）。据各行公开资料与报道制作" loading="lazy"><figcaption>图1　围绕四家银行核心系统的主要故障与攻击（2002-2026）。据各行公开资料与报道制作</figcaption></figure>
 <h2>在防御上花了多少钱</h2>
 <p>把公布的投资额排在一起，三井住友FG的3年1万亿日元和瑞穗FG的3年约6,000亿日元最为突出。三菱UFJ仅2025财年一年就在网络安全上追加了约150亿日元。里索那的数字不在投资额，而在成本一侧：十年削减46%。</p>
-<figure><img src="../../../images/articles/megabank-core-systems/chart-invest-zh.png" alt="图2　已公布投资额的比较（亿日元）。据各行IR资料制作" loading="lazy"><figcaption>图2　已公布投资额的比较（亿日元）。据各行IR资料制作</figcaption></figure>
-<figure><img src="../../../images/articles/megabank-core-systems/boxes.jpg" alt="银行保管箱上的编号" loading="lazy"><figcaption>银行保管箱上的编号</figcaption></figure>
+<figure><img width="1280" height="672" src="../../../images/articles/megabank-core-systems/chart-invest-zh.png" alt="图2　已公布投资额的比较（亿日元）。据各行IR资料制作" loading="lazy"><figcaption>图2　已公布投资额的比较（亿日元）。据各行IR资料制作</figcaption></figure>
+<figure><img width="1600" height="1067" src="../../../images/articles/megabank-core-systems/boxes.jpg" alt="银行保管箱上的编号" loading="lazy"><figcaption>银行保管箱上的编号</figcaption></figure>
 <p>金融厅于2024年10月4日制定了《金融领域网络安全指引》，并于同日施行。它要求由经营层主导、覆盖整个集团、重实质轻形式。2025年10月又修订了监督指针，要求在2026年6月底前强制采用抗钓鱼的多因素认证。跨行业演习Delta Wall也每年举行。</p>
 <p>另一方面，经产省的DX报告指出，2025年以后每年可能产生最多12万亿日元的经济损失，并预计运行21年以上的核心系统的比例在2025年将升至六成。银行的核心系统也在其中。</p>
 <h2>我是这样看的</h2>
@@ -109,6 +109,7 @@
 <p>每天的数字和判断，我都记录在X上。</p>
 <div class="cta"><a class="btn-dark" href="https://x.com/YUKICAPITALchin">在X上看每天的数字</a><a class="btn-light" href="https://note.com/capitallogs" style="border:1px solid var(--line)">我也在note上写</a></div>
 </div>
+<!--related--><section class="related"><h2>相关文章</h2><ul><li><a href="../memory-price-floor/">存储芯片的利润率，能承受价格下跌几成——从美光、SK海力士和铠侠的财报倒推</a><span class="num">2026-11-04</span></li><li><a href="../waymo-tesla-autonomy/">Waymo与特斯拉：决定自动驾驶主导权的是安全记录还是量产规模？</a><span class="num">2026-10-28</span></li><li><a href="../anthropic-openai-ipo-valuation/">Anthropic与OpenAI的上市能否成功——用数字检验企业价值及对软银集团的影响</a><span class="num">2026-10-27</span></li></ul></section><!--/related-->
 </article>
 <footer class="site-footer" style="padding-bottom:48px"><span>© 2026 YUKI CAPITAL</span><span><a href="../../../zh/">返回首页</a></span></footer>
 </main>

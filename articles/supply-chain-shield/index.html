@@ -63,7 +63,7 @@
 <div class="meta"><span class="chip">サイバーセキュリティ</span><span class="chip">テクノロジー</span><span class="chip">AI</span><span class="num">2026年10月23日</span><span class="langsw" style="margin-left:auto"><a href="../../articles/supply-chain-shield/" data-setlang="ja" class="on">日本語</a><a href="../../en/articles/supply-chain-shield/" data-setlang="en">EN</a><a href="../../zh/articles/supply-chain-shield/" data-setlang="zh">中文</a></span></div>
 <h1>矛より強い盾はない。マイクロソフトのクラウドとお名前.comの事件から見る、守りの技術と限界</h1>
 <div class="lead"><p>2026年10月21日と22日、規模も相手もまったく違う2つの侵入が、同じ週に公表された。</p><p>1つはマイクロソフトのクラウドを使う会社が委託先のアプリ経由で狙われた件、もう1つはお名前.comの仮想サーバーが不正アクセスを受けた件だ。</p><p>どう入られ、どう対処し、大企業はどう防いでいるのか。そして事実上防げるのかを、一次資料で順に確かめる。</p></div>
-<figure class="hero"><img src="../../images/articles/supply-chain-shield/hero.jpg" alt="キーボードの上に置かれた南京錠"><figcaption>キーボードの上に置かれた南京錠</figcaption></figure>
+<figure class="hero"><img width="1600" height="1067" src="../../images/articles/supply-chain-shield/hero.jpg" alt="キーボードの上に置かれた南京錠"><figcaption>キーボードの上に置かれた南京錠</figcaption></figure>
 <div class="card">
 <h2>2つの事件で何が起きたのか</h2>
 <p>マイクロソフトは10月21日、中国政府と連携するとされる集団Storm-0940の活動を公表した。2,250を超えるテナント（クラウドを契約する組織の単位）に、1分間に2,900回のサインインが試された。失敗は15万1,000件を超える。マイクロソフト自身のシステムは侵害されていないと、同社は明記している。</p>
@@ -74,13 +74,13 @@
 <p>2つの事件は規模も相手も違うが、狙われた場所には共通点がある。攻撃者は正面の扉を壊していない。すでに渡されていた鍵を使っている。</p>
 <p>マイクロソフトの件では、パスワードを総当たりで試す攻撃（パスワードスプレー）は10月10日から14日にかけて行われたが、成功しなかった。突破口になったのは、顧客が業務のために許可していたアプリの権限だった。お名前.comの件では、利用者が自動売買のためにサーバーへ保存していた証券会社やFX会社のログイン情報が、口座への入口になった可能性がある。</p>
 <p>これを専門の言葉ではサプライチェーンの侵害と呼ぶ。自社がどれだけ守っても、つないでいる外の会社、預けている外の仕組みが破られれば、そこから入られる。Verizonの2026年の調査（DBIR）では、侵害の入口の31%が脆弱性の悪用で、侵害の48%に第三者が関わっていた。IPAの「情報セキュリティ10大脅威2026」でも、組織編の2位はサプライチェーンや委託先を狙った攻撃である。</p>
-<figure><img src="../../images/articles/supply-chain-shield/chart-path-ja.png" alt="図1　侵入の経路。マイクロソフトの公式ブログとGMOの第2報から作成" loading="lazy"><figcaption>図1　侵入の経路。マイクロソフトの公式ブログとGMOの第2報から作成</figcaption></figure>
+<figure><img width="1425" height="792" src="../../images/articles/supply-chain-shield/chart-path-ja.png" alt="図1　侵入の経路。マイクロソフトの公式ブログとGMOの第2報から作成" loading="lazy"><figcaption>図1　侵入の経路。マイクロソフトの公式ブログとGMOの第2報から作成</figcaption></figure>
 <h2>AIは攻める側の速度を変えた</h2>
 <p>今回目を引くのは、攻撃にAIが使われたことだ。ARTEXはもともと、守る側が自社の弱点を探すために公開された道具である。それが攻撃に転用され、多数のテナントへ同時に試行を続けた。</p>
 <p>Anthropicも2025年11月、自社のAIが国家の関与が疑われる集団にスパイ活動へ使われた事例を公表している。作業の大半をAIが自律的にこなしていたという。攻撃の手順が自動になれば、人の手では追いつかない速さで試行が繰り返される。</p>
 <p>一方で、守る側の時間は短くなっていない。Google傘下のMandiantによる2026年の報告（M-Trends）では、侵入から発見までの日数の中央値は14日だった。入られてから気づくまでの2週間に、攻撃者は権限を広げ、情報を持ち出す。IBMの調査では、データ侵害1件あたりの平均の費用は2025年に444万ドル、2026年に499万ドルとされる。</p>
-<figure><img src="../../images/articles/supply-chain-shield/chart-stats-ja.png" alt="図2　数字で見る侵害。Verizon DBIR 2026、Microsoft Digital Defense Report 2025から作成" loading="lazy"><figcaption>図2　数字で見る侵害。Verizon DBIR 2026、Microsoft Digital Defense Report 2025から作成</figcaption></figure>
-<figure><img src="../../images/articles/supply-chain-shield/cables.jpg" alt="サーバーにつながる青いネットワークケーブル" loading="lazy"><figcaption>サーバーにつながる青いネットワークケーブル</figcaption></figure>
+<figure><img width="1632" height="897" src="../../images/articles/supply-chain-shield/chart-stats-ja.png" alt="図2　数字で見る侵害。Verizon DBIR 2026、Microsoft Digital Defense Report 2025から作成" loading="lazy"><figcaption>図2　数字で見る侵害。Verizon DBIR 2026、Microsoft Digital Defense Report 2025から作成</figcaption></figure>
+<figure><img width="1600" height="1066" src="../../images/articles/supply-chain-shield/cables.jpg" alt="サーバーにつながる青いネットワークケーブル" loading="lazy"><figcaption>サーバーにつながる青いネットワークケーブル</figcaption></figure>
 <h2>大企業はどう防いでいるのか</h2>
 <p>大企業の守りは、ソフトを1つ足す話ではない。考え方そのものが変わってきた。</p>
 <p>1つ目は「侵入される前提」で設計することだ。米国のNISTがSP 800-207で示したゼロトラストは、社内か社外かで信用を決めず、すべてのアクセスをその都度確かめる。2024年のサイバーセキュリティ・フレームワーク2.0では、特定・防御・検知・対応・復旧の5つに「統治」が加わり、経営の責任として守りを扱うよう求めている。</p>
@@ -103,6 +103,7 @@
 <p>日々の数字と判断は、Xで記録している。</p>
 <div class="cta"><a class="btn-dark" href="https://x.com/capitallogs">Xで毎日の数字を見る</a><a class="btn-light" href="https://note.com/capitallogs" style="border:1px solid var(--line)">noteでも書いている</a></div>
 </div>
+<!--related--><section class="related"><h2>関連する記事</h2><ul><li><a href="../php2shell-48-hours/">PHP2Shellの48時間。ウェブの7割を支える言語の欠陥は、どう見つかり、どう塞がれたのか</a><span class="num">2026-10-22</span></li><li><a href="../ai-power-supply-2030/">AIの電力は2030年までにどこまで増え、どの電源で賄えるのか――再エネ・原子力・火力・核融合を数字で並べる</a><span class="num">2026-11-02</span></li><li><a href="../waymo-tesla-autonomy/">Waymoとテスラ、自動運転の覇権を分けるのは安全の実績か量産の台数か</a><span class="num">2026-10-28</span></li></ul></section><!--/related-->
 </article>
 <footer class="site-footer" style="padding-bottom:48px"><span>© 2026 YUKI CAPITAL</span><span><a href="../../">トップへ</a></span></footer>
 </main>

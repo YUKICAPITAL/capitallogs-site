@@ -96,6 +96,14 @@ for a in D['articles']:
         patch(fp, head_block(paths, lg, '<meta property="article:published_time" content="' + a['date'] + '">\n<script type="application/ld+json">' + json.dumps(ld, ensure_ascii=False) + '</script>'), ogurl=f'{BASE}/{path}')
     urls.append((paths, a['date'], '0.8'))
 
+# --- データのページ（tools/enhance.py が作る・毎日更新）
+for kind in ('capital', 'rules'):
+    paths = {lg: f'{p}numbers/{kind}/' for lg, p, _ in LANGS}
+    for lg, p, _ in LANGS:
+        fp = ROOT / p / 'numbers' / kind / 'index.html'
+        if fp.exists(): patch(fp, head_block(paths, lg), ogurl=f'{BASE}/{paths[lg]}')
+    urls.append((paths, TODAY, '0.7'))
+
 # --- sitemap.xml と robots.txt
 urls = [(tops, TODAY, '1.0'), (lists, D['articles'][0]['date'], '0.9'), ({'ja': 'archive/'}, TODAY, '0.6'), ({'ja': 'about/'}, '2026-10-20', '0.4')] + urls
 x = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">']

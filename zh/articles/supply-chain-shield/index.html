@@ -63,7 +63,7 @@
 <div class="meta"><span class="chip">网络安全</span><span class="chip">科技</span><span class="chip">AI</span><span class="num">2026年10月23日</span><span class="langsw" style="margin-left:auto"><a href="../../../articles/supply-chain-shield/" data-setlang="ja">日本語</a><a href="../../../en/articles/supply-chain-shield/" data-setlang="en">EN</a><a href="../../../zh/articles/supply-chain-shield/" data-setlang="zh" class="on">中文</a></span></div>
 <h1>没有比矛更强的盾：从微软云案件和Onamae.com事件看防守的技术与极限</h1>
 <div class="lead"><p>2026年10月21日和22日，规模和对象完全不同的两起入侵在同一周被公开。</p><p>一起是使用微软云的公司经由外包方的应用遭到攻击，另一起是日本Onamae.com的虚拟服务器遭到非法入侵。</p><p>身在东京的我，用一手资料依次确认：攻击者如何进入、该如何应对、大企业如何防守，以及这类攻击实际上能否防住。</p></div>
-<figure class="hero"><img src="../../../images/articles/supply-chain-shield/hero.jpg" alt="放在键盘上的挂锁"><figcaption>放在键盘上的挂锁</figcaption></figure>
+<figure class="hero"><img width="1600" height="1067" src="../../../images/articles/supply-chain-shield/hero.jpg" alt="放在键盘上的挂锁"><figcaption>放在键盘上的挂锁</figcaption></figure>
 <div class="card">
 <h2>两起事件发生了什么</h2>
 <p>微软在10月21日公开了据称与中国政府合作的组织Storm-0940的活动。超过2,250个租户（签约云服务的组织单位）遭到每分钟2,900次的登录尝试。失败次数超过15万1,000次。微软明确表示，自身的系统没有被攻破。</p>
@@ -74,13 +74,13 @@
 <p>两起事件的规模和对象不同，但被盯上的地方有共同点。攻击者没有砸开正门，而是用了早已交出去的钥匙。</p>
 <p>在微软的案件中，对大量账户逐一尝试密码的攻击（密码喷洒）在10月10日到14日之间进行，但没有成功。突破口是客户为了业务而授权给应用的权限。在Onamae.com的事件中，用户为了自动交易而保存在服务器上的证券公司和外汇公司的登录信息，可能成为了进入账户的入口。</p>
 <p>用专业术语来说，这叫供应链入侵。无论自己的公司守得多严，只要连接的外部公司、托管数据的外部系统被攻破，攻击者就会从那里进来。Verizon的2026年调查（DBIR）显示，31%的入侵始于漏洞被利用，48%的入侵有第三方参与。日本IPA的“信息安全十大威胁2026”中，组织篇的第二位也是针对供应链和外包方的攻击。</p>
-<figure><img src="../../../images/articles/supply-chain-shield/chart-path-zh.png" alt="图1　入侵途径。根据微软官方博客和GMO第二次通报制作" loading="lazy"><figcaption>图1　入侵途径。根据微软官方博客和GMO第二次通报制作</figcaption></figure>
+<figure><img width="1425" height="792" src="../../../images/articles/supply-chain-shield/chart-path-zh.png" alt="图1　入侵途径。根据微软官方博客和GMO第二次通报制作" loading="lazy"><figcaption>图1　入侵途径。根据微软官方博客和GMO第二次通报制作</figcaption></figure>
 <h2>AI改变了进攻一方的速度</h2>
 <p>这次引人注目的是攻击中使用了AI。ARTEX原本是为防守方查找自身弱点而公开的工具，却被转用于攻击，同时对大量租户持续发起尝试。</p>
 <p>Anthropic也在2025年11月公开了一个案例：自家的AI被疑有国家背景的组织用于间谍活动，据说大部分工作由AI自主完成。攻击步骤一旦自动化，尝试就会以人力追不上的速度反复进行。</p>
 <p>另一方面，防守方的时间并没有缩短。谷歌旗下Mandiant的2026年报告（M-Trends）显示，从入侵到被发现的天数中位数为14天。在被察觉前的这两周里，攻击者会扩大权限、带走信息。IBM的调查显示，每起数据泄露的平均成本在2025年为444万美元，2026年为499万美元。</p>
-<figure><img src="../../../images/articles/supply-chain-shield/chart-stats-zh.png" alt="图2　用数字看入侵。根据Verizon DBIR 2026、Microsoft Digital Defense Report 2025制作" loading="lazy"><figcaption>图2　用数字看入侵。根据Verizon DBIR 2026、Microsoft Digital Defense Report 2025制作</figcaption></figure>
-<figure><img src="../../../images/articles/supply-chain-shield/cables.jpg" alt="连接服务器的蓝色网线" loading="lazy"><figcaption>连接服务器的蓝色网线</figcaption></figure>
+<figure><img width="1632" height="897" src="../../../images/articles/supply-chain-shield/chart-stats-zh.png" alt="图2　用数字看入侵。根据Verizon DBIR 2026、Microsoft Digital Defense Report 2025制作" loading="lazy"><figcaption>图2　用数字看入侵。根据Verizon DBIR 2026、Microsoft Digital Defense Report 2025制作</figcaption></figure>
+<figure><img width="1600" height="1066" src="../../../images/articles/supply-chain-shield/cables.jpg" alt="连接服务器的蓝色网线" loading="lazy"><figcaption>连接服务器的蓝色网线</figcaption></figure>
 <h2>大企业如何防守</h2>
 <p>大企业的防守，不是再加一个软件的问题。思路本身已经变了。</p>
 <p>第一是以“会被入侵”为前提来设计。美国NIST在SP 800-207中提出的零信任，不以公司内外来决定信任，每次访问都要确认。2024年的网络安全框架2.0在识别、保护、检测、响应、恢复这5项之外加入了“治理”，要求把防守作为经营责任来对待。</p>
@@ -103,6 +103,7 @@
 <p>每天的数字与判断，记录在X上。</p>
 <div class="cta"><a class="btn-dark" href="https://x.com/capitallogs">在X上看每天的数字</a><a class="btn-light" href="https://note.com/capitallogs" style="border:1px solid var(--line)">我也在note上写作</a></div>
 </div>
+<!--related--><section class="related"><h2>相关文章</h2><ul><li><a href="../php2shell-48-hours/">PHP2Shell的48小时：支撑七成网站的语言缺陷，是如何被发现、又如何被堵上的</a><span class="num">2026-10-22</span></li><li><a href="../ai-power-supply-2030/">到2030年AI用电会增加多少，靠哪种电源来满足——用数字并列可再生能源、核电、火电与核聚变</a><span class="num">2026-11-02</span></li><li><a href="../waymo-tesla-autonomy/">Waymo与特斯拉：决定自动驾驶主导权的是安全记录还是量产规模？</a><span class="num">2026-10-28</span></li></ul></section><!--/related-->
 </article>
 <footer class="site-footer" style="padding-bottom:48px"><span>© 2026 YUKI CAPITAL</span><span><a href="../../../zh/">返回首页</a></span></footer>
 </main>
