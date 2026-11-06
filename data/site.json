@@ -460,7 +460,7 @@
     "text_zh": "早上吃生鸡蛋拌饭。在公司把时间花在共享办公室的聊天机器人上，中午在健身房和妻子一起吃饭。全力游50米5趟、慢游5趟，做了两轮；傍晚久违地去针灸，鼻窦通了。"
   },
   "media": {
-    "updated": "2026-11-06 11:23",
+    "updated": "2026-11-06 11:28",
     "impressions_month": null,
     "impressions_daily": [],
     "followers": [
@@ -539,8 +539,8 @@
       "total_d28": 253288
     },
     "site": {
-      "visits_24h": 2,
-      "pv_24h": 8,
+      "visits_24h": 38,
+      "pv_24h": 68,
       "visits_7d": null
     },
     "daily": {
@@ -701,9 +701,9 @@
       "x_en": 534,
       "x_zh": 366,
       "note": 15,
-      "site_visits_24h": 2,
-      "site_pv_24h": 8,
-      "at": "2026-11-06 11:23"
+      "site_visits_24h": 38,
+      "site_pv_24h": 68,
+      "at": "2026-11-06 11:28"
     },
     "intraday": [
       {
@@ -711,6 +711,12 @@
         "x": 6836,
         "site_pv_24h": 8,
         "site_visits_24h": 2
+      },
+      {
+        "at": "2026-11-06 11:28",
+        "x": 6836,
+        "site_pv_24h": 68,
+        "site_visits_24h": 38
       }
     ]
   },
