@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T12:30:00+09:00",
+  "updated": "2026-11-07T22:00:00+09:00",
   "profile": {
     "name": "YUKI CAPITAL",
     "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -286,64 +286,70 @@
     }
   ],
   "posts": {
-    "date": "2026-11-06",
-    "count": 27,
+    "date": "2026-11-07",
+    "count": 18,
     "items": [
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.06",
-        "kind": "判断",
-        "kind_en": "Decision",
-        "kind_zh": "判断",
-        "title": "共和党に近すぎた会社が売られた。SpaceXもテスラもGoogleも持ったまま",
-        "title_en": "Companies too close to the Republicans were sold, and I still hold SpaceX, Tesla and Google",
-        "title_zh": "与共和党走得太近的公司遭抛售，SpaceX、特斯拉、Google依然持有"
+        "time": "11.07",
+        "kind": "シリーズ",
+        "kind_en": "Series",
+        "kind_zh": "系列",
+        "title": "11月3日の中間選挙、民主党が上下両院を取った",
+        "title_en": "Democrats take both chambers in the November 3 midterms",
+        "title_zh": "11月3日中期选举，民主党拿下参众两院"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.06",
+        "time": "11.07",
         "kind": "日記",
         "kind_en": "Diary",
         "kind_zh": "日记",
-        "title": "卵かけご飯から鍼まで、プールと会社の11月5日",
-        "title_en": "From raw egg on rice to acupuncture, my November 5 between the pool and the office",
-        "title_zh": "从生鸡蛋拌饭到针灸，泳池与公司的11月5日"
+        "title": "顔の脱毛3年、2か月おきに戻った日",
+        "title_en": "Three years of facial hair removal, back to every two months",
+        "title_zh": "面部脱毛三年，又改回每两个月一次"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.06",
+        "time": "11.07",
         "kind": "長文",
         "kind_en": "Essay",
         "kind_zh": "长文",
-        "title": "50m全力を5本ずつ2回、3本目で息が上がった",
-        "title_en": "Two sets of five all-out 50m swims, and out of breath by the third",
-        "title_zh": "50米全力游5趟做两轮，第3趟就喘不上气"
+        "title": "制限するほど落ちない体重、運動を中心に置く",
+        "title_en": "The more I restrict food, the less weight I lose, so exercise goes at the center",
+        "title_zh": "越节食越不掉秤，于是把运动放在中心"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.06",
-        "kind": "ニュース",
-        "kind_en": "News",
-        "kind_zh": "新闻",
-        "title": "日経平均1,110円安、それでもTOPIXは1.16%高",
-        "title_en": "Nikkei falls 1,110 points, yet TOPIX ends 1.16% higher",
-        "title_zh": "日经平均下跌1,110点，TOPIX却上涨1.16%"
+        "time": "11.07",
+        "kind": "資本",
+        "kind_en": "Capital",
+        "kind_zh": "资本",
+        "title": "11月第1週の資本｜今週は1株も動かさなかった",
+        "title_en": "Capital, first week of November: not a single share moved",
+        "title_zh": "11月第一周的资本：本周一股未动"
       }
     ]
   },
   "note": [
+    {
+      "date": "2026-11-07",
+      "title": "売上3.36倍のIonQ。株価が2割上がった日に、僕が何も足さなかった理由",
+      "url": "https://note.com/capitallogs/n/ndf818d965170",
+      "image": "https://assets.st-note.com/production/uploads/images/333369328/rectangle_large_type_2_44f89bbd625105a67f7c2f8826cc8163.png?fit=bounds&quality=85&width=640"
+    },
     {
       "date": "2026-11-06",
       "title": "米国株が1日で3兆ドル消えた朝、口座を開いても何もしなかった理由",
@@ -442,22 +448,22 @@
     }
   ],
   "diary": {
-    "date": "2026-11-06（金）",
-    "place": "会社・ジム・鍼",
-    "title": "卵かけご飯から鍼まで、プールと会社の11月5日",
-    "text": "朝は卵かけご飯。会社ではシェアオフィスのチャットボットに時間を使い、昼はジムで奥さんと食事。50mの全力5本とゆっくり5本を2回泳ぎ、夕方は久しぶりの鍼で副鼻腔が通った。",
+    "date": "2026-11-07（土）",
+    "place": "会社・サウナ・脱毛",
+    "title": "顔の脱毛3年、2か月おきに戻った日",
+    "text": "昼はサウナとオイルマッサージ、夕方は3年続ける顔の脱毛。奥さんが1人で子ども2人をディズニーへ連れて行った夜、僕は自分の店で仕込みを手伝ってから帰った。",
     "image": null,
     "url": "https://x.com/capitallogs",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin",
-    "date_en": "Fri, Nov 6, 2026",
-    "date_zh": "2026.11.06（周五）",
-    "place_en": "Office, gym and acupuncture",
-    "place_zh": "公司、健身房、针灸",
-    "title_en": "From raw egg on rice to acupuncture, my November 5 between the pool and the office",
-    "title_zh": "从生鸡蛋拌饭到针灸，泳池与公司的11月5日",
-    "text_en": "Raw egg on rice in the morning. At the office I spent the most time on the shared office chatbot, then ate lunch with my wife at the gym. I swam two sets of five all-out 50m lengths with five easy ones, and in the evening my first acupuncture in weeks cleared my sinuses.",
-    "text_zh": "早上吃生鸡蛋拌饭。在公司把时间花在共享办公室的聊天机器人上，中午在健身房和妻子一起吃饭。全力游50米5趟、慢游5趟，做了两轮；傍晚久违地去针灸，鼻窦通了。"
+    "date_en": "Sat, Nov 7, 2026",
+    "date_zh": "2026.11.07（周六）",
+    "place_en": "Office, sauna and hair removal",
+    "place_zh": "公司、桑拿、脱毛",
+    "title_en": "Three years of facial hair removal, back to every two months",
+    "title_zh": "面部脱毛三年，又改回每两个月一次",
+    "text_en": "A sauna and an oil massage at lunch, then the facial hair removal I have kept up for three years. On the night my wife took our two kids to Disneyland on her own, I helped with prep at my restaurant before heading home.",
+    "text_zh": "中午去桑拿、做精油按摩，傍晚是坚持了三年的面部脱毛。妻子一个人带两个孩子去迪士尼的那天晚上，我在自己的店里帮忙备菜后才回家。"
   },
   "media": {
     "updated": "2026-11-06 11:28",
@@ -722,6 +728,17 @@
   },
   "archive": [
     {
+      "date": "2026-11-07",
+      "label": "11.07（土）",
+      "total": null,
+      "diff_pct": null,
+      "memo": "休場 ｜ 18本×3言語 ｜ 売買なし ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "Market closed ｜ 18 posts x 3 languages ｜ No trades ｜ 1 note ｜ 1 article",
+      "memo_zh": "休市 ｜ 18条×3种语言 ｜ 无交易 ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Nov 7 Sat",
+      "label_zh": "11.07 周六"
+    },
+    {
       "date": "2026-11-06",
       "label": "11.06（金）",
       "label_en": "Nov 6 Fri",
@@ -965,6 +982,25 @@
     }
   ],
   "articles": [
+    {
+      "slug": "softbank-ltv-musk-democrats",
+      "date": "2026-11-07",
+      "image": "images/articles/softbank-ltv-musk-democrats/hero.jpg",
+      "category": "企業分析",
+      "category_en": "Company analysis",
+      "category_zh": "企业分析",
+      "tags": [
+        "company",
+        "finance",
+        "politics"
+      ],
+      "title": "マスク氏の「タービン不払い」と民主党の議会は、ソフトバンクグループの財務をどこまで揺らすのか",
+      "lead": "2026年11月6日、イーロン・マスク氏はXで、ソフトバンクグループ（SBG）がタービンの注文の支払いを滞らせていると書いた[1]。同じ週、米国の中間選挙で民主党が上下両院の多数を取り、AIと半導体の株が大きく売られた[4][12]。 本稿の問いは、SBGの財務の物差しであるLTV（保有株式に対する純負債の比率）が、Arm株とOpenAI関連の評価、追加の借入がどれだけ動けば、SBG自身が決めた上限に近づくのか、である。 SBGが公表した2026年6月末の数字を起点に、前提を3つ動かして計算し、マスク氏の主張と議会の変化がどの経路で効くのかを確かめる。",
+      "title_en": "Musk's \"Turbine Default\" Claim and a Democratic Congress: How Far Can They Shake SoftBank Group's Finances?",
+      "lead_en": "On 6 November 2026, Elon Musk wrote on X that SoftBank Group (SBG) was defaulting on its turbine orders [1]. The same week, Democrats won majorities in both chambers of the US Congress in the midterm elections, and AI and chip stocks were sold off hard [4][12]. The question here is: how far would Arm's valuation, the value of SBG's OpenAI-related holdings, and new borrowing have to move before SBG's own yardstick, LTV (net debt as a share of equity holdings), approaches the ceiling SBG has set for itself? Starting from the end-June 2026 figures SBG has published, I vary three assumptions and trace the channels through which Musk's claim and the change in Congress could matter.",
+      "title_zh": "马斯克称软银“拖欠涡轮机货款”、民主党掌控国会，会把软银集团的财务撼动到什么程度？",
+      "lead_zh": "2026年11月6日，埃隆·马斯克在X上写道，软银集团（SBG）正在拖欠其涡轮机订单的款项[1]。同一周，美国中期选举中民主党拿下参众两院多数，AI和半导体股票遭到大幅抛售[4][12]。 本文要检验的问题是：Arm的估值、与OpenAI相关的持股价值以及新增借款各自变动多少，软银集团衡量自身财务的指标LTV（净负债占持有股票价值的比率）才会接近其自行设定的上限？ 本文以软银集团公布的2026年6月末数据为起点，改变三个前提进行计算，确认马斯克的说法和国会的变化分别通过什么途径产生影响。"
+    },
     {
       "slug": "china-merger-review",
       "date": "2026-11-06",

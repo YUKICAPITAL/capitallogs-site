@@ -1,60 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-<url><loc>https://yuki-capital.com/</loc><lastmod>2026-11-06</lastmod><priority>1.0</priority>
+<url><loc>https://yuki-capital.com/</loc><lastmod>2026-11-07</lastmod><priority>1.0</priority>
   <xhtml:link rel="alternate" hreflang="ja" href="https://yuki-capital.com/"/>
   <xhtml:link rel="alternate" hreflang="en" href="https://yuki-capital.com/en/"/>
   <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yuki-capital.com/zh/"/>
   <xhtml:link rel="alternate" hreflang="x-default" href="https://yuki-capital.com/"/>
 </url>
-<url><loc>https://yuki-capital.com/en/</loc><lastmod>2026-11-06</lastmod><priority>1.0</priority>
+<url><loc>https://yuki-capital.com/en/</loc><lastmod>2026-11-07</lastmod><priority>1.0</priority>
   <xhtml:link rel="alternate" hreflang="ja" href="https://yuki-capital.com/"/>
   <xhtml:link rel="alternate" hreflang="en" href="https://yuki-capital.com/en/"/>
   <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yuki-capital.com/zh/"/>
   <xhtml:link rel="alternate" hreflang="x-default" href="https://yuki-capital.com/"/>
 </url>
-<url><loc>https://yuki-capital.com/zh/</loc><lastmod>2026-11-06</lastmod><priority>1.0</priority>
+<url><loc>https://yuki-capital.com/zh/</loc><lastmod>2026-11-07</lastmod><priority>1.0</priority>
   <xhtml:link rel="alternate" hreflang="ja" href="https://yuki-capital.com/"/>
   <xhtml:link rel="alternate" hreflang="en" href="https://yuki-capital.com/en/"/>
   <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yuki-capital.com/zh/"/>
   <xhtml:link rel="alternate" hreflang="x-default" href="https://yuki-capital.com/"/>
 </url>
-<url><loc>https://yuki-capital.com/articles/</loc><lastmod>2026-11-06</lastmod><priority>0.9</priority>
+<url><loc>https://yuki-capital.com/articles/</loc><lastmod>2026-11-07</lastmod><priority>0.9</priority>
   <xhtml:link rel="alternate" hreflang="ja" href="https://yuki-capital.com/articles/"/>
   <xhtml:link rel="alternate" hreflang="en" href="https://yuki-capital.com/en/articles/"/>
   <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yuki-capital.com/zh/articles/"/>
   <xhtml:link rel="alternate" hreflang="x-default" href="https://yuki-capital.com/articles/"/>
 </url>
-<url><loc>https://yuki-capital.com/en/articles/</loc><lastmod>2026-11-06</lastmod><priority>0.9</priority>
+<url><loc>https://yuki-capital.com/en/articles/</loc><lastmod>2026-11-07</lastmod><priority>0.9</priority>
   <xhtml:link rel="alternate" hreflang="ja" href="https://yuki-capital.com/articles/"/>
   <xhtml:link rel="alternate" hreflang="en" href="https://yuki-capital.com/en/articles/"/>
   <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yuki-capital.com/zh/articles/"/>
   <xhtml:link rel="alternate" hreflang="x-default" href="https://yuki-capital.com/articles/"/>
 </url>
-<url><loc>https://yuki-capital.com/zh/articles/</loc><lastmod>2026-11-06</lastmod><priority>0.9</priority>
+<url><loc>https://yuki-capital.com/zh/articles/</loc><lastmod>2026-11-07</lastmod><priority>0.9</priority>
   <xhtml:link rel="alternate" hreflang="ja" href="https://yuki-capital.com/articles/"/>
   <xhtml:link rel="alternate" hreflang="en" href="https://yuki-capital.com/en/articles/"/>
   <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yuki-capital.com/zh/articles/"/>
   <xhtml:link rel="alternate" hreflang="x-default" href="https://yuki-capital.com/articles/"/>
 </url>
-<url><loc>https://yuki-capital.com/archive/</loc><lastmod>2026-11-06</lastmod><priority>0.6</priority>
+<url><loc>https://yuki-capital.com/archive/</loc><lastmod>2026-11-07</lastmod><priority>0.6</priority>
 </url>
-<url><loc>https://yuki-capital.com/about/</loc><lastmod>2026-11-06</lastmod><priority>0.4</priority>
+<url><loc>https://yuki-capital.com/about/</loc><lastmod>2026-11-07</lastmod><priority>0.4</priority>
   <xhtml:link rel="alternate" hreflang="ja" href="https://yuki-capital.com/about/"/>
   <xhtml:link rel="alternate" hreflang="en" href="https://yuki-capital.com/en/about/"/>
   <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yuki-capital.com/zh/about/"/>
   <xhtml:link rel="alternate" hreflang="x-default" href="https://yuki-capital.com/about/"/>
 </url>
-<url><loc>https://yuki-capital.com/en/about/</loc><lastmod>2026-11-06</lastmod><priority>0.4</priority>
+<url><loc>https://yuki-capital.com/en/about/</loc><lastmod>2026-11-07</lastmod><priority>0.4</priority>
   <xhtml:link rel="alternate" hreflang="ja" href="https://yuki-capital.com/about/"/>
   <xhtml:link rel="alternate" hreflang="en" href="https://yuki-capital.com/en/about/"/>
   <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yuki-capital.com/zh/about/"/>
   <xhtml:link rel="alternate" hreflang="x-default" href="https://yuki-capital.com/about/"/>
 </url>
-<url><loc>https://yuki-capital.com/zh/about/</loc><lastmod>2026-11-06</lastmod><priority>0.4</priority>
+<url><loc>https://yuki-capital.com/zh/about/</loc><lastmod>2026-11-07</lastmod><priority>0.4</priority>
   <xhtml:link rel="alternate" hreflang="ja" href="https://yuki-capital.com/about/"/>
   <xhtml:link rel="alternate" hreflang="en" href="https://yuki-capital.com/en/about/"/>
   <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yuki-capital.com/zh/about/"/>
   <xhtml:link rel="alternate" hreflang="x-default" href="https://yuki-capital.com/about/"/>
+</url>
+<url><loc>https://yuki-capital.com/articles/softbank-ltv-musk-democrats/</loc><lastmod>2026-11-07</lastmod><priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yuki-capital.com/articles/softbank-ltv-musk-democrats/"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yuki-capital.com/en/articles/softbank-ltv-musk-democrats/"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yuki-capital.com/zh/articles/softbank-ltv-musk-democrats/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yuki-capital.com/articles/softbank-ltv-musk-democrats/"/>
+</url>
+<url><loc>https://yuki-capital.com/en/articles/softbank-ltv-musk-democrats/</loc><lastmod>2026-11-07</lastmod><priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yuki-capital.com/articles/softbank-ltv-musk-democrats/"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yuki-capital.com/en/articles/softbank-ltv-musk-democrats/"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yuki-capital.com/zh/articles/softbank-ltv-musk-democrats/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yuki-capital.com/articles/softbank-ltv-musk-democrats/"/>
+</url>
+<url><loc>https://yuki-capital.com/zh/articles/softbank-ltv-musk-democrats/</loc><lastmod>2026-11-07</lastmod><priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yuki-capital.com/articles/softbank-ltv-musk-democrats/"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yuki-capital.com/en/articles/softbank-ltv-musk-democrats/"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yuki-capital.com/zh/articles/softbank-ltv-musk-democrats/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yuki-capital.com/articles/softbank-ltv-musk-democrats/"/>
 </url>
 <url><loc>https://yuki-capital.com/articles/china-merger-review/</loc><lastmod>2026-11-06</lastmod><priority>0.8</priority>
   <xhtml:link rel="alternate" hreflang="ja" href="https://yuki-capital.com/articles/china-merger-review/"/>
@@ -362,37 +380,37 @@
   <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yuki-capital.com/zh/articles/quantum-four-approaches/"/>
   <xhtml:link rel="alternate" hreflang="x-default" href="https://yuki-capital.com/articles/quantum-four-approaches/"/>
 </url>
-<url><loc>https://yuki-capital.com/numbers/capital/</loc><lastmod>2026-11-06</lastmod><priority>0.7</priority>
+<url><loc>https://yuki-capital.com/numbers/capital/</loc><lastmod>2026-11-07</lastmod><priority>0.7</priority>
   <xhtml:link rel="alternate" hreflang="ja" href="https://yuki-capital.com/numbers/capital/"/>
   <xhtml:link rel="alternate" hreflang="en" href="https://yuki-capital.com/en/numbers/capital/"/>
   <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yuki-capital.com/zh/numbers/capital/"/>
   <xhtml:link rel="alternate" hreflang="x-default" href="https://yuki-capital.com/numbers/capital/"/>
 </url>
-<url><loc>https://yuki-capital.com/en/numbers/capital/</loc><lastmod>2026-11-06</lastmod><priority>0.7</priority>
+<url><loc>https://yuki-capital.com/en/numbers/capital/</loc><lastmod>2026-11-07</lastmod><priority>0.7</priority>
   <xhtml:link rel="alternate" hreflang="ja" href="https://yuki-capital.com/numbers/capital/"/>
   <xhtml:link rel="alternate" hreflang="en" href="https://yuki-capital.com/en/numbers/capital/"/>
   <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yuki-capital.com/zh/numbers/capital/"/>
   <xhtml:link rel="alternate" hreflang="x-default" href="https://yuki-capital.com/numbers/capital/"/>
 </url>
-<url><loc>https://yuki-capital.com/zh/numbers/capital/</loc><lastmod>2026-11-06</lastmod><priority>0.7</priority>
+<url><loc>https://yuki-capital.com/zh/numbers/capital/</loc><lastmod>2026-11-07</lastmod><priority>0.7</priority>
   <xhtml:link rel="alternate" hreflang="ja" href="https://yuki-capital.com/numbers/capital/"/>
   <xhtml:link rel="alternate" hreflang="en" href="https://yuki-capital.com/en/numbers/capital/"/>
   <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yuki-capital.com/zh/numbers/capital/"/>
   <xhtml:link rel="alternate" hreflang="x-default" href="https://yuki-capital.com/numbers/capital/"/>
 </url>
-<url><loc>https://yuki-capital.com/numbers/rules/</loc><lastmod>2026-11-06</lastmod><priority>0.7</priority>
+<url><loc>https://yuki-capital.com/numbers/rules/</loc><lastmod>2026-11-07</lastmod><priority>0.7</priority>
   <xhtml:link rel="alternate" hreflang="ja" href="https://yuki-capital.com/numbers/rules/"/>
   <xhtml:link rel="alternate" hreflang="en" href="https://yuki-capital.com/en/numbers/rules/"/>
   <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yuki-capital.com/zh/numbers/rules/"/>
   <xhtml:link rel="alternate" hreflang="x-default" href="https://yuki-capital.com/numbers/rules/"/>
 </url>
-<url><loc>https://yuki-capital.com/en/numbers/rules/</loc><lastmod>2026-11-06</lastmod><priority>0.7</priority>
+<url><loc>https://yuki-capital.com/en/numbers/rules/</loc><lastmod>2026-11-07</lastmod><priority>0.7</priority>
   <xhtml:link rel="alternate" hreflang="ja" href="https://yuki-capital.com/numbers/rules/"/>
   <xhtml:link rel="alternate" hreflang="en" href="https://yuki-capital.com/en/numbers/rules/"/>
   <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yuki-capital.com/zh/numbers/rules/"/>
   <xhtml:link rel="alternate" hreflang="x-default" href="https://yuki-capital.com/numbers/rules/"/>
 </url>
-<url><loc>https://yuki-capital.com/zh/numbers/rules/</loc><lastmod>2026-11-06</lastmod><priority>0.7</priority>
+<url><loc>https://yuki-capital.com/zh/numbers/rules/</loc><lastmod>2026-11-07</lastmod><priority>0.7</priority>
   <xhtml:link rel="alternate" hreflang="ja" href="https://yuki-capital.com/numbers/rules/"/>
   <xhtml:link rel="alternate" hreflang="en" href="https://yuki-capital.com/en/numbers/rules/"/>
   <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yuki-capital.com/zh/numbers/rules/"/>
