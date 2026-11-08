@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T22:00:00+09:00",
+  "updated": "2026-11-08T21:00:00+09:00",
   "profile": {
     "name": "YUKI CAPITAL",
     "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -286,7 +286,7 @@
     }
   ],
   "posts": {
-    "date": "2026-11-07",
+    "date": "2026-11-08",
     "count": 18,
     "items": [
       {
@@ -294,56 +294,62 @@
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.07",
+        "time": "11.08",
         "kind": "シリーズ",
         "kind_en": "Series",
         "kind_zh": "系列",
-        "title": "11月3日の中間選挙、民主党が上下両院を取った",
-        "title_en": "Democrats take both chambers in the November 3 midterms",
-        "title_zh": "11月3日中期选举，民主党拿下参众两院"
+        "title": "NOTA、想定時価総額1,110億円で上場へ",
+        "title_en": "NOTA heads to an IPO at an expected ¥111 billion market value",
+        "title_zh": "NOTA以预计市值1,110亿日元走向上市"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.07",
+        "time": "11.08",
         "kind": "日記",
         "kind_en": "Diary",
         "kind_zh": "日记",
-        "title": "顔の脱毛3年、2か月おきに戻った日",
-        "title_en": "Three years of facial hair removal, back to every two months",
-        "title_zh": "面部脱毛三年，又改回每两个月一次"
+        "title": "2週間ぶりのジムと、明るい新居",
+        "title_en": "Back at the gym after two weeks, and a bright new home",
+        "title_zh": "时隔两周重回健身房，和明亮的新家"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.07",
+        "time": "11.08",
         "kind": "長文",
         "kind_en": "Essay",
         "kind_zh": "长文",
-        "title": "制限するほど落ちない体重、運動を中心に置く",
-        "title_en": "The more I restrict food, the less weight I lose, so exercise goes at the center",
-        "title_zh": "越节食越不掉秤，于是把运动放在中心"
+        "title": "自社ビルの店と、ファンが根付く前に尽きる店",
+        "title_en": "A restaurant in its own building, and restaurants that run out before fans take root",
+        "title_zh": "自有大楼里的店，和粉丝扎根前就耗尽的店"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.07",
+        "time": "11.08",
         "kind": "資本",
         "kind_en": "Capital",
         "kind_zh": "资本",
-        "title": "11月第1週の資本｜今週は1株も動かさなかった",
-        "title_en": "Capital, first week of November: not a single share moved",
-        "title_zh": "11月第一周的资本：本周一股未动"
+        "title": "来週を前に｜総金融資産3億7,329万円",
+        "title_en": "Ahead of next week: total financial assets ¥373.29 million",
+        "title_zh": "下周之前：总金融资产3亿7,329万日元"
       }
     ]
   },
   "note": [
+    {
+      "date": "2026-11-08",
+      "title": "Armが半分になっても、SBGのLTVは2割に届かない。それでも僕が1株も持たない3つの基準",
+      "url": "https://note.com/capitallogs/n/nbc3e87724028",
+      "image": "https://assets.st-note.com/production/uploads/images/333754797/rectangle_large_type_2_6c5b5f310c171d563d202c716ddb8d1e.png?fit=bounds&quality=85&width=640"
+    },
     {
       "date": "2026-11-07",
       "title": "売上3.36倍のIonQ。株価が2割上がった日に、僕が何も足さなかった理由",
@@ -448,22 +454,22 @@
     }
   ],
   "diary": {
-    "date": "2026-11-07（土）",
-    "place": "会社・サウナ・脱毛",
-    "title": "顔の脱毛3年、2か月おきに戻った日",
-    "text": "昼はサウナとオイルマッサージ、夕方は3年続ける顔の脱毛。奥さんが1人で子ども2人をディズニーへ連れて行った夜、僕は自分の店で仕込みを手伝ってから帰った。",
+    "date": "2026-11-08（日）",
+    "place": "新居・ジム・サウナ",
+    "title": "2週間ぶりのジムと、明るい新居",
+    "text": "妻の友人と3人で新しいマンションを見て、僕は2週間ぶりのジムへ。全身をマシンで回し、サウナと水風呂を3セット。夜はイタリアンで、睡眠薬は2日続けて飲まないと決めている。",
     "image": null,
     "url": "https://x.com/capitallogs",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin",
-    "date_en": "Sat, Nov 7, 2026",
-    "date_zh": "2026.11.07（周六）",
-    "place_en": "Office, sauna and hair removal",
-    "place_zh": "公司、桑拿、脱毛",
-    "title_en": "Three years of facial hair removal, back to every two months",
-    "title_zh": "面部脱毛三年，又改回每两个月一次",
-    "text_en": "A sauna and an oil massage at lunch, then the facial hair removal I have kept up for three years. On the night my wife took our two kids to Disneyland on her own, I helped with prep at my restaurant before heading home.",
-    "text_zh": "中午去桑拿、做精油按摩，傍晚是坚持了三年的面部脱毛。妻子一个人带两个孩子去迪士尼的那天晚上，我在自己的店里帮忙备菜后才回家。"
+    "date_en": "Sun, Nov 8, 2026",
+    "date_zh": "2026.11.08（周日）",
+    "place_en": "New home, gym and sauna",
+    "place_zh": "新家、健身房、桑拿",
+    "title_en": "Back at the gym after two weeks, and a bright new home",
+    "title_zh": "时隔两周重回健身房，和明亮的新家",
+    "text_en": "My wife, her friend and I looked around our new apartment, then I went to the gym for the first time in two weeks: a full-body round on the machines, then three rounds of sauna and cold plunge. Italian for dinner. I have decided never to take sleeping pills two nights in a row.",
+    "text_zh": "我和妻子、她的朋友三个人去看了新公寓，之后我时隔两周去了健身房，用器械练遍全身，再做三轮桑拿和冷水浴。晚上吃意大利菜。我给自己定了规矩：安眠药不连续两天吃。"
   },
   "media": {
     "updated": "2026-11-07 21:51",
@@ -722,6 +728,17 @@
   },
   "archive": [
     {
+      "date": "2026-11-08",
+      "label": "11.08（日）",
+      "total": null,
+      "diff_pct": null,
+      "memo": "休場 ｜ 18本×3言語 ｜ 売買なし ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "Market closed ｜ 18 posts x 3 languages ｜ No trades ｜ 1 note ｜ 1 article",
+      "memo_zh": "休市 ｜ 18条×3种语言 ｜ 无交易 ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Nov 8 Sun",
+      "label_zh": "11.08 周日"
+    },
+    {
       "date": "2026-11-07",
       "label": "11.07（土）",
       "total": null,
@@ -976,6 +993,25 @@
     }
   ],
   "articles": [
+    {
+      "slug": "nota-ipo-valuation",
+      "date": "2026-11-08",
+      "image": "images/articles/nota-ipo-valuation/hero.jpg",
+      "category": "企業分析",
+      "category_en": "Company analysis",
+      "category_zh": "企业分析",
+      "tags": [
+        "company",
+        "business",
+        "finance"
+      ],
+      "title": "NOTA（旧NOT A HOTEL）の想定時価総額1,110億円は、何を織り込んだ値段なのか",
+      "lead": "別荘を共同所有で売るNOTA株式会社（2026年10月に旧NOT A HOTELから社名変更）は、2026年11月6日に東京証券取引所から上場の承認を受け、12月9日にグロース市場へ上場する予定である[1][2]。 想定の発行価格1,390円で計算した時価総額は約1,110億円で、直前期の純利益4.57億円の約243倍にあたる[1]。 本稿の問いは、この1,110億円が、どれだけの利益と成長を前提にした値段なのかである。開示資料と同業の倍率から逆算し、前提を動かして確かめる。",
+      "title_en": "What Is Priced Into NOTA (formerly NOT A HOTEL)'s ¥111 Billion Expected IPO Valuation?",
+      "lead_en": "NOTA Inc., which sells co-ownership of villas (renamed from NOT A HOTEL in October 2026), received listing approval from the Tokyo Stock Exchange on 6 November 2026 and plans to list on the Growth market on 9 December [1][2]. At the assumed offer price of ¥1,390, its market value comes to about ¥111 billion (roughly $704 million), around 243 times last fiscal year's net income of ¥457 million [1]. The question here is how much profit and growth that ¥111 billion assumes. I work backwards from the disclosures and peer multiples, then vary the assumptions to test it.",
+      "title_zh": "NOTA（原NOT A HOTEL）预计市值1,110亿日元，究竟包含了怎样的预期？",
+      "lead_zh": "出售别墅共同所有权的NOTA株式会社（2026年10月由原NOT A HOTEL更名）于2026年11月6日获得东京证券交易所的上市批准，计划于12月9日在Growth市场上市[1][2]。 按预计发行价1,390日元计算，市值约为1,110亿日元（约合7.04亿美元，约合47.3亿元人民币），约为上一财年净利润4.57亿日元的243倍[1]。 本文要回答的问题是：这1,110亿日元以多少利润和增长为前提？我从披露资料和同业倍数倒推，再改变前提加以检验。"
+    },
     {
       "slug": "softbank-ltv-musk-democrats",
       "date": "2026-11-07",
