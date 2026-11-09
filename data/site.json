@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T21:00:00+09:00",
+  "updated": "2026-11-09T12:00:00+09:00",
   "profile": {
     "name": "YUKI CAPITAL",
     "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -16,38 +16,38 @@
     "note": "https://note.com/capitallogs"
   },
   "capital": {
-    "date": "2026-11-06",
-    "label": "11.06（金）",
-    "total": 373296720,
-    "diff": -13058396,
-    "diff_pct": -3.38,
-    "unreal": 40299049,
-    "unreal_pct": 12.27,
+    "date": "2026-11-09",
+    "label": "11.09（月）",
+    "total": 369230545,
+    "diff": -4066175,
+    "diff_pct": -1.09,
+    "unreal": 36232874,
+    "unreal_pct": 11.03,
     "cash": 4543457,
-    "cash_pct": 1.22,
+    "cash_pct": 1.23,
     "trade": "売買なし",
     "alloc": [
       {
         "name": "国内株",
-        "pct": 46.3,
+        "pct": 48.14,
         "name_en": "JP stocks",
         "name_zh": "日本股票"
       },
       {
         "name": "投信",
-        "pct": 27.38,
+        "pct": 27.61,
         "name_en": "Funds",
         "name_zh": "基金"
       },
       {
         "name": "外国株",
-        "pct": 25.09,
+        "pct": 23.02,
         "name_en": "Foreign stocks",
         "name_zh": "海外股票"
       },
       {
         "name": "現金",
-        "pct": 1.22,
+        "pct": 1.23,
         "name_en": "Cash",
         "name_zh": "现金"
       }
@@ -116,24 +116,28 @@
       {
         "date": "2026-11-06",
         "total": 373296720
+      },
+      {
+        "date": "2026-11-09",
+        "total": 369230545
       }
     ],
-    "label_en": "Nov 6 (Fri)",
-    "label_zh": "11.06（周五）",
+    "label_en": "Nov 9 (Mon)",
+    "label_zh": "11.09（周一）",
     "trade_en": "No trades",
     "trade_zh": "无交易",
     "week": {
-      "from": "2026-10-30",
-      "to": "2026-11-06",
-      "diff": -17034297,
-      "diff_pct": -4.36
+      "from": "2026-11-02",
+      "to": "2026-11-09",
+      "diff": -14858463,
+      "diff_pct": -3.87
     }
   },
   "conditions": [
     {
       "title": "SpaceX を +500株",
       "rule": "終値が 100ドルを割ったら",
-      "now": "135.92 ドル",
+      "now": "123.62 ドル",
       "status": "未達",
       "title_en": "Add 500 SpaceX",
       "rule_en": "if the close falls below $100",
@@ -141,13 +145,13 @@
       "title_zh": "SpaceX 加仓500股",
       "rule_zh": "收盘价跌破100美元时",
       "status_zh": "未达",
-      "now_en": "$135.92",
-      "now_zh": "135.92 美元"
+      "now_en": "$123.62",
+      "now_zh": "123.62 美元"
     },
     {
       "title": "IonQ を +500株",
       "rule": "25ドルを割ったら",
-      "now": "29.54 ドル",
+      "now": "26.43 ドル",
       "status": "未達",
       "title_en": "Add 500 IonQ",
       "rule_en": "if it falls below $25",
@@ -155,8 +159,8 @@
       "title_zh": "IonQ 加仓500股",
       "rule_zh": "跌破25美元时",
       "status_zh": "未达",
-      "now_en": "$29.54",
-      "now_zh": "29.54 美元"
+      "now_en": "$26.43",
+      "now_zh": "26.43 美元"
     },
     {
       "title": "三井住友FG を買い増し",
@@ -175,7 +179,7 @@
     {
       "title": "SpaceX の積み立て",
       "rule": "外壁補修の見積もりが出るまで",
-      "now": "135.92 ドル",
+      "now": "123.62 ドル",
       "status": "10月・11月とも休止",
       "title_en": "Monthly SpaceX purchases",
       "rule_en": "until the exterior-wall repair estimate is in",
@@ -183,8 +187,8 @@
       "title_zh": "SpaceX 定投",
       "rule_zh": "等外墙维修报价出来",
       "status_zh": "10月、11月均暂停",
-      "now_en": "$135.92",
-      "now_zh": "135.92 美元"
+      "now_en": "$123.62",
+      "now_zh": "123.62 美元"
     }
   ],
   "holdings": [
@@ -286,64 +290,70 @@
     }
   ],
   "posts": {
-    "date": "2026-11-08",
-    "count": 18,
+    "date": "2026-11-09",
+    "count": 27,
     "items": [
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.08",
-        "kind": "シリーズ",
-        "kind_en": "Series",
-        "kind_zh": "系列",
-        "title": "NOTA、想定時価総額1,110億円で上場へ",
-        "title_en": "NOTA heads to an IPO at an expected ¥111 billion market value",
-        "title_zh": "NOTA以预计市值1,110亿日元走向上市"
+        "time": "11.09",
+        "kind": "判断枠",
+        "kind_en": "Judgment",
+        "kind_zh": "判断",
+        "title": "SpaceXは今の数字なら割高、将来の姿なら安いと見ている",
+        "title_en": "SpaceX looks expensive on today's numbers, and cheap on what it may become",
+        "title_zh": "SpaceX按现在的数字偏贵，按未来的样子我认为便宜"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.08",
+        "time": "11.09",
         "kind": "日記",
         "kind_en": "Diary",
         "kind_zh": "日记",
-        "title": "2週間ぶりのジムと、明るい新居",
-        "title_en": "Back at the gym after two weeks, and a bright new home",
-        "title_zh": "时隔两周重回健身房，和明亮的新家"
+        "title": "教会学校、公園、英語の体操教室、家族4人の日曜日",
+        "title_en": "Sunday school, the park, English gym class, a Sunday for the four of us",
+        "title_zh": "主日学校、公园、英语体操课，一家4口的周日"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.08",
+        "time": "11.09",
         "kind": "長文",
         "kind_en": "Essay",
         "kind_zh": "长文",
-        "title": "自社ビルの店と、ファンが根付く前に尽きる店",
-        "title_en": "A restaurant in its own building, and restaurants that run out before fans take root",
-        "title_zh": "自有大楼里的店，和粉丝扎根前就耗尽的店"
+        "title": "焼き鳥屋で急に苦しくなった夜、店を出て歩いた5分間",
+        "title_en": "The night I suddenly felt unwell at a yakitori place, and the five minutes I walked after leaving",
+        "title_zh": "在烤鸡串店突然难受的夜晚，走出店门后的5分钟"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.08",
-        "kind": "資本",
-        "kind_en": "Capital",
-        "kind_zh": "资本",
-        "title": "来週を前に｜総金融資産3億7,329万円",
-        "title_en": "Ahead of next week: total financial assets ¥373.29 million",
-        "title_zh": "下周之前：总金融资产3亿7,329万日元"
+        "time": "11.09",
+        "kind": "ニュース",
+        "kind_en": "News",
+        "kind_zh": "新闻",
+        "title": "メガバンク決算は13日、株価が下げても配当は変わらない",
+        "title_en": "Megabanks report on the 13th, and dividends do not move with the share price",
+        "title_zh": "三大银行13日发布财报，股价下跌股息也不变"
       }
     ]
   },
   "note": [
+    {
+      "date": "2026-11-09",
+      "title": "CEOの私生活は、会社のリスクになる。エヌビディアとハニートラップの記録",
+      "url": "https://note.com/capitallogs/n/nc2e4e1831fc8",
+      "image": "https://assets.st-note.com/production/uploads/images/333951617/rectangle_large_type_2_41d96fb70bf8d1866578a0ca5dae20db.png?fit=bounds&quality=85&width=640"
+    },
     {
       "date": "2026-11-08",
       "title": "Armが半分になっても、SBGのLTVは2割に届かない。それでも僕が1株も持たない3つの基準",
@@ -454,22 +464,22 @@
     }
   ],
   "diary": {
-    "date": "2026-11-08（日）",
-    "place": "新居・ジム・サウナ",
-    "title": "2週間ぶりのジムと、明るい新居",
-    "text": "妻の友人と3人で新しいマンションを見て、僕は2週間ぶりのジムへ。全身をマシンで回し、サウナと水風呂を3セット。夜はイタリアンで、睡眠薬は2日続けて飲まないと決めている。",
+    "date": "2026-11-09（月）",
+    "place": "教会学校・公園・体操教室",
+    "title": "教会学校、公園、英語の体操教室、家族4人の日曜日",
+    "text": "家族4人で教会学校へ行き、公園では年上の女の子たちに双子が混ぜてもらった。午後は英語の体操教室を外から見守り、夜は焼き鳥屋で食べすぎて苦しくなったが、歩いて楽になった。睡眠薬なしで7〜8時間眠れた。",
     "image": null,
     "url": "https://x.com/capitallogs",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin",
-    "date_en": "Sun, Nov 8, 2026",
-    "date_zh": "2026.11.08（周日）",
-    "place_en": "New home, gym and sauna",
-    "place_zh": "新家、健身房、桑拿",
-    "title_en": "Back at the gym after two weeks, and a bright new home",
-    "title_zh": "时隔两周重回健身房，和明亮的新家",
-    "text_en": "My wife, her friend and I looked around our new apartment, then I went to the gym for the first time in two weeks: a full-body round on the machines, then three rounds of sauna and cold plunge. Italian for dinner. I have decided never to take sleeping pills two nights in a row.",
-    "text_zh": "我和妻子、她的朋友三个人去看了新公寓，之后我时隔两周去了健身房，用器械练遍全身，再做三轮桑拿和冷水浴。晚上吃意大利菜。我给自己定了规矩：安眠药不连续两天吃。"
+    "date_en": "Mon, Nov 9, 2026",
+    "date_zh": "2026.11.09（周一）",
+    "place_en": "Church school, park and kids' gym class",
+    "place_zh": "教会学校、公园、体操课",
+    "title_en": "Sunday school, the park, English gym class, a Sunday for the four of us",
+    "title_zh": "主日学校、公园、英语体操课，一家4口的周日",
+    "text_en": "The four of us went to church school, and at the park some older girls let the twins join their game. In the afternoon we watched the kids' English gym class from outside. At dinner I ate too much at a yakitori place and felt awful, but walking it off helped. I slept seven to eight hours without sleeping pills.",
+    "text_zh": "一家四口去了教会学校，在公园里，几个年长的女孩带着双胞胎一起玩。下午在外面看着孩子们上英语体操课。晚上在烤鸡串店吃多了，很难受，但走了一会儿就好了。没吃安眠药也睡了七到八个小时。"
   },
   "media": {
     "updated": "2026-11-07 21:51",
@@ -727,6 +737,17 @@
     ]
   },
   "archive": [
+    {
+      "date": "2026-11-09",
+      "label": "11.09（月）",
+      "total": 369230545,
+      "diff_pct": -1.09,
+      "memo": "27本×3言語 ｜ 売買なし ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "27 posts x 3 languages ｜ No trades ｜ 1 note ｜ 1 article",
+      "memo_zh": "27条×3种语言 ｜ 无交易 ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Nov 9 Mon",
+      "label_zh": "11.09 周一"
+    },
     {
       "date": "2026-11-08",
       "label": "11.08（日）",
@@ -993,6 +1014,25 @@
     }
   ],
   "articles": [
+    {
+      "slug": "megabank-interim-2026",
+      "date": "2026-11-09",
+      "image": "images/articles/megabank-interim-2026/hero.jpg",
+      "category": "金融・銀行",
+      "category_en": "Finance & banks",
+      "category_zh": "金融·银行",
+      "tags": [
+        "finance",
+        "markets",
+        "company"
+      ],
+      "title": "3メガバンクの通期純利益の予想は、11月13日の中間決算でどこまで固まるのか",
+      "lead": "三菱UFJフィナンシャル・グループ、三井住友フィナンシャルグループ、みずほフィナンシャルグループの3社は、11月13日に2026年度の中間決算を発表する[4]。4〜6月期の純利益は3社で1兆7,336億円となり、前の年の同じ期より4割以上増えた[2][3]。 一方で、11月6日の日経平均の急落を受けて、日銀の12月の利上げの見通しは5割台前半まで下がったと報じられている[10]。株式市場では、東証の銀行業の指数が先週だけで7.02%下げた[11]。 本稿の問いは、3社が掲げる2026年度の純利益の予想が、過去の決算の進み方から見てどこまで届きそうか、そして中間決算で何を確かめれば答えが固まるのかである。",
+      "title_en": "How Far Will Japan's Three Megabanks' Full-Year Profit Forecasts Firm Up at the November 13 Interim Results?",
+      "lead_en": "Mitsubishi UFJ Financial Group (MUFG), Sumitomo Mitsui Financial Group (SMFG) and Mizuho Financial Group will report their interim results for fiscal 2026 on November 13[4]. Their combined April–June net profit was ¥1.7336 trillion (about $11.0 billion), up more than 40% year on year[2][3]. Meanwhile, after the Nikkei's plunge on November 6, market-implied odds of a Bank of Japan rate hike in December were reported to have fallen to the low 50% range[10]. The TSE banks index fell 7.02% last week alone[11]. The question of this article: judging by how past results have progressed, how likely are the three banks to reach their fiscal 2026 net profit forecasts, and what should we check at the interim results to settle the answer?",
+      "title_zh": "日本三大银行的全年净利润预测，在11月13日的中期业绩中能确定到什么程度",
+      "lead_zh": "三菱日联金融集团、三井住友金融集团和瑞穗金融集团将于11月13日公布2026财年的中期业绩[4]。三家银行4至6月的净利润合计为1.7336万亿日元（约110亿美元），比上年同期增长40%以上[2][3]。 另一方面，在11月6日日经平均指数暴跌之后，据报道市场对日本央行12月加息的预期已降至50%出头[10]。东京证券交易所的银行业指数仅上周就下跌了7.02%[11]。 本文的问题是：从过去业绩的推进方式来看，三家银行提出的2026财年净利润预测有多大可能达成？在中期业绩中确认什么，才能让答案确定下来？"
+    },
     {
       "slug": "nota-ipo-valuation",
       "date": "2026-11-08",
