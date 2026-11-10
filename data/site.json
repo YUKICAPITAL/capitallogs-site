@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T12:00:00+09:00",
+  "updated": "2026-11-10T12:00:00+09:00",
   "profile": {
     "name": "YUKI CAPITAL",
     "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -16,38 +16,38 @@
     "note": "https://note.com/capitallogs"
   },
   "capital": {
-    "date": "2026-11-09",
-    "label": "11.09（月）",
-    "total": 369230545,
-    "diff": -4066175,
-    "diff_pct": -1.09,
-    "unreal": 36232874,
-    "unreal_pct": 11.03,
+    "date": "2026-11-10",
+    "label": "11.10（火）",
+    "total": 382336732,
+    "diff": 13106187,
+    "diff_pct": 3.55,
+    "unreal": 49339061,
+    "unreal_pct": 15.02,
     "cash": 4543457,
-    "cash_pct": 1.23,
+    "cash_pct": 1.19,
     "trade": "売買なし",
     "alloc": [
       {
         "name": "国内株",
-        "pct": 48.14,
+        "pct": 47.96,
         "name_en": "JP stocks",
         "name_zh": "日本股票"
       },
       {
         "name": "投信",
-        "pct": 27.61,
+        "pct": 26.75,
         "name_en": "Funds",
         "name_zh": "基金"
       },
       {
         "name": "外国株",
-        "pct": 23.02,
+        "pct": 24.09,
         "name_en": "Foreign stocks",
         "name_zh": "海外股票"
       },
       {
         "name": "現金",
-        "pct": 1.23,
+        "pct": 1.19,
         "name_en": "Cash",
         "name_zh": "现金"
       }
@@ -120,24 +120,28 @@
       {
         "date": "2026-11-09",
         "total": 369230545
+      },
+      {
+        "date": "2026-11-10",
+        "total": 382336732
       }
     ],
-    "label_en": "Nov 9 (Mon)",
-    "label_zh": "11.09（周一）",
+    "label_en": "Nov 10 (Tue)",
+    "label_zh": "11.10（周二）",
     "trade_en": "No trades",
     "trade_zh": "无交易",
     "week": {
       "from": "2026-11-02",
-      "to": "2026-11-09",
-      "diff": -14858463,
-      "diff_pct": -3.87
+      "to": "2026-11-10",
+      "diff": -1752276,
+      "diff_pct": -0.46
     }
   },
   "conditions": [
     {
       "title": "SpaceX を +500株",
       "rule": "終値が 100ドルを割ったら",
-      "now": "123.62 ドル",
+      "now": "134.27 ドル",
       "status": "未達",
       "title_en": "Add 500 SpaceX",
       "rule_en": "if the close falls below $100",
@@ -145,13 +149,13 @@
       "title_zh": "SpaceX 加仓500股",
       "rule_zh": "收盘价跌破100美元时",
       "status_zh": "未达",
-      "now_en": "$123.62",
-      "now_zh": "123.62 美元"
+      "now_en": "$134.27",
+      "now_zh": "134.27 美元"
     },
     {
       "title": "IonQ を +500株",
       "rule": "25ドルを割ったら",
-      "now": "26.43 ドル",
+      "now": "32.62 ドル",
       "status": "未達",
       "title_en": "Add 500 IonQ",
       "rule_en": "if it falls below $25",
@@ -159,27 +163,27 @@
       "title_zh": "IonQ 加仓500股",
       "rule_zh": "跌破25美元时",
       "status_zh": "未达",
-      "now_en": "$26.43",
-      "now_zh": "26.43 美元"
+      "now_en": "$32.62",
+      "now_zh": "32.62 美元"
     },
     {
       "title": "三井住友FG を買い増し",
       "rule": "3,000円が目安",
-      "now": "3,028 円",
-      "status": "到達・見送り",
+      "now": "3,225 円",
+      "status": "未達",
       "title_en": "Add SMFG (8316)",
       "rule_en": "around ¥3,000 as the guide",
-      "status_en": "Reached, held off",
+      "status_en": "Not yet",
       "title_zh": "加仓三井住友FG",
       "rule_zh": "以3,000日元为目标",
-      "status_zh": "已到达，暂不加仓",
-      "now_en": "¥3,028",
-      "now_zh": "3,028 日元"
+      "status_zh": "未达",
+      "now_en": "¥3,225",
+      "now_zh": "3,225 日元"
     },
     {
       "title": "SpaceX の積み立て",
       "rule": "外壁補修の見積もりが出るまで",
-      "now": "123.62 ドル",
+      "now": "134.27 ドル",
       "status": "10月・11月とも休止",
       "title_en": "Monthly SpaceX purchases",
       "rule_en": "until the exterior-wall repair estimate is in",
@@ -187,8 +191,8 @@
       "title_zh": "SpaceX 定投",
       "rule_zh": "等外墙维修报价出来",
       "status_zh": "10月、11月均暂停",
-      "now_en": "$123.62",
-      "now_zh": "123.62 美元"
+      "now_en": "$134.27",
+      "now_zh": "134.27 美元"
     }
   ],
   "holdings": [
@@ -290,7 +294,7 @@
     }
   ],
   "posts": {
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "count": 27,
     "items": [
       {
@@ -298,56 +302,62 @@
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.09",
+        "time": "11.10",
         "kind": "判断枠",
         "kind_en": "Judgment",
         "kind_zh": "判断",
-        "title": "SpaceXは今の数字なら割高、将来の姿なら安いと見ている",
-        "title_en": "SpaceX looks expensive on today's numbers, and cheap on what it may become",
-        "title_zh": "SpaceX按现在的数字偏贵，按未来的样子我认为便宜"
+        "title": "12月の利上げ観測が5割台でも、銀行4行の決算を楽しみに待つ",
+        "title_en": "Even with December hike odds in the 50% range, I look forward to my four banks' results",
+        "title_zh": "即使12月加息预期降到五成多，我也期待着四家银行的业绩"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.09",
+        "time": "11.10",
         "kind": "日記",
         "kind_en": "Diary",
         "kind_zh": "日记",
-        "title": "教会学校、公園、英語の体操教室、家族4人の日曜日",
-        "title_en": "Sunday school, the park, English gym class, a Sunday for the four of us",
-        "title_zh": "主日学校、公园、英语体操课，一家4口的周日"
+        "title": "朝食を抜いた月曜、実家の犬と両家の焼肉、水風船のお風呂30分",
+        "title_en": "A Monday without breakfast, my parents' dog, a family barbecue, and a 30-minute water-balloon bath",
+        "title_zh": "没吃早饭的周一、老家的狗、两家人的烤肉，和30分钟的水球洗澡"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.09",
+        "time": "11.10",
         "kind": "長文",
         "kind_en": "Essay",
         "kind_zh": "长文",
-        "title": "焼き鳥屋で急に苦しくなった夜、店を出て歩いた5分間",
-        "title_en": "The night I suddenly felt unwell at a yakitori place, and the five minutes I walked after leaving",
-        "title_zh": "在烤鸡串店突然难受的夜晚，走出店门后的5分钟"
+        "title": "消費税に誇りを持つ両親と、1円でも下げてほしい僕ら。減税をめぐる世代の差",
+        "title_en": "Parents proud of paying consumption tax, and a generation that wants every yen cut",
+        "title_zh": "为消费税感到自豪的父母，和希望哪怕少一日元的我们：围绕减税的代际差异"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.09",
+        "time": "11.10",
         "kind": "ニュース",
         "kind_en": "News",
         "kind_zh": "新闻",
-        "title": "メガバンク決算は13日、株価が下げても配当は変わらない",
-        "title_en": "Megabanks report on the 13th, and dividends do not move with the share price",
-        "title_zh": "三大银行13日发布财报，股价下跌股息也不变"
+        "title": "日経平均1,340円高の5万8,775円、大きく下げた後の自律反発",
+        "title_en": "The Nikkei jumps 1,340 points to 58,775, a technical rebound after a big fall",
+        "title_zh": "日经平均上涨1340点至58775点，大跌后的自律反弹"
       }
     ]
   },
   "note": [
+    {
+      "date": "2026-11-10",
+      "title": "食料品の消費税が8%から1%へ。それでも僕が「見せかけの減税」と呼ぶ理由",
+      "url": "https://note.com/capitallogs/n/n8ebd972f886c",
+      "image": "https://assets.st-note.com/production/uploads/images/334351043/rectangle_large_type_2_e21b60076a04a38c650413b2ff9a49ef.png?fit=bounds&quality=85&width=640"
+    },
     {
       "date": "2026-11-09",
       "title": "CEOの私生活は、会社のリスクになる。エヌビディアとハニートラップの記録",
@@ -464,22 +474,22 @@
     }
   ],
   "diary": {
-    "date": "2026-11-09（月）",
-    "place": "教会学校・公園・体操教室",
-    "title": "教会学校、公園、英語の体操教室、家族4人の日曜日",
-    "text": "家族4人で教会学校へ行き、公園では年上の女の子たちに双子が混ぜてもらった。午後は英語の体操教室を外から見守り、夜は焼き鳥屋で食べすぎて苦しくなったが、歩いて楽になった。睡眠薬なしで7〜8時間眠れた。",
+    "date": "2026-11-10（火）",
+    "place": "会社・実家・焼肉店",
+    "title": "朝食を抜いた月曜、実家の犬と両家の焼肉、水風船のお風呂30分",
+    "text": "前の晩の胃腸を考えて朝食を抜き、昼はジムでスクワットの途中にふらつきながらもやり切った。夕方は実家で犬と遊び、夜は幼稚園受験のお疲れ様会で両家8人の焼肉。家では子どもたちと水風船で30分のお風呂。薬を飲まずに6時間眠れた。",
     "image": null,
     "url": "https://x.com/capitallogs",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin",
-    "date_en": "Mon, Nov 9, 2026",
-    "date_zh": "2026.11.09（周一）",
-    "place_en": "Church school, park and kids' gym class",
-    "place_zh": "教会学校、公园、体操课",
-    "title_en": "Sunday school, the park, English gym class, a Sunday for the four of us",
-    "title_zh": "主日学校、公园、英语体操课，一家4口的周日",
-    "text_en": "The four of us went to church school, and at the park some older girls let the twins join their game. In the afternoon we watched the kids' English gym class from outside. At dinner I ate too much at a yakitori place and felt awful, but walking it off helped. I slept seven to eight hours without sleeping pills.",
-    "text_zh": "一家四口去了教会学校，在公园里，几个年长的女孩带着双胞胎一起玩。下午在外面看着孩子们上英语体操课。晚上在烤鸡串店吃多了，很难受，但走了一会儿就好了。没吃安眠药也睡了七到八个小时。"
+    "date_en": "Tue, Nov 10, 2026",
+    "date_zh": "2026.11.10（周二）",
+    "place_en": "Office, my parents' home and a barbecue restaurant",
+    "place_zh": "公司、老家和烤肉店",
+    "title_en": "A Monday without breakfast, my parents' dog, a family barbecue, and a 30-minute water-balloon bath",
+    "title_zh": "没吃早饭的周一、老家的狗、两家人的烤肉，和30分钟的水球洗澡",
+    "text_en": "I skipped breakfast to rest my stomach, and at the gym I felt dizzy during squats but finished the session. In the evening I played with the dog at my parents' home, then eight of us from both families had a barbecue to celebrate the end of the kindergarten exams. At home the kids and I spent 30 minutes in the bath with water balloons. I slept six hours without medication.",
+    "text_zh": "考虑到前一晚的肠胃，我没吃早饭；中午在健身房深蹲时有些头晕，但还是坚持做完。傍晚在老家陪狗玩，晚上为幼儿园考试结束，两家人共8人一起吃烤肉。回家后和孩子们用水球洗了30分钟澡。没吃药也睡了6个小时。"
   },
   "media": {
     "updated": "2026-11-09 12:01",
@@ -737,6 +747,17 @@
     ]
   },
   "archive": [
+    {
+      "date": "2026-11-10",
+      "label": "11.10（火）",
+      "total": 382336732,
+      "diff_pct": 3.55,
+      "memo": "27本×3言語 ｜ 売買なし ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "27 posts x 3 languages ｜ No trades ｜ 1 note ｜ 1 article",
+      "memo_zh": "27条×3种语言 ｜ 无交易 ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Nov 10 Tue",
+      "label_zh": "11.10 周二"
+    },
     {
       "date": "2026-11-09",
       "label": "11.09（月）",
@@ -1014,6 +1035,25 @@
     }
   ],
   "articles": [
+    {
+      "slug": "anthropic-ipo-size-history",
+      "date": "2026-11-10",
+      "image": "images/articles/anthropic-ipo-size-history/hero.jpg",
+      "category": "相場・株",
+      "category_en": "Markets",
+      "category_zh": "股市",
+      "tags": [
+        "markets",
+        "ai",
+        "company"
+      ],
+      "title": "Anthropicの調達750億〜1,000億ドルは史上最大級か――過去の大型IPOの規模と、上場の日に起きてきたこと",
+      "lead": "Anthropicは10月26日、米証券取引委員会（SEC）に上場の届出書（Form S-1）を公開で提出した[1]。報道では、ロードショーが米国時間の11月10日にも始まり、調達額は750億〜1,000億ドルになる見込みとされる[9]。 6月には、SpaceXが750億ドルを集めて史上最大のIPOになったばかりである[6]。わずか5か月で、同じ規模の上場がもう一度来ることになる。 本稿の問いは、Anthropicの調達額が過去の大型IPOと比べてどれほどの大きさなのか、そして大型IPOの上場の日と、その後に起きてきたことから何が言えるのかである。",
+      "title_en": "Is Anthropic's $75–100 Billion Raise the Largest Ever? What Past Mega-IPOs Tell Us About Size and Listing Day",
+      "lead_en": "On October 26, Anthropic publicly filed its registration statement (Form S-1) with the U.S. Securities and Exchange Commission[1]. Reports say the roadshow could start as early as November 10 (U.S. time), with an expected raise of $75–100 billion[9]. In June, SpaceX raised $75 billion in what became the largest IPO in history[6]. Just five months later, an offering of the same scale is coming again. The question of this article: how large is Anthropic's raise compared with past mega-IPOs, and what can we learn from what happened on listing day and afterward?",
+      "title_zh": "Anthropic募资750亿至1000亿美元是史上最大吗——从过去的超大型IPO看规模与上市首日",
+      "lead_zh": "Anthropic于10月26日向美国证券交易委员会（SEC）公开提交了上市注册文件（Form S-1）[1]。据报道，路演最早可能在美国时间11月10日启动，预计募资750亿至1000亿美元[9]。 今年6月，SpaceX刚以750亿美元成为史上最大的IPO[6]。仅仅5个月后，同等规模的上市又要来了。 本文的问题是：Anthropic的募资额与过去的超大型IPO相比有多大，从上市首日及其后发生的事情中又能得出什么结论。"
+    },
     {
       "slug": "megabank-interim-2026",
       "date": "2026-11-09",
