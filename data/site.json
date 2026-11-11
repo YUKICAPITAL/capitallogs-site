@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T12:00:00+09:00",
+  "updated": "2026-11-11T12:00:00+09:00",
   "profile": {
     "name": "YUKI CAPITAL",
     "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -16,38 +16,38 @@
     "note": "https://note.com/capitallogs"
   },
   "capital": {
-    "date": "2026-11-10",
-    "label": "11.10（火）",
-    "total": 382336732,
-    "diff": 13106187,
-    "diff_pct": 3.55,
-    "unreal": 49339061,
-    "unreal_pct": 15.02,
+    "date": "2026-11-11",
+    "label": "11.11（水）",
+    "total": 389347251,
+    "diff": 7010519,
+    "diff_pct": 1.83,
+    "unreal": 56349580,
+    "unreal_pct": 17.16,
     "cash": 4543457,
-    "cash_pct": 1.19,
+    "cash_pct": 1.17,
     "trade": "売買なし",
     "alloc": [
       {
         "name": "国内株",
-        "pct": 47.96,
+        "pct": 47.68,
         "name_en": "JP stocks",
         "name_zh": "日本股票"
       },
       {
         "name": "投信",
-        "pct": 26.75,
+        "pct": 26.24,
         "name_en": "Funds",
         "name_zh": "基金"
       },
       {
         "name": "外国株",
-        "pct": 24.09,
+        "pct": 24.91,
         "name_en": "Foreign stocks",
         "name_zh": "海外股票"
       },
       {
         "name": "現金",
-        "pct": 1.19,
+        "pct": 1.17,
         "name_en": "Cash",
         "name_zh": "现金"
       }
@@ -124,24 +124,28 @@
       {
         "date": "2026-11-10",
         "total": 382336732
+      },
+      {
+        "date": "2026-11-11",
+        "total": 389347251
       }
     ],
-    "label_en": "Nov 10 (Tue)",
-    "label_zh": "11.10（周二）",
+    "label_en": "Nov 11 (Wed)",
+    "label_zh": "11.11（周三）",
     "trade_en": "No trades",
     "trade_zh": "无交易",
     "week": {
-      "from": "2026-11-02",
-      "to": "2026-11-10",
-      "diff": -1752276,
-      "diff_pct": -0.46
+      "from": "2026-11-04",
+      "to": "2026-11-11",
+      "diff": 13930505,
+      "diff_pct": 3.71
     }
   },
   "conditions": [
     {
       "title": "SpaceX を +500株",
       "rule": "終値が 100ドルを割ったら",
-      "now": "134.27 ドル",
+      "now": "142.07 ドル",
       "status": "未達",
       "title_en": "Add 500 SpaceX",
       "rule_en": "if the close falls below $100",
@@ -149,13 +153,13 @@
       "title_zh": "SpaceX 加仓500股",
       "rule_zh": "收盘价跌破100美元时",
       "status_zh": "未达",
-      "now_en": "$134.27",
-      "now_zh": "134.27 美元"
+      "now_en": "$142.07",
+      "now_zh": "142.07 美元"
     },
     {
       "title": "IonQ を +500株",
       "rule": "25ドルを割ったら",
-      "now": "32.62 ドル",
+      "now": "35.34 ドル",
       "status": "未達",
       "title_en": "Add 500 IonQ",
       "rule_en": "if it falls below $25",
@@ -163,13 +167,13 @@
       "title_zh": "IonQ 加仓500股",
       "rule_zh": "跌破25美元时",
       "status_zh": "未达",
-      "now_en": "$32.62",
-      "now_zh": "32.62 美元"
+      "now_en": "$35.34",
+      "now_zh": "35.34 美元"
     },
     {
       "title": "三井住友FG を買い増し",
       "rule": "3,000円が目安",
-      "now": "3,225 円",
+      "now": "3,286 円",
       "status": "未達",
       "title_en": "Add SMFG (8316)",
       "rule_en": "around ¥3,000 as the guide",
@@ -177,13 +181,13 @@
       "title_zh": "加仓三井住友FG",
       "rule_zh": "以3,000日元为目标",
       "status_zh": "未达",
-      "now_en": "¥3,225",
-      "now_zh": "3,225 日元"
+      "now_en": "¥3,286",
+      "now_zh": "3,286 日元"
     },
     {
       "title": "SpaceX の積み立て",
       "rule": "外壁補修の見積もりが出るまで",
-      "now": "134.27 ドル",
+      "now": "142.07 ドル",
       "status": "10月・11月とも休止",
       "title_en": "Monthly SpaceX purchases",
       "rule_en": "until the exterior-wall repair estimate is in",
@@ -191,8 +195,8 @@
       "title_zh": "SpaceX 定投",
       "rule_zh": "等外墙维修报价出来",
       "status_zh": "10月、11月均暂停",
-      "now_en": "$134.27",
-      "now_zh": "134.27 美元"
+      "now_en": "$142.07",
+      "now_zh": "142.07 美元"
     }
   ],
   "holdings": [
@@ -294,7 +298,7 @@
     }
   ],
   "posts": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "count": 27,
     "items": [
       {
@@ -302,56 +306,62 @@
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.10",
+        "time": "11.11",
         "kind": "判断枠",
         "kind_en": "Judgment",
         "kind_zh": "判断",
-        "title": "12月の利上げ観測が5割台でも、銀行4行の決算を楽しみに待つ",
-        "title_en": "Even with December hike odds in the 50% range, I look forward to my four banks' results",
-        "title_zh": "即使12月加息预期降到五成多，我也期待着四家银行的业绩"
+        "title": "量子3社は赤字でも、手元資金5年で必要性に賭ける",
+        "title_en": "Quantum stocks are losing money, but five years of cash is enough",
+        "title_zh": "量子三家仍在亏损，手头资金够撑5年，我押注需求"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.10",
+        "time": "11.11",
         "kind": "日記",
         "kind_en": "Diary",
         "kind_zh": "日记",
-        "title": "朝食を抜いた月曜、実家の犬と両家の焼肉、水風船のお風呂30分",
-        "title_en": "A Monday without breakfast, my parents' dog, a family barbecue, and a 30-minute water-balloon bath",
-        "title_zh": "没吃早饭的周一、老家的狗、两家人的烤肉，和30分钟的水球洗澡"
+        "title": "朝食を抜き、父と担々麺、妻のローストビーフ",
+        "title_en": "Skipped breakfast, dandan noodles with my father, my wife's roast beef",
+        "title_zh": "不吃早饭，和父亲吃担担面，妻子做的烤牛肉"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.10",
+        "time": "11.11",
         "kind": "長文",
         "kind_en": "Essay",
         "kind_zh": "长文",
-        "title": "消費税に誇りを持つ両親と、1円でも下げてほしい僕ら。減税をめぐる世代の差",
-        "title_en": "Parents proud of paying consumption tax, and a generation that wants every yen cut",
-        "title_zh": "为消费税感到自豪的父母，和希望哪怕少一日元的我们：围绕减税的代际差异"
+        "title": "調達資料に、動いているチャットボットの画面を入れた日",
+        "title_en": "I added a working chatbot to my fundraising deck",
+        "title_zh": "我在融资资料里加入了正在运行的聊天机器人画面"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.10",
+        "time": "11.11",
         "kind": "ニュース",
         "kind_en": "News",
         "kind_zh": "新闻",
-        "title": "日経平均1,340円高の5万8,775円、大きく下げた後の自律反発",
-        "title_en": "The Nikkei jumps 1,340 points to 58,775, a technical rebound after a big fall",
-        "title_zh": "日经平均上涨1340点至58775点，大跌后的自律反弹"
+        "title": "日経平均6万円回復、口座を見て何もしなかった",
+        "title_en": "Nikkei back above 60,000, and I did nothing",
+        "title_zh": "日经指数重回6万点，我看着账户什么都没做"
       }
     ]
   },
   "note": [
+    {
+      "date": "2026-11-11",
+      "title": "配当で持つ株ほど、国の都合に弱い。JTのロシア事業が一時管理になった週に考えた線",
+      "url": "https://note.com/capitallogs/n/n269250089421",
+      "image": null
+    },
     {
       "date": "2026-11-10",
       "title": "食料品の消費税が8%から1%へ。それでも僕が「見せかけの減税」と呼ぶ理由",
@@ -475,21 +485,21 @@
   ],
   "diary": {
     "date": "2026-11-10（火）",
-    "place": "会社・実家・焼肉店",
-    "title": "朝食を抜いた月曜、実家の犬と両家の焼肉、水風船のお風呂30分",
-    "text": "前の晩の胃腸を考えて朝食を抜き、昼はジムでスクワットの途中にふらつきながらもやり切った。夕方は実家で犬と遊び、夜は幼稚園受験のお疲れ様会で両家8人の焼肉。家では子どもたちと水風船で30分のお風呂。薬を飲まずに6時間眠れた。",
+    "place": "会社・ジム・家",
+    "title": "朝食を抜き、父と担々麺、妻のローストビーフ",
+    "text": "前日の焼肉で朝食を抜き、午前は資金調達の資料。事業責任者と共同創業者とそれぞれ1時間打ち合わせ、昼は父と担々麺、オイルマッサージ30分。夕方は1,000mを泳ぎ、夜は妻のローストビーフ。約9時間眠れた。",
     "image": null,
     "url": "https://x.com/capitallogs",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin",
     "date_en": "Tue, Nov 10, 2026",
     "date_zh": "2026.11.10（周二）",
-    "place_en": "Office, my parents' home and a barbecue restaurant",
-    "place_zh": "公司、老家和烤肉店",
-    "title_en": "A Monday without breakfast, my parents' dog, a family barbecue, and a 30-minute water-balloon bath",
-    "title_zh": "没吃早饭的周一、老家的狗、两家人的烤肉，和30分钟的水球洗澡",
-    "text_en": "I skipped breakfast to rest my stomach, and at the gym I felt dizzy during squats but finished the session. In the evening I played with the dog at my parents' home, then eight of us from both families had a barbecue to celebrate the end of the kindergarten exams. At home the kids and I spent 30 minutes in the bath with water balloons. I slept six hours without medication.",
-    "text_zh": "考虑到前一晚的肠胃，我没吃早饭；中午在健身房深蹲时有些头晕，但还是坚持做完。傍晚在老家陪狗玩，晚上为幼儿园考试结束，两家人共8人一起吃烤肉。回家后和孩子们用水球洗了30分钟澡。没吃药也睡了6个小时。"
+    "place_en": "Office, gym and home",
+    "place_zh": "公司、健身房和家",
+    "title_en": "Skipped breakfast, dandan noodles with my father, my wife's roast beef",
+    "title_zh": "不吃早饭，和父亲吃担担面，妻子做的烤牛肉",
+    "text_en": "After a big yakiniku dinner the night before, I skipped breakfast and worked on our fundraising deck. I had one-hour meetings with the business lead and my co-founder, ate dandan noodles with my father at lunch, and had a 30-minute oil massage. In the evening I swam 1,000m, and at night my wife made roast beef. I slept about nine hours.",
+    "text_zh": "前一天烤肉吃得多，没吃早饭，上午做融资资料。和业务负责人、联合创始人各开了1小时会，中午和父亲吃担担面，做了30分钟精油按摩。傍晚游了1,000米，晚上吃了妻子做的烤牛肉。睡了大约9小时。"
   },
   "media": {
     "updated": "2026-11-09 12:01",
@@ -747,6 +757,17 @@
     ]
   },
   "archive": [
+    {
+      "date": "2026-11-11",
+      "label": "11.11（水）",
+      "total": 389347251,
+      "diff_pct": 1.83,
+      "memo": "27本×3言語 ｜ 売買なし ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "27 posts x 3 languages ｜ No trades ｜ 1 note ｜ 1 article",
+      "memo_zh": "27条×3种语言 ｜ 无交易 ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Nov 11 Wed",
+      "label_zh": "11.11 周三"
+    },
     {
       "date": "2026-11-10",
       "label": "11.10（火）",
@@ -1035,6 +1056,25 @@
     }
   ],
   "articles": [
+    {
+      "slug": "quantum-cash-runway",
+      "date": "2026-11-11",
+      "image": "images/articles/quantum-cash-runway/hero.jpg",
+      "category": "量子",
+      "category_en": "Quantum",
+      "category_zh": "量子",
+      "tags": [
+        "quantum",
+        "company",
+        "finance"
+      ],
+      "title": "量子コンピュータ3社の手元資金は、今の赤字のペースで何年もつのか――IonQ・D-Wave・Rigettiの7〜9月期で試算する",
+      "lead": "量子コンピュータの上場3社が、11月上旬に7〜9月期の決算を出した。IonQの売上高は前の年の4倍を超えたが、D-WaveとRigettiの売上高は四半期で数百万ドルにとどまる[1][2][5]。 3社とも、本業ではまだ現金を生んでいない。赤字の会社を見るときに先に確かめたいのは、黒字になる時期よりも、手元の現金で何年走れるかである。 本稿の問いは、3社の手元資金が、今の赤字のペースが続いたとして何年もつのかである。",
+      "title_en": "How Many Years Can Three Quantum Computing Companies Run on Their Cash at Today's Loss Rate? Estimates from IonQ, D-Wave and Rigetti's Q3 2026",
+      "lead_en": "Three listed quantum computing companies reported July–September results in early November. IonQ's revenue more than quadrupled from a year earlier, while D-Wave and Rigetti still book only a few million dollars a quarter [1][2][5]. None of the three yet generates cash from operations. When looking at a loss-making company, the first thing worth checking is not when it turns profitable, but how many years it can run on the cash it holds. This article asks: if today's pace of losses continues, how many years will each company's cash last?",
+      "title_zh": "三家量子计算公司的手头资金，按现在的亏损速度能撑几年？——用IonQ、D-Wave、Rigetti的7～9月财报测算",
+      "lead_zh": "三家上市量子计算公司在11月上旬公布了7～9月财报。IonQ的收入超过去年同期的4倍，而D-Wave和Rigetti的季度收入仍只有几百万美元[1][2][5]。 三家公司的主营业务都还没有产生现金。看亏损公司时，最先要确认的不是何时盈利，而是手头的现金能撑几年。 本文的问题是：如果现在的亏损速度持续，三家公司的手头资金能撑几年？"
+    },
     {
       "slug": "anthropic-ipo-size-history",
       "date": "2026-11-10",
