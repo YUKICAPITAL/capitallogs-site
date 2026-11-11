@@ -5,6 +5,11 @@ import re, os, pathlib
 ROOT = pathlib.Path(__file__).parent
 src = (ROOT / 'index.html').read_text(encoding='utf-8')
 assert not any(m in src for m in ('<<<<<<<','>>>>>>>')), 'index.html に衝突の印が残っている'
+import json, datetime as _dt
+_m = json.loads((ROOT / 'data' / 'site.json').read_text(encoding='utf-8'))['media']
+_now = _dt.datetime.now(_dt.timezone(_dt.timedelta(hours=9)))
+_upd = _dt.datetime.strptime(_m['updated'], '%Y-%m-%d %H:%M').replace(tzinfo=_now.tzinfo)
+assert (_now - _upd) <= _dt.timedelta(hours=12), f"media の数字が古い（最終更新 {_m['updated']}）。tools/x_collect.js と update_media.py で取り直してから build する（対策249）"
 import time
 ver = time.strftime('%Y%m%d%H%M')
 src = re.sub(r'\?v=(VER|\d+)', '?v=' + ver, src)
