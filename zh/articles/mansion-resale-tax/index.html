@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>如果对公寓短期转售征收更重的税，房价和"收购翻新再售"企业会怎样？——用日本国土交通省的登记数据和税率测算</title>
+<meta name="description" content="买下东京市中心的新建公寓、不到一年就卖出的交易，以东京为中心在增加。据日本国土交通省调查，2023年东京都心6区在产权初次登记后1年内被转售的住户达12.2%[1]。 日本政府在2027年度税制改革中提出了抑制这类投机交易的措施，执政党的税…">
+<meta property="og:title" content="如果对公寓短期转售征收更重的税，房价和&quot;收购翻新再售&quot;企业会怎样？——用日本国土交通省的登记数据和税率测算">
+<meta property="og:description" content="买下东京市中心的新建公寓、不到一年就卖出的交易，以东京为中心在增加。据日本国土交通省调查，2023年东京都心6区在产权初次登记后1年内被转售的住户达12.2%[1]。 日本政府在2027年度税制改革中提出了抑制这类投机交易的措施，执政党的税制改革大纲也写明将对新建公寓的短期买卖采取税制措施[2][3">
+<meta property="og:image" content="https://raw.githubusercontent.com/YUKICAPITAL/capitallogs-site/main/images/articles/mansion-resale-tax/hero.jpg">
+<meta property="og:url" content="https://yuki-capital.com/zh/articles/mansion-resale-tax/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@capitallogs">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/YUKICAPITAL/capitallogs-site/main/images/articles/mansion-resale-tax/hero.jpg">
+<meta property="og:type" content="article">
+<link rel="icon" href="../../../favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="../../../images/apple-touch-icon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../../../assets/style.css">
+<style>
+.art{max-width:760px;margin:0 auto;padding:24px 0 48px}
+.art .meta{display:flex;gap:10px;align-items:center;font-size:12px;color:var(--muted)}
+.art h1{font-size:26px;line-height:1.45;margin:12px 0 16px}
+.art .lead{font-size:15px;line-height:1.9;color:var(--ink2);border-left:3px solid var(--accent);padding-left:14px;margin:0 0 20px}
+.art .lead p{margin:0}
+.art .card{padding:24px}
+.art h2{font-size:19px;margin:32px 0 12px;padding-top:4px}
+.art h2:first-child{margin-top:0}
+.art p{font-size:15.5px;line-height:2;margin:0 0 14px}
+.art figure{margin:20px 0;}
+.art figure img{width:100%;border-radius:12px;background:#fff}
+.art figcaption{font-size:12px;color:var(--muted);margin-top:6px;line-height:1.6}
+.art .hero img{border-radius:18px;aspect-ratio:16/9;object-fit:cover;width:100%}
+.art .tbl{overflow-x:auto;margin:12px 0 16px}
+.art table{border-collapse:collapse;font-size:13px;min-width:640px;width:100%}
+.art th,.art td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+.art th{background:var(--accent-soft);font-weight:700}
+.art ol.src{font-size:12.5px;line-height:1.8;padding-left:18px;word-break:break-all}
+.art ol.src a{color:var(--accent)}
+.art .cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.langsw{display:flex;gap:8px;font-size:12px}.langsw a{padding:4px 10px;border-radius:999px;background:var(--card)}.langsw a.on{background:var(--dark);color:#fff}
+@media(max-width:600px){.art h1{font-size:21px}.art .card{padding:18px}}
+</style>
+
+<!--seo-->
+<link rel="canonical" href="https://yuki-capital.com/zh/articles/mansion-resale-tax/">
+<link rel="alternate" hreflang="ja" href="https://yuki-capital.com/articles/mansion-resale-tax/">
+<link rel="alternate" hreflang="en" href="https://yuki-capital.com/en/articles/mansion-resale-tax/">
+<link rel="alternate" hreflang="zh-Hans" href="https://yuki-capital.com/zh/articles/mansion-resale-tax/">
+<link rel="alternate" hreflang="x-default" href="https://yuki-capital.com/articles/mansion-resale-tax/">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:site_name" content="YUKI CAPITAL">
+<meta property="article:published_time" content="2026-11-12">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "如果对公寓短期转售征收更重的税，房价和\"收购翻新再售\"企业会怎样？——用日本国土交通省的登记数据和税率测算", "description": "买下东京市中心的新建公寓、不到一年就卖出的交易，以东京为中心在增加。据日本国土交通省调查，2023年东京都心6区在产权初次登记后1年内被转售的住户达12.2%[1]。 日本政府在2027年度税制改革中提出了抑制这类投机交易的措施，执政党的税制改革大纲也写明将对新建公寓的短期买卖采取税制措施[2][3]。 本文的问题是：如果对短期转售征收更重的税，对转售的利润、房价以及收购翻新再售的企业会产生多大影", "datePublished": "2026-11-12", "dateModified": "2026-11-12", "inLanguage": "zh-Hans", "image": ["https://raw.githubusercontent.com/YUKICAPITAL/capitallogs-site/main/images/articles/mansion-resale-tax/hero.jpg"], "author": {"@type": "Person", "name": "YUKI CAPITAL", "url": "https://yuki-capital.com/"}, "publisher": {"@type": "Organization", "name": "YUKI CAPITAL", "logo": {"@type": "ImageObject", "url": "https://yuki-capital.com/images/icon.png"}}, "mainEntityOfPage": "https://yuki-capital.com/zh/articles/mansion-resale-tax/", "keywords": ["房地产", "经济", "金融·银行"]}</script>
+<!--/seo-->
+</head>
+<body>
+<header class="site-header"><div class="wrap">
+<a href="../../../zh/" class="brand"><img class="avatar" src="../../../images/icon.png" alt=""><span>YUKI CAPITAL</span></a>
+<nav class="nav"><a href="../../../zh/articles/" class="primary">文章</a><a href="../../../zh/#capital">今日资本</a><a href="../../../archive/">每日记录</a><a href="../../../zh/#diary">日记</a><a href="../../../zh/about/">简介</a></nav>
+<div class="hdr-actions"><a class="x" href="https://x.com/capitallogs" aria-label="X"><svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 3h3l-7.3 8.3L21.8 21h-6.6l-4.6-6-5.3 6H2.3l7.8-8.9L2 3h6.7l4.2 5.5L17.5 3zm-1.1 16.2h1.8L7.7 4.7H5.8l10.6 14.5z"/></svg></a><a class="note" href="https://note.com/capitallogs">note</a></div>
+</div></header>
+<main class="wrap"><article class="art">
+<div class="meta"><span class="chip">房地产</span><span class="chip">经济</span><span class="chip">金融·银行</span><span class="num">2026年11月12日</span><span class="langsw" style="margin-left:auto"><a href="../../../articles/mansion-resale-tax/" data-setlang="ja">日本語</a><a href="../../../en/articles/mansion-resale-tax/" data-setlang="en">EN</a><a href="../../../zh/articles/mansion-resale-tax/" data-setlang="zh" class="on">中文</a></span></div>
+<h1>如果对公寓短期转售征收更重的税，房价和"收购翻新再售"企业会怎样？——用日本国土交通省的登记数据和税率测算</h1>
+<div class="lead"><p>买下东京市中心的新建公寓、不到一年就卖出的交易，以东京为中心在增加。据日本国土交通省调查，2023年东京都心6区在产权初次登记后1年内被转售的住户达12.2%[1]。</p><p>日本政府在2027年度税制改革中提出了抑制这类投机交易的措施，执政党的税制改革大纲也写明将对新建公寓的短期买卖采取税制措施[2][3]。</p><p>本文的问题是：如果对短期转售征收更重的税，对转售的利润、房价以及收购翻新再售的企业会产生多大影响？</p></div>
+<div class="tldr"><b>结论</b><ol><li>即使按现行制度，个人在5年内卖出所得的转让收益也要缴纳39.63%。以1亿日元买入的房子即使涨价10%卖出，扣除7%的费用后，税后净利也只有约181万日元[4]。</li><li>如果税率提高10～20个百分点，净利会降到151万～121万日元。如果涨幅低于费用的7%，无论税率多少都会亏损。</li><li>收购翻新再售企业的利润作为经营所得纳税，因此提高个人转让所得的税率不会直接影响它们。对它们有影响的是将于2027年3月底到期的不动产取得税和登记许可税的减免措施如何处理[5][6]。</li></ol></div>
+<figure class="hero"><img width="1600" height="900" src="../../../images/articles/mansion-resale-tax/hero.jpg" alt="阳台成排的高层公寓"></figure>
+<div class="card">
+<h2>问题与背景</h2>
+<p>本文所说的"短期买卖"，是指新建公寓在产权初次登记（新建筑的所有人首次登记）后1年内转移给他人。日本国土交通省利用从法务省获得的登记信息和民间价格数据，调查了三大都市圈和4个地方城市约55万户新建公寓[1]。</p>
+<p>"收购翻新再售"是指不动产交易业者收购二手住宅，翻新后卖给个人的业务。如果进行一定的翻新，业者收购时的不动产取得税和买方个人的登记许可税可以享受减免[5][6]。</p>
+<p>本文所说的"转让所得"，是指出售土地或建筑物获得的收益中，扣除买入价格和出售费用后的部分。个人出售自住房以外的房屋时，这部分所得与其他所得分开计税。本文中的"税率"就是这种分离计税的税率。</p>
+<p>这个问题现在之所以重要，是因为税制的讨论开始具体化。日本国土交通省在2027年度税制改革要求中加入了"应对新建公寓价格高涨的必要措施"，表示将研究抑制不基于实际需求的投机交易的方法[2]。共同社报道称，预计将加重对短期买卖的税负[7]。</p>
+<p>不过，现行制度已经区分了短期和长期。所以真正要问的不是"要不要征税"，而是"比现在重多少个百分点，会让哪些交易停下来"。本文用数字来确认这个差别。</p>
+<h2>数据与方法</h2>
+<p>本文使用的数据是日本国土交通省调查中按地区、年份、规模划分的短期买卖比例[1]，以及日本国税厅公布的个人转让所得税率[4]。按现行规定，以出售年度1月1日为准，持有期间在5年以下的为短期转让所得，所得税、复兴特别所得税和住民税合计39.63%；超过5年的为长期，税率为20.315%。</p>
+<p>需要注意持有期间的计算方法。由于以"出售年度的1月1日"为准，2026年3月买入的房子要到2032年以后出售才适用长期税率。实际上需要持有约5年10个月，适用短期税率的期间比很多人想象的更长。</p>
+<p>转售的利润以1亿日元的房子在1年内卖出的情形测算。公式为"税后净利＝（卖价－买价－费用）×（1－税率）"。费用包括中介费、登记费和贷款手续费等，合计按买价的7%计算。涨幅设为5%、10%、20%三种情形，税率除现行的39.63%外，还假设了提高10个百分点的49.63%和提高20个百分点的59.63%。</p>
+<p>为了比较，也列出了持有超过5年时的长期税率20.315%。由于政府尚未给出具体数字，提高幅度是假设值。</p>
+<h2>结果</h2>
+<figure><img width="1400" height="756" src="../../../images/articles/mansion-resale-tax/chart-resale-zh.png" alt="图1：各地区的短期转售比例（2023年与2024年1～6月）" loading="lazy"><figcaption>图1：各地区的短期转售比例（2023年与2024年1～6月）</figcaption></figure>
+<p>短期买卖的比例在2023年较高，2024年1～6月有所下降。需要注意2024年的数据只有半年，下半年可能有所回升。东京23区从2023年的9.3%降至5.7%，都心6区从12.2%降至7.1%[1]。2018～2022年都心6区的最高值为4.6%，可见2023年的跳升幅度之大。</p>
+<p>规模也有差别。在东京23区40平方米以上的住户中，2024年上半年的短期买卖比例，每栋有100件以上登记的大型公寓为9.9%，其他为3.3%[1]。转售集中在大型项目。</p>
+<p>居住在海外的人购买的比例，都心6区2024年为7.5%，2025年1～6月为3.2%[1]。从整体数字看，海外买家并不是主角。</p>
+<p>按地区比较，相对于2018～2022年的最高值，2023年比例增幅最大的是都心6区（4.6%→12.2%）和兵库县（4.1%→7.1%）[1]。越靠近市中心、规模越大转售越多，这与"转售集中在涨幅大的地方"的看法一致。</p>
+<h2>敏感性分析</h2>
+<figure><img width="1400" height="756" src="../../../images/articles/mansion-resale-tax/chart-sens-zh.png" alt="图2：按税率和涨幅划分的税后净利" loading="lazy"><figcaption>图2：按税率和涨幅划分的税后净利</figcaption></figure>
+<div class="tbl"><table><thead><tr><th>涨幅</th><th>长期 20.315%</th><th>短期 39.63%（现行）</th><th>短期 49.63%</th><th>短期 59.63%</th></tr></thead><tbody><tr><td>5%</td><td>－200万日元</td><td>－200万日元</td><td>－200万日元</td><td>－200万日元</td></tr><tr><td>10%</td><td>239万日元</td><td>181万日元</td><td>151万日元</td><td>121万日元</td></tr><tr><td>20%</td><td>1,036万日元</td><td>785万日元</td><td>655万日元</td><td>525万日元</td></tr></tbody></table></div>
+<p>涨幅为10%时，按现行税率净利约181万日元，仅相当于1亿日元本金的1.8%左右。税率提高20个百分点后降至121万日元。涨幅达到20%时，税率差别在金额上影响很大（从785万日元降至525万日元）。</p>
+<p>另一方面，如果涨幅达不到7%的费用，无论税率多少都会亏损。换句话说，支撑短期转售的并不是低税率，而是一年上涨超过10%的价格走势本身。</p>
+<p>还值得注意的是短期与长期的差距。涨幅为20%时，仅现行短期39.63%与长期20.315%的差别，净利就相差251万日元。税率提高20个百分点后，差距扩大到511万日元。持有到长期税率的动机会增强，但这也意味着待售房源更难出现。</p>
+<p>改变前提，结果也会变化。费用降到5%，净利会增加；如果把贷款利息也算进去设为10%，涨幅10%时无论税率多少几乎都没有净利。这里的数字请作为一个明示前提的测算来阅读。</p>
+<figure><img width="1600" height="1000" src="../../../images/articles/mansion-resale-tax/photo2.jpg" alt="灰色的公寓外墙" loading="lazy"><figcaption>灰色的公寓外墙</figcaption></figure>
+<h2>讨论</h2>
+<p>第一，加税会让大幅上涨时期的转售减少。在涨幅小的时期，即使按现行税率，利润也已经很薄。日本国土交通省的数据显示2024年比例下降，可能是利率上升和涨幅放缓先起了作用。</p>
+<p>第二，提高个人转让所得税率不会直接影响收购翻新再售企业。业者把收购的住宅作为商品出售，利润作为经营所得缴纳法人税等。对它们有影响的是不动产取得税和登记许可税的减免措施在2027年3月底到期后是否延长[5][6]。</p>
+<p>也有相反的看法：即使对短期转售征税，如果新建住宅供应不增加，房价也不会下降。还有不靠税收、而靠合同来抑制的方法，例如东京千代田区要求日本不动产协会加入交房后5年内禁止转售的特别条款[8]。</p>
+<p>第三，法人的处理可能成为漏洞。法人持有的不动产出售所得，无论持有期间长短，都作为法人所得纳税。如果只提高个人的短期税率，转售的主体可能从个人转向法人。大纲是否把法人纳入对象，将决定措施的效果。</p>
+<p>第四，对二手市场的影响。如果新建公寓的短期转售减少，原本作为新房"转售出口"流出的房源将不再出现在二手市场。二手供应变少，二手价格可能更难下跌。对收购翻新再售企业来说，可收购的房源数量和价格都会受到影响。</p>
+<p>数据也有局限。日本国土交通省的数字基于登记，因此法人买入房屋后出售法人股份这种形式的转售没有被计入。检验的标准是12月执政党税制改革大纲如何写明三点：对象（只限新房还是包括二手房）、期间（1年还是5年）、是否包括法人。</p>
+<h2>结论</h2>
+<p>加重对短期转售的征税，会把大幅上涨时期的转售净利削减两到三成。但在涨幅小的时期，按现行税率利润已经很薄，推动房价的力量与其说是税收，不如说更可能是利率和供应。对收购翻新再售企业有影响的不是税率，而是将于2027年3月底到期的减免措施的去向。</p>
+<h2>我的看法</h2>
+<p>我在日本，我赞成千代田区禁止转售的做法。我认为东京市中心的住宅已经完全变成了金钱游戏。用借来的钱买下因名气而升值的土地或建筑，除了等待转售收益之外，什么也产生不了。</p>
+<p>我认为，利率上升后，用借款买房的人的抛售会先出现在二手公寓和塔楼公寓，之后才会轮到大型写字楼和商业楼。所以现在我不会从买方的角度看不动产股，我认为它们还会继续下跌。另一方面，我觉得日本REIT可能被卖过头了，所以一直在关注。</p>
+<h2>来源</h2><ol class="src"><li>日本国土交通省《利用不动产登记信息的新建公寓交易调查结果》2025-11-25 <a href="https://www.mlit.go.jp/report/press/content/001970012.pdf" rel="noopener">https://www.mlit.go.jp/report/press/content/001970012.pdf</a></li><li>日本国土交通省《令和9年度税制改革要求事项：应对新建公寓价格高涨的必要措施》2026-08 <a href="https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2027/request/mlit/09y_mlit_k_16.pdf" rel="noopener">https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2027/request/mlit/09y_mlit_k_16.pdf</a></li><li>自由民主党・日本维新会《令和8年度税制改革大纲》2025-12-19 <a href="https://storage2.jimin.jp/pdf/news/policy/212129_1.pdf" rel="noopener">https://storage2.jimin.jp/pdf/news/policy/212129_1.pdf</a></li><li>日本国税厅《No.1440 转让所得（转让土地或建筑物时）》 <a href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/1440.htm" rel="noopener">https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/1440.htm</a></li><li>日本国土交通省《租税特别措施政策评价（收购翻新再售住宅的登记许可税特例）》 <a href="https://www.mlit.go.jp/page/content/002012055.pdf" rel="noopener">https://www.mlit.go.jp/page/content/002012055.pdf</a></li><li>群马县《收购翻新再售住宅等取得时的不动产取得税特例措施》2026-04-01 <a href="https://www.pref.gunma.jp/site/tax/5306.html" rel="noopener">https://www.pref.gunma.jp/site/tax/5306.html</a></li><li>共同社（OANDA证券转载）《因公寓价格高涨提出税制要求》2026-08-25 <a href="https://www.oanda.jp/lab-education/market_news/kn_2026082501001454/" rel="noopener">https://www.oanda.jp/lab-education/market_news/kn_2026082501001454/</a></li><li>Moneyizm《听取千代田区等意见，进入年底税制改革讨论》2026-10 <a href="https://www.all-senmonka.jp/moneyizm/?p=316476" rel="noopener">https://www.all-senmonka.jp/moneyizm/?p=316476</a></li></ol>
+<p class="muted" style="font-size:12px">照片：Unsplash。图表由YUKI CAPITAL制作</p>
+<p>每天的数字和判断，我都记录在X上。</p>
+<div class="cta"><a class="btn-dark" href="https://x.com/YUKICAPITALchin">在X上看每天的数字</a><a class="btn-light" href="https://note.com/capitallogs" style="border:1px solid var(--line)">我也在note上写</a></div>
+</div>
+
+<!--related--><section class="related"><h2>相关文章</h2><ul><li><a href="../boj-hike-megabank-nii/">日本央行加息0.25%，大型银行的利息收入会增加百分之几？</a><span class="num">2026-10-31</span></li><li><a href="../cb-meeting-frequency/">中央银行每年应该决定几次利率？——FOMC的“每年6次”与利率实际变动的次数</a><span class="num">2026-10-29</span></li><li><a href="../cyber-crash-scenarios/">网络攻击会成为全球股市同时下跌的导火索吗</a><span class="num">2026-10-24</span></li></ul></section><!--/related-->
+</article>
+<footer class="site-footer" style="padding-bottom:48px"><span>© 2026 YUKI CAPITAL</span><span><a href="../../../zh/">返回首页</a></span></footer>
+</main>
+<script>document.querySelectorAll('[data-setlang]').forEach(function(a){a.addEventListener('click',function(){try{localStorage.setItem('lang',a.getAttribute('data-setlang'))}catch(e){}})});</script>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "abf23c1820ac43539efd93c2112996da"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>

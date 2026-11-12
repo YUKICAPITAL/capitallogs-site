@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T12:00:00+09:00",
+  "updated": "2026-11-12T12:00:00+09:00",
   "profile": {
     "name": "YUKI CAPITAL",
     "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -16,38 +16,38 @@
     "note": "https://note.com/capitallogs"
   },
   "capital": {
-    "date": "2026-11-11",
-    "label": "11.11（水）",
-    "total": 389347251,
-    "diff": 7010519,
-    "diff_pct": 1.83,
-    "unreal": 56349580,
-    "unreal_pct": 17.16,
+    "date": "2026-11-12",
+    "label": "11.12（木）",
+    "total": 392088110,
+    "diff": 2740859,
+    "diff_pct": 0.7,
+    "unreal": 59090439,
+    "unreal_pct": 17.99,
     "cash": 4543457,
-    "cash_pct": 1.17,
+    "cash_pct": 1.16,
     "trade": "売買なし",
     "alloc": [
       {
         "name": "国内株",
-        "pct": 47.68,
+        "pct": 47.9,
         "name_en": "JP stocks",
         "name_zh": "日本股票"
       },
       {
         "name": "投信",
-        "pct": 26.24,
+        "pct": 26.17,
         "name_en": "Funds",
         "name_zh": "基金"
       },
       {
         "name": "外国株",
-        "pct": 24.91,
+        "pct": 24.76,
         "name_en": "Foreign stocks",
         "name_zh": "海外股票"
       },
       {
         "name": "現金",
-        "pct": 1.17,
+        "pct": 1.16,
         "name_en": "Cash",
         "name_zh": "现金"
       }
@@ -128,24 +128,28 @@
       {
         "date": "2026-11-11",
         "total": 389347251
+      },
+      {
+        "date": "2026-11-12",
+        "total": 392088110
       }
     ],
-    "label_en": "Nov 11 (Wed)",
-    "label_zh": "11.11（周三）",
+    "label_en": "Nov 12 (Thu)",
+    "label_zh": "11.12（周四）",
     "trade_en": "No trades",
     "trade_zh": "无交易",
     "week": {
-      "from": "2026-11-04",
-      "to": "2026-11-11",
-      "diff": 13930505,
-      "diff_pct": 3.71
+      "from": "2026-11-05",
+      "to": "2026-11-12",
+      "diff": 5732994,
+      "diff_pct": 1.48
     }
   },
   "conditions": [
     {
       "title": "SpaceX を +500株",
       "rule": "終値が 100ドルを割ったら",
-      "now": "142.07 ドル",
+      "now": "143.09 ドル",
       "status": "未達",
       "title_en": "Add 500 SpaceX",
       "rule_en": "if the close falls below $100",
@@ -153,13 +157,13 @@
       "title_zh": "SpaceX 加仓500股",
       "rule_zh": "收盘价跌破100美元时",
       "status_zh": "未达",
-      "now_en": "$142.07",
-      "now_zh": "142.07 美元"
+      "now_en": "$143.09",
+      "now_zh": "143.09 美元"
     },
     {
       "title": "IonQ を +500株",
       "rule": "25ドルを割ったら",
-      "now": "35.34 ドル",
+      "now": "34.99 ドル",
       "status": "未達",
       "title_en": "Add 500 IonQ",
       "rule_en": "if it falls below $25",
@@ -167,13 +171,13 @@
       "title_zh": "IonQ 加仓500股",
       "rule_zh": "跌破25美元时",
       "status_zh": "未达",
-      "now_en": "$35.34",
-      "now_zh": "35.34 美元"
+      "now_en": "$34.99",
+      "now_zh": "34.99 美元"
     },
     {
       "title": "三井住友FG を買い増し",
       "rule": "3,000円が目安",
-      "now": "3,286 円",
+      "now": "3,300 円",
       "status": "未達",
       "title_en": "Add SMFG (8316)",
       "rule_en": "around ¥3,000 as the guide",
@@ -181,13 +185,13 @@
       "title_zh": "加仓三井住友FG",
       "rule_zh": "以3,000日元为目标",
       "status_zh": "未达",
-      "now_en": "¥3,286",
-      "now_zh": "3,286 日元"
+      "now_en": "¥3,300",
+      "now_zh": "3,300 日元"
     },
     {
       "title": "SpaceX の積み立て",
       "rule": "外壁補修の見積もりが出るまで",
-      "now": "142.07 ドル",
+      "now": "143.09 ドル",
       "status": "10月・11月とも休止",
       "title_en": "Monthly SpaceX purchases",
       "rule_en": "until the exterior-wall repair estimate is in",
@@ -195,8 +199,8 @@
       "title_zh": "SpaceX 定投",
       "rule_zh": "等外墙维修报价出来",
       "status_zh": "10月、11月均暂停",
-      "now_en": "$142.07",
-      "now_zh": "142.07 美元"
+      "now_en": "$143.09",
+      "now_zh": "143.09 美元"
     }
   ],
   "holdings": [
@@ -298,7 +302,7 @@
     }
   ],
   "posts": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "count": 27,
     "items": [
       {
@@ -306,56 +310,62 @@
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.11",
+        "time": "11.12",
         "kind": "判断枠",
         "kind_en": "Judgment",
         "kind_zh": "判断",
-        "title": "量子3社は赤字でも、手元資金5年で必要性に賭ける",
-        "title_en": "Quantum stocks are losing money, but five years of cash is enough",
-        "title_zh": "量子三家仍在亏损，手头资金够撑5年，我押注需求"
+        "title": "160円目前でも、ドルは円に替えない",
+        "title_en": "Even with ¥160 in sight, I am not converting dollars to yen",
+        "title_zh": "即使逼近160日元，我也不把美元换成日元"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.11",
+        "time": "11.12",
         "kind": "日記",
         "kind_en": "Diary",
         "kind_zh": "日记",
-        "title": "朝食を抜き、父と担々麺、妻のローストビーフ",
-        "title_en": "Skipped breakfast, dandan noodles with my father, my wife's roast beef",
-        "title_zh": "不吃早饭，和父亲吃担担面，妻子做的烤牛肉"
+        "title": "1,000mと黒柴との30分",
+        "title_en": "1,000m in the pool and 30 minutes with a black Shiba",
+        "title_zh": "游了1000米，和黑柴犬散步30分钟"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.11",
+        "time": "11.12",
         "kind": "長文",
         "kind_en": "Essay",
         "kind_zh": "长文",
-        "title": "調達資料に、動いているチャットボットの画面を入れた日",
-        "title_en": "I added a working chatbot to my fundraising deck",
-        "title_zh": "我在融资资料里加入了正在运行的聊天机器人画面"
+        "title": "メガバンクが場中に決算を出す日",
+        "title_en": "The day the megabanks report during trading hours",
+        "title_zh": "大型银行在交易时段公布财报的那天"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.11",
+        "time": "11.12",
         "kind": "ニュース",
         "kind_en": "News",
         "kind_zh": "新闻",
-        "title": "日経平均6万円回復、口座を見て何もしなかった",
-        "title_en": "Nikkei back above 60,000, and I did nothing",
-        "title_zh": "日经指数重回6万点，我看着账户什么都没做"
+        "title": "日経789円高、半導体0株の口座",
+        "title_en": "Nikkei up ¥789, and my account holds zero chip stocks",
+        "title_zh": "日经上涨789日元，我的账户里没有一股半导体"
       }
     ]
   },
   "note": [
+    {
+      "date": "2026-11-12",
+      "title": "新NISAは銘柄より順番で決まる。年360万円の枠を使う前の3つの線",
+      "url": "https://note.com/capitallogs/n/n58280432ccf0",
+      "image": "https://assets.st-note.com/production/uploads/images/335098318/rectangle_large_type_2_3fc88817961e81aeeabb2c5917ed4db5.png"
+    },
     {
       "date": "2026-11-11",
       "title": "配当で持つ株ほど、国の都合に弱い。JTのロシア事業が一時管理になった週に考えた線",
@@ -484,25 +494,25 @@
     }
   ],
   "diary": {
-    "date": "2026-11-10（火）",
-    "place": "会社・ジム・家",
-    "title": "朝食を抜き、父と担々麺、妻のローストビーフ",
-    "text": "前日の焼肉で朝食を抜き、午前は資金調達の資料。事業責任者と共同創業者とそれぞれ1時間打ち合わせ、昼は父と担々麺、オイルマッサージ30分。夕方は1,000mを泳ぎ、夜は妻のローストビーフ。約9時間眠れた。",
+    "date": "2026-11-11（水）",
+    "place": "会社・ジム・両親の家・家",
+    "title": "1,000mと黒柴との30分",
+    "text": "昼はジムで1,000mを泳ぎ、奥さんとサラダ。夕方は両親の家の黒柴と30〜40分歩き、すごく幸せでうれしい時間だった。夜は家族で豚しゃぶの鍋、久しぶりのお菓子。睡眠薬なしで7時間眠れた。",
     "image": null,
     "url": "https://x.com/capitallogs",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin",
-    "date_en": "Tue, Nov 10, 2026",
-    "date_zh": "2026.11.10（周二）",
-    "place_en": "Office, gym and home",
-    "place_zh": "公司、健身房和家",
-    "title_en": "Skipped breakfast, dandan noodles with my father, my wife's roast beef",
-    "title_zh": "不吃早饭，和父亲吃担担面，妻子做的烤牛肉",
-    "text_en": "After a big yakiniku dinner the night before, I skipped breakfast and worked on our fundraising deck. I had one-hour meetings with the business lead and my co-founder, ate dandan noodles with my father at lunch, and had a 30-minute oil massage. In the evening I swam 1,000m, and at night my wife made roast beef. I slept about nine hours.",
-    "text_zh": "前一天烤肉吃得多，没吃早饭，上午做融资资料。和业务负责人、联合创始人各开了1小时会，中午和父亲吃担担面，做了30分钟精油按摩。傍晚游了1,000米，晚上吃了妻子做的烤牛肉。睡了大约9小时。"
+    "date_en": "Wed, Nov 11, 2026",
+    "date_zh": "2026.11.11（周三）",
+    "place_en": "Office, gym, my parents' home and home",
+    "place_zh": "公司、健身房、父母家和家",
+    "title_en": "1,000m in the pool and 30 minutes with a black Shiba",
+    "title_zh": "游了1000米，和黑柴犬散步30分钟",
+    "text_en": "At lunch I swam 1,000m at the gym and had a salad with my wife. In the evening I walked the black Shiba at my parents' home for 30–40 minutes, a truly happy time. At night we had pork shabu-shabu at home and, for the first time in a while, some snacks. I slept about seven hours without sleeping pills.",
+    "text_zh": "中午在健身房游了1000米，和妻子一起吃了沙拉。傍晚在父母家和黑柴犬散步30～40分钟，非常幸福、开心。晚上全家吃涮猪肉火锅，还久违地吃了点心。没吃安眠药睡了约7小时。"
   },
   "media": {
-    "updated": "2026-11-11 11:28",
+    "updated": "2026-11-12 09:59",
     "impressions_month": null,
     "impressions_daily": [],
     "followers": [
@@ -510,7 +520,7 @@
         "name": "X 日本語",
         "handle": "@capitallogs",
         "url": "https://x.com/capitallogs",
-        "count": 174,
+        "count": 172,
         "name_en": "X Japanese",
         "name_zh": "X 日文"
       },
@@ -526,7 +536,7 @@
         "name": "X 中文",
         "handle": "@YUKICAPITALchin",
         "url": "https://x.com/YUKICAPITALchin",
-        "count": 66,
+        "count": 65,
         "name_en": "X Chinese",
         "name_zh": "X 中文"
       },
@@ -545,49 +555,48 @@
           "name": "X 日本語",
           "name_en": "X Japanese",
           "name_zh": "X 日文",
-          "d7": 51800,
-          "d28": 190684
+          "d7": 46903,
+          "d28": 186339
         },
         {
           "name": "X English",
           "name_en": "X English",
           "name_zh": "X 英文",
-          "d7": 8932,
-          "d28": 35744
+          "d7": 8036,
+          "d28": 35317
         },
         {
           "name": "X 中文",
           "name_en": "X Chinese",
           "name_zh": "X 中文",
-          "d7": 9353,
-          "d28": 43411
+          "d7": 8509,
+          "d28": 42765
         },
         {
           "name": "note",
           "name_en": "note",
           "name_zh": "note",
-          "d7": 1060,
-          "d28": 2355
+          "d7": 1068,
+          "d28": 2811
         },
         {
           "name": "サイト",
           "name_en": "Site",
           "name_zh": "网站",
-          "d7": 198,
-          "d28": 510
+          "d7": 216,
+          "d28": 580
         }
       ],
-      "total_d7": 71343,
-      "total_d28": 272704
+      "total_d7": 64732,
+      "total_d28": 267812
     },
     "site": {
-      "visits_24h": 43,
-      "pv_24h": 49,
-      "visits_7d": null
+      "visits_24h": 18,
+      "pv_24h": 22,
+      "visits_7d": 164
     },
     "daily": {
       "dates": [
-        "2026-10-15",
         "2026-10-16",
         "2026-10-17",
         "2026-10-18",
@@ -614,10 +623,10 @@
         "2026-11-08",
         "2026-11-09",
         "2026-11-10",
-        "2026-11-11"
+        "2026-11-11",
+        "2026-11-12"
       ],
       "x_ja": [
-        7561,
         5958,
         3982,
         4636,
@@ -644,10 +653,10 @@
         6245,
         9569,
         6522,
-        2760
+        5931,
+        45
       ],
       "x_en": [
-        1149,
         1115,
         764,
         1874,
@@ -674,10 +683,10 @@
         1033,
         1653,
         1529,
-        437
+        1147,
+        12
       ],
       "x_zh": [
-        1411,
         1496,
         989,
         1080,
@@ -704,10 +713,10 @@
         1703,
         1583,
         1324,
-        298
+        1041,
+        22
       ],
       "note": [
-        3,
         23,
         91,
         30,
@@ -732,31 +741,43 @@
         226,
         106,
         167,
-        27,
-        null,
-        null
+        173,
+        172,
+        213,
+        11
       ]
     },
     "today": {
-      "date": "2026-11-11",
-      "x_ja": 2760,
-      "x_en": 437,
-      "x_zh": 298,
-      "note": null,
-      "site_visits_24h": 43,
-      "site_pv_24h": 49,
-      "at": "2026-11-11 11:28"
+      "date": "2026-11-12",
+      "x_ja": 45,
+      "x_en": 12,
+      "x_zh": 22,
+      "note": 11,
+      "site_visits_24h": 18,
+      "site_pv_24h": 22,
+      "at": "2026-11-12 09:59"
     },
     "intraday": [
       {
-        "at": "2026-11-11 11:28",
-        "x": 3495,
-        "site_pv_24h": 49,
-        "site_visits_24h": 43
+        "at": "2026-11-12 09:59",
+        "x": 79,
+        "site_pv_24h": 22,
+        "site_visits_24h": 18
       }
     ]
   },
   "archive": [
+    {
+      "date": "2026-11-12",
+      "label": "11.12（木）",
+      "total": 392088110,
+      "diff_pct": 0.7,
+      "memo": "27本×3言語 ｜ 売買なし ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "27 posts x 3 languages ｜ No trades ｜ 1 note ｜ 1 article",
+      "memo_zh": "27条×3种语言 ｜ 无交易 ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Nov 12 Thu",
+      "label_zh": "11.12 周四"
+    },
     {
       "date": "2026-11-11",
       "label": "11.11（水）",
@@ -1056,6 +1077,25 @@
     }
   ],
   "articles": [
+    {
+      "slug": "mansion-resale-tax",
+      "date": "2026-11-12",
+      "image": "images/articles/mansion-resale-tax/hero.jpg",
+      "category": "不動産",
+      "category_en": "Real estate",
+      "category_zh": "房地产",
+      "tags": [
+        "realestate",
+        "economy",
+        "finance"
+      ],
+      "title": "マンションの短期転売に重い税をかけると、価格と買取再販はどう変わるのか――国交省の登記データと税率の試算で考える",
+      "lead": "都心の新築マンションを買い、1年もたたずに売る取引が、東京を中心に増えてきた。国土交通省の調べでは、2023年に都心6区で保存登記から1年以内に転売された住戸は12.2%にのぼる[1]。 国は2027年度の税制改正で、こうした投機的な取引を抑える措置を要望し、与党の大綱にも新築マンションの短期売買への税制上の措置を講じると書かれた[2][3]。 本稿の問いは、短期の転売に重い税をかけたとき、転売の採算・価格・買取再販の業者にどこまで効くのかである。",
+      "title_en": "If Japan Taxes Quick Condo Flips More Heavily, What Happens to Prices and to Buy-Renovate-Resell Firms? An Estimate from Land Registry Data and Tax Rates",
+      "lead_en": "Buying a new condominium in central Tokyo and selling it within a year has become more common, especially in Tokyo. According to Japan's Ministry of Land, Infrastructure, Transport and Tourism (MLIT), 12.2% of new units in Tokyo's six central wards were resold within one year of first registration in 2023 [1]. For the fiscal 2027 tax reform, the ministry has requested measures to curb such speculative trades, and the ruling coalition's tax reform outline states that tax measures on short-term sales of new condominiums will be taken [2][3]. This article asks: if short-term resales are taxed more heavily, how much would that affect the economics of flipping, prices, and companies that buy, renovate and resell homes?",
+      "title_zh": "如果对公寓短期转售征收更重的税，房价和\"收购翻新再售\"企业会怎样？——用日本国土交通省的登记数据和税率测算",
+      "lead_zh": "买下东京市中心的新建公寓、不到一年就卖出的交易，以东京为中心在增加。据日本国土交通省调查，2023年东京都心6区在产权初次登记后1年内被转售的住户达12.2%[1]。 日本政府在2027年度税制改革中提出了抑制这类投机交易的措施，执政党的税制改革大纲也写明将对新建公寓的短期买卖采取税制措施[2][3]。 本文的问题是：如果对短期转售征收更重的税，对转售的利润、房价以及收购翻新再售的企业会产生多大影响？"
+    },
     {
       "slug": "quantum-cash-runway",
       "date": "2026-11-11",
@@ -1539,6 +1579,11 @@
       "name": "政治",
       "name_en": "Politics",
       "name_zh": "政治"
+    },
+    "realestate": {
+      "name": "不動産",
+      "name_en": "Real estate",
+      "name_zh": "房地产"
     }
   }
 }
