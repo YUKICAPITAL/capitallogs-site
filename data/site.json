@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T12:00:00+09:00",
+  "updated": "2026-11-13T12:00:00+09:00",
   "profile": {
     "name": "YUKI CAPITAL",
     "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -16,47 +16,43 @@
     "note": "https://note.com/capitallogs"
   },
   "capital": {
-    "date": "2026-11-12",
-    "label": "11.12（木）",
-    "total": 392088110,
-    "diff": 2740859,
-    "diff_pct": 0.7,
-    "unreal": 59090439,
-    "unreal_pct": 17.99,
+    "date": "2026-11-13",
+    "label": "11.13（金）",
+    "total": 395674861,
+    "diff": 3586751,
+    "diff_pct": 0.91,
+    "unreal": 62677190,
+    "unreal_pct": 19.08,
     "cash": 4543457,
-    "cash_pct": 1.16,
+    "cash_pct": 1.15,
     "trade": "売買なし",
     "alloc": [
       {
         "name": "国内株",
-        "pct": 47.9,
+        "pct": 48.09,
         "name_en": "JP stocks",
         "name_zh": "日本股票"
       },
       {
         "name": "投信",
-        "pct": 26.17,
+        "pct": 26.06,
         "name_en": "Funds",
         "name_zh": "基金"
       },
       {
         "name": "外国株",
-        "pct": 24.76,
+        "pct": 24.7,
         "name_en": "Foreign stocks",
         "name_zh": "海外股票"
       },
       {
         "name": "現金",
-        "pct": 1.16,
+        "pct": 1.15,
         "name_en": "Cash",
         "name_zh": "现金"
       }
     ],
     "series": [
-      {
-        "date": "2026-10-15",
-        "total": 394085125
-      },
       {
         "date": "2026-10-16",
         "total": 393726077
@@ -132,24 +128,28 @@
       {
         "date": "2026-11-12",
         "total": 392088110
+      },
+      {
+        "date": "2026-11-13",
+        "total": 395674861
       }
     ],
-    "label_en": "Nov 12 (Thu)",
-    "label_zh": "11.12（周四）",
+    "label_en": "Nov 13 (Fri)",
+    "label_zh": "11.13（周五）",
     "trade_en": "No trades",
     "trade_zh": "无交易",
     "week": {
-      "from": "2026-11-05",
-      "to": "2026-11-12",
-      "diff": 5732994,
-      "diff_pct": 1.48
+      "from": "2026-11-06",
+      "to": "2026-11-13",
+      "diff": 22378141,
+      "diff_pct": 5.99
     }
   },
   "conditions": [
     {
       "title": "SpaceX を +500株",
       "rule": "終値が 100ドルを割ったら",
-      "now": "143.09 ドル",
+      "now": "139.75 ドル",
       "status": "未達",
       "title_en": "Add 500 SpaceX",
       "rule_en": "if the close falls below $100",
@@ -157,13 +157,13 @@
       "title_zh": "SpaceX 加仓500股",
       "rule_zh": "收盘价跌破100美元时",
       "status_zh": "未达",
-      "now_en": "$143.09",
-      "now_zh": "143.09 美元"
+      "now_en": "$139.75",
+      "now_zh": "139.75 美元"
     },
     {
       "title": "IonQ を +500株",
       "rule": "25ドルを割ったら",
-      "now": "34.99 ドル",
+      "now": "34.06 ドル",
       "status": "未達",
       "title_en": "Add 500 IonQ",
       "rule_en": "if it falls below $25",
@@ -171,13 +171,13 @@
       "title_zh": "IonQ 加仓500股",
       "rule_zh": "跌破25美元时",
       "status_zh": "未达",
-      "now_en": "$34.99",
-      "now_zh": "34.99 美元"
+      "now_en": "$34.06",
+      "now_zh": "34.06 美元"
     },
     {
       "title": "三井住友FG を買い増し",
       "rule": "3,000円が目安",
-      "now": "3,300 円",
+      "now": "3,317 円",
       "status": "未達",
       "title_en": "Add SMFG (8316)",
       "rule_en": "around ¥3,000 as the guide",
@@ -185,13 +185,13 @@
       "title_zh": "加仓三井住友FG",
       "rule_zh": "以3,000日元为目标",
       "status_zh": "未达",
-      "now_en": "¥3,300",
-      "now_zh": "3,300 日元"
+      "now_en": "¥3,317",
+      "now_zh": "3,317 日元"
     },
     {
       "title": "SpaceX の積み立て",
       "rule": "外壁補修の見積もりが出るまで",
-      "now": "143.09 ドル",
+      "now": "139.75 ドル",
       "status": "10月・11月とも休止",
       "title_en": "Monthly SpaceX purchases",
       "rule_en": "until the exterior-wall repair estimate is in",
@@ -199,8 +199,8 @@
       "title_zh": "SpaceX 定投",
       "rule_zh": "等外墙维修报价出来",
       "status_zh": "10月、11月均暂停",
-      "now_en": "$143.09",
-      "now_zh": "143.09 美元"
+      "now_en": "$139.75",
+      "now_zh": "139.75 美元"
     }
   ],
   "holdings": [
@@ -302,7 +302,7 @@
     }
   ],
   "posts": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "count": 27,
     "items": [
       {
@@ -310,56 +310,62 @@
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.12",
+        "time": "11.13",
         "kind": "判断枠",
         "kind_en": "Judgment",
         "kind_zh": "判断",
-        "title": "160円目前でも、ドルは円に替えない",
-        "title_en": "Even with ¥160 in sight, I am not converting dollars to yen",
-        "title_zh": "即使逼近160日元，我也不把美元换成日元"
+        "title": "AI相場が揺れても、作る側は持たない",
+        "title_en": "When AI stocks swing, I still do not own the chipmakers",
+        "title_zh": "AI行情再动荡，我也不持有制造方"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.12",
+        "time": "11.13",
         "kind": "日記",
         "kind_en": "Diary",
         "kind_zh": "日记",
-        "title": "1,000mと黒柴との30分",
-        "title_en": "1,000m in the pool and 30 minutes with a black Shiba",
-        "title_zh": "游了1000米，和黑柴犬散步30分钟"
+        "title": "子ども2人と3人で寝た夜",
+        "title_en": "The night I slept with both of my kids",
+        "title_zh": "和两个孩子三个人一起睡的夜晚"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.12",
+        "time": "11.13",
         "kind": "長文",
         "kind_en": "Essay",
         "kind_zh": "长文",
-        "title": "メガバンクが場中に決算を出す日",
-        "title_en": "The day the megabanks report during trading hours",
-        "title_zh": "大型银行在交易时段公布财报的那天"
+        "title": "入居者への一斉送信を、1時間で作った",
+        "title_en": "I built a broadcast to all tenants in one hour",
+        "title_zh": "一小时做出了给全体租户的群发功能"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.12",
+        "time": "11.13",
         "kind": "ニュース",
         "kind_en": "News",
         "kind_zh": "新闻",
-        "title": "日経789円高、半導体0株の口座",
-        "title_en": "Nikkei up ¥789, and my account holds zero chip stocks",
-        "title_zh": "日经上涨789日元，我的账户里没有一股半导体"
+        "title": "三井住友トラスト、純利益4,200億円へ上方修正",
+        "title_en": "Sumitomo Mitsui Trust raises its profit forecast to ¥420 billion",
+        "title_zh": "三井住友信托将净利润预期上调至4,200亿日元"
       }
     ]
   },
   "note": [
+    {
+      "date": "2026-11-13",
+      "title": "創業者が去る日に見るのは、株価ではなく持ち株の比率だ",
+      "url": "https://note.com/capitallogs/n/na72f71de6364",
+      "image": "https://assets.st-note.com/production/uploads/images/335483573/rectangle_large_type_2_71f8fa50ba3ac500fae6b6fa85493fc8.png"
+    },
     {
       "date": "2026-11-12",
       "title": "新NISAは銘柄より順番で決まる。年360万円の枠を使う前の3つの線",
@@ -494,25 +500,25 @@
     }
   ],
   "diary": {
-    "date": "2026-11-11（水）",
-    "place": "会社・ジム・両親の家・家",
-    "title": "1,000mと黒柴との30分",
-    "text": "昼はジムで1,000mを泳ぎ、奥さんとサラダ。夕方は両親の家の黒柴と30〜40分歩き、すごく幸せでうれしい時間だった。夜は家族で豚しゃぶの鍋、久しぶりのお菓子。睡眠薬なしで7時間眠れた。",
+    "date": "2026-11-12（木）",
+    "place": "会社・ジム・家",
+    "title": "子ども2人と3人で寝た夜",
+    "text": "会社でXの投稿と、入居者への一斉送信の仕組みを1時間位で作った。昼はジムで筋トレとランニング。夜は妻のハンバーグとチャプチェ。次男のお泊まりの練習を兼ねて、子どもたち2人と3人で寝た。7時間半眠れた。",
     "image": null,
     "url": "https://x.com/capitallogs",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin",
-    "date_en": "Wed, Nov 11, 2026",
-    "date_zh": "2026.11.11（周三）",
-    "place_en": "Office, gym, my parents' home and home",
-    "place_zh": "公司、健身房、父母家和家",
-    "title_en": "1,000m in the pool and 30 minutes with a black Shiba",
-    "title_zh": "游了1000米，和黑柴犬散步30分钟",
-    "text_en": "At lunch I swam 1,000m at the gym and had a salad with my wife. In the evening I walked the black Shiba at my parents' home for 30–40 minutes, a truly happy time. At night we had pork shabu-shabu at home and, for the first time in a while, some snacks. I slept about seven hours without sleeping pills.",
-    "text_zh": "中午在健身房游了1000米，和妻子一起吃了沙拉。傍晚在父母家和黑柴犬散步30～40分钟，非常幸福、开心。晚上全家吃涮猪肉火锅，还久违地吃了点心。没吃安眠药睡了约7小时。"
+    "date_en": "Thu, Nov 12, 2026",
+    "date_zh": "2026.11.12（周四）",
+    "place_en": "Office, gym and home",
+    "place_zh": "公司、健身房和家",
+    "title_en": "The night I slept with both of my kids",
+    "title_zh": "和两个孩子三个人一起睡的夜晚",
+    "text_en": "At the office I posted on X and built a broadcast to all tenants in about an hour. At lunch, strength training and running at the gym. Dinner was my wife's hamburg steak and japchae. As practice for my younger son's sleepover, I slept with both kids. I slept 7.5 hours.",
+    "text_zh": "在公司发了X的帖子，用大约一小时做出了给全体租户的群发功能。中午在健身房做力量训练和跑步。晚上吃了妻子做的汉堡肉和杂菜。为了给次子练习外宿，我和两个孩子三个人一起睡。睡了7个半小时。"
   },
   "media": {
-    "updated": "2026-11-12 09:59",
+    "updated": "2026-11-13 10:26",
     "impressions_month": null,
     "impressions_daily": [],
     "followers": [
@@ -528,7 +534,7 @@
         "name": "X English",
         "handle": "@YUKICAPITALen",
         "url": "https://x.com/YUKICAPITALen",
-        "count": 100,
+        "count": 102,
         "name_en": "X English",
         "name_zh": "X 英文"
       },
@@ -536,7 +542,7 @@
         "name": "X 中文",
         "handle": "@YUKICAPITALchin",
         "url": "https://x.com/YUKICAPITALchin",
-        "count": 65,
+        "count": 66,
         "name_en": "X Chinese",
         "name_zh": "X 中文"
       },
@@ -555,29 +561,29 @@
           "name": "X 日本語",
           "name_en": "X Japanese",
           "name_zh": "X 日文",
-          "d7": 46903,
-          "d28": 186339
+          "d7": 42312,
+          "d28": 186859
         },
         {
           "name": "X English",
           "name_en": "X English",
           "name_zh": "X 英文",
-          "d7": 8036,
-          "d28": 35317
+          "d7": 8009,
+          "d28": 35785
         },
         {
           "name": "X 中文",
           "name_en": "X Chinese",
           "name_zh": "X 中文",
-          "d7": 8509,
-          "d28": 42765
+          "d7": 8465,
+          "d28": 42608
         },
         {
           "name": "note",
           "name_en": "note",
           "name_zh": "note",
-          "d7": 1068,
-          "d28": 2811
+          "d7": 1039,
+          "d28": 2985
         },
         {
           "name": "サイト",
@@ -587,17 +593,16 @@
           "d28": 580
         }
       ],
-      "total_d7": 64732,
-      "total_d28": 267812
+      "total_d7": 60041,
+      "total_d28": 268817
     },
     "site": {
-      "visits_24h": 18,
-      "pv_24h": 22,
-      "visits_7d": 164
+      "visits_24h": 31,
+      "pv_24h": 39,
+      "visits_7d": null
     },
     "daily": {
       "dates": [
-        "2026-10-16",
         "2026-10-17",
         "2026-10-18",
         "2026-10-19",
@@ -624,10 +629,10 @@
         "2026-11-09",
         "2026-11-10",
         "2026-11-11",
-        "2026-11-12"
+        "2026-11-12",
+        "2026-11-13"
       ],
       "x_ja": [
-        5958,
         3982,
         4636,
         6215,
@@ -654,10 +659,10 @@
         9569,
         6522,
         5931,
-        45
+        6436,
+        87
       ],
       "x_en": [
-        1115,
         764,
         1874,
         1438,
@@ -684,10 +689,10 @@
         1653,
         1529,
         1147,
-        12
+        1572,
+        23
       ],
       "x_zh": [
-        1496,
         989,
         1080,
         1807,
@@ -714,10 +719,10 @@
         1583,
         1324,
         1041,
-        22
+        1336,
+        25
       ],
       "note": [
-        23,
         91,
         30,
         47,
@@ -744,29 +749,41 @@
         173,
         172,
         213,
-        11
+        188,
+        20
       ]
     },
     "today": {
-      "date": "2026-11-12",
-      "x_ja": 45,
-      "x_en": 12,
-      "x_zh": 22,
-      "note": 11,
-      "site_visits_24h": 18,
-      "site_pv_24h": 22,
-      "at": "2026-11-12 09:59"
+      "date": "2026-11-13",
+      "x_ja": 87,
+      "x_en": 23,
+      "x_zh": 25,
+      "note": 20,
+      "site_visits_24h": 31,
+      "site_pv_24h": 39,
+      "at": "2026-11-13 10:26"
     },
     "intraday": [
       {
-        "at": "2026-11-12 09:59",
-        "x": 79,
-        "site_pv_24h": 22,
-        "site_visits_24h": 18
+        "at": "2026-11-13 10:26",
+        "x": 135,
+        "site_pv_24h": 39,
+        "site_visits_24h": 31
       }
     ]
   },
   "archive": [
+    {
+      "date": "2026-11-13",
+      "label": "11.13（金）",
+      "total": 395674861,
+      "diff_pct": 0.91,
+      "memo": "27本×3言語 ｜ 売買なし ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "27 posts x 3 languages ｜ No trades ｜ 1 note ｜ 1 article",
+      "memo_zh": "27条×3种语言 ｜ 无交易 ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Nov 13 Fri",
+      "label_zh": "11.13 周五"
+    },
     {
       "date": "2026-11-12",
       "label": "11.12（木）",
@@ -1077,6 +1094,25 @@
     }
   ],
   "articles": [
+    {
+      "slug": "tesla-spacex-exchange-ratio",
+      "date": "2026-11-13",
+      "image": "images/articles/tesla-spacex-exchange-ratio/hero.jpg",
+      "category": "経済",
+      "category_en": "Economy",
+      "category_zh": "经济",
+      "tags": [
+        "economy",
+        "space",
+        "company"
+      ],
+      "title": "テスラとSpaceXが合併したら、テスラ1株はSpaceX何株になるのか――株主の取り分を10-Qの株数で試算する",
+      "lead": "テスラとSpaceXの合併の協議が進み、早ければ12月にも史上最大の案件として発表される可能性があると報じられた[1]。両社の取締役会は独立取締役の特別委員会を設け、交換比率と統治の形を話し合っているという[1]。 合併の話で、株主にとっていちばん大きいのは交換比率である。テスラの株主は、自分の1株がSpaceXの何株に替わるのかで、取り分が決まる。 本稿の問いは、テスラ1株がSpaceX何株になるのか、そしてその比率で、テスラの株主・SpaceXの株主・両方を持つ株主の取り分がどれだけ動くのかである。",
+      "title_en": "If Tesla and SpaceX Merge, How Many SpaceX Shares Does One Tesla Share Become? Estimating Each Shareholder's Slice from 10-Q Share Counts",
+      "lead_en": "Talks on a merger between Tesla and SpaceX have advanced, and the deal could be announced as early as December as the largest in history, according to reports[1]. Both boards have set up special committees of independent directors to negotiate the exchange ratio and governance[1]. For shareholders, the biggest number in any merger is the exchange ratio. A Tesla shareholder's slice depends on how many SpaceX shares each Tesla share is swapped into. The question here: how many SpaceX shares would one Tesla share become, and how much would that ratio move the value held by Tesla holders, SpaceX holders, and investors who own both?",
+      "title_zh": "特斯拉与SpaceX若合并，特斯拉1股能换成多少股SpaceX？——用10-Q股数测算各方股东的份额",
+      "lead_zh": "据报道，特斯拉与SpaceX的合并谈判已有进展，最早可能在12月作为史上最大交易宣布[1]。两家公司的董事会均已设立由独立董事组成的特别委员会，商议换股比例和治理结构[1]。 对股东来说，合并中最重要的数字是换股比例。特斯拉股东的份额，取决于自己的1股能换成多少股SpaceX。 本文的问题是：特斯拉1股能换成多少股SpaceX？这一比例会让特斯拉股东、SpaceX股东以及同时持有两者的股东的价值变动多少？"
+    },
     {
       "slug": "mansion-resale-tax",
       "date": "2026-11-12",

@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>特斯拉与SpaceX若合并，特斯拉1股能换成多少股SpaceX？——用10-Q股数测算各方股东的份额</title>
+<meta name="description" content="据报道，特斯拉与SpaceX的合并谈判已有进展，最早可能在12月作为史上最大交易宣布[1]。两家公司的董事会均已设立由独立董事组成的特别委员会，商议换股比例和治理结构[1]。 对股东来说，合并中最重要的数字是换股比例。特斯拉股东的份额，取决…">
+<meta property="og:title" content="如果对公寓短期转售征收更重的税，房价和&quot;收购翻新再售&quot;企业会怎样？——用日本国土交通省的登记数据和税率测算">
+<meta property="og:description" content="据报道，特斯拉与SpaceX的合并谈判已有进展，最早可能在12月作为史上最大交易宣布[1]。两家公司的董事会均已设立由独立董事组成的特别委员会，商议换股比例和治理结构[1]。 对股东来说，合并中最重要的数字是换股比例。特斯拉股东的份额，取决于自己的1股能换成多少股SpaceX。 本文的问题是：特斯拉1股能换成多少股SpaceX？这一比例会让特斯拉股东、SpaceX股东以及同时持有两者的股东的价值变">
+<meta property="og:image" content="https://raw.githubusercontent.com/YUKICAPITAL/capitallogs-site/main/images/articles/tesla-spacex-exchange-ratio/hero.jpg">
+<meta property="og:url" content="https://yuki-capital.com/zh/articles/tesla-spacex-exchange-ratio/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@capitallogs">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/YUKICAPITAL/capitallogs-site/main/images/articles/tesla-spacex-exchange-ratio/hero.jpg">
+<meta property="og:type" content="article">
+<link rel="icon" href="../../../favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="../../../images/apple-touch-icon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../../../assets/style.css">
+<style>
+.art{max-width:760px;margin:0 auto;padding:24px 0 48px}
+.art .meta{display:flex;gap:10px;align-items:center;font-size:12px;color:var(--muted)}
+.art h1{font-size:26px;line-height:1.45;margin:12px 0 16px}
+.art .lead{font-size:15px;line-height:1.9;color:var(--ink2);border-left:3px solid var(--accent);padding-left:14px;margin:0 0 20px}
+.art .lead p{margin:0}
+.art .card{padding:24px}
+.art h2{font-size:19px;margin:32px 0 12px;padding-top:4px}
+.art h2:first-child{margin-top:0}
+.art p{font-size:15.5px;line-height:2;margin:0 0 14px}
+.art figure{margin:20px 0;}
+.art figure img{width:100%;border-radius:12px;background:#fff}
+.art figcaption{font-size:12px;color:var(--muted);margin-top:6px;line-height:1.6}
+.art .hero img{border-radius:18px;aspect-ratio:16/9;object-fit:cover;width:100%}
+.art .tbl{overflow-x:auto;margin:12px 0 16px}
+.art table{border-collapse:collapse;font-size:13px;min-width:640px;width:100%}
+.art th,.art td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+.art th{background:var(--accent-soft);font-weight:700}
+.art ol.src{font-size:12.5px;line-height:1.8;padding-left:18px;word-break:break-all}
+.art ol.src a{color:var(--accent)}
+.art .cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.langsw{display:flex;gap:8px;font-size:12px}.langsw a{padding:4px 10px;border-radius:999px;background:var(--card)}.langsw a.on{background:var(--dark);color:#fff}
+@media(max-width:600px){.art h1{font-size:21px}.art .card{padding:18px}}
+</style>
+
+<!--seo-->
+<link rel="canonical" href="https://yuki-capital.com/zh/articles/tesla-spacex-exchange-ratio/">
+<link rel="alternate" hreflang="ja" href="https://yuki-capital.com/articles/tesla-spacex-exchange-ratio/">
+<link rel="alternate" hreflang="en" href="https://yuki-capital.com/en/articles/tesla-spacex-exchange-ratio/">
+<link rel="alternate" hreflang="zh-Hans" href="https://yuki-capital.com/zh/articles/tesla-spacex-exchange-ratio/">
+<link rel="alternate" hreflang="x-default" href="https://yuki-capital.com/articles/tesla-spacex-exchange-ratio/">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:site_name" content="YUKI CAPITAL">
+<meta property="article:published_time" content="2026-11-13">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "特斯拉与SpaceX若合并，特斯拉1股能换成多少股SpaceX？——用10-Q股数测算各方股东的份额", "description": "据报道，特斯拉与SpaceX的合并谈判已有进展，最早可能在12月作为史上最大交易宣布[1]。两家公司的董事会均已设立由独立董事组成的特别委员会，商议换股比例和治理结构[1]。 对股东来说，合并中最重要的数字是换股比例。特斯拉股东的份额，取决于自己的1股能换成多少股SpaceX。 本文的问题是：特斯拉1股能换成多少股SpaceX？这一比例会让特斯拉股东、SpaceX股东以及同时持有两者的股东的价值变", "datePublished": "2026-11-13", "dateModified": "2026-11-13", "inLanguage": "zh-Hans", "image": ["https://raw.githubusercontent.com/YUKICAPITAL/capitallogs-site/main/images/articles/tesla-spacex-exchange-ratio/hero.jpg"], "author": {"@type": "Person", "name": "YUKI CAPITAL", "url": "https://yuki-capital.com/"}, "publisher": {"@type": "Organization", "name": "YUKI CAPITAL", "logo": {"@type": "ImageObject", "url": "https://yuki-capital.com/images/icon.png"}}, "mainEntityOfPage": "https://yuki-capital.com/zh/articles/tesla-spacex-exchange-ratio/", "keywords": ["经济", "航天", "企业分析"]}</script>
+<!--/seo-->
+</head>
+<body>
+<header class="site-header"><div class="wrap">
+<a href="../../../zh/" class="brand"><img class="avatar" src="../../../images/icon.png" alt=""><span>YUKI CAPITAL</span></a>
+<nav class="nav"><a href="../../../zh/articles/" class="primary">文章</a><a href="../../../zh/#capital">今日资本</a><a href="../../../archive/">每日记录</a><a href="../../../zh/#diary">日记</a><a href="../../../zh/about/">简介</a></nav>
+<div class="hdr-actions"><a class="x" href="https://x.com/capitallogs" aria-label="X"><svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 3h3l-7.3 8.3L21.8 21h-6.6l-4.6-6-5.3 6H2.3l7.8-8.9L2 3h6.7l4.2 5.5L17.5 3zm-1.1 16.2h1.8L7.7 4.7H5.8l10.6 14.5z"/></svg></a><a class="note" href="https://note.com/capitallogs">note</a></div>
+</div></header>
+<main class="wrap"><article class="art">
+<div class="meta"><span class="chip">经济</span><span class="chip">宇宙</span><span class="chip">企业</span><span class="num">2026年11月13日</span><span class="langsw" style="margin-left:auto"><a href="../../../articles/tesla-spacex-exchange-ratio/" data-setlang="ja">日本語</a><a href="../../../en/articles/tesla-spacex-exchange-ratio/" data-setlang="en">EN</a><a href="../../../zh/articles/tesla-spacex-exchange-ratio/" data-setlang="zh" class="on">中文</a></span></div>
+<h1>特斯拉与SpaceX若合并，特斯拉1股能换成多少股SpaceX？——用10-Q股数测算各方股东的份额</h1>
+<div class="lead"><p>据报道，特斯拉与SpaceX的合并谈判已有进展，最早可能在12月作为史上最大交易宣布[1]。两家公司的董事会均已设立由独立董事组成的特别委员会，商议换股比例和治理结构[1]。</p><p>对股东来说，合并中最重要的数字是换股比例。特斯拉股东的份额，取决于自己的1股能换成多少股SpaceX。</p><p>本文的问题是：特斯拉1股能换成多少股SpaceX？这一比例会让特斯拉股东、SpaceX股东以及同时持有两者的股东的价值变动多少？</p></div>
+<div class="tldr"><b>结论</b><ol><li>按11月11日收盘价（特斯拉390.84美元、SpaceX139.75美元），无溢价时换股比例约为1股换2.80股，溢价15%约为3.22股，溢价30%约为3.64股。</li><li>溢价15%时，特斯拉股东的价值约增加7.7%，SpaceX股东约减少6.3%。溢价并不创造新价值，只是在两类股东之间转移价值。</li><li>对于两家公司持有金额大致相同的股东（SpaceX 1,250股、特斯拉400股），即使溢价15%，价值变化也只有+0.33%。同时持有两者，比例的输赢几乎相互抵消。</li></ol></div>
+<figure class="hero"><img width="1600" height="900" src="../../../images/articles/tesla-spacex-exchange-ratio/hero.jpg" alt="夜空中的火箭发射"></figure>
+<div class="card">
+<h2>问题与背景</h2>
+<p>本文所说的“换股比例”，是指合并时被吸收公司的每1股，可换得存续公司多少股的比例。这里假设由SpaceX收购特斯拉，并以SpaceX股票支付给特斯拉股东。</p>
+<p>“溢价”是指收购方在被收购方当前股价之上多付的部分。上市公司的收购中，为争取被收购方股东的同意，通常会支付溢价[6]。</p>
+<p>这个问题之所以现在重要，是因为报道已经具体到比例数字。巴伦周刊估算，若向特斯拉股东支付15%溢价，SpaceX股价为200美元时特斯拉1股约换2.3股，140美元时约换3.2股[2]。</p>
+<p>SpaceX股价较6月上市后的高点已大幅回落，股价本身就会左右比例。比例由溢价率和两家公司的股价之比这两个数决定。本文检验哪个数变动时，谁的份额会变动多少。</p>
+<h2>数据与方法</h2>
+<p>股数采用两家公司10-Q（季度报告）封面上的已发行股数。截至2026年10月15日，SpaceX为13,581,063,709股[3]，特斯拉同日为3,952,757,946股[4]。</p>
+<p>股价采用11月11日收盘价，取自野村证券账户的参考市价：特斯拉390.84美元，SpaceX139.75美元。换算市值，特斯拉约1.54万亿美元，SpaceX约1.90万亿美元。</p>
+<p>公式如下：换股比例＝（1＋溢价率）×特斯拉股价÷SpaceX股价。假设合并后公司的价值等于两家市值之和（协同效应为零）。合并后每股价值＝合计市值÷（SpaceX股数＋换股比例×特斯拉股数）。</p>
+<p>溢价率设为0%、15%、30%三种，SpaceX股价设为100美元、139.75美元、200美元三种。15%与巴伦周刊的估算相同，30%接近以往上市公司收购中常见的溢价水平[6]。</p>
+<h2>结果</h2>
+<p>首先按当前股价计算比例。无溢价时，特斯拉1股约换2.80股SpaceX；溢价15%约为3.22股，溢价30%约为3.64股，与巴伦周刊“140美元约换3.2股”基本一致[2]。</p>
+<div class="tbl"><table><tr><th>溢价率</th><th>换股比例</th><th>特斯拉400股可换得的SpaceX股数</th><th>合并后每股价值</th></tr><tr><td>0%</td><td>2.797</td><td>1,119股</td><td>139.75美元</td></tr><tr><td>15%</td><td>3.216</td><td>1,286股</td><td>130.94美元</td></tr><tr><td>30%</td><td>3.636</td><td>1,454股</td><td>123.17美元</td></tr></table></div>
+<p>支付溢价后，特斯拉股东换得的股数增加。但合并后公司的价值不变，每股价值会相应被摊薄。溢价15%时，合并后每股价值由139.75美元降至130.94美元。</p>
+<figure><img width="1200" height="675" src="../../../images/articles/tesla-spacex-exchange-ratio/chart-holders-zh.png" alt="各溢价下不同持有类型的价值变化。假设合并后价值等于两家市值之和。股数取自10-Q，股价为11月11日收盘价。图：YUKI CAPITAL"><figcaption>各溢价下不同持有类型的价值变化。假设合并后价值等于两家市值之和。股数取自10-Q，股价为11月11日收盘价。图：YUKI CAPITAL</figcaption></figure>
+<p>按股东类型列出价值变化，结构就很清楚。溢价15%时，只持有特斯拉的股东约获益7.7%，只持有SpaceX的股东约损失6.3%。溢价30%时，分别约为获益14.6%和损失11.9%。</p>
+<p>两家市值相加，合并后公司价值约为3.44万亿美元。有无溢价，这个合计都不变。变化的只是这笔合计在两类股东之间如何分配。</p>
+<p>另一方面，持有SpaceX 1,250股、特斯拉400股的股东，11月11日的价值约为33.1万美元，两家金额几乎相同。该股东的价值变化，溢价15%时仅为+0.33%（约1,096美元），溢价30%时为+0.62%（约2,062美元）。</p>
+<h2>敏感性分析</h2>
+<p>接着变动SpaceX股价。若股价跌至100美元，溢价15%时比例约为4.50股，特斯拉400股约换1,798股SpaceX。若股价为200美元，比例约为2.25股，可换约899股。</p>
+<figure><img width="1200" height="675" src="../../../images/articles/tesla-spacex-exchange-ratio/chart-ratio-zh.png" alt="SpaceX股价变动时的换股比例，溢价0%、15%、30%。图：YUKI CAPITAL"><figcaption>SpaceX股价变动时的换股比例，溢价0%、15%、30%。图：YUKI CAPITAL</figcaption></figure>
+<p>原特斯拉股东在合并后公司中的持股比例也会变动。按当前股价、溢价15%时约为48.3%；SpaceX股价为100美元时约为56.7%，200美元时约为39.5%。在SpaceX股价越低时确定比例，特斯拉股东的比例就越大。</p>
+<p>对于同时持有两者的股东，再进一步分析。设账户中特斯拉所占比重为w，溢价15%时价值变化约为“w×7.7%－（1－w）×6.3%”。当w约为45%时变化为零，溢价30%时也几乎同样约为45%。</p>
+<div class="tbl"><table><tr><th>账户中特斯拉的比重</th><th>溢价15%时的价值变化</th><th>溢价30%时的价值变化</th></tr><tr><td>20%</td><td>约－3.5%</td><td>约－6.6%</td></tr><tr><td>45%</td><td>约0%</td><td>约0%</td></tr><tr><td>47.2%（本人账户）</td><td>约＋0.3%</td><td>约＋0.6%</td></tr><tr><td>80%</td><td>约＋4.9%</td><td>约＋9.3%</td></tr></table></div>
+<p>换句话说，账户中特斯拉比重高于约45%的股东会因溢价获益，低于45%的股东会受损。溢价率越高，差距越大。越接近各半的股东，越不受比例之争的影响。</p>
+<p>也就是说，对特斯拉股东而言，比例的好坏既取决于溢价率，也同样取决于确定比例当天的SpaceX股价。宣布之前的股价变动，也会直接计入份额。</p>
+<h2>讨论</h2>
+<p>也有相反的看法。合并可能把特斯拉的电动车和机器人，与SpaceX的通信和算力结合起来，产生协同效应。若协同效应很大，合并后公司的价值可能超过两家之和，即使支付溢价，双方股东也可能都获益。本文将协同效应设为零，未包括这种上行可能。</p>
+<p>也存在反方向的风险。摩根大通指出，特斯拉的中国业务与SpaceX的国防合同难以切分，是合并的障碍[1]。若监管和合同的协调耗时较长，宣布时间可能推迟到2027年[1]。</p>
+<p>也要写明数据的局限。股数为10月15日时点，不包括之后的股权激励和新股发行。股价为某一天的收盘价，与确定比例当天的股价不同。据报道马斯克持有SpaceX约44.7%的股份，视表决权的处理方式，比例以外的条件也会影响股东的份额[5]。</p>
+<p>比例之外，还有影响股东份额的条件：马斯克在特斯拉的薪酬承诺在合并后如何延续、合并后董事会由谁组成、各类股份的表决权如何处理。这些不会体现在比例数字上，但对长期持有的股东而言，与比例同样重要。</p>
+<p>检验的标准，是特别委员会公布的比例，以及其依据的股价日期。若比例明显高于3.2股，可解读为偏向特斯拉股东；若明显低于3.2股，则偏向SpaceX股东。</p>
+<h2>结论</h2>
+<p>换股比例由溢价率和两家股价之比决定。按当前股价，范围约为1股换2.8至3.6股。溢价并不创造新价值，只是在特斯拉股东和SpaceX股东之间转移价值。对于两家持有金额大致相同的股东，这种转移几乎不留下影响。与其押注比例，不如先定好账户中的比重，就不容易被合并的宣布左右。</p>
+<h2>我的看法</h2>
+<p>我在日本，持有特斯拉400股、SpaceX 1,250股。作为特斯拉股东，我最关注的是换股比例，希望是让我觉得投资特斯拉是对的比例。不过，比例只能偏向一方，我一直认为两者都持有就不会吃亏。这次测算也用数字确认了这种感觉。所以，宣布当天我不会加仓，也不会卖出。</p>
+<h2>参考文献</h2><ol class="src"><li>Yahoo Finance（Bloomberg配信）「SpaceX, Tesla in talks on record merger」2026-11-12 <a href="https://finance.yahoo.com/markets/stocks/articles/spacex-tesla-talks-record-merger-202235758.html" rel="noopener">https://finance.yahoo.com/markets/stocks/articles/spacex-tesla-talks-record-merger-202235758.html</a></li><li>Yahoo Finance（Barron&#x27;s）「SpaceX stock slump complicates Elon Musk merger」2026-11-12 <a href="https://finance.yahoo.com/markets/stocks/articles/spacex-stock-slump-complicates-elon-144818205.html" rel="noopener">https://finance.yahoo.com/markets/stocks/articles/spacex-stock-slump-complicates-elon-144818205.html</a></li><li>Space Exploration Technologies Corp.「Form 10-Q（2026年9月30日終了四半期）」（発行済株式数の出典として FourWeekMBA の引用を確認） <a href="https://fourweekmba.com/ai-musks-spacex-holdings-were-worth-862b-at-fridays-close/" rel="noopener">https://fourweekmba.com/ai-musks-spacex-holdings-were-worth-862b-at-fridays-close/</a></li><li>Tesla, Inc.「Form 10-Q（2026年9月30日終了四半期）」2026-10-22（発行済株式数の出典として Kalkine の引用を確認） <a href="https://www.kalkine.com/news/announcements/tesla-q3-2026-revenue-flat-rd-surges-to-276b" rel="noopener">https://www.kalkine.com/news/announcements/tesla-q3-2026-revenue-flat-rd-surges-to-276b</a></li><li>Space Exploration Technologies Corp.「Form 424B4（目論見書）」2026-06-12／Elon Musk「Form 4」2026-06-17（保有株数） <a href="https://fourweekmba.com/ai-musks-spacex-holdings-were-worth-862b-at-fridays-close/" rel="noopener">https://fourweekmba.com/ai-musks-spacex-holdings-were-worth-862b-at-fridays-close/</a></li><li>Betton, S., Eckbo, B. E., &amp; Thorburn, K. S.「Corporate Takeovers」Handbook of Empirical Corporate Finance, Vol.2, 2008 <a href="https://doi.org/10.1016/B978-0-444-53265-7.50006-1" rel="noopener">https://doi.org/10.1016/B978-0-444-53265-7.50006-1</a></li></ol>
+<p class="muted" style="font-size:12px">图片：Unsplash。图表由YUKI CAPITAL制作</p><p>每天的数字和判断，我都记录在X上。</p><div class="cta"><a class="btn-dark" href="https://x.com/YUKICAPITALchin">在X上看每天的数字</a></div>
+</div>
+<!--related--><section class="related"><h2>相关文章</h2><ul><li><a href="../china-merger-review/">中国当局为何叫停并购？——把软银集团收购ABB机器人业务一案放进中国的审查记录中</a><span class="num">2026-11-06</span></li><li><a href="../spacex-debt-vs-coreweave/">SpaceX的400亿美元借款是以多少利率借到的？与CoreWeave的15%对照</a><span class="num">2026-10-26</span></li><li><a href="../space-company-ai-cloud/">航天企业变成AI云：把计算资源租给竞争对手的生意</a><span class="num">2026-10-21</span></li></ul></section><!--/related-->
+</article>
+<footer class="site-footer" style="padding-bottom:48px"><span>© 2026 YUKI CAPITAL</span><span><a href="../../../zh/">返回首页</a></span></footer>
+</main>
+<script>document.querySelectorAll('[data-setlang]').forEach(function(a){a.addEventListener('click',function(){try{localStorage.setItem('lang',a.getAttribute('data-setlang'))}catch(e){}})});</script>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "abf23c1820ac43539efd93c2112996da"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>

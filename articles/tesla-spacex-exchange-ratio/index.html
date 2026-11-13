@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>テスラとSpaceXが合併したら、テスラ1株はSpaceX何株になるのか――株主の取り分を10-Qの株数で試算する</title>
+<meta name="description" content="テスラとSpaceXの合併の協議が進み、早ければ12月にも史上最大の案件として発表される可能性があると報じられた[1]。両社の取締役会は独立取締役の特別委員会を設け、交換比率と統治の形を話し合っているという[1]。 合併の話で、株主にとって…">
+<meta property="og:title" content="テスラとSpaceXが合併したら、テスラ1株はSpaceX何株になるのか――株主の取り分を10-Qの株数で試算する">
+<meta property="og:description" content="テスラとSpaceXの合併の協議が進み、早ければ12月にも史上最大の案件として発表される可能性があると報じられた[1]。両社の取締役会は独立取締役の特別委員会を設け、交換比率と統治の形を話し合っているという[1]。 合併の話で、株主にとっていちばん大きいのは交換比率である。テスラの株主は、自分の1株がSpaceXの何株に替わるのかで、取り分が決まる。 本稿の問いは、テスラ1株がSpaceX何株にな">
+<meta property="og:image" content="https://raw.githubusercontent.com/YUKICAPITAL/capitallogs-site/main/images/articles/tesla-spacex-exchange-ratio/hero.jpg">
+<meta property="og:url" content="https://yuki-capital.com/articles/tesla-spacex-exchange-ratio/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@capitallogs">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/YUKICAPITAL/capitallogs-site/main/images/articles/tesla-spacex-exchange-ratio/hero.jpg">
+<meta property="og:type" content="article">
+<link rel="icon" href="../../favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="../../images/apple-touch-icon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../../assets/style.css">
+<style>
+.art{max-width:760px;margin:0 auto;padding:24px 0 48px}
+.art .meta{display:flex;gap:10px;align-items:center;font-size:12px;color:var(--muted)}
+.art h1{font-size:26px;line-height:1.45;margin:12px 0 16px}
+.art .lead{font-size:15px;line-height:1.9;color:var(--ink2);border-left:3px solid var(--accent);padding-left:14px;margin:0 0 20px}
+.art .lead p{margin:0}
+.art .card{padding:24px}
+.art h2{font-size:19px;margin:32px 0 12px;padding-top:4px}
+.art h2:first-child{margin-top:0}
+.art p{font-size:15.5px;line-height:2;margin:0 0 14px}
+.art figure{margin:20px 0;}
+.art figure img{width:100%;border-radius:12px;background:#fff}
+.art figcaption{font-size:12px;color:var(--muted);margin-top:6px;line-height:1.6}
+.art .hero img{border-radius:18px;aspect-ratio:16/9;object-fit:cover;width:100%}
+.art .tbl{overflow-x:auto;margin:12px 0 16px}
+.art table{border-collapse:collapse;font-size:13px;min-width:640px;width:100%}
+.art th,.art td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+.art th{background:var(--accent-soft);font-weight:700}
+.art ol.src{font-size:12.5px;line-height:1.8;padding-left:18px;word-break:break-all}
+.art ol.src a{color:var(--accent)}
+.art .cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.langsw{display:flex;gap:8px;font-size:12px}.langsw a{padding:4px 10px;border-radius:999px;background:var(--card)}.langsw a.on{background:var(--dark);color:#fff}
+@media(max-width:600px){.art h1{font-size:21px}.art .card{padding:18px}}
+</style>
+
+<!--seo-->
+<link rel="canonical" href="https://yuki-capital.com/articles/tesla-spacex-exchange-ratio/">
+<link rel="alternate" hreflang="ja" href="https://yuki-capital.com/articles/tesla-spacex-exchange-ratio/">
+<link rel="alternate" hreflang="en" href="https://yuki-capital.com/en/articles/tesla-spacex-exchange-ratio/">
+<link rel="alternate" hreflang="zh-Hans" href="https://yuki-capital.com/zh/articles/tesla-spacex-exchange-ratio/">
+<link rel="alternate" hreflang="x-default" href="https://yuki-capital.com/articles/tesla-spacex-exchange-ratio/">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:site_name" content="YUKI CAPITAL">
+<meta property="article:published_time" content="2026-11-13">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "テスラとSpaceXが合併したら、テスラ1株はSpaceX何株になるのか――株主の取り分を10-Qの株数で試算する", "description": "テスラとSpaceXの合併の協議が進み、早ければ12月にも史上最大の案件として発表される可能性があると報じられた[1]。両社の取締役会は独立取締役の特別委員会を設け、交換比率と統治の形を話し合っているという[1]。 合併の話で、株主にとっていちばん大きいのは交換比率である。テスラの株主は、自分の1株がSpaceXの何株に替わるのかで、取り分が決まる。 本稿の問いは、テスラ1株がSpaceX何株にな", "datePublished": "2026-11-13", "dateModified": "2026-11-13", "inLanguage": "ja", "image": ["https://raw.githubusercontent.com/YUKICAPITAL/capitallogs-site/main/images/articles/tesla-spacex-exchange-ratio/hero.jpg"], "author": {"@type": "Person", "name": "YUKI CAPITAL", "url": "https://yuki-capital.com/"}, "publisher": {"@type": "Organization", "name": "YUKI CAPITAL", "logo": {"@type": "ImageObject", "url": "https://yuki-capital.com/images/icon.png"}}, "mainEntityOfPage": "https://yuki-capital.com/articles/tesla-spacex-exchange-ratio/", "keywords": ["経済", "宇宙", "企業分析"]}</script>
+<!--/seo-->
+</head>
+<body>
+<header class="site-header"><div class="wrap">
+<a href="../../" class="brand"><img class="avatar" src="../../images/icon.png" alt=""><span>YUKI CAPITAL</span></a>
+<nav class="nav"><a href="../../articles/" class="primary">記事</a><a href="../../#capital">今日の資本</a><a href="../../archive/">毎日の記録</a><a href="../../#diary">日記</a><a href="../../about/">プロフィール</a></nav>
+<div class="hdr-actions"><a class="x" href="https://x.com/capitallogs" aria-label="X"><svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 3h3l-7.3 8.3L21.8 21h-6.6l-4.6-6-5.3 6H2.3l7.8-8.9L2 3h6.7l4.2 5.5L17.5 3zm-1.1 16.2h1.8L7.7 4.7H5.8l10.6 14.5z"/></svg></a><a class="note" href="https://note.com/capitallogs">note</a></div>
+</div></header>
+<main class="wrap"><article class="art">
+<div class="meta"><span class="chip">経済</span><span class="chip">宇宙</span><span class="chip">企業</span><span class="num">2026年11月13日</span><span class="langsw" style="margin-left:auto"><a href="../../articles/tesla-spacex-exchange-ratio/" data-setlang="ja" class="on">日本語</a><a href="../../en/articles/tesla-spacex-exchange-ratio/" data-setlang="en">EN</a><a href="../../zh/articles/tesla-spacex-exchange-ratio/" data-setlang="zh">中文</a></span></div>
+<h1>テスラとSpaceXが合併したら、テスラ1株はSpaceX何株になるのか――株主の取り分を10-Qの株数で試算する</h1>
+<div class="lead"><p>テスラとSpaceXの合併の協議が進み、早ければ12月にも史上最大の案件として発表される可能性があると報じられた[1]。両社の取締役会は独立取締役の特別委員会を設け、交換比率と統治の形を話し合っているという[1]。</p><p>合併の話で、株主にとっていちばん大きいのは交換比率である。テスラの株主は、自分の1株がSpaceXの何株に替わるのかで、取り分が決まる。</p><p>本稿の問いは、テスラ1株がSpaceX何株になるのか、そしてその比率で、テスラの株主・SpaceXの株主・両方を持つ株主の取り分がどれだけ動くのかである。</p></div>
+<div class="tldr"><b>結論</b><ol><li>11月11日の株価（テスラ390.84ドル、SpaceX139.75ドル）なら、上乗せ（プレミアム）なしの交換比率は1株＝約2.80株、15%上乗せで約3.22株、30%上乗せで約3.64株になる。</li><li>15%の上乗せでは、テスラの株主の価値は約7.7%増え、SpaceXの株主の価値は約6.3%減る。上乗せは新しい価値ではなく、2つの株主の間での移しかえである。</li><li>両社をほぼ同じ額で持つ株主（SpaceX1,250株・テスラ400株）では、15%上乗せでも価値の変化は+0.33%にとどまる。両方を持つと、比率の当たり外れはほとんど打ち消し合う。</li></ol></div>
+<figure class="hero"><img width="1600" height="900" src="../../images/articles/tesla-spacex-exchange-ratio/hero.jpg" alt="夜空へ向かうロケットの打ち上げ"></figure>
+<div class="card">
+<h2>問いと背景</h2>
+<p>本稿でいう「交換比率」とは、合併のとき、消える側の会社の株1株に対して、残る側の会社の株を何株渡すかの比率である。ここでは、SpaceXがテスラを買い、テスラの株主にSpaceXの株を渡す形を考える。</p>
+<p>「プレミアム（上乗せ）」とは、買う側が、買われる側の今の株価より高く払う上乗せ分のことである。上場企業の買収では、買われる側の株主の賛成を得るために、上乗せを付けるのが普通とされる[6]。</p>
+<p>この問いが今重要なのは、報道が具体的な比率の数字にまで進み始めたからだ。バロンズの試算では、テスラ株主に15%の上乗せを払う場合、SpaceXの株価が200ドルならテスラ1株あたり約2.3株、140ドルなら約3.2株になるという[2]。</p>
+<p>SpaceXの株価は6月の上場直後の高値から大きく下げており、株価そのものが比率を左右する。比率は上乗せの率と、2社の株価の比の2つで決まる。どちらの数字が動くと、誰の取り分がどれだけ動くのかを確かめる。</p>
+<h2>データと方法</h2>
+<p>株数は、両社の10-Q（四半期報告書）の表紙に書かれた発行済株式数を使った。SpaceXは2026年10月15日時点で13,581,063,709株[3]、テスラは同じ10月15日時点で3,952,757,946株である[4]。</p>
+<p>株価は、11月11日の終値として野村證券の預り資産の参考時価を使った。テスラは390.84ドル、SpaceXは139.75ドルである。時価総額にすると、テスラは約1.54兆ドル、SpaceXは約1.90兆ドルになる。</p>
+<p>式は次のとおりである。交換比率＝（1＋上乗せ率）×テスラの株価÷SpaceXの株価。合併後の会社の価値は、2社の時価総額の合計に等しいと置いた（相乗効果はゼロと仮定）。合併後の1株の価値＝合計の時価総額÷（SpaceXの株数＋交換比率×テスラの株数）。</p>
+<p>上乗せ率は0%・15%・30%の3通り、SpaceXの株価は100ドル・139.75ドル・200ドルの3通りを置いた。15%はバロンズの試算と同じ値で、30%は過去の上場企業の買収でよく見られる上乗せの水準に近い値として置いた[6]。</p>
+<h2>結果</h2>
+<p>まず、今の株価のままで比率を出した。上乗せなしなら、テスラ1株はSpaceX約2.80株になる。15%上乗せで約3.22株、30%上乗せで約3.64株である。バロンズの「140ドルなら約3.2株」とほぼ一致する[2]。</p>
+<div class="tbl"><table><tr><th>上乗せ率</th><th>交換比率</th><th>テスラ400株が受け取るSpaceX株</th><th>合併後の1株の価値</th></tr><tr><td>0%</td><td>2.797</td><td>1,119株</td><td>139.75ドル</td></tr><tr><td>15%</td><td>3.216</td><td>1,286株</td><td>130.94ドル</td></tr><tr><td>30%</td><td>3.636</td><td>1,454株</td><td>123.17ドル</td></tr></table></div>
+<p>上乗せを払うと、テスラの株主が受け取る株は増える。しかし、合併後の会社の価値は変わらないので、1株あたりの価値はそのぶん薄まる。15%の上乗せでは、合併後の1株の価値は139.75ドルから130.94ドルへ下がる。</p>
+<figure><img width="1200" height="675" src="../../images/articles/tesla-spacex-exchange-ratio/chart-holders-ja.png" alt="上乗せごとの、保有の型別の価値の変化。合併後の価値は2社の時価総額の合計と仮定。株数は10-Q、株価は11月11日終値。図：YUKI CAPITAL"><figcaption>上乗せごとの、保有の型別の価値の変化。合併後の価値は2社の時価総額の合計と仮定。株数は10-Q、株価は11月11日終値。図：YUKI CAPITAL</figcaption></figure>
+<p>株主の種類ごとに価値の変化を並べると、構造がはっきりする。15%の上乗せでは、テスラだけを持つ株主は約7.7%得をし、SpaceXだけを持つ株主は約6.3%損をする。30%では、それぞれ約14.6%の得と約11.9%の損になる。</p>
+<p>2社の時価総額を足すと、合併後の会社の価値は約3.44兆ドルになる。上乗せがあってもなくても、この合計は変わらない。変わるのは、その合計を2つの株主の間でどう分けるかだけである。</p>
+<p>一方、SpaceXを1,250株、テスラを400株持つ株主では、11月11日の価値は約33.1万ドルで、2社の額はほぼ同じである。この株主の価値の変化は、15%上乗せで+0.33%（約1,096ドル）、30%上乗せで+0.62%（約2,062ドル）にとどまった。</p>
+<h2>感度分析</h2>
+<p>次に、SpaceXの株価を動かした。株価が100ドルまで下がると、15%上乗せの比率は約4.50株になり、テスラ400株は約1,798株に替わる。株価が200ドルなら、比率は約2.25株、受け取るのは約899株である。</p>
+<figure><img width="1200" height="675" src="../../images/articles/tesla-spacex-exchange-ratio/chart-ratio-ja.png" alt="SpaceXの株価が動いたときの交換比率。上乗せ0%・15%・30%。図：YUKI CAPITAL"><figcaption>SpaceXの株価が動いたときの交換比率。上乗せ0%・15%・30%。図：YUKI CAPITAL</figcaption></figure>
+<p>合併後の会社の中で、もとのテスラの株主が持つ割合も動く。今の株価で15%上乗せなら約48.3%だが、SpaceXの株価が100ドルなら約56.7%、200ドルなら約39.5%になる。SpaceXの株価が低い時期に比率を決めるほど、テスラの株主の割合は大きくなる。</p>
+<p>両方を持つ株主について、もう一歩進めた。口座の中でテスラが占める割合をwとすると、15%上乗せのときの価値の変化はおよそ「w×7.7%−（1−w）×6.3%」になる。これがゼロになるのはwが約45%のときで、30%上乗せでもほぼ同じ約45%になる。</p>
+<div class="tbl"><table><tr><th>口座の中のテスラの割合</th><th>15%上乗せでの価値の変化</th><th>30%上乗せでの価値の変化</th></tr><tr><td>20%</td><td>約−3.5%</td><td>約−6.6%</td></tr><tr><td>45%</td><td>ほぼ0%</td><td>ほぼ0%</td></tr><tr><td>47.2%（本人の口座）</td><td>約+0.3%</td><td>約+0.6%</td></tr><tr><td>80%</td><td>約+4.9%</td><td>約+9.3%</td></tr></table></div>
+<p>言いかえると、口座の中でテスラが約45%より多い株主は上乗せで得をし、少ない株主は損をする。上乗せの率が大きいほど、その差は大きく開く。半々に近い株主ほど、比率の議論から距離を置ける。</p>
+<p>つまり、テスラの株主にとっての比率の良し悪しは、上乗せの率と同じくらい、比率を決める日のSpaceXの株価で決まる。比率が発表されるまでの株価の動きも、取り分に直接入ってくる。</p>
+<h2>考察</h2>
+<p>反対の見方もある。合併には、テスラの電気自動車とロボット、SpaceXの通信と計算資源を一つにまとめる相乗効果がありうる。その効果が大きければ、合併後の会社の価値は2社の合計を上回り、上乗せを払っても両方の株主が得をする可能性がある。本稿は相乗効果をゼロと置いたので、この上振れを含んでいない。</p>
+<p>逆の方向のリスクもある。JPモルガンは、テスラの中国事業とSpaceXの国防の契約を切り分ける難しさを、合併の障害として挙げている[1]。規制や契約の調整に時間がかかれば、発表が2027年にずれ込む可能性もある[1]。</p>
+<p>データの限界も書いておく。株数は10月15日時点で、その後の株式報酬や新しい株の発行は入っていない。株価は1日の終値で、比率が決まる日の株価とは違う。マスク氏はSpaceXの株の約44.7%を持つとされ、議決権の扱いによっては、比率以外の条件が株主の取り分を左右する[5]。</p>
+<p>比率のほかにも、株主の取り分を左右する条件はある。マスク氏のテスラでの報酬の約束が合併後にどう引き継がれるか、合併後の取締役会を誰が占めるか、種類株の議決権をどう扱うかである。これらは比率の数字には表れないが、長く持つ株主にとっては比率と同じくらい重い。</p>
+<p>答え合わせの基準は、特別委員会が示す比率と、その根拠に使った株価の日付である。比率が3.2株を大きく上回ればテスラの株主に、大きく下回ればSpaceXの株主に寄った条件と読める。</p>
+<h2>結論</h2>
+<p>交換比率は、上乗せの率と2社の株価の比で決まる。今の株価なら1株＝約2.8〜3.6株の範囲になる。上乗せは新しい価値を生むものではなく、テスラの株主とSpaceXの株主の間で価値を移す仕組みである。2社をほぼ同じ額で持つ株主には、その移しかえの影響がほとんど残らない。比率を当てにいくより、口座の中の割合を先に決めておくほうが、合併の発表に振り回されにくい。</p>
+<h2>僕はこう見ている</h2>
+<p>僕はテスラを400株、SpaceXを1,250株持っている。テスラの株主として、いちばん見ているのは交換比率で、テスラに投資してよかったと思える比率にしてほしいと思っている。ただ、比率はどちらかに有利になるしかなく、両方を持っていれば損はしないだろうと考えてきた。今回の試算で、その感覚は数字でも確かめられた。だから僕は、発表の日も何も足さず、何も売らない。</p>
+<h2>出典</h2><ol class="src"><li>Yahoo Finance（Bloomberg配信）「SpaceX, Tesla in talks on record merger」2026-11-12 <a href="https://finance.yahoo.com/markets/stocks/articles/spacex-tesla-talks-record-merger-202235758.html" rel="noopener">https://finance.yahoo.com/markets/stocks/articles/spacex-tesla-talks-record-merger-202235758.html</a></li><li>Yahoo Finance（Barron&#x27;s）「SpaceX stock slump complicates Elon Musk merger」2026-11-12 <a href="https://finance.yahoo.com/markets/stocks/articles/spacex-stock-slump-complicates-elon-144818205.html" rel="noopener">https://finance.yahoo.com/markets/stocks/articles/spacex-stock-slump-complicates-elon-144818205.html</a></li><li>Space Exploration Technologies Corp.「Form 10-Q（2026年9月30日終了四半期）」（発行済株式数の出典として FourWeekMBA の引用を確認） <a href="https://fourweekmba.com/ai-musks-spacex-holdings-were-worth-862b-at-fridays-close/" rel="noopener">https://fourweekmba.com/ai-musks-spacex-holdings-were-worth-862b-at-fridays-close/</a></li><li>Tesla, Inc.「Form 10-Q（2026年9月30日終了四半期）」2026-10-22（発行済株式数の出典として Kalkine の引用を確認） <a href="https://www.kalkine.com/news/announcements/tesla-q3-2026-revenue-flat-rd-surges-to-276b" rel="noopener">https://www.kalkine.com/news/announcements/tesla-q3-2026-revenue-flat-rd-surges-to-276b</a></li><li>Space Exploration Technologies Corp.「Form 424B4（目論見書）」2026-06-12／Elon Musk「Form 4」2026-06-17（保有株数） <a href="https://fourweekmba.com/ai-musks-spacex-holdings-were-worth-862b-at-fridays-close/" rel="noopener">https://fourweekmba.com/ai-musks-spacex-holdings-were-worth-862b-at-fridays-close/</a></li><li>Betton, S., Eckbo, B. E., &amp; Thorburn, K. S.「Corporate Takeovers」Handbook of Empirical Corporate Finance, Vol.2, 2008 <a href="https://doi.org/10.1016/B978-0-444-53265-7.50006-1" rel="noopener">https://doi.org/10.1016/B978-0-444-53265-7.50006-1</a></li></ol>
+<p class="muted" style="font-size:12px">写真：Unsplash。図はYUKI CAPITALが作成</p><p>日々の数字と判断は、Xで記録している。</p><div class="cta"><a class="btn-dark" href="https://x.com/capitallogs">Xで毎日の数字を見る</a><a class="btn-light" href="https://note.com/capitallogs" style="border:1px solid var(--line)">noteでも書いている</a></div>
+</div>
+<!--related--><section class="related"><h2>関連する記事</h2><ul><li><a href="../china-merger-review/">中国当局はなぜM&amp;Aを止めるのか――ソフトバンクG・ABB案件を中国の審査記録の中に置く</a><span class="num">2026-11-06</span></li><li><a href="../spacex-debt-vs-coreweave/">SpaceXの400億ドルの借金は何%で借りられたのか。CoreWeaveの15%と並べる</a><span class="num">2026-10-26</span></li><li><a href="../space-company-ai-cloud/">宇宙企業がAIクラウドになる。計算資源を競合に貸すという商売</a><span class="num">2026-10-21</span></li></ul></section><!--/related-->
+</article>
+<footer class="site-footer" style="padding-bottom:48px"><span>© 2026 YUKI CAPITAL</span><span><a href="../../">トップへ</a></span></footer>
+</main>
+<script>document.querySelectorAll('[data-setlang]').forEach(function(a){a.addEventListener('click',function(){try{localStorage.setItem('lang',a.getAttribute('data-setlang'))}catch(e){}})});</script>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "abf23c1820ac43539efd93c2112996da"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>
