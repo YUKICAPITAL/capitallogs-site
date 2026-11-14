@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T12:00:00+09:00",
+  "updated": "2026-11-14T22:00:00+09:00",
   "profile": {
     "name": "YUKI CAPITAL",
     "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -25,7 +25,7 @@
     "unreal_pct": 19.08,
     "cash": 4543457,
     "cash_pct": 1.15,
-    "trade": "売買なし",
+    "trade": "売買なし（金曜にD-Wave・Rigetti各500株を成行で注文・約定待ち）",
     "alloc": [
       {
         "name": "国内株",
@@ -136,8 +136,8 @@
     ],
     "label_en": "Nov 13 (Fri)",
     "label_zh": "11.13（周五）",
-    "trade_en": "No trades",
-    "trade_zh": "无交易",
+    "trade_en": "No trades (ordered 500 shares each of D-Wave and Rigetti at market on Friday, awaiting execution)",
+    "trade_zh": "无交易（周五以市价下单D-Wave与Rigetti各500股，待成交）",
     "week": {
       "from": "2026-11-06",
       "to": "2026-11-13",
@@ -302,64 +302,70 @@
     }
   ],
   "posts": {
-    "date": "2026-11-13",
-    "count": 27,
+    "date": "2026-11-14",
+    "count": 18,
     "items": [
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.13",
-        "kind": "判断枠",
-        "kind_en": "Judgment",
-        "kind_zh": "判断",
-        "title": "AI相場が揺れても、作る側は持たない",
-        "title_en": "When AI stocks swing, I still do not own the chipmakers",
-        "title_zh": "AI行情再动荡，我也不持有制造方"
+        "time": "11.14",
+        "kind": "シリーズ",
+        "kind_en": "Series",
+        "kind_zh": "系列",
+        "title": "ダリオ・アモデイ、物理学者がAIの会社を作るまで",
+        "title_en": "Dario Amodei: how a physicist came to build an AI company",
+        "title_zh": "达里奥·阿莫代伊：一位物理学家如何创办AI公司"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.13",
+        "time": "11.14",
         "kind": "日記",
         "kind_en": "Diary",
         "kind_zh": "日记",
-        "title": "子ども2人と3人で寝た夜",
-        "title_en": "The night I slept with both of my kids",
-        "title_zh": "和两个孩子三个人一起睡的夜晚"
+        "title": "ランチ、サウナ、鍼、妻のハンバーグ。11月13日の金曜",
+        "title_en": "Lunch shift, sauna, acupuncture and my wife's hamburg steak: Friday, Nov 13",
+        "title_zh": "帮午餐、桑拿、针灸和妻子做的汉堡肉：11月13日周五"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.13",
+        "time": "11.14",
         "kind": "長文",
-        "kind_en": "Essay",
+        "kind_en": "Long read",
         "kind_zh": "长文",
-        "title": "入居者への一斉送信を、1時間で作った",
-        "title_en": "I built a broadcast to all tenants in one hour",
-        "title_zh": "一小时做出了给全体租户的群发功能"
+        "title": "断薬の1週間、鍼とマッサージとNBAで気をそらした",
+        "title_en": "A week off my medication: acupuncture, massage and the NBA to keep my mind elsewhere",
+        "title_zh": "停药的一周：用针灸、按摩和NBA转移注意力"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.13",
-        "kind": "ニュース",
-        "kind_en": "News",
-        "kind_zh": "新闻",
-        "title": "三井住友トラスト、純利益4,200億円へ上方修正",
-        "title_en": "Sumitomo Mitsui Trust raises its profit forecast to ¥420 billion",
-        "title_zh": "三井住友信托将净利润预期上调至4,200亿日元"
+        "time": "11.14",
+        "kind": "資本枠",
+        "kind_en": "Capital",
+        "kind_zh": "资本",
+        "title": "量子株が下げた金曜、D-WaveとRigettiを500株ずつ",
+        "title_en": "Quantum stocks fell on Friday: 500 shares each of D-Wave and Rigetti",
+        "title_zh": "量子股下跌的周五，D-Wave和Rigetti各买500股"
       }
     ]
   },
   "note": [
+    {
+      "date": "2026-11-14",
+      "title": "エヌビディアの後任はリサ・スーか、レネ・ハースか。名前が挙がった8人と、元の会社に起きること",
+      "url": "https://note.com/capitallogs/n/nac1f926a915b",
+      "image": null
+    },
     {
       "date": "2026-11-13",
       "title": "創業者が去る日に見るのは、株価ではなく持ち株の比率だ",
@@ -500,25 +506,25 @@
     }
   ],
   "diary": {
-    "date": "2026-11-12（木）",
-    "place": "会社・ジム・家",
-    "title": "子ども2人と3人で寝た夜",
-    "text": "会社でXの投稿と、入居者への一斉送信の仕組みを1時間位で作った。昼はジムで筋トレとランニング。夜は妻のハンバーグとチャプチェ。次男のお泊まりの練習を兼ねて、子どもたち2人と3人で寝た。7時間半眠れた。",
+    "date": "2026-11-13（金）",
+    "place": "会社・店・サウナ・鍼・家",
+    "title": "ランチ、サウナ、鍼、妻のハンバーグ。11月13日の金曜",
+    "text": "朝ご飯の後に会社へ。昼は店でランチを手伝い、料理を手渡し盛り付けもして、スタッフ全員に「最近元気？」と声をかけた。サウナの後は会社で夕方まで仕事。鍼の後、妻のハンバーグを食べ、久しぶりにポテトチップスも。8時間ほど眠れた。",
     "image": null,
     "url": "https://x.com/capitallogs",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin",
-    "date_en": "Thu, Nov 12, 2026",
-    "date_zh": "2026.11.12（周四）",
-    "place_en": "Office, gym and home",
-    "place_zh": "公司、健身房和家",
-    "title_en": "The night I slept with both of my kids",
-    "title_zh": "和两个孩子三个人一起睡的夜晚",
-    "text_en": "At the office I posted on X and built a broadcast to all tenants in about an hour. At lunch, strength training and running at the gym. Dinner was my wife's hamburg steak and japchae. As practice for my younger son's sleepover, I slept with both kids. I slept 7.5 hours.",
-    "text_zh": "在公司发了X的帖子，用大约一小时做出了给全体租户的群发功能。中午在健身房做力量训练和跑步。晚上吃了妻子做的汉堡肉和杂菜。为了给次子练习外宿，我和两个孩子三个人一起睡。睡了7个半小时。"
+    "date_en": "Fri, Nov 13, 2026",
+    "date_zh": "2026.11.13（周五）",
+    "place_en": "Office, restaurant, sauna, acupuncture and home",
+    "place_zh": "公司、餐厅、桑拿、针灸和家",
+    "title_en": "Lunch shift, sauna, acupuncture and my wife's hamburg steak: Friday, Nov 13",
+    "title_zh": "帮午餐、桑拿、针灸和妻子做的汉堡肉：11月13日周五",
+    "text_en": "Breakfast, then the office. At lunch I helped at my restaurant, handing dishes to the floor staff and plating, and asked every staff member how they were doing. After a sauna I worked at the office until evening. After acupuncture, my wife's hamburg steak and, for once, potato chips. I slept about eight hours.",
+    "text_zh": "早饭后去公司。中午在自己的餐厅帮忙午市，递菜、装盘，并向每位员工问候“最近好吗”。桑拿后回公司工作到傍晚。针灸后吃了妻子做的汉堡肉，久违地吃了薯片。睡了约8小时。"
   },
   "media": {
-    "updated": "2026-11-13 10:26",
+    "updated": "2026-11-14 21:47",
     "impressions_month": null,
     "impressions_daily": [],
     "followers": [
@@ -534,7 +540,7 @@
         "name": "X English",
         "handle": "@YUKICAPITALen",
         "url": "https://x.com/YUKICAPITALen",
-        "count": 102,
+        "count": 103,
         "name_en": "X English",
         "name_zh": "X 英文"
       },
@@ -542,7 +548,7 @@
         "name": "X 中文",
         "handle": "@YUKICAPITALchin",
         "url": "https://x.com/YUKICAPITALchin",
-        "count": 66,
+        "count": 68,
         "name_en": "X Chinese",
         "name_zh": "X 中文"
       },
@@ -561,49 +567,48 @@
           "name": "X 日本語",
           "name_en": "X Japanese",
           "name_zh": "X 日文",
-          "d7": 42312,
-          "d28": 186859
+          "d7": 40317,
+          "d28": 188404
         },
         {
           "name": "X English",
           "name_en": "X English",
           "name_zh": "X 英文",
-          "d7": 8009,
-          "d28": 35785
+          "d7": 8189,
+          "d28": 36253
         },
         {
           "name": "X 中文",
           "name_en": "X Chinese",
           "name_zh": "X 中文",
-          "d7": 8465,
-          "d28": 42608
+          "d7": 8405,
+          "d28": 43012
         },
         {
           "name": "note",
           "name_en": "note",
           "name_zh": "note",
-          "d7": 1039,
-          "d28": 2985
+          "d7": 1168,
+          "d28": 3129
         },
         {
           "name": "サイト",
           "name_en": "Site",
           "name_zh": "网站",
-          "d7": 216,
-          "d28": 580
+          "d7": 227,
+          "d28": 680
         }
       ],
-      "total_d7": 60041,
-      "total_d28": 268817
+      "total_d7": 58306,
+      "total_d28": 271478
     },
     "site": {
-      "visits_24h": 31,
-      "pv_24h": 39,
+      "visits_24h": 20,
+      "pv_24h": 29,
       "visits_7d": null
     },
     "daily": {
       "dates": [
-        "2026-10-17",
         "2026-10-18",
         "2026-10-19",
         "2026-10-20",
@@ -630,10 +635,10 @@
         "2026-11-10",
         "2026-11-11",
         "2026-11-12",
-        "2026-11-13"
+        "2026-11-13",
+        "2026-11-14"
       ],
       "x_ja": [
-        3982,
         4636,
         6215,
         5951,
@@ -660,10 +665,10 @@
         6522,
         5931,
         6436,
-        87
+        4953,
+        661
       ],
       "x_en": [
-        764,
         1874,
         1438,
         1008,
@@ -690,10 +695,10 @@
         1529,
         1147,
         1572,
-        23
+        1093,
+        162
       ],
       "x_zh": [
-        989,
         1080,
         1807,
         1706,
@@ -720,10 +725,10 @@
         1324,
         1041,
         1336,
-        25
+        1194,
+        224
       ],
       "note": [
-        91,
         30,
         47,
         42,
@@ -750,29 +755,41 @@
         172,
         213,
         188,
-        20
+        133,
+        122
       ]
     },
     "today": {
-      "date": "2026-11-13",
-      "x_ja": 87,
-      "x_en": 23,
-      "x_zh": 25,
-      "note": 20,
-      "site_visits_24h": 31,
-      "site_pv_24h": 39,
-      "at": "2026-11-13 10:26"
+      "date": "2026-11-14",
+      "x_ja": 661,
+      "x_en": 162,
+      "x_zh": 224,
+      "note": 122,
+      "site_visits_24h": 20,
+      "site_pv_24h": 29,
+      "at": "2026-11-14 21:47"
     },
     "intraday": [
       {
-        "at": "2026-11-13 10:26",
-        "x": 135,
-        "site_pv_24h": 39,
-        "site_visits_24h": 31
+        "at": "2026-11-14 21:47",
+        "x": 1047,
+        "site_pv_24h": 29,
+        "site_visits_24h": 20
       }
     ]
   },
   "archive": [
+    {
+      "date": "2026-11-14",
+      "label": "11.14（土）",
+      "total": null,
+      "diff_pct": null,
+      "memo": "休場 ｜ 18本×3言語 ｜ 量子2銘柄を注文（金曜） ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "Market closed ｜ 18 posts x 3 languages ｜ Ordered 2 quantum stocks (Fri) ｜ 1 note ｜ 1 article",
+      "memo_zh": "休市 ｜ 18条×3种语言 ｜ 下单2只量子股（周五） ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Nov 14 Sat",
+      "label_zh": "11.14 周六"
+    },
     {
       "date": "2026-11-13",
       "label": "11.13（金）",
@@ -1094,6 +1111,25 @@
     }
   ],
   "articles": [
+    {
+      "slug": "jgb-flat35-tokyo-condo",
+      "date": "2026-11-14",
+      "image": "images/articles/jgb-flat35-tokyo-condo/hero.jpg",
+      "category": "経済",
+      "category_en": "Economy",
+      "category_zh": "经济",
+      "tags": [
+        "economy",
+        "realestate",
+        "finance"
+      ],
+      "title": "長期金利2.855%は、フラット35と東京の不動産価格に何か月で届くか――財務省・住宅金融支援機構・国交省のデータで検証",
+      "lead": "日本の長期金利（10年物国債の利回り）は、11月13日に2.855%まで上がった。1年あまり前の1%台から、2倍近い水準である。 住宅を買う人にとって、この数字はそのままでは届かない。届くのは住宅ローンの金利と、物件の値段を通してである。 本稿の問いは、長期金利の上昇が、何か月の遅れで全期間固定の住宅ローン（フラット35）と東京の中古マンションの価格に表れるのか、である。",
+      "title_en": "How Fast Does Japan's 2.855% Long-Term Yield Reach Flat 35 Mortgages and Tokyo Condo Prices? Testing It with MOF, JHF and MLIT Data",
+      "lead_en": "Japan's long-term interest rate (the 10-year government bond yield) rose to 2.855% on November 13. That is close to double the 1% range of a little over a year ago. For home buyers, this number does not arrive directly. It arrives through mortgage rates and through the prices of the homes themselves. The question here: with what lag does a rise in the long-term yield show up in Japan's fully fixed-rate mortgage (Flat 35) and in the price of second-hand condos in Tokyo?",
+      "title_zh": "日本长期利率升至2.855%，需要几个月传导到Flat35房贷利率和东京房价？——用财务省、住宅金融支援机构、国土交通省的数据检验",
+      "lead_zh": "日本的长期利率（10年期国债收益率）在11月13日升至2.855%。这接近一年多以前1%区间的两倍。对购房者来说，这个数字不会直接到达。它通过房贷利率和房价本身传导过来。本文的问题是：长期利率上升后，需要几个月才会体现在日本的全期固定利率房贷（Flat35）和东京二手公寓的价格上？"
+    },
     {
       "slug": "tesla-spacex-exchange-ratio",
       "date": "2026-11-13",

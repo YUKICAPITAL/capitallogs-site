@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>日本长期利率升至2.855%，需要几个月传导到Flat35房贷利率和东京房价？——用财务省、住宅金融支援机构、国土交通省的数据检验</title>
+<meta name="description" content="日本的长期利率（10年期国债收益率）在11月13日升至2.855%。这接近一年多以前1%区间的两倍。 对购房者来说，这个数字不会直接到达。它通过房贷利率和房价本身传导过来。 本文的问题是：长期利率上升后，需要几个月才会体现在日本的全期固定利…">
+<meta property="og:title" content="如果对公寓短期转售征收更重的税，房价和&quot;收购翻新再售&quot;企业会怎样？——用日本国土交通省的登记数据和税率测算">
+<meta property="og:description" content="据报道，特斯拉与SpaceX的合并谈判已有进展，最早可能在12月作为史上最大交易宣布[1]。两家公司的董事会均已设立由独立董事组成的特别委员会，商议换股比例和治理结构[1]。 对股东来说，合并中最重要的数字是换股比例。特斯拉股东的份额，取决于自己的1股能换成多少股SpaceX。 本文的问题是：特斯拉1股能换成多少股SpaceX？这一比例会让特斯拉股东、SpaceX股东以及同时持有两者的股东的价值变">
+<meta property="og:image" content="https://raw.githubusercontent.com/YUKICAPITAL/capitallogs-site/main/images/articles/jgb-flat35-tokyo-condo/hero.jpg">
+<meta property="og:url" content="https://yuki-capital.com/zh/articles/jgb-flat35-tokyo-condo/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@capitallogs">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/YUKICAPITAL/capitallogs-site/main/images/articles/jgb-flat35-tokyo-condo/hero.jpg">
+<meta property="og:type" content="article">
+<link rel="icon" href="../../../favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="../../../images/apple-touch-icon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../../../assets/style.css">
+<style>
+.art{max-width:760px;margin:0 auto;padding:24px 0 48px}
+.art .meta{display:flex;gap:10px;align-items:center;font-size:12px;color:var(--muted)}
+.art h1{font-size:26px;line-height:1.45;margin:12px 0 16px}
+.art .lead{font-size:15px;line-height:1.9;color:var(--ink2);border-left:3px solid var(--accent);padding-left:14px;margin:0 0 20px}
+.art .lead p{margin:0}
+.art .card{padding:24px}
+.art h2{font-size:19px;margin:32px 0 12px;padding-top:4px}
+.art h2:first-child{margin-top:0}
+.art p{font-size:15.5px;line-height:2;margin:0 0 14px}
+.art figure{margin:20px 0;}
+.art figure img{width:100%;border-radius:12px;background:#fff}
+.art figcaption{font-size:12px;color:var(--muted);margin-top:6px;line-height:1.6}
+.art .hero img{border-radius:18px;aspect-ratio:16/9;object-fit:cover;width:100%}
+.art .tbl{overflow-x:auto;margin:12px 0 16px}
+.art table{border-collapse:collapse;font-size:13px;min-width:640px;width:100%}
+.art th,.art td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+.art th{background:var(--accent-soft);font-weight:700}
+.art ol.src{font-size:12.5px;line-height:1.8;padding-left:18px;word-break:break-all}
+.art ol.src a{color:var(--accent)}
+.art .cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.langsw{display:flex;gap:8px;font-size:12px}.langsw a{padding:4px 10px;border-radius:999px;background:var(--card)}.langsw a.on{background:var(--dark);color:#fff}
+@media(max-width:600px){.art h1{font-size:21px}.art .card{padding:18px}}
+</style>
+
+<!--seo-->
+<link rel="canonical" href="https://yuki-capital.com/zh/articles/jgb-flat35-tokyo-condo/">
+<link rel="alternate" hreflang="ja" href="https://yuki-capital.com/articles/jgb-flat35-tokyo-condo/">
+<link rel="alternate" hreflang="en" href="https://yuki-capital.com/en/articles/jgb-flat35-tokyo-condo/">
+<link rel="alternate" hreflang="zh-Hans" href="https://yuki-capital.com/zh/articles/jgb-flat35-tokyo-condo/">
+<link rel="alternate" hreflang="x-default" href="https://yuki-capital.com/articles/jgb-flat35-tokyo-condo/">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:site_name" content="YUKI CAPITAL">
+<meta property="article:published_time" content="2026-11-14">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "日本长期利率升至2.855%，需要几个月传导到Flat35房贷利率和东京房价？——用财务省、住宅金融支援机构、国土交通省的数据检验", "description": "日本的长期利率（10年期国债收益率）在11月13日升至2.855%。这接近一年多以前1%区间的两倍。对购房者来说，这个数字不会直接到达。它通过房贷利率和房价本身传导过来。本文的问题是：长期利率上升后，需要几个月才会体现在日本的全期固定利率房贷（Flat35）和东京二手公寓的价格上？", "datePublished": "2026-11-14", "dateModified": "2026-11-14", "inLanguage": "zh-Hans", "image": ["https://raw.githubusercontent.com/YUKICAPITAL/capitallogs-site/main/images/articles/jgb-flat35-tokyo-condo/hero.jpg"], "author": {"@type": "Person", "name": "YUKI CAPITAL", "url": "https://yuki-capital.com/"}, "publisher": {"@type": "Organization", "name": "YUKI CAPITAL", "logo": {"@type": "ImageObject", "url": "https://yuki-capital.com/images/icon.png"}}, "mainEntityOfPage": "https://yuki-capital.com/zh/articles/jgb-flat35-tokyo-condo/", "keywords": ["经济", "房地产", "金融·银行"]}</script>
+<!--/seo-->
+</head>
+<body>
+<header class="site-header"><div class="wrap">
+<a href="../../../zh/" class="brand"><img class="avatar" src="../../../images/icon.png" alt=""><span>YUKI CAPITAL</span></a>
+<nav class="nav"><a href="../../../zh/articles/" class="primary">文章</a><a href="../../../zh/#capital">今日资本</a><a href="../../../archive/">每日记录</a><a href="../../../zh/#diary">日记</a><a href="../../../zh/about/">简介</a></nav>
+<div class="hdr-actions"><a class="x" href="https://x.com/capitallogs" aria-label="X"><svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 3h3l-7.3 8.3L21.8 21h-6.6l-4.6-6-5.3 6H2.3l7.8-8.9L2 3h6.7l4.2 5.5L17.5 3zm-1.1 16.2h1.8L7.7 4.7H5.8l10.6 14.5z"/></svg></a><a class="note" href="https://note.com/capitallogs">note</a></div>
+</div></header>
+<main class="wrap"><article class="art">
+<div class="meta"><span class="chip">经济</span><span class="chip">金融</span><span class="num">2026年11月14日</span><span class="langsw" style="margin-left:auto"><a href="../../../articles/jgb-flat35-tokyo-condo/" data-setlang="ja">日本語</a><a href="../../../en/articles/jgb-flat35-tokyo-condo/" data-setlang="en">EN</a><a href="../../../zh/articles/jgb-flat35-tokyo-condo/" data-setlang="zh" class="on">中文</a></span></div>
+<h1>日本长期利率升至2.855%，需要几个月传导到Flat35房贷利率和东京房价？——用财务省、住宅金融支援机构、国土交通省的数据检验</h1>
+<div class="lead"><p>日本的长期利率（10年期国债收益率）在11月13日升至2.855%。这接近一年多以前1%区间的两倍。</p><p>对购房者来说，这个数字不会直接到达。它通过房贷利率和房价本身传导过来。</p><p>本文的问题是：长期利率上升后，需要几个月才会体现在日本的全期固定利率房贷（Flat35）和东京二手公寓的价格上？</p></div>
+<div class="tldr"><b>结论</b><ol><li>长期利率大约滞后1个月传导到Flat35。2025年12月末至2026年8月末，长期利率上升0.88个百分点，而次月的Flat35利率上升了1.38个百分点。</li><li>东京23区二手公寓价格在长期利率于2026年1月升至2.33%之后约5个月，即6月停止上涨，并在8月之前连续3个月下跌。</li><li>在月供不变的情况下，Flat35利率从2.08%升至3.81%，可借金额约减少22%。价格停止上涨，处在这一缩减可以解释的范围内。</li></ol></div>
+<figure class="hero"><img width="1600" height="900" src="../../../images/articles/jgb-flat35-tokyo-condo/hero.jpg" alt="黄昏时分的东京街景"></figure>
+<div class="card">
+<h2>问题与背景</h2>
+<p>长期利率是指剩余期限10年的国债收益率。本文使用日本财务省每天公布的10年期国债收益率[1]。一般认为，固定利率房贷是在这一收益率的基础上确定的[3]。</p>
+<p>Flat35是日本住宅金融支援机构与民间金融机构合作提供的、最长35年的全期固定利率房贷。利率每月确定，2026年11月放款、还款期限21至35年、贷款比例90%以下的利率为年3.810%[2]。</p>
+<p>先定义两个用语。最常见利率是指经办金融机构中使用最多的利率。贷款比例是指贷款额占房价的比例，90%以下意味着首付至少一成。</p>
+<p>另一方面，房价并不只由房贷利率决定。建筑成本、人工以及卖方的情况也会产生影响。本文只聚焦于利率变化传导到价格所需的时间。</p>
+<h2>数据与方法</h2>
+<p>本文使用以下4组数据：(1)财务省的10年期国债收益率[1]，(2)住宅金融支援机构的Flat35最常见利率[2][3]，(3)国土交通省的既有住宅销售量指数[4][5]，(4)东京Kantei公布的东京23区二手公寓价格（按70平方米换算）[6][7]。</p>
+<p>对于长期利率和Flat35，把月末的长期利率与次月的Flat35配成一组，比较上升幅度。因为Flat35的利率是参考上个月的市场利率确定的。</p>
+<p>对于价格，找出停止上涨的月份，计算它与长期利率越过关口的月份之间相隔几个月。最后，以4,000万日元、35年、等额本息的贷款，计算各利率下的月供，以及月供不变时可借的金额。</p>
+<h2>结果</h2>
+<div class="tbl"><table><thead><tr><th>月末长期利率</th><th>次月Flat35（最常见）</th><th>差（百分点）</th></tr></thead><tbody><tr><td>2025年12月末 2.066%</td><td>2026年1月 2.080%</td><td>0.01</td></tr><tr><td>2026年6月末 2.69%</td><td>2026年7月 3.140%</td><td>0.45</td></tr><tr><td>2026年8月末 2.943%</td><td>2026年9月 3.460%</td><td>0.52</td></tr></tbody></table></div>
+<figure><img width="1200" height="675" src="../../../images/articles/jgb-flat35-tokyo-condo/chart-pass-zh.png" alt="图1　月末长期利率与次月Flat35（最常见利率）。根据财务省、住宅金融支援机构公布数据制作" loading="lazy"><figcaption>图1　月末长期利率与次月Flat35（最常见利率）。根据财务省、住宅金融支援机构公布数据制作</figcaption></figure>
+<p>2025年12月末至2026年8月末，长期利率从2.066%升至2.943%，上升0.877个百分点。比较对应的次月，Flat35从2.080%升至3.460%，上升1.38个百分点[3]。房贷利率的涨幅大于长期利率。与一年前的2025年6月末相比，长期利率上升了1.228个百分点[3]。</p>
+<p>原因在于两者之差从0.01个百分点扩大到0.52个百分点。可以理解为，在利率上升阶段，放贷方加厚了加点。Flat35在2026年11月已升至3.810%[2]。</p>
+<p>价格方面，先确认上涨持续的时期。2026年4月，东京23区二手公寓的平均价格为1亿2,724万日元，环比上涨2.4%，连续24个月上涨[11]。</p>
+<p>此后，该价格在2026年5月之前连续25个月刷新最高纪录，之后在6月和7月下跌[6]。7月为1亿2,724万日元，比上年同月仍高21.4%，但比上月低0.1%[6]。8月再跌0.4%，至1亿2,677万日元，连续3个月下跌[7]。同在8月，东京都整体也下跌0.2%，至1亿1,274万日元，是28个月来首次下跌；周边3县则全部上涨，下跌是从市中心开始的[7]。</p>
+<p>长期利率在2026年1月20日升至2.33%[3]。从那时到价格停止上涨的6月，大约相隔5个月。</p>
+<p>另一方面，成交量并没有下降。经季节调整的既有住宅销售量指数在2025年9月为129.8，2026年7月为132.4，基本持平[4][5]。价格上涨停止了，但买卖本身仍在继续。</p>
+<p>新建公寓方面，首都圈2026财年上半年的平均价格同比上涨21.1%，至1亿1,494万日元，而发售套数减少6.0%，为8,601套[9]。据报道，买方跟不上高企的价格。</p>
+<h2>敏感性分析</h2>
+<div class="tbl"><table><thead><tr><th>Flat35利率</th><th>月供（4,000万日元・35年）</th><th>按2.08%时的月供可借金额</th></tr></thead><tbody><tr><td>2.08%（2026年1月）</td><td>13万4,153日元</td><td>4,000万日元（基准）</td></tr><tr><td>3.14%（2026年7月）</td><td>15万7,082日元</td><td>3,416万日元（-14.6%）</td></tr><tr><td>3.46%（2026年9月）</td><td>16万4,391日元</td><td>3,264万日元（-18.4%）</td></tr><tr><td>3.81%（2026年11月）</td><td>17万2,580日元</td><td>3,109万日元（-22.3%）</td></tr></tbody></table></div>
+<figure><img width="1200" height="675" src="../../../images/articles/jgb-flat35-tokyo-condo/chart-cap-zh.png" alt="图2　月供13.4153万日元时可借金额（35年・等额本息）。YUKI CAPITAL测算" loading="lazy"><figcaption>图2　月供13.4153万日元时可借金额（35年・等额本息）。YUKI CAPITAL测算</figcaption></figure>
+<p>同样借4,000万日元，月供从2.08%时的13万4,153日元增至3.81%时的17万2,580日元，增加3万8,427日元。反过来，若把月供保持在13万4,153日元，可借金额会减少到3,109万日元。即使在7月的3.14%也减少了14.6%，在9月的3.46%减少了18.4%，利率每上升一次，上限就下降一次。</p>
+<p>可借金额减少两成，同等收入的人能出的价格也会下降近两成。例如，对于让月供占收入比例保持不变的买方来说，利率只要上升1.7个百分点，预算就会从4,000万日元缩到3,100万日元区间。价格停止上涨、高价房源开始滞销，与这种缩减并不矛盾。</p>
+<p>在目前2.855%的长期利率上加上7月和9月的差（0.45至0.52个百分点），12月的Flat35将是3.31%至3.38%。那样的话，可借金额的缩减将回落到16.6%至17.5%。</p>
+<h2>讨论</h2>
+<p>也有相反的看法：价格停止上涨不是因为利率，而是因为建筑成本飙升使新建公寓过于昂贵，买方跟不上了[9]。新建公寓发售套数的减少支持这种看法。此外，23区二手公寓已连续上涨两年多，也可以看作与利率无关的、涨过头之后的休整。利率上升与价格见顶同时发生，这本身并不能证明因果关系。</p>
+<p>实际上，日本大多数借款人选择浮动利率房贷。浮动利率与日本银行的政策利率挂钩，因此长期利率的上升首先影响的是以固定利率借款的人，以及在固定与浮动之间比较的人。</p>
+<p>数据也有局限。比较的月份只有3组，不足以从统计上确定滞后的月数。Flat35作为产品也有变化，例如从2024年2月起扩大了对育儿家庭的优惠，因此跨年度简单比较最常见利率也有局限[10]。二手公寓价格是按70平方米换算的平均值，也会随成交房源的房龄和地段而变动。</p>
+<p>检验标准有两个。从12月起，在长期利率维持在2.8%区间的情况下，23区二手价格是否继续下跌？销售量指数是否开始下降？如果成交量下降，就说明利率开始冷却的不仅是价格，还有交易本身。</p>
+<h2>结论</h2>
+<p>长期利率大约滞后1个月传导到Flat35，在放贷方加厚加点的阶段，传导幅度会超过其自身的涨幅。在东京23区，长期利率升至2.33%后约5个月，以价格停止上涨的形式体现在二手公寓价格上。不过成交量尚未下降。下跌从市中心开始，周边各县仍在上涨。利率传导到价格的路径，看来首先是压低可借金额的上限，使最贵的房源最难卖出。</p>
+<h2>我的看法</h2>
+<p>我做过不动产生意。以固定利率借款的时候，让我害怕的不是利率上升本身，而是利率上升导致不动产价格下跌。这次的数据看起来正是按这个顺序在变化。</p>
+<p>我认为，利率上升时，用借款买房的人的抛售会先出现在二手公寓和塔楼公寓，之后才轮到大型写字楼和商业楼。这两种公寓我都没有购买的打算，还没轮到我出手。我把资金放在银行股上，在有利率的世界里，银行的利润会增长。</p>
+<h2>来源</h2>
+<ol class="src"><li>日本财务省「国债利率信息」 <a href="https://www.mof.go.jp/jgbs/reference/interest_rate/index.htm" rel="noopener">https://www.mof.go.jp/jgbs/reference/interest_rate/index.htm</a></li><li>日本住宅金融支援机构「Flat35贷款利率（2026年11月放款）」 <a href="https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top/" rel="noopener">https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top/</a></li><li>Recruit「Flat35利率走势与最新动向」（2026年7月・9月更新） <a href="https://finance.recruit.co.jp/article/?p=15561" rel="noopener">https://finance.recruit.co.jp/article/?p=15561</a></li><li>日本国土交通省「既有住宅销售量指数 2025年12月」（2026年3月31日） <a href="https://www.mlit.go.jp/report/press/content/001991550.pdf" rel="noopener">https://www.mlit.go.jp/report/press/content/001991550.pdf</a></li><li>日本国土交通省「既有住宅销售量指数 2026年7月」（2026年10月30日） <a href="https://www.mlit.go.jp/report/press/content/002028246.pdf" rel="noopener">https://www.mlit.go.jp/report/press/content/002028246.pdf</a></li><li>共同社「东京23区二手公寓价格7月持平」（东京Kantei发布・2026年8月24日） <a href="https://kumanichi.com/articles/2028237" rel="noopener">https://kumanichi.com/articles/2028237</a></li><li>东京Kantei「按70平方米换算的价格走势 2026年8月」（转载） <a href="https://www.mec-h.com/news/43" rel="noopener">https://www.mec-h.com/news/43</a></li><li>共同社「日本长期利率升至2.855%」（2026年11月13日） <a href="https://www.oanda.jp/lab-education/market_news/kn_2026111301001138/" rel="noopener">https://www.oanda.jp/lab-education/market_news/kn_2026111301001138/</a></li><li>共同社「首都圈4至9月新建公寓均价超过1亿1千万日元，上涨21%」（不动产经济研究所发布・2026年10月20日） <a href="https://kumanichi.com/articles/2048561" rel="noopener">https://kumanichi.com/articles/2048561</a></li><li>钻石不动产研究所「11月Flat35利率或在3.5%区间」（2026年10月22日） <a href="https://diamond-fudosan.jp/articles/-/1113355" rel="noopener">https://diamond-fudosan.jp/articles/-/1113355</a></li><li>东京Kantei「按70平方米换算的价格走势 2026年4月」（转载） <a href="https://www.mec-h.com/news/38" rel="noopener">https://www.mec-h.com/news/38</a></li></ol>
+<p class="muted" style="font-size:12px">照片：Unsplash。图表由YUKI CAPITAL制作</p><p>每天的数字和判断，我都记录在X上。</p><div class="cta"><a class="btn-dark" href="https://x.com/YUKICAPITALchin">在X上看每天的数字</a></div>
+</div>
+<!--related--><section class="related"><h2>相关文章</h2><ul><li><a href="../mansion-resale-tax/">如果对公寓短期转售征收更重的税，房价和&quot;收购翻新再售&quot;企业会怎样？——用日本国土交通省的登记数据和税率测算</a><span class="num">2026-11-12</span></li><li><a href="../boj-hike-megabank-nii/">日本央行加息0.25%，大型银行的利息收入会增加百分之几？</a><span class="num">2026-10-31</span></li><li><a href="../cb-meeting-frequency/">中央银行每年应该决定几次利率？——FOMC的“每年6次”与利率实际变动的次数</a><span class="num">2026-10-29</span></li></ul></section><!--/related-->
+</article>
+<footer class="site-footer" style="padding-bottom:48px"><span>© 2026 YUKI CAPITAL</span><span><a href="../../../zh/">返回首页</a></span></footer>
+</main>
+<script>document.querySelectorAll('[data-setlang]').forEach(function(a){a.addEventListener('click',function(){try{localStorage.setItem('lang',a.getAttribute('data-setlang'))}catch(e){}})});</script>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "abf23c1820ac43539efd93c2112996da"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>
