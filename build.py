@@ -6,6 +6,8 @@ ROOT = pathlib.Path(__file__).parent
 src = (ROOT / 'index.html').read_text(encoding='utf-8')
 assert not any(m in src for m in ('<<<<<<<','>>>>>>>')), 'index.html に衝突の印が残っている'
 import json, datetime as _dt
+_notes = json.loads((ROOT / 'data' / 'site.json').read_text(encoding='utf-8'))['note']
+assert all(n.get('image') for n in _notes), 'note の画像が空の行がある：' + ','.join(n['date'] for n in _notes if not n.get('image')) + '（note の API の eyecatch を入れてから build する｜対策252）'
 _m = json.loads((ROOT / 'data' / 'site.json').read_text(encoding='utf-8'))['media']
 _now = _dt.datetime.now(_dt.timezone(_dt.timedelta(hours=9)))
 _upd = _dt.datetime.strptime(_m['updated'], '%Y-%m-%d %H:%M').replace(tzinfo=_now.tzinfo)
