@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anthropic上市76天内最多16亿股解禁――从S-1/A的锁定期表与Field和Hanka的研究，估算上市一个月后高于发行价的概率</title>
+<meta name="description" content="Anthropic计划于11月19日在纳斯达克上市，发行价区间为每股70至78美元，发售8.25亿股。 上市当天，大家关注的是首日价格。但长期推动股价的，是此后流入市场的股票数量。 本文要回答的问题是：当锁定期（出售限制）分阶段解除时，上市…">
+<meta property="og:title" content="如果对公寓短期转售征收更重的税，房价和&quot;收购翻新再售&quot;企业会怎样？——用日本国土交通省的登记数据和税率测算">
+<meta property="og:description" content="据报道，特斯拉与SpaceX的合并谈判已有进展，最早可能在12月作为史上最大交易宣布[1]。两家公司的董事会均已设立由独立董事组成的特别委员会，商议换股比例和治理结构[1]。 对股东来说，合并中最重要的数字是换股比例。特斯拉股东的份额，取决于自己的1股能换成多少股SpaceX。 本文的问题是：特斯拉1股能换成多少股SpaceX？这一比例会让特斯拉股东、SpaceX股东以及同时持有两者的股东的价值变">
+<meta property="og:image" content="https://raw.githubusercontent.com/YUKICAPITAL/capitallogs-site/main/images/articles/anthropic-lockup-one-month/hero.jpg">
+<meta property="og:url" content="https://yuki-capital.com/zh/articles/anthropic-lockup-one-month/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@capitallogs">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/YUKICAPITAL/capitallogs-site/main/images/articles/anthropic-lockup-one-month/hero.jpg">
+<meta property="og:type" content="article">
+<link rel="icon" href="../../../favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="../../../images/apple-touch-icon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../../../assets/style.css">
+<style>
+.art{max-width:760px;margin:0 auto;padding:24px 0 48px}
+.art .meta{display:flex;gap:10px;align-items:center;font-size:12px;color:var(--muted)}
+.art h1{font-size:26px;line-height:1.45;margin:12px 0 16px}
+.art .lead{font-size:15px;line-height:1.9;color:var(--ink2);border-left:3px solid var(--accent);padding-left:14px;margin:0 0 20px}
+.art .lead p{margin:0}
+.art .card{padding:24px}
+.art h2{font-size:19px;margin:32px 0 12px;padding-top:4px}
+.art h2:first-child{margin-top:0}
+.art p{font-size:15.5px;line-height:2;margin:0 0 14px}
+.art figure{margin:20px 0;}
+.art figure img{width:100%;border-radius:12px;background:#fff}
+.art figcaption{font-size:12px;color:var(--muted);margin-top:6px;line-height:1.6}
+.art .hero img{border-radius:18px;aspect-ratio:16/9;object-fit:cover;width:100%}
+.art .tbl{overflow-x:auto;margin:12px 0 16px}
+.art table{border-collapse:collapse;font-size:13px;min-width:640px;width:100%}
+.art th,.art td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+.art th{background:var(--accent-soft);font-weight:700}
+.art ol.src{font-size:12.5px;line-height:1.8;padding-left:18px;word-break:break-all}
+.art ol.src a{color:var(--accent)}
+.art .cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.langsw{display:flex;gap:8px;font-size:12px}.langsw a{padding:4px 10px;border-radius:999px;background:var(--card)}.langsw a.on{background:var(--dark);color:#fff}
+@media(max-width:600px){.art h1{font-size:21px}.art .card{padding:18px}}
+</style>
+
+<!--seo-->
+<link rel="canonical" href="https://yuki-capital.com/zh/articles/anthropic-lockup-one-month/">
+<link rel="alternate" hreflang="ja" href="https://yuki-capital.com/articles/anthropic-lockup-one-month/">
+<link rel="alternate" hreflang="en" href="https://yuki-capital.com/en/articles/anthropic-lockup-one-month/">
+<link rel="alternate" hreflang="zh-Hans" href="https://yuki-capital.com/zh/articles/anthropic-lockup-one-month/">
+<link rel="alternate" hreflang="x-default" href="https://yuki-capital.com/articles/anthropic-lockup-one-month/">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:site_name" content="YUKI CAPITAL">
+<meta property="article:published_time" content="2026-11-15">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Anthropic上市76天内最多16亿股解禁――从S-1/A的锁定期表与Field和Hanka的研究，估算上市一个月后高于发行价的概率", "description": "Anthropic计划于11月19日在纳斯达克上市，发行价区间为每股70至78美元，发售8.25亿股。 上市当天，大家关注的是首日价格。但长期推动股价的，是此后流入市场的股票数量。 本文要回答的问题是：当锁定期（出售限制）分阶段解除时，上市一个月后股价高于发行价的概率大约是多少？", "datePublished": "2026-11-15", "dateModified": "2026-11-15", "inLanguage": "zh-Hans", "image": ["https://raw.githubusercontent.com/YUKICAPITAL/capitallogs-site/main/images/articles/anthropic-lockup-one-month/hero.jpg"], "author": {"@type": "Person", "name": "YUKI CAPITAL", "url": "https://yuki-capital.com/"}, "publisher": {"@type": "Organization", "name": "YUKI CAPITAL", "logo": {"@type": "ImageObject", "url": "https://yuki-capital.com/images/icon.png"}}, "mainEntityOfPage": "https://yuki-capital.com/zh/articles/anthropic-lockup-one-month/", "keywords": ["市场·股票", "AI", "企业分析"]}</script>
+<!--/seo-->
+</head>
+<body>
+<header class="site-header"><div class="wrap">
+<a href="../../../zh/" class="brand"><img class="avatar" src="../../../images/icon.png" alt=""><span>YUKI CAPITAL</span></a>
+<nav class="nav"><a href="../../../zh/articles/" class="primary">文章</a><a href="../../../zh/#capital">今日资本</a><a href="../../../archive/">每日记录</a><a href="../../../zh/#diary">日记</a><a href="../../../zh/about/">简介</a></nav>
+<div class="hdr-actions"><a class="x" href="https://x.com/capitallogs" aria-label="X"><svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 3h3l-7.3 8.3L21.8 21h-6.6l-4.6-6-5.3 6H2.3l7.8-8.9L2 3h6.7l4.2 5.5L17.5 3zm-1.1 16.2h1.8L7.7 4.7H5.8l10.6 14.5z"/></svg></a><a class="note" href="https://note.com/capitallogs">note</a></div>
+</div></header>
+<main class="wrap"><article class="art">
+<div class="meta"><span class="chip">市场·股票</span><span class="chip">AI</span><span class="chip">企业分析</span><span class="num">2026年11月15日</span><span class="langsw" style="margin-left:auto"><a href="../../../articles/anthropic-lockup-one-month/" data-setlang="ja">日本語</a><a href="../../../en/articles/anthropic-lockup-one-month/" data-setlang="en">EN</a><a href="../../../zh/articles/anthropic-lockup-one-month/" data-setlang="zh" class="on">中文</a></span></div>
+<h1>Anthropic上市76天内最多16亿股解禁――从S-1/A的锁定期表与Field和Hanka的研究，估算上市一个月后高于发行价的概率</h1>
+<div class="lead"><p>Anthropic计划于11月19日在纳斯达克上市，发行价区间为每股70至78美元，发售8.25亿股。</p><p>上市当天，大家关注的是首日价格。但长期推动股价的，是此后流入市场的股票数量。</p><p>本文要回答的问题是：当锁定期（出售限制）分阶段解除时，上市一个月后股价高于发行价的概率大约是多少？</p></div>
+<div class="tldr"><b>结论</b><ol><li>根据11月10日的S-1/A，上市首日起最多3.16亿股可以出售，到第76天累计最多16.12亿股。仅第一个月就相当于发售股数的约75%。</li><li>过去的研究显示，锁定期解除前后3天，股价平均下跌约1.5%。若在第一个月内设定两次下压（−3%），上市一个月后高于发行价的概率估算为：首日涨幅为零时约40%，首日涨幅为10%时约59%。</li><li>影响结果最大的是首日涨幅，波动大小和下压次数的影响较小。这只是基于假设的估算，并非预测。</li></ol></div>
+<figure class="hero"><img width="1600" height="1067" src="../../../images/articles/anthropic-lockup-one-month/hero.jpg" alt="深色屏幕上的股价K线图"></figure>
+<div class="card">
+<h2>问题与背景</h2>
+<p>锁定期是指上市前的股东和高管承诺在上市后一段时间内不出售股票的安排。美国证券交易委员会（SEC）将这一期限描述为&quot;通常为180天&quot;[5]。</p>
+<p>Anthropic的安排并不是在180天时一次性解除。11月10日提交的招股书修订版（S-1/A）列出了上市首日、第27天、第48天、第62天和第76天各阶段可出售的股数[1]。大多数股东的限制为180天，联合创始人等最长为365天[1]。对于在上市当天买入的人来说，这张日程表是显示卖方何时可能增加的唯一官方资料。</p>
+<p>规模也值得确认。8.25亿股乘以70至78美元的区间，募资额约为577.5亿至643.5亿美元。与上市同时，公司还计划向特定投资者配售约260亿美元的股票[1]。上市后总股本约130.87亿股，可以自由买卖的股票起初只占6%多一点[1]。</p>
+<p>发行价是指上市前确定、认购投资者取得股票的价格。本文的首日价格指上市首日的收盘价。</p>
+<h2>数据与方法</h2>
+<p>本文使用5份资料：(1)Anthropic于2026年11月10日提交的S-1/A中&quot;未来可出售股份&quot;一表[1]；(2)Field和Hanka于2001年关于锁定期解除与股价的论文[2]；(3)Ofek和Richardson于2000年对同一主题的研究[3]；(4)Jay Ritter教授整理的美国上市统计[4]；(5)SEC面向投资者的说明[5]。</p>
+<p>方法分三步。第一，把各阶段可出售的股数累加，并与发售股数比较。第二，把论文给出的&quot;解除前后股价下跌的幅度&quot;，按第一个月内的解除次数作为股价的下压。</p>
+<p>第三，计算一个月后股价高于发行价的概率。一个月按约21个交易日计算。一个月的价格变动用对数正态分布近似：把&quot;首日涨幅＋下压−波动的平方的一半&quot;除以波动，再代入标准正态分布。这里的&quot;波动&quot;是一个月价格变动的标准差，参照刚上市的大型科技股，在15%至25%之间变动。</p>
+<p>除下压之外，平均漂移设为零。在一个月这样短的期间内，供需和首日的势头比公司的成长或整体市场更能影响价格。</p>
+<h2>结果</h2>
+<p>将S-1/A的表累加，结果如下[1]。数字均为&quot;最多&quot;，并不意味着全部会被卖出。</p>
+<div class="tbl"><table><thead><tr><th>上市后天数</th><th>该阶段可出售的股数</th><th>累计</th><th>占发售8.25亿股的比例</th></tr></thead><tbody><tr><td>第1天</td><td>3.16亿股</td><td>3.16亿股</td><td>38%</td></tr><tr><td>第27天</td><td>2.99亿股</td><td>6.15亿股</td><td>75%</td></tr><tr><td>第48天</td><td>2.99亿股</td><td>9.14亿股</td><td>111%</td></tr><tr><td>第62天</td><td>3.49亿股</td><td>12.63亿股</td><td>153%</td></tr><tr><td>第76天</td><td>3.49亿股</td><td>16.12亿股</td><td>195%</td></tr></tbody></table></div>
+<figure><img width="1200" height="675" src="../../../images/articles/anthropic-lockup-one-month/chart-unlock-zh.png" alt="图1　Anthropic锁定期下可出售股票的累计（最多）。根据S-1/A（2026年11月10日）制作" loading="lazy"><figcaption>图1　Anthropic锁定期下可出售股票的累计（最多）。根据S-1/A（2026年11月10日）制作</figcaption></figure>
+<p>上市后一个月内重叠的阶段有两个：首日和第27天。此外，同时配售的约3.5135亿股不受锁定期约束[1]。上市刚开始，可能流动的股票就远多于只看发售股数时的印象。</p>
+<p>按占总股本的比例看，可在市场出售的股票从上市时的约6.3%，在首日解除后增至约8.7%，到第76天约为18.6%。这些数字看起来不大，但与每天的成交量相比，足以改变供需。</p>
+<p>Field和Hanka研究了1988年至1997年的1,948起锁定期解除，发现解除前后3天股价平均下跌1.5%，此后成交量持续高出40%[2]。Ofek和Richardson在1996年至1998年的1,056个案例中发现，解除前5天下跌2.03%[3]。据此，本文设定每次解除下压1.5%。</p>
+<p>到第48天，可出售股数的累计超过发售股数。上市不到两个月，比最初进入市场更多的股票就可能加入卖方。</p>
+<h2>敏感性分析</h2>
+<p>本文变动三个假设：首日涨幅（0%、10%、18.8%）、一个月的波动（15%、20%、25%）和下压次数（0次、1次、2次）。18.8%是Ritter教授整理的1980年以来美国上市的首日平均涨幅[4]。</p>
+<div class="tbl"><table><thead><tr><th>下压</th><th>波动</th><th>首日涨幅0%</th><th>首日涨幅10%</th><th>首日涨幅18.8%</th></tr></thead><tbody><tr><td>无</td><td>20%</td><td>46%</td><td>65%</td><td>78%</td></tr><tr><td>1.5%（1次）</td><td>20%</td><td>43%</td><td>62%</td><td>75%</td></tr><tr><td>3.0%（2次）</td><td>15%</td><td>39%</td><td>64%</td><td>81%</td></tr><tr><td>3.0%（2次）</td><td>20%</td><td>40%</td><td>59%</td><td>73%</td></tr><tr><td>3.0%（2次）</td><td>25%</td><td>40%</td><td>55%</td><td>67%</td></tr></tbody></table></div>
+<figure><img width="1200" height="675" src="../../../images/articles/anthropic-lockup-one-month/chart-prob-zh.png" alt="图2　上市一个月后高于发行价的概率估算（波动20%），按首日涨幅与下压次数" loading="lazy"><figcaption>图2　上市一个月后高于发行价的概率估算（波动20%），按首日涨幅与下压次数</figcaption></figure>
+<p>从表中可以读出两点。首日涨幅为零时，无论哪种假设，概率都低于五成。即使设定两次下压，概率的差距也只有几个百分点，远小于首日涨幅造成的差距（在相同波动下超过30个百分点）。</p>
+<h2>讨论</h2>
+<p>也有相反的看法。Anthropic的股东多为打算长期持有的大型机构，即使解禁也可能不卖。此外，解除日程事先公开，在有效市场中，这部分应已反映在价格里[3]。</p>
+<p>另一方面，Field和Hanka也显示，有风险投资参与的公司在解除时跌幅更大[2]。Anthropic筹集过大量大规模资金，这一点可能加强下压。</p>
+<p>还有一种解读是，把解除细分为多个阶段，本身就是缓和下压的设计。一次放出16亿股，与每两三周放出约3亿股，买方能消化的量不同。从这一点看，论文平均的1.5%对Anthropic来说可能偏大。</p>
+<p>据报道，同一年上市的SpaceX也把锁定期分成了九个阶段。随着大型上市接连出现，分阶段解除或许正在成为常态。</p>
+<p>局限也要写明。论文的样本是1988年至1998年的上市，规模和时代都与此次不同。用对数正态分布近似一个月的价格变动，会低估大涨大跌连续出现的局面。检验标准是12月19日前后（上市约一个月）的收盘价是否高于发行价。</p>
+<h2>结论</h2>
+<p>从锁定期表来看，上市76天内最多16.12亿股、约为发售股数两倍的股票将可出售。仅第一个月就相当于发售股数的约75%。</p>
+<p>在估算中，一个月后高于发行价的概率很大程度上取决于首日涨幅：涨幅为零时约四成，涨幅一两成时为六至八成。解除带来的下压会使概率下降几个百分点，但不是主角。</p>
+<p>从更长的时间看，第180天和第365天的解除量更大。比起一个月后的概率，到那一天买方培育了多少，更可能决定股价的走向。</p>
+<h2>我的看法</h2>
+<p>我在日本，打算在上市后买入约1,000万日元（约6.3万美元）的Anthropic股票，并持有10年、20年。上市当天我不打电话下单，先观察。</p>
+<p>对于一个月后，我认为股价会上涨。即便如此，明年某个时候应该会出现跌破发行价的局面。如果在锁定期持续解除期间股价下跌，我会在那时加仓。我把这张表看作一张告诉我那一天何时可能到来的地图。</p>
+<h2>来源</h2>
+<ol class="src"><li>Anthropic, PBC &quot;Form S-1/A (Amendment No. 2), Shares Eligible for Future Sale&quot; SEC EDGAR，2026年11月10日 <a href="https://www.sec.gov/cgi-bin/browse-edgar?company=anthropic&amp;type=S-1" rel="noopener">https://www.sec.gov/cgi-bin/browse-edgar?company=anthropic&amp;type=S-1</a></li><li>Laura Casares Field, Gordon Hanka &quot;The Expiration of IPO Share Lockups&quot; Journal of Finance 56(2)，2001年 <a href="https://ideas.repec.org/a/bla/jfinan/v56y2001i2p471-500.html" rel="noopener">https://ideas.repec.org/a/bla/jfinan/v56y2001i2p471-500.html</a></li><li>Eli Ofek, Matthew Richardson &quot;The IPO Lock-Up Period: Implications for Market Efficiency and Downward Sloping Demand Curves&quot; NYU Stern，2000年（据Cochrane的整理） <a href="https://www.johnhcochrane.com/s/internet-and-demand-curves.pdf" rel="noopener">https://www.johnhcochrane.com/s/internet-and-demand-curves.pdf</a></li><li>Jay R. Ritter &quot;Initial Public Offerings: Sales Statistics Through 2025&quot; 佛罗里达大学，2026年1月1日 <a href="https://site.warrington.ufl.edu/ritter/files/IPOs-Sales.pdf" rel="noopener">https://site.warrington.ufl.edu/ritter/files/IPOs-Sales.pdf</a></li><li>美国证券交易委员会 &quot;Lock-up agreement&quot;（Investor.gov 术语表） <a href="https://www.investor.gov/introduction-investing/investing-basics/glossary/lock-up-agreement" rel="noopener">https://www.investor.gov/introduction-investing/investing-basics/glossary/lock-up-agreement</a></li><li>FourWeekMBA &quot;Up to 1.6B Anthropic Shares Unlock Within 76 Days of IPO&quot;（S-1/A表格整理），2026年11月 <a href="https://fourweekmba.com/ai-up-to-1-6b-anthropic-shares-unlock-within-76-days-of-ipo/" rel="noopener">https://fourweekmba.com/ai-up-to-1-6b-anthropic-shares-unlock-within-76-days-of-ipo/</a></li><li>Motley Fool &quot;Anthropic set its IPO price range at $70 to $78&quot; 2026年11月13日 <a href="https://www.fool.com/investing/2026/11/13/anthropic-set-its-ipo-price-range-at-70-to-78-valuing-it-at-up-to-1405-trillion/" rel="noopener">https://www.fool.com/investing/2026/11/13/anthropic-set-its-ipo-price-range-at-70-to-78-valuing-it-at-up-to-1405-trillion/</a></li><li>Webull &quot;What SpaceX&#x27;s Lockup Expiry Could Mean for Anthropic&#x27;s IPO Strategy&quot; 2026年11月 <a href="https://www.webull.com/news/15581005814711296" rel="noopener">https://www.webull.com/news/15581005814711296</a></li></ol>
+<p class="muted" style="font-size:12px">照片：Maxim Hopman（Unsplash）。图表由YUKI CAPITAL制作</p><p>每天的数字和判断，我都记录在X上。</p><div class="cta"><a class="btn-dark" href="https://x.com/YUKICAPITALchin">在X上看每天的数字</a></div>
+
+</div>
+<!--related--><section class="related"><h2>相关文章</h2><ul><li><a href="../anthropic-ipo-size-history/">Anthropic募资750亿至1000亿美元是史上最大吗——从过去的超大型IPO看规模与上市首日</a><span class="num">2026-11-10</span></li><li><a href="../anthropic-s1-breakeven/">解读Anthropic的S-1——盈利何时可见，最重的成本是什么</a><span class="num">2026-11-01</span></li><li><a href="../ai-capex-payback/">AI资本支出需要几年才能收回？——用字母表、亚马逊、微软7至9月的数据测算</a><span class="num">2026-10-30</span></li></ul></section><!--/related-->
+</article>
+<footer class="site-footer" style="padding-bottom:48px"><span>© 2026 YUKI CAPITAL</span><span><a href="../../../zh/">返回首页</a></span></footer>
+</main>
+<script>document.querySelectorAll('[data-setlang]').forEach(function(a){a.addEventListener('click',function(){try{localStorage.setItem('lang',a.getAttribute('data-setlang'))}catch(e){}})});</script>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "abf23c1820ac43539efd93c2112996da"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T22:00:00+09:00",
+  "updated": "2026-11-15T21:00:00+09:00",
   "profile": {
     "name": "YUKI CAPITAL",
     "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -302,7 +302,7 @@
     }
   ],
   "posts": {
-    "date": "2026-11-14",
+    "date": "2026-11-15",
     "count": 18,
     "items": [
       {
@@ -310,56 +310,62 @@
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.14",
+        "time": "11.15",
         "kind": "シリーズ",
         "kind_en": "Series",
         "kind_zh": "系列",
-        "title": "ダリオ・アモデイ、物理学者がAIの会社を作るまで",
-        "title_en": "Dario Amodei: how a physicist came to build an AI company",
-        "title_zh": "达里奥·阿莫代伊：一位物理学家如何创办AI公司"
+        "title": "森泰吉郎、大学の先生が貸しビル業へ",
+        "title_en": "Taikichiro Mori: a university professor who went into office leasing",
+        "title_zh": "森泰吉郎：从大学教授转行出租写字楼"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.14",
+        "time": "11.15",
         "kind": "日記",
         "kind_en": "Diary",
         "kind_zh": "日记",
-        "title": "ランチ、サウナ、鍼、妻のハンバーグ。11月13日の金曜",
-        "title_en": "Lunch shift, sauna, acupuncture and my wife's hamburg steak: Friday, Nov 13",
-        "title_zh": "帮午餐、桑拿、针灸和妻子做的汉堡肉：11月13日周五"
+        "title": "次男の初めてのお泊まり、緊張から誇らしげへ",
+        "title_en": "My younger son's first night away: from nervous to proud",
+        "title_zh": "次子第一次在外过夜：从紧张到自豪"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.14",
+        "time": "11.15",
         "kind": "長文",
         "kind_en": "Long read",
         "kind_zh": "长文",
-        "title": "断薬の1週間、鍼とマッサージとNBAで気をそらした",
-        "title_en": "A week off my medication: acupuncture, massage and the NBA to keep my mind elsewhere",
-        "title_zh": "停药的一周：用针灸、按摩和NBA转移注意力"
+        "title": "蕎麦屋の奥の個室、タダでできるサービス",
+        "title_en": "The empty back room at a soba shop, and the service that costs nothing",
+        "title_zh": "荞麦面店里空着的包间，与不花钱的服务"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.14",
+        "time": "11.15",
         "kind": "資本枠",
         "kind_en": "Capital",
         "kind_zh": "资本",
-        "title": "量子株が下げた金曜、D-WaveとRigettiを500株ずつ",
-        "title_en": "Quantum stocks fell on Friday: 500 shares each of D-Wave and Rigetti",
-        "title_zh": "量子股下跌的周五，D-Wave和Rigetti各买500股"
+        "title": "来週を前に｜総金融資産3億9,567万円",
+        "title_en": "Ahead of next week | Total financial assets ¥395.67 million",
+        "title_zh": "下周之前｜总金融资产3.9567亿日元"
       }
     ]
   },
   "note": [
+    {
+      "date": "2026-11-15",
+      "title": "ワタミが1株1,284円で上場をやめる理由。株主のいない飲食店主が読む、渡邉美樹氏のMBO",
+      "url": "https://note.com/capitallogs/n/n35fbaf80cc19",
+      "image": "https://assets.st-note.com/production/uploads/images/336500795/rectangle_large_type_2_6be655fe9f9dd32d51aa069a4ea7493f.png"
+    },
     {
       "date": "2026-11-14",
       "title": "エヌビディアの後任はリサ・スーか、レネ・ハースか。名前が挙がった8人と、元の会社に起きること",
@@ -506,25 +512,25 @@
     }
   ],
   "diary": {
-    "date": "2026-11-13（金）",
-    "place": "会社・店・サウナ・鍼・家",
-    "title": "ランチ、サウナ、鍼、妻のハンバーグ。11月13日の金曜",
-    "text": "朝ご飯の後に会社へ。昼は店でランチを手伝い、料理を手渡し盛り付けもして、スタッフ全員に「最近元気？」と声をかけた。サウナの後は会社で夕方まで仕事。鍼の後、妻のハンバーグを食べ、久しぶりにポテトチップスも。8時間ほど眠れた。",
+    "date": "2026-11-15（日）",
+    "place": "蕎麦屋・麻布十番・公園・新居・両親の家・家",
+    "title": "次男の初めてのお泊まり、緊張から誇らしげへ",
+    "text": "いとこと蕎麦屋で昼。麻布十番のおもちゃ屋で、いとこが双子にトミカとプラレールを買ってくれた。公園と新居で遊び、夕方は次男を両親の家へ。初めてのお泊まりに緊張した顔だったが、迎えに行くと「泊まれたの」と誇らしげだった。",
     "image": null,
     "url": "https://x.com/capitallogs",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin",
-    "date_en": "Fri, Nov 13, 2026",
-    "date_zh": "2026.11.13（周五）",
-    "place_en": "Office, restaurant, sauna, acupuncture and home",
-    "place_zh": "公司、餐厅、桑拿、针灸和家",
-    "title_en": "Lunch shift, sauna, acupuncture and my wife's hamburg steak: Friday, Nov 13",
-    "title_zh": "帮午餐、桑拿、针灸和妻子做的汉堡肉：11月13日周五",
-    "text_en": "Breakfast, then the office. At lunch I helped at my restaurant, handing dishes to the floor staff and plating, and asked every staff member how they were doing. After a sauna I worked at the office until evening. After acupuncture, my wife's hamburg steak and, for once, potato chips. I slept about eight hours.",
-    "text_zh": "早饭后去公司。中午在自己的餐厅帮忙午市，递菜、装盘，并向每位员工问候“最近好吗”。桑拿后回公司工作到傍晚。针灸后吃了妻子做的汉堡肉，久违地吃了薯片。睡了约8小时。"
+    "date_en": "Sun, Nov 15, 2026",
+    "date_zh": "2026.11.15（周日）",
+    "place_en": "Soba shop, Azabu-Juban, park, new home, my parents' home and home",
+    "place_zh": "荞麦面店、麻布十番、公园、新家、父母家和家",
+    "title_en": "My younger son's first night away: from nervous to proud",
+    "title_zh": "次子第一次在外过夜：从紧张到自豪",
+    "text_en": "Lunch at a soba shop with my cousin. At an old toy shop in Azabu-Juban, my cousin bought the twins a Tomica car and a Plarail train. We played in the park and at our new home, and in the evening I took my younger son to my parents' home. He looked nervous about his first night away, but when I picked him up he proudly said, \"I stayed over.\"",
+    "text_zh": "和表亲在荞麦面店吃午饭。在麻布十番的玩具店，表亲给双胞胎买了多美卡和普乐路路。在公园和新家玩耍，傍晚把次子送到我父母家。第一次在外过夜时他一脸紧张，去接他时却自豪地说：“我住下来了。”"
   },
   "media": {
-    "updated": "2026-11-14 21:47",
+    "updated": "2026-11-15 20:23",
     "impressions_month": null,
     "impressions_daily": [],
     "followers": [
@@ -567,29 +573,29 @@
           "name": "X 日本語",
           "name_en": "X Japanese",
           "name_zh": "X 日文",
-          "d7": 40317,
-          "d28": 188404
+          "d7": 40230,
+          "d28": 189926
         },
         {
           "name": "X English",
           "name_en": "X English",
           "name_zh": "X 英文",
-          "d7": 8189,
-          "d28": 36253
+          "d7": 8201,
+          "d28": 35424
         },
         {
           "name": "X 中文",
           "name_en": "X Chinese",
           "name_zh": "X 中文",
-          "d7": 8405,
-          "d28": 43012
+          "d7": 7861,
+          "d28": 43091
         },
         {
           "name": "note",
           "name_en": "note",
           "name_zh": "note",
-          "d7": 1168,
-          "d28": 3129
+          "d7": 1257,
+          "d28": 3355
         },
         {
           "name": "サイト",
@@ -599,17 +605,16 @@
           "d28": 680
         }
       ],
-      "total_d7": 58306,
-      "total_d28": 271478
+      "total_d7": 57776,
+      "total_d28": 272476
     },
     "site": {
-      "visits_24h": 20,
-      "pv_24h": 29,
+      "visits_24h": 18,
+      "pv_24h": 22,
       "visits_7d": null
     },
     "daily": {
       "dates": [
-        "2026-10-18",
         "2026-10-19",
         "2026-10-20",
         "2026-10-21",
@@ -636,10 +641,10 @@
         "2026-11-11",
         "2026-11-12",
         "2026-11-13",
-        "2026-11-14"
+        "2026-11-14",
+        "2026-11-15"
       ],
       "x_ja": [
-        4636,
         6215,
         5951,
         6352,
@@ -666,10 +671,10 @@
         5931,
         6436,
         4953,
-        661
+        5815,
+        1004
       ],
       "x_en": [
-        1874,
         1438,
         1008,
         1248,
@@ -696,10 +701,10 @@
         1147,
         1572,
         1093,
-        162
+        1046,
+        161
       ],
       "x_zh": [
-        1080,
         1807,
         1706,
         1447,
@@ -726,10 +731,10 @@
         1041,
         1336,
         1194,
-        224
+        1144,
+        239
       ],
       "note": [
-        30,
         47,
         42,
         39,
@@ -756,29 +761,41 @@
         213,
         188,
         133,
-        122
+        239,
+        139
       ]
     },
     "today": {
-      "date": "2026-11-14",
-      "x_ja": 661,
-      "x_en": 162,
-      "x_zh": 224,
-      "note": 122,
-      "site_visits_24h": 20,
-      "site_pv_24h": 29,
-      "at": "2026-11-14 21:47"
+      "date": "2026-11-15",
+      "x_ja": 1004,
+      "x_en": 161,
+      "x_zh": 239,
+      "note": 139,
+      "site_visits_24h": 18,
+      "site_pv_24h": 22,
+      "at": "2026-11-15 20:23"
     },
     "intraday": [
       {
-        "at": "2026-11-14 21:47",
-        "x": 1047,
-        "site_pv_24h": 29,
-        "site_visits_24h": 20
+        "at": "2026-11-15 20:23",
+        "x": 1404,
+        "site_pv_24h": 22,
+        "site_visits_24h": 18
       }
     ]
   },
   "archive": [
+    {
+      "date": "2026-11-15",
+      "label": "11.15（日）",
+      "total": null,
+      "diff_pct": null,
+      "memo": "休場 ｜ 18本×3言語 ｜ 売買なし ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "Market closed ｜ 18 posts x 3 languages ｜ No trades ｜ 1 note ｜ 1 article",
+      "memo_zh": "休市 ｜ 18条×3种语言 ｜ 无交易 ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Nov 15 Sun",
+      "label_zh": "11.15 周日"
+    },
     {
       "date": "2026-11-14",
       "label": "11.14（土）",
@@ -1111,6 +1128,25 @@
     }
   ],
   "articles": [
+    {
+      "slug": "anthropic-lockup-one-month",
+      "date": "2026-11-15",
+      "image": "images/articles/anthropic-lockup-one-month/hero.jpg",
+      "category": "相場・株",
+      "category_en": "Markets",
+      "category_zh": "市场·股票",
+      "tags": [
+        "markets",
+        "ai",
+        "company"
+      ],
+      "title": "Anthropicの上場から76日で最大16億株――S-1/Aのロックアップ表とField・Hankaの研究で、1か月後に公開価格を上回る確率を試算する",
+      "lead": "Anthropicは11月19日にナスダックへ上場する予定で、仮条件は1株70〜78ドル、売り出す株は8億2,500万株である。 上場の日に注目が集まるのは初値だが、株価を長く動かすのは、その後に市場へ出てくる株の量である。 本稿の問いは、ロックアップ（売却の制限）が段階的に外れるとき、上場から1か月後に株価が公開価格を上回っている確率はどの程度か、である。",
+      "title_en": "Up to 1.6 billion Anthropic shares within 76 days of listing: what the S-1/A lock-up table and Field and Hanka imply for the odds of trading above the offer price after one month",
+      "lead_en": "Anthropic plans to list on Nasdaq on November 19, with a price range of $70 to $78 per share and 825 million shares on offer. On listing day, attention goes to the first price. What moves a stock for longer is the volume of shares that reaches the market afterwards. The question of this article: as the lock-up (the restriction on selling) is lifted in stages, how likely is the share price to be above the offer price one month after listing?",
+      "title_zh": "Anthropic上市76天内最多16亿股解禁――从S-1/A的锁定期表与Field和Hanka的研究，估算上市一个月后高于发行价的概率",
+      "lead_zh": "Anthropic计划于11月19日在纳斯达克上市，发行价区间为每股70至78美元，发售8.25亿股。 上市当天，大家关注的是首日价格。但长期推动股价的，是此后流入市场的股票数量。 本文要回答的问题是：当锁定期（出售限制）分阶段解除时，上市一个月后股价高于发行价的概率大约是多少？"
+    },
     {
       "slug": "jgb-flat35-tokyo-condo",
       "date": "2026-11-14",
