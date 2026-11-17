@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T10:30:00+09:00",
+  "updated": "2026-11-17T10:20:00+09:00",
   "profile": {
     "name": "YUKI CAPITAL",
     "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -16,38 +16,38 @@
     "note": "https://note.com/capitallogs"
   },
   "capital": {
-    "date": "2026-11-16",
-    "label": "11.16（月）",
-    "total": 393990650,
-    "diff": -1684211,
-    "diff_pct": -0.43,
-    "unreal": 60992979,
-    "unreal_pct": 18.57,
-    "cash": 4543457,
-    "cash_pct": 1.15,
-    "trade": "売買なし（D-Wave・Rigetti各500株の約定は確認待ち）",
+    "date": "2026-11-17",
+    "label": "11.17（火）",
+    "total": 383460760,
+    "diff": -10529890,
+    "diff_pct": -2.67,
+    "unreal": 50462668,
+    "unreal_pct": 15.29,
+    "cash": 2923878,
+    "cash_pct": 0.76,
+    "trade": "D-Wave（QBTS）・Rigetti（RGTI）各500株の約定を確認（11/16・円貨決済）",
     "alloc": [
       {
         "name": "国内株",
-        "pct": 48.04,
+        "pct": 47.19,
         "name_en": "JP stocks",
         "name_zh": "日本股票"
       },
       {
         "name": "投信",
-        "pct": 26.21,
+        "pct": 26.92,
         "name_en": "Funds",
         "name_zh": "基金"
       },
       {
         "name": "外国株",
-        "pct": 24.59,
+        "pct": 25.12,
         "name_en": "Foreign stocks",
         "name_zh": "海外股票"
       },
       {
         "name": "現金",
-        "pct": 1.15,
+        "pct": 0.76,
         "name_en": "Cash",
         "name_zh": "现金"
       }
@@ -136,12 +136,16 @@
       {
         "date": "2026-11-16",
         "total": 393990650
+      },
+      {
+        "date": "2026-11-17",
+        "total": 383460760
       }
     ],
-    "label_en": "Nov 16 (Mon)",
-    "label_zh": "11.16（周一）",
-    "trade_en": "No trades (execution of 500 shares each of D-Wave and Rigetti still to be confirmed)",
-    "trade_zh": "无交易（D-Wave与Rigetti各500股的成交待确认）",
+    "label_en": "Nov 17 (Tue)",
+    "label_zh": "11.17（周二）",
+    "trade_en": "Confirmed fills: 500 shares each of D-Wave (QBTS) and Rigetti (RGTI) (Nov 16, settled in yen)",
+    "trade_zh": "确认成交：D-Wave（QBTS）与Rigetti（RGTI）各500股（11月16日，日元结算）",
     "week": {
       "from": "2026-11-06",
       "to": "2026-11-13",
@@ -153,7 +157,7 @@
     {
       "title": "SpaceX を +500株",
       "rule": "終値が 100ドルを割ったら",
-      "now": "139.94 ドル",
+      "now": "139.11 ドル",
       "status": "未達",
       "title_en": "Add 500 SpaceX",
       "rule_en": "if the close falls below $100",
@@ -161,13 +165,13 @@
       "title_zh": "SpaceX 加仓500股",
       "rule_zh": "收盘价跌破100美元时",
       "status_zh": "未达",
-      "now_en": "$139.94",
-      "now_zh": "139.94 美元"
+      "now_en": "$139.11",
+      "now_zh": "139.11 美元"
     },
     {
       "title": "IonQ を +500株",
       "rule": "25ドルを割ったら",
-      "now": "30.86 ドル",
+      "now": "28.88 ドル",
       "status": "未達",
       "title_en": "Add 500 IonQ",
       "rule_en": "if it falls below $25",
@@ -175,13 +179,13 @@
       "title_zh": "IonQ 加仓500股",
       "rule_zh": "跌破25美元时",
       "status_zh": "未达",
-      "now_en": "$30.86",
-      "now_zh": "30.86 美元"
+      "now_en": "$28.88",
+      "now_zh": "28.88 美元"
     },
     {
       "title": "三井住友FG を買い増し",
       "rule": "3,000円が目安",
-      "now": "3,298 円",
+      "now": "3,139 円",
       "status": "未達",
       "title_en": "Add SMFG (8316)",
       "rule_en": "around ¥3,000 as the guide",
@@ -189,13 +193,13 @@
       "title_zh": "加仓三井住友FG",
       "rule_zh": "以3,000日元为目标",
       "status_zh": "未达",
-      "now_en": "¥3,298",
-      "now_zh": "3,298 日元"
+      "now_en": "¥3,139",
+      "now_zh": "3,139 日元"
     },
     {
       "title": "SpaceX の積み立て",
       "rule": "外壁補修の見積もりが出るまで",
-      "now": "139.94 ドル",
+      "now": "139.11 ドル",
       "status": "10月・11月とも休止",
       "title_en": "Monthly SpaceX purchases",
       "rule_en": "until the exterior-wall repair estimate is in",
@@ -203,8 +207,8 @@
       "title_zh": "SpaceX 定投",
       "rule_zh": "等外墙维修报价出来",
       "status_zh": "10月、11月均暂停",
-      "now_en": "$139.94",
-      "now_zh": "139.94 美元"
+      "now_en": "$139.11",
+      "now_zh": "139.11 美元"
     }
   ],
   "holdings": [
@@ -290,23 +294,23 @@
     },
     {
       "name": "QBTS",
-      "qty": "1,500",
+      "qty": "2,000",
       "name_en": "QBTS",
       "name_zh": "QBTS",
-      "qty_en": "1,500",
-      "qty_zh": "1,500"
+      "qty_en": "2,000",
+      "qty_zh": "2,000"
     },
     {
       "name": "RGTI",
-      "qty": "1,500",
+      "qty": "2,000",
       "name_en": "RGTI",
       "name_zh": "RGTI",
-      "qty_en": "1,500",
-      "qty_zh": "1,500"
+      "qty_en": "2,000",
+      "qty_zh": "2,000"
     }
   ],
   "posts": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "count": 27,
     "items": [
       {
@@ -314,56 +318,62 @@
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.16",
+        "time": "11.17",
         "kind": "判断枠",
         "kind_en": "Judgment",
         "kind_zh": "判断",
-        "title": "1.4兆ドルは高い、それでもアンソロピックを買う",
-        "title_en": "$1.4 trillion is expensive, and I will still buy Anthropic",
-        "title_zh": "1.4万亿美元很贵，我仍会买入Anthropic"
+        "title": "エヌビディア決算の朝に書いておく。半導体は買わないと決めてます",
+        "title_en": "Written on the morning of Nvidia's earnings: I have decided not to buy semiconductors",
+        "title_zh": "在英伟达财报的早晨写下来。半导体，我决定不买"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.16",
+        "time": "11.17",
         "kind": "日記",
         "kind_en": "Diary",
         "kind_zh": "日记",
-        "title": "スキー4人分と、気疲れした3歳の次男",
-        "title_en": "Skis for four, and my worn-out three-year-old",
-        "title_zh": "四人份的滑雪装备，与累坏了的三岁次子"
+        "title": "寒くなった夜に、リクエストしていた鳥鍋。中華麺も入れてみたが、マロニーの方がおいしい",
+        "title_en": "On a night that turned cold, the chicken hot pot I had asked for. I tried Chinese noodles, but Malony is better",
+        "title_zh": "变冷的夜晚，吃上了我点名要的鸡肉火锅。也试着放了中华面，但还是粉丝更好吃"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.16",
+        "time": "11.17",
         "kind": "長文",
-        "kind_en": "Long read",
+        "kind_en": "Essay",
         "kind_zh": "长文",
-        "title": "スキー4人分に38万円、増やす金と使う金",
-        "title_en": "¥380,000 on skis for four: money to grow, money to spend",
-        "title_zh": "四人份滑雪装备38万日元：用来增值的钱与用来花的钱"
+        "title": "見積もりは高かった。それでも僕は、相続に強い税理士事務所にお願いした",
+        "title_en": "The quote was high. Even so, I chose a tax firm strong in inheritance",
+        "title_zh": "报价很高。即便如此，我还是委托了擅长继承的税理士事务所"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.16",
+        "time": "11.17",
         "kind": "ニュース",
         "kind_en": "News",
         "kind_zh": "新闻",
-        "title": "日経平均6.5%高、銀行4行は持つだけ",
-        "title_en": "Nikkei up 6.5%: I just hold my four bank stocks",
-        "title_zh": "日经指数上涨6.5%，四家银行股只是继续持有"
+        "title": "アンソロピック上場、申し込みは約6倍。僕は値動きをアプリで見るだけにする",
+        "title_en": "Anthropic's IPO is about six times oversubscribed. I will watch the price on an app and leave it there",
+        "title_zh": "Anthropic上市，认购约6倍。我只用手机应用看看行情"
       }
     ]
   },
   "note": [
+    {
+      "date": "2026-11-17",
+      "title": "エヌビディアのフアン氏は辞任から4日で復帰の報道。創業者は株価を下げて自分で買えるのか",
+      "url": "https://note.com/capitallogs/n/nf4e7c3d055dd",
+      "image": "https://assets.st-note.com/production/uploads/images/337102084/rectangle_large_type_2_169117523560770a186cd10cab708234.png"
+    },
     {
       "date": "2026-11-16",
       "title": "3.9億円をネット証券に置かない。野村證券とメガバンクで、注文を電話だけにした理由",
@@ -522,25 +532,25 @@
     }
   ],
   "diary": {
-    "date": "2026-11-16（月）",
-    "place": "教会学校・スポーツ用品店・つけ麺の店・ジム",
-    "title": "スキー4人分と、気疲れした3歳の次男",
-    "text": "次男を迎えに行き、教会学校のあと家族4人分のスキー靴と板を買った。両親の家に1人で泊まった次男は、車で眠ってしまうほど疲れていた。",
+    "date": "2026-11-17（火）",
+    "place": "ジム・プール・会社・自宅",
+    "title": "寒くなった夜に、リクエストしていた鳥鍋。中華麺も入れてみたが、マロニーの方がおいしい",
+    "text": "寒くなった夜、リクエストしていた鳥鍋を次男と妻と3人で食べた。中華麺も入れてみたが、鍋にはやっぱりマロニーの方がおいしい。",
     "image": null,
     "url": "https://x.com/capitallogs",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin",
-    "date_en": "Mon, Nov 16, 2026",
-    "date_zh": "2026.11.16（周一）",
-    "place_en": "Church school, sports shop, tsukemen shop, gym",
-    "place_zh": "教会学校、体育用品店、蘸面店、健身房",
-    "title_en": "Skis for four, and my worn-out three-year-old",
-    "title_zh": "四人份的滑雪装备，与累坏了的三岁次子",
-    "text_en": "I picked up my younger son, and after church school we bought ski boots and skis for the four of us. He had stayed at my parents' alone and was tired enough to fall asleep in the car.",
-    "text_zh": "接回次子，教会学校结束后买了全家四口的滑雪靴和雪板。独自在我父母家住了一晚的次子，累得在车里睡着了。"
+    "date_en": "Tue, Nov 17, 2026",
+    "date_zh": "2026.11.17（周二）",
+    "place_en": "Gym, pool, office, home",
+    "place_zh": "健身房、泳池、公司、家",
+    "title_en": "On a night that turned cold, the chicken hot pot I had asked for. I tried Chinese noodles, but Malony is better",
+    "title_zh": "变冷的夜晚，吃上了我点名要的鸡肉火锅。也试着放了中华面，但还是粉丝更好吃",
+    "text_en": "On a night that turned cold, I ate the chicken hot pot I had asked for with my younger son and my wife. I tried Chinese noodles too, but in a hot pot Malony is better.",
+    "text_zh": "变冷的夜晚，我和次子、妻子三人吃了我点名要的鸡肉火锅。也试着放了中华面，但火锅里还是粉丝更好吃。"
   },
   "media": {
-    "updated": "2026-11-16 09:51",
+    "updated": "2026-11-17 10:12",
     "impressions_month": null,
     "impressions_daily": [],
     "followers": [
@@ -548,7 +558,7 @@
         "name": "X 日本語",
         "handle": "@capitallogs",
         "url": "https://x.com/capitallogs",
-        "count": 174,
+        "count": 179,
         "name_en": "X Japanese",
         "name_zh": "X 日文"
       },
@@ -556,7 +566,7 @@
         "name": "X English",
         "handle": "@YUKICAPITALen",
         "url": "https://x.com/YUKICAPITALen",
-        "count": 103,
+        "count": 104,
         "name_en": "X English",
         "name_zh": "X 英文"
       },
@@ -583,49 +593,48 @@
           "name": "X 日本語",
           "name_en": "X Japanese",
           "name_zh": "X 日文",
-          "d7": 36121,
-          "d28": 189171
+          "d7": 36963,
+          "d28": 190584
         },
         {
           "name": "X English",
           "name_en": "X English",
           "name_zh": "X 英文",
-          "d7": 7368,
-          "d28": 34806
+          "d7": 6981,
+          "d28": 34940
         },
         {
           "name": "X 中文",
           "name_en": "X Chinese",
           "name_zh": "X 中文",
-          "d7": 6629,
-          "d28": 41635
+          "d7": 5721,
+          "d28": 40345
         },
         {
           "name": "note",
           "name_en": "note",
           "name_zh": "note",
-          "d7": 1257,
-          "d28": 3355
+          "d7": 1111,
+          "d28": 3465
         },
         {
           "name": "サイト",
           "name_en": "Site",
           "name_zh": "网站",
-          "d7": 227,
-          "d28": 680
+          "d7": 198,
+          "d28": 730
         }
       ],
-      "total_d7": 51602,
-      "total_d28": 269647
+      "total_d7": 50974,
+      "total_d28": 270064
     },
     "site": {
-      "visits_24h": 18,
-      "pv_24h": 22,
+      "visits_24h": 15,
+      "pv_24h": 18,
       "visits_7d": null
     },
     "daily": {
       "dates": [
-        "2026-10-20",
         "2026-10-21",
         "2026-10-22",
         "2026-10-23",
@@ -652,10 +661,10 @@
         "2026-11-13",
         "2026-11-14",
         "2026-11-15",
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ],
       "x_ja": [
-        5951,
         6352,
         11660,
         8200,
@@ -682,10 +691,10 @@
         4953,
         5815,
         6287,
-        177
+        7456,
+        85
       ],
       "x_en": [
-        1008,
         1248,
         1601,
         1355,
@@ -712,10 +721,10 @@
         1093,
         1046,
         963,
-        18
+        1150,
+        10
       ],
       "x_zh": [
-        1706,
         1447,
         1774,
         1600,
@@ -742,10 +751,10 @@
         1194,
         1144,
         579,
-        11
+        423,
+        4
       ],
       "note": [
-        42,
         39,
         28,
         8,
@@ -771,30 +780,42 @@
         188,
         133,
         239,
-        139,
-        null
+        184,
+        130,
+        24
       ]
     },
     "today": {
-      "date": "2026-11-16",
-      "x_ja": 177,
-      "x_en": 18,
-      "x_zh": 11,
-      "note": null,
-      "site_visits_24h": 18,
-      "site_pv_24h": 22,
-      "at": "2026-11-16 09:51"
+      "date": "2026-11-17",
+      "x_ja": 85,
+      "x_en": 10,
+      "x_zh": 4,
+      "note": 24,
+      "site_visits_24h": 15,
+      "site_pv_24h": 18,
+      "at": "2026-11-17 10:12"
     },
     "intraday": [
       {
-        "at": "2026-11-16 09:51",
-        "x": 206,
-        "site_pv_24h": 22,
-        "site_visits_24h": 18
+        "at": "2026-11-17 10:12",
+        "x": 99,
+        "site_pv_24h": 18,
+        "site_visits_24h": 15
       }
     ]
   },
   "archive": [
+    {
+      "date": "2026-11-17",
+      "label": "11.17（火）",
+      "total": 383460760,
+      "diff_pct": -2.67,
+      "memo": "27本×3言語 ｜ QBTS・RGTI 各500株の約定 ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "27 posts x 3 languages ｜ Fills: QBTS and RGTI, 500 shares each ｜ 1 note ｜ 1 article",
+      "memo_zh": "27条×3种语言 ｜ QBTS与RGTI各500股成交 ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Nov 17 Tue",
+      "label_zh": "11.17 周二"
+    },
     {
       "date": "2026-11-16",
       "label": "11.16（月）",
@@ -1149,6 +1170,25 @@
     }
   ],
   "articles": [
+    {
+      "slug": "boj-december-hike-2006-compare",
+      "date": "2026-11-17",
+      "image": "images/articles/boj-december-hike-2006-compare/hero.jpg",
+      "category": "経済",
+      "category_en": null,
+      "category_zh": null,
+      "tags": [
+        "economy",
+        "finance",
+        "markets"
+      ],
+      "title": "日銀・高田委員の「機動的な利上げ」は12月に来るのか――2006年と2024〜2026年の利上げの間隔・物価・ドル円で検証",
+      "lead": "11月16日、日本銀行の高田創審議委員は徳島市の講演で、決まった間隔や幅にとらわれず、機動的に利上げを進めるべきだと述べた。 高田委員は10月30日の決定会合で、政策金利を1.25%から1.5%へ上げる議案を出し、8対1で否決されている。 本稿の問いは、日銀は12月の決定会合で1.5%へ上げるのか、それとも据え置くのか、である。",
+      "title_en": "Will the Bank of Japan's 'agile rate hike' arrive in December? Testing BOJ board member Takata's call against 2006 and 2024–2026: hike intervals, inflation and the yen",
+      "lead_en": "On November 16, Bank of Japan board member Hajime Takata said in a speech in Tokushima that the BOJ should raise rates in an agile way, without being bound by a set interval or size. At the October 30 policy meeting, Takata proposed raising the policy rate from 1.25% to 1.5%; the proposal was defeated 8 to 1. The question of this article is whether the BOJ will raise the rate to 1.5% at its December meeting, or hold.",
+      "title_zh": "日本央行高田委员的“灵活加息”会在12月到来吗——用2006年与2024〜2026年的加息间隔、物价和日元汇率来检验",
+      "lead_zh": "11月16日，日本央行审议委员高田创在德岛市演讲时表示，央行应当不拘泥于固定的间隔和幅度，灵活地推进加息。 在10月30日的议息会议上，高田提出把政策利率从1.25%上调至1.5%的议案，以8比1被否决。 本文的问题是：日本央行会在12月的议息会议上加息至1.5%，还是维持不变。"
+    },
     {
       "slug": "cyberattack-disclosure-stock-recovery",
       "date": "2026-11-16",
