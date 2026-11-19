@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T12:00:00+09:00",
+ "updated": "2026-11-19T10:30:00+09:00",
  "profile": {
   "name": "YUKI CAPITAL",
   "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -16,47 +16,43 @@
   "note": "https://note.com/capitallogs"
  },
  "capital": {
-  "date": "2026-11-18",
-  "label": "11.18（水）",
-  "total": 377431071,
-  "diff": -6029689,
-  "diff_pct": -1.57,
-  "unreal": 44432979,
-  "unreal_pct": 13.46,
+  "date": "2026-11-19",
+  "label": "11.19（木）",
+  "total": 373065973,
+  "diff": -4365098,
+  "diff_pct": -1.16,
+  "unreal": 40067881,
+  "unreal_pct": 12.14,
   "cash": 2923878,
-  "cash_pct": 0.77,
-  "trade": "IonQ（IONQ）500株を注文（25ドル割れ・約定は次のCSVで確認）",
+  "cash_pct": 0.78,
+  "trade": "IonQ 500株を25ドル前後で買い増し（約定はCSVで確認待ち）・次は20ドル割れで500株",
   "alloc": [
    {
     "name": "国内株",
-    "pct": 47.39,
+    "pct": 46.9,
     "name_en": "JP stocks",
     "name_zh": "日本股票"
    },
    {
     "name": "投信",
-    "pct": 27.29,
+    "pct": 27.63,
     "name_en": "Funds",
     "name_zh": "基金"
    },
    {
     "name": "外国株",
-    "pct": 24.54,
+    "pct": 24.68,
     "name_en": "Foreign stocks",
     "name_zh": "海外股票"
    },
    {
     "name": "現金",
-    "pct": 0.77,
+    "pct": 0.78,
     "name_en": "Cash",
     "name_zh": "现金"
    }
   ],
   "series": [
-   {
-    "date": "2026-10-16",
-    "total": 393726077
-   },
    {
     "date": "2026-10-19",
     "total": 389388548
@@ -144,12 +140,16 @@
    {
     "date": "2026-11-18",
     "total": 377431071
+   },
+   {
+    "date": "2026-11-19",
+    "total": 373065973
    }
   ],
-  "label_en": "Nov 18 (Wed)",
-  "label_zh": "11.18（周三）",
-  "trade_en": "Ordered 500 IonQ (IONQ) shares after the close below $25 (fill to be confirmed in the next CSV)",
-  "trade_zh": "下单买入IonQ（IONQ）500股（跌破25美元，成交将在下一份CSV中确认）",
+  "label_en": "Nov 19 (Thu)",
+  "label_zh": "11.19（周四）",
+  "trade_en": "Added 500 IonQ shares at around $25 (fill pending in the CSV); next: 500 below $20",
+  "trade_zh": "以25美元左右加仓IonQ 500股（成交待CSV确认）；下一次：跌破20美元加500股",
   "week": {
    "from": "2026-11-06",
    "to": "2026-11-13",
@@ -174,31 +174,31 @@
   },
   {
    "title": "IonQ を +500株",
-   "rule": "25ドルを割ったら",
-   "now": "25ドル割れ（11/17終値）",
-   "status": "達成・500株を注文",
+   "rule": "20ドルを割ったら",
+   "now": "約25ドルで500株を買い増し（11/18）",
+   "status": "未達",
    "title_en": "Add 500 IonQ",
-   "rule_en": "if it falls below $25",
-   "status_en": "Met: 500 shares ordered",
+   "rule_en": "if it falls below $20",
+   "status_en": "Not yet",
    "title_zh": "IonQ 加仓500股",
-   "rule_zh": "跌破25美元时",
-   "status_zh": "已达成：已下单500股",
-   "now_en": "Closed below $25 (Nov 17)",
-   "now_zh": "跌破25美元（11月17日收盘）"
+   "rule_zh": "跌破20美元时",
+   "status_zh": "未达",
+   "now_en": "Added 500 at about $25 (Nov 18)",
+   "now_zh": "11月18日以约25美元加仓500股"
   },
   {
    "title": "三井住友FG を買い増し",
-   "rule": "3,000円が目安",
-   "now": "3,115 円",
+   "rule": "3,000円をしっかり割ったら",
+   "now": "3,040 円",
    "status": "未達",
    "title_en": "Add SMFG (8316)",
-   "rule_en": "around ¥3,000 as the guide",
+   "rule_en": "if it clearly breaks below ¥3,000",
    "status_en": "Not yet",
    "title_zh": "加仓三井住友FG",
-   "rule_zh": "以3,000日元为目标",
+   "rule_zh": "明确跌破3,000日元时",
    "status_zh": "未达",
-   "now_en": "¥3,115",
-   "now_zh": "3,115 日元"
+   "now_en": "¥3,040",
+   "now_zh": "3,040 日元"
   },
   {
    "title": "SpaceX の積み立て",
@@ -314,7 +314,7 @@
   }
  ],
  "posts": {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "count": 27,
   "items": [
    {
@@ -322,56 +322,62 @@
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin",
     "impressions": null,
-    "time": "11.18",
+    "time": "11.19",
     "kind": "判断枠",
     "kind_en": "Judgment",
     "kind_zh": "判断",
-    "title": "量子株が売られる中、25ドル割れで500株",
-    "title_en": "As quantum stocks are sold, 500 shares below $25",
-    "title_zh": "量子股被抛售之际，跌破25美元买入500股"
+    "title": "IonQ 500株を25ドル前後で。量子株が売られた日に、僕は足した",
+    "title_en": "500 IonQ shares at around $25. On the day quantum stocks were sold, I added",
+    "title_zh": "以25美元左右买入IonQ 500股。量子股被抛售的那天，我加仓了"
    },
    {
     "url": "https://x.com/capitallogs",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin",
     "impressions": null,
-    "time": "11.18",
-    "kind": "判断枠",
-    "kind_en": "Judgment",
-    "kind_zh": "判断",
-    "title": "「アンソロピックは割高」の反対側に立つ",
-    "title_en": "Standing on the other side of \"Anthropic is overvalued\"",
-    "title_zh": "站在\"Anthropic估值过高\"的对面"
+    "time": "11.19",
+    "kind": "日記",
+    "kind_en": "Diary",
+    "kind_zh": "日记",
+    "title": "5時間半の翌日に、7時間半。足裏30分と昼寝20分の省エネの1日",
+    "title_en": "7.5 hours of sleep after 5.5. A low-power day with a 30-minute foot massage and a 20-minute nap",
+    "title_zh": "睡了5个半小时的第二天，睡了7个半小时。30分钟足底按摩和20分钟午睡的节能一天"
    },
    {
     "url": "https://x.com/capitallogs",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin",
     "impressions": null,
-    "time": "11.18",
+    "time": "11.19",
     "kind": "長文",
     "kind_en": "Long read",
     "kind_zh": "长文",
-    "title": "チーズの会で、質より量に変わった夜",
-    "title_en": "The night the cheese society went for quantity over quality",
-    "title_zh": "奶酪会那晚，从重质变成了重量"
+    "title": "資金調達に詳しい人を1人、仲間に入れたい。同い年のCFOの同級生のこと",
+    "title_en": "I want one person who knows fundraising on our team. About my classmate, a CFO my age",
+    "title_zh": "想让一位熟悉融资的人加入团队。关于我那位同龄、做CFO的同学"
    },
    {
     "url": "https://x.com/capitallogs",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin",
     "impressions": null,
-    "time": "11.18",
-    "kind": "トレンド",
-    "kind_en": "Trend",
-    "kind_zh": "热点",
-    "title": "楽天証券、最大1,125万の口座。大手で良かった",
-    "title_en": "Rakuten Securities, up to 11.25 million accounts. Glad I went with the big firms",
-    "title_zh": "乐天证券，最多1,125万个账户。还好选了大机构"
+    "time": "11.19",
+    "kind": "ニュース",
+    "kind_en": "News",
+    "kind_zh": "新闻",
+    "title": "アンソロピック公開価格83ドル。評価額1.5兆ドルで今夜ナスダックへ",
+    "title_en": "Anthropic prices at $83. A $1.5 trillion valuation heads to Nasdaq tonight",
+    "title_zh": "Anthropic发行价83美元。估值约1.5万亿美元，今晚登陆纳斯达克"
    }
   ]
  },
  "note": [
+  {
+   "date": "2026-11-19",
+   "title": "IonQの株は、騒がれた翌年に動く。アマゾンとAIの歴史で見る量子の商業化",
+   "url": "https://note.com/capitallogs/n/ne004c3672369",
+   "image": "https://assets.st-note.com/production/uploads/images/337897885/rectangle_large_type_2_c206cc07d377c12048314f1408880da8.png"
+  },
   {
    "date": "2026-11-18",
    "title": "楽天証券1,125万口座の漏えい。三木谷氏は補償しきれるのか、僕が大きなお金を大手に置く理由",
@@ -542,25 +548,25 @@
   }
  ],
  "diary": {
-  "date": "2026-11-18（水）",
-  "place": "ジム・プール・会社・会場・自宅",
-  "title": "雨の夜、フランスチーズの会と親戚",
-  "text": "年に2回のフランスチーズの会の叙任式で、両親や久しぶりのはとこ・いとこと同じテーブルを囲んだ。チーズは期待どおりではなかったが、幸せな時間だった。",
-  "image": "https://raw.githubusercontent.com/YUKICAPITAL/x-images/main/images/2026-11-18_diary_013553.jpg",
+  "date": "2026-11-19（木）",
+  "place": "会社・マッサージ・クリニック・鍼・自宅",
+  "title": "5時間半の翌日に、7時間半",
+  "text": "寝不足で省エネモードの1日。足裏30分と昼寝20分でしのぎ、夜は妻と母が初めてのパン教室で作ったパンを食べた。睡眠薬なしで7時間半眠れた。",
+  "image": "",
   "url": "https://x.com/capitallogs",
   "url_en": "https://x.com/YUKICAPITALen",
   "url_zh": "https://x.com/YUKICAPITALchin",
-  "date_en": "Wed, Nov 18, 2026",
-  "date_zh": "2026.11.18（周三）",
-  "place_en": "Gym, pool, office, venue, home",
-  "place_zh": "健身房、泳池、公司、会场、家",
-  "title_en": "A rainy night, the French cheese society and my relatives",
-  "title_zh": "雨夜，法国奶酪会与亲戚们",
-  "text_en": "At the twice-yearly French cheese society ceremony, I shared a table with my parents and cousins I had not seen in a while. The cheese fell short of what I had hoped, but it was a happy time.",
-  "text_zh": "在一年两次的法国奶酪会授勋仪式上，我和父母以及久违的表亲们围坐在同一张桌旁。奶酪不如期待，但那是一段幸福的时光。"
+  "date_en": "Thu, Nov 19, 2026",
+  "date_zh": "2026.11.19（周四）",
+  "place_en": "Office, massage, clinic, acupuncture, home",
+  "place_zh": "公司、按摩、诊所、针灸、家",
+  "title_en": "7.5 hours after 5.5",
+  "title_zh": "睡了5个半小时的第二天，睡了7个半小时",
+  "text_en": "A low-power day after little sleep. A 30-minute foot massage and a 20-minute nap got me through, and at night we ate bread my wife and mother made at their first bread class. I slept 7.5 hours without sleeping pills.",
+  "text_zh": "睡眠不足、以节能模式度过的一天。靠30分钟足底按摩和20分钟午睡撑过，晚上吃了妻子和母亲第一次上面包课做的面包。没用安眠药睡了7个半小时。"
  },
  "media": {
-  "updated": "2026-11-18 10:22",
+  "updated": "2026-11-19 10:03",
   "impressions_month": null,
   "impressions_daily": [],
   "followers": [
@@ -603,22 +609,22 @@
      "name": "X 日本語",
      "name_en": "X Japanese",
      "name_zh": "X 日文",
-     "d7": 37914,
-     "d28": 191114
+     "d7": 38606,
+     "d28": 186582
     },
     {
      "name": "X English",
      "name_en": "X English",
      "name_zh": "X 英文",
-     "d7": 6693,
-     "d28": 34551
+     "d7": 6324,
+     "d28": 34153
     },
     {
      "name": "X 中文",
      "name_en": "X Chinese",
      "name_zh": "X 中文",
-     "d7": 5547,
-     "d28": 39765
+     "d7": 5191,
+     "d28": 38971
     },
     {
      "name": "note",
@@ -635,8 +641,8 @@
      "d28": 730
     }
    ],
-   "total_d7": 51427,
-   "total_d28": 269763
+   "total_d7": 51394,
+   "total_d28": 264039
   },
   "site": {
    "visits_24h": 15,
@@ -645,7 +651,6 @@
   },
   "daily": {
    "dates": [
-    "2026-10-22",
     "2026-10-23",
     "2026-10-24",
     "2026-10-25",
@@ -672,10 +677,10 @@
     "2026-11-15",
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19"
    ],
    "x_ja": [
-    11660,
     8200,
     6090,
     5147,
@@ -702,10 +707,10 @@
     6287,
     7456,
     6901,
-    66
+    7141,
+    53
    ],
    "x_en": [
-    1601,
     1355,
     1423,
     733,
@@ -732,10 +737,10 @@
     963,
     1150,
     853,
-    16
+    1207,
+    12
    ],
    "x_zh": [
-    1774,
     1600,
     2199,
     1687,
@@ -762,10 +767,10 @@
     579,
     423,
     865,
-    6
+    981,
+    5
    ],
    "note": [
-    28,
     8,
     3,
     59,
@@ -792,29 +797,41 @@
     184,
     130,
     175,
-    26
+    26,
+    null
    ]
   },
   "today": {
-   "date": "2026-11-18",
-   "x_ja": 66,
-   "x_en": 16,
-   "x_zh": 6,
-   "note": 26,
+   "date": "2026-11-19",
+   "x_ja": 53,
+   "x_en": 12,
+   "x_zh": 5,
+   "note": null,
    "site_visits_24h": 15,
    "site_pv_24h": 18,
-   "at": "2026-11-18 10:22"
+   "at": "2026-11-19 10:03"
   },
   "intraday": [
    {
-    "at": "2026-11-18 10:22",
-    "x": 88,
+    "at": "2026-11-19 10:03",
+    "x": 70,
     "site_pv_24h": 18,
     "site_visits_24h": 15
    }
   ]
  },
  "archive": [
+  {
+   "date": "2026-11-19",
+   "label": "11.19（木）",
+   "total": 373065973,
+   "diff_pct": -1.16,
+   "memo": "27本×3言語 ｜ IonQ 500株を買い増し ｜ note 1本 ｜ 記事 1本",
+   "memo_en": "27 posts x 3 languages ｜ Added 500 IonQ shares ｜ 1 note ｜ 1 article",
+   "memo_zh": "27条×3种语言 ｜ 加仓IonQ 500股 ｜ note 1篇 ｜ 文章 1篇",
+   "label_en": "Nov 19 Thu",
+   "label_zh": "11.19 周四"
+  },
   {
    "date": "2026-11-18",
    "label": "11.18（水）",
@@ -1191,6 +1208,25 @@
   }
  ],
  "articles": [
+  {
+   "slug": "japan-trade-deficit-oct-2026",
+   "date": "2026-11-19",
+   "image": "images/articles/japan-trade-deficit-oct-2026/hero.jpg",
+   "category": "経済",
+   "category_en": "Economy",
+   "category_zh": "经济",
+   "tags": [
+    "economy",
+    "markets",
+    "finance"
+   ],
+   "title": "輸出が過去最大でも、なぜ日本の貿易は赤字なのか――財務省の2026年10月の貿易統計を数量・為替・価格に分ける",
+   "lead": "財務省が11月18日に発表した2026年10月の貿易統計速報で、輸出は11兆7,688億円（前年同月比+20.5%）、輸入は12兆2,453億円（+21.6%）と、どちらも比べられる1979年以降で最大になった。 それでも差し引きは4,765億円の赤字で、前年同月の約3,000億円の赤字より広がった。 本稿の問いは、輸出の伸びのうち「たくさん売れた分」と「円安で金額が膨らんだ分」と「値段が上がった分」はそれぞれいくらで、なぜ輸出が最大でも赤字が広がったのか、である。",
+   "title_en": "Why is Japan's trade in deficit when exports hit a record? Splitting the Ministry of Finance's October 2026 trade data into volume, the yen and prices",
+   "lead_en": "In the preliminary October 2026 trade statistics released by Japan's Ministry of Finance on November 18, exports were 11.77 trillion yen (up 20.5% year on year) and imports 12.25 trillion yen (up 21.6%), both the largest since comparable records began in 1979. Even so, the balance was a deficit of 476.5 billion yen, wider than the roughly 300 billion yen deficit a year earlier. The question of this article is how much of the export growth came from selling more, how much from the weak yen inflating the yen amount, and how much from higher prices, and why the deficit widened even as exports hit a record.",
+   "title_zh": "出口创历史新高，日本贸易为何仍是逆差？——把日本财务省2026年10月贸易统计拆成数量、汇率和价格",
+   "lead_zh": "日本财务省11月18日公布的2026年10月贸易统计速报显示，出口为11.7688万亿日元（同比增长20.5%），进口为12.2453万亿日元（增长21.6%），均为有可比数据的1979年以来最高。 即便如此，差额仍为4,765亿日元的逆差，比上年同月约3,000亿日元的逆差有所扩大。 本文的问题是：出口增长中，\"卖得更多\"、\"日元贬值使金额膨胀\"和\"价格上涨\"各占多少？为什么出口创新高，逆差反而扩大？"
+  },
   {
    "slug": "bank-broker-scandal-history",
    "date": "2026-11-18",
