@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T10:30:00+09:00",
+ "updated": "2026-11-20T10:30:00+09:00",
  "profile": {
   "name": "YUKI CAPITAL",
   "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -16,38 +16,38 @@
   "note": "https://note.com/capitallogs"
  },
  "capital": {
-  "date": "2026-11-19",
-  "label": "11.19（木）",
-  "total": 373065973,
-  "diff": -4365098,
-  "diff_pct": -1.16,
-  "unreal": 40067881,
-  "unreal_pct": 12.14,
-  "cash": 2923878,
-  "cash_pct": 0.78,
-  "trade": "IonQ 500株を25ドル前後で買い増し（約定はCSVで確認待ち）・次は20ドル割れで500株",
+  "date": "2026-11-20",
+  "label": "11.20（金）",
+  "total": 371084888,
+  "diff": -1981085,
+  "diff_pct": -0.53,
+  "unreal": 38088138,
+  "unreal_pct": 11.47,
+  "cash": 877536,
+  "cash_pct": 0.24,
+  "trade": "IonQ 500株を25.45ドルで買い増し（3,000株）・次は20ドル割れで500株",
   "alloc": [
    {
     "name": "国内株",
-    "pct": 46.9,
+    "pct": 46.7,
     "name_en": "JP stocks",
     "name_zh": "日本股票"
    },
    {
     "name": "投信",
-    "pct": 27.63,
+    "pct": 27.75,
     "name_en": "Funds",
     "name_zh": "基金"
    },
    {
     "name": "外国株",
-    "pct": 24.68,
+    "pct": 25.31,
     "name_en": "Foreign stocks",
     "name_zh": "海外股票"
    },
    {
     "name": "現金",
-    "pct": 0.78,
+    "pct": 0.24,
     "name_en": "Cash",
     "name_zh": "现金"
    }
@@ -144,24 +144,28 @@
    {
     "date": "2026-11-19",
     "total": 373065973
+   },
+   {
+    "date": "2026-11-20",
+    "total": 371084888
    }
   ],
-  "label_en": "Nov 19 (Thu)",
-  "label_zh": "11.19（周四）",
-  "trade_en": "Added 500 IonQ shares at around $25 (fill pending in the CSV); next: 500 below $20",
-  "trade_zh": "以25美元左右加仓IonQ 500股（成交待CSV确认）；下一次：跌破20美元加500股",
+  "label_en": "Nov 20 (Fri)",
+  "label_zh": "11.20（周五）",
+  "trade_en": "Bought 500 more IonQ at $25.45 (now 3,000 shares); next: 500 below $20",
+  "trade_zh": "以25.45美元加仓IonQ 500股（共3,000股）；下一次：跌破20美元加500股",
   "week": {
-   "from": "2026-11-06",
-   "to": "2026-11-13",
-   "diff": 22378141,
-   "diff_pct": 5.99
+   "from": "2026-11-13",
+   "to": "2026-11-20",
+   "diff": -24589973,
+   "diff_pct": -6.21
   }
  },
  "conditions": [
   {
    "title": "SpaceX を +500株",
    "rule": "終値が 100ドルを割ったら",
-   "now": "137.36 ドル",
+   "now": "143.5 ドル",
    "status": "未達",
    "title_en": "Add 500 SpaceX",
    "rule_en": "if the close falls below $100",
@@ -169,13 +173,13 @@
    "title_zh": "SpaceX 加仓500股",
    "rule_zh": "收盘价跌破100美元时",
    "status_zh": "未达",
-   "now_en": "$137.36",
-   "now_zh": "137.36 美元"
+   "now_en": "$143.50",
+   "now_zh": "143.5 美元"
   },
   {
    "title": "IonQ を +500株",
    "rule": "20ドルを割ったら",
-   "now": "約25ドルで500株を買い増し（11/18）",
+   "now": "23.48ドル（11/18）・25.45ドルで500株を約定し3,000株",
    "status": "未達",
    "title_en": "Add 500 IonQ",
    "rule_en": "if it falls below $20",
@@ -183,8 +187,8 @@
    "title_zh": "IonQ 加仓500股",
    "rule_zh": "跌破20美元时",
    "status_zh": "未达",
-   "now_en": "Added 500 at about $25 (Nov 18)",
-   "now_zh": "11月18日以约25美元加仓500股"
+   "now_en": "$23.48 (Nov 18); 500 filled at $25.45, now 3,000 shares",
+   "now_zh": "23.48美元（11/18）；以25.45美元成交500股，共3,000股"
   },
   {
    "title": "三井住友FG を買い増し",
@@ -203,7 +207,7 @@
   {
    "title": "SpaceX の積み立て",
    "rule": "外壁補修の見積もりが出るまで",
-   "now": "137.36 ドル",
+   "now": "143.5 ドル",
    "status": "10月・11月とも休止",
    "title_en": "Monthly SpaceX purchases",
    "rule_en": "until the exterior-wall repair estimate is in",
@@ -211,8 +215,22 @@
    "title_zh": "SpaceX 定投",
    "rule_zh": "等外墙维修报价出来",
    "status_zh": "10月、11月均暂停",
-   "now_en": "$137.36",
-   "now_zh": "137.36 美元"
+   "now_en": "$143.50",
+   "now_zh": "143.5 美元"
+  },
+  {
+   "title": "Anthropic を +500株",
+   "rule": "公開価格83ドルを割ったら",
+   "now": "97.17ドル（初日の終値）",
+   "status": "未達",
+   "title_en": "Add 500 Anthropic",
+   "rule_en": "if it falls below the $83 offer price",
+   "now_en": "$97.17 (first-day close)",
+   "status_en": "Not yet",
+   "title_zh": "Anthropic 加仓500股",
+   "rule_zh": "跌破83美元发行价时",
+   "now_zh": "97.17美元（首日收盘）",
+   "status_zh": "未达"
   }
  ],
  "holdings": [
@@ -258,11 +276,11 @@
   },
   {
    "name": "IonQ",
-   "qty": "2,500",
+   "qty": "3,000",
    "name_en": "IonQ",
    "name_zh": "IonQ",
-   "qty_en": "2,500",
-   "qty_zh": "2,500"
+   "qty_en": "3,000",
+   "qty_zh": "3,000"
   },
   {
    "name": "SpaceX",
@@ -314,7 +332,7 @@
   }
  ],
  "posts": {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "count": 27,
   "items": [
    {
@@ -322,56 +340,62 @@
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin",
     "impressions": null,
-    "time": "11.19",
+    "time": "11.20",
     "kind": "判断枠",
     "kind_en": "Judgment",
     "kind_zh": "判断",
-    "title": "IonQ 500株を25ドル前後で。量子株が売られた日に、僕は足した",
-    "title_en": "500 IonQ shares at around $25. On the day quantum stocks were sold, I added",
-    "title_zh": "以25美元左右买入IonQ 500股。量子股被抛售的那天，我加仓了"
+    "title": "量子株が売られる週に、IonQ を3,000株に増やした",
+    "title_en": "The week quantum stocks were sold, I raised IonQ to 3,000 shares",
+    "title_zh": "量子股遭抛售的这一周，我把IonQ增至3,000股"
    },
    {
     "url": "https://x.com/capitallogs",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin",
     "impressions": null,
-    "time": "11.19",
+    "time": "11.20",
     "kind": "日記",
     "kind_en": "Diary",
     "kind_zh": "日记",
-    "title": "5時間半の翌日に、7時間半。足裏30分と昼寝20分の省エネの1日",
-    "title_en": "7.5 hours of sleep after 5.5. A low-power day with a 30-minute foot massage and a 20-minute nap",
-    "title_zh": "睡了5个半小时的第二天，睡了7个半小时。30分钟足底按摩和20分钟午睡的节能一天"
+    "title": "幼稚園受験の結果が届いた日、ジムとポストと焼肉と",
+    "title_en": "The day the kindergarten exam result arrived: the gym, the mailbox and yakiniku",
+    "title_zh": "幼儿园入学考试结果寄到的那天：健身房、信箱和烤肉"
    },
    {
     "url": "https://x.com/capitallogs",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin",
     "impressions": null,
-    "time": "11.19",
+    "time": "11.20",
     "kind": "長文",
-    "kind_en": "Long read",
+    "kind_en": "Essay",
     "kind_zh": "长文",
-    "title": "資金調達に詳しい人を1人、仲間に入れたい。同い年のCFOの同級生のこと",
-    "title_en": "I want one person who knows fundraising on our team. About my classmate, a CFO my age",
-    "title_zh": "想让一位熟悉融资的人加入团队。关于我那位同龄、做CFO的同学"
+    "title": "幼稚園受験、コネを使わずに真っ向勝負で挑んだ結果",
+    "title_en": "Kindergarten entrance exam: the result of going in head-on without connections",
+    "title_zh": "幼儿园入学考试：不靠人脉、正面挑战的结果"
    },
    {
     "url": "https://x.com/capitallogs",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin",
     "impressions": null,
-    "time": "11.19",
+    "time": "11.20",
     "kind": "ニュース",
     "kind_en": "News",
     "kind_zh": "新闻",
-    "title": "アンソロピック公開価格83ドル。評価額1.5兆ドルで今夜ナスダックへ",
-    "title_en": "Anthropic prices at $83. A $1.5 trillion valuation heads to Nasdaq tonight",
-    "title_zh": "Anthropic发行价83美元。估值约1.5万亿美元，今晚登陆纳斯达克"
+    "title": "Anthropic 上場初日17%高、調達813億ドルは米国IPOで史上最大",
+    "title_en": "Anthropic jumps 17% on its first day; $81.3 billion raised is the largest U.S. IPO ever",
+    "title_zh": "Anthropic上市首日上涨17%，募资813亿美元为美国史上最大IPO"
    }
   ]
  },
  "note": [
+  {
+   "date": "2026-11-20",
+   "title": "元NASAの物理学者キャンベルと仏教・キリスト教は、死んだあとの意識をどう見てきたか",
+   "url": "https://note.com/capitallogs/n/n7f525574ed3c",
+   "image": "https://assets.st-note.com/production/uploads/images/338294073/rectangle_large_type_2_87f8f74a86f18401f3e4541eff271ae0.png"
+  },
   {
    "date": "2026-11-19",
    "title": "IonQの株は、騒がれた翌年に動く。アマゾンとAIの歴史で見る量子の商業化",
@@ -548,25 +572,25 @@
   }
  ],
  "diary": {
-  "date": "2026-11-19（木）",
-  "place": "会社・マッサージ・クリニック・鍼・自宅",
-  "title": "5時間半の翌日に、7時間半",
-  "text": "寝不足で省エネモードの1日。足裏30分と昼寝20分でしのぎ、夜は妻と母が初めてのパン教室で作ったパンを食べた。睡眠薬なしで7時間半眠れた。",
+  "date": "2026-11-20（金）",
+  "place": "会社・ジム・自宅・焼肉屋",
+  "title": "幼稚園受験の結果が届いた日",
+  "text": "ジムでマシントレーニングをした後、妻とマンションのポストを開けた。子どもたちの幼稚園受験は不合格。コネを使わず真っ向勝負で挑んだ。夜は妻と2人で焼肉を食べ、年内は休んで次は小学校で、と話した。",
   "image": "",
   "url": "https://x.com/capitallogs",
   "url_en": "https://x.com/YUKICAPITALen",
   "url_zh": "https://x.com/YUKICAPITALchin",
-  "date_en": "Thu, Nov 19, 2026",
-  "date_zh": "2026.11.19（周四）",
-  "place_en": "Office, massage, clinic, acupuncture, home",
-  "place_zh": "公司、按摩、诊所、针灸、家",
-  "title_en": "7.5 hours after 5.5",
-  "title_zh": "睡了5个半小时的第二天，睡了7个半小时",
-  "text_en": "A low-power day after little sleep. A 30-minute foot massage and a 20-minute nap got me through, and at night we ate bread my wife and mother made at their first bread class. I slept 7.5 hours without sleeping pills.",
-  "text_zh": "睡眠不足、以节能模式度过的一天。靠30分钟足底按摩和20分钟午睡撑过，晚上吃了妻子和母亲第一次上面包课做的面包。没用安眠药睡了7个半小时。"
+  "date_en": "Fri, Nov 20, 2026",
+  "date_zh": "2026.11.20（周五）",
+  "place_en": "Office, gym, home, yakiniku restaurant",
+  "place_zh": "公司、健身房、家、烤肉店",
+  "title_en": "The day the kindergarten exam result arrived",
+  "title_zh": "幼儿园入学考试结果寄到的那天",
+  "text_en": "After my machine workout at the gym, my wife and I opened the mailbox at our apartment. Our children did not pass the kindergarten entrance exam. We went in head-on, without using connections. That night we had yakiniku together and agreed to rest for the rest of the year and aim for elementary school next.",
+  "text_zh": "在健身房做完器械训练后，我和妻子一起打开了公寓的信箱。孩子们的幼儿园入学考试没有通过。我们没有动用人脉，正面挑战。晚上两人去吃了烤肉，商量好今年先休息，下一次目标是小学。"
  },
  "media": {
-  "updated": "2026-11-19 10:03",
+  "updated": "2026-11-20 10:06",
   "impressions_month": null,
   "impressions_daily": [],
   "followers": [
@@ -574,7 +598,7 @@
     "name": "X 日本語",
     "handle": "@capitallogs",
     "url": "https://x.com/capitallogs",
-    "count": 178,
+    "count": 179,
     "name_en": "X Japanese",
     "name_zh": "X 日文"
    },
@@ -590,7 +614,7 @@
     "name": "X 中文",
     "handle": "@YUKICAPITALchin",
     "url": "https://x.com/YUKICAPITALchin",
-    "count": 69,
+    "count": 68,
     "name_en": "X Chinese",
     "name_zh": "X 中文"
    },
@@ -609,29 +633,29 @@
      "name": "X 日本語",
      "name_en": "X Japanese",
      "name_zh": "X 日文",
-     "d7": 38606,
-     "d28": 186582
+     "d7": 47221,
+     "d28": 191950
     },
     {
      "name": "X English",
      "name_en": "X English",
      "name_zh": "X 英文",
-     "d7": 6324,
-     "d28": 34153
+     "d7": 6477,
+     "d28": 34044
     },
     {
      "name": "X 中文",
      "name_en": "X Chinese",
      "name_zh": "X 中文",
-     "d7": 5191,
-     "d28": 38971
+     "d7": 5374,
+     "d28": 38748
     },
     {
      "name": "note",
      "name_en": "note",
      "name_zh": "note",
-     "d7": 1075,
-     "d28": 3603
+     "d7": 1236,
+     "d28": 4049
     },
     {
      "name": "サイト",
@@ -641,8 +665,8 @@
      "d28": 730
     }
    ],
-   "total_d7": 51394,
-   "total_d28": 264039
+   "total_d7": 60506,
+   "total_d28": 269521
   },
   "site": {
    "visits_24h": 15,
@@ -651,7 +675,6 @@
   },
   "daily": {
    "dates": [
-    "2026-10-23",
     "2026-10-24",
     "2026-10-25",
     "2026-10-26",
@@ -678,10 +701,10 @@
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
-    "2026-11-19"
+    "2026-11-19",
+    "2026-11-20"
    ],
    "x_ja": [
-    8200,
     6090,
     5147,
     8230,
@@ -707,11 +730,11 @@
     6287,
     7456,
     6901,
-    7141,
-    53
+    7140,
+    13537,
+    85
    ],
    "x_en": [
-    1355,
     1423,
     733,
     1541,
@@ -738,10 +761,10 @@
     1150,
     853,
     1207,
-    12
+    1247,
+    11
    ],
    "x_zh": [
-    1600,
     2199,
     1687,
     1994,
@@ -768,10 +791,10 @@
     423,
     865,
     981,
-    5
+    1357,
+    25
    ],
    "note": [
-    8,
     3,
     59,
     36,
@@ -797,30 +820,42 @@
     184,
     130,
     175,
-    26,
-    null
+    299,
+    203,
+    6
    ]
   },
   "today": {
-   "date": "2026-11-19",
-   "x_ja": 53,
-   "x_en": 12,
-   "x_zh": 5,
-   "note": null,
+   "date": "2026-11-20",
+   "x_ja": 85,
+   "x_en": 11,
+   "x_zh": 25,
+   "note": 6,
    "site_visits_24h": 15,
    "site_pv_24h": 18,
-   "at": "2026-11-19 10:03"
+   "at": "2026-11-20 10:06"
   },
   "intraday": [
    {
-    "at": "2026-11-19 10:03",
-    "x": 70,
+    "at": "2026-11-20 10:06",
+    "x": 121,
     "site_pv_24h": 18,
     "site_visits_24h": 15
    }
   ]
  },
  "archive": [
+  {
+   "date": "2026-11-20",
+   "label": "11.20（金）",
+   "total": 371084888,
+   "diff_pct": -0.53,
+   "memo": "27本×3言語 ｜ IonQ 3,000株に（500株約定）｜ note 1本 ｜ 記事 1本",
+   "memo_en": "27 posts x 3 languages ｜ IonQ to 3,000 shares (500 filled) ｜ 1 note ｜ 1 article",
+   "memo_zh": "27条×3种语言 ｜ IonQ增至3,000股（成交500股）｜ note 1篇 ｜ 文章 1篇",
+   "label_en": "Nov 20 Fri",
+   "label_zh": "11.20 周五"
+  },
   {
    "date": "2026-11-19",
    "label": "11.19（木）",
@@ -1208,6 +1243,25 @@
   }
  ],
  "articles": [
+  {
+   "slug": "mega-ipo-one-year-after",
+   "date": "2026-11-20",
+   "image": "images/articles/mega-ipo-one-year-after/hero.jpg",
+   "category": "相場・株",
+   "category_en": "Markets",
+   "category_zh": "市场",
+   "tags": [
+    "markets",
+    "ai",
+    "company"
+   ],
+   "title": "史上最大のIPOは、その後どうなったのか――サウジアラムコ・アリババ・SpaceXの1年後の株価から、Anthropicの公開価格83ドルを検証",
+   "lead": "Anthropicは2026年11月19日にナスダックで取引を始め、公開価格83ドルに対して初日は17.07%高の97.17ドルをつけた。調達額は約813億ドルで、6月のSpaceXの750億ドルを上回り、米国のIPOで最大になった[3][10]。 大きな上場の初日は、たいてい華やかに見える。しかし、本当に問われるのはその後の1年である。 本稿の問いは、調達額が史上最大級のIPOは上場から1年後に公開価格を上回っていたのか、そして初日の終値で買った人はどうなったのか、である。",
+   "title_en": "What happened after the biggest IPOs ever? Testing Anthropic's $83 offer price against Saudi Aramco, Alibaba and SpaceX one year on",
+   "lead_en": "Anthropic began trading on Nasdaq on November 19, 2026, closing its first day at $97.17, up 17.07% from its $83 offer price. It raised about $81.3 billion, more than SpaceX's $75 billion in June, making it the largest IPO in U.S. history [3][10]. The first day of a big listing usually looks glamorous. What really matters is the year that follows. This article asks: were the largest IPOs in history trading above their offer price one year later, and what happened to people who bought at the first-day close?",
+   "title_zh": "史上最大的IPO后来怎么样了？用沙特阿美、阿里巴巴、SpaceX上市一年后的股价，检验Anthropic 83美元的发行价",
+   "lead_zh": "Anthropic于2026年11月19日在纳斯达克开始交易，首日收于97.17美元，较83美元的发行价上涨17.07%。募资约813亿美元，超过6月SpaceX的750亿美元，成为美国史上最大的IPO[3][10]。 大型上市的第一天往往看起来光鲜。真正的考验是之后的一年。 本文的问题是：募资规模史上最大级别的IPO，上市一年后是否仍高于发行价？以首日收盘价买入的人结果如何？"
+  },
   {
    "slug": "japan-trade-deficit-oct-2026",
    "date": "2026-11-19",
