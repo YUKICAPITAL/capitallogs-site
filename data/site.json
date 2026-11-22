@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T22:00:00+09:00",
+  "updated": "2026-11-22T20:00:00+09:00",
   "profile": {
     "name": "YUKI CAPITAL",
     "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -332,7 +332,7 @@
     }
   ],
   "posts": {
-    "date": "2026-11-21",
+    "date": "2026-11-22",
     "count": 18,
     "items": [
       {
@@ -340,56 +340,62 @@
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.21",
+        "time": "11.22",
         "kind": "シリーズ",
         "kind_en": "Series",
         "kind_zh": "系列",
-        "title": "9歳で台湾から渡米、ジェンスン・フアンの生い立ち",
-        "title_en": "Born in Taiwan, to the U.S. at 9: Jensen Huang's early life",
-        "title_zh": "9岁从台湾赴美：黄仁勋的成长经历"
+        "title": "1892年、小諸で魚から始まったツルヤ",
+        "title_en": "1892, Komoro: Tsuruya began as a fish seller",
+        "title_zh": "1892年，在小诸从卖鱼起家的鹤屋超市"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.21",
+        "time": "11.22",
         "kind": "日記",
         "kind_en": "Diary",
         "kind_zh": "日记",
-        "title": "ジムを休んだ金曜、オートバックスで落胆",
-        "title_en": "Skipped the gym on Friday, let down at Autobacs",
-        "title_zh": "周五没去健身房，在Autobacs失望而归"
+        "title": "別荘の真ん前に上がった、15分の花火",
+        "title_en": "Fireworks for 15 minutes, right in front of our holiday home",
+        "title_zh": "别墅正前方升起的15分钟烟花"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.21",
+        "time": "11.22",
         "kind": "長文",
         "kind_en": "Essay",
         "kind_zh": "长文",
-        "title": "任せた賞与と、勝手に渡された誕生日新聞",
-        "title_en": "The bonuses I delegated, and a birthday newspaper handed over without asking",
-        "title_zh": "交给店长决定的奖金，与被擅自送出的生日报纸"
+        "title": "AIの底力は本物だけど、一部バブル",
+        "title_en": "The strength of AI is real, but part of it is a bubble",
+        "title_zh": "AI的底力是真的，但有一部分是泡沫"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.21",
+        "time": "11.22",
         "kind": "資本枠",
         "kind_en": "Capital",
         "kind_zh": "资本",
-        "title": "11月第3週の資本振り返り",
-        "title_en": "Capital review, third week of November",
-        "title_zh": "11月第3周资本回顾"
+        "title": "371,084,888円、3連休の中日に現状を整理する",
+        "title_en": "$2,339,901: taking stock in the middle of a three-day weekend",
+        "title_zh": "15,707,287元人民币（2,339,901美元），三连休中途整理现状"
       }
     ]
   },
   "note": [
+    {
+      "date": "2026-11-22",
+      "title": "暴落のたびにバフェットは何を買ったのか。ワシントン・ポスト、コカ・コーラ、ゴールドマンの歴史",
+      "url": "https://note.com/capitallogs/n/nbb9d54a88f97",
+      "image": "https://assets.st-note.com/production/uploads/images/339313905/rectangle_large_type_2_1b757ac9b5802a82d9452c876f92908f.png"
+    },
     {
       "date": "2026-11-21",
       "title": "ブラックマンデー22.6%、リーマン57%。米国株の暴落は何年で戻ったのか",
@@ -578,25 +584,25 @@
     }
   ],
   "diary": {
-    "date": "2026-11-21（土）",
-    "place": "会社・六本木・渋谷の店・オートバックス・自宅",
-    "title": "ジムを休んだ金曜、オートバックスで落胆",
-    "text": "ジムが休みで朝から会社で仕事。昼に六本木でオイルマッサージ、渋谷の店で店長と賞与の打ち合わせ。チェーンが買えず落胆し、疲れて軽井沢行きを土曜に延ばした。夜は妻のうどんと納豆ご飯。",
+    "date": "2026-11-22（日）",
+    "place": "マンションの下見・白金の実家・軽井沢の別荘・湯川ふるさと公園",
+    "title": "別荘の真ん前に上がった、15分の花火",
+    "text": "妻が積み木で足をけがして病院へ。その間に祖母とおばが暮らすマンションを下見し、3時間半かけて軽井沢へ。公園で2時間遊び、夜は別荘の真ん前で15分の花火を子どもたちと見た。",
     "image": "",
     "url": "https://x.com/capitallogs",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin",
-    "date_en": "Sat, Nov 21, 2026",
-    "date_zh": "2026.11.21（周六）",
-    "place_en": "Office, Roppongi, my restaurant in Shibuya, Autobacs, home",
-    "place_zh": "公司、六本木、涩谷的店、Autobacs、家",
-    "title_en": "Skipped the gym on Friday, let down at Autobacs",
-    "title_zh": "周五没去健身房，在Autobacs失望而归",
-    "text_en": "The gym was closed, so I worked at the office from the morning. An oil massage in Roppongi at noon, then a bonus meeting with the manager at my restaurant in Shibuya. I couldn't buy tire chains, felt let down, and, tired, pushed the Karuizawa trip to Saturday. Dinner was my wife's udon and natto rice.",
-    "text_zh": "健身房休息，我从早上就在公司工作。中午在六本木做了精油按摩，又到涩谷的店里和店长商量年终奖。没能买到防滑链，有些失望，因为疲惫把去轻井泽推迟到了周六。晚饭是妻子做的乌冬面和纳豆饭。"
+    "date_en": "Sun, Nov 22, 2026",
+    "date_zh": "2026.11.22（周日）",
+    "place_en": "Apartment viewing, my parents' house in Shirokane, our holiday home in Karuizawa, Yukawa Furusato Park",
+    "place_zh": "看房、白金的父母家、轻井泽的别墅、汤川故乡公园",
+    "title_en": "Fireworks for 15 minutes, right in front of our holiday home",
+    "title_zh": "别墅正前方升起的15分钟烟花",
+    "text_en": "My wife hurt her foot on a toy block and went to the hospital. Meanwhile I viewed the apartment where my grandmother and aunt will live, then drove three and a half hours to Karuizawa. Two hours at the park, and at night 15 minutes of fireworks right in front of our holiday home with the kids.",
+    "text_zh": "妻子踩到积木伤了脚，去了医院。这期间我去看了祖母和姨妈要住的公寓，然后开了三个半小时车到轻井泽。在公园玩了两个小时，晚上和孩子们在别墅正前方看了15分钟烟花。"
   },
   "media": {
-    "updated": "2026-11-21 21:35",
+    "updated": "2026-11-22 19:34",
     "impressions_month": null,
     "impressions_daily": [],
     "followers": [
@@ -612,7 +618,7 @@
         "name": "X English",
         "handle": "@YUKICAPITALen",
         "url": "https://x.com/YUKICAPITALen",
-        "count": 109,
+        "count": 108,
         "name_en": "X English",
         "name_zh": "X 英文"
       },
@@ -620,7 +626,7 @@
         "name": "X 中文",
         "handle": "@YUKICAPITALchin",
         "url": "https://x.com/YUKICAPITALchin",
-        "count": 69,
+        "count": 68,
         "name_en": "X Chinese",
         "name_zh": "X 中文"
       },
@@ -639,22 +645,22 @@
           "name": "X 日本語",
           "name_en": "X Japanese",
           "name_zh": "X 日文",
-          "d7": 50974,
-          "d28": 195428
+          "d7": 49999,
+          "d28": 195593
         },
         {
           "name": "X English",
           "name_en": "X English",
           "name_zh": "X 英文",
-          "d7": 6602,
-          "d28": 33792
+          "d7": 6772,
+          "d28": 34192
         },
         {
           "name": "X 中文",
           "name_en": "X Chinese",
           "name_zh": "X 中文",
-          "d7": 5474,
-          "d28": 37793
+          "d7": 6091,
+          "d28": 37302
         },
         {
           "name": "note",
@@ -671,8 +677,8 @@
           "d28": 630
         }
       ],
-      "total_d7": 64446,
-      "total_d28": 271889
+      "total_d7": 64258,
+      "total_d28": 271963
     },
     "site": {
       "visits_24h": 5,
@@ -681,7 +687,6 @@
     },
     "daily": {
       "dates": [
-        "2026-10-25",
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
@@ -708,10 +713,10 @@
         "2026-11-18",
         "2026-11-19",
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ],
       "x_ja": [
-        5147,
         8230,
         10468,
         9155,
@@ -738,10 +743,10 @@
         7140,
         13537,
         7867,
-        1786
+        6321,
+        777
       ],
       "x_en": [
-        733,
         1541,
         1727,
         2050,
@@ -768,10 +773,10 @@
         1207,
         1247,
         1053,
-        129
+        1118,
+        144
       ],
       "x_zh": [
-        1687,
         1994,
         2312,
         2354,
@@ -798,10 +803,10 @@
         981,
         1356,
         1137,
-        133
+        1170,
+        159
       ],
       "note": [
-        59,
         36,
         2,
         149,
@@ -828,29 +833,41 @@
         299,
         203,
         119,
-        87
+        87,
+        null
       ]
     },
     "today": {
-      "date": "2026-11-21",
-      "x_ja": 1786,
-      "x_en": 129,
-      "x_zh": 133,
-      "note": 87,
+      "date": "2026-11-22",
+      "x_ja": 777,
+      "x_en": 144,
+      "x_zh": 159,
+      "note": null,
       "site_visits_24h": 5,
       "site_pv_24h": 12,
-      "at": "2026-11-21 21:35"
+      "at": "2026-11-22 19:34"
     },
     "intraday": [
       {
-        "at": "2026-11-21 21:35",
-        "x": 2048,
+        "at": "2026-11-22 19:34",
+        "x": 1080,
         "site_pv_24h": 12,
         "site_visits_24h": 5
       }
     ]
   },
   "archive": [
+    {
+      "date": "2026-11-22",
+      "label": "11.22（日）",
+      "total": null,
+      "diff_pct": null,
+      "memo": "休場 ｜ 18本×3言語 ｜ 売買なし ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "Market closed ｜ 18 posts x 3 languages ｜ No trades ｜ 1 note ｜ 1 article",
+      "memo_zh": "休市 ｜ 18条×3种语言 ｜ 无交易 ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Nov 22 Sun",
+      "label_zh": "11.22 周日"
+    },
     {
       "date": "2026-11-21",
       "label": "11.21（土）",
@@ -1260,6 +1277,25 @@
     }
   ],
   "articles": [
+    {
+      "slug": "overseas-data-center-tax",
+      "date": "2026-11-22",
+      "image": "images/articles/overseas-data-center-tax/hero.jpg",
+      "category": "経済",
+      "category_en": "Economy",
+      "category_zh": "经济",
+      "tags": [
+        "economy",
+        "ai",
+        "tech"
+      ],
+      "title": "米国の外にデータセンターを建てる会社に、課税はできるのか――トランプ大統領の発言を、内国歳入法の第951A条とワイデン議員の白書で検証",
+      "lead": "2026年11月20日（米国時間）、トランプ大統領は会見で、米国の外にデータセンターを建てる米国企業に巨額の税を課す方針を示した[7]。課税の方法や法律の根拠には触れていない。 同じ週、日米台韓のAI関連株は大きく下げていた。設備の置き場所に税が絡めば、ハイパースケーラーの年数千億ドルの投資計画が変わりうる。 本稿の問いは、国外のデータセンターに課税する仕組みはすでにあるのか、そして新しい課税は、国内に建てるより国外を不利にできるのか、である。",
+      "title_en": "Can the US tax companies that build data centers abroad? Testing President Trump's remarks against Section 951A of the Internal Revenue Code and Senator Wyden's white paper",
+      "lead_en": "On November 20, 2026 (US time), President Trump said at a press conference that he intends to impose a huge tax on US companies that build data centers outside the United States [7]. He did not say how the tax would work or what law it would rest on. That same week, AI-related stocks fell sharply in the US, Japan, Taiwan and Korea. If taxes start to depend on where equipment sits, the hyperscalers' investment plans, worth hundreds of billions of dollars a year, could change. The question of this article: is there already a mechanism for taxing data centers abroad, and could a new tax make building abroad less attractive than building at home?",
+      "title_zh": "能否对在美国境外建设数据中心的企业征税？——用《国内税收法》第951A条和怀登参议员的白皮书检验特朗普总统的发言",
+      "lead_zh": "2026年11月20日（美国时间），特朗普总统在记者会上表示，将对在美国境外建设数据中心的美国企业征收巨额税款[7]。他没有提到征税方式和法律依据。 同一周，美日台韩的AI相关股票大幅下跌。如果税收与设备所在地挂钩，超大规模云服务商每年数千亿美元的投资计划可能改变。 本文的问题是：对境外数据中心征税的机制是否已经存在？新的税收能否让在境外建设比在境内更不划算？"
+    },
     {
       "slug": "ai-selloff-november-2026",
       "date": "2026-11-21",
