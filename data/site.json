@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T20:00:00+09:00",
+  "updated": "2026-11-23T21:00:00+09:00",
   "profile": {
     "name": "YUKI CAPITAL",
     "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -332,7 +332,7 @@
     }
   ],
   "posts": {
-    "date": "2026-11-22",
+    "date": "2026-11-23",
     "count": 18,
     "items": [
       {
@@ -340,56 +340,62 @@
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.22",
+        "time": "11.23",
         "kind": "シリーズ",
         "kind_en": "Series",
         "kind_zh": "系列",
-        "title": "1892年、小諸で魚から始まったツルヤ",
-        "title_en": "1892, Komoro: Tsuruya began as a fish seller",
-        "title_zh": "1892年，在小诸从卖鱼起家的鹤屋超市"
+        "title": "明治18年、横川駅のおむすびから始まった荻野屋",
+        "title_en": "1885: Oginoya began with rice balls at Yokokawa Station",
+        "title_zh": "明治18年，从横川站的饭团起家的荻野屋"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.22",
+        "time": "11.23",
         "kind": "日記",
         "kind_en": "Diary",
         "kind_zh": "日记",
-        "title": "別荘の真ん前に上がった、15分の花火",
-        "title_en": "Fireworks for 15 minutes, right in front of our holiday home",
-        "title_zh": "别墅正前方升起的15分钟烟花"
+        "title": "雪で引き返し佐久平へ、90分遊んだ寒い日曜",
+        "title_en": "Turned back by snow, 90 minutes at a park in Sakudaira",
+        "title_zh": "因雪折返去佐久平，在寒冷的周日玩了90分钟"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.22",
+        "time": "11.23",
         "kind": "長文",
         "kind_en": "Essay",
         "kind_zh": "长文",
-        "title": "AIの底力は本物だけど、一部バブル",
-        "title_en": "The strength of AI is real, but part of it is a bubble",
-        "title_zh": "AI的底力是真的，但有一部分是泡沫"
+        "title": "アイスバーンで引き返した日、リスクが無限大の投資",
+        "title_en": "The day I turned back on black ice, and investments with unlimited risk",
+        "title_zh": "在冰面上折返的那天，想到风险无限大的投资"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.22",
+        "time": "11.23",
         "kind": "資本枠",
         "kind_en": "Capital",
         "kind_zh": "资本",
-        "title": "371,084,888円、3連休の中日に現状を整理する",
-        "title_en": "$2,339,901: taking stock in the middle of a three-day weekend",
-        "title_zh": "15,707,287元人民币（2,339,901美元），三连休中途整理现状"
+        "title": "371,084,888円、連休最終日も配分は動かさない",
+        "title_en": "¥371,084,888: no change to my allocation on the last day of the long weekend",
+        "title_zh": "371,084,888日元，连休最后一天也不调整配置"
       }
     ]
   },
   "note": [
+    {
+      "date": "2026-11-23",
+      "title": "日銀は12月に1.5%へ上げるのか。植田総裁の発言と確率84.7%から、銀行4行の持ち方を決める",
+      "url": "https://note.com/capitallogs/n/nf36be80423c6",
+      "image": "https://assets.st-note.com/production/uploads/images/339798297/rectangle_large_type_2_a2133b6df92b8b26bd804f46e7c142d0.png"
+    },
     {
       "date": "2026-11-22",
       "title": "暴落のたびにバフェットは何を買ったのか。ワシントン・ポスト、コカ・コーラ、ゴールドマンの歴史",
@@ -584,25 +590,25 @@
     }
   ],
   "diary": {
-    "date": "2026-11-22（日）",
-    "place": "マンションの下見・白金の実家・軽井沢の別荘・湯川ふるさと公園",
-    "title": "別荘の真ん前に上がった、15分の花火",
-    "text": "妻が積み木で足をけがして病院へ。その間に祖母とおばが暮らすマンションを下見し、3時間半かけて軽井沢へ。公園で2時間遊び、夜は別荘の真ん前で15分の花火を子どもたちと見た。",
+    "date": "2026-11-23（月）",
+    "place": "軽井沢の別荘・佐久平交流センター・見晴らしの湯",
+    "title": "雪で引き返し佐久平へ、90分遊んだ寒い日曜",
+    "text": "雪道を避けておもちゃ王国を見送り、チェーンを買って佐久平の大きな公園で90分。スーパー銭湯で温まり、ソフトクリームを半分ずつ食べて、子どもたちは帰りの車で眠った。",
     "image": "",
     "url": "https://x.com/capitallogs",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin",
-    "date_en": "Sun, Nov 22, 2026",
-    "date_zh": "2026.11.22（周日）",
-    "place_en": "Apartment viewing, my parents' house in Shirokane, our holiday home in Karuizawa, Yukawa Furusato Park",
-    "place_zh": "看房、白金的父母家、轻井泽的别墅、汤川故乡公园",
-    "title_en": "Fireworks for 15 minutes, right in front of our holiday home",
-    "title_zh": "别墅正前方升起的15分钟烟花",
-    "text_en": "My wife hurt her foot on a toy block and went to the hospital. Meanwhile I viewed the apartment where my grandmother and aunt will live, then drove three and a half hours to Karuizawa. Two hours at the park, and at night 15 minutes of fireworks right in front of our holiday home with the kids.",
-    "text_zh": "妻子踩到积木伤了脚，去了医院。这期间我去看了祖母和姨妈要住的公寓，然后开了三个半小时车到轻井泽。在公园玩了两个小时，晚上和孩子们在别墅正前方看了15分钟烟花。"
+    "date_en": "Mon, Nov 23, 2026",
+    "date_zh": "2026.11.23（周一）",
+    "place_en": "Our holiday home in Karuizawa, Sakudaira park, a hot spring",
+    "place_zh": "轻井泽的别墅、佐久平公园、温泉",
+    "title_en": "Turned back by snow, 90 minutes at a park in Sakudaira",
+    "title_zh": "因雪折返去佐久平，在寒冷的周日玩了90分钟",
+    "text_en": "We skipped the toy park because of icy roads, bought chains and spent 90 minutes at a big park in Sakudaira. We warmed up at a hot spring, shared soft-serve ice cream in halves, and the boys fell asleep in the car.",
+    "text_zh": "为避开冰雪路面放弃了玩具王国，买好防滑链后在佐久平的大公园玩了90分钟。在温泉暖和身子，两人分吃一个冰淇淋，孩子们在回程车上睡着了。"
   },
   "media": {
-    "updated": "2026-11-22 19:34",
+    "updated": "2026-11-23 20:54",
     "impressions_month": null,
     "impressions_daily": [],
     "followers": [
@@ -610,7 +616,7 @@
         "name": "X 日本語",
         "handle": "@capitallogs",
         "url": "https://x.com/capitallogs",
-        "count": 181,
+        "count": 182,
         "name_en": "X Japanese",
         "name_zh": "X 日文"
       },
@@ -618,7 +624,7 @@
         "name": "X English",
         "handle": "@YUKICAPITALen",
         "url": "https://x.com/YUKICAPITALen",
-        "count": 108,
+        "count": 110,
         "name_en": "X English",
         "name_zh": "X 英文"
       },
@@ -645,29 +651,29 @@
           "name": "X 日本語",
           "name_en": "X Japanese",
           "name_zh": "X 日文",
-          "d7": 49999,
-          "d28": 195593
+          "d7": 48323,
+          "d28": 193143
         },
         {
           "name": "X English",
           "name_en": "X English",
           "name_zh": "X 英文",
-          "d7": 6772,
-          "d28": 34192
+          "d7": 6774,
+          "d28": 33803
         },
         {
           "name": "X 中文",
           "name_en": "X Chinese",
           "name_zh": "X 中文",
-          "d7": 6091,
-          "d28": 37302
+          "d7": 6767,
+          "d28": 36407
         },
         {
           "name": "note",
           "name_en": "note",
           "name_zh": "note",
-          "d7": 1197,
-          "d28": 4246
+          "d7": 1274,
+          "d28": 4542
         },
         {
           "name": "サイト",
@@ -677,8 +683,8 @@
           "d28": 630
         }
       ],
-      "total_d7": 64258,
-      "total_d28": 271963
+      "total_d7": 63337,
+      "total_d28": 268525
     },
     "site": {
       "visits_24h": 5,
@@ -687,7 +693,6 @@
     },
     "daily": {
       "dates": [
-        "2026-10-26",
         "2026-10-27",
         "2026-10-28",
         "2026-10-29",
@@ -714,10 +719,10 @@
         "2026-11-19",
         "2026-11-20",
         "2026-11-21",
-        "2026-11-22"
+        "2026-11-22",
+        "2026-11-23"
       ],
       "x_ja": [
-        8230,
         10468,
         9155,
         7021,
@@ -744,10 +749,10 @@
         13537,
         7867,
         6321,
-        777
+        5323,
+        1234
       ],
       "x_en": [
-        1541,
         1727,
         2050,
         1349,
@@ -774,10 +779,10 @@
         1247,
         1053,
         1118,
-        144
+        1075,
+        221
       ],
       "x_zh": [
-        1994,
         2312,
         2354,
         1866,
@@ -804,10 +809,10 @@
         1356,
         1137,
         1170,
-        159
+        1062,
+        196
       ],
       "note": [
-        36,
         2,
         149,
         152,
@@ -833,30 +838,42 @@
         299,
         203,
         119,
-        87,
-        null
+        133,
+        205,
+        140
       ]
     },
     "today": {
-      "date": "2026-11-22",
-      "x_ja": 777,
-      "x_en": 144,
-      "x_zh": 159,
-      "note": null,
+      "date": "2026-11-23",
+      "x_ja": 1234,
+      "x_en": 221,
+      "x_zh": 196,
+      "note": 140,
       "site_visits_24h": 5,
       "site_pv_24h": 12,
-      "at": "2026-11-22 19:34"
+      "at": "2026-11-23 20:54"
     },
     "intraday": [
       {
-        "at": "2026-11-22 19:34",
-        "x": 1080,
+        "at": "2026-11-23 20:54",
+        "x": 1651,
         "site_pv_24h": 12,
         "site_visits_24h": 5
       }
     ]
   },
   "archive": [
+    {
+      "date": "2026-11-23",
+      "label": "11.23（月）",
+      "total": null,
+      "diff_pct": null,
+      "memo": "休場（勤労感謝の日） ｜ 18本×3言語 ｜ 売買なし ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "Market closed (Labor Thanksgiving Day) ｜ 18 posts x 3 languages ｜ No trades ｜ 1 note ｜ 1 article",
+      "memo_zh": "休市（勤劳感谢日） ｜ 18条×3种语言 ｜ 无交易 ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Nov 23 Mon",
+      "label_zh": "11.23 周一"
+    },
     {
       "date": "2026-11-22",
       "label": "11.22（日）",
@@ -1277,6 +1294,25 @@
     }
   ],
   "articles": [
+    {
+      "slug": "boj-rates-tokyo-condo-prices",
+      "date": "2026-11-23",
+      "image": "images/articles/boj-rates-tokyo-condo-prices/hero.jpg",
+      "category": "経済",
+      "category_en": "Economy",
+      "category_zh": "经济",
+      "tags": [
+        "economy",
+        "finance",
+        "markets"
+      ],
+      "title": "日銀が12月に1.5%へ上げたら、東京のマンション価格はどう動くか――1990年・2006年・2024年以降の利上げを、不動産経済研究所と国交省のデータで検証",
+      "lead": "日銀は12月17〜18日の金融政策決定会合で、政策金利を1.25%から1.5%へ上げるかを判断する。市場では、上げるとの見方が多い。 一方、東京23区の新築マンションの平均価格は、2025年度に1億3,784万円と過去最高を更新した。10月は前年同月比15.5%安の1億2,937万円と、4か月ぶりに下がった。 本稿の問いは、日本の過去の利上げ局面で、首都圏のマンション価格はどれだけ遅れて、どれだけ動いたのか、そして1.5%への利上げは買う人の月々の返済をどれだけ変えるのか、である。",
+      "title_en": "If the Bank of Japan raises rates to 1.5% in December, how will Tokyo condo prices move? Testing the 1990, 2006 and post-2024 hikes with data from the Real Estate Economic Institute and Japan's land ministry",
+      "lead_en": "At its December 17–18 policy meeting, the Bank of Japan will decide whether to raise its policy rate from 1.25% to 1.5%. Most market participants expect a hike. Meanwhile, the average price of a new condo in Tokyo's 23 wards hit a record ¥137.84 million in fiscal 2025. In October 2026 it fell 15.5% year on year to ¥129.37 million, the first decline in four months. The question of this article: in Japan's past tightening cycles, how much did Greater Tokyo condo prices move, and with what lag? And how much would a hike to 1.5% change a buyer's monthly mortgage payment?",
+      "title_zh": "日本央行若在12月加息至1.5%，东京公寓价格将如何变动？——用不动产经济研究所和国土交通省的数据检验1990年、2006年与2024年以后的加息",
+      "lead_zh": "日本央行将在12月17日至18日的货币政策会议上，决定是否把政策利率从1.25%上调至1.5%。市场多数人预计会加息。 另一方面，东京23区新建公寓的平均价格在2025财年创下1亿3,784万日元的新高。2026年10月同比下跌15.5%，为1亿2,937万日元，是4个月来首次下跌。 本文的问题是：在日本过去的加息阶段，首都圈公寓价格滞后多久、变动多大？加息至1.5%又会让购房者的月供增加多少？"
+    },
     {
       "slug": "overseas-data-center-tax",
       "date": "2026-11-22",
