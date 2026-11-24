@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T21:00:00+09:00",
+  "updated": "2026-11-24T17:10:00+09:00",
   "profile": {
     "name": "YUKI CAPITAL",
     "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -16,32 +16,32 @@
     "note": "https://note.com/capitallogs"
   },
   "capital": {
-    "date": "2026-11-20",
-    "label": "11.20（金）",
-    "total": 371084888,
-    "diff": -1981085,
-    "diff_pct": -0.53,
-    "unreal": 38088138,
-    "unreal_pct": 11.47,
+    "date": "2026-11-24",
+    "label": "11.24（火）",
+    "total": 367692491,
+    "diff": -3392397,
+    "diff_pct": -0.91,
+    "unreal": 34695741,
+    "unreal_pct": 10.45,
     "cash": 877536,
     "cash_pct": 0.24,
-    "trade": "IonQ 500株を25.45ドルで買い増し（3,000株）・次は20ドル割れで500株",
+    "trade": "売買なし（外国株はまだ11月19日の値）",
     "alloc": [
       {
         "name": "国内株",
-        "pct": 46.7,
+        "pct": 46.94,
         "name_en": "JP stocks",
         "name_zh": "日本股票"
       },
       {
         "name": "投信",
-        "pct": 27.75,
+        "pct": 28.01,
         "name_en": "Funds",
         "name_zh": "基金"
       },
       {
         "name": "外国株",
-        "pct": 25.31,
+        "pct": 24.8,
         "name_en": "Foreign stocks",
         "name_zh": "海外股票"
       },
@@ -148,24 +148,28 @@
       {
         "date": "2026-11-20",
         "total": 371084888
+      },
+      {
+        "date": "2026-11-24",
+        "total": 367692491
       }
     ],
-    "label_en": "Nov 20 (Fri)",
-    "label_zh": "11.20（周五）",
-    "trade_en": "Bought 500 more IonQ at $25.45 (now 3,000 shares); next: 500 below $20",
-    "trade_zh": "以25.45美元加仓IonQ 500股（共3,000股）；下一次：跌破20美元加500股",
+    "label_en": "Nov 24 (Tue)",
+    "label_zh": "11.24（周二）",
+    "trade_en": "No trades (foreign stocks still at Nov 19 prices)",
+    "trade_zh": "无交易（海外股票仍为11月19日的价格）",
     "week": {
-      "from": "2026-11-13",
-      "to": "2026-11-20",
-      "diff": -24589973,
-      "diff_pct": -6.21
+      "from": "2026-11-17",
+      "to": "2026-11-24",
+      "diff": -15768269,
+      "diff_pct": -4.11
     }
   },
   "conditions": [
     {
       "title": "SpaceX を +500株",
       "rule": "終値が 100ドルを割ったら",
-      "now": "143.5 ドル",
+      "now": "138.43 ドル（11/19）",
       "status": "未達",
       "title_en": "Add 500 SpaceX",
       "rule_en": "if the close falls below $100",
@@ -173,13 +177,13 @@
       "title_zh": "SpaceX 加仓500股",
       "rule_zh": "收盘价跌破100美元时",
       "status_zh": "未达",
-      "now_en": "$143.50",
-      "now_zh": "143.5 美元"
+      "now_en": "$138.43 (Nov 19)",
+      "now_zh": "138.43 美元（11/19）"
     },
     {
       "title": "IonQ を +500株",
       "rule": "20ドルを割ったら",
-      "now": "23.48ドル（11/18）・25.45ドルで500株を約定し3,000株",
+      "now": "22.71ドル（11/19）・3,000株",
       "status": "未達",
       "title_en": "Add 500 IonQ",
       "rule_en": "if it falls below $20",
@@ -187,13 +191,13 @@
       "title_zh": "IonQ 加仓500股",
       "rule_zh": "跌破20美元时",
       "status_zh": "未达",
-      "now_en": "$23.48 (Nov 18); 500 filled at $25.45, now 3,000 shares",
-      "now_zh": "23.48美元（11/18）；以25.45美元成交500股，共3,000股"
+      "now_en": "$22.71 (Nov 19); 3,000 shares",
+      "now_zh": "22.71美元（11/19）；共3,000股"
     },
     {
       "title": "三井住友FG を買い増し",
       "rule": "3,000円をしっかり割ったら",
-      "now": "3,040 円",
+      "now": "3,011 円",
       "status": "未達",
       "title_en": "Add SMFG (8316)",
       "rule_en": "if it clearly breaks below ¥3,000",
@@ -201,13 +205,13 @@
       "title_zh": "加仓三井住友FG",
       "rule_zh": "明确跌破3,000日元时",
       "status_zh": "未达",
-      "now_en": "¥3,040",
-      "now_zh": "3,040 日元"
+      "now_en": "¥3,011",
+      "now_zh": "3,011 日元"
     },
     {
       "title": "SpaceX の積み立て",
       "rule": "外壁補修の見積もりが出るまで",
-      "now": "143.5 ドル",
+      "now": "138.43 ドル",
       "status": "10月・11月とも休止",
       "title_en": "Monthly SpaceX purchases",
       "rule_en": "until the exterior-wall repair estimate is in",
@@ -215,8 +219,8 @@
       "title_zh": "SpaceX 定投",
       "rule_zh": "等外墙维修报价出来",
       "status_zh": "10月、11月均暂停",
-      "now_en": "$143.50",
-      "now_zh": "143.5 美元"
+      "now_en": "$138.43",
+      "now_zh": "138.43 美元"
     },
     {
       "title": "Anthropic を +500株",
@@ -332,64 +336,70 @@
     }
   ],
   "posts": {
-    "date": "2026-11-23",
-    "count": 18,
+    "date": "2026-11-24",
+    "count": 27,
     "items": [
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.23",
-        "kind": "シリーズ",
-        "kind_en": "Series",
-        "kind_zh": "系列",
-        "title": "明治18年、横川駅のおむすびから始まった荻野屋",
-        "title_en": "1885: Oginoya began with rice balls at Yokokawa Station",
-        "title_zh": "明治18年，从横川站的饭团起家的荻野屋"
+        "time": "11.24",
+        "kind": "判断枠",
+        "kind_en": "Judgment",
+        "kind_zh": "判断",
+        "title": "銀行株の下げは「金利はそれほど上がらない」という声に見える",
+        "title_en": "Bank stocks falling look like a vote that rates won't rise much",
+        "title_zh": "银行股下跌，看起来像是“利率不会涨太多”的声音"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.23",
+        "time": "11.24",
         "kind": "日記",
         "kind_en": "Diary",
         "kind_zh": "日记",
-        "title": "雪で引き返し佐久平へ、90分遊んだ寒い日曜",
-        "title_en": "Turned back by snow, 90 minutes at a park in Sakudaira",
-        "title_zh": "因雪折返去佐久平，在寒冷的周日玩了90分钟"
+        "title": "長男の熱で次男と2人、軽井沢の最後の朝と帰り道",
+        "title_en": "With my elder son feverish, a last morning in Karuizawa with my younger son",
+        "title_zh": "长子发烧，和次子两人度过轻井泽最后的早晨和归途"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.23",
+        "time": "11.24",
         "kind": "長文",
         "kind_en": "Essay",
         "kind_zh": "长文",
-        "title": "アイスバーンで引き返した日、リスクが無限大の投資",
-        "title_en": "The day I turned back on black ice, and investments with unlimited risk",
-        "title_zh": "在冰面上折返的那天，想到风险无限大的投资"
+        "title": "双子の父が、次男1人だけを見た矢ヶ崎公園の朝",
+        "title_en": "A father of twins, and a morning at Yagasaki Park with just one of them",
+        "title_zh": "双胞胎的父亲，在矢崎公园只陪次子一人的早晨"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.23",
-        "kind": "資本枠",
-        "kind_en": "Capital",
-        "kind_zh": "资本",
-        "title": "371,084,888円、連休最終日も配分は動かさない",
-        "title_en": "¥371,084,888: no change to my allocation on the last day of the long weekend",
-        "title_zh": "371,084,888日元，连休最后一天也不调整配置"
+        "time": "11.24",
+        "kind": "ニュース",
+        "kind_en": "News",
+        "kind_zh": "新闻",
+        "title": "日経先物57,960円、連休明けの朝に口座を全部見た",
+        "title_en": "Nikkei futures at 57,960: I checked my whole account after the long weekend",
+        "title_zh": "日经期货57,960点，长假后的早晨我把账户全看了一遍"
       }
     ]
   },
   "note": [
+    {
+      "date": "2026-11-24",
+      "title": "日経平均3,007円安から3連休明けの反発へ。銀行4行を1株も売らなかった僕が、次に見る「日銀の政策金利2%」の線",
+      "url": "https://note.com/capitallogs/n/n153b3649f406",
+      "image": "https://assets.st-note.com/production/uploads/images/340138848/rectangle_large_type_2_733c914a025a0849bf1bb936d05e1d09.png"
+    },
     {
       "date": "2026-11-23",
       "title": "日銀は12月に1.5%へ上げるのか。植田総裁の発言と確率84.7%から、銀行4行の持ち方を決める",
@@ -590,25 +600,25 @@
     }
   ],
   "diary": {
-    "date": "2026-11-23（月）",
-    "place": "軽井沢の別荘・佐久平交流センター・見晴らしの湯",
-    "title": "雪で引き返し佐久平へ、90分遊んだ寒い日曜",
-    "text": "雪道を避けておもちゃ王国を見送り、チェーンを買って佐久平の大きな公園で90分。スーパー銭湯で温まり、ソフトクリームを半分ずつ食べて、子どもたちは帰りの車で眠った。",
+    "date": "2026-11-24（火）",
+    "place": "軽井沢・矢ヶ崎公園・パーキングエリア",
+    "title": "長男の熱で次男と2人、軽井沢の最後の朝と帰り道",
+    "text": "次男と2人で矢ヶ崎公園のカモに食パンを投げ、野鳥と鯉を眺めた。帰りに荻野屋の釜めしを落として割り、3つ目のパーキングエリアで峠の釜めしを買った。",
     "image": "",
     "url": "https://x.com/capitallogs",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin",
-    "date_en": "Mon, Nov 23, 2026",
-    "date_zh": "2026.11.23（周一）",
-    "place_en": "Our holiday home in Karuizawa, Sakudaira park, a hot spring",
-    "place_zh": "轻井泽的别墅、佐久平公园、温泉",
-    "title_en": "Turned back by snow, 90 minutes at a park in Sakudaira",
-    "title_zh": "因雪折返去佐久平，在寒冷的周日玩了90分钟",
-    "text_en": "We skipped the toy park because of icy roads, bought chains and spent 90 minutes at a big park in Sakudaira. We warmed up at a hot spring, shared soft-serve ice cream in halves, and the boys fell asleep in the car.",
-    "text_zh": "为避开冰雪路面放弃了玩具王国，买好防滑链后在佐久平的大公园玩了90分钟。在温泉暖和身子，两人分吃一个冰淇淋，孩子们在回程车上睡着了。"
+    "date_en": "Tue, Nov 24, 2026",
+    "date_zh": "2026.11.24（周二）",
+    "place_en": "Karuizawa, Yagasaki Park, highway rest stops",
+    "place_zh": "轻井泽、矢崎公园、高速服务区",
+    "title_en": "With my elder son feverish, a last morning in Karuizawa with my younger son",
+    "title_zh": "长子发烧，和次子两人度过轻井泽最后的早晨和归途",
+    "text_en": "My younger son and I fed bread to the ducks at Yagasaki Park and watched wild birds and carp. On the way home I dropped and broke a kamameshi pot, and we finally bought another at the third rest stop.",
+    "text_zh": "我和次子在矢崎公园给鸭子喂面包，看野鸟和鲤鱼。回程时我把荻野屋的釜饭摔碎了，到第三个服务区才买到峠之釜饭。"
   },
   "media": {
-    "updated": "2026-11-23 20:54",
+    "updated": "2026-11-24 17:08",
     "impressions_month": null,
     "impressions_daily": [],
     "followers": [
@@ -616,7 +626,7 @@
         "name": "X 日本語",
         "handle": "@capitallogs",
         "url": "https://x.com/capitallogs",
-        "count": 182,
+        "count": 180,
         "name_en": "X Japanese",
         "name_zh": "X 日文"
       },
@@ -624,7 +634,7 @@
         "name": "X English",
         "handle": "@YUKICAPITALen",
         "url": "https://x.com/YUKICAPITALen",
-        "count": 110,
+        "count": 111,
         "name_en": "X English",
         "name_zh": "X 英文"
       },
@@ -679,17 +689,17 @@
           "name": "サイト",
           "name_en": "Site",
           "name_zh": "网站",
-          "d7": 199,
-          "d28": 630
+          "d7": 141,
+          "d28": 640
         }
       ],
-      "total_d7": 63337,
-      "total_d28": 268525
+      "total_d7": 63279,
+      "total_d28": 268535
     },
     "site": {
-      "visits_24h": 5,
+      "visits_24h": 6,
       "pv_24h": 12,
-      "visits_7d": 152
+      "visits_7d": null
     },
     "daily": {
       "dates": [
@@ -849,20 +859,31 @@
       "x_en": 221,
       "x_zh": 196,
       "note": 140,
-      "site_visits_24h": 5,
+      "site_visits_24h": 6,
       "site_pv_24h": 12,
-      "at": "2026-11-23 20:54"
+      "at": "2026-11-24 17:08"
     },
     "intraday": [
       {
-        "at": "2026-11-23 20:54",
+        "at": "2026-11-24 17:08",
         "x": 1651,
         "site_pv_24h": 12,
-        "site_visits_24h": 5
+        "site_visits_24h": 6
       }
     ]
   },
   "archive": [
+    {
+      "date": "2026-11-24",
+      "label": "11.24（火）",
+      "total": 367692491,
+      "diff_pct": -0.91,
+      "memo": "前日比 −3,392,397円 ｜ 27本×3言語 ｜ 売買なし ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "Day change −¥3,392,397 ｜ 27 posts x 3 languages ｜ No trades ｜ 1 note ｜ 1 article",
+      "memo_zh": "较上一交易日 −3,392,397日元 ｜ 27条×3种语言 ｜ 无交易 ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Nov 24 Tue",
+      "label_zh": "11.24 周二"
+    },
     {
       "date": "2026-11-23",
       "label": "11.23（月）",
@@ -1294,6 +1315,25 @@
     }
   ],
   "articles": [
+    {
+      "slug": "vc-fee-performance-link",
+      "date": "2026-11-24",
+      "image": "images/articles/vc-fee-performance-link/hero.jpg",
+      "category": "金融",
+      "category_en": "Finance",
+      "category_zh": "金融",
+      "tags": [
+        "finance",
+        "business",
+        "economy"
+      ],
+      "title": "60億円のVCファンドで、管理報酬は運用成績とどれだけ連動するのか――ANOBAKA・経産省モデルLPA・Metrick＝Yasuda論文で検証",
+      "lead": "シードに特化したVCのANOBAKAが60億円規模の4号ファンドを立ち上げた。VCの報酬は「管理報酬2%・成功報酬20%」が目安とされる。本稿の問いは、60億円のファンドで運用者の受け取りのどれだけが成績と無関係に決まるか、である。",
+      "title_en": "In a ¥6 billion VC fund, how much of the manager's pay depends on performance? Testing ANOBAKA, Japan's METI model LPA and the Metrick–Yasuda paper",
+      "lead_en": "Seed-stage VC ANOBAKA has launched a ¥6 billion fourth fund. VC fees are often \"2 and 20\". The question: in a ¥6 billion fund, how much of the manager's pay is fixed regardless of performance?",
+      "title_zh": "在60亿日元的VC基金里，管理费与业绩挂钩多少？——用ANOBAKA、日本经济产业省示范合伙协议和Metrick–Yasuda论文检验",
+      "lead_zh": "专注种子期的ANOBAKA设立了60亿日元的第四期基金。VC报酬常被概括为“2%与20%”。本文的问题是：在60亿日元的基金里，管理人收入有多少与业绩无关？"
+    },
     {
       "slug": "boj-rates-tokyo-condo-prices",
       "date": "2026-11-23",
