@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T17:10:00+09:00",
+  "updated": "2026-11-25T17:00:00+09:00",
   "profile": {
     "name": "YUKI CAPITAL",
     "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -16,32 +16,32 @@
     "note": "https://note.com/capitallogs"
   },
   "capital": {
-    "date": "2026-11-24",
-    "label": "11.24（火）",
-    "total": 367692491,
-    "diff": -3392397,
-    "diff_pct": -0.91,
-    "unreal": 34695741,
-    "unreal_pct": 10.45,
+    "date": "2026-11-25",
+    "label": "11.25（水）",
+    "total": 367415771,
+    "diff": -276720,
+    "diff_pct": -0.08,
+    "unreal": 34419021,
+    "unreal_pct": 10.36,
     "cash": 877536,
     "cash_pct": 0.24,
-    "trade": "売買なし（外国株はまだ11月19日の値）",
+    "trade": "売買なし（アンソロピック1,500株を電話で注文する）",
     "alloc": [
       {
         "name": "国内株",
-        "pct": 46.94,
+        "pct": 46.89,
         "name_en": "JP stocks",
         "name_zh": "日本股票"
       },
       {
         "name": "投信",
-        "pct": 28.01,
+        "pct": 27.93,
         "name_en": "Funds",
         "name_zh": "基金"
       },
       {
         "name": "外国株",
-        "pct": 24.8,
+        "pct": 24.94,
         "name_en": "Foreign stocks",
         "name_zh": "海外股票"
       },
@@ -152,24 +152,28 @@
       {
         "date": "2026-11-24",
         "total": 367692491
+      },
+      {
+        "date": "2026-11-25",
+        "total": 367415771
       }
     ],
-    "label_en": "Nov 24 (Tue)",
-    "label_zh": "11.24（周二）",
-    "trade_en": "No trades (foreign stocks still at Nov 19 prices)",
-    "trade_zh": "无交易（海外股票仍为11月19日的价格）",
+    "label_en": "Nov 25 (Wed)",
+    "label_zh": "11.25（周三）",
+    "trade_en": "No trades (ordering 1,500 Anthropic shares by phone)",
+    "trade_zh": "无交易（电话下单1,500股Anthropic）",
     "week": {
-      "from": "2026-11-17",
-      "to": "2026-11-24",
-      "diff": -15768269,
-      "diff_pct": -4.11
+      "from": "2026-11-18",
+      "to": "2026-11-25",
+      "diff": -10015300,
+      "diff_pct": -2.65
     }
   },
   "conditions": [
     {
       "title": "SpaceX を +500株",
       "rule": "終値が 100ドルを割ったら",
-      "now": "138.43 ドル（11/19）",
+      "now": "133.35 ドル（11/23）",
       "status": "未達",
       "title_en": "Add 500 SpaceX",
       "rule_en": "if the close falls below $100",
@@ -177,13 +181,13 @@
       "title_zh": "SpaceX 加仓500股",
       "rule_zh": "收盘价跌破100美元时",
       "status_zh": "未达",
-      "now_en": "$138.43 (Nov 19)",
-      "now_zh": "138.43 美元（11/19）"
+      "now_en": "$133.35 (Nov 23)",
+      "now_zh": "133.35 美元（11/23）"
     },
     {
       "title": "IonQ を +500株",
       "rule": "20ドルを割ったら",
-      "now": "22.71ドル（11/19）・3,000株",
+      "now": "23.34ドル（11/23）・3,000株",
       "status": "未達",
       "title_en": "Add 500 IonQ",
       "rule_en": "if it falls below $20",
@@ -191,13 +195,13 @@
       "title_zh": "IonQ 加仓500股",
       "rule_zh": "跌破20美元时",
       "status_zh": "未达",
-      "now_en": "$22.71 (Nov 19); 3,000 shares",
-      "now_zh": "22.71美元（11/19）；共3,000股"
+      "now_en": "$23.34 (Nov 23); 3,000 shares",
+      "now_zh": "23.34美元（11/23）；共3,000股"
     },
     {
       "title": "三井住友FG を買い増し",
       "rule": "3,000円をしっかり割ったら",
-      "now": "3,011 円",
+      "now": "3,020 円",
       "status": "未達",
       "title_en": "Add SMFG (8316)",
       "rule_en": "if it clearly breaks below ¥3,000",
@@ -205,13 +209,13 @@
       "title_zh": "加仓三井住友FG",
       "rule_zh": "明确跌破3,000日元时",
       "status_zh": "未达",
-      "now_en": "¥3,011",
-      "now_zh": "3,011 日元"
+      "now_en": "¥3,020",
+      "now_zh": "3,020 日元"
     },
     {
       "title": "SpaceX の積み立て",
       "rule": "外壁補修の見積もりが出るまで",
-      "now": "138.43 ドル",
+      "now": "133.35 ドル",
       "status": "10月・11月とも休止",
       "title_en": "Monthly SpaceX purchases",
       "rule_en": "until the exterior-wall repair estimate is in",
@@ -219,22 +223,22 @@
       "title_zh": "SpaceX 定投",
       "rule_zh": "等外墙维修报价出来",
       "status_zh": "10月、11月均暂停",
-      "now_en": "$138.43",
-      "now_zh": "138.43 美元"
+      "now_en": "$133.35",
+      "now_zh": "133.35 美元"
     },
     {
-      "title": "Anthropic を +500株",
+      "title": "Anthropic を +1,500株",
       "rule": "公開価格83ドルを割ったら",
-      "now": "97.17ドル（初日の終値）",
-      "status": "未達",
-      "title_en": "Add 500 Anthropic",
+      "now": "81.91ドル（11/24）",
+      "status": "到達・注文へ",
+      "title_en": "Add 1,500 Anthropic",
       "rule_en": "if it falls below the $83 offer price",
-      "now_en": "$97.17 (first-day close)",
-      "status_en": "Not yet",
-      "title_zh": "Anthropic 加仓500股",
+      "now_en": "$81.91 (Nov 24)",
+      "status_en": "Reached; ordering",
+      "title_zh": "Anthropic 加仓1,500股",
       "rule_zh": "跌破83美元发行价时",
-      "now_zh": "97.17美元（首日收盘）",
-      "status_zh": "未达"
+      "now_zh": "81.91美元（11/24）",
+      "status_zh": "已达到，下单"
     }
   ],
   "holdings": [
@@ -336,7 +340,7 @@
     }
   ],
   "posts": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "count": 27,
     "items": [
       {
@@ -344,56 +348,62 @@
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.24",
+        "time": "11.25",
         "kind": "判断枠",
         "kind_en": "Judgment",
         "kind_zh": "判断",
-        "title": "銀行株の下げは「金利はそれほど上がらない」という声に見える",
-        "title_en": "Bank stocks falling look like a vote that rates won't rise much",
-        "title_zh": "银行股下跌，看起来像是“利率不会涨太多”的声音"
+        "title": "10年債が下がっても、銀行株で見るのは日銀の金利だけ",
+        "title_en": "Even when the 10-year yield falls, for bank stocks I watch only the BOJ rate",
+        "title_zh": "即使10年期国债收益率下跌，看银行股我只看日本央行的利率"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.24",
+        "time": "11.25",
         "kind": "日記",
         "kind_en": "Diary",
         "kind_zh": "日记",
-        "title": "長男の熱で次男と2人、軽井沢の最後の朝と帰り道",
-        "title_en": "With my elder son feverish, a last morning in Karuizawa with my younger son",
-        "title_zh": "长子发烧，和次子两人度过轻井泽最后的早晨和归途"
+        "title": "長男のインフルエンザと、妻と2人で食べたキムチチゲの夜",
+        "title_en": "My elder son’s flu, and a kimchi stew dinner alone with my wife",
+        "title_zh": "长子得了流感，和妻子两人吃泡菜汤的夜晚"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.24",
+        "time": "11.25",
         "kind": "長文",
         "kind_en": "Essay",
         "kind_zh": "长文",
-        "title": "双子の父が、次男1人だけを見た矢ヶ崎公園の朝",
-        "title_en": "A father of twins, and a morning at Yagasaki Park with just one of them",
-        "title_zh": "双胞胎的父亲，在矢崎公园只陪次子一人的早晨"
+        "title": "VCに断られた日、時価総額200倍にならない事業の調達先",
+        "title_en": "The day a VC turned me down: who funds a business that won’t grow 200x",
+        "title_zh": "被VC拒绝的那天：市值不会涨200倍的生意，向谁融资"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.24",
+        "time": "11.25",
         "kind": "ニュース",
         "kind_en": "News",
         "kind_zh": "新闻",
-        "title": "日経先物57,960円、連休明けの朝に口座を全部見た",
-        "title_en": "Nikkei futures at 57,960: I checked my whole account after the long weekend",
-        "title_zh": "日经期货57,960点，长假后的早晨我把账户全看了一遍"
+        "title": "アンソロピック81.91ドル、公開価格割れで1,500株を注文する",
+        "title_en": "Anthropic at $81.91: below its IPO price, so I am ordering 1,500 shares",
+        "title_zh": "Anthropic跌至81.91美元，跌破发行价，我下单1,500股"
       }
     ]
   },
   "note": [
+    {
+      "date": "2026-11-25",
+      "title": "日本生命は最高益、三井住友FGは下げた。金利の時代に僕が銀行4行を売らない3つの線",
+      "url": "https://note.com/capitallogs/n/nf52c787733de",
+      "image": "https://assets.st-note.com/production/uploads/images/340549104/rectangle_large_type_2_c24329066e1c745f992f8804e2316b8b.png"
+    },
     {
       "date": "2026-11-24",
       "title": "日経平均3,007円安から3連休明けの反発へ。銀行4行を1株も売らなかった僕が、次に見る「日銀の政策金利2%」の線",
@@ -600,25 +610,25 @@
     }
   ],
   "diary": {
-    "date": "2026-11-24（火）",
-    "place": "軽井沢・矢ヶ崎公園・パーキングエリア",
-    "title": "長男の熱で次男と2人、軽井沢の最後の朝と帰り道",
-    "text": "次男と2人で矢ヶ崎公園のカモに食パンを投げ、野鳥と鯉を眺めた。帰りに荻野屋の釜めしを落として割り、3つ目のパーキングエリアで峠の釜めしを買った。",
+    "date": "2026-11-25（水）",
+    "place": "自宅・ジム",
+    "title": "長男のインフルエンザと、妻と2人で食べたキムチチゲの夜",
+    "text": "プールで1,000m泳ぎ、夕方は資金調達の面談。長男がインフルエンザで寝ていた夜、引っ越し前の部屋で妻と2人で夕食を食べた。",
     "image": "",
     "url": "https://x.com/capitallogs",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin",
-    "date_en": "Tue, Nov 24, 2026",
-    "date_zh": "2026.11.24（周二）",
-    "place_en": "Karuizawa, Yagasaki Park, highway rest stops",
-    "place_zh": "轻井泽、矢崎公园、高速服务区",
-    "title_en": "With my elder son feverish, a last morning in Karuizawa with my younger son",
-    "title_zh": "长子发烧，和次子两人度过轻井泽最后的早晨和归途",
-    "text_en": "My younger son and I fed bread to the ducks at Yagasaki Park and watched wild birds and carp. On the way home I dropped and broke a kamameshi pot, and we finally bought another at the third rest stop.",
-    "text_zh": "我和次子在矢崎公园给鸭子喂面包，看野鸟和鲤鱼。回程时我把荻野屋的釜饭摔碎了，到第三个服务区才买到峠之釜饭。"
+    "date_en": "Wed, Nov 25, 2026",
+    "date_zh": "2026.11.25（周三）",
+    "place_en": "Home, gym",
+    "place_zh": "家、健身房",
+    "title_en": "My elder son’s flu, and a kimchi stew dinner alone with my wife",
+    "title_zh": "长子得了流感，和妻子两人吃泡菜汤的夜晚",
+    "text_en": "I swam about 1,000m and had a funding meeting in the evening. With my elder son asleep with the flu, my wife and I had dinner alone in the apartment we are about to leave.",
+    "text_zh": "游了约1,000米，傍晚开融资面谈。长子因流感睡着的夜里，我和妻子在即将搬离的家里两人吃了晚饭。"
   },
   "media": {
-    "updated": "2026-11-24 17:08",
+    "updated": "2026-11-25 16:29",
     "impressions_month": null,
     "impressions_daily": [],
     "followers": [
@@ -626,7 +636,7 @@
         "name": "X 日本語",
         "handle": "@capitallogs",
         "url": "https://x.com/capitallogs",
-        "count": 180,
+        "count": 179,
         "name_en": "X Japanese",
         "name_zh": "X 日文"
       },
@@ -682,8 +692,8 @@
           "name": "note",
           "name_en": "note",
           "name_zh": "note",
-          "d7": 1274,
-          "d28": 4542
+          "d7": 1326,
+          "d28": 4655
         },
         {
           "name": "サイト",
@@ -693,8 +703,8 @@
           "d28": 640
         }
       ],
-      "total_d7": 63279,
-      "total_d28": 268535
+      "total_d7": 63331,
+      "total_d28": 268648
     },
     "site": {
       "visits_24h": 6,
@@ -850,7 +860,7 @@
         119,
         133,
         205,
-        140
+        192
       ]
     },
     "today": {
@@ -858,14 +868,14 @@
       "x_ja": 1234,
       "x_en": 221,
       "x_zh": 196,
-      "note": 140,
+      "note": 192,
       "site_visits_24h": 6,
       "site_pv_24h": 12,
-      "at": "2026-11-24 17:08"
+      "at": "2026-11-25 16:29"
     },
     "intraday": [
       {
-        "at": "2026-11-24 17:08",
+        "at": "2026-11-25 16:29",
         "x": 1651,
         "site_pv_24h": 12,
         "site_visits_24h": 6
@@ -873,6 +883,17 @@
     ]
   },
   "archive": [
+    {
+      "date": "2026-11-25",
+      "label": "11.25（水）",
+      "total": 367415771,
+      "diff_pct": -0.08,
+      "memo": "前日比 −276,720円 ｜ 27本×3言語 ｜ アンソロピック1,500株を注文 ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "Day change −¥276,720 ｜ 27 posts x 3 languages ｜ Ordering 1,500 Anthropic ｜ 1 note ｜ 1 article",
+      "memo_zh": "较上一交易日 −276,720日元 ｜ 27条×3种语言 ｜ 下单1,500股Anthropic ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Nov 25 Wed",
+      "label_zh": "11.25 周三"
+    },
     {
       "date": "2026-11-24",
       "label": "11.24（火）",
@@ -1315,6 +1336,25 @@
     }
   ],
   "articles": [
+    {
+      "slug": "ipo-below-offer-one-year",
+      "date": "2026-11-25",
+      "image": "images/articles/ipo-below-offer-one-year/hero.jpg",
+      "category": "市場",
+      "category_en": "Markets",
+      "category_zh": "市场",
+      "tags": [
+        "markets",
+        "ai",
+        "company"
+      ],
+      "title": "アンソロピックが公開価格83ドルを割った。フェイスブック・ウーバー・アームは1年後にどうなったか――SEC開示とRitterのIPO統計で検証",
+      "lead": "米国のAI企業アンソロピックが、11月24日のニューヨーク市場で公開価格83ドルを初めて割り、終値は81.91ドルとなった。場中には76ドルまで売られ、初値111.33ドルからは約26%低い。大型のIPOが公開価格を割ると、「上場は失敗だった」という声が出やすい。だが、過去に同じ経験をした大型株は少なくない。本稿の問いは、上場直後に公開価格を割った大型テック株は、1年後にどうなったのか、である。",
+      "title_en": "Anthropic broke its $83 IPO price. What happened to Facebook, Uber and Arm a year later? Testing it with SEC filings and Ritter’s IPO data",
+      "lead_en": "On November 24, US AI company Anthropic closed below its $83 IPO price for the first time, at $81.91. It traded as low as $76 during the session, about 26% below its first trade of $111.33. When a big IPO breaks its offer price, people quickly call the listing a failure. Yet many large companies have been through the same thing. The question here: what happened, one year later, to large tech stocks that fell below their IPO price soon after listing?",
+      "title_zh": "Anthropic跌破83美元发行价。Facebook、Uber和Arm一年后怎样了？——用SEC披露资料和Ritter的IPO统计检验",
+      "lead_zh": "11月24日，美国AI公司Anthropic在纽约市场首次以低于83美元发行价的价格收盘，收于81.91美元。盘中一度跌至76美元，比首笔成交价111.33美元低约26%。大型IPO一旦跌破发行价，人们很容易说上市失败了。但过去经历过同样情况的大公司并不少。本文的问题是：上市后不久跌破发行价的大型科技股，一年后怎样了？"
+    },
     {
       "slug": "vc-fee-performance-link",
       "date": "2026-11-24",
