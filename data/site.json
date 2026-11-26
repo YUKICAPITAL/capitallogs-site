@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T17:00:00+09:00",
+  "updated": "2026-11-26T11:00:00+09:00",
   "profile": {
     "name": "YUKI CAPITAL",
     "tagline": "飲食店・不動産・シェアオフィスの経営者。総金融資産と、買う・買わないの判断を毎日そのまま公開。",
@@ -16,32 +16,32 @@
     "note": "https://note.com/capitallogs"
   },
   "capital": {
-    "date": "2026-11-25",
-    "label": "11.25（水）",
-    "total": 367415771,
-    "diff": -276720,
-    "diff_pct": -0.08,
-    "unreal": 34419021,
-    "unreal_pct": 10.36,
+    "date": "2026-11-26",
+    "label": "11.26（木）",
+    "total": 365140835,
+    "diff": -2274936,
+    "diff_pct": -0.62,
+    "unreal": 32144085,
+    "unreal_pct": 9.68,
     "cash": 877536,
     "cash_pct": 0.24,
-    "trade": "売買なし（アンソロピック1,500株を電話で注文する）",
+    "trade": "売買なし（アンソロピック1,500株は11/25に締めに間に合わず、今日あらためて注文）",
     "alloc": [
       {
         "name": "国内株",
-        "pct": 46.89,
+        "pct": 47.1,
         "name_en": "JP stocks",
         "name_zh": "日本股票"
       },
       {
         "name": "投信",
-        "pct": 27.93,
+        "pct": 28.17,
         "name_en": "Funds",
         "name_zh": "基金"
       },
       {
         "name": "外国株",
-        "pct": 24.94,
+        "pct": 24.48,
         "name_en": "Foreign stocks",
         "name_zh": "海外股票"
       },
@@ -156,24 +156,28 @@
       {
         "date": "2026-11-25",
         "total": 367415771
+      },
+      {
+        "date": "2026-11-26",
+        "total": 365140835
       }
     ],
-    "label_en": "Nov 25 (Wed)",
-    "label_zh": "11.25（周三）",
-    "trade_en": "No trades (ordering 1,500 Anthropic shares by phone)",
-    "trade_zh": "无交易（电话下单1,500股Anthropic）",
+    "label_en": "Nov 26 (Thu)",
+    "label_zh": "11.26（周四）",
+    "trade_en": "No trades (the 1,500-share Anthropic order missed the 5pm cutoff on Nov 25; placing it again today)",
+    "trade_zh": "无交易（1,500股Anthropic的订单11/25未赶上17点截止，今天重新下单）",
     "week": {
-      "from": "2026-11-18",
-      "to": "2026-11-25",
-      "diff": -10015300,
-      "diff_pct": -2.65
+      "from": "2026-11-19",
+      "to": "2026-11-26",
+      "diff": -7925138,
+      "diff_pct": -2.12
     }
   },
   "conditions": [
     {
       "title": "SpaceX を +500株",
       "rule": "終値が 100ドルを割ったら",
-      "now": "133.35 ドル（11/23）",
+      "now": "125.81 ドル（11/24）",
       "status": "未達",
       "title_en": "Add 500 SpaceX",
       "rule_en": "if the close falls below $100",
@@ -181,13 +185,13 @@
       "title_zh": "SpaceX 加仓500股",
       "rule_zh": "收盘价跌破100美元时",
       "status_zh": "未达",
-      "now_en": "$133.35 (Nov 23)",
-      "now_zh": "133.35 美元（11/23）"
+      "now_en": "$125.81 (Nov 24)",
+      "now_zh": "125.81 美元（11/24）"
     },
     {
       "title": "IonQ を +500株",
       "rule": "20ドルを割ったら",
-      "now": "23.34ドル（11/23）・3,000株",
+      "now": "22.40ドル（11/24）・3,000株",
       "status": "未達",
       "title_en": "Add 500 IonQ",
       "rule_en": "if it falls below $20",
@@ -195,13 +199,13 @@
       "title_zh": "IonQ 加仓500股",
       "rule_zh": "跌破20美元时",
       "status_zh": "未达",
-      "now_en": "$23.34 (Nov 23); 3,000 shares",
-      "now_zh": "23.34美元（11/23）；共3,000股"
+      "now_en": "$22.40 (Nov 24); 3,000 shares",
+      "now_zh": "22.40美元（11/24）；共3,000股"
     },
     {
       "title": "三井住友FG を買い増し",
       "rule": "3,000円をしっかり割ったら",
-      "now": "3,020 円",
+      "now": "3,015 円",
       "status": "未達",
       "title_en": "Add SMFG (8316)",
       "rule_en": "if it clearly breaks below ¥3,000",
@@ -209,13 +213,13 @@
       "title_zh": "加仓三井住友FG",
       "rule_zh": "明确跌破3,000日元时",
       "status_zh": "未达",
-      "now_en": "¥3,020",
-      "now_zh": "3,020 日元"
+      "now_en": "¥3,015",
+      "now_zh": "3,015 日元"
     },
     {
       "title": "SpaceX の積み立て",
       "rule": "外壁補修の見積もりが出るまで",
-      "now": "133.35 ドル",
+      "now": "125.81 ドル",
       "status": "10月・11月とも休止",
       "title_en": "Monthly SpaceX purchases",
       "rule_en": "until the exterior-wall repair estimate is in",
@@ -223,22 +227,22 @@
       "title_zh": "SpaceX 定投",
       "rule_zh": "等外墙维修报价出来",
       "status_zh": "10月、11月均暂停",
-      "now_en": "$133.35",
-      "now_zh": "133.35 美元"
+      "now_en": "$125.81",
+      "now_zh": "125.81 美元"
     },
     {
       "title": "Anthropic を +1,500株",
       "rule": "公開価格83ドルを割ったら",
-      "now": "81.91ドル（11/24）",
-      "status": "到達・注文へ",
+      "now": "82.79ドル（11/25）",
+      "status": "到達・11/26 に注文し直し",
       "title_en": "Add 1,500 Anthropic",
       "rule_en": "if it falls below the $83 offer price",
-      "now_en": "$81.91 (Nov 24)",
-      "status_en": "Reached; ordering",
+      "now_en": "$82.79 (Nov 25)",
+      "status_en": "Reached; re-ordering on Nov 26",
       "title_zh": "Anthropic 加仓1,500股",
       "rule_zh": "跌破83美元发行价时",
-      "now_zh": "81.91美元（11/24）",
-      "status_zh": "已达到，下单"
+      "now_zh": "82.79美元（11/25）",
+      "status_zh": "已达到，11/26重新下单"
     }
   ],
   "holdings": [
@@ -340,7 +344,7 @@
     }
   ],
   "posts": {
-    "date": "2026-11-25",
+    "date": "2026-11-26",
     "count": 27,
     "items": [
       {
@@ -348,56 +352,62 @@
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.25",
+        "time": "11.26",
         "kind": "判断枠",
         "kind_en": "Judgment",
         "kind_zh": "判断",
-        "title": "10年債が下がっても、銀行株で見るのは日銀の金利だけ",
-        "title_en": "Even when the 10-year yield falls, for bank stocks I watch only the BOJ rate",
-        "title_zh": "即使10年期国债收益率下跌，看银行股我只看日本央行的利率"
+        "title": "欧州の銀行株3%安の日に、僕は4行を下がりすぎと見る",
+        "title_en": "Euro bank stocks fell 3%; I see my four Japanese banks as oversold",
+        "title_zh": "欧洲银行股跌3%的那天，我认为手中4家银行跌过头了"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.25",
+        "time": "11.26",
         "kind": "日記",
         "kind_en": "Diary",
         "kind_zh": "日记",
-        "title": "長男のインフルエンザと、妻と2人で食べたキムチチゲの夜",
-        "title_en": "My elder son’s flu, and a kimchi stew dinner alone with my wife",
-        "title_zh": "长子得了流感，和妻子两人吃泡菜汤的夜晚"
+        "title": "10年ぶりに30分走った日",
+        "title_en": "The day I ran for 30 minutes for the first time in 10 years",
+        "title_zh": "10年来第一次跑了30分钟的那天"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.25",
+        "time": "11.26",
         "kind": "長文",
         "kind_en": "Essay",
         "kind_zh": "长文",
-        "title": "VCに断られた日、時価総額200倍にならない事業の調達先",
-        "title_en": "The day a VC turned me down: who funds a business that won’t grow 200x",
-        "title_zh": "被VC拒绝的那天：市值不会涨200倍的生意，向谁融资"
+        "title": "体重104キロの僕が、脚の筋トレをやめた理由",
+        "title_en": "Why I, at 104kg, stopped training my legs",
+        "title_zh": "体重104公斤的我，为什么停止了腿部力量训练"
       },
       {
         "url": "https://x.com/capitallogs",
         "url_en": "https://x.com/YUKICAPITALen",
         "url_zh": "https://x.com/YUKICAPITALchin",
         "impressions": null,
-        "time": "11.25",
+        "time": "11.26",
         "kind": "ニュース",
         "kind_en": "News",
         "kind_zh": "新闻",
-        "title": "アンソロピック81.91ドル、公開価格割れで1,500株を注文する",
-        "title_en": "Anthropic at $81.91: below its IPO price, so I am ordering 1,500 shares",
-        "title_zh": "Anthropic跌至81.91美元，跌破发行价，我下单1,500股"
+        "title": "アンソロピック83ドルの攻防・75ドルと85ドル",
+        "title_en": "Anthropic around its $83 IPO price: $75 and $85 in one day",
+        "title_zh": "Anthropic在83美元发行价上下拉锯：一天之内75美元和85美元"
       }
     ]
   },
   "note": [
+    {
+      "date": "2026-11-26",
+      "title": "SpaceXとテスラの合併で116ドル。値段で売らない僕の3つの線",
+      "url": "https://note.com/capitallogs/n/n6a37be504442",
+      "image": "https://assets.st-note.com/production/uploads/images/340843168/rectangle_large_type_2_a42b6b8c90fdedd49e5e30dfa8404968.png"
+    },
     {
       "date": "2026-11-25",
       "title": "日本生命は最高益、三井住友FGは下げた。金利の時代に僕が銀行4行を売らない3つの線",
@@ -610,25 +620,25 @@
     }
   ],
   "diary": {
-    "date": "2026-11-25（水）",
-    "place": "自宅・ジム",
-    "title": "長男のインフルエンザと、妻と2人で食べたキムチチゲの夜",
-    "text": "プールで1,000m泳ぎ、夕方は資金調達の面談。長男がインフルエンザで寝ていた夜、引っ越し前の部屋で妻と2人で夕食を食べた。",
+    "date": "2026-11-26（木）",
+    "place": "会社・ジム",
+    "title": "10年ぶりに30分走った日",
+    "text": "下半身の筋トレをランニングに替え、5分走って5分坂を歩くのを3回。夜は回復した長男が眠ったあと、妻の手料理を2人で食べた。",
     "image": "",
     "url": "https://x.com/capitallogs",
     "url_en": "https://x.com/YUKICAPITALen",
     "url_zh": "https://x.com/YUKICAPITALchin",
-    "date_en": "Wed, Nov 25, 2026",
-    "date_zh": "2026.11.25（周三）",
-    "place_en": "Home, gym",
-    "place_zh": "家、健身房",
-    "title_en": "My elder son’s flu, and a kimchi stew dinner alone with my wife",
-    "title_zh": "长子得了流感，和妻子两人吃泡菜汤的夜晚",
-    "text_en": "I swam about 1,000m and had a funding meeting in the evening. With my elder son asleep with the flu, my wife and I had dinner alone in the apartment we are about to leave.",
-    "text_zh": "游了约1,000米，傍晚开融资面谈。长子因流感睡着的夜里，我和妻子在即将搬离的家里两人吃了晚饭。"
+    "date_en": "Thu, Nov 26, 2026",
+    "date_zh": "2026.11.26（周四）",
+    "place_en": "Office, gym",
+    "place_zh": "公司、健身房",
+    "title_en": "The day I ran for 30 minutes for the first time in 10 years",
+    "title_zh": "10年来第一次跑了30分钟的那天",
+    "text_en": "I swapped leg day for running: 5 minutes running, 5 minutes walking uphill, three times. At night, after my recovering elder son fell asleep, my wife and I ate her home cooking together.",
+    "text_zh": "把练腿日换成跑步：跑5分钟、上坡走5分钟，重复3次。晚上康复中的长子睡下后，我和妻子两人吃了她做的饭菜。"
   },
   "media": {
-    "updated": "2026-11-25 16:29",
+    "updated": "2026-11-26 10:15",
     "impressions_month": null,
     "impressions_daily": [],
     "followers": [
@@ -636,7 +646,7 @@
         "name": "X 日本語",
         "handle": "@capitallogs",
         "url": "https://x.com/capitallogs",
-        "count": 179,
+        "count": 180,
         "name_en": "X Japanese",
         "name_zh": "X 日文"
       },
@@ -644,7 +654,7 @@
         "name": "X English",
         "handle": "@YUKICAPITALen",
         "url": "https://x.com/YUKICAPITALen",
-        "count": 111,
+        "count": 113,
         "name_en": "X English",
         "name_zh": "X 英文"
       },
@@ -652,7 +662,7 @@
         "name": "X 中文",
         "handle": "@YUKICAPITALchin",
         "url": "https://x.com/YUKICAPITALchin",
-        "count": 68,
+        "count": 70,
         "name_en": "X Chinese",
         "name_zh": "X 中文"
       },
@@ -671,22 +681,22 @@
           "name": "X 日本語",
           "name_en": "X Japanese",
           "name_zh": "X 日文",
-          "d7": 48323,
-          "d28": 193143
+          "d7": 39310,
+          "d28": 185064
         },
         {
           "name": "X English",
           "name_en": "X English",
           "name_zh": "X 英文",
-          "d7": 6774,
-          "d28": 33803
+          "d7": 6775,
+          "d28": 31985
         },
         {
           "name": "X 中文",
           "name_en": "X Chinese",
           "name_zh": "X 中文",
-          "d7": 6767,
-          "d28": 36407
+          "d7": 7300,
+          "d28": 33610
         },
         {
           "name": "note",
@@ -703,8 +713,8 @@
           "d28": 640
         }
       ],
-      "total_d7": 63331,
-      "total_d28": 268648
+      "total_d7": 54852,
+      "total_d28": 255954
     },
     "site": {
       "visits_24h": 6,
@@ -713,9 +723,6 @@
     },
     "daily": {
       "dates": [
-        "2026-10-27",
-        "2026-10-28",
-        "2026-10-29",
         "2026-10-30",
         "2026-10-31",
         "2026-11-01",
@@ -740,12 +747,12 @@
         "2026-11-20",
         "2026-11-21",
         "2026-11-22",
-        "2026-11-23"
+        "2026-11-23",
+        "2026-11-24",
+        "2026-11-25",
+        "2026-11-26"
       ],
       "x_ja": [
-        10468,
-        9155,
-        7021,
         5806,
         3155,
         5038,
@@ -770,12 +777,12 @@
         7867,
         6321,
         5323,
-        1234
+        6941,
+        7512,
+        5262,
+        84
       ],
       "x_en": [
-        1727,
-        2050,
-        1349,
         1339,
         742,
         853,
@@ -800,12 +807,12 @@
         1053,
         1118,
         1075,
-        221
+        1124,
+        1270,
+        1104,
+        31
       ],
       "x_zh": [
-        2312,
-        2354,
-        1866,
         1401,
         1533,
         1645,
@@ -830,12 +837,12 @@
         1137,
         1170,
         1062,
-        196
+        1295,
+        1419,
+        1200,
+        17
       ],
       "note": [
-        2,
-        149,
-        152,
         132,
         91,
         110,
@@ -860,29 +867,43 @@
         119,
         133,
         205,
-        192
+        192,
+        null,
+        null,
+        null
       ]
     },
     "today": {
-      "date": "2026-11-23",
-      "x_ja": 1234,
-      "x_en": 221,
-      "x_zh": 196,
-      "note": 192,
+      "date": "2026-11-26",
+      "x_ja": 84,
+      "x_en": 31,
+      "x_zh": 17,
+      "note": null,
       "site_visits_24h": 6,
       "site_pv_24h": 12,
-      "at": "2026-11-25 16:29"
+      "at": "2026-11-26 10:15"
     },
     "intraday": [
       {
-        "at": "2026-11-25 16:29",
-        "x": 1651,
+        "at": "2026-11-26 10:15",
+        "x": 132,
         "site_pv_24h": 12,
         "site_visits_24h": 6
       }
     ]
   },
   "archive": [
+    {
+      "date": "2026-11-26",
+      "label": "11.26（木）",
+      "total": 365140835,
+      "diff_pct": -0.62,
+      "memo": "前日比 −2,274,936円 ｜ 27本×3言語 ｜ アンソロピック1,500株を注文し直し ｜ note 1本 ｜ 記事 1本",
+      "memo_en": "Day change −¥2,274,936 ｜ 27 posts x 3 languages ｜ Re-ordering 1,500 Anthropic ｜ 1 note ｜ 1 article",
+      "memo_zh": "较上一交易日 −2,274,936日元 ｜ 27条×3种语言 ｜ 重新下单1,500股Anthropic ｜ note 1篇 ｜ 文章 1篇",
+      "label_en": "Nov 26 Thu",
+      "label_zh": "11.26 周四"
+    },
     {
       "date": "2026-11-25",
       "label": "11.25（水）",
@@ -1336,6 +1357,25 @@
     }
   ],
   "articles": [
+    {
+      "slug": "us-tariff-14-economies-deficit",
+      "date": "2026-11-26",
+      "image": "images/articles/us-tariff-14-economies-deficit/hero.jpg",
+      "category": "経済",
+      "category_en": "Economy",
+      "category_zh": "经济",
+      "tags": [
+        "economy",
+        "markets",
+        "company"
+      ],
+      "title": "米国の新関税案で日本は最大15%、ベトナムは35%。14か国・地域の税率は対米赤字の大きさで決まっているのか――USTR案と米国勢調査局の2025年統計で検証",
+      "lead": "米国の通商代表部（USTR）は11月25日、日本・中国・EUなど14か国・地域に対する新しい関税案を公表した。日本は最大15%、ベトナムは最大35%、中国は最大20%とされる。理由として挙げられたのは、相手国の「構造的な過剰生産能力」である。そうであれば、米国の赤字が大きい相手ほど税率が高くなっているはずだ。本稿の問いは、提案された税率は、各国・地域に対する米国の貿易赤字の大きさとどこまで対応しているのか、である。",
+      "title_en": "Japan up to 15%, Vietnam 35%: are the US proposed tariffs on 14 economies set by the size of the trade deficit? Testing USTR’s plan against 2025 Census data",
+      "lead_en": "On November 25, the Office of the US Trade Representative (USTR) proposed new tariffs on 14 economies, including Japan, China and the EU. Japan faces up to 15%, Vietnam up to 35% and China up to 20%. The stated reason is the partners’ “structural excess capacity.” If so, the economies with which the US runs the largest deficits should face the highest rates. The question here: how closely do the proposed rates track the size of the US trade deficit with each economy?",
+      "title_zh": "美国新关税方案：日本最高15%，越南35%。对14个经济体的税率是按对美逆差大小决定的吗？——用USTR方案和美国人口普查局2025年数据检验",
+      "lead_zh": "美国贸易代表办公室（USTR）于11月25日公布了对日本、中国、欧盟等14个经济体的新关税方案。日本最高15%，越南最高35%，中国最高20%。方案给出的理由是对方的“结构性产能过剩”。若是如此，美国逆差越大的对象，税率理应越高。本文的问题是：提议税率与美国对各经济体的贸易逆差大小，究竟对应到什么程度？"
+    },
     {
       "slug": "ipo-below-offer-one-year",
       "date": "2026-11-25",
